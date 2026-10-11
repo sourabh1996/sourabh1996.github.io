@@ -65,6 +65,11 @@ The output of agentic AI isn't just content. It's **a changed state of the world
 
 ### How they relate: one is built on the other
 
+The picture below shows the whole ladder in one view. Each layer keeps everything from the layer above it and adds one new idea: RAG adds **retrieval**, an agent adds a **loop with tools**, and an agentic system adds **several agents coordinated towards one objective**.
+
+![Four layers: an LLM turns a prompt into an answer; RAG adds a retriever over your documents; an AI agent adds a decide, act and observe loop with tools; agentic AI adds an orchestrator that coordinates several agents, shared state and a progress check](/img/diagrams/agentic-ai-fundamentals/llm-rag-agent-agentic.svg)
+*From a single LLM call to an agentic system. Read it top to bottom: each layer adds one capability.*
+
 Here's the part most explanations miss. In modern systems, **agentic AI is built out of generative AI**. On every pass through the loop, the agent asks a generative model to *generate* something: usually a decision, written as text or structured data, such as *"call the calendar tool with date = Friday"*.
 
 So an agent is a generative model used in a particular way:

@@ -72,6 +72,16 @@ UPI, trains) when an example is needed.
 
 - Use ```mermaid blocks. Never start a node label with a number followed by a dot, like `["1. Start"]`. Mermaid
   draws that as "Unsupported markdown: list". Write `["Step 1: Start"]` instead. The build rejects it.
+- Use diagrams generously: at least one per article, and an architecture diagram whenever a lesson describes a
+  system with more than two moving parts. Learners have asked for pictures they can understand at a glance.
+- For the big "how it all fits together" pictures, draw a picture-style infographic with `tools/infographic.py`:
+  write a spec in `diagrams/<course-slug>/<name>.py`, run `python3 tools/infographic.py <spec>`, and commit both
+  the spec and the SVG it writes to `site/public/img/diagrams/<course-slug>/<name>.svg`. Embed it as
+  `![Full alt text describing the picture](/img/diagrams/<course-slug>/<name>.svg)` followed on the next line by
+  an `*italic caption*`. Use icons, short labels and colour groups; keep every label to a few words. Design it
+  yourself; never copy someone else's infographic.
+- Always pair an abstract idea with a concrete example the reader can look at: show what an ontology, a JSON
+  schema, a graph or a prompt actually looks like, with real-looking values, before generalising.
 
 ## Accuracy and originality
 

@@ -5469,6 +5469,11 @@
       "added": true
      },
      {
+      "title": "How an Agent Decides What to Do Next",
+      "type": "Article",
+      "added": true
+     },
+     {
       "title": "Workflows vs Agents",
       "type": "Article",
       "added": true
@@ -5566,7 +5571,7 @@
    }
   ],
   "module_count": 6,
-  "lesson_count": 18,
+  "lesson_count": 19,
   "hours": 8,
   "prerequisites": [
    {
@@ -6195,6 +6200,211 @@
  },
  {
   "id": 40,
+  "slug": "knowledge-graphs-ontologies-and-unstructured-data",
+  "track": "Track 8 · Agentic AI",
+  "title": "Knowledge Graphs, Ontologies and Unstructured Data",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Model the world as entities and relationships: ontologies with worked examples, Neo4j and Cypher, turning documents into structured data, and knowledge graphs that power agents and GraphRAG.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Entities and Relationships",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Entities, Relationships and Properties",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "What is a Knowledge Graph?",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Knowledge Graphs vs Relational Databases vs Vector Stores",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Where Knowledge Graphs Are Used",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Ontologies and Semantics",
+    "added": true,
+    "lessons": [
+     {
+      "title": "What is an Ontology? A Worked Example",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Taxonomies, Schemas and Ontologies Compared",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "RDF, RDFS and OWL in Plain English",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Designing an Ontology for Your Domain",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Semantic Search, Semantic Layers and Shared Meaning",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Design an ontology for an online shop",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Neo4j and Cypher",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Property Graphs and Neo4j",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Cypher Basics: MATCH, CREATE and MERGE",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Graph Data Modelling",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Graph Algorithms: Paths, Centrality and Communities",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "SPARQL and RDF Triple Stores",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Build a company knowledge graph in Neo4j",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Digitising Unstructured Data",
+    "added": true,
+    "lessons": [
+     {
+      "title": "From Documents to Data: OCR and Document Parsing",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Extracting Tables, Forms and Layout",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Entity and Relation Extraction with LLMs",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Schema-Guided Extraction with Pydantic",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Entity Resolution and Deduplication",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Turn a pile of invoices into structured records",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Knowledge Graphs for AI Agents",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Building a Knowledge Graph from Text with an LLM",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "GraphRAG",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Hybrid Retrieval: Graphs plus Vectors",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Text-to-Cypher Agents",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Ontology-Grounded Agents",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: A GraphRAG agent over company documents",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 6,
+  "lesson_count": 29,
+  "hours": 13,
+  "prerequisites": [
+   {
+    "course": "Retrieval-Augmented Generation (RAG)",
+    "slug": "retrieval-augmented-generation-rag"
+   },
+   {
+    "course": "LangGraph Fundamentals",
+    "slug": "langgraph-fundamentals"
+   }
+  ]
+ },
+ {
+  "id": 41,
   "slug": "model-context-protocol-mcp",
   "track": "Track 8 · Agentic AI",
   "title": "Model Context Protocol (MCP)",
@@ -6398,7 +6608,7 @@
   ]
  },
  {
-  "id": 41,
+  "id": 42,
   "slug": "context-engineering-and-agent-memory",
   "track": "Track 8 · Agentic AI",
   "title": "Context Engineering and Agent Memory",
@@ -6531,7 +6741,7 @@
   ]
  },
  {
-  "id": 42,
+  "id": 43,
   "slug": "tools-agent-skills-and-code-execution",
   "track": "Track 8 · Agentic AI",
   "title": "Tools, Agent Skills and Code Execution",
@@ -6669,7 +6879,7 @@
   ]
  },
  {
-  "id": 43,
+  "id": 44,
   "slug": "agent-frameworks-and-sdks",
   "track": "Track 8 · Agentic AI",
   "title": "Agent Frameworks and SDKs",
@@ -6823,7 +7033,7 @@
   ]
  },
  {
-  "id": 44,
+  "id": 45,
   "slug": "multi-agent-systems-and-agent-protocols",
   "track": "Track 8 · Agentic AI",
   "title": "Multi-Agent Systems and Agent Protocols",
@@ -6937,7 +7147,7 @@
   ]
  },
  {
-  "id": 45,
+  "id": 46,
   "slug": "coding-agents-and-harness-engineering",
   "track": "Track 8 · Agentic AI",
   "title": "Coding Agents and Harness Engineering",
@@ -7086,7 +7296,7 @@
   ]
  },
  {
-  "id": 46,
+  "id": 47,
   "slug": "computer-use-browser-and-voice-agents",
   "track": "Track 8 · Agentic AI",
   "title": "Computer-Use, Browser and Voice Agents",
@@ -7190,7 +7400,7 @@
   ]
  },
  {
-  "id": 47,
+  "id": 48,
   "slug": "agent-evals-observability-and-reliability",
   "track": "Track 8 · Agentic AI",
   "title": "Agent Evals, Observability and Reliability",
@@ -7334,7 +7544,7 @@
   ]
  },
  {
-  "id": 48,
+  "id": 49,
   "slug": "agent-security-and-safety",
   "track": "Track 8 · Agentic AI",
   "title": "Agent Security and Safety",
@@ -7467,7 +7677,7 @@
   ]
  },
  {
-  "id": 49,
+  "id": 50,
   "slug": "shipping-agents-to-production",
   "track": "Track 8 · Agentic AI",
   "title": "Shipping Agents to Production",
@@ -7542,11 +7752,52 @@
       "added": true
      }
     ]
+   },
+   {
+    "title": "Personal and Business Automation Agents",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Identity Files: Giving an Agent a Persona and Rules",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The Setup Interview: Capturing What the Agent Needs to Know",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Tool Registries and Skill Kits",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Scheduled Agents with cron",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Running an Agent on Your Laptop with Local Models",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Agents for Business Automation: Case Studies",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Build a personal assistant agent end to end",
+      "type": "Lab",
+      "added": true
+     }
+    ]
    }
   ],
-  "module_count": 3,
-  "lesson_count": 10,
-  "hours": 4,
+  "module_count": 4,
+  "lesson_count": 17,
+  "hours": 8,
   "prerequisites": [
    {
     "course": "Agent Evals, Observability and Reliability",
@@ -7563,7 +7814,7 @@
   ]
  },
  {
-  "id": 50,
+  "id": 51,
   "slug": "multi-agent-research-system-capstone",
   "track": "Track 8 · Agentic AI",
   "title": "Multi-Agent Research System (Capstone)",
@@ -7770,7 +8021,7 @@
   ]
  },
  {
-  "id": 51,
+  "id": 52,
   "slug": "end-to-end-ai-projects",
   "track": "Track 9 · Projects",
   "title": "End-to-End AI Projects",

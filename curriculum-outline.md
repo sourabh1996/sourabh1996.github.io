@@ -5,7 +5,7 @@
 > The platform is text only: every topic is one in-depth **Article**, with **Labs** where the reader builds something. Hours are estimates (article 25 min, lab 45 min).
 > Each course lists the courses to finish first, and each module links to the exact earlier modules it builds on.
 
-**51 courses · 246 modules · 921 lessons · ~416 hours**
+**52 courses · 253 modules · 958 lessons · ~433 hours**
 
 ## Developer Toolkit
 

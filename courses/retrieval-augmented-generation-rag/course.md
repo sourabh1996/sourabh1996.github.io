@@ -6,7 +6,7 @@ Track 7 · Generative AI · Bootcamp syllabus module(s): 23
 Ground LLMs in your own data: loaders, splitters, vector stores, retrievers, the RAG pipeline, hybrid search, reranking and multimodal RAG.
 
 **Finish first:** [Vector Databases for AI](../vector-databases-for-ai/course.md), [LangChain Complete Guide](../langchain-complete-guide/course.md)  
-**Unlocks:** [Enterprise LLM Systems](../enterprise-llm-systems/course.md), [Agentic RAG Systems](../agentic-rag-systems/course.md)
+**Unlocks:** [Enterprise LLM Systems](../enterprise-llm-systems/course.md), [Agentic RAG Systems](../agentic-rag-systems/course.md), [Knowledge Graphs, Ontologies and Unstructured Data](../knowledge-graphs-ontologies-and-unstructured-data/course.md)
 
 ## Course content
 
