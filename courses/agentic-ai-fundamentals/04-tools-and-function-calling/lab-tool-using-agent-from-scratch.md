@@ -475,4 +475,4 @@ You may be asked to **"build a minimal tool-calling agent without a framework"**
 
 ---
 
-**Up next:** [ReAct](../course.md#m5)
+**Up next:** [ReAct](../05-reasoning-patterns/react.md)

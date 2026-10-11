@@ -41,8 +41,8 @@ What AI agents are, how the agent loop works, and how to build one from scratch 
 
 <a id="m5"></a>
 ### 5. Reasoning Patterns ➕ (2 lessons)
-- ReAct · Article ➕
-- Planning and Reflection · Article ➕
+- [ReAct](05-reasoning-patterns/react.md) · Article ➕ ✍️ *written*
+- [Planning and Reflection](05-reasoning-patterns/planning-and-reflection.md) · Article ➕ ✍️ *written*
 
 <a id="m6"></a>
 ### 6. Multi-Agent Systems and the Ecosystem (3 lessons)
