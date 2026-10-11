@@ -479,6 +479,15 @@ for (cs, _), rel in written.items():
             broken.append(f"{cs}/{rel} -> {target}")
 assert not broken, "broken links:\n" + "\n".join(broken)
 
+# Mermaid reads a node label that starts like "1. Text" as a Markdown list and draws
+# "Unsupported markdown: list" instead of the label.
+bad_labels = []
+for (cs, _), rel in written.items():
+    text = open(os.path.join(OUT, "courses", cs, rel)).read()
+    for block in re.findall(r"```mermaid\n(.*?)```", text, re.S):
+        bad_labels += [f"{cs}/{rel}: {m}" for m in re.findall(r'["\[(]\s*\d+\.\s', block)]
+assert not bad_labels, "mermaid labels that render as lists:\n" + "\n".join(bad_labels)
+
 # Per-course pages
 for c in catalog:
     d = os.path.join(OUT, "courses", c["slug"]); os.makedirs(d, exist_ok=True)

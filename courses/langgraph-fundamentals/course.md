@@ -12,28 +12,28 @@ Build agent workflows as graphs: core concepts, sequential, parallel, conditiona
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Getting Started (7 lessons)
 > **Before you start:** [Agentic AI Fundamentals › The Agent Loop](../agentic-ai-fundamentals/course.md#m3), [LangChain Complete Guide › Chains and Runnables](../langchain-complete-guide/course.md#m6)
 
-- LangChain vs LangGraph: Why LangGraph Exists · Article
-- What is LangGraph? · Article
-- Graphs, Nodes, Edges and State · Article
-- The LangGraph Execution Model · Article
-- Simple Graphs and Node Connections · Article
-- LangGraph Studio · Article
-- Lab: Your first graph · Lab
+- [LangChain vs LangGraph: Why LangGraph Exists](02-getting-started/langchain-vs-langgraph-why-langgraph-exists.md) · Article ✍️ *written*
+- [What is LangGraph?](02-getting-started/what-is-langgraph.md) · Article ✍️ *written*
+- [Graphs, Nodes, Edges and State](02-getting-started/graphs-nodes-edges-and-state.md) · Article ✍️ *written*
+- [The LangGraph Execution Model](02-getting-started/the-langgraph-execution-model.md) · Article ✍️ *written*
+- [Simple Graphs and Node Connections](02-getting-started/simple-graphs-and-node-connections.md) · Article ✍️ *written*
+- [LangGraph Studio](02-getting-started/langgraph-studio.md) · Article ✍️ *written*
+- [Lab: Your first graph](02-getting-started/lab-your-first-graph.md) · Lab ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Workflow Patterns in LangGraph (6 lessons)
-- Sequential Workflows and Prompt Chaining · Article
-- Parallel Workflows · Article
-- Conditional Workflows · Article
-- Iterative (Looping) Workflows · Article
-- Lab: Essay evaluator with parallel graders · Lab
-- Lab: Post generator with an evaluator loop · Lab
+- [Sequential Workflows and Prompt Chaining](03-workflow-patterns-in-langgraph/sequential-workflows-and-prompt-chaining.md) · Article ✍️ *written*
+- [Parallel Workflows](03-workflow-patterns-in-langgraph/parallel-workflows.md) · Article ✍️ *written*
+- [Conditional Workflows](03-workflow-patterns-in-langgraph/conditional-workflows.md) · Article ✍️ *written*
+- [Iterative (Looping) Workflows](03-workflow-patterns-in-langgraph/iterative-looping-workflows.md) · Article ✍️ *written*
+- [Lab: Essay evaluator with parallel graders](03-workflow-patterns-in-langgraph/lab-essay-evaluator-with-parallel-graders.md) · Lab ✍️ *written*
+- [Lab: Post generator with an evaluator loop](03-workflow-patterns-in-langgraph/lab-post-generator-with-an-evaluator-loop.md) · Lab ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Workflows and Agents (8 lessons)

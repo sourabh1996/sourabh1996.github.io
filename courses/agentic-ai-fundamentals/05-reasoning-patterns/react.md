@@ -20,7 +20,7 @@ Ask a friend *"Which is older, the Eiffel Tower or the Statue of Liberty, and by
 
 That pattern, **think, act, look at the result, think again**, is so natural we rarely notice it. In 2022 researchers showed that prompting language models to do the same thing, writing out a short **thought** before each **action** and reading each **observation** before the next thought, made them much better at multi-step tasks. They called it **ReAct**: **Re**asoning + **Act**ing.
 
-ReAct is the most widely used agent pattern. LangChain's classic agents, LangGraph's prebuilt `create_react_agent`, and most tool-calling assistants are ReAct agents underneath. This lesson explains how it works, builds one from scratch, and shows its strengths and failure modes.
+ReAct is the most widely used agent pattern. LangChain's agents, LangGraph's prebuilt agents, and most tool-calling assistants are ReAct agents underneath. This lesson explains how it works, builds one from scratch, and shows its strengths and failure modes.
 
 > 💡 **Key Insight**
 >
@@ -202,8 +202,8 @@ The pattern is identical; only the wire format changed. That's why your [tool-us
 
 In frameworks you'll meet it as:
 
-- **LangChain:** `create_react_agent` with an `AgentExecutor` ([LangChain Agents](../../langchain-complete-guide/course.md#m8)).
-- **LangGraph:** the prebuilt `create_react_agent`, or your own graph with a model node, a `ToolNode` and a loop back ([LangGraph Fundamentals](../../langgraph-fundamentals/course.md#m4)).
+- **LangChain:** `create_agent` in LangChain 1.x (older code uses `create_react_agent` with an `AgentExecutor`) ([LangChain Agents](../../langchain-complete-guide/course.md#m8)).
+- **LangGraph:** the prebuilt `create_react_agent` (now superseded by LangChain's `create_agent`, which runs on LangGraph), or your own graph with a model node, a `ToolNode` and a loop back ([LangGraph Fundamentals](../../langgraph-fundamentals/course.md#m4)).
 
 ### 5. Where ReAct struggles
 

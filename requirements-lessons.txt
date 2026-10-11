@@ -1,0 +1,4 @@
+# Packages the lesson code examples import. CI installs these before running tools/check_code.py.
+# Pinned so the outputs shown in lessons stay reproducible.
+langgraph==1.2.14
+langchain-core==1.6.9
