@@ -1,12 +1,12 @@
 # Agentic AI Fundamentals
 
 **Beginner · 6 modules · 18 lessons · ~8 hrs**  
-Track 7 · Agentic AI · Bootcamp syllabus module(s): 25
+Track 8 · Agentic AI · Bootcamp syllabus module(s): 25
 
 What AI agents are, how the agent loop works, and how to build one from scratch before touching a framework.
 
 **Finish first:** [Generative AI and LLM Foundations](../generative-ai-and-llm-foundations/course.md)  
-**Unlocks:** [LangGraph Fundamentals](../langgraph-fundamentals/course.md), [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md)
+**Unlocks:** [LangGraph Fundamentals](../langgraph-fundamentals/course.md), [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md), [Context Engineering and Agent Memory](../context-engineering-and-agent-memory/course.md)
 
 ## Course content
 

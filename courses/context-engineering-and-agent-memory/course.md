@@ -1,0 +1,40 @@
+# Context Engineering and Agent Memory
+
+**Intermediate · 4 modules · 17 lessons · ~8 hrs**  
+Track 8 · Agentic AI · ➕ Added beyond the bootcamp syllabus
+
+Treat the context window as a budget: what to put in it, when to fetch more, how to compact long runs, and how agents remember across sessions.
+
+**Finish first:** [Agentic AI Fundamentals](../agentic-ai-fundamentals/course.md), [LangGraph State and Memory](../langgraph-state-and-memory/course.md)  
+**Unlocks:** [Tools, Agent Skills and Code Execution](../tools-agent-skills-and-code-execution/course.md)
+
+## Course content
+
+<a id="m1"></a>
+### 1. Start Here (1 lesson)
+- How This Course Works · Article
+
+<a id="m2"></a>
+### 2. The Context Window as a Budget ➕ (5 lessons)
+- From Prompt Engineering to Context Engineering · Article ➕
+- Context Rot and Lost in the Middle · Article ➕
+- System Prompts at the Right Altitude · Article ➕
+- Examples vs Rules · Article ➕
+- Prompt Caching · Article ➕
+
+<a id="m3"></a>
+### 3. Just-in-Time Context ➕ (5 lessons)
+- Retrieval vs Agentic Search · Article ➕
+- Tool Results that Don't Flood the Window · Article ➕
+- Compaction and Summarisation · Article ➕
+- Offloading Context to Files and Scratchpads · Article ➕
+- Lab: Keep a 200-step agent inside its budget · Lab ➕
+
+<a id="m4"></a>
+### 4. Memory Systems ➕ (6 lessons)
+- Short-Term vs Long-Term Memory · Article ➕
+- Semantic, Episodic and Procedural Memory · Article ➕
+- Memory Files: CLAUDE.md and AGENTS.md · Article ➕
+- Writing, Updating and Forgetting Memories · Article ➕
+- Knowledge Graphs as Agent Memory · Article ➕
+- Lab: An assistant that remembers your preferences · Lab ➕

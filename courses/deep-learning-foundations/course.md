@@ -1,7 +1,7 @@
 # Deep Learning Foundations
 
 **Intermediate · 6 modules · 19 lessons · ~8 hrs**  
-Track 5 · Deep Learning and NLP · Bootcamp syllabus module(s): 18
+Track 6 · Deep Learning and NLP · Bootcamp syllabus module(s): 18
 
 How neural networks really work: perceptrons, backpropagation, activations, losses, optimisers, Keras and PyTorch.
 

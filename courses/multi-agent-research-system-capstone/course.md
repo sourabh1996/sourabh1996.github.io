@@ -1,11 +1,11 @@
 # Multi-Agent Research System (Capstone)
 
 **Advanced · 5 modules · 15 lessons · ~7 hrs**  
-Track 7 · Agentic AI · Bootcamp syllabus module(s): 31
+Track 8 · Agentic AI · Bootcamp syllabus module(s): 31
 
 Build and ship a multi-agent system that researches, analyses and writes reports, with CI/CD on AWS.
 
-**Finish first:** [Human-in-the-Loop with LangGraph](../human-in-the-loop-with-langgraph/course.md), [Agentic RAG Systems](../agentic-rag-systems/course.md), [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md), [Production APIs with FastAPI](../production-apis-with-fastapi/course.md), [Enterprise LLM Systems](../enterprise-llm-systems/course.md)  
+**Finish first:** [Human-in-the-Loop with LangGraph](../human-in-the-loop-with-langgraph/course.md), [Agentic RAG Systems](../agentic-rag-systems/course.md), [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md), [Production APIs with FastAPI](../production-apis-with-fastapi/course.md), [Enterprise LLM Systems](../enterprise-llm-systems/course.md), [Multi-Agent Systems and Agent Protocols](../multi-agent-systems-and-agent-protocols/course.md), [Shipping Agents to Production](../shipping-agents-to-production/course.md)  
 **Unlocks:** Nothing, this is a final course.
 
 ## Course content

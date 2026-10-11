@@ -1,7 +1,7 @@
 # Sequence Models, Attention and Transformers
 
 **Advanced · 5 modules · 13 lessons · ~6 hrs**  
-Track 5 · Deep Learning and NLP · Bootcamp syllabus module(s): 19
+Track 6 · Deep Learning and NLP · Bootcamp syllabus module(s): 19
 
 From RNNs to Transformers: LSTMs, GRUs, attention, self-attention, BERT and GPT.
 

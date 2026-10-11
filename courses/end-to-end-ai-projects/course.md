@@ -1,7 +1,7 @@
 # End-to-End AI Projects
 
 **Advanced · 6 modules · 11 lessons · ~8 hrs**  
-Track 8 · Projects · Bootcamp syllabus module(s): Projects
+Track 9 · Projects · Bootcamp syllabus module(s): Projects
 
 Portfolio projects across data engineering, ML, deep learning, GenAI and agentic AI, each deployed with CI/CD.
 

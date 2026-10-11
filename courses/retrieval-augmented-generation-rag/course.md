@@ -1,7 +1,7 @@
 # Retrieval-Augmented Generation (RAG)
 
 **Intermediate · 5 modules · 22 lessons · ~10 hrs**  
-Track 6 · Generative AI · Bootcamp syllabus module(s): 23
+Track 7 · Generative AI · Bootcamp syllabus module(s): 23
 
 Ground LLMs in your own data: loaders, splitters, vector stores, retrievers, the RAG pipeline, hybrid search, reranking and multimodal RAG.
 

@@ -1,7 +1,7 @@
 # Deep Learning with PyTorch
 
 **Intermediate · 6 modules · 25 lessons · ~12 hrs**  
-Track 5 · Deep Learning and NLP · Bootcamp syllabus module(s): PyTorch
+Track 6 · Deep Learning and NLP · Bootcamp syllabus module(s): PyTorch
 
 Go hands-on with PyTorch: tensors, autograd, training loops, DataLoaders, GPUs, CNNs, transfer learning, RNNs and LSTMs.
 

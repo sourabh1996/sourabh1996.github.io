@@ -1,7 +1,7 @@
 # Agentic RAG Systems
 
 **Advanced · 4 modules · 11 lessons · ~5 hrs**  
-Track 7 · Agentic AI · Bootcamp syllabus module(s): 29
+Track 8 · Agentic AI · Bootcamp syllabus module(s): 29
 
 Let agents decide how to retrieve: Adaptive RAG, Corrective RAG and Self-RAG, locally and with vector DBs.
 

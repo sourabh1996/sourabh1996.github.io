@@ -1,6 +1,500 @@
 [
  {
   "id": 1,
+  "slug": "the-command-line-and-linux-basics",
+  "track": "Track 0 · Developer Toolkit",
+  "title": "The Command Line and Linux Basics",
+  "level": "Beginner",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Get comfortable in a terminal: files, paths, permissions, processes, pipes, environment variables and shell scripts.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Terminal Fundamentals",
+    "added": true,
+    "lessons": [
+     {
+      "title": "What is a Terminal and a Shell?",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Files, Folders and Paths",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Viewing, Searching and Editing Files",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Permissions and Users",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Working Like a Developer",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Pipes, Redirection and grep",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Processes, Ports and Environment Variables",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Package Managers and Virtual Environments",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Shell Scripts and cron",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "SSH and Remote Servers",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Automate a daily data download",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 11,
+  "hours": 5
+ },
+ {
+  "id": 2,
+  "slug": "git-and-github-zero-to-pro",
+  "track": "Track 0 · Developer Toolkit",
+  "title": "Git and GitHub: Zero to Pro",
+  "level": "Beginner",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Everything about Git and GitHub: how Git works inside, branching, collaboration, Actions, Pages, Codespaces, Copilot and coding agents, security and open source.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Version Control from Scratch",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Why Version Control Exists",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Installing and Configuring Git",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The Three Areas: Working Tree, Staging and Repository",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Reading History with log, show and diff",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Writing Good Commit Messages",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": ".gitignore and What Never to Commit",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Put a project under version control",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "How Git Works Inside",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Blobs, Trees, Commits and Tags",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Hashes and Content Addressing",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Refs, HEAD and Detached HEAD",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The Reflog and Garbage Collection",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Explore the .git folder by hand",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Branching and Merging",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Branches Are Just Pointers",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Fast-Forward and Three-Way Merges",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Resolving Merge Conflicts",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Rebase and Interactive Rebase",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Merge vs Rebase",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Undoing Things: restore, reset, revert and cherry-pick",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Stash, Worktrees and bisect",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Branching kata with conflicts",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Remotes and GitHub Basics",
+    "added": true,
+    "lessons": [
+     {
+      "title": "clone, fetch, pull and push",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "SSH Keys, Tokens and the GitHub CLI",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Forks, Upstreams and Remotes",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "A Great README, LICENSE and Profile",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Collaborating on GitHub",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Pull Requests End to End",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Code Review that Helps",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Issues, Labels, Milestones and Projects",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "GitHub Flow, Git Flow and Trunk-Based Development",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Branch Protection, Rulesets and CODEOWNERS",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Merge Strategies and Merge Queues",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Team workflow with PRs and reviews",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "GitHub Actions",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Workflows, Jobs, Steps and Runners",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Triggers and Events",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Matrix Builds and Caching",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Secrets, Variables and Environments",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "OIDC: Deploying to the Cloud without Stored Keys",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Reusable Workflows and Composite Actions",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Writing Your Own Action",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: CI that tests and lints a Python project",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "GitHub Pages, Codespaces and Packages",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Publishing a Site with GitHub Pages",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Custom Domains and HTTPS",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Codespaces and Dev Containers",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Releases, Tags and GitHub Packages",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Deploy a static site with Actions",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "AI on GitHub",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Copilot in the Editor and on GitHub",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Coding Agents that Open Pull Requests",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Repository Instructions: AGENTS.md and Custom Instructions",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The GitHub MCP Server",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Running Coding Agents in GitHub Actions",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Security and Supply Chain",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Dependabot Alerts and Updates",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Code Scanning and Secret Scanning",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Signed Commits and Artifact Attestations",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Hardening Actions: Pinning and Least Privilege",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Removing a Leaked Secret from History",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Open Source and Advanced Git",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Contributing to Open Source",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Licenses in Plain English",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Maintaining a Project: Templates, Releases and Semver",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Submodules, Subtrees and Monorepos",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Git LFS for Large Files",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Git Hooks and pre-commit",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Git and GitHub Interview Prep",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Git Interview Questions Explained",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Scenario Drills: Broken main, Leaked Secrets, Lost Work",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 12,
+  "lesson_count": 63,
+  "hours": 27,
+  "prerequisites": [
+   {
+    "course": "The Command Line and Linux Basics",
+    "slug": "the-command-line-and-linux-basics"
+   }
+  ]
+ },
+ {
+  "id": 3,
   "slug": "python-fundamentals",
   "track": "Track 1 · Python and Data Foundations",
   "title": "Python Fundamentals",
@@ -8,6 +502,7 @@
   "syllabus_modules": [
    1
   ],
+  "added": false,
   "description": "Learn Python from zero: values, operators, control flow, strings, collections, functions and generators.",
   "modules": [
    {
@@ -161,7 +656,7 @@
   "hours": 11
  },
  {
-  "id": 2,
+  "id": 4,
   "slug": "advanced-python-programming",
   "track": "Track 1 · Python and Data Foundations",
   "title": "Advanced Python Programming",
@@ -169,6 +664,7 @@
   "syllabus_modules": [
    2
   ],
+  "added": false,
   "description": "Write reusable, robust Python with OOP, decorators, file handling, modules and proper error handling.",
   "modules": [
    {
@@ -300,7 +796,7 @@
   ]
  },
  {
-  "id": 3,
+  "id": 5,
   "slug": "numerical-computing-and-data-analysis",
   "track": "Track 1 · Python and Data Foundations",
   "title": "Numerical Computing and Data Analysis",
@@ -309,6 +805,7 @@
    3,
    4
   ],
+  "added": false,
   "description": "Process data fast with NumPy arrays and pandas DataFrames: indexing, transforming, dates, text and statistics.",
   "modules": [
    {
@@ -460,7 +957,7 @@
   ]
  },
  {
-  "id": 4,
+  "id": 6,
   "slug": "data-visualization-with-matplotlib-and-seaborn",
   "track": "Track 1 · Python and Data Foundations",
   "title": "Data Visualization with Matplotlib and Seaborn",
@@ -468,6 +965,7 @@
   "syllabus_modules": [
    5
   ],
+  "added": false,
   "description": "Turn data into clear charts: Matplotlib basics, Seaborn statistical plots and visual storytelling.",
   "modules": [
    {
@@ -539,7 +1037,7 @@
   ]
  },
  {
-  "id": 5,
+  "id": 7,
   "slug": "databases-sql-and-nosql",
   "track": "Track 1 · Python and Data Foundations",
   "title": "Databases: SQL and NoSQL",
@@ -547,6 +1045,7 @@
   "syllabus_modules": [
    6
   ],
+  "added": false,
   "description": "Store and query data with PostgreSQL on Supabase and documents in MongoDB Atlas.",
   "modules": [
    {
@@ -657,7 +1156,7 @@
   ]
  },
  {
-  "id": 6,
+  "id": 8,
   "slug": "interactive-data-apps-with-streamlit",
   "track": "Track 1 · Python and Data Foundations",
   "title": "Interactive Data Apps with Streamlit",
@@ -665,6 +1164,7 @@
   "syllabus_modules": [
    7
   ],
+  "added": false,
   "description": "Turn Python scripts into interactive web apps with widgets, session state and async.",
   "modules": [
    {
@@ -743,7 +1243,7 @@
   ]
  },
  {
-  "id": 7,
+  "id": 9,
   "slug": "statistics-foundations",
   "track": "Track 2 · Statistics",
   "title": "Statistics Foundations",
@@ -751,6 +1251,7 @@
   "syllabus_modules": [
    8
   ],
+  "added": false,
   "description": "The core ideas behind all data science: data types, averages, spread, probability, distributions and estimation.",
   "modules": [
    {
@@ -917,7 +1418,7 @@
   ]
  },
  {
-  "id": 8,
+  "id": 10,
   "slug": "inferential-statistics",
   "track": "Track 2 · Statistics",
   "title": "Inferential Statistics",
@@ -925,6 +1426,7 @@
   "syllabus_modules": [
    9
   ],
+  "added": false,
   "description": "Make decisions with data: hypothesis tests, p-values, Bayes' theorem and chi-square tests.",
   "modules": [
    {
@@ -1034,7 +1536,7 @@
   ]
  },
  {
-  "id": 9,
+  "id": 11,
   "slug": "feature-engineering-and-eda",
   "track": "Track 3 · Machine Learning",
   "title": "Feature Engineering and EDA",
@@ -1043,6 +1545,7 @@
    10,
    11
   ],
+  "added": false,
   "description": "Get data, explore it and prepare it for models: imputation, outliers, scaling, encoding, pipelines, PCA and real case studies.",
   "modules": [
    {
@@ -1372,7 +1875,7 @@
   ]
  },
  {
-  "id": 10,
+  "id": 12,
   "slug": "machine-learning-fundamentals",
   "track": "Track 3 · Machine Learning",
   "title": "Machine Learning Fundamentals",
@@ -1380,6 +1883,7 @@
   "syllabus_modules": [
    12
   ],
+  "added": false,
   "description": "Understand and implement the core supervised learning algorithms from scratch and learn how to evaluate and tune them.",
   "modules": [
    {
@@ -1682,7 +2186,7 @@
   ]
  },
  {
-  "id": 11,
+  "id": 13,
   "slug": "ensembles-and-unsupervised-learning",
   "track": "Track 3 · Machine Learning",
   "title": "Ensembles and Unsupervised Learning",
@@ -1690,6 +2194,7 @@
   "syllabus_modules": [
    13
   ],
+  "added": false,
   "description": "Boost accuracy with voting, bagging, random forests, AdaBoost, gradient boosting, XGBoost and stacking, then learn clustering.",
   "modules": [
    {
@@ -1828,7 +2333,7 @@
   ]
  },
  {
-  "id": 12,
+  "id": 14,
   "slug": "mlops-with-mlflow",
   "track": "Track 3 · Machine Learning",
   "title": "MLOps with MLflow",
@@ -1836,6 +2341,7 @@
   "syllabus_modules": [
    15
   ],
+  "added": false,
   "description": "Manage the ML lifecycle: track experiments, register models and serve them in production.",
   "modules": [
    {
@@ -1962,7 +2468,7 @@
   ]
  },
  {
-  "id": 13,
+  "id": 15,
   "slug": "production-apis-with-fastapi",
   "track": "Track 4 · Production Engineering and Big Data",
   "title": "Production APIs with FastAPI",
@@ -1970,6 +2476,7 @@
   "syllabus_modules": [
    14
   ],
+  "added": false,
   "description": "Build production-grade APIs with FastAPI: endpoints, Pydantic validation, serving ML models, Docker and AWS deployment.",
   "modules": [
    {
@@ -2181,7 +2688,7 @@
   ]
  },
  {
-  "id": 14,
+  "id": 16,
   "slug": "big-data-with-pyspark",
   "track": "Track 4 · Production Engineering and Big Data",
   "title": "Big Data with PySpark",
@@ -2189,6 +2696,7 @@
   "syllabus_modules": [
    17
   ],
+  "added": false,
   "description": "Process data that won't fit in memory with Spark: architecture, DataFrames, Spark SQL and optimisation.",
   "modules": [
    {
@@ -2304,14 +2812,892 @@
   ]
  },
  {
-  "id": 15,
+  "id": 17,
+  "slug": "data-engineering-foundations",
+  "track": "Track 5 · Data Engineering",
+  "title": "Data Engineering Foundations",
+  "level": "Intermediate",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "What data engineers build and why: the data lifecycle, OLTP vs OLAP, batch vs streaming, file formats and advanced SQL.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "The Data Engineering Landscape",
+    "added": true,
+    "lessons": [
+     {
+      "title": "What Does a Data Engineer Do?",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The Data Lifecycle: Ingest, Store, Transform, Serve",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "OLTP vs OLAP",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Batch vs Streaming",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The Modern Data Stack",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Files and Formats",
+    "added": true,
+    "lessons": [
+     {
+      "title": "CSV, JSON, Parquet and Avro",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Compression and Partitioned Files",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Fast DataFrames with Polars and DuckDB",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Convert a CSV lake to partitioned Parquet",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Advanced SQL",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Window Functions",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "CTEs and Recursive Queries",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Query Plans and Indexes",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Transactions and Isolation Levels",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "SQL Patterns: Deduplication, Gaps and Islands, Sessionisation",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: 25 SQL interview problems",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 4,
+  "lesson_count": 16,
+  "hours": 7,
+  "prerequisites": [
+   {
+    "course": "Databases: SQL and NoSQL",
+    "slug": "databases-sql-and-nosql"
+   },
+   {
+    "course": "Numerical Computing and Data Analysis",
+    "slug": "numerical-computing-and-data-analysis"
+   },
+   {
+    "course": "The Command Line and Linux Basics",
+    "slug": "the-command-line-and-linux-basics"
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "slug": "data-modelling-and-warehousing",
+  "track": "Track 5 · Data Engineering",
+  "title": "Data Modelling and Warehousing",
+  "level": "Intermediate",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Design data that is easy to query: normalisation, dimensional models, slowly changing dimensions, Data Vault, medallion layers and cloud warehouses.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Modelling Fundamentals",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Normalisation and When to Break It",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Facts and Dimensions",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Star and Snowflake Schemas",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Slowly Changing Dimensions",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Data Vault and One Big Table",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Model an online shop as a star schema",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Cloud Warehouses",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Columnar Storage and MPP",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Snowflake, BigQuery and Redshift Compared",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Partitioning, Clustering and Cost Control",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Semantic Layers and Metrics",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 11,
+  "hours": 5,
+  "prerequisites": [
+   {
+    "course": "Data Engineering Foundations",
+    "slug": "data-engineering-foundations"
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "slug": "elt-and-transformation-with-dbt",
+  "track": "Track 5 · Data Engineering",
+  "title": "ELT and Transformation with dbt",
+  "level": "Intermediate",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Load raw data and transform it inside the warehouse with tested, documented dbt models.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Ingestion",
+    "added": true,
+    "lessons": [
+     {
+      "title": "ETL vs ELT",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Ingestion Tools: Fivetran, Airbyte and dlt",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Change Data Capture",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Load an API into DuckDB with dlt",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "dbt",
+    "added": true,
+    "lessons": [
+     {
+      "title": "dbt Projects, Models and the DAG",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Sources, refs and the Medallion Layers",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Tests, Contracts and Documentation",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Incremental Models and Snapshots",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Jinja, Macros and Packages",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "CI for dbt and the Fusion Engine",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Build a dbt project on DuckDB",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 12,
+  "hours": 6,
+  "prerequisites": [
+   {
+    "course": "Data Modelling and Warehousing",
+    "slug": "data-modelling-and-warehousing"
+   },
+   {
+    "course": "Git and GitHub: Zero to Pro",
+    "slug": "git-and-github-zero-to-pro"
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "slug": "orchestration-with-airflow",
+  "track": "Track 5 · Data Engineering",
+  "title": "Orchestration with Airflow",
+  "level": "Intermediate",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Schedule, retry and monitor pipelines: Airflow DAGs, the TaskFlow API, assets, backfills and alternatives like Dagster and Prefect.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Airflow Core",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Why Pipelines Need an Orchestrator",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "DAGs, Tasks, Operators and Sensors",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The TaskFlow API",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Scheduling, Backfills and Idempotency",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Dynamic Task Mapping",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Assets and Event-Driven Scheduling in Airflow 3",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: A daily ELT DAG with retries and alerts",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Running Orchestration in Production",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Running Airflow on Docker, Kubernetes and Managed Services",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Dagster, Prefect and Other Orchestrators",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 10,
+  "hours": 4,
+  "prerequisites": [
+   {
+    "course": "ELT and Transformation with dbt",
+    "slug": "elt-and-transformation-with-dbt"
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "slug": "streaming-data-with-kafka",
+  "track": "Track 5 · Data Engineering",
+  "title": "Streaming Data with Kafka",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Move and process events in real time: Kafka, delivery guarantees, schemas, CDC with Debezium and stream processing with Flink and Spark.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Kafka Fundamentals",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Events, Logs and the Streaming Mindset",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Topics, Partitions and Offsets",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Producers, Consumers and Consumer Groups",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Delivery Guarantees and Exactly-Once",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Schemas and Schema Evolution",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Kafka Without ZooKeeper: KRaft",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Produce and consume click events",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Stream Processing",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Windows, Watermarks and Late Data",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Spark Structured Streaming",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Apache Flink",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "CDC with Debezium",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Real-time order dashboard",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 13,
+  "hours": 6,
+  "prerequisites": [
+   {
+    "course": "Data Engineering Foundations",
+    "slug": "data-engineering-foundations"
+   },
+   {
+    "course": "Big Data with PySpark",
+    "slug": "big-data-with-pyspark"
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "slug": "lakehouses-and-open-table-formats",
+  "track": "Track 5 · Data Engineering",
+  "title": "Lakehouses and Open Table Formats",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Combine cheap storage with warehouse features: Delta Lake, Apache Iceberg, catalogs, time travel and query engines.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "The Lakehouse",
+    "added": true,
+    "lessons": [
+     {
+      "title": "From Data Lakes to Lakehouses",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Delta Lake",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Apache Iceberg and Iceberg v3",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Apache Hudi and Choosing a Format",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Catalogs: Unity, Polaris, Glue and REST",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Time Travel, Schema Evolution and Compaction",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Query Engines: Trino, DuckDB and ClickHouse",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Spark Performance Tuning: Shuffles, Skew and AQE",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Build a small Iceberg lakehouse",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 2,
+  "lesson_count": 10,
+  "hours": 4,
+  "prerequisites": [
+   {
+    "course": "Big Data with PySpark",
+    "slug": "big-data-with-pyspark"
+   },
+   {
+    "course": "Data Modelling and Warehousing",
+    "slug": "data-modelling-and-warehousing"
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "slug": "data-quality-governance-and-dataops",
+  "track": "Track 5 · Data Engineering",
+  "title": "Data Quality, Governance and DataOps",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Make data trustworthy: tests, contracts, lineage, observability, CI/CD and infrastructure as code for data platforms.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Trustworthy Data",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Data Quality Dimensions and Tests",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Great Expectations and Soda",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Data Contracts",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lineage with OpenLineage and Data Catalogs",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Data Observability",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "DataOps and Governance",
+    "added": true,
+    "lessons": [
+     {
+      "title": "CI/CD and Environments for Data",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Terraform for Data Platforms",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Privacy, PII and Access Control",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Add tests, contracts and CI to a pipeline",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 10,
+  "hours": 4,
+  "prerequisites": [
+   {
+    "course": "ELT and Transformation with dbt",
+    "slug": "elt-and-transformation-with-dbt"
+   },
+   {
+    "course": "Orchestration with Airflow",
+    "slug": "orchestration-with-airflow"
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "slug": "cloud-data-platforms",
+  "track": "Track 5 · Data Engineering",
+  "title": "Cloud Data Platforms",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "The data services on AWS, Google Cloud and Azure, how they fit together, what they cost, and which certifications map to them.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "The Big Three Clouds",
+    "added": true,
+    "lessons": [
+     {
+      "title": "AWS Data Services: S3, Glue, Athena, EMR, Redshift and Kinesis",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Google Cloud Data Services: BigQuery, Dataflow, Pub/Sub and Composer",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Azure Data Services: ADLS, Data Factory, Fabric and Databricks",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Databricks and Snowflake as Platforms",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "FinOps: Controlling Data Costs",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Data Engineering Certifications Map",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Serverless pipeline on AWS",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Data Engineering for AI",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Pipelines for RAG: Chunking, Embedding and Refreshing",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Feature Stores and ML Pipelines",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Data Agents and MCP Servers for Warehouses",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 11,
+  "hours": 5,
+  "prerequisites": [
+   {
+    "course": "Lakehouses and Open Table Formats",
+    "slug": "lakehouses-and-open-table-formats"
+   },
+   {
+    "course": "Production APIs with FastAPI",
+    "slug": "production-apis-with-fastapi"
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "slug": "data-engineering-capstone-and-system-design",
+  "track": "Track 5 · Data Engineering",
+  "title": "Data Engineering Capstone and System Design",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Build an end-to-end platform and practise the system design and SQL questions asked in data engineering interviews.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Capstone",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Lab: CDC from Postgres to Kafka to Iceberg to dbt to a dashboard",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Interview Preparation",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Data Pipeline System Design Framework",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Design Drills: Clickstream, Ride Events and Fraud Detection",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Batch vs Streaming, Lambda vs Kappa Trade-offs",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Data Engineering Interview Questions Explained",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 6,
+  "hours": 3,
+  "prerequisites": [
+   {
+    "course": "Streaming Data with Kafka",
+    "slug": "streaming-data-with-kafka"
+   },
+   {
+    "course": "Lakehouses and Open Table Formats",
+    "slug": "lakehouses-and-open-table-formats"
+   },
+   {
+    "course": "Data Quality, Governance and DataOps",
+    "slug": "data-quality-governance-and-dataops"
+   },
+   {
+    "course": "Cloud Data Platforms",
+    "slug": "cloud-data-platforms"
+   }
+  ]
+ },
+ {
+  "id": 26,
   "slug": "nlp-for-machine-learning",
-  "track": "Track 5 · Deep Learning and NLP",
+  "track": "Track 6 · Deep Learning and NLP",
   "title": "NLP for Machine Learning",
   "level": "Intermediate",
   "syllabus_modules": [
    16
   ],
+  "added": false,
   "description": "Turn text into features and predictions: the NLP pipeline, preprocessing, POS tagging, TF-IDF, Word2Vec and text classification.",
   "modules": [
    {
@@ -2498,14 +3884,15 @@
   ]
  },
  {
-  "id": 16,
+  "id": 27,
   "slug": "deep-learning-foundations",
-  "track": "Track 5 · Deep Learning and NLP",
+  "track": "Track 6 · Deep Learning and NLP",
   "title": "Deep Learning Foundations",
   "level": "Intermediate",
   "syllabus_modules": [
    18
   ],
+  "added": false,
   "description": "How neural networks really work: perceptrons, backpropagation, activations, losses, optimisers, Keras and PyTorch.",
   "modules": [
    {
@@ -2664,14 +4051,15 @@
   ]
  },
  {
-  "id": 17,
+  "id": 28,
   "slug": "deep-learning-with-pytorch",
-  "track": "Track 5 · Deep Learning and NLP",
+  "track": "Track 6 · Deep Learning and NLP",
   "title": "Deep Learning with PyTorch",
   "level": "Intermediate",
   "syllabus_modules": [
    "PyTorch"
   ],
+  "added": false,
   "description": "Go hands-on with PyTorch: tensors, autograd, training loops, DataLoaders, GPUs, CNNs, transfer learning, RNNs and LSTMs.",
   "modules": [
    {
@@ -2854,14 +4242,15 @@
   ]
  },
  {
-  "id": 18,
+  "id": 29,
   "slug": "sequence-models-attention-and-transformers",
-  "track": "Track 5 · Deep Learning and NLP",
+  "track": "Track 6 · Deep Learning and NLP",
   "title": "Sequence Models, Attention and Transformers",
   "level": "Advanced",
   "syllabus_modules": [
    19
   ],
+  "added": false,
   "description": "From RNNs to Transformers: LSTMs, GRUs, attention, self-attention, BERT and GPT.",
   "modules": [
    {
@@ -2988,14 +4377,15 @@
   ]
  },
  {
-  "id": 19,
+  "id": 30,
   "slug": "generative-ai-and-llm-foundations",
-  "track": "Track 6 · Generative AI",
+  "track": "Track 7 · Generative AI",
   "title": "Generative AI and LLM Foundations",
   "level": "Beginner",
   "syllabus_modules": [
    20
   ],
+  "added": false,
   "description": "What generative AI is, how LLMs work, and how to use them well: foundation models, tokens, prompting and structured output.",
   "modules": [
    {
@@ -3149,14 +4539,15 @@
   ]
  },
  {
-  "id": 20,
+  "id": 31,
   "slug": "vector-databases-for-ai",
-  "track": "Track 6 · Generative AI",
+  "track": "Track 7 · Generative AI",
   "title": "Vector Databases for AI",
   "level": "Intermediate",
   "syllabus_modules": [
    21
   ],
+  "added": false,
   "description": "Embeddings, similarity search and the vector databases behind RAG: Chroma, FAISS, Qdrant, Pinecone and LanceDB.",
   "modules": [
    {
@@ -3301,14 +4692,15 @@
   ]
  },
  {
-  "id": 21,
+  "id": 32,
   "slug": "langchain-complete-guide",
-  "track": "Track 6 · Generative AI",
+  "track": "Track 7 · Generative AI",
   "title": "LangChain Complete Guide",
   "level": "Intermediate",
   "syllabus_modules": [
    22
   ],
+  "added": false,
   "description": "Build LLM apps with LangChain: models, prompts, structured output, parsers, chains, runnables, tools, tool calling and agents.",
   "modules": [
    {
@@ -3587,14 +4979,15 @@
   ]
  },
  {
-  "id": 22,
+  "id": 33,
   "slug": "retrieval-augmented-generation-rag",
-  "track": "Track 6 · Generative AI",
+  "track": "Track 7 · Generative AI",
   "title": "Retrieval-Augmented Generation (RAG)",
   "level": "Intermediate",
   "syllabus_modules": [
    23
   ],
+  "added": false,
   "description": "Ground LLMs in your own data: loaders, splitters, vector stores, retrievers, the RAG pipeline, hybrid search, reranking and multimodal RAG.",
   "modules": [
    {
@@ -3788,14 +5181,15 @@
   ]
  },
  {
-  "id": 23,
+  "id": 34,
   "slug": "enterprise-llm-systems",
-  "track": "Track 6 · Generative AI",
+  "track": "Track 7 · Generative AI",
   "title": "Enterprise LLM Systems",
   "level": "Advanced",
   "syllabus_modules": [
    24
   ],
+  "added": false,
   "description": "Run LLM systems at scale: RAG evaluation with Ragas, observability with LangSmith and Opik, vectorless RAG and LLM gateways.",
   "modules": [
    {
@@ -4010,14 +5404,15 @@
   ]
  },
  {
-  "id": 24,
+  "id": 35,
   "slug": "agentic-ai-fundamentals",
-  "track": "Track 7 · Agentic AI",
+  "track": "Track 8 · Agentic AI",
   "title": "Agentic AI Fundamentals",
   "level": "Beginner",
   "syllabus_modules": [
    25
   ],
+  "added": false,
   "description": "What AI agents are, how the agent loop works, and how to build one from scratch before touching a framework.",
   "modules": [
    {
@@ -4181,14 +5576,15 @@
   ]
  },
  {
-  "id": 25,
+  "id": 36,
   "slug": "langgraph-fundamentals",
-  "track": "Track 7 · Agentic AI",
+  "track": "Track 8 · Agentic AI",
   "title": "LangGraph Fundamentals",
   "level": "Intermediate",
   "syllabus_modules": [
    26
   ],
+  "added": false,
   "description": "Build agent workflows as graphs: core concepts, sequential, parallel, conditional and looping workflows, chatbots, persistence, tools and subgraphs.",
   "modules": [
    {
@@ -4438,14 +5834,15 @@
   ]
  },
  {
-  "id": 26,
+  "id": 37,
   "slug": "langgraph-state-and-memory",
-  "track": "Track 7 · Agentic AI",
+  "track": "Track 8 · Agentic AI",
   "title": "LangGraph State and Memory",
   "level": "Intermediate",
   "syllabus_modules": [
    27
   ],
+  "added": false,
   "description": "Master LangGraph's state system: schemas, reducers, multiple schemas, and trimming messages to save context.",
   "modules": [
    {
@@ -4549,14 +5946,15 @@
   ]
  },
  {
-  "id": 27,
+  "id": 38,
   "slug": "human-in-the-loop-with-langgraph",
-  "track": "Track 7 · Agentic AI",
+  "track": "Track 8 · Agentic AI",
   "title": "Human-in-the-Loop with LangGraph",
   "level": "Intermediate",
   "syllabus_modules": [
    28
   ],
+  "added": false,
   "description": "Make agents interactive and controllable: streaming, interrupts, breakpoints, human edits to state and time travel.",
   "modules": [
    {
@@ -4655,14 +6053,15 @@
   ]
  },
  {
-  "id": 28,
+  "id": 39,
   "slug": "agentic-rag-systems",
-  "track": "Track 7 · Agentic AI",
+  "track": "Track 8 · Agentic AI",
   "title": "Agentic RAG Systems",
   "level": "Advanced",
   "syllabus_modules": [
    29
   ],
+  "added": false,
   "description": "Let agents decide how to retrieve: Adaptive RAG, Corrective RAG and Self-RAG, locally and with vector DBs.",
   "modules": [
    {
@@ -4795,14 +6194,15 @@
   ]
  },
  {
-  "id": 29,
+  "id": 40,
   "slug": "model-context-protocol-mcp",
-  "track": "Track 7 · Agentic AI",
+  "track": "Track 8 · Agentic AI",
   "title": "Model Context Protocol (MCP)",
   "level": "Intermediate",
   "syllabus_modules": [
    30
   ],
+  "added": false,
   "description": "The standard way to plug tools and data into AI apps: why MCP exists, its architecture and lifecycle, and building local and remote servers and clients.",
   "modules": [
    {
@@ -4955,11 +6355,37 @@
       "anchor": "m7"
      }
     ]
+   },
+   {
+    "title": "MCP in Production",
+    "added": true,
+    "lessons": [
+     {
+      "title": "What Changed in the 2026 MCP Specification",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Authorization with OAuth 2.1",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "MCP Apps: Interactive UI from a Tool",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Gateways, Registries and Server Discovery",
+      "type": "Article",
+      "added": true
+     }
+    ]
    }
   ],
-  "module_count": 5,
-  "lesson_count": 20,
-  "hours": 9,
+  "module_count": 6,
+  "lesson_count": 24,
+  "hours": 10,
   "prerequisites": [
    {
     "course": "Agentic AI Fundamentals",
@@ -4972,14 +6398,1180 @@
   ]
  },
  {
-  "id": 30,
+  "id": 41,
+  "slug": "context-engineering-and-agent-memory",
+  "track": "Track 8 · Agentic AI",
+  "title": "Context Engineering and Agent Memory",
+  "level": "Intermediate",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Treat the context window as a budget: what to put in it, when to fetch more, how to compact long runs, and how agents remember across sessions.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "The Context Window as a Budget",
+    "added": true,
+    "lessons": [
+     {
+      "title": "From Prompt Engineering to Context Engineering",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Context Rot and Lost in the Middle",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "System Prompts at the Right Altitude",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Examples vs Rules",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Prompt Caching",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Just-in-Time Context",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Retrieval vs Agentic Search",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Tool Results that Don't Flood the Window",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Compaction and Summarisation",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Offloading Context to Files and Scratchpads",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Keep a 200-step agent inside its budget",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Memory Systems",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Short-Term vs Long-Term Memory",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Semantic, Episodic and Procedural Memory",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Memory Files: CLAUDE.md and AGENTS.md",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Writing, Updating and Forgetting Memories",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Knowledge Graphs as Agent Memory",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: An assistant that remembers your preferences",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 4,
+  "lesson_count": 17,
+  "hours": 8,
+  "prerequisites": [
+   {
+    "course": "Agentic AI Fundamentals",
+    "slug": "agentic-ai-fundamentals"
+   },
+   {
+    "course": "LangGraph State and Memory",
+    "slug": "langgraph-state-and-memory"
+   }
+  ]
+ },
+ {
+  "id": 42,
+  "slug": "tools-agent-skills-and-code-execution",
+  "track": "Track 8 · Agentic AI",
+  "title": "Tools, Agent Skills and Code Execution",
+  "level": "Intermediate",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Give agents capabilities the right way: tools models use well, tool search for large toolsets, code execution, and Agent Skills (SKILL.md).",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Writing Tools for Agents",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Naming, Descriptions and Parameters",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Returning Just Enough",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Error Messages that Help the Agent Recover",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Evaluating Tools with an Agent in the Loop",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Scaling to Many Tools",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Why Hundreds of Tool Schemas Break Agents",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Tool Search and Deferred Loading",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Code Execution: Agents that Write Code against Tools",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Sandboxes for Running Agent Code",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Agent with a code-execution sandbox",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Agent Skills",
+    "added": true,
+    "lessons": [
+     {
+      "title": "What is an Agent Skill?",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Anatomy of a Skill Folder and SKILL.md",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Progressive Disclosure: Discovery, Activation, Execution",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Writing Descriptions that Trigger Correctly",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Bundling Scripts and Reference Files",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Skills vs MCP vs Subagents vs Prompts",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Testing, Versioning and Sharing Skills",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Write a skill and use it in two different agents",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 4,
+  "lesson_count": 18,
+  "hours": 8,
+  "prerequisites": [
+   {
+    "course": "Model Context Protocol (MCP)",
+    "slug": "model-context-protocol-mcp"
+   },
+   {
+    "course": "Context Engineering and Agent Memory",
+    "slug": "context-engineering-and-agent-memory"
+   }
+  ]
+ },
+ {
+  "id": 43,
+  "slug": "agent-frameworks-and-sdks",
+  "track": "Track 8 · Agentic AI",
+  "title": "Agent Frameworks and SDKs",
+  "level": "Intermediate",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "A hands-on tour of the major agent frameworks, type-safe agents and decision models, and how to choose without lock-in.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Vendor Agent SDKs",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Claude Agent SDK",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "OpenAI Agents SDK",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Google Agent Development Kit (ADK)",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Microsoft Agent Framework",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "AWS Strands Agents and Bedrock AgentCore",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Orchestration Frameworks",
+    "added": true,
+    "lessons": [
+     {
+      "title": "LangChain Deep Agents",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "CrewAI Crews and Flows",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "LlamaIndex Agents and Workflows",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "smolagents and Code Agents",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "TypeScript Agents: Mastra and the Vercel AI SDK",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Type-Safe AI and Decision Models",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Why Type Safety Matters for LLM Apps",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Pydantic AI",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Instructor and Validated Structured Output",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Decision Models: Typed Answers instead of Text (Jev)",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "DSPy: Programming, Not Prompting",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: A typed routing layer for an agent",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Choosing a Framework",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Comparing Frameworks on One Task",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Portability, Lock-In and Going Framework-Free",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: The same agent in three frameworks",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 5,
+  "lesson_count": 20,
+  "hours": 9,
+  "prerequisites": [
+   {
+    "course": "LangGraph Fundamentals",
+    "slug": "langgraph-fundamentals"
+   },
+   {
+    "course": "Model Context Protocol (MCP)",
+    "slug": "model-context-protocol-mcp"
+   }
+  ]
+ },
+ {
+  "id": 44,
+  "slug": "multi-agent-systems-and-agent-protocols",
+  "track": "Track 8 · Agentic AI",
+  "title": "Multi-Agent Systems and Agent Protocols",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "When multiple agents help, how they coordinate, and the open protocols that connect agents to tools, to each other, to user interfaces and to editors.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Multi-Agent Design",
+    "added": true,
+    "lessons": [
+     {
+      "title": "When Multiple Agents Help and When They Hurt",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Orchestrator and Subagents",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Handoffs, Group Chat and Magentic Orchestration",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Failure Modes of Multi-Agent Systems",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "The A2A Protocol",
+    "added": true,
+    "lessons": [
+     {
+      "title": "A2A Deep Dive: Agent Cards and Discovery",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Tasks, Messages, Artifacts and Streaming",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "A2A vs MCP",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Securing Agent-to-Agent Communication",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Two agents in different frameworks talking over A2A",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Protocols for Users and Editors",
+    "added": true,
+    "lessons": [
+     {
+      "title": "AG-UI: Streaming Agent Events to a Frontend",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Agent Client Protocol: Agents inside Editors",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Generative UI and MCP Apps",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The Open Standards Map: AAIF, MCP, AGENTS.md and A2A",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 4,
+  "lesson_count": 14,
+  "hours": 6,
+  "prerequisites": [
+   {
+    "course": "Agent Frameworks and SDKs",
+    "slug": "agent-frameworks-and-sdks"
+   }
+  ]
+ },
+ {
+  "id": 45,
+  "slug": "coding-agents-and-harness-engineering",
+  "track": "Track 8 · Agentic AI",
+  "title": "Coding Agents and Harness Engineering",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Use coding agents well and build the harness around a model: loops, tools, permissions, hooks, sandboxes, long-running agents and keeping agent-written code healthy.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Working with Coding Agents",
+    "added": true,
+    "lessons": [
+     {
+      "title": "The Coding Agent Landscape: Claude Code, Codex, Gemini CLI, Copilot and Cursor",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Explore, Plan, Code, Commit",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Spec-Driven Development",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Reviewing AI-Written Code",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "What a Harness Is",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Model plus Harness: the Parts of an Agent Runtime",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Permissions, Hooks and Approval Modes",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Subagents, Slash Commands and Plugins",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Sandboxes: Containers, MicroVMs and Hosted Sandboxes",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Build a minimal coding-agent harness",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Long-Running Agents",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Initializer Agents, Feature Lists and Progress Files",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Handing Off across Context Windows",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Git as a Safety Net and Checkpoints",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Parallel Agents with Worktrees",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Harness Engineering for Codebases",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Instruction Files as a Map, Not a Manual",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Linters and Tests that Teach the Agent",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Background Cleanup Agents",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Headless Agents in CI",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Make a repository agent-ready",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 5,
+  "lesson_count": 19,
+  "hours": 8,
+  "prerequisites": [
+   {
+    "course": "Tools, Agent Skills and Code Execution",
+    "slug": "tools-agent-skills-and-code-execution"
+   },
+   {
+    "course": "Git and GitHub: Zero to Pro",
+    "slug": "git-and-github-zero-to-pro"
+   }
+  ]
+ },
+ {
+  "id": 46,
+  "slug": "computer-use-browser-and-voice-agents",
+  "track": "Track 8 · Agentic AI",
+  "title": "Computer-Use, Browser and Voice Agents",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Agents that see and act on screens and web pages, and agents that talk in real time.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Browser Agents",
+    "added": true,
+    "lessons": [
+     {
+      "title": "DOM, Accessibility Tree or Screenshots?",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Driving a Browser with Playwright and MCP",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Browser Agent Libraries",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Logins, Flaky Pages and Safety",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: A browser agent that fills a form",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Computer Use",
+    "added": true,
+    "lessons": [
+     {
+      "title": "The Screenshot-Action Loop",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Running Desktop Agents Safely in VMs",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Benchmarks: OSWorld and WebArena",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Voice Agents",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Speech-to-Speech vs Cascaded Pipelines",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Latency Budgets and Turn-Taking",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Tool Calls in a Live Conversation",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 4,
+  "lesson_count": 12,
+  "hours": 5,
+  "prerequisites": [
+   {
+    "course": "Agent Frameworks and SDKs",
+    "slug": "agent-frameworks-and-sdks"
+   }
+  ]
+ },
+ {
+  "id": 47,
+  "slug": "agent-evals-observability-and-reliability",
+  "track": "Track 8 · Agentic AI",
+  "title": "Agent Evals, Observability and Reliability",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Know whether your agent works: outcome and trajectory evals, LLM judges, benchmarks, tracing with OpenTelemetry, and reliability engineering.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Evaluating Agents",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Why Agent Evals Are Hard",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Outcome, Trajectory and Tool-Use Grading",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Code, Model and Human Graders",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "pass@k, pass^k and Noise",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Building an Eval Suite from Real Failures",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "LLM-as-Judge: Rubrics and Calibration",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: An eval suite for a support agent",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Benchmarks",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Agent Benchmarks: SWE-bench, Terminal-Bench, tau-bench, GAIA and More",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Contamination and Eval Awareness",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Observability",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Traces, Spans and OpenTelemetry GenAI Conventions",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "LangSmith, Langfuse, Phoenix and Braintrust",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Cost, Latency and Token Dashboards",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Online Evals and Feedback Loops",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Trace and debug an agent with Langfuse",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Reliability Engineering",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Retries, Timeouts and Idempotent Tools",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Durable Execution",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Regression Testing Prompts and Model Upgrades",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 5,
+  "lesson_count": 18,
+  "hours": 8,
+  "prerequisites": [
+   {
+    "course": "Agent Frameworks and SDKs",
+    "slug": "agent-frameworks-and-sdks"
+   },
+   {
+    "course": "Enterprise LLM Systems",
+    "slug": "enterprise-llm-systems"
+   }
+  ]
+ },
+ {
+  "id": 48,
+  "slug": "agent-security-and-safety",
+  "track": "Track 8 · Agentic AI",
+  "title": "Agent Security and Safety",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Threat-model an agent and defend it: prompt injection, the OWASP Top 10 for agentic applications, least privilege, sandboxing, approvals and red-teaming.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Threat Modelling Agents",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Why Agents Change the Security Picture",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Direct and Indirect Prompt Injection",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The Lethal Trifecta",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "OWASP LLM Top 10 and Agentic Top 10",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "The Agentic Top 10 in Practice",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Goal Hijack and Tool Misuse",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Identity, Privilege and Credentials for Agents",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Supply Chain: Malicious MCP Servers and Skills",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Unexpected Code Execution",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Memory Poisoning and Inter-Agent Spoofing",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Cascading Failures, Trust Exploitation and Rogue Agents",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Defences",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Least Privilege and Scoped Credentials",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Sandboxing Files and Network",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Human Approval Gates and Auto-Approval Classifiers",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Guardrails and Policy Engines",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Red-Teaming Your Own Agent",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Attack and defend a tool-using agent",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 4,
+  "lesson_count": 17,
+  "hours": 7,
+  "prerequisites": [
+   {
+    "course": "Tools, Agent Skills and Code Execution",
+    "slug": "tools-agent-skills-and-code-execution"
+   },
+   {
+    "course": "Enterprise LLM Systems",
+    "slug": "enterprise-llm-systems"
+   }
+  ]
+ },
+ {
+  "id": 49,
+  "slug": "shipping-agents-to-production",
+  "track": "Track 8 · Agentic AI",
+  "title": "Shipping Agents to Production",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Architect, run and operate agents for real users: separating the loop from the sandbox, background agents, UX for approvals, and cost control.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Architecture",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Separating the Brain from the Hands",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Managed Agent Platforms vs Self-Hosting",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Background Agents, Queues and Webhooks",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Deploying Agents with Docker and Serverless",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Product and Operations",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Streaming Progress and Human-in-the-Loop UX",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Approvals, Undo and Audit Logs",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Rate Limits, Budgets and Cost Controls",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Model Routing and Fallbacks",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Ship a background agent with approvals",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 10,
+  "hours": 4,
+  "prerequisites": [
+   {
+    "course": "Agent Evals, Observability and Reliability",
+    "slug": "agent-evals-observability-and-reliability"
+   },
+   {
+    "course": "Agent Security and Safety",
+    "slug": "agent-security-and-safety"
+   },
+   {
+    "course": "Production APIs with FastAPI",
+    "slug": "production-apis-with-fastapi"
+   }
+  ]
+ },
+ {
+  "id": 50,
   "slug": "multi-agent-research-system-capstone",
-  "track": "Track 7 · Agentic AI",
+  "track": "Track 8 · Agentic AI",
   "title": "Multi-Agent Research System (Capstone)",
   "level": "Advanced",
   "syllabus_modules": [
    31
   ],
+  "added": false,
   "description": "Build and ship a multi-agent system that researches, analyses and writes reports, with CI/CD on AWS.",
   "modules": [
    {
@@ -5166,18 +7758,27 @@
    {
     "course": "Enterprise LLM Systems",
     "slug": "enterprise-llm-systems"
+   },
+   {
+    "course": "Multi-Agent Systems and Agent Protocols",
+    "slug": "multi-agent-systems-and-agent-protocols"
+   },
+   {
+    "course": "Shipping Agents to Production",
+    "slug": "shipping-agents-to-production"
    }
   ]
  },
  {
-  "id": 31,
+  "id": 51,
   "slug": "end-to-end-ai-projects",
-  "track": "Track 8 · Projects",
+  "track": "Track 9 · Projects",
   "title": "End-to-End AI Projects",
   "level": "Advanced",
   "syllabus_modules": [
    "Projects"
   ],
+  "added": false,
   "description": "Portfolio projects across data engineering, ML, deep learning, GenAI and agentic AI, each deployed with CI/CD.",
   "modules": [
    {

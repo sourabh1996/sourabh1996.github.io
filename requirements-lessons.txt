@@ -2,3 +2,15 @@
 # Pinned so the outputs shown in lessons stay reproducible.
 langgraph==1.2.14
 langchain-core==1.6.9
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+seaborn==0.13.2
+statsmodels==0.15.0
+xgboost==3.4.1
+pydantic==2.13.5
+fastapi==0.143.0
+httpx==0.28.1
+SQLAlchemy==2.1.4
