@@ -1,7 +1,7 @@
 [
  {
   "id": 1,
-  "slug": "01-python-fundamentals",
+  "slug": "python-fundamentals",
   "track": "Track 1 · Python and Data Foundations",
   "title": "Python Fundamentals",
   "level": "Beginner",
@@ -26,31 +26,16 @@
     "lessons": [
      {
       "title": "What is Python and Why Use It?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is Python and Why Use It? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Python vs Other Languages",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Python vs Other Languages (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Numbers, Booleans and Strings",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Numbers, Booleans and Strings (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -67,21 +52,11 @@
     "lessons": [
      {
       "title": "Containers and Mutability",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Containers and Mutability (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Operators and Precedence",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Operators and Precedence (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -98,31 +73,16 @@
     "lessons": [
      {
       "title": "if, elif and else",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "if, elif and else (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "for and while Loops",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "for and while Loops (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "break, continue and range()",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "break, continue and range() (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -139,51 +99,26 @@
     "lessons": [
      {
       "title": "Working with Strings",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Working with Strings (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Lists and Tuples",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Lists and Tuples (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Sets",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Sets (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Dictionaries and Dictionary Views",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Dictionaries and Dictionary Views (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "List and Dictionary Comprehensions",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "List and Dictionary Comprehensions (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -200,31 +135,16 @@
     "lessons": [
      {
       "title": "Functions and Parameter Passing",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Functions and Parameter Passing (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Iterators and Generators",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Iterators and Generators (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Lambda, map and Functional Style",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Lambda, map and Functional Style (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -237,12 +157,12 @@
    }
   ],
   "module_count": 6,
-  "lesson_count": 38,
-  "hours": 14
+  "lesson_count": 22,
+  "hours": 11
  },
  {
   "id": 2,
-  "slug": "02-advanced-python-programming",
+  "slug": "advanced-python-programming",
   "track": "Track 1 · Python and Data Foundations",
   "title": "Advanced Python Programming",
   "level": "Intermediate",
@@ -267,51 +187,26 @@
     "lessons": [
      {
       "title": "Classes and Objects",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Classes and Objects (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Inheritance and Polymorphism",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Inheritance and Polymorphism (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Encapsulation and Abstraction",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Encapsulation and Abstraction (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Decorators, classmethod and staticmethod",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Decorators, classmethod and staticmethod (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Dunder Methods",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Dunder Methods (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -328,21 +223,11 @@
     "lessons": [
      {
       "title": "Reading and Writing Files",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Reading and Writing Files (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Buffered I/O and Other File Methods",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Buffered I/O and Other File Methods (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -359,31 +244,16 @@
     "lessons": [
      {
       "title": "Importing and Managing Modules",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Importing and Managing Modules (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "try/except and Custom Exceptions",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "try/except and Custom Exceptions (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Error Handling Best Practices",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Error Handling Best Practices (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -395,21 +265,11 @@
     "lessons": [
      {
       "title": "Threads, Processes and Async",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Threads, Processes and Async (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "async and await for API Calls",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "async and await for API Calls (Deep Dive)",
       "type": "Article",
       "added": true
      },
@@ -422,7 +282,7 @@
     "prerequisites": [
      {
       "course": "Python Fundamentals",
-      "slug": "01-python-fundamentals",
+      "slug": "python-fundamentals",
       "module": "Functions and Iterators",
       "anchor": "m6"
      }
@@ -430,18 +290,18 @@
    }
   ],
   "module_count": 5,
-  "lesson_count": 28,
-  "hours": 10,
+  "lesson_count": 16,
+  "hours": 7,
   "prerequisites": [
    {
     "course": "Python Fundamentals",
-    "slug": "01-python-fundamentals"
+    "slug": "python-fundamentals"
    }
   ]
  },
  {
   "id": 3,
-  "slug": "03-numerical-computing-and-data-analysis",
+  "slug": "numerical-computing-and-data-analysis",
   "track": "Track 1 · Python and Data Foundations",
   "title": "Numerical Computing and Data Analysis",
   "level": "Beginner",
@@ -467,81 +327,41 @@
     "lessons": [
      {
       "title": "What is a NumPy Array?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is a NumPy Array? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Creating, Indexing and Slicing Arrays",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Creating, Indexing and Slicing Arrays (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Data Types and Array Attributes",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Data Types and Array Attributes (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Broadcasting and Iterating over Arrays",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Broadcasting and Iterating over Arrays (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Array Manipulation and Arithmetic",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Array Manipulation and Arithmetic (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Statistical, Sorting, Searching and Counting Functions",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Statistical, Sorting, Searching and Counting Functions (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Binary and String Functions",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Binary and String Functions (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "The Matrix Library, Copies and Views",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "The Matrix Library, Copies and Views (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -554,7 +374,7 @@
     "prerequisites": [
      {
       "course": "Python Fundamentals",
-      "slug": "01-python-fundamentals",
+      "slug": "python-fundamentals",
       "module": "Strings and Data Structures",
       "anchor": "m5"
      }
@@ -566,31 +386,16 @@
     "lessons": [
      {
       "title": "Series, DataFrames (and the Retired Panel)",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Series, DataFrames (and the Retired Panel) (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Selecting, Sorting and Indexing Data",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Selecting, Sorting and Indexing Data (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Reindexing and Iteration",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Reindexing and Iteration (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -607,31 +412,16 @@
     "lessons": [
      {
       "title": "Working with Text Data",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Working with Text Data (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Dates, Times and Timedeltas",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Dates, Times and Timedeltas (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Categorical Data",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Categorical Data (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -643,21 +433,11 @@
     "lessons": [
      {
       "title": "Descriptive Statistics in pandas",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Descriptive Statistics in pandas (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Quick Visualisation with pandas",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Quick Visualisation with pandas (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -670,18 +450,18 @@
    }
   ],
   "module_count": 5,
-  "lesson_count": 36,
-  "hours": 12,
+  "lesson_count": 20,
+  "hours": 9,
   "prerequisites": [
    {
     "course": "Python Fundamentals",
-    "slug": "01-python-fundamentals"
+    "slug": "python-fundamentals"
    }
   ]
  },
  {
   "id": 4,
-  "slug": "04-data-visualization-with-matplotlib-and-seaborn",
+  "slug": "data-visualization-with-matplotlib-and-seaborn",
   "track": "Track 1 · Python and Data Foundations",
   "title": "Data Visualization with Matplotlib and Seaborn",
   "level": "Beginner",
@@ -706,21 +486,11 @@
     "lessons": [
      {
       "title": "How Matplotlib Thinks: Figures and Axes",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "How Matplotlib Thinks: Figures and Axes (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Creating and Customising Plots",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Creating and Customising Plots (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -737,31 +507,16 @@
     "lessons": [
      {
       "title": "Statistical Plots with Seaborn",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Statistical Plots with Seaborn (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Histograms, Pair Plots and Heatmaps",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Histograms, Pair Plots and Heatmaps (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Styling Charts for Communication",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Styling Charts for Communication (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -774,18 +529,18 @@
    }
   ],
   "module_count": 3,
-  "lesson_count": 13,
-  "hours": 5,
+  "lesson_count": 8,
+  "hours": 4,
   "prerequisites": [
    {
     "course": "Numerical Computing and Data Analysis",
-    "slug": "03-numerical-computing-and-data-analysis"
+    "slug": "numerical-computing-and-data-analysis"
    }
   ]
  },
  {
   "id": 5,
-  "slug": "05-databases-sql-and-nosql",
+  "slug": "databases-sql-and-nosql",
   "track": "Track 1 · Python and Data Foundations",
   "title": "Databases: SQL and NoSQL",
   "level": "Beginner",
@@ -810,41 +565,21 @@
     "lessons": [
      {
       "title": "What is a Relational Database?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is a Relational Database? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Writing SQL Queries",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Writing SQL Queries (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Primary and Foreign Keys",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Primary and Foreign Keys (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Joins and Unions",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Joins and Unions (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -856,21 +591,11 @@
     "lessons": [
      {
       "title": "Setting Up Supabase",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Setting Up Supabase (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Querying Supabase from Python",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Querying Supabase from Python (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -883,7 +608,7 @@
     "prerequisites": [
      {
       "course": "Python Fundamentals",
-      "slug": "01-python-fundamentals",
+      "slug": "python-fundamentals",
       "module": "Functions and Iterators",
       "anchor": "m6"
      }
@@ -895,41 +620,21 @@
     "lessons": [
      {
       "title": "What is a Document Database?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is a Document Database? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Databases and Collections",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Databases and Collections (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Insert, Find, Query and Sort",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Insert, Find, Query and Sort (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Update, Delete and Drop",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Update, Delete and Drop (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -942,18 +647,18 @@
    }
   ],
   "module_count": 4,
-  "lesson_count": 23,
-  "hours": 8,
+  "lesson_count": 13,
+  "hours": 6,
   "prerequisites": [
    {
     "course": "Python Fundamentals",
-    "slug": "01-python-fundamentals"
+    "slug": "python-fundamentals"
    }
   ]
  },
  {
   "id": 6,
-  "slug": "06-interactive-data-apps-with-streamlit",
+  "slug": "interactive-data-apps-with-streamlit",
   "track": "Track 1 · Python and Data Foundations",
   "title": "Interactive Data Apps with Streamlit",
   "level": "Beginner",
@@ -978,21 +683,11 @@
     "lessons": [
      {
       "title": "What is Streamlit?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is Streamlit? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Widgets and Layout",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Widgets and Layout (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -1009,21 +704,11 @@
     "lessons": [
      {
       "title": "Session State",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Session State (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "async and await in Streamlit",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "async and await in Streamlit (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -1036,7 +721,7 @@
     "prerequisites": [
      {
       "course": "Advanced Python Programming",
-      "slug": "02-advanced-python-programming",
+      "slug": "advanced-python-programming",
       "module": "Concurrency for AI Apps",
       "anchor": "m5"
      }
@@ -1044,22 +729,22 @@
    }
   ],
   "module_count": 3,
-  "lesson_count": 11,
+  "lesson_count": 7,
   "hours": 4,
   "prerequisites": [
    {
     "course": "Python Fundamentals",
-    "slug": "01-python-fundamentals"
+    "slug": "python-fundamentals"
    },
    {
     "course": "Numerical Computing and Data Analysis",
-    "slug": "03-numerical-computing-and-data-analysis"
+    "slug": "numerical-computing-and-data-analysis"
    }
   ]
  },
  {
   "id": 7,
-  "slug": "07-statistics-foundations",
+  "slug": "statistics-foundations",
   "track": "Track 2 · Statistics",
   "title": "Statistics Foundations",
   "level": "Beginner",
@@ -1084,31 +769,16 @@
     "lessons": [
      {
       "title": "What is Statistics?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is Statistics? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Descriptive vs Inferential Statistics",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Descriptive vs Inferential Statistics (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Types of Data and Levels of Measurement",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Types of Data and Levels of Measurement (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -1120,21 +790,11 @@
     "lessons": [
      {
       "title": "Mean, Median and Mode",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Mean, Median and Mode (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Range, Variance and Standard Deviation",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Range, Variance and Standard Deviation (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -1151,31 +811,16 @@
     "lessons": [
      {
       "title": "Skewness and Kurtosis",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Skewness and Kurtosis (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Covariance and Correlation",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Covariance and Correlation (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Random Variables and Sets",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Random Variables and Sets (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -1183,7 +828,7 @@
     "prerequisites": [
      {
       "course": "Numerical Computing and Data Analysis",
-      "slug": "03-numerical-computing-and-data-analysis",
+      "slug": "numerical-computing-and-data-analysis",
       "module": "NumPy Essentials",
       "anchor": "m2"
      }
@@ -1195,21 +840,11 @@
     "lessons": [
      {
       "title": "Probability Basics",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Probability Basics (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "PDF, PMF and CDF",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "PDF, PMF and CDF (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -1221,41 +856,21 @@
     "lessons": [
      {
       "title": "Bernoulli, Binomial and Poisson",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Bernoulli, Binomial and Poisson (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Normal and Uniform Distributions",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Normal and Uniform Distributions (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Real-World Normal Distributions",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Real-World Normal Distributions (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Z-Statistics and the Central Limit Theorem",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Z-Statistics and the Central Limit Theorem (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -1272,21 +887,11 @@
     "lessons": [
      {
       "title": "Population vs Sample",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Population vs Sample (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Confidence Intervals",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Confidence Intervals (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -1294,7 +899,7 @@
     "prerequisites": [
      {
       "course": "Statistics Foundations",
-      "slug": "07-statistics-foundations",
+      "slug": "statistics-foundations",
       "module": "Distributions",
       "anchor": "m6"
      }
@@ -1302,18 +907,18 @@
    }
   ],
   "module_count": 7,
-  "lesson_count": 35,
-  "hours": 11,
+  "lesson_count": 19,
+  "hours": 8,
   "prerequisites": [
    {
     "course": "Numerical Computing and Data Analysis",
-    "slug": "03-numerical-computing-and-data-analysis"
+    "slug": "numerical-computing-and-data-analysis"
    }
   ]
  },
  {
   "id": 8,
-  "slug": "08-inferential-statistics",
+  "slug": "inferential-statistics",
   "track": "Track 2 · Statistics",
   "title": "Inferential Statistics",
   "level": "Intermediate",
@@ -1338,31 +943,16 @@
     "lessons": [
      {
       "title": "How Hypothesis Testing Works",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "How Hypothesis Testing Works (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "p-Values and Significance",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "p-Values and Significance (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Confidence Levels and Decision Rules",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Confidence Levels and Decision Rules (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -1375,13 +965,13 @@
     "prerequisites": [
      {
       "course": "Statistics Foundations",
-      "slug": "07-statistics-foundations",
+      "slug": "statistics-foundations",
       "module": "Distributions",
       "anchor": "m6"
      },
      {
       "course": "Statistics Foundations",
-      "slug": "07-statistics-foundations",
+      "slug": "statistics-foundations",
       "module": "Estimation",
       "anchor": "m7"
      }
@@ -1393,21 +983,11 @@
     "lessons": [
      {
       "title": "Bayes' Theorem",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Bayes' Theorem (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Bayes in the Real World",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Bayes in the Real World (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -1415,7 +995,7 @@
     "prerequisites": [
      {
       "course": "Statistics Foundations",
-      "slug": "07-statistics-foundations",
+      "slug": "statistics-foundations",
       "module": "Probability",
       "anchor": "m5"
      }
@@ -1427,21 +1007,11 @@
     "lessons": [
      {
       "title": "The Chi-Square Distribution",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "The Chi-Square Distribution (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Goodness-of-Fit and Independence Tests",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Goodness-of-Fit and Independence Tests (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -1454,18 +1024,18 @@
    }
   ],
   "module_count": 4,
-  "lesson_count": 17,
-  "hours": 6,
+  "lesson_count": 10,
+  "hours": 5,
   "prerequisites": [
    {
     "course": "Statistics Foundations",
-    "slug": "07-statistics-foundations"
+    "slug": "statistics-foundations"
    }
   ]
  },
  {
   "id": 9,
-  "slug": "09-feature-engineering-and-eda",
+  "slug": "feature-engineering-and-eda",
   "track": "Track 3 · Machine Learning",
   "title": "Feature Engineering and EDA",
   "level": "Intermediate",
@@ -1473,7 +1043,7 @@
    10,
    11
   ],
-  "description": "Prepare data for models and explore it properly: cleaning, scaling, encoding, selection and real case studies.",
+  "description": "Get data, explore it and prepare it for models: imputation, outliers, scaling, encoding, pipelines, PCA and real case studies.",
   "modules": [
    {
     "title": "Start Here",
@@ -1486,37 +1056,179 @@
     ]
    },
    {
+    "title": "Getting Data",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Framing a Machine Learning Problem",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Loading CSV, JSON and SQL Data",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Fetching Data from APIs",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Web Scraping for Datasets",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Build a dataset from an API",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Exploratory Data Analysis",
+    "added": false,
+    "lessons": [
+     {
+      "title": "What EDA Is and Why It Matters",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "First Questions to Ask Your Data",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Univariate Analysis",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Bivariate and Multivariate Analysis",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Visualising Patterns and Relationships",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Automated EDA with Profiling Reports",
+      "type": "Article",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Data Visualization with Matplotlib and Seaborn",
+      "slug": "data-visualization-with-matplotlib-and-seaborn",
+      "module": "Seaborn and Storytelling",
+      "anchor": "m3"
+     },
+     {
+      "course": "Numerical Computing and Data Analysis",
+      "slug": "numerical-computing-and-data-analysis",
+      "module": "Statistics and Plots in pandas",
+      "anchor": "m5"
+     }
+    ]
+   },
+   {
     "title": "Data Cleaning",
     "added": false,
     "lessons": [
      {
       "title": "Handling Missing Data",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Handling Missing Data (Deep Dive)",
+      "title": "Complete Case Analysis",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Mean, Median and Arbitrary Value Imputation",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Imputing Missing Categories",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Missing Indicators and Random Sample Imputation",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "KNN Imputer",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Iterative Imputer (MICE)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Imbalanced Datasets",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Imbalanced Datasets (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Outliers",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Outliers (Deep Dive)",
+      "title": "Outliers with Z-Scores, IQR and Winsorisation",
       "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Compare imputation strategies",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Feature Scaling and Encoding",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Normalisation vs Standardisation",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Encoding Categorical Variables",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "One-Hot Encoding",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "ColumnTransformer",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "scikit-learn Pipelines",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: One pipeline from raw data to model",
+      "type": "Lab",
       "added": false
      }
     ]
@@ -1526,42 +1238,37 @@
     "added": false,
     "lessons": [
      {
-      "title": "Normalisation vs Standardisation",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Normalisation vs Standardisation (Deep Dive)",
+      "title": "Function and Power Transformers (Log, Box-Cox, Yeo-Johnson)",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Encoding Categorical Variables",
-      "type": "Video",
+      "title": "Binning and Binarisation",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Encoding Categorical Variables (Deep Dive)",
+      "title": "Mixed Variables",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Date and Time Features",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Feature Construction and Splitting",
       "type": "Article",
       "added": false
      },
      {
       "title": "Forward and Backward Selection",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Forward and Backward Selection (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Correlation for Feature Selection",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Correlation for Feature Selection (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -1574,49 +1281,48 @@
     "prerequisites": [
      {
       "course": "Statistics Foundations",
-      "slug": "07-statistics-foundations",
+      "slug": "statistics-foundations",
       "module": "Data Behaviour and Relationships",
       "anchor": "m4"
      }
     ]
    },
    {
-    "title": "Exploratory Data Analysis",
+    "title": "Dimensionality Reduction",
     "added": false,
     "lessons": [
      {
-      "title": "What EDA Is and Why It Matters",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What EDA Is and Why It Matters (Deep Dive)",
+      "title": "The Curse of Dimensionality",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Visualising Patterns and Relationships",
-      "type": "Video",
+      "title": "PCA: The Intuition",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Visualising Patterns and Relationships (Deep Dive)",
+      "title": "PCA: The Maths Step by Step",
       "type": "Article",
+      "added": false
+     },
+     {
+      "title": "PCA in Practice",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Compress MNIST with PCA",
+      "type": "Lab",
       "added": false
      }
     ],
     "prerequisites": [
      {
-      "course": "Data Visualization with Matplotlib and Seaborn",
-      "slug": "04-data-visualization-with-matplotlib-and-seaborn",
-      "module": "Seaborn and Storytelling",
-      "anchor": "m3"
-     },
-     {
       "course": "Numerical Computing and Data Analysis",
-      "slug": "03-numerical-computing-and-data-analysis",
-      "module": "Statistics and Plots in pandas",
-      "anchor": "m5"
+      "slug": "numerical-computing-and-data-analysis",
+      "module": "NumPy Essentials",
+      "anchor": "m2"
      }
     ]
    },
@@ -1626,31 +1332,16 @@
     "lessons": [
      {
       "title": "Case Study: Movie Review Sentiment",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Case Study: Movie Review Sentiment (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Case Study: Wine Quality",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Case Study: Wine Quality (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Case Study: Stock and Commodity Prices",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Case Study: Stock and Commodity Prices (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -1662,34 +1353,34 @@
     ]
    }
   ],
-  "module_count": 5,
-  "lesson_count": 27,
-  "hours": 9,
+  "module_count": 8,
+  "lesson_count": 46,
+  "hours": 20,
   "prerequisites": [
    {
     "course": "Numerical Computing and Data Analysis",
-    "slug": "03-numerical-computing-and-data-analysis"
+    "slug": "numerical-computing-and-data-analysis"
    },
    {
     "course": "Data Visualization with Matplotlib and Seaborn",
-    "slug": "04-data-visualization-with-matplotlib-and-seaborn"
+    "slug": "data-visualization-with-matplotlib-and-seaborn"
    },
    {
     "course": "Statistics Foundations",
-    "slug": "07-statistics-foundations"
+    "slug": "statistics-foundations"
    }
   ]
  },
  {
   "id": 10,
-  "slug": "10-machine-learning-fundamentals",
+  "slug": "machine-learning-fundamentals",
   "track": "Track 3 · Machine Learning",
   "title": "Machine Learning Fundamentals",
   "level": "Intermediate",
   "syllabus_modules": [
    12
   ],
-  "description": "Understand and implement the core supervised learning algorithms and how to evaluate them.",
+  "description": "Understand and implement the core supervised learning algorithms from scratch and learn how to evaluate and tune them.",
   "modules": [
    {
     "title": "Start Here",
@@ -1707,21 +1398,46 @@
     "lessons": [
      {
       "title": "AI vs ML vs DL vs Data Science",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "AI vs ML vs DL vs Data Science (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Supervised, Unsupervised, Semi-Supervised and Reinforcement Learning",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Supervised, Unsupervised, Semi-Supervised and Reinforcement Learning (Deep Dive)",
+      "title": "Batch vs Online Learning",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Instance-Based vs Model-Based Learning",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Challenges in Machine Learning",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "The Machine Learning Development Life Cycle",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Data Science and ML Job Roles",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Tensors: How Data Is Represented",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Setting Up Your ML Environment: Anaconda, Jupyter and Colab",
       "type": "Article",
       "added": false
      }
@@ -1733,41 +1449,26 @@
     "lessons": [
      {
       "title": "Simple and Multiple Linear Regression",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Simple and Multiple Linear Regression (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "MSE, MAE, RMSE and R²",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "MSE, MAE, RMSE and R² (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Gradient Descent",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Gradient Descent (Deep Dive)",
+      "title": "Assumptions of Linear Regression",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Ridge and Lasso Regularisation",
-      "type": "Video",
+      "title": "Polynomial Regression",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Ridge and Lasso Regularisation (Deep Dive)",
+      "title": "The Bias-Variance Tradeoff",
       "type": "Article",
       "added": false
      },
@@ -1780,14 +1481,53 @@
     "prerequisites": [
      {
       "course": "Statistics Foundations",
-      "slug": "07-statistics-foundations",
+      "slug": "statistics-foundations",
       "module": "Central Tendency and Dispersion",
       "anchor": "m3"
      },
      {
       "course": "Feature Engineering and EDA",
-      "slug": "09-feature-engineering-and-eda",
-      "module": "Feature Transformation and Selection",
+      "slug": "feature-engineering-and-eda",
+      "module": "Feature Scaling and Encoding",
+      "anchor": "m5"
+     }
+    ]
+   },
+   {
+    "title": "Gradient Descent and Regularisation",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Gradient Descent",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Batch, Stochastic and Mini-Batch Gradient Descent",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Ridge and Lasso Regularisation",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Elastic Net",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Gradient descent variants side by side",
+      "type": "Lab",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Machine Learning Fundamentals",
+      "slug": "machine-learning-fundamentals",
+      "module": "Regression",
       "anchor": "m3"
      }
     ]
@@ -1797,22 +1537,32 @@
     "added": false,
     "lessons": [
      {
-      "title": "Logistic Regression",
-      "type": "Video",
+      "title": "The Perceptron Trick",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Logistic Regression (Deep Dive)",
+      "title": "Logistic Regression",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Sigmoid and Log Loss",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Softmax for Multiclass Problems",
       "type": "Article",
       "added": false
      },
      {
       "title": "Confusion Matrix, Precision, Recall and F1",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Confusion Matrix, Precision, Recall and F1 (Deep Dive)",
+      "title": "ROC Curves and AUC",
       "type": "Article",
       "added": false
      },
@@ -1825,7 +1575,7 @@
     "prerequisites": [
      {
       "course": "Statistics Foundations",
-      "slug": "07-statistics-foundations",
+      "slug": "statistics-foundations",
       "module": "Probability",
       "anchor": "m5"
      }
@@ -1837,41 +1587,31 @@
     "lessons": [
      {
       "title": "Support Vector Machines and Kernels",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Support Vector Machines and Kernels (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Naive Bayes",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Naive Bayes (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "K-Nearest Neighbours",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "K-Nearest Neighbours (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Decision Trees",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Decision Trees (Deep Dive)",
+      "title": "Entropy, Gini and Information Gain",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Regression Trees",
       "type": "Article",
       "added": false
      },
@@ -1884,37 +1624,73 @@
     "prerequisites": [
      {
       "course": "Inferential Statistics",
-      "slug": "08-inferential-statistics",
+      "slug": "inferential-statistics",
       "module": "Bayesian Thinking",
       "anchor": "m3"
      }
     ]
+   },
+   {
+    "title": "Model Selection and Tuning",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Train, Validation and Test Splits",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Data Leakage",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Cross-Validation",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Grid Search and Randomized Search",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Bayesian Optimisation with Optuna",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Tune a model without overfitting the test set",
+      "type": "Lab",
+      "added": false
+     }
+    ]
    }
   ],
-  "module_count": 5,
-  "lesson_count": 28,
-  "hours": 10,
+  "module_count": 7,
+  "lesson_count": 41,
+  "hours": 18,
   "prerequisites": [
    {
     "course": "Feature Engineering and EDA",
-    "slug": "09-feature-engineering-and-eda"
+    "slug": "feature-engineering-and-eda"
    },
    {
     "course": "Statistics Foundations",
-    "slug": "07-statistics-foundations"
+    "slug": "statistics-foundations"
    }
   ]
  },
  {
   "id": 11,
-  "slug": "11-ensembles-and-unsupervised-learning",
+  "slug": "ensembles-and-unsupervised-learning",
   "track": "Track 3 · Machine Learning",
   "title": "Ensembles and Unsupervised Learning",
   "level": "Intermediate",
   "syllabus_modules": [
    13
   ],
-  "description": "Boost accuracy with bagging, random forests, gradient boosting and XGBoost, then meet clustering.",
+  "description": "Boost accuracy with voting, bagging, random forests, AdaBoost, gradient boosting, XGBoost and stacking, then learn clustering.",
   "modules": [
    {
     "title": "Start Here",
@@ -1931,22 +1707,27 @@
     "added": false,
     "lessons": [
      {
-      "title": "Bagging vs Boosting",
-      "type": "Video",
+      "title": "What is Ensemble Learning?",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Bagging vs Boosting (Deep Dive)",
+      "title": "Voting Ensembles",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Bagging vs Boosting",
       "type": "Article",
       "added": false
      },
      {
       "title": "Random Forests and Out-of-Bag Evaluation",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Random Forests and Out-of-Bag Evaluation (Deep Dive)",
+      "title": "Feature Importance",
       "type": "Article",
       "added": false
      }
@@ -1954,9 +1735,9 @@
     "prerequisites": [
      {
       "course": "Machine Learning Fundamentals",
-      "slug": "10-machine-learning-fundamentals",
+      "slug": "machine-learning-fundamentals",
       "module": "More Supervised Algorithms",
-      "anchor": "m5"
+      "anchor": "m6"
      }
     ]
    },
@@ -1965,22 +1746,22 @@
     "added": false,
     "lessons": [
      {
-      "title": "Gradient Boosting",
-      "type": "Video",
+      "title": "AdaBoost",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Gradient Boosting (Deep Dive)",
+      "title": "Gradient Boosting",
       "type": "Article",
       "added": false
      },
      {
       "title": "XGBoost",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "XGBoost (Deep Dive)",
+      "title": "Stacking and Blending",
       "type": "Article",
       "added": false
      },
@@ -1997,21 +1778,26 @@
     "lessons": [
      {
       "title": "What is Clustering?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is Clustering? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "K-Means",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "K-Means (Deep Dive)",
+      "title": "K-Means from Scratch",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Hierarchical Clustering",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "DBSCAN",
       "type": "Article",
       "added": false
      },
@@ -2024,26 +1810,26 @@
     "prerequisites": [
      {
       "course": "Feature Engineering and EDA",
-      "slug": "09-feature-engineering-and-eda",
+      "slug": "feature-engineering-and-eda",
       "module": "Feature Transformation and Selection",
-      "anchor": "m3"
+      "anchor": "m6"
      }
     ]
    }
   ],
   "module_count": 4,
-  "lesson_count": 15,
-  "hours": 5,
+  "lesson_count": 17,
+  "hours": 8,
   "prerequisites": [
    {
     "course": "Machine Learning Fundamentals",
-    "slug": "10-machine-learning-fundamentals"
+    "slug": "machine-learning-fundamentals"
    }
   ]
  },
  {
   "id": 12,
-  "slug": "12-mlops-with-mlflow",
+  "slug": "mlops-with-mlflow",
   "track": "Track 3 · Machine Learning",
   "title": "MLOps with MLflow",
   "level": "Advanced",
@@ -2068,21 +1854,11 @@
     "lessons": [
      {
       "title": "What is MLflow?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is MLflow? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Installing and Setting Up MLflow",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Installing and Setting Up MLflow (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -2094,41 +1870,21 @@
     "lessons": [
      {
       "title": "Logging Params, Metrics and Artifacts",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Logging Params, Metrics and Artifacts (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Artifact Management",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Artifact Management (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Autologging",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Autologging (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Analysing and Visualising Runs",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Analysing and Visualising Runs (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -2141,7 +1897,7 @@
     "prerequisites": [
      {
       "course": "Machine Learning Fundamentals",
-      "slug": "10-machine-learning-fundamentals",
+      "slug": "machine-learning-fundamentals",
       "module": "Regression",
       "anchor": "m3"
      }
@@ -2153,31 +1909,16 @@
     "lessons": [
      {
       "title": "Model Registry",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Model Registry (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Model Packaging",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Model Packaging (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Lifecycle Stages and Transitions",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Lifecycle Stages and Transitions (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -2189,31 +1930,16 @@
     "lessons": [
      {
       "title": "Real-Time Serving and Local Deployment",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Real-Time Serving and Local Deployment (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Containerisation",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Containerisation (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Cloud and Orchestration",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Cloud and Orchestration (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -2226,25 +1952,25 @@
    }
   ],
   "module_count": 5,
-  "lesson_count": 27,
-  "hours": 9,
+  "lesson_count": 15,
+  "hours": 7,
   "prerequisites": [
    {
     "course": "Machine Learning Fundamentals",
-    "slug": "10-machine-learning-fundamentals"
+    "slug": "machine-learning-fundamentals"
    }
   ]
  },
  {
   "id": 13,
-  "slug": "13-production-apis-with-fastapi",
+  "slug": "production-apis-with-fastapi",
   "track": "Track 4 · Production Engineering and Big Data",
   "title": "Production APIs with FastAPI",
   "level": "Intermediate",
   "syllabus_modules": [
    14
   ],
-  "description": "Build production-grade APIs with FastAPI, Pydantic validation, routers, error handling and OpenAPI docs.",
+  "description": "Build production-grade APIs with FastAPI: endpoints, Pydantic validation, serving ML models, Docker and AWS deployment.",
   "modules": [
    {
     "title": "Start Here",
@@ -2257,36 +1983,36 @@
     ]
    },
    {
-    "title": "FastAPI Fundamentals",
+    "title": "APIs and FastAPI Fundamentals",
     "added": false,
     "lessons": [
      {
-      "title": "What is FastAPI and Why Use It?",
-      "type": "Video",
+      "title": "What is an API?",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "What is FastAPI and Why Use It? (Deep Dive)",
+      "title": "Why Machine Learning Needs APIs",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "What is FastAPI and Why Use It?",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Sync vs Async in FastAPI",
       "type": "Article",
       "added": false
      },
      {
       "title": "Project Structure and Hello World",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Project Structure and Hello World (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "HTTP Methods: GET, POST, PUT, DELETE",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "HTTP Methods: GET, POST, PUT, DELETE (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -2298,26 +2024,52 @@
     ]
    },
    {
+    "title": "Endpoints in Depth",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Path and Query Parameters",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Request Bodies and POST Endpoints",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Update and Delete Endpoints",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: A complete CRUD API",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
     "title": "Validation and Schemas",
     "added": false,
     "lessons": [
      {
       "title": "Pydantic Models",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Pydantic Models (Deep Dive)",
+      "title": "Pydantic Field Validators and Computed Fields",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Response Models",
       "type": "Article",
       "added": false
      },
      {
       "title": "Handling Validation Errors",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Handling Validation Errors (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -2325,7 +2077,7 @@
     "prerequisites": [
      {
       "course": "Advanced Python Programming",
-      "slug": "02-advanced-python-programming",
+      "slug": "advanced-python-programming",
       "module": "Object-Oriented Programming",
       "anchor": "m2"
      }
@@ -2337,41 +2089,50 @@
     "lessons": [
      {
       "title": "Errors and Status Codes",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Errors and Status Codes (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Configuration and Environment Variables",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Configuration and Environment Variables (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Dependency Injection and Routers",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Dependency Injection and Routers (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "OpenAPI and Swagger Docs",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "OpenAPI and Swagger Docs (Deep Dive)",
+      "title": "Health Checks and API Versioning",
+      "type": "Article",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Advanced Python Programming",
+      "slug": "advanced-python-programming",
+      "module": "Modules and Exceptions",
+      "anchor": "m4"
+     }
+    ]
+   },
+   {
+    "title": "Serving Machine Learning Models",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Serving a Trained Model with FastAPI",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "A Streamlit Front End for Your API",
       "type": "Article",
       "added": false
      },
@@ -2380,30 +2141,48 @@
       "type": "Lab",
       "added": false
      }
-    ],
-    "prerequisites": [
+    ]
+   },
+   {
+    "title": "Docker and Cloud Deployment",
+    "added": false,
+    "lessons": [
      {
-      "course": "Advanced Python Programming",
-      "slug": "02-advanced-python-programming",
-      "module": "Modules and Exceptions",
-      "anchor": "m4"
+      "title": "Docker Fundamentals",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Dockerising a FastAPI App",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Deploying to AWS EC2",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Ship your ML API to AWS",
+      "type": "Lab",
+      "added": false
      }
     ]
    }
   ],
-  "module_count": 4,
-  "lesson_count": 21,
-  "hours": 7,
+  "module_count": 7,
+  "lesson_count": 28,
+  "hours": 13,
   "prerequisites": [
    {
     "course": "Advanced Python Programming",
-    "slug": "02-advanced-python-programming"
+    "slug": "advanced-python-programming"
    }
   ]
  },
  {
   "id": 14,
-  "slug": "14-big-data-with-pyspark",
+  "slug": "big-data-with-pyspark",
   "track": "Track 4 · Production Engineering and Big Data",
   "title": "Big Data with PySpark",
   "level": "Advanced",
@@ -2428,31 +2207,16 @@
     "lessons": [
      {
       "title": "Why Single Machines Fail",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Why Single Machines Fail (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Distributed Computing and Spark",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Distributed Computing and Spark (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Driver, Executors and Cluster Manager",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Driver, Executors and Cluster Manager (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -2464,41 +2228,21 @@
     "lessons": [
      {
       "title": "From pandas to PySpark",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "From pandas to PySpark (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Filters, Aggregations and Joins",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Filters, Aggregations and Joins (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Spark SQL",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Spark SQL (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Complex Data Types",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Complex Data Types (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -2511,13 +2255,13 @@
     "prerequisites": [
      {
       "course": "Numerical Computing and Data Analysis",
-      "slug": "03-numerical-computing-and-data-analysis",
+      "slug": "numerical-computing-and-data-analysis",
       "module": "pandas Core",
       "anchor": "m3"
      },
      {
       "course": "Databases: SQL and NoSQL",
-      "slug": "05-databases-sql-and-nosql",
+      "slug": "databases-sql-and-nosql",
       "module": "Relational Databases and SQL",
       "anchor": "m2"
      }
@@ -2529,31 +2273,16 @@
     "lessons": [
      {
       "title": "Lazy Evaluation: Transformations vs Actions",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Lazy Evaluation: Transformations vs Actions (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Reading the Spark UI",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Reading the Spark UI (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Spot Instances and Cost",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Spot Instances and Cost (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -2561,29 +2290,29 @@
    }
   ],
   "module_count": 4,
-  "lesson_count": 22,
-  "hours": 7,
+  "lesson_count": 12,
+  "hours": 5,
   "prerequisites": [
    {
     "course": "Numerical Computing and Data Analysis",
-    "slug": "03-numerical-computing-and-data-analysis"
+    "slug": "numerical-computing-and-data-analysis"
    },
    {
     "course": "Databases: SQL and NoSQL",
-    "slug": "05-databases-sql-and-nosql"
+    "slug": "databases-sql-and-nosql"
    }
   ]
  },
  {
   "id": 15,
-  "slug": "15-nlp-for-machine-learning",
+  "slug": "nlp-for-machine-learning",
   "track": "Track 5 · Deep Learning and NLP",
   "title": "NLP for Machine Learning",
   "level": "Intermediate",
   "syllabus_modules": [
    16
   ],
-  "description": "Turn text into features: tokenisation, lemmatisation, POS tagging, NER, bag of words, TF-IDF and Word2Vec.",
+  "description": "Turn text into features and predictions: the NLP pipeline, preprocessing, POS tagging, TF-IDF, Word2Vec and text classification.",
   "modules": [
    {
     "title": "Start Here",
@@ -2601,21 +2330,21 @@
     "lessons": [
      {
       "title": "What is NLP?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is NLP? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "NLP Terminology and Roadmap",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "NLP Terminology and Roadmap (Deep Dive)",
+      "title": "The End-to-End NLP Pipeline",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Data Acquisition for NLP",
       "type": "Article",
       "added": false
      }
@@ -2627,31 +2356,21 @@
     "lessons": [
      {
       "title": "Tokenisation",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Tokenisation (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Stemming, Lemmatisation and Stopwords",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Stemming, Lemmatisation and Stopwords (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "POS Tagging and Named Entity Recognition",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "POS Tagging and Named Entity Recognition (Deep Dive)",
+      "title": "Hidden Markov Models and the Viterbi Algorithm",
       "type": "Article",
       "added": false
      },
@@ -2667,22 +2386,17 @@
     "added": false,
     "lessons": [
      {
-      "title": "One-Hot, Bag of Words and N-Grams",
-      "type": "Video",
+      "title": "Common Terms: Corpus, Vocabulary, Document",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "One-Hot, Bag of Words and N-Grams (Deep Dive)",
+      "title": "One-Hot, Bag of Words and N-Grams",
       "type": "Article",
       "added": false
      },
      {
       "title": "TF-IDF",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "TF-IDF (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -2695,9 +2409,9 @@
     "prerequisites": [
      {
       "course": "Feature Engineering and EDA",
-      "slug": "09-feature-engineering-and-eda",
+      "slug": "feature-engineering-and-eda",
       "module": "Feature Transformation and Selection",
-      "anchor": "m3"
+      "anchor": "m6"
      }
     ]
    },
@@ -2707,54 +2421,85 @@
     "lessons": [
      {
       "title": "What are Word Vectors?",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "What are Word Vectors? (Deep Dive)",
+      "title": "The Distributional Hypothesis",
       "type": "Article",
       "added": false
      },
      {
       "title": "Word2Vec",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Word2Vec (Deep Dive)",
+      "title": "CBOW and Skip-Gram",
       "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Train Word2Vec on your own text",
+      "type": "Lab",
       "added": false
      }
     ],
     "prerequisites": [
      {
       "course": "Numerical Computing and Data Analysis",
-      "slug": "03-numerical-computing-and-data-analysis",
+      "slug": "numerical-computing-and-data-analysis",
       "module": "NumPy Essentials",
       "anchor": "m2"
      },
      {
       "course": "Statistics Foundations",
-      "slug": "07-statistics-foundations",
+      "slug": "statistics-foundations",
       "module": "Data Behaviour and Relationships",
       "anchor": "m4"
      }
     ]
+   },
+   {
+    "title": "Text Classification",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Text Classification Pipelines",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Classic ML vs Embeddings for Text Classification",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Deploying NLP Systems",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Project: Quora Duplicate Question Detection",
+      "type": "Lab",
+      "added": false
+     }
+    ]
    }
   ],
-  "module_count": 5,
-  "lesson_count": 21,
-  "hours": 7,
+  "module_count": 6,
+  "lesson_count": 23,
+  "hours": 11,
   "prerequisites": [
    {
     "course": "Machine Learning Fundamentals",
-    "slug": "10-machine-learning-fundamentals"
+    "slug": "machine-learning-fundamentals"
    }
   ]
  },
  {
   "id": 16,
-  "slug": "16-deep-learning-foundations",
+  "slug": "deep-learning-foundations",
   "track": "Track 5 · Deep Learning and NLP",
   "title": "Deep Learning Foundations",
   "level": "Intermediate",
@@ -2779,21 +2524,11 @@
     "lessons": [
      {
       "title": "What is Deep Learning?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is Deep Learning? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Why Deep Learning Took Off",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Why Deep Learning Took Off (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -2805,41 +2540,21 @@
     "lessons": [
      {
       "title": "The Perceptron",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "The Perceptron (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Artificial Neural Networks",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Artificial Neural Networks (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Forward and Backward Propagation",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Forward and Backward Propagation (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "The Chain Rule in Backprop",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "The Chain Rule in Backprop (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -2852,15 +2567,15 @@
     "prerequisites": [
      {
       "course": "Machine Learning Fundamentals",
-      "slug": "10-machine-learning-fundamentals",
+      "slug": "machine-learning-fundamentals",
       "module": "Regression",
       "anchor": "m3"
      },
      {
       "course": "Machine Learning Fundamentals",
-      "slug": "10-machine-learning-fundamentals",
+      "slug": "machine-learning-fundamentals",
       "module": "Classification",
-      "anchor": "m4"
+      "anchor": "m5"
      }
     ]
    },
@@ -2870,41 +2585,21 @@
     "lessons": [
      {
       "title": "Vanishing and Exploding Gradients",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Vanishing and Exploding Gradients (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Activation Functions",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Activation Functions (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Loss Functions",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Loss Functions (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Optimisers",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Optimisers (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -2916,31 +2611,16 @@
     "lessons": [
      {
       "title": "Weight Initialisation",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Weight Initialisation (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Dropout",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Dropout (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Batch Normalisation",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Batch Normalisation (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -2952,31 +2632,16 @@
     "lessons": [
      {
       "title": "Keras Fundamentals",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Keras Fundamentals (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "PyTorch Fundamentals",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "PyTorch Fundamentals (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Visualising Network Architecture and Training",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Visualising Network Architecture and Training (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -2989,18 +2654,208 @@
    }
   ],
   "module_count": 6,
-  "lesson_count": 35,
-  "hours": 11,
+  "lesson_count": 19,
+  "hours": 8,
   "prerequisites": [
    {
     "course": "Machine Learning Fundamentals",
-    "slug": "10-machine-learning-fundamentals"
+    "slug": "machine-learning-fundamentals"
    }
   ]
  },
  {
   "id": 17,
-  "slug": "17-sequence-models-attention-and-transformers",
+  "slug": "deep-learning-with-pytorch",
+  "track": "Track 5 · Deep Learning and NLP",
+  "title": "Deep Learning with PyTorch",
+  "level": "Intermediate",
+  "syllabus_modules": [
+   "PyTorch"
+  ],
+  "description": "Go hands-on with PyTorch: tensors, autograd, training loops, DataLoaders, GPUs, CNNs, transfer learning, RNNs and LSTMs.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "PyTorch Basics",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Why PyTorch? History, Features and Ecosystem",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "PyTorch vs TensorFlow and Other Frameworks",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Tensors in PyTorch",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Tensor Operations",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Autograd: Automatic Differentiation",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Gradients by hand vs autograd",
+      "type": "Lab",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Deep Learning Foundations",
+      "slug": "deep-learning-foundations",
+      "module": "Frameworks",
+      "anchor": "m6"
+     }
+    ]
+   },
+   {
+    "title": "The Training Pipeline",
+    "added": false,
+    "lessons": [
+     {
+      "title": "A Training Loop from Scratch",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "The torch.nn Module",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "torch.optim and Loss Functions",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Dataset and DataLoader",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Rebuild the training loop with nn and DataLoader",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Building and Improving Networks",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Building an ANN for Fashion-MNIST",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Training on a GPU",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Reducing Overfitting: Dropout, Batch Norm and Weight Decay",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Hyperparameter Tuning with Optuna",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Push Fashion-MNIST accuracy from 83% to 89%",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "CNNs and Transfer Learning",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Convolutional Neural Networks in PyTorch",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Transfer Learning",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: CNN for Fashion-MNIST",
+      "type": "Lab",
+      "added": false
+     },
+     {
+      "title": "Lab: Fine-tune a pretrained model",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Sequence Models in PyTorch",
+    "added": false,
+    "lessons": [
+     {
+      "title": "RNNs in PyTorch",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "LSTMs in PyTorch",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Question answering with an RNN",
+      "type": "Lab",
+      "added": false
+     },
+     {
+      "title": "Lab: Next-word prediction with an LSTM",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   }
+  ],
+  "module_count": 6,
+  "lesson_count": 25,
+  "hours": 12,
+  "prerequisites": [
+   {
+    "course": "Deep Learning Foundations",
+    "slug": "deep-learning-foundations"
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "slug": "sequence-models-attention-and-transformers",
   "track": "Track 5 · Deep Learning and NLP",
   "title": "Sequence Models, Attention and Transformers",
   "level": "Advanced",
@@ -3025,21 +2880,11 @@
     "lessons": [
      {
       "title": "Recurrent Neural Networks",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Recurrent Neural Networks (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Sequence Modelling and Context",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Sequence Modelling and Context (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -3047,13 +2892,13 @@
     "prerequisites": [
      {
       "course": "Deep Learning Foundations",
-      "slug": "16-deep-learning-foundations",
+      "slug": "deep-learning-foundations",
       "module": "Neural Networks",
       "anchor": "m3"
      },
      {
       "course": "NLP for Machine Learning",
-      "slug": "15-nlp-for-machine-learning",
+      "slug": "nlp-for-machine-learning",
       "module": "Word Embeddings",
       "anchor": "m5"
      }
@@ -3065,21 +2910,11 @@
     "lessons": [
      {
       "title": "LSTMs",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "LSTMs (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "GRUs",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "GRUs (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -3096,31 +2931,16 @@
     "lessons": [
      {
       "title": "What is Attention?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is Attention? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Encoder-Decoder Models",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Encoder-Decoder Models (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Self-Attention",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Self-Attention (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -3132,31 +2952,16 @@
     "lessons": [
      {
       "title": "The Transformer Architecture",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "The Transformer Architecture (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "BERT",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "BERT (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "GPT",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "GPT (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -3169,29 +2974,29 @@
    }
   ],
   "module_count": 5,
-  "lesson_count": 23,
-  "hours": 8,
+  "lesson_count": 13,
+  "hours": 6,
   "prerequisites": [
    {
     "course": "Deep Learning Foundations",
-    "slug": "16-deep-learning-foundations"
+    "slug": "deep-learning-foundations"
    },
    {
     "course": "NLP for Machine Learning",
-    "slug": "15-nlp-for-machine-learning"
+    "slug": "nlp-for-machine-learning"
    }
   ]
  },
  {
-  "id": 18,
-  "slug": "18-generative-ai-and-llm-foundations",
+  "id": 19,
+  "slug": "generative-ai-and-llm-foundations",
   "track": "Track 6 · Generative AI",
   "title": "Generative AI and LLM Foundations",
   "level": "Beginner",
   "syllabus_modules": [
    20
   ],
-  "description": "What generative AI is, how LLMs work, and how to use them well: tokens, prompting and structured output.",
+  "description": "What generative AI is, how LLMs work, and how to use them well: foundation models, tokens, prompting and structured output.",
   "modules": [
    {
     "title": "Start Here",
@@ -3209,31 +3014,26 @@
     "lessons": [
      {
       "title": "What is Generative AI?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is Generative AI? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "How Generative Models Work",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "How Generative Models Work (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Generative vs Discriminative Models",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Generative vs Discriminative Models (Deep Dive)",
+      "title": "The GenAI Roadmap: Builder vs User",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Foundation Models",
       "type": "Article",
       "added": false
      }
@@ -3245,41 +3045,21 @@
     "lessons": [
      {
       "title": "What is a Large Language Model?",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "What is a Large Language Model? (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "Tokens and Context Windows",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Tokens and Context Windows (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "Temperature and Model Settings",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Temperature and Model Settings (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "Where LLMs Fail",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Where LLMs Fail (Deep Dive)",
       "type": "Article",
       "added": true
      },
@@ -3292,7 +3072,7 @@
     "prerequisites": [
      {
       "course": "Sequence Models, Attention and Transformers",
-      "slug": "17-sequence-models-attention-and-transformers",
+      "slug": "sequence-models-attention-and-transformers",
       "module": "Transformers",
       "anchor": "m5"
      }
@@ -3304,31 +3084,16 @@
     "lessons": [
      {
       "title": "Prompting Fundamentals",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Prompting Fundamentals (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "System Prompts and Roles",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "System Prompts and Roles (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "Structured JSON Output",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Structured JSON Output (Deep Dive)",
       "type": "Article",
       "added": true
      },
@@ -3341,9 +3106,9 @@
     "prerequisites": [
      {
       "course": "Production APIs with FastAPI",
-      "slug": "13-production-apis-with-fastapi",
+      "slug": "production-apis-with-fastapi",
       "module": "Validation and Schemas",
-      "anchor": "m3"
+      "anchor": "m4"
      }
     ]
    },
@@ -3353,31 +3118,16 @@
     "lessons": [
      {
       "title": "Recent Breakthroughs in GenAI",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Recent Breakthroughs in GenAI (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "GenAI Applications Across Industries",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "GenAI Applications Across Industries (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "The GenAI Project Lifecycle",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "The GenAI Project Lifecycle (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -3385,22 +3135,22 @@
    }
   ],
   "module_count": 5,
-  "lesson_count": 29,
-  "hours": 10,
+  "lesson_count": 18,
+  "hours": 8,
   "prerequisites": [
    {
     "course": "Sequence Models, Attention and Transformers",
-    "slug": "17-sequence-models-attention-and-transformers"
+    "slug": "sequence-models-attention-and-transformers"
    },
    {
     "course": "Advanced Python Programming",
-    "slug": "02-advanced-python-programming"
+    "slug": "advanced-python-programming"
    }
   ]
  },
  {
-  "id": 19,
-  "slug": "19-vector-databases-for-ai",
+  "id": 20,
+  "slug": "vector-databases-for-ai",
   "track": "Track 6 · Generative AI",
   "title": "Vector Databases for AI",
   "level": "Intermediate",
@@ -3425,21 +3175,16 @@
     "lessons": [
      {
       "title": "Embeddings and Similarity Search",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Embeddings and Similarity Search (Deep Dive)",
+      "title": "Semantic Search Explained",
       "type": "Article",
       "added": false
      },
      {
       "title": "Vector vs SQL vs NoSQL Databases",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Vector vs SQL vs NoSQL Databases (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -3447,13 +3192,13 @@
     "prerequisites": [
      {
       "course": "NLP for Machine Learning",
-      "slug": "15-nlp-for-machine-learning",
+      "slug": "nlp-for-machine-learning",
       "module": "Word Embeddings",
       "anchor": "m5"
      },
      {
       "course": "Databases: SQL and NoSQL",
-      "slug": "05-databases-sql-and-nosql",
+      "slug": "databases-sql-and-nosql",
       "module": "Relational Databases and SQL",
       "anchor": "m2"
      }
@@ -3465,21 +3210,11 @@
     "lessons": [
      {
       "title": "Storage and Indexing (HNSW, IVF)",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Storage and Indexing (HNSW, IVF) (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "In-Memory, On-Disk and Cloud Vector DBs",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "In-Memory, On-Disk and Cloud Vector DBs (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -3491,51 +3226,26 @@
     "lessons": [
      {
       "title": "Chroma",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Chroma (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "FAISS",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "FAISS (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Qdrant",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Qdrant (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Pinecone",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Pinecone (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "LanceDB",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "LanceDB (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -3552,21 +3262,11 @@
     "lessons": [
      {
       "title": "Vector Search in MongoDB and Cassandra",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Vector Search in MongoDB and Cassandra (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Embedding-Based Retrieval Pipelines",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Embedding-Based Retrieval Pipelines (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -3579,7 +3279,7 @@
     "prerequisites": [
      {
       "course": "Databases: SQL and NoSQL",
-      "slug": "05-databases-sql-and-nosql",
+      "slug": "databases-sql-and-nosql",
       "module": "NoSQL with MongoDB Atlas",
       "anchor": "m4"
      }
@@ -3587,29 +3287,29 @@
    }
   ],
   "module_count": 5,
-  "lesson_count": 25,
-  "hours": 8,
+  "lesson_count": 15,
+  "hours": 7,
   "prerequisites": [
    {
     "course": "Generative AI and LLM Foundations",
-    "slug": "18-generative-ai-and-llm-foundations"
+    "slug": "generative-ai-and-llm-foundations"
    },
    {
     "course": "Databases: SQL and NoSQL",
-    "slug": "05-databases-sql-and-nosql"
+    "slug": "databases-sql-and-nosql"
    }
   ]
  },
  {
-  "id": 20,
-  "slug": "20-langchain-complete-guide",
+  "id": 21,
+  "slug": "langchain-complete-guide",
   "track": "Track 6 · Generative AI",
   "title": "LangChain Complete Guide",
   "level": "Intermediate",
   "syllabus_modules": [
    22
   ],
-  "description": "Build LLM apps with LangChain: chat models, prompts, tools, LCEL chains, memory, LangSmith and LangServe.",
+  "description": "Build LLM apps with LangChain: models, prompts, structured output, parsers, chains, runnables, tools, tool calling and agents.",
   "modules": [
    {
     "title": "Start Here",
@@ -3627,57 +3327,73 @@
     "lessons": [
      {
       "title": "What is LangChain?",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "What is LangChain? (Deep Dive)",
+      "title": "LangChain Components",
       "type": "Article",
       "added": false
      },
      {
       "title": "Data Connectors and API Integrations",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Data Connectors and API Integrations (Deep Dive)",
+      "title": "Setting Up a LangChain Project and API Keys",
       "type": "Article",
       "added": false
      }
     ]
    },
    {
-    "title": "Building with LangChain",
+    "title": "Models",
     "added": false,
     "lessons": [
      {
-      "title": "Chat Models",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Chat Models (Deep Dive)",
+      "title": "LLMs vs Chat Models",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Tools and Toolkits",
-      "type": "Video",
+      "title": "Chat Models",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Tools and Toolkits (Deep Dive)",
+      "title": "Embedding Models",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Open-Source Models with Hugging Face",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Prompts",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Static vs Dynamic Prompts",
       "type": "Article",
       "added": false
      },
      {
       "title": "Prompt Templates",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Prompt Templates (Deep Dive)",
+      "title": "ChatPromptTemplate and Messages",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "MessagesPlaceholder and Chat History",
       "type": "Article",
       "added": false
      },
@@ -3686,47 +3402,94 @@
       "type": "Lab",
       "added": false
      }
+    ]
+   },
+   {
+    "title": "Structured Output and Output Parsers",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Why Structured Output Matters",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Structured Output with TypedDict",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Structured Output with Pydantic and JSON Schema",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "StrOutputParser",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "JsonOutputParser and StructuredOutputParser",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "PydanticOutputParser",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Extract structured data from reviews",
+      "type": "Lab",
+      "added": false
+     }
     ],
     "prerequisites": [
      {
       "course": "Generative AI and LLM Foundations",
-      "slug": "18-generative-ai-and-llm-foundations",
+      "slug": "generative-ai-and-llm-foundations",
       "module": "Prompting and Structured Output",
+      "anchor": "m4"
+     },
+     {
+      "course": "Production APIs with FastAPI",
+      "slug": "production-apis-with-fastapi",
+      "module": "Validation and Schemas",
       "anchor": "m4"
      }
     ]
    },
    {
-    "title": "Chains and Execution",
+    "title": "Chains and Runnables",
     "added": false,
     "lessons": [
      {
       "title": "Chains, LCEL and Runnables",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Chains, LCEL and Runnables (Deep Dive)",
+      "title": "Sequential, Parallel and Conditional Chains",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Why Runnables Exist",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "RunnableSequence, Parallel, Passthrough, Lambda and Branch",
       "type": "Article",
       "added": false
      },
      {
       "title": "Synthetic Data Generation",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Synthetic Data Generation (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Memory Management",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Memory Management (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -3738,36 +3501,62 @@
     ]
    },
    {
+    "title": "Tools and Tool Calling",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Tools and Toolkits",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Built-in Tools",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Custom Tools: @tool, StructuredTool and BaseTool",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Tool Calling with bind_tools",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Injected Tool Arguments",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Currency converter with tool calling",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
     "title": "Agents, Monitoring and Deployment",
     "added": false,
     "lessons": [
      {
       "title": "LangChain Agents",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "LangChain Agents (Deep Dive)",
+      "title": "ReAct Agents with AgentExecutor",
       "type": "Article",
       "added": false
      },
      {
       "title": "LangSmith Monitoring",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "LangSmith Monitoring (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "LangServe Deployment",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "LangServe Deployment (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -3780,33 +3569,33 @@
     "prerequisites": [
      {
       "course": "Production APIs with FastAPI",
-      "slug": "13-production-apis-with-fastapi",
-      "module": "FastAPI Fundamentals",
+      "slug": "production-apis-with-fastapi",
+      "module": "APIs and FastAPI Fundamentals",
       "anchor": "m2"
      }
     ]
    }
   ],
-  "module_count": 5,
-  "lesson_count": 26,
-  "hours": 9,
+  "module_count": 8,
+  "lesson_count": 39,
+  "hours": 17,
   "prerequisites": [
    {
     "course": "Generative AI and LLM Foundations",
-    "slug": "18-generative-ai-and-llm-foundations"
+    "slug": "generative-ai-and-llm-foundations"
    }
   ]
  },
  {
-  "id": 21,
-  "slug": "21-retrieval-augmented-generation-rag",
+  "id": 22,
+  "slug": "retrieval-augmented-generation-rag",
   "track": "Track 6 · Generative AI",
   "title": "Retrieval-Augmented Generation (RAG)",
   "level": "Intermediate",
   "syllabus_modules": [
    23
   ],
-  "description": "Ground LLMs in your own data: the RAG pipeline, chunking, hybrid search, reranking, memory and multimodal RAG.",
+  "description": "Ground LLMs in your own data: loaders, splitters, vector stores, retrievers, the RAG pipeline, hybrid search, reranking and multimodal RAG.",
   "modules": [
    {
     "title": "Start Here",
@@ -3824,21 +3613,16 @@
     "lessons": [
      {
       "title": "What is RAG?",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "What is RAG? (Deep Dive)",
+      "title": "RAG vs Fine-Tuning vs Prompting",
       "type": "Article",
       "added": false
      },
      {
       "title": "The RAG Pipeline End to End",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "The RAG Pipeline End to End (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -3851,15 +3635,56 @@
     "prerequisites": [
      {
       "course": "Vector Databases for AI",
-      "slug": "19-vector-databases-for-ai",
+      "slug": "vector-databases-for-ai",
       "module": "Introduction to Vector Databases",
       "anchor": "m2"
      },
      {
       "course": "Generative AI and LLM Foundations",
-      "slug": "18-generative-ai-and-llm-foundations",
+      "slug": "generative-ai-and-llm-foundations",
       "module": "How LLMs Work",
       "anchor": "m3"
+     }
+    ]
+   },
+   {
+    "title": "RAG Building Blocks in LangChain",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Document Loaders",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "PDF, Web, CSV and Directory Loaders",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "load() vs lazy_load()",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Text Splitters",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Vector Stores in LangChain",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Retrievers",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "MMR, Multi-Query and Contextual Compression Retrievers",
+      "type": "Article",
+      "added": false
      }
     ]
    },
@@ -3869,51 +3694,26 @@
     "lessons": [
      {
       "title": "RAG with LangChain and a Vector DB",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "RAG with LangChain and a Vector DB (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Chunking Strategies",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Chunking Strategies (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "Retrieval Methods",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Retrieval Methods (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Hybrid Search",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Hybrid Search (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Reranking",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Reranking (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -3921,18 +3721,23 @@
       "title": "Lab: Chat with a PDF",
       "type": "Lab",
       "added": false
+     },
+     {
+      "title": "Project: Chat with Any YouTube Video",
+      "type": "Lab",
+      "added": false
      }
     ],
     "prerequisites": [
      {
       "course": "LangChain Complete Guide",
-      "slug": "20-langchain-complete-guide",
-      "module": "Chains and Execution",
-      "anchor": "m4"
+      "slug": "langchain-complete-guide",
+      "module": "Chains and Runnables",
+      "anchor": "m6"
      },
      {
       "course": "Vector Databases for AI",
-      "slug": "19-vector-databases-for-ai",
+      "slug": "vector-databases-for-ai",
       "module": "Tools",
       "anchor": "m4"
      }
@@ -3944,21 +3749,11 @@
     "lessons": [
      {
       "title": "Memory in RAG Systems",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Memory in RAG Systems (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Multimodal RAG",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Multimodal RAG (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -3971,30 +3766,30 @@
     "prerequisites": [
      {
       "course": "LangChain Complete Guide",
-      "slug": "20-langchain-complete-guide",
-      "module": "Chains and Execution",
-      "anchor": "m4"
+      "slug": "langchain-complete-guide",
+      "module": "Chains and Runnables",
+      "anchor": "m6"
      }
     ]
    }
   ],
-  "module_count": 4,
+  "module_count": 5,
   "lesson_count": 22,
-  "hours": 8,
+  "hours": 10,
   "prerequisites": [
    {
     "course": "Vector Databases for AI",
-    "slug": "19-vector-databases-for-ai"
+    "slug": "vector-databases-for-ai"
    },
    {
     "course": "LangChain Complete Guide",
-    "slug": "20-langchain-complete-guide"
+    "slug": "langchain-complete-guide"
    }
   ]
  },
  {
-  "id": 22,
-  "slug": "22-enterprise-llm-systems",
+  "id": 23,
+  "slug": "enterprise-llm-systems",
   "track": "Track 6 · Generative AI",
   "title": "Enterprise LLM Systems",
   "level": "Advanced",
@@ -4019,31 +3814,16 @@
     "lessons": [
      {
       "title": "The RAG Triad Metrics",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "The RAG Triad Metrics (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "LLM-as-a-Judge",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "LLM-as-a-Judge (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Turn-Based Evaluation with Ragas",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Turn-Based Evaluation with Ragas (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -4056,9 +3836,9 @@
     "prerequisites": [
      {
       "course": "Retrieval-Augmented Generation (RAG)",
-      "slug": "21-retrieval-augmented-generation-rag",
+      "slug": "retrieval-augmented-generation-rag",
       "module": "Implementing RAG",
-      "anchor": "m3"
+      "anchor": "m4"
      }
     ]
    },
@@ -4068,51 +3848,31 @@
     "lessons": [
      {
       "title": "Traces and Spans",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Traces and Spans (Deep Dive)",
+      "title": "LangSmith Setup and Zero-Code Tracing",
       "type": "Article",
       "added": false
      },
      {
       "title": "Intermediate Outputs and Analytics",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Intermediate Outputs and Analytics (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Feedback and Annotation Loops",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Feedback and Annotation Loops (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Prompt Optimisation Pipelines",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Prompt Optimisation Pipelines (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Low-Code Agent Tracing",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Low-Code Agent Tracing (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -4125,9 +3885,9 @@
     "prerequisites": [
      {
       "course": "LangChain Complete Guide",
-      "slug": "20-langchain-complete-guide",
+      "slug": "langchain-complete-guide",
       "module": "Agents, Monitoring and Deployment",
-      "anchor": "m5"
+      "anchor": "m8"
      }
     ]
    },
@@ -4137,51 +3897,26 @@
     "lessons": [
      {
       "title": "Limits of Vector RAG",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Limits of Vector RAG (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "PageIndex and Chunk-Free Segmentation",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "PageIndex and Chunk-Free Segmentation (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "The Document Tree Model",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "The Document Tree Model (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "The Iterative Search Loop",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "The Iterative Search Loop (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Deterministic Page Referencing",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Deterministic Page Referencing (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -4189,9 +3924,9 @@
     "prerequisites": [
      {
       "course": "Retrieval-Augmented Generation (RAG)",
-      "slug": "21-retrieval-augmented-generation-rag",
+      "slug": "retrieval-augmented-generation-rag",
       "module": "Implementing RAG",
-      "anchor": "m3"
+      "anchor": "m4"
      }
     ]
    },
@@ -4201,41 +3936,21 @@
     "lessons": [
      {
       "title": "What is an LLM Gateway?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is an LLM Gateway? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "OpenAI-Compatible Routing with Bifrost",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "OpenAI-Compatible Routing with Bifrost (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Drop-In SDK Replacement",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Drop-In SDK Replacement (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Automated Structured Fallbacks",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Automated Structured Fallbacks (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -4248,9 +3963,9 @@
     "prerequisites": [
      {
       "course": "Production APIs with FastAPI",
-      "slug": "13-production-apis-with-fastapi",
+      "slug": "production-apis-with-fastapi",
       "module": "Production Considerations",
-      "anchor": "m4"
+      "anchor": "m5"
      }
     ]
    },
@@ -4260,21 +3975,11 @@
     "lessons": [
      {
       "title": "Prompt Injection Explained",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Prompt Injection Explained (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "Input and Output Guardrails",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Input and Output Guardrails (Deep Dive)",
       "type": "Article",
       "added": true
      },
@@ -4287,26 +3992,26 @@
     "prerequisites": [
      {
       "course": "LangChain Complete Guide",
-      "slug": "20-langchain-complete-guide",
+      "slug": "langchain-complete-guide",
       "module": "Agents, Monitoring and Deployment",
-      "anchor": "m5"
+      "anchor": "m8"
      }
     ]
    }
   ],
   "module_count": 6,
-  "lesson_count": 43,
-  "hours": 15,
+  "lesson_count": 25,
+  "hours": 11,
   "prerequisites": [
    {
     "course": "Retrieval-Augmented Generation (RAG)",
-    "slug": "21-retrieval-augmented-generation-rag"
+    "slug": "retrieval-augmented-generation-rag"
    }
   ]
  },
  {
-  "id": 23,
-  "slug": "23-agentic-ai-fundamentals",
+  "id": 24,
+  "slug": "agentic-ai-fundamentals",
   "track": "Track 7 · Agentic AI",
   "title": "Agentic AI Fundamentals",
   "level": "Beginner",
@@ -4331,31 +4036,21 @@
     "lessons": [
      {
       "title": "What is an AI Agent?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is an AI Agent? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Agentic AI vs Traditional AI Agents",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Agentic AI vs Traditional AI Agents (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Agentic AI vs Generative AI",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Agentic AI vs Generative AI (Deep Dive)",
+      "title": "Agentic AI Use Cases",
       "type": "Article",
       "added": false
      }
@@ -4363,7 +4058,7 @@
     "prerequisites": [
      {
       "course": "Generative AI and LLM Foundations",
-      "slug": "18-generative-ai-and-llm-foundations",
+      "slug": "generative-ai-and-llm-foundations",
       "module": "How LLMs Work",
       "anchor": "m3"
      }
@@ -4375,31 +4070,16 @@
     "lessons": [
      {
       "title": "The Agent Loop: Decide, Act, Observe",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "The Agent Loop: Decide, Act, Observe (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "Workflows vs Agents",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Workflows vs Agents (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "Anatomy of an Agent",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Anatomy of an Agent (Deep Dive)",
       "type": "Article",
       "added": true
      },
@@ -4416,31 +4096,16 @@
     "lessons": [
      {
       "title": "What is a Tool?",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "What is a Tool? (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "Function Calling Step by Step",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Function Calling Step by Step (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "Designing Good Tools",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Designing Good Tools (Deep Dive)",
       "type": "Article",
       "added": true
      },
@@ -4453,7 +4118,7 @@
     "prerequisites": [
      {
       "course": "Generative AI and LLM Foundations",
-      "slug": "18-generative-ai-and-llm-foundations",
+      "slug": "generative-ai-and-llm-foundations",
       "module": "Prompting and Structured Output",
       "anchor": "m4"
      }
@@ -4465,21 +4130,11 @@
     "lessons": [
      {
       "title": "ReAct",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "ReAct (Deep Dive)",
       "type": "Article",
       "added": true
      },
      {
       "title": "Planning and Reflection",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Planning and Reflection (Deep Dive)",
       "type": "Article",
       "added": true
      }
@@ -4491,31 +4146,16 @@
     "lessons": [
      {
       "title": "What are Multi-Agent Systems?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What are Multi-Agent Systems? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Overview of Agentic Frameworks",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Overview of Agentic Frameworks (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Trends in Multi-Agent AI",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Trends in Multi-Agent AI (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -4523,33 +4163,33 @@
     "prerequisites": [
      {
       "course": "LangChain Complete Guide",
-      "slug": "20-langchain-complete-guide",
+      "slug": "langchain-complete-guide",
       "module": "Agents, Monitoring and Deployment",
-      "anchor": "m5"
+      "anchor": "m8"
      }
     ]
    }
   ],
   "module_count": 6,
-  "lesson_count": 31,
-  "hours": 10,
+  "lesson_count": 18,
+  "hours": 8,
   "prerequisites": [
    {
     "course": "Generative AI and LLM Foundations",
-    "slug": "18-generative-ai-and-llm-foundations"
+    "slug": "generative-ai-and-llm-foundations"
    }
   ]
  },
  {
-  "id": 24,
-  "slug": "24-langgraph-fundamentals",
+  "id": 25,
+  "slug": "langgraph-fundamentals",
   "track": "Track 7 · Agentic AI",
   "title": "LangGraph Fundamentals",
   "level": "Intermediate",
   "syllabus_modules": [
    26
   ],
-  "description": "Build agent workflows as graphs: nodes, edges, chains, routers, agents with memory and LangGraph Studio.",
+  "description": "Build agent workflows as graphs: core concepts, sequential, parallel, conditional and looping workflows, chatbots, persistence, tools and subgraphs.",
   "modules": [
    {
     "title": "Start Here",
@@ -4566,32 +4206,32 @@
     "added": false,
     "lessons": [
      {
-      "title": "What is LangGraph?",
-      "type": "Video",
+      "title": "LangChain vs LangGraph: Why LangGraph Exists",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "What is LangGraph? (Deep Dive)",
+      "title": "What is LangGraph?",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Graphs, Nodes, Edges and State",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "The LangGraph Execution Model",
       "type": "Article",
       "added": false
      },
      {
       "title": "Simple Graphs and Node Connections",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Simple Graphs and Node Connections (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "LangGraph Studio",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "LangGraph Studio (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -4604,15 +4244,51 @@
     "prerequisites": [
      {
       "course": "Agentic AI Fundamentals",
-      "slug": "23-agentic-ai-fundamentals",
+      "slug": "agentic-ai-fundamentals",
       "module": "The Agent Loop",
       "anchor": "m3"
      },
      {
       "course": "LangChain Complete Guide",
-      "slug": "20-langchain-complete-guide",
-      "module": "Building with LangChain",
-      "anchor": "m3"
+      "slug": "langchain-complete-guide",
+      "module": "Chains and Runnables",
+      "anchor": "m6"
+     }
+    ]
+   },
+   {
+    "title": "Workflow Patterns in LangGraph",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Sequential Workflows and Prompt Chaining",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Parallel Workflows",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Conditional Workflows",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Iterative (Looping) Workflows",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Essay evaluator with parallel graders",
+      "type": "Lab",
+      "added": false
+     },
+     {
+      "title": "Lab: Post generator with an evaluator loop",
+      "type": "Lab",
+      "added": false
      }
     ]
    },
@@ -4622,41 +4298,36 @@
     "lessons": [
      {
       "title": "Chains in LangGraph",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Chains in LangGraph (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Routers",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Routers (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Building Agents",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Building Agents (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Agents with Memory",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Agents with Memory (Deep Dive)",
+      "title": "Tools in LangGraph: ToolNode and tools_condition",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Using MCP Tools in LangGraph",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "RAG Inside a LangGraph Agent",
       "type": "Article",
       "added": false
      },
@@ -4669,46 +4340,106 @@
     "prerequisites": [
      {
       "course": "Agentic AI Fundamentals",
-      "slug": "23-agentic-ai-fundamentals",
+      "slug": "agentic-ai-fundamentals",
       "module": "Tools and Function Calling",
       "anchor": "m4"
      }
     ]
    },
    {
-    "title": "Deployment",
+    "title": "Chatbots and Persistence",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Building a Chatbot with LangGraph",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Persistence and Checkpointers",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Threads, Fault Tolerance and Resuming",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Persistent Storage with SQLite",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Chatbot UI with Streamlit, streaming and saved chats",
+      "type": "Lab",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Interactive Data Apps with Streamlit",
+      "slug": "interactive-data-apps-with-streamlit",
+      "module": "Streamlit Basics",
+      "anchor": "m2"
+     }
+    ]
+   },
+   {
+    "title": "Subgraphs",
+    "added": false,
+    "lessons": [
+     {
+      "title": "What are Subgraphs?",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Shared vs Different State in Subgraphs",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Translation workflow with a subgraph",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Deployment and Observability",
     "added": false,
     "lessons": [
      {
       "title": "Deploying and Running LangGraph Apps",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Deploying and Running LangGraph Apps (Deep Dive)",
+      "title": "LangSmith Observability for LangGraph",
       "type": "Article",
       "added": false
      }
     ]
    }
   ],
-  "module_count": 4,
-  "lesson_count": 19,
-  "hours": 7,
+  "module_count": 7,
+  "lesson_count": 32,
+  "hours": 15,
   "prerequisites": [
    {
     "course": "Agentic AI Fundamentals",
-    "slug": "23-agentic-ai-fundamentals"
+    "slug": "agentic-ai-fundamentals"
    },
    {
     "course": "LangChain Complete Guide",
-    "slug": "20-langchain-complete-guide"
+    "slug": "langchain-complete-guide"
    }
   ]
  },
  {
-  "id": 25,
-  "slug": "25-langgraph-state-and-memory",
+  "id": 26,
+  "slug": "langgraph-state-and-memory",
   "track": "Track 7 · Agentic AI",
   "title": "LangGraph State and Memory",
   "level": "Intermediate",
@@ -4733,21 +4464,11 @@
     "lessons": [
      {
       "title": "The LangGraph State System",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "The LangGraph State System (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "State Schemas and Data Flow",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "State Schemas and Data Flow (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -4755,9 +4476,9 @@
     "prerequisites": [
      {
       "course": "LangGraph Fundamentals",
-      "slug": "24-langgraph-fundamentals",
+      "slug": "langgraph-fundamentals",
       "module": "Workflows and Agents",
-      "anchor": "m3"
+      "anchor": "m4"
      }
     ]
    },
@@ -4767,21 +4488,11 @@
     "lessons": [
      {
       "title": "State Reducers",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "State Reducers (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Multiple Schemas",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Multiple Schemas (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -4798,23 +4509,18 @@
     "lessons": [
      {
       "title": "Trimming and Filtering Messages",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Trimming and Filtering Messages (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Summarising Long Conversations",
-      "type": "Video",
+      "type": "Article",
       "added": true
      },
      {
-      "title": "Summarising Long Conversations (Deep Dive)",
+      "title": "Long-Term Memory with Stores",
       "type": "Article",
-      "added": true
+      "added": false
      },
      {
       "title": "Lab: Keep a long chat under budget",
@@ -4825,7 +4531,7 @@
     "prerequisites": [
      {
       "course": "Generative AI and LLM Foundations",
-      "slug": "18-generative-ai-and-llm-foundations",
+      "slug": "generative-ai-and-llm-foundations",
       "module": "How LLMs Work",
       "anchor": "m3"
      }
@@ -4833,25 +4539,25 @@
    }
   ],
   "module_count": 4,
-  "lesson_count": 15,
+  "lesson_count": 10,
   "hours": 5,
   "prerequisites": [
    {
     "course": "LangGraph Fundamentals",
-    "slug": "24-langgraph-fundamentals"
+    "slug": "langgraph-fundamentals"
    }
   ]
  },
  {
-  "id": 26,
-  "slug": "26-human-in-the-loop-with-langgraph",
+  "id": 27,
+  "slug": "human-in-the-loop-with-langgraph",
   "track": "Track 7 · Agentic AI",
   "title": "Human-in-the-Loop with LangGraph",
   "level": "Intermediate",
   "syllabus_modules": [
    28
   ],
-  "description": "Make agents interactive and controllable: streaming, breakpoints, human edits to state and time travel.",
+  "description": "Make agents interactive and controllable: streaming, interrupts, breakpoints, human edits to state and time travel.",
   "modules": [
    {
     "title": "Start Here",
@@ -4869,21 +4575,11 @@
     "lessons": [
      {
       "title": "Streaming Real-Time Updates",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Streaming Real-Time Updates (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Breakpoints",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Breakpoints (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -4891,7 +4587,7 @@
     "prerequisites": [
      {
       "course": "LangGraph State and Memory",
-      "slug": "25-langgraph-state-and-memory",
+      "slug": "langgraph-state-and-memory",
       "module": "State Fundamentals",
       "anchor": "m2"
      }
@@ -4902,22 +4598,17 @@
     "added": false,
     "lessons": [
      {
-      "title": "Editing State with Human Input",
-      "type": "Video",
+      "title": "Pausing with interrupt and Resuming with Command",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Editing State with Human Input (Deep Dive)",
+      "title": "Editing State with Human Input",
       "type": "Article",
       "added": false
      },
      {
       "title": "Dynamic Breakpoints",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Dynamic Breakpoints (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -4930,7 +4621,7 @@
     "prerequisites": [
      {
       "course": "Enterprise LLM Systems",
-      "slug": "22-enterprise-llm-systems",
+      "slug": "enterprise-llm-systems",
       "module": "Guardrails and Security",
       "anchor": "m6"
      }
@@ -4942,11 +4633,6 @@
     "lessons": [
      {
       "title": "Time Travel: Rewind and Replay",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Time Travel: Rewind and Replay (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -4959,18 +4645,18 @@
    }
   ],
   "module_count": 4,
-  "lesson_count": 13,
-  "hours": 5,
+  "lesson_count": 9,
+  "hours": 4,
   "prerequisites": [
    {
     "course": "LangGraph State and Memory",
-    "slug": "25-langgraph-state-and-memory"
+    "slug": "langgraph-state-and-memory"
    }
   ]
  },
  {
-  "id": 27,
-  "slug": "27-agentic-rag-systems",
+  "id": 28,
+  "slug": "agentic-rag-systems",
   "track": "Track 7 · Agentic AI",
   "title": "Agentic RAG Systems",
   "level": "Advanced",
@@ -4995,31 +4681,16 @@
     "lessons": [
      {
       "title": "What is Adaptive RAG?",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "What is Adaptive RAG? (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Adaptive RAG with Cohere",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Adaptive RAG with Cohere (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Running Adaptive RAG Locally",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Running Adaptive RAG Locally (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -5032,15 +4703,15 @@
     "prerequisites": [
      {
       "course": "Retrieval-Augmented Generation (RAG)",
-      "slug": "21-retrieval-augmented-generation-rag",
+      "slug": "retrieval-augmented-generation-rag",
       "module": "Implementing RAG",
-      "anchor": "m3"
+      "anchor": "m4"
      },
      {
       "course": "LangGraph Fundamentals",
-      "slug": "24-langgraph-fundamentals",
+      "slug": "langgraph-fundamentals",
       "module": "Workflows and Agents",
-      "anchor": "m3"
+      "anchor": "m4"
      }
     ]
    },
@@ -5050,21 +4721,11 @@
     "lessons": [
      {
       "title": "Agents in RAG Pipelines",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Agents in RAG Pipelines (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Corrective RAG (CRAG)",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Corrective RAG (CRAG) (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -5072,7 +4733,7 @@
     "prerequisites": [
      {
       "course": "Agentic AI Fundamentals",
-      "slug": "23-agentic-ai-fundamentals",
+      "slug": "agentic-ai-fundamentals",
       "module": "Reasoning Patterns",
       "anchor": "m5"
      }
@@ -5084,31 +4745,16 @@
     "lessons": [
      {
       "title": "How Self-RAG Works",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "How Self-RAG Works (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Self-RAG with a Vector DB",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Self-RAG with a Vector DB (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Deploying Self-RAG Locally",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Deploying Self-RAG Locally (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -5121,13 +4767,13 @@
     "prerequisites": [
      {
       "course": "Vector Databases for AI",
-      "slug": "19-vector-databases-for-ai",
+      "slug": "vector-databases-for-ai",
       "module": "Tools",
       "anchor": "m4"
      },
      {
       "course": "Enterprise LLM Systems",
-      "slug": "22-enterprise-llm-systems",
+      "slug": "enterprise-llm-systems",
       "module": "RAG Evaluation",
       "anchor": "m2"
      }
@@ -5135,29 +4781,29 @@
    }
   ],
   "module_count": 4,
-  "lesson_count": 19,
-  "hours": 7,
+  "lesson_count": 11,
+  "hours": 5,
   "prerequisites": [
    {
     "course": "Retrieval-Augmented Generation (RAG)",
-    "slug": "21-retrieval-augmented-generation-rag"
+    "slug": "retrieval-augmented-generation-rag"
    },
    {
     "course": "LangGraph Fundamentals",
-    "slug": "24-langgraph-fundamentals"
+    "slug": "langgraph-fundamentals"
    }
   ]
  },
  {
-  "id": 28,
-  "slug": "28-model-context-protocol-mcp",
+  "id": 29,
+  "slug": "model-context-protocol-mcp",
   "track": "Track 7 · Agentic AI",
   "title": "Model Context Protocol (MCP)",
   "level": "Intermediate",
   "syllabus_modules": [
    30
   ],
-  "description": "The standard way to plug tools and data into AI apps: MCP architecture, clients, servers and the ecosystem.",
+  "description": "The standard way to plug tools and data into AI apps: why MCP exists, its architecture and lifecycle, and building local and remote servers and clients.",
   "modules": [
    {
     "title": "Start Here",
@@ -5174,22 +4820,22 @@
     "added": false,
     "lessons": [
      {
-      "title": "What is MCP?",
-      "type": "Video",
+      "title": "Why MCP Exists: The Fragmentation Problem",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "What is MCP? (Deep Dive)",
+      "title": "What is MCP?",
       "type": "Article",
       "added": false
      },
      {
       "title": "Hosts, Clients and Servers",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Hosts, Clients and Servers (Deep Dive)",
+      "title": "MCP Primitives: Tools, Resources and Prompts",
       "type": "Article",
       "added": false
      }
@@ -5197,7 +4843,7 @@
     "prerequisites": [
      {
       "course": "Agentic AI Fundamentals",
-      "slug": "23-agentic-ai-fundamentals",
+      "slug": "agentic-ai-fundamentals",
       "module": "Tools and Function Calling",
       "anchor": "m4"
      }
@@ -5209,21 +4855,37 @@
     "lessons": [
      {
       "title": "Data Flow in MCP",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Data Flow in MCP (Deep Dive)",
+      "title": "The Data Layer: JSON-RPC Messages",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "The Transport Layer: stdio and Streamable HTTP",
       "type": "Article",
       "added": false
      },
      {
       "title": "Using MCP in Claude Desktop and Cursor",
-      "type": "Video",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "The MCP Lifecycle",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Initialisation: Version and Capability Negotiation",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Using MCP in Claude Desktop and Cursor (Deep Dive)",
+      "title": "Operation and Shutdown",
       "type": "Article",
       "added": false
      }
@@ -5235,41 +4897,36 @@
     "lessons": [
      {
       "title": "Open MCP Registries (Smithery)",
-      "type": "Video",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Open MCP Registries (Smithery) (Deep Dive)",
+      "title": "Building a Local MCP Server with FastMCP",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Building and Deploying a Remote MCP Server",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Building an MCP Client",
       "type": "Article",
       "added": false
      },
      {
       "title": "Building MCP Servers with LangChain",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Building MCP Servers with LangChain (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Docker MCP Catalog and Toolkit",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Docker MCP Catalog and Toolkit (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Agent-to-Agent (A2A) Protocol",
-      "type": "Video",
-      "added": true
-     },
-     {
-      "title": "Agent-to-Agent (A2A) Protocol (Deep Dive)",
       "type": "Article",
       "added": true
      },
@@ -5277,35 +4934,46 @@
       "title": "Lab: Build and connect your own MCP server",
       "type": "Lab",
       "added": false
+     },
+     {
+      "title": "Lab: Expense tracker MCP server",
+      "type": "Lab",
+      "added": false
      }
     ],
     "prerequisites": [
      {
       "course": "LangChain Complete Guide",
-      "slug": "20-langchain-complete-guide",
-      "module": "Building with LangChain",
-      "anchor": "m3"
+      "slug": "langchain-complete-guide",
+      "module": "Tools and Tool Calling",
+      "anchor": "m7"
+     },
+     {
+      "course": "Production APIs with FastAPI",
+      "slug": "production-apis-with-fastapi",
+      "module": "Docker and Cloud Deployment",
+      "anchor": "m7"
      }
     ]
    }
   ],
-  "module_count": 4,
-  "lesson_count": 18,
-  "hours": 6,
+  "module_count": 5,
+  "lesson_count": 20,
+  "hours": 9,
   "prerequisites": [
    {
     "course": "Agentic AI Fundamentals",
-    "slug": "23-agentic-ai-fundamentals"
+    "slug": "agentic-ai-fundamentals"
    },
    {
     "course": "LangChain Complete Guide",
-    "slug": "20-langchain-complete-guide"
+    "slug": "langchain-complete-guide"
    }
   ]
  },
  {
-  "id": 29,
-  "slug": "29-multi-agent-research-system-capstone",
+  "id": 30,
+  "slug": "multi-agent-research-system-capstone",
   "track": "Track 7 · Agentic AI",
   "title": "Multi-Agent Research System (Capstone)",
   "level": "Advanced",
@@ -5330,21 +4998,11 @@
     "lessons": [
      {
       "title": "Introduction to Agentic AI and Multi-Agent Architectures",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Introduction to Agentic AI and Multi-Agent Architectures (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Designing Specialised Agents: Search, Reader, Analyst, Generator, Coordinator",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Designing Specialised Agents: Search, Reader, Analyst, Generator, Coordinator (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -5352,7 +5010,7 @@
     "prerequisites": [
      {
       "course": "Agentic AI Fundamentals",
-      "slug": "23-agentic-ai-fundamentals",
+      "slug": "agentic-ai-fundamentals",
       "module": "Multi-Agent Systems and the Ecosystem",
       "anchor": "m6"
      }
@@ -5364,31 +5022,16 @@
     "lessons": [
      {
       "title": "Shared Memory and Communication State",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Shared Memory and Communication State (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Prompting for Multi-Turn Collaboration",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Prompting for Multi-Turn Collaboration (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Human Feedback Checkpoints",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Human Feedback Checkpoints (Deep Dive)",
       "type": "Article",
       "added": false
      }
@@ -5396,13 +5039,13 @@
     "prerequisites": [
      {
       "course": "LangGraph State and Memory",
-      "slug": "25-langgraph-state-and-memory",
+      "slug": "langgraph-state-and-memory",
       "module": "Advanced State",
       "anchor": "m3"
      },
      {
       "course": "Human-in-the-Loop with LangGraph",
-      "slug": "26-human-in-the-loop-with-langgraph",
+      "slug": "human-in-the-loop-with-langgraph",
       "module": "Human Feedback",
       "anchor": "m3"
      }
@@ -5414,31 +5057,16 @@
     "lessons": [
      {
       "title": "Connecting arXiv, Search and Paper Parsers",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Connecting arXiv, Search and Paper Parsers (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "LangGraph Agent Workflows",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "LangGraph Agent Workflows (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Adding RAG for External Knowledge",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Adding RAG for External Knowledge (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -5451,13 +5079,13 @@
     "prerequisites": [
      {
       "course": "Model Context Protocol (MCP)",
-      "slug": "28-model-context-protocol-mcp",
+      "slug": "model-context-protocol-mcp",
       "module": "Building with MCP",
-      "anchor": "m4"
+      "anchor": "m5"
      },
      {
       "course": "Agentic RAG Systems",
-      "slug": "27-agentic-rag-systems",
+      "slug": "agentic-rag-systems",
       "module": "Agentic RAG Architectures",
       "anchor": "m3"
      }
@@ -5469,41 +5097,21 @@
     "lessons": [
      {
       "title": "FastAPI Backend for Agents",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "FastAPI Backend for Agents (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "UI for Logs, Graphs and Reports",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "UI for Logs, Graphs and Reports (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "CI/CD with GitHub Actions",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "CI/CD with GitHub Actions (Deep Dive)",
       "type": "Article",
       "added": false
      },
      {
       "title": "Docker and AWS EC2 Deployment",
-      "type": "Video",
-      "added": false
-     },
-     {
-      "title": "Docker and AWS EC2 Deployment (Deep Dive)",
       "type": "Article",
       "added": false
      },
@@ -5516,19 +5124,19 @@
     "prerequisites": [
      {
       "course": "Production APIs with FastAPI",
-      "slug": "13-production-apis-with-fastapi",
+      "slug": "production-apis-with-fastapi",
       "module": "Production Considerations",
-      "anchor": "m4"
+      "anchor": "m5"
      },
      {
       "course": "Interactive Data Apps with Streamlit",
-      "slug": "06-interactive-data-apps-with-streamlit",
+      "slug": "interactive-data-apps-with-streamlit",
       "module": "Streamlit Basics",
       "anchor": "m2"
      },
      {
       "course": "MLOps with MLflow",
-      "slug": "12-mlops-with-mlflow",
+      "slug": "mlops-with-mlflow",
       "module": "Serving and Deployment",
       "anchor": "m5"
      }
@@ -5536,34 +5144,34 @@
    }
   ],
   "module_count": 5,
-  "lesson_count": 27,
-  "hours": 9,
+  "lesson_count": 15,
+  "hours": 7,
   "prerequisites": [
    {
     "course": "Human-in-the-Loop with LangGraph",
-    "slug": "26-human-in-the-loop-with-langgraph"
+    "slug": "human-in-the-loop-with-langgraph"
    },
    {
     "course": "Agentic RAG Systems",
-    "slug": "27-agentic-rag-systems"
+    "slug": "agentic-rag-systems"
    },
    {
     "course": "Model Context Protocol (MCP)",
-    "slug": "28-model-context-protocol-mcp"
+    "slug": "model-context-protocol-mcp"
    },
    {
     "course": "Production APIs with FastAPI",
-    "slug": "13-production-apis-with-fastapi"
+    "slug": "production-apis-with-fastapi"
    },
    {
     "course": "Enterprise LLM Systems",
-    "slug": "22-enterprise-llm-systems"
+    "slug": "enterprise-llm-systems"
    }
   ]
  },
  {
-  "id": 30,
-  "slug": "30-end-to-end-ai-projects",
+  "id": 31,
+  "slug": "end-to-end-ai-projects",
   "track": "Track 8 · Projects",
   "title": "End-to-End AI Projects",
   "level": "Advanced",
@@ -5600,13 +5208,13 @@
     "prerequisites": [
      {
       "course": "Databases: SQL and NoSQL",
-      "slug": "05-databases-sql-and-nosql",
+      "slug": "databases-sql-and-nosql",
       "module": "PostgreSQL on Supabase",
       "anchor": "m3"
      },
      {
       "course": "Interactive Data Apps with Streamlit",
-      "slug": "06-interactive-data-apps-with-streamlit",
+      "slug": "interactive-data-apps-with-streamlit",
       "module": "State and Responsiveness",
       "anchor": "m3"
      }
@@ -5620,18 +5228,23 @@
       "title": "Project: Network Intrusion Detection System",
       "type": "Lab",
       "added": false
+     },
+     {
+      "title": "Project: Insurance Premium Predictor API",
+      "type": "Lab",
+      "added": false
      }
     ],
     "prerequisites": [
      {
       "course": "Ensembles and Unsupervised Learning",
-      "slug": "11-ensembles-and-unsupervised-learning",
+      "slug": "ensembles-and-unsupervised-learning",
       "module": "Boosting",
       "anchor": "m3"
      },
      {
       "course": "MLOps with MLflow",
-      "slug": "12-mlops-with-mlflow",
+      "slug": "mlops-with-mlflow",
       "module": "Serving and Deployment",
       "anchor": "m5"
      }
@@ -5660,7 +5273,7 @@
     "prerequisites": [
      {
       "course": "Sequence Models, Attention and Transformers",
-      "slug": "17-sequence-models-attention-and-transformers",
+      "slug": "sequence-models-attention-and-transformers",
       "module": "Transformers",
       "anchor": "m5"
      }
@@ -5679,13 +5292,13 @@
     "prerequisites": [
      {
       "course": "Retrieval-Augmented Generation (RAG)",
-      "slug": "21-retrieval-augmented-generation-rag",
+      "slug": "retrieval-augmented-generation-rag",
       "module": "Advanced RAG",
-      "anchor": "m4"
+      "anchor": "m5"
      },
      {
       "course": "Enterprise LLM Systems",
-      "slug": "22-enterprise-llm-systems",
+      "slug": "enterprise-llm-systems",
       "module": "RAG Evaluation",
       "anchor": "m2"
      }
@@ -5696,6 +5309,11 @@
     "added": false,
     "lessons": [
      {
+      "title": "Project: AI Newsletter Generator with MCP",
+      "type": "Lab",
+      "added": false
+     },
+     {
       "title": "Project: Multi-Agent Research Analysis and Generation",
       "type": "Lab",
       "added": false
@@ -5704,7 +5322,7 @@
     "prerequisites": [
      {
       "course": "Multi-Agent Research System (Capstone)",
-      "slug": "29-multi-agent-research-system-capstone",
+      "slug": "multi-agent-research-system-capstone",
       "module": "Deployment and Automation",
       "anchor": "m5"
      }
@@ -5712,7 +5330,7 @@
    }
   ],
   "module_count": 6,
-  "lesson_count": 9,
-  "hours": 6
+  "lesson_count": 11,
+  "hours": 8
  }
 ]

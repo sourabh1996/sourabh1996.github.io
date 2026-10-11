@@ -19,7 +19,6 @@ const mod = lesson.module;
 const id = `${course.slug}/${lesson.slug}`;
 const rendered = entry ? await render(entry) : null;
 const headings = rendered ? rendered.headings.filter((h) => h.depth <= 3) : [];
-const deepDive = lesson.type === "Video" ? mod.lessons.find((l) => l.title === `${lesson.title} (Deep Dive)`) : null;
 const modHref = (p) => url(`courses/${p.slug}`) + `#${p.anchor}`;
 ---
 <Base
@@ -39,8 +38,7 @@ const modHref = (p) => url(`courses/${p.slug}`) + `#${p.anchor}`;
           )}
           <div class="coming">
             <TypeIcon type={lesson.type} />
-            <p><strong>{lesson.type === "Video" ? "Video coming soon." : `This ${lesson.type.toLowerCase()} is being written.`}</strong></p>
-            {deepDive && <p>Meanwhile, read the <a href={url(`courses/${course.slug}/${deepDive.slug}`)}>{deepDive.title}</a>.</p>}
+            <p><strong>This {lesson.type.toLowerCase()} is being written.</strong></p>
             <p><a href={url(`courses/${course.slug}`) + `#m${mod.index}`}>Back to {mod.title}</a></p>
           </div>
         </>

@@ -1,7 +1,7 @@
 """Builds the course catalog (markdown + JSON) from one structured spec.
 
-Each module lists topics; every topic becomes a Video + a "(Deep Dive)" Article,
-matching the DataVidhya pattern. Labs are listed explicitly. Every course opens
+Each module lists topics; every topic becomes one in-depth Article (the site is
+text only). Labs are listed explicitly. Every course opens
 with a "Start Here" module. Items marked ADDED are not in the bootcamp syllabus.
 """
 import json, os, re, sys
@@ -9,7 +9,7 @@ import json, os, re, sys
 OUT = sys.argv[1]
 ADD = "➕ "  # marks topics added beyond the syllabus
 
-HOURS = {"Video": 0.25, "Article": 0.35, "Lab": 0.75}
+HOURS = {"Article": 0.4, "Lab": 0.75}
 
 def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
@@ -68,22 +68,27 @@ TRACKS = [
 ]),
 ("Track 3 · Machine Learning", [
  ("Feature Engineering and EDA", "Intermediate", [10, 11],
-  "Prepare data for models and explore it properly: cleaning, scaling, encoding, selection and real case studies.",
-  [("Data Cleaning", ["Handling Missing Data", "Imbalanced Datasets", "Outliers"], []),
-   ("Feature Transformation and Selection", ["Normalisation vs Standardisation", "Encoding Categorical Variables", "Forward and Backward Selection", "Correlation for Feature Selection"], ["Lab: Feature-engineer a housing dataset"]),
-   ("Exploratory Data Analysis", ["What EDA Is and Why It Matters", "Visualising Patterns and Relationships"], []),
+  "Get data, explore it and prepare it for models: imputation, outliers, scaling, encoding, pipelines, PCA and real case studies.",
+  [("Getting Data", ["Framing a Machine Learning Problem", "Loading CSV, JSON and SQL Data", "Fetching Data from APIs", "Web Scraping for Datasets"], ["Lab: Build a dataset from an API"]),
+   ("Exploratory Data Analysis", ["What EDA Is and Why It Matters", "First Questions to Ask Your Data", "Univariate Analysis", "Bivariate and Multivariate Analysis", "Visualising Patterns and Relationships", "Automated EDA with Profiling Reports"], []),
+   ("Data Cleaning", ["Handling Missing Data", "Complete Case Analysis", "Mean, Median and Arbitrary Value Imputation", "Imputing Missing Categories", "Missing Indicators and Random Sample Imputation", "KNN Imputer", "Iterative Imputer (MICE)", "Imbalanced Datasets", "Outliers", "Outliers with Z-Scores, IQR and Winsorisation"], ["Lab: Compare imputation strategies"]),
+   ("Feature Scaling and Encoding", ["Normalisation vs Standardisation", "Encoding Categorical Variables", "One-Hot Encoding", "ColumnTransformer", "scikit-learn Pipelines"], ["Lab: One pipeline from raw data to model"]),
+   ("Feature Transformation and Selection", ["Function and Power Transformers (Log, Box-Cox, Yeo-Johnson)", "Binning and Binarisation", "Mixed Variables", "Date and Time Features", "Feature Construction and Splitting", "Forward and Backward Selection", "Correlation for Feature Selection"], ["Lab: Feature-engineer a housing dataset"]),
+   ("Dimensionality Reduction", ["The Curse of Dimensionality", "PCA: The Intuition", "PCA: The Maths Step by Step", "PCA in Practice"], ["Lab: Compress MNIST with PCA"]),
    ("EDA Case Studies", ["Case Study: Movie Review Sentiment", "Case Study: Wine Quality", "Case Study: Stock and Commodity Prices"], ["Lab: Full EDA report on a dataset of your choice"])]),
  ("Machine Learning Fundamentals", "Intermediate", [12],
-  "Understand and implement the core supervised learning algorithms and how to evaluate them.",
-  [("What is Machine Learning?", ["AI vs ML vs DL vs Data Science", "Supervised, Unsupervised, Semi-Supervised and Reinforcement Learning"], []),
-   ("Regression", ["Simple and Multiple Linear Regression", "MSE, MAE, RMSE and R²", "Gradient Descent", "Ridge and Lasso Regularisation"], ["Lab: Linear regression from scratch"]),
-   ("Classification", ["Logistic Regression", "Confusion Matrix, Precision, Recall and F1"], ["Lab: Spam classifier"]),
-   ("More Supervised Algorithms", ["Support Vector Machines and Kernels", "Naive Bayes", "K-Nearest Neighbours", "Decision Trees"], ["Lab: Compare five classifiers on one dataset"])]),
+  "Understand and implement the core supervised learning algorithms from scratch and learn how to evaluate and tune them.",
+  [("What is Machine Learning?", ["AI vs ML vs DL vs Data Science", "Supervised, Unsupervised, Semi-Supervised and Reinforcement Learning", "Batch vs Online Learning", "Instance-Based vs Model-Based Learning", "Challenges in Machine Learning", "The Machine Learning Development Life Cycle", "Data Science and ML Job Roles", "Tensors: How Data Is Represented", "Setting Up Your ML Environment: Anaconda, Jupyter and Colab"], []),
+   ("Regression", ["Simple and Multiple Linear Regression", "MSE, MAE, RMSE and R²", "Assumptions of Linear Regression", "Polynomial Regression", "The Bias-Variance Tradeoff"], ["Lab: Linear regression from scratch"]),
+   ("Gradient Descent and Regularisation", ["Gradient Descent", "Batch, Stochastic and Mini-Batch Gradient Descent", "Ridge and Lasso Regularisation", "Elastic Net"], ["Lab: Gradient descent variants side by side"]),
+   ("Classification", ["The Perceptron Trick", "Logistic Regression", "Sigmoid and Log Loss", "Softmax for Multiclass Problems", "Confusion Matrix, Precision, Recall and F1", "ROC Curves and AUC"], ["Lab: Spam classifier"]),
+   ("More Supervised Algorithms", ["Support Vector Machines and Kernels", "Naive Bayes", "K-Nearest Neighbours", "Decision Trees", "Entropy, Gini and Information Gain", "Regression Trees"], ["Lab: Compare five classifiers on one dataset"]),
+   ("Model Selection and Tuning", ["Train, Validation and Test Splits", "Data Leakage", "Cross-Validation", "Grid Search and Randomized Search", "Bayesian Optimisation with Optuna"], ["Lab: Tune a model without overfitting the test set"])]),
  ("Ensembles and Unsupervised Learning", "Intermediate", [13],
-  "Boost accuracy with bagging, random forests, gradient boosting and XGBoost, then meet clustering.",
-  [("Ensemble Learning", ["Bagging vs Boosting", "Random Forests and Out-of-Bag Evaluation"], []),
-   ("Boosting", ["Gradient Boosting", "XGBoost"], ["Lab: Win a mini Kaggle-style challenge with XGBoost"]),
-   ("Unsupervised Learning", ["What is Clustering?", "K-Means"], ["Lab: Customer segmentation"])]),
+  "Boost accuracy with voting, bagging, random forests, AdaBoost, gradient boosting, XGBoost and stacking, then learn clustering.",
+  [("Ensemble Learning", ["What is Ensemble Learning?", "Voting Ensembles", "Bagging vs Boosting", "Random Forests and Out-of-Bag Evaluation", "Feature Importance"], []),
+   ("Boosting", ["AdaBoost", "Gradient Boosting", "XGBoost", "Stacking and Blending"], ["Lab: Win a mini Kaggle-style challenge with XGBoost"]),
+   ("Unsupervised Learning", ["What is Clustering?", "K-Means", "K-Means from Scratch", "Hierarchical Clustering", "DBSCAN"], ["Lab: Customer segmentation"])]),
  ("MLOps with MLflow", "Advanced", [15],
   "Manage the ML lifecycle: track experiments, register models and serve them in production.",
   [("MLflow Fundamentals", ["What is MLflow?", "Installing and Setting Up MLflow"], []),
@@ -93,10 +98,13 @@ TRACKS = [
 ]),
 ("Track 4 · Production Engineering and Big Data", [
  ("Production APIs with FastAPI", "Intermediate", [14],
-  "Build production-grade APIs with FastAPI, Pydantic validation, routers, error handling and OpenAPI docs.",
-  [("FastAPI Fundamentals", ["What is FastAPI and Why Use It?", "Project Structure and Hello World", "HTTP Methods: GET, POST, PUT, DELETE"], ["Lab: Your first API"]),
-   ("Validation and Schemas", ["Pydantic Models", "Handling Validation Errors"], []),
-   ("Production Considerations", ["Errors and Status Codes", "Configuration and Environment Variables", "Dependency Injection and Routers", "OpenAPI and Swagger Docs"], ["Lab: Wrap an ML model in an API"])]),
+  "Build production-grade APIs with FastAPI: endpoints, Pydantic validation, serving ML models, Docker and AWS deployment.",
+  [("APIs and FastAPI Fundamentals", ["What is an API?", "Why Machine Learning Needs APIs", "What is FastAPI and Why Use It?", "Sync vs Async in FastAPI", "Project Structure and Hello World", "HTTP Methods: GET, POST, PUT, DELETE"], ["Lab: Your first API"]),
+   ("Endpoints in Depth", ["Path and Query Parameters", "Request Bodies and POST Endpoints", "Update and Delete Endpoints"], ["Lab: A complete CRUD API"]),
+   ("Validation and Schemas", ["Pydantic Models", "Pydantic Field Validators and Computed Fields", "Response Models", "Handling Validation Errors"], []),
+   ("Production Considerations", ["Errors and Status Codes", "Configuration and Environment Variables", "Dependency Injection and Routers", "OpenAPI and Swagger Docs", "Health Checks and API Versioning"], []),
+   ("Serving Machine Learning Models", ["Serving a Trained Model with FastAPI", "A Streamlit Front End for Your API"], ["Lab: Wrap an ML model in an API"]),
+   ("Docker and Cloud Deployment", ["Docker Fundamentals", "Dockerising a FastAPI App", "Deploying to AWS EC2"], ["Lab: Ship your ML API to AWS"])]),
  ("Big Data with PySpark", "Advanced", [17],
   "Process data that won't fit in memory with Spark: architecture, DataFrames, Spark SQL and optimisation.",
   [("The Big Data Problem", ["Why Single Machines Fail", "Distributed Computing and Spark", "Driver, Executors and Cluster Manager"], []),
@@ -105,11 +113,12 @@ TRACKS = [
 ]),
 ("Track 5 · Deep Learning and NLP", [
  ("NLP for Machine Learning", "Intermediate", [16],
-  "Turn text into features: tokenisation, lemmatisation, POS tagging, NER, bag of words, TF-IDF and Word2Vec.",
-  [("Introduction to NLP", ["What is NLP?", "NLP Terminology and Roadmap"], []),
-   ("Text Preprocessing", ["Tokenisation", "Stemming, Lemmatisation and Stopwords", "POS Tagging and Named Entity Recognition"], ["Lab: Preprocess a corpus with NLTK"]),
-   ("Text Representation", ["One-Hot, Bag of Words and N-Grams", "TF-IDF"], ["Lab: TF-IDF search engine"]),
-   ("Word Embeddings", ["What are Word Vectors?", "Word2Vec"], [])]),
+  "Turn text into features and predictions: the NLP pipeline, preprocessing, POS tagging, TF-IDF, Word2Vec and text classification.",
+  [("Introduction to NLP", ["What is NLP?", "NLP Terminology and Roadmap", "The End-to-End NLP Pipeline", "Data Acquisition for NLP"], []),
+   ("Text Preprocessing", ["Tokenisation", "Stemming, Lemmatisation and Stopwords", "POS Tagging and Named Entity Recognition", "Hidden Markov Models and the Viterbi Algorithm"], ["Lab: Preprocess a corpus with NLTK"]),
+   ("Text Representation", ["Common Terms: Corpus, Vocabulary, Document", "One-Hot, Bag of Words and N-Grams", "TF-IDF"], ["Lab: TF-IDF search engine"]),
+   ("Word Embeddings", ["What are Word Vectors?", "The Distributional Hypothesis", "Word2Vec", "CBOW and Skip-Gram"], ["Lab: Train Word2Vec on your own text"]),
+   ("Text Classification", ["Text Classification Pipelines", "Classic ML vs Embeddings for Text Classification", "Deploying NLP Systems"], ["Project: Quora Duplicate Question Detection"])]),
  ("Deep Learning Foundations", "Intermediate", [18],
   "How neural networks really work: perceptrons, backpropagation, activations, losses, optimisers, Keras and PyTorch.",
   [("Introduction to Deep Learning", ["What is Deep Learning?", "Why Deep Learning Took Off"], []),
@@ -117,6 +126,13 @@ TRACKS = [
    ("Training Challenges", ["Vanishing and Exploding Gradients", "Activation Functions", "Loss Functions", "Optimisers"], []),
    ("Regularisation and Stability", ["Weight Initialisation", "Dropout", "Batch Normalisation"], []),
    ("Frameworks", ["Keras Fundamentals", "PyTorch Fundamentals", "Visualising Network Architecture and Training"], ["Lab: Same model in Keras and PyTorch"])]),
+ ("Deep Learning with PyTorch", "Intermediate", ["PyTorch"],
+  "Go hands-on with PyTorch: tensors, autograd, training loops, DataLoaders, GPUs, CNNs, transfer learning, RNNs and LSTMs.",
+  [("PyTorch Basics", ["Why PyTorch? History, Features and Ecosystem", "PyTorch vs TensorFlow and Other Frameworks", "Tensors in PyTorch", "Tensor Operations", "Autograd: Automatic Differentiation"], ["Lab: Gradients by hand vs autograd"]),
+   ("The Training Pipeline", ["A Training Loop from Scratch", "The torch.nn Module", "torch.optim and Loss Functions", "Dataset and DataLoader"], ["Lab: Rebuild the training loop with nn and DataLoader"]),
+   ("Building and Improving Networks", ["Building an ANN for Fashion-MNIST", "Training on a GPU", "Reducing Overfitting: Dropout, Batch Norm and Weight Decay", "Hyperparameter Tuning with Optuna"], ["Lab: Push Fashion-MNIST accuracy from 83% to 89%"]),
+   ("CNNs and Transfer Learning", ["Convolutional Neural Networks in PyTorch", "Transfer Learning"], ["Lab: CNN for Fashion-MNIST", "Lab: Fine-tune a pretrained model"]),
+   ("Sequence Models in PyTorch", ["RNNs in PyTorch", "LSTMs in PyTorch"], ["Lab: Question answering with an RNN", "Lab: Next-word prediction with an LSTM"])]),
  ("Sequence Models, Attention and Transformers", "Advanced", [19],
   "From RNNs to Transformers: LSTMs, GRUs, attention, self-attention, BERT and GPT.",
   [("Sequence Models", ["Recurrent Neural Networks", "Sequence Modelling and Context"], []),
@@ -126,32 +142,36 @@ TRACKS = [
 ]),
 ("Track 6 · Generative AI", [
  ("Generative AI and LLM Foundations", "Beginner", [20],
-  "What generative AI is, how LLMs work, and how to use them well: tokens, prompting and structured output.",
-  [("Fundamentals of Generative AI", ["What is Generative AI?", "How Generative Models Work", "Generative vs Discriminative Models"], []),
+  "What generative AI is, how LLMs work, and how to use them well: foundation models, tokens, prompting and structured output.",
+  [("Fundamentals of Generative AI", ["What is Generative AI?", "How Generative Models Work", "Generative vs Discriminative Models", "The GenAI Roadmap: Builder vs User", "Foundation Models"], []),
    (ADD + "How LLMs Work", [ADD + "What is a Large Language Model?", ADD + "Tokens and Context Windows", ADD + "Temperature and Model Settings", ADD + "Where LLMs Fail"], [ADD + "Lab: Your first LLM API call"]),
    (ADD + "Prompting and Structured Output", [ADD + "Prompting Fundamentals", ADD + "System Prompts and Roles", ADD + "Structured JSON Output"], [ADD + "Lab: Reliable JSON extraction"]),
    ("Advances and Applications", ["Recent Breakthroughs in GenAI", "GenAI Applications Across Industries", "The GenAI Project Lifecycle"], [])]),
  ("Vector Databases for AI", "Intermediate", [21],
   "Embeddings, similarity search and the vector databases behind RAG: Chroma, FAISS, Qdrant, Pinecone and LanceDB.",
-  [("Introduction to Vector Databases", ["Embeddings and Similarity Search", "Vector vs SQL vs NoSQL Databases"], []),
+  [("Introduction to Vector Databases", ["Embeddings and Similarity Search", "Semantic Search Explained", "Vector vs SQL vs NoSQL Databases"], []),
    ("Architecture", ["Storage and Indexing (HNSW, IVF)", "In-Memory, On-Disk and Cloud Vector DBs"], []),
    ("Tools", ["Chroma", "FAISS", "Qdrant", "Pinecone", "LanceDB"], ["Lab: Same search in three vector DBs"]),
    ("Integrations", ["Vector Search in MongoDB and Cassandra", "Embedding-Based Retrieval Pipelines"], ["Lab: Semantic search over your notes"])]),
  ("LangChain Complete Guide", "Intermediate", [22],
-  "Build LLM apps with LangChain: chat models, prompts, tools, LCEL chains, memory, LangSmith and LangServe.",
-  [("LangChain Foundations", ["What is LangChain?", "Data Connectors and API Integrations"], []),
-   ("Building with LangChain", ["Chat Models", "Tools and Toolkits", "Prompt Templates"], ["Lab: A prompt-templated assistant"]),
-   ("Chains and Execution", ["Chains, LCEL and Runnables", "Synthetic Data Generation", "Memory Management"], ["Lab: Multi-step LCEL pipeline"]),
-   ("Agents, Monitoring and Deployment", ["LangChain Agents", "LangSmith Monitoring", "LangServe Deployment"], ["Lab: Deploy a chain with LangServe"])]),
+  "Build LLM apps with LangChain: models, prompts, structured output, parsers, chains, runnables, tools, tool calling and agents.",
+  [("LangChain Foundations", ["What is LangChain?", "LangChain Components", "Data Connectors and API Integrations", "Setting Up a LangChain Project and API Keys"], []),
+   ("Models", ["LLMs vs Chat Models", "Chat Models", "Embedding Models", "Open-Source Models with Hugging Face"], []),
+   ("Prompts", ["Static vs Dynamic Prompts", "Prompt Templates", "ChatPromptTemplate and Messages", "MessagesPlaceholder and Chat History"], ["Lab: A prompt-templated assistant"]),
+   ("Structured Output and Output Parsers", ["Why Structured Output Matters", "Structured Output with TypedDict", "Structured Output with Pydantic and JSON Schema", "StrOutputParser", "JsonOutputParser and StructuredOutputParser", "PydanticOutputParser"], ["Lab: Extract structured data from reviews"]),
+   ("Chains and Runnables", ["Chains, LCEL and Runnables", "Sequential, Parallel and Conditional Chains", "Why Runnables Exist", "RunnableSequence, Parallel, Passthrough, Lambda and Branch", "Synthetic Data Generation", "Memory Management"], ["Lab: Multi-step LCEL pipeline"]),
+   ("Tools and Tool Calling", ["Tools and Toolkits", "Built-in Tools", "Custom Tools: @tool, StructuredTool and BaseTool", "Tool Calling with bind_tools", "Injected Tool Arguments"], ["Lab: Currency converter with tool calling"]),
+   ("Agents, Monitoring and Deployment", ["LangChain Agents", "ReAct Agents with AgentExecutor", "LangSmith Monitoring", "LangServe Deployment"], ["Lab: Deploy a chain with LangServe"])]),
  ("Retrieval-Augmented Generation (RAG)", "Intermediate", [23],
-  "Ground LLMs in your own data: the RAG pipeline, chunking, hybrid search, reranking, memory and multimodal RAG.",
-  [("Introduction to RAG", ["What is RAG?", "The RAG Pipeline End to End"], [ADD + "Lab: RAG from scratch, no framework"]),
-   ("Implementing RAG", ["RAG with LangChain and a Vector DB", ADD + "Chunking Strategies", "Retrieval Methods", "Hybrid Search", "Reranking"], ["Lab: Chat with a PDF"]),
+  "Ground LLMs in your own data: loaders, splitters, vector stores, retrievers, the RAG pipeline, hybrid search, reranking and multimodal RAG.",
+  [("Introduction to RAG", ["What is RAG?", "RAG vs Fine-Tuning vs Prompting", "The RAG Pipeline End to End"], [ADD + "Lab: RAG from scratch, no framework"]),
+   ("RAG Building Blocks in LangChain", ["Document Loaders", "PDF, Web, CSV and Directory Loaders", "load() vs lazy_load()", "Text Splitters", "Vector Stores in LangChain", "Retrievers", "MMR, Multi-Query and Contextual Compression Retrievers"], []),
+   ("Implementing RAG", ["RAG with LangChain and a Vector DB", ADD + "Chunking Strategies", "Retrieval Methods", "Hybrid Search", "Reranking"], ["Lab: Chat with a PDF", "Project: Chat with Any YouTube Video"]),
    ("Advanced RAG", ["Memory in RAG Systems", "Multimodal RAG"], ["Lab: RAG over images and text"])]),
  ("Enterprise LLM Systems", "Advanced", [24],
   "Run LLM systems at scale: RAG evaluation with Ragas, observability with LangSmith and Opik, vectorless RAG and LLM gateways.",
   [("RAG Evaluation", ["The RAG Triad Metrics", "LLM-as-a-Judge", "Turn-Based Evaluation with Ragas"], ["Lab: Evaluate your RAG app with Ragas"]),
-   ("Observability", ["Traces and Spans", "Intermediate Outputs and Analytics", "Feedback and Annotation Loops", "Prompt Optimisation Pipelines", "Low-Code Agent Tracing"], ["Lab: Trace an app in LangSmith and Opik"]),
+   ("Observability", ["Traces and Spans", "LangSmith Setup and Zero-Code Tracing", "Intermediate Outputs and Analytics", "Feedback and Annotation Loops", "Prompt Optimisation Pipelines", "Low-Code Agent Tracing"], ["Lab: Trace an app in LangSmith and Opik"]),
    ("Vectorless RAG", ["Limits of Vector RAG", "PageIndex and Chunk-Free Segmentation", "The Document Tree Model", "The Iterative Search Loop", "Deterministic Page Referencing"], []),
    ("LLM Gateways", ["What is an LLM Gateway?", "OpenAI-Compatible Routing with Bifrost", "Drop-In SDK Replacement", "Automated Structured Fallbacks"], ["Lab: Add a gateway with automatic fallback"]),
    (ADD + "Guardrails and Security", [ADD + "Prompt Injection Explained", ADD + "Input and Output Guardrails"], [ADD + "Lab: Attack and defend your own app"])]),
@@ -159,25 +179,28 @@ TRACKS = [
 ("Track 7 · Agentic AI", [
  ("Agentic AI Fundamentals", "Beginner", [25],
   "What AI agents are, how the agent loop works, and how to build one from scratch before touching a framework.",
-  [("Understanding Agents", ["What is an AI Agent?", "Agentic AI vs Traditional AI Agents", "Agentic AI vs Generative AI"], []),
+  [("Understanding Agents", ["What is an AI Agent?", "Agentic AI vs Traditional AI Agents", "Agentic AI vs Generative AI", "Agentic AI Use Cases"], []),
    (ADD + "The Agent Loop", [ADD + "The Agent Loop: Decide, Act, Observe", ADD + "Workflows vs Agents", ADD + "Anatomy of an Agent"], [ADD + "Lab: Agent loop with a pretend model"]),
    (ADD + "Tools and Function Calling", [ADD + "What is a Tool?", ADD + "Function Calling Step by Step", ADD + "Designing Good Tools"], [ADD + "Lab: Tool-using agent from scratch"]),
    (ADD + "Reasoning Patterns", [ADD + "ReAct", ADD + "Planning and Reflection"], []),
    ("Multi-Agent Systems and the Ecosystem", ["What are Multi-Agent Systems?", "Overview of Agentic Frameworks", "Trends in Multi-Agent AI"], [])]),
  ("LangGraph Fundamentals", "Intermediate", [26],
-  "Build agent workflows as graphs: nodes, edges, chains, routers, agents with memory and LangGraph Studio.",
-  [("Getting Started", ["What is LangGraph?", "Simple Graphs and Node Connections", "LangGraph Studio"], ["Lab: Your first graph"]),
-   ("Workflows and Agents", ["Chains in LangGraph", "Routers", "Building Agents", "Agents with Memory"], ["Lab: Rebuild your scratch agent in LangGraph"]),
-   ("Deployment", ["Deploying and Running LangGraph Apps"], [])]),
+  "Build agent workflows as graphs: core concepts, sequential, parallel, conditional and looping workflows, chatbots, persistence, tools and subgraphs.",
+  [("Getting Started", ["LangChain vs LangGraph: Why LangGraph Exists", "What is LangGraph?", "Graphs, Nodes, Edges and State", "The LangGraph Execution Model", "Simple Graphs and Node Connections", "LangGraph Studio"], ["Lab: Your first graph"]),
+   ("Workflow Patterns in LangGraph", ["Sequential Workflows and Prompt Chaining", "Parallel Workflows", "Conditional Workflows", "Iterative (Looping) Workflows"], ["Lab: Essay evaluator with parallel graders", "Lab: Post generator with an evaluator loop"]),
+   ("Workflows and Agents", ["Chains in LangGraph", "Routers", "Building Agents", "Agents with Memory", "Tools in LangGraph: ToolNode and tools_condition", "Using MCP Tools in LangGraph", "RAG Inside a LangGraph Agent"], ["Lab: Rebuild your scratch agent in LangGraph"]),
+   ("Chatbots and Persistence", ["Building a Chatbot with LangGraph", "Persistence and Checkpointers", "Threads, Fault Tolerance and Resuming", "Persistent Storage with SQLite"], ["Lab: Chatbot UI with Streamlit, streaming and saved chats"]),
+   ("Subgraphs", ["What are Subgraphs?", "Shared vs Different State in Subgraphs"], ["Lab: Translation workflow with a subgraph"]),
+   ("Deployment and Observability", ["Deploying and Running LangGraph Apps", "LangSmith Observability for LangGraph"], [])]),
  ("LangGraph State and Memory", "Intermediate", [27],
   "Master LangGraph's state system: schemas, reducers, multiple schemas, and trimming messages to save context.",
   [("State Fundamentals", ["The LangGraph State System", "State Schemas and Data Flow"], []),
    ("Advanced State", ["State Reducers", "Multiple Schemas"], ["Lab: A multi-schema agent"]),
-   ("Optimising Memory", ["Trimming and Filtering Messages", ADD + "Summarising Long Conversations"], ["Lab: Keep a long chat under budget"])]),
+   ("Optimising Memory", ["Trimming and Filtering Messages", ADD + "Summarising Long Conversations", "Long-Term Memory with Stores"], ["Lab: Keep a long chat under budget"])]),
  ("Human-in-the-Loop with LangGraph", "Intermediate", [28],
-  "Make agents interactive and controllable: streaming, breakpoints, human edits to state and time travel.",
+  "Make agents interactive and controllable: streaming, interrupts, breakpoints, human edits to state and time travel.",
   [("Interactive Workflows", ["Streaming Real-Time Updates", "Breakpoints"], []),
-   ("Human Feedback", ["Editing State with Human Input", "Dynamic Breakpoints"], ["Lab: Approval step before a risky tool"]),
+   ("Human Feedback", ["Pausing with interrupt and Resuming with Command", "Editing State with Human Input", "Dynamic Breakpoints"], ["Lab: Approval step before a risky tool"]),
    ("Debugging", ["Time Travel: Rewind and Replay"], ["Lab: Debug an agent with time travel"])]),
  ("Agentic RAG Systems", "Advanced", [29],
   "Let agents decide how to retrieve: Adaptive RAG, Corrective RAG and Self-RAG, locally and with vector DBs.",
@@ -185,10 +208,11 @@ TRACKS = [
    ("Agentic RAG Architectures", ["Agents in RAG Pipelines", "Corrective RAG (CRAG)"], []),
    ("Self-RAG", ["How Self-RAG Works", "Self-RAG with a Vector DB", "Deploying Self-RAG Locally"], ["Lab: Build Self-RAG"])]),
  ("Model Context Protocol (MCP)", "Intermediate", [30],
-  "The standard way to plug tools and data into AI apps: MCP architecture, clients, servers and the ecosystem.",
-  [("Understanding MCP", ["What is MCP?", "Hosts, Clients and Servers"], []),
-   ("How MCP Components Talk", ["Data Flow in MCP", "Using MCP in Claude Desktop and Cursor"], []),
-   ("Building with MCP", ["Open MCP Registries (Smithery)", "Building MCP Servers with LangChain", "Docker MCP Catalog and Toolkit", ADD + "Agent-to-Agent (A2A) Protocol"], ["Lab: Build and connect your own MCP server"])]),
+  "The standard way to plug tools and data into AI apps: why MCP exists, its architecture and lifecycle, and building local and remote servers and clients.",
+  [("Understanding MCP", ["Why MCP Exists: The Fragmentation Problem", "What is MCP?", "Hosts, Clients and Servers", "MCP Primitives: Tools, Resources and Prompts"], []),
+   ("How MCP Components Talk", ["Data Flow in MCP", "The Data Layer: JSON-RPC Messages", "The Transport Layer: stdio and Streamable HTTP", "Using MCP in Claude Desktop and Cursor"], []),
+   ("The MCP Lifecycle", ["Initialisation: Version and Capability Negotiation", "Operation and Shutdown"], []),
+   ("Building with MCP", ["Open MCP Registries (Smithery)", "Building a Local MCP Server with FastMCP", "Building and Deploying a Remote MCP Server", "Building an MCP Client", "Building MCP Servers with LangChain", "Docker MCP Catalog and Toolkit", ADD + "Agent-to-Agent (A2A) Protocol"], ["Lab: Build and connect your own MCP server", "Lab: Expense tracker MCP server"])]),
  ("Multi-Agent Research System (Capstone)", "Advanced", [31],
   "Build and ship a multi-agent system that researches, analyses and writes reports, with CI/CD on AWS.",
   [("Architecting Multi-Agent Systems", ["Introduction to Agentic AI and Multi-Agent Architectures", "Designing Specialised Agents: Search, Reader, Analyst, Generator, Coordinator"], []),
@@ -200,15 +224,13 @@ TRACKS = [
  ("End-to-End AI Projects", "Advanced", ["Projects"],
   "Portfolio projects across data engineering, ML, deep learning, GenAI and agentic AI, each deployed with CI/CD.",
   [("Python and Data Engineering", [], ["Project: Review Scraper End to End", "Project: Supabase and Streamlit Database App"]),
-   ("Machine Learning", [], ["Project: Network Intrusion Detection System"]),
+   ("Machine Learning", [], ["Project: Network Intrusion Detection System", "Project: Insurance Premium Predictor API"]),
    ("Deep Learning", [], ["Project: Text Summarisation", "Project: Machine Translation", "Project: Question Answering"]),
    ("Generative AI and RAG", [], ["Project: RAG Q&A System with CI/CD"]),
-   ("Agentic AI", [], ["Project: Multi-Agent Research Analysis and Generation"])]),
+   ("Agentic AI", [], ["Project: AI Newsletter Generator with MCP", "Project: Multi-Agent Research Analysis and Generation"])]),
 ]),
 ]
 
-SAMPLE = ("Agentic AI Fundamentals", "What is an AI Agent? (Deep Dive)")
-SAMPLE_PATH = "courses/23-agentic-ai-fundamentals/02-understanding-agents/what-is-an-ai-agent-deep-dive.md"
 
 def clean(s):
     return s.replace(ADD, "")
@@ -223,14 +245,13 @@ for track, courses in TRACKS:
             lessons = []
             for t in topics:
                 added = t.startswith(ADD)
-                lessons.append({"title": clean(t), "type": "Video", "added": added})
-                lessons.append({"title": clean(t) + " (Deep Dive)", "type": "Article", "added": added})
+                lessons.append({"title": clean(t), "type": "Article", "added": added})
             for l in labs:
                 lessons.append({"title": clean(l), "type": "Lab", "added": l.startswith(ADD)})
             out_modules.append({"title": clean(mtitle), "added": mtitle.startswith(ADD), "lessons": lessons})
         nl = sum(len(m["lessons"]) for m in out_modules)
         hrs = round(sum(HOURS[l["type"]] for m in out_modules for l in m["lessons"]))
-        catalog.append({"id": n, "slug": f"{n:02d}-{slug(title)}", "track": track, "title": title, "level": level,
+        catalog.append({"id": n, "slug": slug(title), "track": track, "title": title, "level": level,
                         "syllabus_modules": mods, "description": card, "modules": out_modules,
                         "module_count": len(out_modules), "lesson_count": nl, "hours": max(hrs, 1)})
 
@@ -244,6 +265,7 @@ STATS, INF = "Statistics Foundations", "Inferential Statistics"
 FE, ML, ENS, MLF = "Feature Engineering and EDA", "Machine Learning Fundamentals", "Ensembles and Unsupervised Learning", "MLOps with MLflow"
 API, SPARK = "Production APIs with FastAPI", "Big Data with PySpark"
 NLP, DL, SEQ = "NLP for Machine Learning", "Deep Learning Foundations", "Sequence Models, Attention and Transformers"
+TORCH = "Deep Learning with PyTorch"
 GEN, VDB, LC, RAG, ENT = ("Generative AI and LLM Foundations", "Vector Databases for AI", "LangChain Complete Guide",
     "Retrieval-Augmented Generation (RAG)", "Enterprise LLM Systems")
 AG, LG, LGS, HITL, ARAG, MCP, CAP = ("Agentic AI Fundamentals", "LangGraph Fundamentals", "LangGraph State and Memory",
@@ -255,7 +277,7 @@ PREREQ_COURSES = {
     STATS: [NUM], INF: [STATS],
     FE: [NUM, VIZ, STATS], ML: [FE, STATS], ENS: [ML], MLF: [ML],
     API: [ADVPY], SPARK: [NUM, DB],
-    NLP: [ML], DL: [ML], SEQ: [DL, NLP],
+    NLP: [ML], DL: [ML], TORCH: [DL], SEQ: [DL, NLP],
     GEN: [SEQ, ADVPY], VDB: [GEN, DB], LC: [GEN], RAG: [VDB, LC], ENT: [RAG],
     AG: [GEN], LG: [AG, LC], LGS: [LG], HITL: [LGS], ARAG: [RAG, LG], MCP: [AG, LC],
     CAP: [HITL, ARAG, MCP, API, ENT],
@@ -272,7 +294,9 @@ PREREQ_MODULES = {
     (INF, "Bayesian Thinking"): [(STATS, "Probability")],
     (FE, "Feature Transformation and Selection"): [(STATS, "Data Behaviour and Relationships")],
     (FE, "Exploratory Data Analysis"): [(VIZ, "Seaborn and Storytelling"), (NUM, "Statistics and Plots in pandas")],
-    (ML, "Regression"): [(STATS, "Central Tendency and Dispersion"), (FE, "Feature Transformation and Selection")],
+    (ML, "Regression"): [(STATS, "Central Tendency and Dispersion"), (FE, "Feature Scaling and Encoding")],
+    (ML, "Gradient Descent and Regularisation"): [(ML, "Regression")],
+    (FE, "Dimensionality Reduction"): [(NUM, "NumPy Essentials")],
     (ML, "Classification"): [(STATS, "Probability")],
     (ML, "More Supervised Algorithms"): [(INF, "Bayesian Thinking")],
     (ENS, "Ensemble Learning"): [(ML, "More Supervised Algorithms")],
@@ -284,16 +308,17 @@ PREREQ_MODULES = {
     (NLP, "Text Representation"): [(FE, "Feature Transformation and Selection")],
     (NLP, "Word Embeddings"): [(NUM, "NumPy Essentials"), (STATS, "Data Behaviour and Relationships")],
     (DL, "Neural Networks"): [(ML, "Regression"), (ML, "Classification")],
+    (TORCH, "PyTorch Basics"): [(DL, "Frameworks")],
     (SEQ, "Sequence Models"): [(DL, "Neural Networks"), (NLP, "Word Embeddings")],
     (GEN, "How LLMs Work"): [(SEQ, "Transformers")],
     (GEN, "Prompting and Structured Output"): [(API, "Validation and Schemas")],
     (VDB, "Introduction to Vector Databases"): [(NLP, "Word Embeddings"), (DB, "Relational Databases and SQL")],
     (VDB, "Integrations"): [(DB, "NoSQL with MongoDB Atlas")],
-    (LC, "Building with LangChain"): [(GEN, "Prompting and Structured Output")],
-    (LC, "Agents, Monitoring and Deployment"): [(API, "FastAPI Fundamentals")],
+    (LC, "Structured Output and Output Parsers"): [(GEN, "Prompting and Structured Output"), (API, "Validation and Schemas")],
+    (LC, "Agents, Monitoring and Deployment"): [(API, "APIs and FastAPI Fundamentals")],
     (RAG, "Introduction to RAG"): [(VDB, "Introduction to Vector Databases"), (GEN, "How LLMs Work")],
-    (RAG, "Implementing RAG"): [(LC, "Chains and Execution"), (VDB, "Tools")],
-    (RAG, "Advanced RAG"): [(LC, "Chains and Execution")],
+    (RAG, "Implementing RAG"): [(LC, "Chains and Runnables"), (VDB, "Tools")],
+    (RAG, "Advanced RAG"): [(LC, "Chains and Runnables")],
     (ENT, "RAG Evaluation"): [(RAG, "Implementing RAG")],
     (ENT, "Observability"): [(LC, "Agents, Monitoring and Deployment")],
     (ENT, "Vectorless RAG"): [(RAG, "Implementing RAG")],
@@ -302,7 +327,8 @@ PREREQ_MODULES = {
     (AG, "Understanding Agents"): [(GEN, "How LLMs Work")],
     (AG, "Tools and Function Calling"): [(GEN, "Prompting and Structured Output")],
     (AG, "Multi-Agent Systems and the Ecosystem"): [(LC, "Agents, Monitoring and Deployment")],
-    (LG, "Getting Started"): [(AG, "The Agent Loop"), (LC, "Building with LangChain")],
+    (LG, "Getting Started"): [(AG, "The Agent Loop"), (LC, "Chains and Runnables")],
+    (LG, "Chatbots and Persistence"): [(ST, "Streamlit Basics")],
     (LG, "Workflows and Agents"): [(AG, "Tools and Function Calling")],
     (LGS, "State Fundamentals"): [(LG, "Workflows and Agents")],
     (LGS, "Optimising Memory"): [(GEN, "How LLMs Work")],
@@ -312,7 +338,7 @@ PREREQ_MODULES = {
     (ARAG, "Agentic RAG Architectures"): [(AG, "Reasoning Patterns")],
     (ARAG, "Self-RAG"): [(VDB, "Tools"), (ENT, "RAG Evaluation")],
     (MCP, "Understanding MCP"): [(AG, "Tools and Function Calling")],
-    (MCP, "Building with MCP"): [(LC, "Building with LangChain")],
+    (MCP, "Building with MCP"): [(LC, "Tools and Tool Calling"), (API, "Docker and Cloud Deployment")],
     (CAP, "Architecting Multi-Agent Systems"): [(AG, "Multi-Agent Systems and the Ecosystem")],
     (CAP, "Collaboration and Control"): [(LGS, "Advanced State"), (HITL, "Human Feedback")],
     (CAP, "Tools and Workflow"): [(MCP, "Building with MCP"), (ARAG, "Agentic RAG Architectures")],
@@ -357,6 +383,9 @@ for c in catalog:
             where.setdefault(l["title"], (c, i, m["title"]))
 missing = [(mod, t, l) for mod, rows in COVERAGE.items() for t, ls in rows for l in ls if l not in where]
 assert not missing, "\n".join(map(str, missing))
+from reference_coverage import REFERENCES
+missing = [(ref, t, l) for ref, rows in REFERENCES.items() for t, ls in rows for l in ls if l not in where]
+assert not missing, "reference topics without a lesson:\n" + "\n".join(map(str, missing))
 
 os.makedirs(OUT, exist_ok=True)
 json.dump(catalog, open(os.path.join(OUT, "catalog.json"), "w"), indent=1, ensure_ascii=False)
@@ -368,7 +397,7 @@ def course_link(c, prefix=""):
 L = ["# Agentic AI Platform: Course Catalog (Draft v4)", "",
      "> Built from the *Ultimate Data Science & GenAI Bootcamp V3.0* syllabus Sourabh shared, laid out like the DataVidhya Learn section.",
      "> Every topic in the syllabus is mapped to a lesson; see [syllabus-coverage.md](syllabus-coverage.md). Topics marked ➕ are additions beyond the syllabus.",
-     "> Every topic gets a short **Video** followed by a **(Deep Dive) Article**, with **Labs** where the reader builds something. Hours are estimates (video 15 min, article 20 min, lab 45 min).",
+     "> The platform is text only: every topic is one in-depth **Article**, with **Labs** where the reader builds something. Hours are estimates (article 25 min, lab 45 min).",
      "> Each course lists the courses to finish first, and each module links to the exact earlier modules it builds on.",
      ""]
 tot_l = sum(c["lesson_count"] for c in catalog); tot_h = sum(c["hours"] for c in catalog)
@@ -384,7 +413,7 @@ for track, _ in TRACKS:
         if c["track"] == track:
             L.append(f"- **{c['title']}:** {c['description']}")
     L.append("")
-L += ["## Article template (every Deep Dive follows this)", "",
+L += ["## Article template (every article follows this)", "",
       "1. **Title:** \"Topic? The Complete Guide\"",
       "2. **Before you start:** links to the earlier lessons this one builds on (from the module's prerequisites).",
       "3. **Introduction:** a real-world hook, why the topic is misunderstood, what the reader will know by the end.",
@@ -416,6 +445,40 @@ for mod, rows in COVERAGE.items():
 C.insert(3, f"\n**{total} syllabus topics checked, {total} covered, 0 missing.**\n")
 open(os.path.join(OUT, "syllabus-coverage.md"), "w").write("\n".join(C))
 
+R = ["# Reference Notes Coverage", "",
+     "Topics from the reference course notes shared for this site (CampusX 100 Days of ML, NLP, PyTorch, FastAPI, "
+     "LangChain, LangGraph and MCP), and the lesson(s) that teach each one. The build fails if a lesson is missing.", ""]
+for ref, rows in REFERENCES.items():
+    R += [f"## {ref}", "", "| Topic | Taught in |", "|---|---|"]
+    for t, ls in rows:
+        R.append(f"| {t} | " + "<br>".join(f"[{l}](courses/{where[l][0]['slug']}/course.md#m{where[l][1]}) ({where[l][0]['title']})" for l in ls) + " |")
+    R.append("")
+open(os.path.join(OUT, "reference-coverage.md"), "w").write("\n".join(R))
+
+# Written lessons live at courses/<course>/<NN-module>/<lesson-slug>.md
+written = {}
+for c in catalog:
+    base = os.path.join(OUT, "courses", c["slug"])
+    for dp, _, files in os.walk(base):
+        for f in files:
+            if f.endswith(".md") and f != "course.md":
+                written[(c["slug"], f[:-3])] = os.path.relpath(os.path.join(dp, f), base)
+lesson_slugs = {(c["slug"], slug(l["title"])) for c in catalog for m in c["modules"] for l in m["lessons"]}
+orphans = sorted(set(written) - lesson_slugs)
+assert not orphans, f"written lessons not in the catalog: {orphans}"
+
+# Every relative .md link in a written lesson must point at a file that exists (a written lesson or a
+# course page). Forward references to lessons not written yet should link to course.md#m<N> instead.
+broken = []
+for (cs, _), rel in written.items():
+    src = os.path.join(OUT, "courses", cs, rel)
+    for target in re.findall(r"\]\(([^)#\s:]+\.md)(?:#[^)\s]*)?\)", open(src).read()):
+        full = os.path.normpath(os.path.join(os.path.dirname(src), target))
+        generated = os.path.basename(full) == "course.md" and os.path.basename(os.path.dirname(full)) in {c["slug"] for c in catalog}
+        if not (generated or os.path.exists(full)):
+            broken.append(f"{cs}/{rel} -> {target}")
+assert not broken, "broken links:\n" + "\n".join(broken)
+
 # Per-course pages
 for c in catalog:
     d = os.path.join(OUT, "courses", c["slug"]); os.makedirs(d, exist_ok=True)
@@ -439,8 +502,9 @@ for c in catalog:
             P.append("")
         for l in m["lessons"]:
             mark = " ➕" if l["added"] else ""
-            if (c["title"], l["title"]) == SAMPLE:
-                P.append(f"- [{l['title']}](02-understanding-agents/what-is-an-ai-agent-deep-dive.md) · {l['type']} ✍️ *written*")
+            rel = written.get((c["slug"], slug(l["title"])))
+            if rel:
+                P.append(f"- [{l['title']}]({rel}) · {l['type']}{mark} ✍️ *written*")
             else:
                 P.append(f"- {l['title']} · {l['type']}{mark}")
         P.append("")
