@@ -6,7 +6,7 @@ Track 8 · Agentic AI · Bootcamp syllabus module(s): 26
 Build agent workflows as graphs: core concepts, sequential, parallel, conditional and looping workflows, chatbots, persistence, tools and subgraphs.
 
 **Finish first:** [Agentic AI Fundamentals](../agentic-ai-fundamentals/course.md), [LangChain Complete Guide](../langchain-complete-guide/course.md)  
-**Unlocks:** [LangGraph State and Memory](../langgraph-state-and-memory/course.md), [Agentic RAG Systems](../agentic-rag-systems/course.md), [Agent Frameworks and SDKs](../agent-frameworks-and-sdks/course.md)
+**Unlocks:** [LangGraph State and Memory](../langgraph-state-and-memory/course.md), [Agentic RAG Systems](../agentic-rag-systems/course.md), [Knowledge Graphs, Ontologies and Unstructured Data](../knowledge-graphs-ontologies-and-unstructured-data/course.md), [Agent Frameworks and SDKs](../agent-frameworks-and-sdks/course.md)
 
 ## Course content
 

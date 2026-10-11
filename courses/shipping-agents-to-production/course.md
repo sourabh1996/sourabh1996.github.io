@@ -1,6 +1,6 @@
 # Shipping Agents to Production
 
-**Advanced · 3 modules · 10 lessons · ~4 hrs**  
+**Advanced · 4 modules · 17 lessons · ~8 hrs**  
 Track 8 · Agentic AI · ➕ Added beyond the bootcamp syllabus
 
 Architect, run and operate agents for real users: separating the loop from the sandbox, background agents, UX for approvals, and cost control.
@@ -28,3 +28,13 @@ Architect, run and operate agents for real users: separating the loop from the s
 - Rate Limits, Budgets and Cost Controls · Article ➕
 - Model Routing and Fallbacks · Article ➕
 - Lab: Ship a background agent with approvals · Lab ➕
+
+<a id="m4"></a>
+### 4. Personal and Business Automation Agents ➕ (7 lessons)
+- Identity Files: Giving an Agent a Persona and Rules · Article ➕
+- The Setup Interview: Capturing What the Agent Needs to Know · Article ➕
+- Tool Registries and Skill Kits · Article ➕
+- Scheduled Agents with cron · Article ➕
+- Running an Agent on Your Laptop with Local Models · Article ➕
+- Agents for Business Automation: Case Studies · Article ➕
+- Lab: Build a personal assistant agent end to end · Lab ➕

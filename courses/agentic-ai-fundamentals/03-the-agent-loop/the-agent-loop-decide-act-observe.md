@@ -346,4 +346,4 @@ Common follow-ups:
 
 ---
 
-**Up next:** [Workflows vs Agents](workflows-vs-agents.md)
+**Up next:** [How an Agent Decides What to Do Next](how-an-agent-decides-what-to-do-next.md)

@@ -1,6 +1,6 @@
 # Agentic AI Fundamentals
 
-**Beginner · 6 modules · 18 lessons · ~8 hrs**  
+**Beginner · 6 modules · 19 lessons · ~8 hrs**  
 Track 8 · Agentic AI · Bootcamp syllabus module(s): 25
 
 What AI agents are, how the agent loop works, and how to build one from scratch before touching a framework.
@@ -24,8 +24,9 @@ What AI agents are, how the agent loop works, and how to build one from scratch 
 - [Agentic AI Use Cases](02-understanding-agents/agentic-ai-use-cases.md) · Article ✍️ *written*
 
 <a id="m3"></a>
-### 3. The Agent Loop ➕ (4 lessons)
+### 3. The Agent Loop ➕ (5 lessons)
 - [The Agent Loop: Decide, Act, Observe](03-the-agent-loop/the-agent-loop-decide-act-observe.md) · Article ➕ ✍️ *written*
+- [How an Agent Decides What to Do Next](03-the-agent-loop/how-an-agent-decides-what-to-do-next.md) · Article ➕ ✍️ *written*
 - [Workflows vs Agents](03-the-agent-loop/workflows-vs-agents.md) · Article ➕ ✍️ *written*
 - [Anatomy of an Agent](03-the-agent-loop/anatomy-of-an-agent.md) · Article ➕ ✍️ *written*
 - [Lab: Agent loop with a pretend model](03-the-agent-loop/lab-agent-loop-with-a-pretend-model.md) · Lab ➕ ✍️ *written*
