@@ -60,7 +60,7 @@ flowchart LR
 
 **Why:** Real tasks (migrating code, monitoring systems, compiling research) take longer than a chat reply.
 
-**For you:** Persistence and checkpoints become essential, along with progress reporting and safe resumption. → [Persistence and Checkpointers in LangGraph](../../langgraph-fundamentals/course.md#m5)
+**For you:** Persistence and checkpoints become essential, along with progress reporting and safe resumption. → [Persistence and Checkpointers in LangGraph](../../langgraph-fundamentals/05-chatbots-and-persistence/persistence-and-checkpointers.md)
 
 ### 4. Agents that use computers and code
 

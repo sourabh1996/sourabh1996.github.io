@@ -219,7 +219,7 @@ Output:
 {'answer': '(answer based on searching: what is langgraph)'}
 ```
 
-The caller sends only `question` and gets back only `answer`; `search_terms` stays internal. This is especially useful when the graph becomes a component of a bigger one ([Subgraphs](../course.md#m6)).
+The caller sends only `question` and gets back only `answer`; `search_terms` stays internal. This is especially useful when the graph becomes a component of a bigger one ([Subgraphs](../06-subgraphs/what-are-subgraphs.md)).
 
 ### 5. Choosing names and structure
 
