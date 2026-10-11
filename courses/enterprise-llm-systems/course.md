@@ -1,12 +1,12 @@
 # Enterprise LLM Systems
 
 **Advanced · 6 modules · 25 lessons · ~11 hrs**  
-Track 6 · Generative AI · Bootcamp syllabus module(s): 24
+Track 7 · Generative AI · Bootcamp syllabus module(s): 24
 
 Run LLM systems at scale: RAG evaluation with Ragas, observability with LangSmith and Opik, vectorless RAG and LLM gateways.
 
 **Finish first:** [Retrieval-Augmented Generation (RAG)](../retrieval-augmented-generation-rag/course.md)  
-**Unlocks:** [Multi-Agent Research System (Capstone)](../multi-agent-research-system-capstone/course.md)
+**Unlocks:** [Agent Evals, Observability and Reliability](../agent-evals-observability-and-reliability/course.md), [Agent Security and Safety](../agent-security-and-safety/course.md), [Multi-Agent Research System (Capstone)](../multi-agent-research-system-capstone/course.md)
 
 ## Course content
 

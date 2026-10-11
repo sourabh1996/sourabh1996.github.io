@@ -1,7 +1,7 @@
 # Generative AI and LLM Foundations
 
 **Beginner · 5 modules · 18 lessons · ~8 hrs**  
-Track 6 · Generative AI · Bootcamp syllabus module(s): 20
+Track 7 · Generative AI · Bootcamp syllabus module(s): 20
 
 What generative AI is, how LLMs work, and how to use them well: foundation models, tokens, prompting and structured output.
 

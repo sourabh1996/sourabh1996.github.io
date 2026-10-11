@@ -19,10 +19,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-        with: { python-version: "3.12" }
+        with: { python-version: "3.13" }
       - name: Rebuild catalog (fails if a syllabus topic or prerequisite link breaks)
         run: python3 build_catalog.py .
+      - name: Install packages the lesson examples use
+        run: python3 -m pip install -r requirements-lessons.txt
       - name: Run every code example in the lessons and check its output
+        env: { MPLBACKEND: Agg }
         run: python3 tools/check_code.py
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm, cache-dependency-path: site/package-lock.json }

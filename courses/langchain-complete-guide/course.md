@@ -1,7 +1,7 @@
 # LangChain Complete Guide
 
 **Intermediate · 8 modules · 39 lessons · ~17 hrs**  
-Track 6 · Generative AI · Bootcamp syllabus module(s): 22
+Track 7 · Generative AI · Bootcamp syllabus module(s): 22
 
 Build LLM apps with LangChain: models, prompts, structured output, parsers, chains, runnables, tools, tool calling and agents.
 

@@ -6,7 +6,7 @@ Track 4 · Production Engineering and Big Data · Bootcamp syllabus module(s): 1
 Process data that won't fit in memory with Spark: architecture, DataFrames, Spark SQL and optimisation.
 
 **Finish first:** [Numerical Computing and Data Analysis](../numerical-computing-and-data-analysis/course.md), [Databases: SQL and NoSQL](../databases-sql-and-nosql/course.md)  
-**Unlocks:** Nothing, this is a final course.
+**Unlocks:** [Streaming Data with Kafka](../streaming-data-with-kafka/course.md), [Lakehouses and Open Table Formats](../lakehouses-and-open-table-formats/course.md)
 
 ## Course content
 

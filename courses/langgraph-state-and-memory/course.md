@@ -1,12 +1,12 @@
 # LangGraph State and Memory
 
 **Intermediate · 4 modules · 10 lessons · ~5 hrs**  
-Track 7 · Agentic AI · Bootcamp syllabus module(s): 27
+Track 8 · Agentic AI · Bootcamp syllabus module(s): 27
 
 Master LangGraph's state system: schemas, reducers, multiple schemas, and trimming messages to save context.
 
 **Finish first:** [LangGraph Fundamentals](../langgraph-fundamentals/course.md)  
-**Unlocks:** [Human-in-the-Loop with LangGraph](../human-in-the-loop-with-langgraph/course.md)
+**Unlocks:** [Human-in-the-Loop with LangGraph](../human-in-the-loop-with-langgraph/course.md), [Context Engineering and Agent Memory](../context-engineering-and-agent-memory/course.md)
 
 ## Course content
 

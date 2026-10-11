@@ -36,11 +36,11 @@ By the end of this course you will be able to:
 
 ```mermaid
 flowchart LR
-  A["1. Start Here"] --> B["2. Understanding Agents<br/>What agents are"]
-  B --> C["3. The Agent Loop<br/>How they run"]
-  C --> D["4. Tools and Function Calling<br/>How they act"]
-  D --> E["5. Reasoning Patterns<br/>How they think"]
-  E --> F["6. Multi-Agent Systems<br/>How they team up"]
+  A["Module 1: Start Here"] --> B["Module 2: Understanding Agents<br/>What agents are"]
+  B --> C["Module 3: The Agent Loop<br/>How they run"]
+  C --> D["Module 4: Tools and Function Calling<br/>How they act"]
+  D --> E["Module 5: Reasoning Patterns<br/>How they think"]
+  E --> F["Module 6: Multi-Agent Systems<br/>How they team up"]
 ```
 
 Each module builds on the one before it. Module 2 gives you the vocabulary. Module 3 gives you the engine. Module 4 connects the engine to the real world. Module 5 makes it smarter. Module 6 zooms out to systems of many agents and the tools people use to build them.

@@ -6,7 +6,7 @@ Track 1 · Python and Data Foundations · Bootcamp syllabus module(s): 6
 Store and query data with PostgreSQL on Supabase and documents in MongoDB Atlas.
 
 **Finish first:** [Python Fundamentals](../python-fundamentals/course.md)  
-**Unlocks:** [Big Data with PySpark](../big-data-with-pyspark/course.md), [Vector Databases for AI](../vector-databases-for-ai/course.md)
+**Unlocks:** [Big Data with PySpark](../big-data-with-pyspark/course.md), [Data Engineering Foundations](../data-engineering-foundations/course.md), [Vector Databases for AI](../vector-databases-for-ai/course.md)
 
 ## Course content
 

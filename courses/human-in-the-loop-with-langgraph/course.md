@@ -1,7 +1,7 @@
 # Human-in-the-Loop with LangGraph
 
 **Intermediate · 4 modules · 9 lessons · ~4 hrs**  
-Track 7 · Agentic AI · Bootcamp syllabus module(s): 28
+Track 8 · Agentic AI · Bootcamp syllabus module(s): 28
 
 Make agents interactive and controllable: streaming, interrupts, breakpoints, human edits to state and time travel.
 

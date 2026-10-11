@@ -6,7 +6,7 @@ Track 1 · Python and Data Foundations · Bootcamp syllabus module(s): 3, 4
 Process data fast with NumPy arrays and pandas DataFrames: indexing, transforming, dates, text and statistics.
 
 **Finish first:** [Python Fundamentals](../python-fundamentals/course.md)  
-**Unlocks:** [Data Visualization with Matplotlib and Seaborn](../data-visualization-with-matplotlib-and-seaborn/course.md), [Interactive Data Apps with Streamlit](../interactive-data-apps-with-streamlit/course.md), [Statistics Foundations](../statistics-foundations/course.md), [Feature Engineering and EDA](../feature-engineering-and-eda/course.md), [Big Data with PySpark](../big-data-with-pyspark/course.md)
+**Unlocks:** [Data Visualization with Matplotlib and Seaborn](../data-visualization-with-matplotlib-and-seaborn/course.md), [Interactive Data Apps with Streamlit](../interactive-data-apps-with-streamlit/course.md), [Statistics Foundations](../statistics-foundations/course.md), [Feature Engineering and EDA](../feature-engineering-and-eda/course.md), [Big Data with PySpark](../big-data-with-pyspark/course.md), [Data Engineering Foundations](../data-engineering-foundations/course.md)
 
 ## Course content
 

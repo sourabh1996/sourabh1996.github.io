@@ -1,7 +1,7 @@
 # NLP for Machine Learning
 
 **Intermediate · 6 modules · 23 lessons · ~11 hrs**  
-Track 5 · Deep Learning and NLP · Bootcamp syllabus module(s): 16
+Track 6 · Deep Learning and NLP · Bootcamp syllabus module(s): 16
 
 Turn text into features and predictions: the NLP pipeline, preprocessing, POS tagging, TF-IDF, Word2Vec and text classification.
 

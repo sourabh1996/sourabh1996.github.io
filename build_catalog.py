@@ -17,7 +17,26 @@ def slug(s):
 # (track, [courses]); course = (title, level, syllabus_modules, card, [modules])
 # module = (title, [topics], [labs])
 TRACKS = [
-("Track 1 · Python and Data Foundations", [
+("Developer Toolkit", [
+ (ADD + "The Command Line and Linux Basics", "Beginner", [],
+  "Get comfortable in a terminal: files, paths, permissions, processes, pipes, environment variables and shell scripts.",
+  [(ADD + "Terminal Fundamentals", [ADD + "What is a Terminal and a Shell?", ADD + "Files, Folders and Paths", ADD + "Viewing, Searching and Editing Files", ADD + "Permissions and Users"], []),
+   (ADD + "Working Like a Developer", [ADD + "Pipes, Redirection and grep", ADD + "Processes, Ports and Environment Variables", ADD + "Package Managers and Virtual Environments", ADD + "Shell Scripts and cron", ADD + "SSH and Remote Servers"], [ADD + "Lab: Automate a daily data download"])]),
+ (ADD + "Git and GitHub: Zero to Pro", "Beginner", [],
+  "Everything about Git and GitHub: how Git works inside, branching, collaboration, Actions, Pages, Codespaces, Copilot and coding agents, security and open source.",
+  [(ADD + "Version Control from Scratch", [ADD + "Why Version Control Exists", ADD + "Installing and Configuring Git", ADD + "The Three Areas: Working Tree, Staging and Repository", ADD + "Reading History with log, show and diff", ADD + "Writing Good Commit Messages", ADD + ".gitignore and What Never to Commit"], [ADD + "Lab: Put a project under version control"]),
+   (ADD + "How Git Works Inside", [ADD + "Blobs, Trees, Commits and Tags", ADD + "Hashes and Content Addressing", ADD + "Refs, HEAD and Detached HEAD", ADD + "The Reflog and Garbage Collection"], [ADD + "Lab: Explore the .git folder by hand"]),
+   (ADD + "Branching and Merging", [ADD + "Branches Are Just Pointers", ADD + "Fast-Forward and Three-Way Merges", ADD + "Resolving Merge Conflicts", ADD + "Rebase and Interactive Rebase", ADD + "Merge vs Rebase", ADD + "Undoing Things: restore, reset, revert and cherry-pick", ADD + "Stash, Worktrees and bisect"], [ADD + "Lab: Branching kata with conflicts"]),
+   (ADD + "Remotes and GitHub Basics", [ADD + "clone, fetch, pull and push", ADD + "SSH Keys, Tokens and the GitHub CLI", ADD + "Forks, Upstreams and Remotes", ADD + "A Great README, LICENSE and Profile"], []),
+   (ADD + "Collaborating on GitHub", [ADD + "Pull Requests End to End", ADD + "Code Review that Helps", ADD + "Issues, Labels, Milestones and Projects", ADD + "GitHub Flow, Git Flow and Trunk-Based Development", ADD + "Branch Protection, Rulesets and CODEOWNERS", ADD + "Merge Strategies and Merge Queues"], [ADD + "Lab: Team workflow with PRs and reviews"]),
+   (ADD + "GitHub Actions", [ADD + "Workflows, Jobs, Steps and Runners", ADD + "Triggers and Events", ADD + "Matrix Builds and Caching", ADD + "Secrets, Variables and Environments", ADD + "OIDC: Deploying to the Cloud without Stored Keys", ADD + "Reusable Workflows and Composite Actions", ADD + "Writing Your Own Action"], [ADD + "Lab: CI that tests and lints a Python project"]),
+   (ADD + "GitHub Pages, Codespaces and Packages", [ADD + "Publishing a Site with GitHub Pages", ADD + "Custom Domains and HTTPS", ADD + "Codespaces and Dev Containers", ADD + "Releases, Tags and GitHub Packages"], [ADD + "Lab: Deploy a static site with Actions"]),
+   (ADD + "AI on GitHub", [ADD + "Copilot in the Editor and on GitHub", ADD + "Coding Agents that Open Pull Requests", ADD + "Repository Instructions: AGENTS.md and Custom Instructions", ADD + "The GitHub MCP Server", ADD + "Running Coding Agents in GitHub Actions"], []),
+   (ADD + "Security and Supply Chain", [ADD + "Dependabot Alerts and Updates", ADD + "Code Scanning and Secret Scanning", ADD + "Signed Commits and Artifact Attestations", ADD + "Hardening Actions: Pinning and Least Privilege", ADD + "Removing a Leaked Secret from History"], []),
+   (ADD + "Open Source and Advanced Git", [ADD + "Contributing to Open Source", ADD + "Licenses in Plain English", ADD + "Maintaining a Project: Templates, Releases and Semver", ADD + "Submodules, Subtrees and Monorepos", ADD + "Git LFS for Large Files", ADD + "Git Hooks and pre-commit"], []),
+   (ADD + "Git and GitHub Interview Prep", [ADD + "Git Interview Questions Explained", ADD + "Scenario Drills: Broken main, Leaked Secrets, Lost Work"], [])]),
+]),
+("Python and Data Foundations", [
  ("Python Fundamentals", "Beginner", [1],
   "Learn Python from zero: values, operators, control flow, strings, collections, functions and generators.",
   [("Getting Started with Python", ["What is Python and Why Use It?", "Python vs Other Languages", "Numbers, Booleans and Strings"], ["Lab: Set up Python and run your first script"]),
@@ -51,7 +70,7 @@ TRACKS = [
   [("Streamlit Basics", ["What is Streamlit?", "Widgets and Layout"], ["Lab: Your first dashboard"]),
    ("State and Responsiveness", ["Session State", "async and await in Streamlit"], ["Lab: Build a chat UI shell for an LLM app"])]),
 ]),
-("Track 2 · Statistics", [
+("Statistics", [
  ("Statistics Foundations", "Beginner", [8],
   "The core ideas behind all data science: data types, averages, spread, probability, distributions and estimation.",
   [("Introduction to Statistics", ["What is Statistics?", "Descriptive vs Inferential Statistics", "Types of Data and Levels of Measurement"], []),
@@ -66,7 +85,7 @@ TRACKS = [
    ("Bayesian Thinking", ["Bayes' Theorem", "Bayes in the Real World"], []),
    ("Chi-Square Tests", ["The Chi-Square Distribution", "Goodness-of-Fit and Independence Tests"], ["Lab: Chi-square tests in Python"])]),
 ]),
-("Track 3 · Machine Learning", [
+("Machine Learning", [
  ("Feature Engineering and EDA", "Intermediate", [10, 11],
   "Get data, explore it and prepare it for models: imputation, outliers, scaling, encoding, pipelines, PCA and real case studies.",
   [("Getting Data", ["Framing a Machine Learning Problem", "Loading CSV, JSON and SQL Data", "Fetching Data from APIs", "Web Scraping for Datasets"], ["Lab: Build a dataset from an API"]),
@@ -96,7 +115,7 @@ TRACKS = [
    ("Model Management", ["Model Registry", "Model Packaging", "Lifecycle Stages and Transitions"], []),
    ("Serving and Deployment", ["Real-Time Serving and Local Deployment", "Containerisation", "Cloud and Orchestration"], ["Lab: Serve a registered model"])]),
 ]),
-("Track 4 · Production Engineering and Big Data", [
+("Production Engineering and Big Data", [
  ("Production APIs with FastAPI", "Intermediate", [14],
   "Build production-grade APIs with FastAPI: endpoints, Pydantic validation, serving ML models, Docker and AWS deployment.",
   [("APIs and FastAPI Fundamentals", ["What is an API?", "Why Machine Learning Needs APIs", "What is FastAPI and Why Use It?", "Sync vs Async in FastAPI", "Project Structure and Hello World", "HTTP Methods: GET, POST, PUT, DELETE"], ["Lab: Your first API"]),
@@ -111,7 +130,45 @@ TRACKS = [
    ("PySpark DataFrames and SQL", ["From pandas to PySpark", "Filters, Aggregations and Joins", "Spark SQL", "Complex Data Types"], ["Lab: Analyse a 10 GB dataset"]),
    ("Optimisation", ["Lazy Evaluation: Transformations vs Actions", "Reading the Spark UI", "Spot Instances and Cost"], [])]),
 ]),
-("Track 5 · Deep Learning and NLP", [
+("Data Engineering", [
+ (ADD + "Data Engineering Foundations", "Intermediate", [],
+  "What data engineers build and why: the data lifecycle, OLTP vs OLAP, batch vs streaming, file formats and advanced SQL.",
+  [(ADD + "The Data Engineering Landscape", [ADD + "What Does a Data Engineer Do?", ADD + "The Data Lifecycle: Ingest, Store, Transform, Serve", ADD + "OLTP vs OLAP", ADD + "Batch vs Streaming", ADD + "The Modern Data Stack"], []),
+   (ADD + "Files and Formats", [ADD + "CSV, JSON, Parquet and Avro", ADD + "Compression and Partitioned Files", ADD + "Fast DataFrames with Polars and DuckDB"], [ADD + "Lab: Convert a CSV lake to partitioned Parquet"]),
+   (ADD + "Advanced SQL", [ADD + "Window Functions", ADD + "CTEs and Recursive Queries", ADD + "Query Plans and Indexes", ADD + "Transactions and Isolation Levels", ADD + "SQL Patterns: Deduplication, Gaps and Islands, Sessionisation"], [ADD + "Lab: 25 SQL interview problems"])]),
+ (ADD + "Data Modelling and Warehousing", "Intermediate", [],
+  "Design data that is easy to query: normalisation, dimensional models, slowly changing dimensions, Data Vault, medallion layers and cloud warehouses.",
+  [(ADD + "Modelling Fundamentals", [ADD + "Normalisation and When to Break It", ADD + "Facts and Dimensions", ADD + "Star and Snowflake Schemas", ADD + "Slowly Changing Dimensions", ADD + "Data Vault and One Big Table"], [ADD + "Lab: Model an online shop as a star schema"]),
+   (ADD + "Cloud Warehouses", [ADD + "Columnar Storage and MPP", ADD + "Snowflake, BigQuery and Redshift Compared", ADD + "Partitioning, Clustering and Cost Control", ADD + "Semantic Layers and Metrics"], [])]),
+ (ADD + "ELT and Transformation with dbt", "Intermediate", [],
+  "Load raw data and transform it inside the warehouse with tested, documented dbt models.",
+  [(ADD + "Ingestion", [ADD + "ETL vs ELT", ADD + "Ingestion Tools: Fivetran, Airbyte and dlt", ADD + "Change Data Capture"], [ADD + "Lab: Load an API into DuckDB with dlt"]),
+   (ADD + "dbt", [ADD + "dbt Projects, Models and the DAG", ADD + "Sources, refs and the Medallion Layers", ADD + "Tests, Contracts and Documentation", ADD + "Incremental Models and Snapshots", ADD + "Jinja, Macros and Packages", ADD + "CI for dbt and the Fusion Engine"], [ADD + "Lab: Build a dbt project on DuckDB"])]),
+ (ADD + "Orchestration with Airflow", "Intermediate", [],
+  "Schedule, retry and monitor pipelines: Airflow DAGs, the TaskFlow API, assets, backfills and alternatives like Dagster and Prefect.",
+  [(ADD + "Airflow Core", [ADD + "Why Pipelines Need an Orchestrator", ADD + "DAGs, Tasks, Operators and Sensors", ADD + "The TaskFlow API", ADD + "Scheduling, Backfills and Idempotency", ADD + "Dynamic Task Mapping", ADD + "Assets and Event-Driven Scheduling in Airflow 3"], [ADD + "Lab: A daily ELT DAG with retries and alerts"]),
+   (ADD + "Running Orchestration in Production", [ADD + "Running Airflow on Docker, Kubernetes and Managed Services", ADD + "Dagster, Prefect and Other Orchestrators"], [])]),
+ (ADD + "Streaming Data with Kafka", "Advanced", [],
+  "Move and process events in real time: Kafka, delivery guarantees, schemas, CDC with Debezium and stream processing with Flink and Spark.",
+  [(ADD + "Kafka Fundamentals", [ADD + "Events, Logs and the Streaming Mindset", ADD + "Topics, Partitions and Offsets", ADD + "Producers, Consumers and Consumer Groups", ADD + "Delivery Guarantees and Exactly-Once", ADD + "Schemas and Schema Evolution", ADD + "Kafka Without ZooKeeper: KRaft"], [ADD + "Lab: Produce and consume click events"]),
+   (ADD + "Stream Processing", [ADD + "Windows, Watermarks and Late Data", ADD + "Spark Structured Streaming", ADD + "Apache Flink", ADD + "CDC with Debezium"], [ADD + "Lab: Real-time order dashboard"])]),
+ (ADD + "Lakehouses and Open Table Formats", "Advanced", [],
+  "Combine cheap storage with warehouse features: Delta Lake, Apache Iceberg, catalogs, time travel and query engines.",
+  [(ADD + "The Lakehouse", [ADD + "From Data Lakes to Lakehouses", ADD + "Delta Lake", ADD + "Apache Iceberg and Iceberg v3", ADD + "Apache Hudi and Choosing a Format", ADD + "Catalogs: Unity, Polaris, Glue and REST", ADD + "Time Travel, Schema Evolution and Compaction", ADD + "Query Engines: Trino, DuckDB and ClickHouse", ADD + "Spark Performance Tuning: Shuffles, Skew and AQE"], [ADD + "Lab: Build a small Iceberg lakehouse"])]),
+ (ADD + "Data Quality, Governance and DataOps", "Advanced", [],
+  "Make data trustworthy: tests, contracts, lineage, observability, CI/CD and infrastructure as code for data platforms.",
+  [(ADD + "Trustworthy Data", [ADD + "Data Quality Dimensions and Tests", ADD + "Great Expectations and Soda", ADD + "Data Contracts", ADD + "Lineage with OpenLineage and Data Catalogs", ADD + "Data Observability"], []),
+   (ADD + "DataOps and Governance", [ADD + "CI/CD and Environments for Data", ADD + "Terraform for Data Platforms", ADD + "Privacy, PII and Access Control"], [ADD + "Lab: Add tests, contracts and CI to a pipeline"])]),
+ (ADD + "Cloud Data Platforms", "Advanced", [],
+  "The data services on AWS, Google Cloud and Azure, how they fit together, what they cost, and which certifications map to them.",
+  [(ADD + "The Big Three Clouds", [ADD + "AWS Data Services: S3, Glue, Athena, EMR, Redshift and Kinesis", ADD + "Google Cloud Data Services: BigQuery, Dataflow, Pub/Sub and Composer", ADD + "Azure Data Services: ADLS, Data Factory, Fabric and Databricks", ADD + "Databricks and Snowflake as Platforms", ADD + "FinOps: Controlling Data Costs", ADD + "Data Engineering Certifications Map"], [ADD + "Lab: Serverless pipeline on AWS"]),
+   (ADD + "Data Engineering for AI", [ADD + "Pipelines for RAG: Chunking, Embedding and Refreshing", ADD + "Feature Stores and ML Pipelines", ADD + "Data Agents and MCP Servers for Warehouses"], [])]),
+ (ADD + "Data Engineering Capstone and System Design", "Advanced", [],
+  "Build an end-to-end platform and practise the system design and SQL questions asked in data engineering interviews.",
+  [(ADD + "Capstone", [], [ADD + "Lab: CDC from Postgres to Kafka to Iceberg to dbt to a dashboard"]),
+   (ADD + "Interview Preparation", [ADD + "Data Pipeline System Design Framework", ADD + "Design Drills: Clickstream, Ride Events and Fraud Detection", ADD + "Batch vs Streaming, Lambda vs Kappa Trade-offs", ADD + "Data Engineering Interview Questions Explained"], [])]),
+]),
+("Deep Learning and NLP", [
  ("NLP for Machine Learning", "Intermediate", [16],
   "Turn text into features and predictions: the NLP pipeline, preprocessing, POS tagging, TF-IDF, Word2Vec and text classification.",
   [("Introduction to NLP", ["What is NLP?", "NLP Terminology and Roadmap", "The End-to-End NLP Pipeline", "Data Acquisition for NLP"], []),
@@ -140,7 +197,7 @@ TRACKS = [
    ("Attention", ["What is Attention?", "Encoder-Decoder Models", "Self-Attention"], []),
    ("Transformers", ["The Transformer Architecture", "BERT", "GPT"], ["Lab: Fine-tune BERT for classification"])]),
 ]),
-("Track 6 · Generative AI", [
+("Generative AI", [
  ("Generative AI and LLM Foundations", "Beginner", [20],
   "What generative AI is, how LLMs work, and how to use them well: foundation models, tokens, prompting and structured output.",
   [("Fundamentals of Generative AI", ["What is Generative AI?", "How Generative Models Work", "Generative vs Discriminative Models", "The GenAI Roadmap: Builder vs User", "Foundation Models"], []),
@@ -176,7 +233,7 @@ TRACKS = [
    ("LLM Gateways", ["What is an LLM Gateway?", "OpenAI-Compatible Routing with Bifrost", "Drop-In SDK Replacement", "Automated Structured Fallbacks"], ["Lab: Add a gateway with automatic fallback"]),
    (ADD + "Guardrails and Security", [ADD + "Prompt Injection Explained", ADD + "Input and Output Guardrails"], [ADD + "Lab: Attack and defend your own app"])]),
 ]),
-("Track 7 · Agentic AI", [
+("Agentic AI", [
  ("Agentic AI Fundamentals", "Beginner", [25],
   "What AI agents are, how the agent loop works, and how to build one from scratch before touching a framework.",
   [("Understanding Agents", ["What is an AI Agent?", "Agentic AI vs Traditional AI Agents", "Agentic AI vs Generative AI", "Agentic AI Use Cases"], []),
@@ -212,7 +269,55 @@ TRACKS = [
   [("Understanding MCP", ["Why MCP Exists: The Fragmentation Problem", "What is MCP?", "Hosts, Clients and Servers", "MCP Primitives: Tools, Resources and Prompts"], []),
    ("How MCP Components Talk", ["Data Flow in MCP", "The Data Layer: JSON-RPC Messages", "The Transport Layer: stdio and Streamable HTTP", "Using MCP in Claude Desktop and Cursor"], []),
    ("The MCP Lifecycle", ["Initialisation: Version and Capability Negotiation", "Operation and Shutdown"], []),
-   ("Building with MCP", ["Open MCP Registries (Smithery)", "Building a Local MCP Server with FastMCP", "Building and Deploying a Remote MCP Server", "Building an MCP Client", "Building MCP Servers with LangChain", "Docker MCP Catalog and Toolkit", ADD + "Agent-to-Agent (A2A) Protocol"], ["Lab: Build and connect your own MCP server", "Lab: Expense tracker MCP server"])]),
+   ("Building with MCP", ["Open MCP Registries (Smithery)", "Building a Local MCP Server with FastMCP", "Building and Deploying a Remote MCP Server", "Building an MCP Client", "Building MCP Servers with LangChain", "Docker MCP Catalog and Toolkit", ADD + "Agent-to-Agent (A2A) Protocol"], ["Lab: Build and connect your own MCP server", "Lab: Expense tracker MCP server"]),
+   (ADD + "MCP in Production", [ADD + "What Changed in the 2026 MCP Specification", ADD + "Authorization with OAuth 2.1", ADD + "MCP Apps: Interactive UI from a Tool", ADD + "Gateways, Registries and Server Discovery"], [])]),
+ (ADD + "Context Engineering and Agent Memory", "Intermediate", [],
+  "Treat the context window as a budget: what to put in it, when to fetch more, how to compact long runs, and how agents remember across sessions.",
+  [(ADD + "The Context Window as a Budget", [ADD + "From Prompt Engineering to Context Engineering", ADD + "Context Rot and Lost in the Middle", ADD + "System Prompts at the Right Altitude", ADD + "Examples vs Rules", ADD + "Prompt Caching"], []),
+   (ADD + "Just-in-Time Context", [ADD + "Retrieval vs Agentic Search", ADD + "Tool Results that Don't Flood the Window", ADD + "Compaction and Summarisation", ADD + "Offloading Context to Files and Scratchpads"], [ADD + "Lab: Keep a 200-step agent inside its budget"]),
+   (ADD + "Memory Systems", [ADD + "Short-Term vs Long-Term Memory", ADD + "Semantic, Episodic and Procedural Memory", ADD + "Memory Files: CLAUDE.md and AGENTS.md", ADD + "Writing, Updating and Forgetting Memories", ADD + "Knowledge Graphs as Agent Memory"], [ADD + "Lab: An assistant that remembers your preferences"])]),
+ (ADD + "Tools, Agent Skills and Code Execution", "Intermediate", [],
+  "Give agents capabilities the right way: tools models use well, tool search for large toolsets, code execution, and Agent Skills (SKILL.md).",
+  [(ADD + "Writing Tools for Agents", [ADD + "Naming, Descriptions and Parameters", ADD + "Returning Just Enough", ADD + "Error Messages that Help the Agent Recover", ADD + "Evaluating Tools with an Agent in the Loop"], []),
+   (ADD + "Scaling to Many Tools", [ADD + "Why Hundreds of Tool Schemas Break Agents", ADD + "Tool Search and Deferred Loading", ADD + "Code Execution: Agents that Write Code against Tools", ADD + "Sandboxes for Running Agent Code"], [ADD + "Lab: Agent with a code-execution sandbox"]),
+   (ADD + "Agent Skills", [ADD + "What is an Agent Skill?", ADD + "Anatomy of a Skill Folder and SKILL.md", ADD + "Progressive Disclosure: Discovery, Activation, Execution", ADD + "Writing Descriptions that Trigger Correctly", ADD + "Bundling Scripts and Reference Files", ADD + "Skills vs MCP vs Subagents vs Prompts", ADD + "Testing, Versioning and Sharing Skills"], [ADD + "Lab: Write a skill and use it in two different agents"])]),
+ (ADD + "Agent Frameworks and SDKs", "Intermediate", [],
+  "A hands-on tour of the major agent frameworks, type-safe agents and decision models, and how to choose without lock-in.",
+  [(ADD + "Vendor Agent SDKs", [ADD + "Claude Agent SDK", ADD + "OpenAI Agents SDK", ADD + "Google Agent Development Kit (ADK)", ADD + "Microsoft Agent Framework", ADD + "AWS Strands Agents and Bedrock AgentCore"], []),
+   (ADD + "Orchestration Frameworks", [ADD + "LangChain Deep Agents", ADD + "CrewAI Crews and Flows", ADD + "LlamaIndex Agents and Workflows", ADD + "smolagents and Code Agents", ADD + "TypeScript Agents: Mastra and the Vercel AI SDK"], []),
+   (ADD + "Type-Safe AI and Decision Models", [ADD + "Why Type Safety Matters for LLM Apps", ADD + "Pydantic AI", ADD + "Instructor and Validated Structured Output", ADD + "Decision Models: Typed Answers instead of Text (Jev)", ADD + "DSPy: Programming, Not Prompting"], [ADD + "Lab: A typed routing layer for an agent"]),
+   (ADD + "Choosing a Framework", [ADD + "Comparing Frameworks on One Task", ADD + "Portability, Lock-In and Going Framework-Free"], [ADD + "Lab: The same agent in three frameworks"])]),
+ (ADD + "Multi-Agent Systems and Agent Protocols", "Advanced", [],
+  "When multiple agents help, how they coordinate, and the open protocols that connect agents to tools, to each other, to user interfaces and to editors.",
+  [(ADD + "Multi-Agent Design", [ADD + "When Multiple Agents Help and When They Hurt", ADD + "Orchestrator and Subagents", ADD + "Handoffs, Group Chat and Magentic Orchestration", ADD + "Failure Modes of Multi-Agent Systems"], []),
+   (ADD + "The A2A Protocol", [ADD + "A2A Deep Dive: Agent Cards and Discovery", ADD + "Tasks, Messages, Artifacts and Streaming", ADD + "A2A vs MCP", ADD + "Securing Agent-to-Agent Communication"], [ADD + "Lab: Two agents in different frameworks talking over A2A"]),
+   (ADD + "Protocols for Users and Editors", [ADD + "AG-UI: Streaming Agent Events to a Frontend", ADD + "Agent Client Protocol: Agents inside Editors", ADD + "Generative UI and MCP Apps", ADD + "The Open Standards Map: AAIF, MCP, AGENTS.md and A2A"], [])]),
+ (ADD + "Coding Agents and Harness Engineering", "Advanced", [],
+  "Use coding agents well and build the harness around a model: loops, tools, permissions, hooks, sandboxes, long-running agents and keeping agent-written code healthy.",
+  [(ADD + "Working with Coding Agents", [ADD + "The Coding Agent Landscape: Claude Code, Codex, Gemini CLI, Copilot and Cursor", ADD + "Explore, Plan, Code, Commit", ADD + "Spec-Driven Development", ADD + "Reviewing AI-Written Code"], []),
+   (ADD + "What a Harness Is", [ADD + "Model plus Harness: the Parts of an Agent Runtime", ADD + "Permissions, Hooks and Approval Modes", ADD + "Subagents, Slash Commands and Plugins", ADD + "Sandboxes: Containers, MicroVMs and Hosted Sandboxes"], [ADD + "Lab: Build a minimal coding-agent harness"]),
+   (ADD + "Long-Running Agents", [ADD + "Initializer Agents, Feature Lists and Progress Files", ADD + "Handing Off across Context Windows", ADD + "Git as a Safety Net and Checkpoints", ADD + "Parallel Agents with Worktrees"], []),
+   (ADD + "Harness Engineering for Codebases", [ADD + "Instruction Files as a Map, Not a Manual", ADD + "Linters and Tests that Teach the Agent", ADD + "Background Cleanup Agents", ADD + "Headless Agents in CI"], [ADD + "Lab: Make a repository agent-ready"])]),
+ (ADD + "Computer-Use, Browser and Voice Agents", "Advanced", [],
+  "Agents that see and act on screens and web pages, and agents that talk in real time.",
+  [(ADD + "Browser Agents", [ADD + "DOM, Accessibility Tree or Screenshots?", ADD + "Driving a Browser with Playwright and MCP", ADD + "Browser Agent Libraries", ADD + "Logins, Flaky Pages and Safety"], [ADD + "Lab: A browser agent that fills a form"]),
+   (ADD + "Computer Use", [ADD + "The Screenshot-Action Loop", ADD + "Running Desktop Agents Safely in VMs", ADD + "Benchmarks: OSWorld and WebArena"], []),
+   (ADD + "Voice Agents", [ADD + "Speech-to-Speech vs Cascaded Pipelines", ADD + "Latency Budgets and Turn-Taking", ADD + "Tool Calls in a Live Conversation"], [])]),
+ (ADD + "Agent Evals, Observability and Reliability", "Advanced", [],
+  "Know whether your agent works: outcome and trajectory evals, LLM judges, benchmarks, tracing with OpenTelemetry, and reliability engineering.",
+  [(ADD + "Evaluating Agents", [ADD + "Why Agent Evals Are Hard", ADD + "Outcome, Trajectory and Tool-Use Grading", ADD + "Code, Model and Human Graders", ADD + "pass@k, pass^k and Noise", ADD + "Building an Eval Suite from Real Failures", ADD + "LLM-as-Judge: Rubrics and Calibration"], [ADD + "Lab: An eval suite for a support agent"]),
+   (ADD + "Benchmarks", [ADD + "Agent Benchmarks: SWE-bench, Terminal-Bench, tau-bench, GAIA and More", ADD + "Contamination and Eval Awareness"], []),
+   (ADD + "Observability", [ADD + "Traces, Spans and OpenTelemetry GenAI Conventions", ADD + "LangSmith, Langfuse, Phoenix and Braintrust", ADD + "Cost, Latency and Token Dashboards", ADD + "Online Evals and Feedback Loops"], [ADD + "Lab: Trace and debug an agent with Langfuse"]),
+   (ADD + "Reliability Engineering", [ADD + "Retries, Timeouts and Idempotent Tools", ADD + "Durable Execution", ADD + "Regression Testing Prompts and Model Upgrades"], [])]),
+ (ADD + "Agent Security and Safety", "Advanced", [],
+  "Threat-model an agent and defend it: prompt injection, the OWASP Top 10 for agentic applications, least privilege, sandboxing, approvals and red-teaming.",
+  [(ADD + "Threat Modelling Agents", [ADD + "Why Agents Change the Security Picture", ADD + "Direct and Indirect Prompt Injection", ADD + "The Lethal Trifecta", ADD + "OWASP LLM Top 10 and Agentic Top 10"], []),
+   (ADD + "The Agentic Top 10 in Practice", [ADD + "Goal Hijack and Tool Misuse", ADD + "Identity, Privilege and Credentials for Agents", ADD + "Supply Chain: Malicious MCP Servers and Skills", ADD + "Unexpected Code Execution", ADD + "Memory Poisoning and Inter-Agent Spoofing", ADD + "Cascading Failures, Trust Exploitation and Rogue Agents"], []),
+   (ADD + "Defences", [ADD + "Least Privilege and Scoped Credentials", ADD + "Sandboxing Files and Network", ADD + "Human Approval Gates and Auto-Approval Classifiers", ADD + "Guardrails and Policy Engines", ADD + "Red-Teaming Your Own Agent"], [ADD + "Lab: Attack and defend a tool-using agent"])]),
+ (ADD + "Shipping Agents to Production", "Advanced", [],
+  "Architect, run and operate agents for real users: separating the loop from the sandbox, background agents, UX for approvals, and cost control.",
+  [(ADD + "Architecture", [ADD + "Separating the Brain from the Hands", ADD + "Managed Agent Platforms vs Self-Hosting", ADD + "Background Agents, Queues and Webhooks", ADD + "Deploying Agents with Docker and Serverless"], []),
+   (ADD + "Product and Operations", [ADD + "Streaming Progress and Human-in-the-Loop UX", ADD + "Approvals, Undo and Audit Logs", ADD + "Rate Limits, Budgets and Cost Controls", ADD + "Model Routing and Fallbacks"], [ADD + "Lab: Ship a background agent with approvals"])]),
  ("Multi-Agent Research System (Capstone)", "Advanced", [31],
   "Build and ship a multi-agent system that researches, analyses and writes reports, with CI/CD on AWS.",
   [("Architecting Multi-Agent Systems", ["Introduction to Agentic AI and Multi-Agent Architectures", "Designing Specialised Agents: Search, Reader, Analyst, Generator, Coordinator"], []),
@@ -220,7 +325,7 @@ TRACKS = [
    ("Tools and Workflow", ["Connecting arXiv, Search and Paper Parsers", "LangGraph Agent Workflows", "Adding RAG for External Knowledge"], ["Lab: Build the research team"]),
    ("Deployment and Automation", ["FastAPI Backend for Agents", "UI for Logs, Graphs and Reports", "CI/CD with GitHub Actions", "Docker and AWS EC2 Deployment"], ["Lab: Ship it to AWS"])]),
 ]),
-("Track 8 · Projects", [
+("Projects", [
  ("End-to-End AI Projects", "Advanced", ["Projects"],
   "Portfolio projects across data engineering, ML, deep learning, GenAI and agentic AI, each deployed with CI/CD.",
   [("Python and Data Engineering", [], ["Project: Review Scraper End to End", "Project: Supabase and Streamlit Database App"]),
@@ -237,8 +342,11 @@ def clean(s):
 
 catalog = []
 n = 0
-for track, courses in TRACKS:
+for ti, (track, courses) in enumerate(TRACKS):
+    track = f"Track {ti} · {track}"
     for title, level, mods, card, modules in courses:
+        course_added = title.startswith(ADD)
+        title = clean(title)
         n += 1
         out_modules = [{"title": "Start Here", "lessons": [{"title": "How This Course Works", "type": "Article", "added": False}]}]
         for mtitle, topics, labs in modules:
@@ -252,7 +360,7 @@ for track, courses in TRACKS:
         nl = sum(len(m["lessons"]) for m in out_modules)
         hrs = round(sum(HOURS[l["type"]] for m in out_modules for l in m["lessons"]))
         catalog.append({"id": n, "slug": slug(title), "track": track, "title": title, "level": level,
-                        "syllabus_modules": mods, "description": card, "modules": out_modules,
+                        "syllabus_modules": mods, "added": course_added, "description": card, "modules": out_modules,
                         "module_count": len(out_modules), "lesson_count": nl, "hours": max(hrs, 1)})
 
 # ---------------------------------------------------------------------------
@@ -282,6 +390,24 @@ PREREQ_COURSES = {
     AG: [GEN], LG: [AG, LC], LGS: [LG], HITL: [LGS], ARAG: [RAG, LG], MCP: [AG, LC],
     CAP: [HITL, ARAG, MCP, API, ENT],
 }
+
+CLI, GIT = "The Command Line and Linux Basics", "Git and GitHub: Zero to Pro"
+DEF, DMW, DBT, AIR, KAF, LAKE, DQ, CLOUD, DECAP = ("Data Engineering Foundations", "Data Modelling and Warehousing",
+    "ELT and Transformation with dbt", "Orchestration with Airflow", "Streaming Data with Kafka",
+    "Lakehouses and Open Table Formats", "Data Quality, Governance and DataOps", "Cloud Data Platforms",
+    "Data Engineering Capstone and System Design")
+CTX, SKL, FW, MAS, CODE, CUA, EVAL, SEC, SHIP = ("Context Engineering and Agent Memory", "Tools, Agent Skills and Code Execution",
+    "Agent Frameworks and SDKs", "Multi-Agent Systems and Agent Protocols", "Coding Agents and Harness Engineering",
+    "Computer-Use, Browser and Voice Agents", "Agent Evals, Observability and Reliability", "Agent Security and Safety",
+    "Shipping Agents to Production")
+PREREQ_COURSES.update({
+    GIT: [CLI],
+    DEF: [DB, NUM, CLI], DMW: [DEF], DBT: [DMW, GIT], AIR: [DBT], KAF: [DEF, SPARK], LAKE: [SPARK, DMW],
+    DQ: [DBT, AIR], CLOUD: [LAKE, API], DECAP: [KAF, LAKE, DQ, CLOUD],
+    CTX: [AG, LGS], SKL: [MCP, CTX], FW: [LG, MCP], MAS: [FW], CODE: [SKL, GIT], CUA: [FW],
+    EVAL: [FW, ENT], SEC: [SKL, ENT], SHIP: [EVAL, SEC, API],
+})
+PREREQ_COURSES[CAP] = PREREQ_COURSES[CAP] + [MAS, SHIP]
 
 PREREQ_MODULES = {
     (ADVPY, "Concurrency for AI Apps"): [(PY, "Functions and Iterators")],
@@ -479,13 +605,22 @@ for (cs, _), rel in written.items():
             broken.append(f"{cs}/{rel} -> {target}")
 assert not broken, "broken links:\n" + "\n".join(broken)
 
+# Mermaid reads a node label that starts like "1. Text" as a Markdown list and draws
+# "Unsupported markdown: list" instead of the label.
+bad_labels = []
+for (cs, _), rel in written.items():
+    text = open(os.path.join(OUT, "courses", cs, rel)).read()
+    for block in re.findall(r"```mermaid\n(.*?)```", text, re.S):
+        bad_labels += [f"{cs}/{rel}: {m}" for m in re.findall(r'["\[(]\s*\d+\.\s', block)]
+assert not bad_labels, "mermaid labels that render as lists:\n" + "\n".join(bad_labels)
+
 # Per-course pages
 for c in catalog:
     d = os.path.join(OUT, "courses", c["slug"]); os.makedirs(d, exist_ok=True)
     pre = ", ".join(f"[{p['course']}](../{p['slug']}/course.md)" for p in c.get("prerequisites", [])) or "Nothing, this is a starting point."
     nxt = [x for x in catalog if any(p["course"] == c["title"] for p in x.get("prerequisites", []))]
     P = [f"# {c['title']}", "", f"**{c['level']} · {c['module_count']} modules · {c['lesson_count']} lessons · ~{c['hours']} hrs**  ",
-         f"{c['track']} · Bootcamp syllabus module(s): {', '.join(map(str, c['syllabus_modules']))}", "", c["description"], "",
+         f"{c['track']} · " + (f"Bootcamp syllabus module(s): {', '.join(map(str, c['syllabus_modules']))}" if c["syllabus_modules"] else "➕ Added beyond the bootcamp syllabus"), "", c["description"], "",
          f"**Finish first:** {pre}  ",
          f"**Unlocks:** {', '.join(f'[{x['title']}](../{x['slug']}/course.md)' for x in nxt) or 'Nothing, this is a final course.'}", "",
          "## Course content", ""]

@@ -1,7 +1,7 @@
 # Vector Databases for AI
 
 **Intermediate · 5 modules · 15 lessons · ~7 hrs**  
-Track 6 · Generative AI · Bootcamp syllabus module(s): 21
+Track 7 · Generative AI · Bootcamp syllabus module(s): 21
 
 Embeddings, similarity search and the vector databases behind RAG: Chroma, FAISS, Qdrant, Pinecone and LanceDB.
 

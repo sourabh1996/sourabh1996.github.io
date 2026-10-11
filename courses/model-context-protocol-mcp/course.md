@@ -1,12 +1,12 @@
 # Model Context Protocol (MCP)
 
-**Intermediate · 5 modules · 20 lessons · ~9 hrs**  
-Track 7 · Agentic AI · Bootcamp syllabus module(s): 30
+**Intermediate · 6 modules · 24 lessons · ~10 hrs**  
+Track 8 · Agentic AI · Bootcamp syllabus module(s): 30
 
 The standard way to plug tools and data into AI apps: why MCP exists, its architecture and lifecycle, and building local and remote servers and clients.
 
 **Finish first:** [Agentic AI Fundamentals](../agentic-ai-fundamentals/course.md), [LangChain Complete Guide](../langchain-complete-guide/course.md)  
-**Unlocks:** [Multi-Agent Research System (Capstone)](../multi-agent-research-system-capstone/course.md)
+**Unlocks:** [Tools, Agent Skills and Code Execution](../tools-agent-skills-and-code-execution/course.md), [Agent Frameworks and SDKs](../agent-frameworks-and-sdks/course.md), [Multi-Agent Research System (Capstone)](../multi-agent-research-system-capstone/course.md)
 
 ## Course content
 
@@ -48,3 +48,10 @@ The standard way to plug tools and data into AI apps: why MCP exists, its archit
 - Agent-to-Agent (A2A) Protocol · Article ➕
 - Lab: Build and connect your own MCP server · Lab
 - Lab: Expense tracker MCP server · Lab
+
+<a id="m6"></a>
+### 6. MCP in Production ➕ (4 lessons)
+- What Changed in the 2026 MCP Specification · Article ➕
+- Authorization with OAuth 2.1 · Article ➕
+- MCP Apps: Interactive UI from a Tool · Article ➕
+- Gateways, Registries and Server Discovery · Article ➕

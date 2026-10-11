@@ -6,7 +6,7 @@ Track 4 · Production Engineering and Big Data · Bootcamp syllabus module(s): 1
 Build production-grade APIs with FastAPI: endpoints, Pydantic validation, serving ML models, Docker and AWS deployment.
 
 **Finish first:** [Advanced Python Programming](../advanced-python-programming/course.md)  
-**Unlocks:** [Multi-Agent Research System (Capstone)](../multi-agent-research-system-capstone/course.md)
+**Unlocks:** [Cloud Data Platforms](../cloud-data-platforms/course.md), [Shipping Agents to Production](../shipping-agents-to-production/course.md), [Multi-Agent Research System (Capstone)](../multi-agent-research-system-capstone/course.md)
 
 ## Course content
 
