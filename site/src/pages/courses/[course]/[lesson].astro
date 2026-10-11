@@ -1,0 +1,92 @@
+---
+import Base from "../../../layouts/Base.astro";
+import TypeIcon from "../../../components/TypeIcon.astro";
+import { getCollection, render } from "astro:content";
+import { courses, url, lessonsInOrder } from "../../../lib/catalog.js";
+
+export async function getStaticPaths() {
+  const entries = new Map((await getCollection("lessons")).map((e) => [e.id, e]));
+  return courses.flatMap((course) => {
+    const order = lessonsInOrder(course);
+    return order.map((lesson, i) => ({
+      params: { course: course.slug, lesson: lesson.slug },
+      props: { course, lesson, prev: order[i - 1], next: order[i + 1], entry: entries.get(`${course.slug}/${lesson.slug}`) },
+    }));
+  });
+}
+const { course, lesson, prev, next, entry } = Astro.props;
+const mod = lesson.module;
+const id = `${course.slug}/${lesson.slug}`;
+const rendered = entry ? await render(entry) : null;
+const headings = rendered ? rendered.headings.filter((h) => h.depth <= 3) : [];
+const deepDive = lesson.type === "Video" ? mod.lessons.find((l) => l.title === `${lesson.title} (Deep Dive)`) : null;
+const modHref = (p) => url(`courses/${p.slug}`) + `#${p.anchor}`;
+---
+<Base
+  title={lesson.title}
+  readbar={!!rendered}
+  crumbs={[{ label: "Catalog", href: url() }, { label: course.title, href: url(`courses/${course.slug}`) }, { label: mod.title }]}
+>
+  <div class="wrap article-grid">
+    <article class="prose" id="article">
+      {rendered ? (
+        <rendered.Content />
+      ) : (
+        <>
+          <h1>{lesson.title}</h1>
+          {mod.prerequisites && (
+            <blockquote><p>📚 <strong>Before you start:</strong> {mod.prerequisites.map((p, i) => <>{i > 0 && " · "}<a href={modHref(p)}>{p.course} › {p.module}</a></>)}</p></blockquote>
+          )}
+          <div class="coming">
+            <TypeIcon type={lesson.type} />
+            <p><strong>{lesson.type === "Video" ? "Video coming soon." : `This ${lesson.type.toLowerCase()} is being written.`}</strong></p>
+            {deepDive && <p>Meanwhile, read the <a href={url(`courses/${course.slug}/${deepDive.slug}`)}>{deepDive.title}</a>.</p>}
+            <p><a href={url(`courses/${course.slug}`) + `#m${mod.index}`}>Back to {mod.title}</a></p>
+          </div>
+        </>
+      )}
+      <button class="done-btn" id="done" data-id={id}>Mark as complete</button>
+      <nav class="lesson-nav" aria-label="Lesson navigation">
+        {prev ? <a href={url(`courses/${course.slug}/${prev.slug}`)}><small>← Previous</small>{prev.title}</a> : <span></span>}
+        {next ? <a href={url(`courses/${course.slug}/${next.slug}`)} style="text-align:right"><small>Next →</small>{next.title}</a> : <span></span>}
+      </nav>
+    </article>
+    {rendered && (
+      <aside class="side" aria-label="On this page">
+        <h4><span>📖 Reading Progress</span><span id="pct">0%</span></h4>
+        <div class="bar"><i id="pbar"></i></div>
+        <h4>On This Page</h4>
+        <nav class="toc">{headings.map((h) => <a href={`#${h.slug}`} class={`d${Math.max(h.depth, 2)}`} data-slug={h.slug}>{h.text}</a>)}</nav>
+      </aside>
+    )}
+  </div>
+  <script>
+    const btn = document.getElementById("done") as HTMLButtonElement;
+    const read = (): string[] => { try { return JSON.parse(localStorage.getItem("done") || "[]"); } catch { return []; } };
+    const paint = () => { const d = read().includes(btn.dataset.id!); btn.dataset.done = String(d); btn.textContent = d ? "✓ Completed" : "Mark as complete"; };
+    btn.addEventListener("click", () => {
+      let d = read(); const id = btn.dataset.id!;
+      d = d.includes(id) ? d.filter((x) => x !== id) : [...d, id];
+      try { localStorage.setItem("done", JSON.stringify(d)); } catch {}
+      paint();
+    });
+    paint();
+
+    const art = document.getElementById("article")!;
+    const pct = document.getElementById("pct"), pbar = document.getElementById("pbar"), top = document.getElementById("readbar");
+    const links = [...document.querySelectorAll<HTMLAnchorElement>(".toc a")];
+    const targets = links.map((a) => document.getElementById(a.dataset.slug!)).filter(Boolean) as HTMLElement[];
+    function onScroll() {
+      const r = art.getBoundingClientRect();
+      const p = Math.min(100, Math.max(0, Math.round((-r.top / Math.max(1, r.height - innerHeight)) * 100)));
+      if (pct) pct.textContent = p + "%";
+      if (pbar) pbar.style.width = p + "%";
+      if (top) top.style.width = p + "%";
+      let cur = targets[0];
+      for (const t of targets) if (t.getBoundingClientRect().top < 120) cur = t;
+      links.forEach((a) => a.classList.toggle("active", a.dataset.slug === cur?.id));
+    }
+    addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+  </script>
+</Base>

@@ -1,0 +1,59 @@
+---
+import Base from "../layouts/Base.astro";
+import site from "../data/site.json";
+import { courses, tracks, url, iconFor } from "../lib/catalog.js";
+const lessons = courses.reduce((n, c) => n + c.lesson_count, 0);
+const hours = courses.reduce((n, c) => n + c.hours, 0);
+---
+<Base>
+  <div class="wrap">
+    <section class="hero">
+      <h1>{site.name}</h1>
+      <p>{site.tagline}</p>
+      <div class="stats"><span><b>{courses.length}</b> courses</span><span><b>{lessons}</b> lessons</span><span><b>~{hours}</b> hours</span><span><b>{tracks.length}</b> learning tracks</span></div>
+    </section>
+    <div class="filters" role="group" aria-label="Filter courses">
+      <input class="search" id="q" type="search" placeholder="Search courses…" aria-label="Search courses" />
+      {["All", "Beginner", "Intermediate", "Advanced"].map((l) => <button class="chip" data-level={l} aria-pressed={l === "All" ? "true" : "false"}>{l}</button>)}
+    </div>
+    {tracks.map((t) => (
+      <section class="track" data-track={t}>
+        <h2 class="track-title">{t}</h2>
+        <div class="grid">
+          {courses.filter((c) => c.track === t).map((c) => (
+            <a class="card" href={url(`courses/${c.slug}`)} data-level={c.level} data-text={`${c.title} ${c.description}`.toLowerCase()}>
+              <div class="card-top"><div class="card-icon" aria-hidden="true">{iconFor(c)}</div><span class={`badge ${c.level}`}>{c.level}</span></div>
+              <h3>{c.title}</h3>
+              <p>{c.description}</p>
+              <div class="card-meta"><span>~{c.hours} hrs</span><span>{c.module_count} modules · {c.lesson_count} lessons</span></div>
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+  </div>
+  <script>
+    const q = document.getElementById("q") as HTMLInputElement;
+    let level = "All";
+    function apply() {
+      const term = q.value.trim().toLowerCase();
+      document.querySelectorAll<HTMLElement>(".track").forEach((t) => {
+        let shown = 0;
+        t.querySelectorAll<HTMLElement>(".card").forEach((c) => {
+          const ok = (level === "All" || c.dataset.level === level) && (!term || c.dataset.text!.includes(term));
+          c.style.display = ok ? "" : "none";
+          if (ok) shown++;
+        });
+        t.style.display = shown ? "" : "none";
+      });
+    }
+    q.addEventListener("input", apply);
+    document.querySelectorAll<HTMLButtonElement>(".chip").forEach((b) =>
+      b.addEventListener("click", () => {
+        level = b.dataset.level!;
+        document.querySelectorAll(".chip").forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+        apply();
+      })
+    );
+  </script>
+</Base>

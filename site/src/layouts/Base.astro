@@ -1,0 +1,45 @@
+---
+import "../styles/global.css";
+import site from "../data/site.json";
+import { url } from "../lib/catalog.js";
+const { title, crumbs = [], readbar = false, description = site.tagline } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title ? `${title} · ${site.name}` : site.name}</title>
+    <meta name="description" content={description} />
+    <script is:inline>
+      try { const t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap">
+        <a class="brand" href={url()}><span class="brand-mark">AI</span><span>{site.name}</span></a>
+        <nav class="crumbs" aria-label="Breadcrumbs">
+          {crumbs.map((c, i) => (
+            <>
+              <span class="sep">/</span>
+              {c.href && i < crumbs.length - 1 ? <a href={c.href}>{c.label}</a> : <span class="here">{c.label}</span>}
+            </>
+          ))}
+        </nav>
+        <button class="icon-btn" id="theme" aria-label="Toggle light and dark theme">☀︎</button>
+      </div>
+      {readbar && <div class="readbar" id="readbar"></div>}
+    </header>
+    <main><slot /></main>
+    <footer><div class="wrap">{site.name} · Built with Astro, hosted on GitHub Pages</div></footer>
+    <script is:inline>
+      document.getElementById("theme").addEventListener("click", () => {
+        const root = document.documentElement;
+        const next = (root.dataset.theme || "dark") === "dark" ? "light" : "dark";
+        root.dataset.theme = next;
+        try { localStorage.setItem("theme", next); } catch (e) {}
+      });
+    </script>
+  </body>
+</html>
