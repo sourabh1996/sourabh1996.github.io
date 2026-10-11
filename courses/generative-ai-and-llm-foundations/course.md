@@ -16,11 +16,11 @@ What generative AI is, how LLMs work, and how to use them well: foundation model
 
 <a id="m2"></a>
 ### 2. Fundamentals of Generative AI (5 lessons)
-- What is Generative AI? · Article
-- How Generative Models Work · Article
-- Generative vs Discriminative Models · Article
-- The GenAI Roadmap: Builder vs User · Article
-- Foundation Models · Article
+- [What is Generative AI?](02-fundamentals-of-generative-ai/what-is-generative-ai.md) · Article ✍️ *written*
+- [How Generative Models Work](02-fundamentals-of-generative-ai/how-generative-models-work.md) · Article ✍️ *written*
+- [Generative vs Discriminative Models](02-fundamentals-of-generative-ai/generative-vs-discriminative-models.md) · Article ✍️ *written*
+- [The GenAI Roadmap: Builder vs User](02-fundamentals-of-generative-ai/the-genai-roadmap-builder-vs-user.md) · Article ✍️ *written*
+- [Foundation Models](02-fundamentals-of-generative-ai/foundation-models.md) · Article ✍️ *written*
 
 <a id="m3"></a>
 ### 3. How LLMs Work ➕ (5 lessons)

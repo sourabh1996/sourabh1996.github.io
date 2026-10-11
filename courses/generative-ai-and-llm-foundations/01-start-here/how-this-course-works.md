@@ -127,4 +127,4 @@ An LLM generates likely text from patterns it learned during training. It does n
 
 ---
 
-**Up next:** [What is Generative AI?](../course.md#m2)
+**Up next:** [What is Generative AI?](../02-fundamentals-of-generative-ai/what-is-generative-ai.md)

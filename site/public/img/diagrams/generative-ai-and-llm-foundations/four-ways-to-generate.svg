@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 860" width="1100" height="860" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Four ways a model can generate something new">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="858" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#5b3fa0"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Four ways a model can generate something new</text>
+<rect x="20" y="80" width="1060" height="175" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="90" width="135" height="155" rx="10" fill="#2f5fb3"/>
+<text x="97.5" y="163.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Auto-</text><text x="97.5" y="191.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">regressive</text>
+<rect x="20" y="270" width="1060" height="175" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="280" width="135" height="155" rx="10" fill="#1f766d"/>
+<text x="97.5" y="365.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Diffusion</text>
+<rect x="20" y="460" width="1060" height="190" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="470" width="135" height="170" rx="10" fill="#b2442f"/>
+<text x="97.5" y="563.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">GAN</text>
+<rect x="20" y="665" width="1060" height="175" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="675" width="135" height="155" rx="10" fill="#9a6412"/>
+<text x="97.5" y="760.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">VAE</text>
+<path d="M335.0,165.0 L380.0,165.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M590.0,165.0 L640.0,165.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M790.0,165.0 L860.0,165.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="786.0" y="142.0" width="78.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="825.0" y="156.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">until done</text>
+<path d="M715.0,210.0 L715.0,238.0 L245.0,238.0 L255.0,210.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="381.5" y="226.0" width="197.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="480" y="240.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">append the piece and repeat</text>
+<path d="M335.0,357.5 L400.0,357.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M630.0,357.5 L860.0,357.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="674.5" y="334.0" width="141.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="745" y="348.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">after the last step</text>
+<path d="M315.0,545.0 L360.0,545.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M530.0,545.0 L580.0,545.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M720.0,545.0 L770.0,545.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M975.0,545.0 L950.0,545.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M860.0,600.0 L870.0,625.0 L445.0,625.0 L445.0,590.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="539.0" y="614.0" width="232.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="655" y="628.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">&quot;I caught you&quot; → forger improves</text>
+<path d="M305.0,752.5 L340.0,752.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M490.0,752.5 L530.0,752.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M700.0,752.5 L740.0,752.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M890.0,752.5 L930.0,752.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="175" y="120" width="160" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="255.0" y="158.0" font-size="28" text-anchor="middle">💬</text>
+<text x="255.0" y="181.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Text so far</text>
+<text x="255.0" y="201.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;one cutting&quot;</text>
+<rect x="380" y="110" width="210" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="485.0" y="150.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="485.0" y="173.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Predict next piece</text>
+<text x="485.0" y="193.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">chai 62% · coffee 21%</text><text x="485.0" y="208.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">samosa 9% · ...</text>
+<rect x="640" y="120" width="150" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="715.0" y="158.0" font-size="28" text-anchor="middle">🎲</text>
+<text x="715.0" y="181.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Pick one</text>
+<text x="715.0" y="201.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;chai&quot;</text>
+<rect x="860" y="120" width="200" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="960.0" y="158.0" font-size="28" text-anchor="middle">📝</text>
+<text x="960.0" y="181.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Text, code</text>
+<text x="960.0" y="201.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">LLMs work this way</text>
+<rect x="175" y="310" width="160" height="95" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="255.0" y="350.5" font-size="28" text-anchor="middle">🌫️</text>
+<text x="255.0" y="373.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Pure noise</text>
+<text x="255.0" y="393.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">random static</text>
+<rect x="400" y="300" width="230" height="115" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="515.0" y="342.5" font-size="28" text-anchor="middle">🧽</text>
+<text x="515.0" y="365.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Remove a little noise</text>
+<text x="515.0" y="385.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">guided by the prompt</text><text x="515.0" y="401.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">🔁 repeat 20 to 1000 times</text>
+<rect x="860" y="310" width="200" height="95" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="960.0" y="350.5" font-size="28" text-anchor="middle">🖼️</text>
+<text x="960.0" y="373.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Clean image</text>
+<text x="960.0" y="393.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">image, video, audio</text>
+<rect x="175" y="500" width="140" height="90" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="245.0" y="546.0" font-size="28" text-anchor="middle">🎲</text>
+<text x="245.0" y="569.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Random seed</text>
+<rect x="360" y="500" width="170" height="90" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="445.0" y="538.0" font-size="28" text-anchor="middle">🎨</text>
+<text x="445.0" y="561.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Generator</text>
+<text x="445.0" y="581.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">the forger</text>
+<rect x="580" y="500" width="140" height="90" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="650.0" y="546.0" font-size="28" text-anchor="middle">🖼️</text>
+<text x="650.0" y="569.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Fake</text>
+<rect x="770" y="490" width="180" height="110" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="860.0" y="530.0" font-size="28" text-anchor="middle">🕵️</text>
+<text x="860.0" y="553.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Discriminator</text>
+<text x="860.0" y="573.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">the inspector:</text><text x="860.0" y="588.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">real or fake?</text>
+<rect x="975" y="500" width="90" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="1020.0" y="546.0" font-size="28" text-anchor="middle">📷</text>
+<text x="1020.0" y="569.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Real</text>
+<rect x="175" y="705" width="130" height="95" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="240.0" y="753.5" font-size="28" text-anchor="middle">🖼️</text>
+<text x="240.0" y="776.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Image</text>
+<rect x="340" y="705" width="150" height="95" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="415.0" y="745.5" font-size="28" text-anchor="middle">🗜️</text>
+<text x="415.0" y="768.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Encoder</text>
+<text x="415.0" y="788.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">squeeze</text>
+<rect x="530" y="705" width="170" height="95" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="615.0" y="737.5" font-size="28" text-anchor="middle">🔢</text>
+<text x="615.0" y="760.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Small code</text>
+<text x="615.0" y="780.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">a few numbers</text><text x="615.0" y="796.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">(the latent space)</text>
+<rect x="740" y="705" width="150" height="95" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="815.0" y="745.5" font-size="28" text-anchor="middle">🧩</text>
+<text x="815.0" y="768.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Decoder</text>
+<text x="815.0" y="788.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">rebuild</text>
+<rect x="930" y="705" width="140" height="95" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="1000.0" y="753.5" font-size="28" text-anchor="middle">✨</text>
+<text x="1000.0" y="776.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">New image</text>
+<text x="615" y="825.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">To create: skip the encoder, pick a new code, decode it</text>
+</svg>
