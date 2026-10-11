@@ -1,6 +1,6 @@
 # Data Visualization with Matplotlib and Seaborn
 
-**Beginner · 3 modules · 13 lessons · ~5 hrs**  
+**Beginner · 3 modules · 8 lessons · ~4 hrs**  
 Track 1 · Python and Data Foundations · Bootcamp syllabus module(s): 5
 
 Turn data into clear charts: Matplotlib basics, Seaborn statistical plots and visual storytelling.
@@ -15,19 +15,14 @@ Turn data into clear charts: Matplotlib basics, Seaborn statistical plots and vi
 - How This Course Works · Article
 
 <a id="m2"></a>
-### 2. Matplotlib (5 lessons)
-- How Matplotlib Thinks: Figures and Axes · Video
-- How Matplotlib Thinks: Figures and Axes (Deep Dive) · Article
-- Creating and Customising Plots · Video
-- Creating and Customising Plots (Deep Dive) · Article
+### 2. Matplotlib (3 lessons)
+- How Matplotlib Thinks: Figures and Axes · Article
+- Creating and Customising Plots · Article
 - Lab: Recreate a published chart · Lab
 
 <a id="m3"></a>
-### 3. Seaborn and Storytelling (7 lessons)
-- Statistical Plots with Seaborn · Video
-- Statistical Plots with Seaborn (Deep Dive) · Article
-- Histograms, Pair Plots and Heatmaps · Video
-- Histograms, Pair Plots and Heatmaps (Deep Dive) · Article
-- Styling Charts for Communication · Video
-- Styling Charts for Communication (Deep Dive) · Article
+### 3. Seaborn and Storytelling (4 lessons)
+- Statistical Plots with Seaborn · Article
+- Histograms, Pair Plots and Heatmaps · Article
+- Styling Charts for Communication · Article
 - Lab: Build a one-page visual report · Lab

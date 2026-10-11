@@ -124,3 +124,5 @@ footer { border-top: 1px solid var(--border); color: var(--text-3); font-size: 1
 @media (max-width: 600px) {
   .content-head { flex-wrap: wrap; gap: 4px 16px; } .content-head h2 { font-size: 24px; }
 }
+.diagram { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 24px; margin: 28px 0; text-align: center; overflow-x: auto; }
+.prose .diagram + p > em:only-child { display: block; text-align: center; color: var(--text-3); font-size: 15px; margin-top: -12px; }

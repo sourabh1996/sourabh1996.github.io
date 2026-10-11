@@ -1,6 +1,6 @@
 # Retrieval-Augmented Generation (RAG)
 
-**Intermediate · 4 modules · 22 lessons · ~8 hrs**  
+**Intermediate · 4 modules · 13 lessons · ~6 hrs**  
 Track 6 · Generative AI · Bootcamp syllabus module(s): 23
 
 Ground LLMs in your own data: the RAG pipeline, chunking, hybrid search, reranking, memory and multimodal RAG.
@@ -15,37 +15,28 @@ Ground LLMs in your own data: the RAG pipeline, chunking, hybrid search, reranki
 - How This Course Works · Article
 
 <a id="m2"></a>
-### 2. Introduction to RAG (5 lessons)
+### 2. Introduction to RAG (3 lessons)
 > **Before you start:** [Vector Databases for AI › Introduction to Vector Databases](../19-vector-databases-for-ai/course.md#m2), [Generative AI and LLM Foundations › How LLMs Work](../18-generative-ai-and-llm-foundations/course.md#m3)
 
-- What is RAG? · Video
-- What is RAG? (Deep Dive) · Article
-- The RAG Pipeline End to End · Video
-- The RAG Pipeline End to End (Deep Dive) · Article
+- What is RAG? · Article
+- The RAG Pipeline End to End · Article
 - Lab: RAG from scratch, no framework · Lab ➕
 
 <a id="m3"></a>
-### 3. Implementing RAG (11 lessons)
+### 3. Implementing RAG (6 lessons)
 > **Before you start:** [LangChain Complete Guide › Chains and Execution](../20-langchain-complete-guide/course.md#m4), [Vector Databases for AI › Tools](../19-vector-databases-for-ai/course.md#m4)
 
-- RAG with LangChain and a Vector DB · Video
-- RAG with LangChain and a Vector DB (Deep Dive) · Article
-- Chunking Strategies · Video ➕
-- Chunking Strategies (Deep Dive) · Article ➕
-- Retrieval Methods · Video
-- Retrieval Methods (Deep Dive) · Article
-- Hybrid Search · Video
-- Hybrid Search (Deep Dive) · Article
-- Reranking · Video
-- Reranking (Deep Dive) · Article
+- RAG with LangChain and a Vector DB · Article
+- Chunking Strategies · Article ➕
+- Retrieval Methods · Article
+- Hybrid Search · Article
+- Reranking · Article
 - Lab: Chat with a PDF · Lab
 
 <a id="m4"></a>
-### 4. Advanced RAG (5 lessons)
+### 4. Advanced RAG (3 lessons)
 > **Before you start:** [LangChain Complete Guide › Chains and Execution](../20-langchain-complete-guide/course.md#m4)
 
-- Memory in RAG Systems · Video
-- Memory in RAG Systems (Deep Dive) · Article
-- Multimodal RAG · Video
-- Multimodal RAG (Deep Dive) · Article
+- Memory in RAG Systems · Article
+- Multimodal RAG · Article
 - Lab: RAG over images and text · Lab

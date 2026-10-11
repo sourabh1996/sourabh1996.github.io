@@ -1,7 +1,7 @@
 """Builds the course catalog (markdown + JSON) from one structured spec.
 
-Each module lists topics; every topic becomes a Video + a "(Deep Dive)" Article,
-matching the DataVidhya pattern. Labs are listed explicitly. Every course opens
+Each module lists topics; every topic becomes one in-depth Article (the site is
+text only). Labs are listed explicitly. Every course opens
 with a "Start Here" module. Items marked ADDED are not in the bootcamp syllabus.
 """
 import json, os, re, sys
@@ -9,7 +9,7 @@ import json, os, re, sys
 OUT = sys.argv[1]
 ADD = "➕ "  # marks topics added beyond the syllabus
 
-HOURS = {"Video": 0.25, "Article": 0.35, "Lab": 0.75}
+HOURS = {"Article": 0.4, "Lab": 0.75}
 
 def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
@@ -207,8 +207,6 @@ TRACKS = [
 ]),
 ]
 
-SAMPLE = ("Agentic AI Fundamentals", "What is an AI Agent? (Deep Dive)")
-SAMPLE_PATH = "courses/23-agentic-ai-fundamentals/02-understanding-agents/what-is-an-ai-agent-deep-dive.md"
 
 def clean(s):
     return s.replace(ADD, "")
@@ -223,8 +221,7 @@ for track, courses in TRACKS:
             lessons = []
             for t in topics:
                 added = t.startswith(ADD)
-                lessons.append({"title": clean(t), "type": "Video", "added": added})
-                lessons.append({"title": clean(t) + " (Deep Dive)", "type": "Article", "added": added})
+                lessons.append({"title": clean(t), "type": "Article", "added": added})
             for l in labs:
                 lessons.append({"title": clean(l), "type": "Lab", "added": l.startswith(ADD)})
             out_modules.append({"title": clean(mtitle), "added": mtitle.startswith(ADD), "lessons": lessons})
@@ -368,7 +365,7 @@ def course_link(c, prefix=""):
 L = ["# Agentic AI Platform: Course Catalog (Draft v4)", "",
      "> Built from the *Ultimate Data Science & GenAI Bootcamp V3.0* syllabus Sourabh shared, laid out like the DataVidhya Learn section.",
      "> Every topic in the syllabus is mapped to a lesson; see [syllabus-coverage.md](syllabus-coverage.md). Topics marked ➕ are additions beyond the syllabus.",
-     "> Every topic gets a short **Video** followed by a **(Deep Dive) Article**, with **Labs** where the reader builds something. Hours are estimates (video 15 min, article 20 min, lab 45 min).",
+     "> The platform is text only: every topic is one in-depth **Article**, with **Labs** where the reader builds something. Hours are estimates (article 25 min, lab 45 min).",
      "> Each course lists the courses to finish first, and each module links to the exact earlier modules it builds on.",
      ""]
 tot_l = sum(c["lesson_count"] for c in catalog); tot_h = sum(c["hours"] for c in catalog)
@@ -384,7 +381,7 @@ for track, _ in TRACKS:
         if c["track"] == track:
             L.append(f"- **{c['title']}:** {c['description']}")
     L.append("")
-L += ["## Article template (every Deep Dive follows this)", "",
+L += ["## Article template (every article follows this)", "",
       "1. **Title:** \"Topic? The Complete Guide\"",
       "2. **Before you start:** links to the earlier lessons this one builds on (from the module's prerequisites).",
       "3. **Introduction:** a real-world hook, why the topic is misunderstood, what the reader will know by the end.",
@@ -416,6 +413,18 @@ for mod, rows in COVERAGE.items():
 C.insert(3, f"\n**{total} syllabus topics checked, {total} covered, 0 missing.**\n")
 open(os.path.join(OUT, "syllabus-coverage.md"), "w").write("\n".join(C))
 
+# Written lessons live at courses/<course>/<NN-module>/<lesson-slug>.md
+written = {}
+for c in catalog:
+    base = os.path.join(OUT, "courses", c["slug"])
+    for dp, _, files in os.walk(base):
+        for f in files:
+            if f.endswith(".md") and f != "course.md":
+                written[(c["slug"], f[:-3])] = os.path.relpath(os.path.join(dp, f), base)
+lesson_slugs = {(c["slug"], slug(l["title"])) for c in catalog for m in c["modules"] for l in m["lessons"]}
+orphans = sorted(set(written) - lesson_slugs)
+assert not orphans, f"written lessons not in the catalog: {orphans}"
+
 # Per-course pages
 for c in catalog:
     d = os.path.join(OUT, "courses", c["slug"]); os.makedirs(d, exist_ok=True)
@@ -439,8 +448,9 @@ for c in catalog:
             P.append("")
         for l in m["lessons"]:
             mark = " ➕" if l["added"] else ""
-            if (c["title"], l["title"]) == SAMPLE:
-                P.append(f"- [{l['title']}](02-understanding-agents/what-is-an-ai-agent-deep-dive.md) · {l['type']} ✍️ *written*")
+            rel = written.get((c["slug"], slug(l["title"])))
+            if rel:
+                P.append(f"- [{l['title']}]({rel}) · {l['type']}{mark} ✍️ *written*")
             else:
                 P.append(f"- {l['title']} · {l['type']}{mark}")
         P.append("")

@@ -2,7 +2,7 @@
 title: "What is an AI Agent? The Complete Guide"
 course: Agentic AI Fundamentals
 module: "2. Understanding Agents"
-lesson: "What is an AI Agent? (Deep Dive)"
+lesson: "What is an AI Agent?"
 type: Article
 level: Beginner
 reading_time: 20 min
@@ -43,10 +43,23 @@ An agent is like a capable assistant sitting at your desk with access to your co
 
 Same knowledge. Very different usefulness. The difference is **action** and **iteration**.
 
-> 🖼️ **Diagram: Chatbot vs Agent** *(hand-drawn style, to be illustrated)*
-> Left panel "CHATBOT": User → Model → Answer → (end). One straight arrow.
-> Right panel "AGENT": User goal → Model "decides" → Tool "acts" (icons: search, calendar, database) → Result "observes" → arrow curving back to Model → eventually exits to "Final answer + things done".
-> Caption: "A chatbot answers once. An agent works in a loop."
+```mermaid
+flowchart LR
+  subgraph Chatbot
+    direction LR
+    U1([You ask]) --> M1[Model] --> A1([Answer]) 
+  end
+  subgraph Agent
+    direction LR
+    U2([You give a goal]) --> D[Model decides]
+    D -->|use a tool| T[Tool acts]
+    T --> O[Result observed]
+    O --> D
+    D -->|done| F([Final answer + work done])
+  end
+```
+
+*A chatbot answers once. An agent works in a loop until the goal is done.*
 
 In more concrete terms, an agent can:
 
@@ -79,8 +92,14 @@ No matter how complex an agent looks, from a tiny script to a coding agent with 
 
 Most real agents add a fifth part, **memory**, so they can remember earlier steps and past conversations. You will build it in the *LangGraph State and Memory* course.
 
-> 🖼️ **Diagram: Anatomy of an Agent** *(hand-drawn style)*
-> A robot figure. Head labelled "Model (decides)". A clipboard in one hand labelled "Instructions". Toolbelt labelled "Tools: search, email, database". A circular arrow around its chest labelled "Loop". A thought bubble labelled "Memory (coming later)".
+```mermaid
+flowchart TB
+  I[/"Instructions<br/>(the job description)"/] --> M
+  M{{"Model<br/>(the brain: decides)"}} -->|asks for| T["Tools<br/>(the hands: search, email, database)"]
+  T -->|results| L(("Loop<br/>(the heartbeat)"))
+  L --> M
+  Mem[("Memory<br/>(added later in the course)")] -.-> M
+```
 
 ### The Agent Loop, Step by Step
 
@@ -184,18 +203,24 @@ That is a complete agent. Ask about Delhi instead and it stops after one step, b
 
 Notice `max_steps=5`. Because an agent decides for itself when to stop, it can also fail to stop. A step limit is the simplest safety net, and every agent you build should have one.
 
-### Try It Yourself: The Agent Loop Playground
+### Try It Yourself
 
-Type a goal, pick which tools the agent is allowed to use, then hit **Run Agent** to watch each Decide → Act → Observe step light up in real time.
+Copy the four code blocks above into one file called `agent.py` and run it with `python agent.py`. Then try these changes one at a time, and predict what will happen **before** you run each one:
 
-> 🧪 **Interactive component spec: Agent Loop Playground**
-> - **Header bar:** "Agent Loop Playground" · buttons **Load Example**, **Clear**, **Run Agent**, and a **Step** button to advance one step at a time.
-> - **Left panel, "TOOLS":** toggleable tool cards with icons: Weather, To-Do List, Calculator, Web Search (mocked), Send Message. Unchecked tools are unavailable to the agent.
-> - **Top input:** goal text box with three example goals in a dropdown (umbrella reminder, "what's 18% tip on ₹2,450", "find and summarise today's top AI headline").
-> - **Centre canvas:** three nodes in a circle labelled **Decide**, **Act**, **Observe**, with an animated token travelling around the loop. Each step appends a card to a timeline below: the model's decision (as JSON), the tool call, and the result.
-> - **Right panel, "HISTORY":** the growing message list the model sees, so learners connect "history" to decisions.
-> - **Controls:** max-steps slider (1 to 10). A "Break the model" toggle makes the pretend model never finish, so learners watch the step limit save the day.
-> - Runs entirely in the browser with a scripted pretend model. No API key.
+1. **Ask about Delhi.** Change the goal to *"Will it rain in Delhi tomorrow?"*. How many steps does the agent take now, and why?
+2. **Add a tool.** Write a `send_message(text)` function that just prints `📱 <text>`, add it to the `tools` dictionary, and change `pretend_model` so that after adding the to-do it sends you a message before finishing.
+3. **Break it on purpose.** Change the last line of `pretend_model` to `return {"tool": "add_todo", "input": "carry umbrella"}` so it never says it's done. Run it with `max_steps=10`. Look at `todo_list` afterwards. This is exactly the kind of runaway loop a step limit protects you from.
+4. **Print the history.** Add `print(history)` just before `return decision["final_answer"]`. This list is everything the "model" could see when it made its final decision. In a real agent, this is what gets sent to the LLM on every step.
+
+<details>
+<summary>What you should see</summary>
+
+1. One step. The weather tool returns a 10% chance, so the model's next decision is to finish instead of adding a to-do.
+2. Three steps: `get_weather`, `add_todo`, then `send_message`, followed by the final answer.
+3. The loop stops after 10 steps with "Stopped: too many steps." and `todo_list` contains "carry umbrella" ten times.
+4. A list of three dictionaries: the user's goal and two tool results.
+
+</details>
 
 ---
 
@@ -300,4 +325,4 @@ Common follow-ups:
 
 ---
 
-**Up next:** *Agentic AI vs Traditional AI Agents* · Video
+**Up next:** *Agentic AI vs Traditional AI Agents*

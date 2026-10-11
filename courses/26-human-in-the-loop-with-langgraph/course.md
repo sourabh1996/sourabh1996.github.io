@@ -1,6 +1,6 @@
 # Human-in-the-Loop with LangGraph
 
-**Intermediate · 4 modules · 13 lessons · ~5 hrs**  
+**Intermediate · 4 modules · 8 lessons · ~4 hrs**  
 Track 7 · Agentic AI · Bootcamp syllabus module(s): 28
 
 Make agents interactive and controllable: streaming, breakpoints, human edits to state and time travel.
@@ -15,26 +15,21 @@ Make agents interactive and controllable: streaming, breakpoints, human edits to
 - How This Course Works · Article
 
 <a id="m2"></a>
-### 2. Interactive Workflows (4 lessons)
+### 2. Interactive Workflows (2 lessons)
 > **Before you start:** [LangGraph State and Memory › State Fundamentals](../25-langgraph-state-and-memory/course.md#m2)
 
-- Streaming Real-Time Updates · Video
-- Streaming Real-Time Updates (Deep Dive) · Article
-- Breakpoints · Video
-- Breakpoints (Deep Dive) · Article
+- Streaming Real-Time Updates · Article
+- Breakpoints · Article
 
 <a id="m3"></a>
-### 3. Human Feedback (5 lessons)
+### 3. Human Feedback (3 lessons)
 > **Before you start:** [Enterprise LLM Systems › Guardrails and Security](../22-enterprise-llm-systems/course.md#m6)
 
-- Editing State with Human Input · Video
-- Editing State with Human Input (Deep Dive) · Article
-- Dynamic Breakpoints · Video
-- Dynamic Breakpoints (Deep Dive) · Article
+- Editing State with Human Input · Article
+- Dynamic Breakpoints · Article
 - Lab: Approval step before a risky tool · Lab
 
 <a id="m4"></a>
-### 4. Debugging (3 lessons)
-- Time Travel: Rewind and Replay · Video
-- Time Travel: Rewind and Replay (Deep Dive) · Article
+### 4. Debugging (2 lessons)
+- Time Travel: Rewind and Replay · Article
 - Lab: Debug an agent with time travel · Lab

@@ -1,6 +1,6 @@
 # Sequence Models, Attention and Transformers
 
-**Advanced · 5 modules · 23 lessons · ~8 hrs**  
+**Advanced · 5 modules · 13 lessons · ~6 hrs**  
 Track 5 · Deep Learning and NLP · Bootcamp syllabus module(s): 19
 
 From RNNs to Transformers: LSTMs, GRUs, attention, self-attention, BERT and GPT.
@@ -15,37 +15,27 @@ From RNNs to Transformers: LSTMs, GRUs, attention, self-attention, BERT and GPT.
 - How This Course Works · Article
 
 <a id="m2"></a>
-### 2. Sequence Models (4 lessons)
+### 2. Sequence Models (2 lessons)
 > **Before you start:** [Deep Learning Foundations › Neural Networks](../16-deep-learning-foundations/course.md#m3), [NLP for Machine Learning › Word Embeddings](../15-nlp-for-machine-learning/course.md#m5)
 
-- Recurrent Neural Networks · Video
-- Recurrent Neural Networks (Deep Dive) · Article
-- Sequence Modelling and Context · Video
-- Sequence Modelling and Context (Deep Dive) · Article
+- Recurrent Neural Networks · Article
+- Sequence Modelling and Context · Article
 
 <a id="m3"></a>
-### 3. Memory-Based Architectures (5 lessons)
-- LSTMs · Video
-- LSTMs (Deep Dive) · Article
-- GRUs · Video
-- GRUs (Deep Dive) · Article
+### 3. Memory-Based Architectures (3 lessons)
+- LSTMs · Article
+- GRUs · Article
 - Lab: Sentiment with an LSTM · Lab
 
 <a id="m4"></a>
-### 4. Attention (6 lessons)
-- What is Attention? · Video
-- What is Attention? (Deep Dive) · Article
-- Encoder-Decoder Models · Video
-- Encoder-Decoder Models (Deep Dive) · Article
-- Self-Attention · Video
-- Self-Attention (Deep Dive) · Article
+### 4. Attention (3 lessons)
+- What is Attention? · Article
+- Encoder-Decoder Models · Article
+- Self-Attention · Article
 
 <a id="m5"></a>
-### 5. Transformers (7 lessons)
-- The Transformer Architecture · Video
-- The Transformer Architecture (Deep Dive) · Article
-- BERT · Video
-- BERT (Deep Dive) · Article
-- GPT · Video
-- GPT (Deep Dive) · Article
+### 5. Transformers (4 lessons)
+- The Transformer Architecture · Article
+- BERT · Article
+- GPT · Article
 - Lab: Fine-tune BERT for classification · Lab

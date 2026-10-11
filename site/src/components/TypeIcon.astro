@@ -3,7 +3,6 @@
 const { type } = Astro.props;
 ---
 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-  {type === "Video" && <><circle cx="12" cy="12" r="9" /><path d="M10 8.5v7l5.5-3.5z" /></>}
   {type === "Article" && <><path d="M6 3h9l3 3v15H6z" /><path d="M9 10h6M9 14h6M9 18h3" /></>}
   {type === "Lab" && <><path d="M9 3h6M10 3v6l-5 10a1.5 1.5 0 0 0 1.3 2h11.4a1.5 1.5 0 0 0 1.3-2l-5-10V3" /><path d="M7.5 15h9" /></>}
 </svg>

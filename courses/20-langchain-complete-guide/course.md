@@ -1,6 +1,6 @@
 # LangChain Complete Guide
 
-**Intermediate · 5 modules · 26 lessons · ~9 hrs**  
+**Intermediate · 5 modules · 15 lessons · ~7 hrs**  
 Track 6 · Generative AI · Bootcamp syllabus module(s): 22
 
 Build LLM apps with LangChain: chat models, prompts, tools, LCEL chains, memory, LangSmith and LangServe.
@@ -15,42 +15,31 @@ Build LLM apps with LangChain: chat models, prompts, tools, LCEL chains, memory,
 - How This Course Works · Article
 
 <a id="m2"></a>
-### 2. LangChain Foundations (4 lessons)
-- What is LangChain? · Video
-- What is LangChain? (Deep Dive) · Article
-- Data Connectors and API Integrations · Video
-- Data Connectors and API Integrations (Deep Dive) · Article
+### 2. LangChain Foundations (2 lessons)
+- What is LangChain? · Article
+- Data Connectors and API Integrations · Article
 
 <a id="m3"></a>
-### 3. Building with LangChain (7 lessons)
+### 3. Building with LangChain (4 lessons)
 > **Before you start:** [Generative AI and LLM Foundations › Prompting and Structured Output](../18-generative-ai-and-llm-foundations/course.md#m4)
 
-- Chat Models · Video
-- Chat Models (Deep Dive) · Article
-- Tools and Toolkits · Video
-- Tools and Toolkits (Deep Dive) · Article
-- Prompt Templates · Video
-- Prompt Templates (Deep Dive) · Article
+- Chat Models · Article
+- Tools and Toolkits · Article
+- Prompt Templates · Article
 - Lab: A prompt-templated assistant · Lab
 
 <a id="m4"></a>
-### 4. Chains and Execution (7 lessons)
-- Chains, LCEL and Runnables · Video
-- Chains, LCEL and Runnables (Deep Dive) · Article
-- Synthetic Data Generation · Video
-- Synthetic Data Generation (Deep Dive) · Article
-- Memory Management · Video
-- Memory Management (Deep Dive) · Article
+### 4. Chains and Execution (4 lessons)
+- Chains, LCEL and Runnables · Article
+- Synthetic Data Generation · Article
+- Memory Management · Article
 - Lab: Multi-step LCEL pipeline · Lab
 
 <a id="m5"></a>
-### 5. Agents, Monitoring and Deployment (7 lessons)
+### 5. Agents, Monitoring and Deployment (4 lessons)
 > **Before you start:** [Production APIs with FastAPI › FastAPI Fundamentals](../13-production-apis-with-fastapi/course.md#m2)
 
-- LangChain Agents · Video
-- LangChain Agents (Deep Dive) · Article
-- LangSmith Monitoring · Video
-- LangSmith Monitoring (Deep Dive) · Article
-- LangServe Deployment · Video
-- LangServe Deployment (Deep Dive) · Article
+- LangChain Agents · Article
+- LangSmith Monitoring · Article
+- LangServe Deployment · Article
 - Lab: Deploy a chain with LangServe · Lab

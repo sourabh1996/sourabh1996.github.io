@@ -33,12 +33,57 @@ const { title, crumbs = [], readbar = false, description = site.tagline } = Astr
     </header>
     <main><slot /></main>
     <footer><div class="wrap">{site.name} · Built with Astro, hosted on GitHub Pages</div></footer>
+    <script>
+      // Draw ```mermaid diagrams, only on pages that have them. Mermaid is bundled and loaded on demand.
+      const blocks = [...document.querySelectorAll("pre > code.language-mermaid")].map((c) => c.parentElement!);
+      if (blocks.length) {
+        const { default: mermaid } = await import("mermaid");
+        const dark = (document.documentElement.dataset.theme || "dark") === "dark";
+        const css = getComputedStyle(document.documentElement);
+        const v = (name: string) => css.getPropertyValue(name).trim();
+        mermaid.initialize({
+          startOnLoad: false,
+          theme: "base",
+          fontFamily: "Inter, system-ui, sans-serif",
+          themeVariables: {
+            darkMode: dark,
+            background: v("--surface"),
+            primaryColor: v("--surface-2"),
+            primaryTextColor: v("--text"),
+            primaryBorderColor: v("--accent"),
+            secondaryColor: v("--accent-soft"),
+            tertiaryColor: v("--surface"),
+            lineColor: v("--text-2"),
+            textColor: v("--text"),
+            clusterBkg: v("--bg"),
+            clusterBorder: v("--border"),
+            edgeLabelBackground: v("--surface"),
+            noteBkgColor: v("--insight-bg"),
+            noteTextColor: v("--text"),
+            noteBorderColor: v("--insight"),
+            actorBkg: v("--surface-2"),
+            actorBorder: v("--accent"),
+            actorTextColor: v("--text"),
+            signalColor: v("--text-2"),
+            signalTextColor: v("--text"),
+          },
+        });
+        blocks.forEach((pre) => {
+          const div = document.createElement("div");
+          div.className = "mermaid diagram";
+          div.textContent = pre.textContent;
+          pre.replaceWith(div);
+        });
+        await mermaid.run({ querySelector: ".mermaid" });
+      }
+    </script>
     <script is:inline>
       document.getElementById("theme").addEventListener("click", () => {
         const root = document.documentElement;
         const next = (root.dataset.theme || "dark") === "dark" ? "light" : "dark";
         root.dataset.theme = next;
         try { localStorage.setItem("theme", next); } catch (e) {}
+        if (document.querySelector(".mermaid")) location.reload(); // redraw diagrams in the new theme
       });
     </script>
   </body>

@@ -1,6 +1,6 @@
 # LangGraph Fundamentals
 
-**Intermediate · 4 modules · 19 lessons · ~7 hrs**  
+**Intermediate · 4 modules · 11 lessons · ~5 hrs**  
 Track 7 · Agentic AI · Bootcamp syllabus module(s): 26
 
 Build agent workflows as graphs: nodes, edges, chains, routers, agents with memory and LangGraph Studio.
@@ -15,32 +15,24 @@ Build agent workflows as graphs: nodes, edges, chains, routers, agents with memo
 - How This Course Works · Article
 
 <a id="m2"></a>
-### 2. Getting Started (7 lessons)
+### 2. Getting Started (4 lessons)
 > **Before you start:** [Agentic AI Fundamentals › The Agent Loop](../23-agentic-ai-fundamentals/course.md#m3), [LangChain Complete Guide › Building with LangChain](../20-langchain-complete-guide/course.md#m3)
 
-- What is LangGraph? · Video
-- What is LangGraph? (Deep Dive) · Article
-- Simple Graphs and Node Connections · Video
-- Simple Graphs and Node Connections (Deep Dive) · Article
-- LangGraph Studio · Video
-- LangGraph Studio (Deep Dive) · Article
+- What is LangGraph? · Article
+- Simple Graphs and Node Connections · Article
+- LangGraph Studio · Article
 - Lab: Your first graph · Lab
 
 <a id="m3"></a>
-### 3. Workflows and Agents (9 lessons)
+### 3. Workflows and Agents (5 lessons)
 > **Before you start:** [Agentic AI Fundamentals › Tools and Function Calling](../23-agentic-ai-fundamentals/course.md#m4)
 
-- Chains in LangGraph · Video
-- Chains in LangGraph (Deep Dive) · Article
-- Routers · Video
-- Routers (Deep Dive) · Article
-- Building Agents · Video
-- Building Agents (Deep Dive) · Article
-- Agents with Memory · Video
-- Agents with Memory (Deep Dive) · Article
+- Chains in LangGraph · Article
+- Routers · Article
+- Building Agents · Article
+- Agents with Memory · Article
 - Lab: Rebuild your scratch agent in LangGraph · Lab
 
 <a id="m4"></a>
-### 4. Deployment (2 lessons)
-- Deploying and Running LangGraph Apps · Video
-- Deploying and Running LangGraph Apps (Deep Dive) · Article
+### 4. Deployment (1 lesson)
+- Deploying and Running LangGraph Apps · Article

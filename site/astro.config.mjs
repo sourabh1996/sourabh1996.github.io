@@ -6,5 +6,9 @@ export default defineConfig({
   site: process.env.SITE_URL || "https://example.github.io",
   base: process.env.BASE_PATH || "/",
   trailingSlash: "always",
-  markdown: { shikiConfig: { theme: "github-dark" } },
+  markdown: {
+    shikiConfig: { theme: "github-dark" },
+    // Mermaid blocks are left as plain text and drawn in the browser (see Base.astro).
+    syntaxHighlight: { type: "shiki", excludeLangs: ["mermaid"] },
+  },
 });

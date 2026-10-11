@@ -1,6 +1,6 @@
 # NLP for Machine Learning
 
-**Intermediate · 5 modules · 21 lessons · ~7 hrs**  
+**Intermediate · 5 modules · 12 lessons · ~6 hrs**  
 Track 5 · Deep Learning and NLP · Bootcamp syllabus module(s): 16
 
 Turn text into features: tokenisation, lemmatisation, POS tagging, NER, bag of words, TF-IDF and Word2Vec.
@@ -15,37 +15,28 @@ Turn text into features: tokenisation, lemmatisation, POS tagging, NER, bag of w
 - How This Course Works · Article
 
 <a id="m2"></a>
-### 2. Introduction to NLP (4 lessons)
-- What is NLP? · Video
-- What is NLP? (Deep Dive) · Article
-- NLP Terminology and Roadmap · Video
-- NLP Terminology and Roadmap (Deep Dive) · Article
+### 2. Introduction to NLP (2 lessons)
+- What is NLP? · Article
+- NLP Terminology and Roadmap · Article
 
 <a id="m3"></a>
-### 3. Text Preprocessing (7 lessons)
-- Tokenisation · Video
-- Tokenisation (Deep Dive) · Article
-- Stemming, Lemmatisation and Stopwords · Video
-- Stemming, Lemmatisation and Stopwords (Deep Dive) · Article
-- POS Tagging and Named Entity Recognition · Video
-- POS Tagging and Named Entity Recognition (Deep Dive) · Article
+### 3. Text Preprocessing (4 lessons)
+- Tokenisation · Article
+- Stemming, Lemmatisation and Stopwords · Article
+- POS Tagging and Named Entity Recognition · Article
 - Lab: Preprocess a corpus with NLTK · Lab
 
 <a id="m4"></a>
-### 4. Text Representation (5 lessons)
+### 4. Text Representation (3 lessons)
 > **Before you start:** [Feature Engineering and EDA › Feature Transformation and Selection](../09-feature-engineering-and-eda/course.md#m3)
 
-- One-Hot, Bag of Words and N-Grams · Video
-- One-Hot, Bag of Words and N-Grams (Deep Dive) · Article
-- TF-IDF · Video
-- TF-IDF (Deep Dive) · Article
+- One-Hot, Bag of Words and N-Grams · Article
+- TF-IDF · Article
 - Lab: TF-IDF search engine · Lab
 
 <a id="m5"></a>
-### 5. Word Embeddings (4 lessons)
+### 5. Word Embeddings (2 lessons)
 > **Before you start:** [Numerical Computing and Data Analysis › NumPy Essentials](../03-numerical-computing-and-data-analysis/course.md#m2), [Statistics Foundations › Data Behaviour and Relationships](../07-statistics-foundations/course.md#m4)
 
-- What are Word Vectors? · Video
-- What are Word Vectors? (Deep Dive) · Article
-- Word2Vec · Video
-- Word2Vec (Deep Dive) · Article
+- What are Word Vectors? · Article
+- Word2Vec · Article

@@ -1,6 +1,6 @@
 # LangGraph State and Memory
 
-**Intermediate · 4 modules · 15 lessons · ~5 hrs**  
+**Intermediate · 4 modules · 9 lessons · ~4 hrs**  
 Track 7 · Agentic AI · Bootcamp syllabus module(s): 27
 
 Master LangGraph's state system: schemas, reducers, multiple schemas, and trimming messages to save context.
@@ -15,28 +15,22 @@ Master LangGraph's state system: schemas, reducers, multiple schemas, and trimmi
 - How This Course Works · Article
 
 <a id="m2"></a>
-### 2. State Fundamentals (4 lessons)
+### 2. State Fundamentals (2 lessons)
 > **Before you start:** [LangGraph Fundamentals › Workflows and Agents](../24-langgraph-fundamentals/course.md#m3)
 
-- The LangGraph State System · Video
-- The LangGraph State System (Deep Dive) · Article
-- State Schemas and Data Flow · Video
-- State Schemas and Data Flow (Deep Dive) · Article
+- The LangGraph State System · Article
+- State Schemas and Data Flow · Article
 
 <a id="m3"></a>
-### 3. Advanced State (5 lessons)
-- State Reducers · Video
-- State Reducers (Deep Dive) · Article
-- Multiple Schemas · Video
-- Multiple Schemas (Deep Dive) · Article
+### 3. Advanced State (3 lessons)
+- State Reducers · Article
+- Multiple Schemas · Article
 - Lab: A multi-schema agent · Lab
 
 <a id="m4"></a>
-### 4. Optimising Memory (5 lessons)
+### 4. Optimising Memory (3 lessons)
 > **Before you start:** [Generative AI and LLM Foundations › How LLMs Work](../18-generative-ai-and-llm-foundations/course.md#m3)
 
-- Trimming and Filtering Messages · Video
-- Trimming and Filtering Messages (Deep Dive) · Article
-- Summarising Long Conversations · Video ➕
-- Summarising Long Conversations (Deep Dive) · Article ➕
+- Trimming and Filtering Messages · Article
+- Summarising Long Conversations · Article ➕
 - Lab: Keep a long chat under budget · Lab
