@@ -145,7 +145,7 @@ pytest
 
 ## Contributing
 
-Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Issues and pull requests are welcome. Please read CONTRIBUTING.md first.
 
 ## License
 
@@ -162,7 +162,7 @@ Issues and pull requests are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 | `\| a \| b \|` rows with a `\|---\|---\|` line | A table |
 | `- [ ] Write tests` / `- [x] Write docs` | A task list with checkboxes |
 | `> [!NOTE]` (also `TIP`, `IMPORTANT`, `WARNING`, `CAUTION`) on the first line of a quote | A coloured callout box ("alert") |
-| `[setup guide](docs/setup.md)` | A relative link that works on every branch and in forks |
+| `[the licence](LICENSE)` | A relative link that works on every branch and in forks |
 | `![alt text](docs/screenshot.png)` | An image; always write alt text for screen readers |
 | `<details><summary>More</summary> … </details>` | A collapsible section |
 | A ```` ```mermaid ```` block | A rendered diagram (flowcharts, sequence diagrams, gitGraphs) |
