@@ -12,27 +12,27 @@ Store and query data with PostgreSQL on Supabase and documents in MongoDB Atlas.
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Relational Databases and SQL (4 lessons)
-- What is a Relational Database? · Article
-- Writing SQL Queries · Article
-- Primary and Foreign Keys · Article
-- Joins and Unions · Article
+- [What is a Relational Database?](02-relational-databases-and-sql/what-is-a-relational-database.md) · Article ✍️ *written*
+- [Writing SQL Queries](02-relational-databases-and-sql/writing-sql-queries.md) · Article ✍️ *written*
+- [Primary and Foreign Keys](02-relational-databases-and-sql/primary-and-foreign-keys.md) · Article ✍️ *written*
+- [Joins and Unions](02-relational-databases-and-sql/joins-and-unions.md) · Article ✍️ *written*
 
 <a id="m3"></a>
 ### 3. PostgreSQL on Supabase (3 lessons)
 > **Before you start:** [Python Fundamentals › Functions and Iterators](../python-fundamentals/course.md#m6)
 
-- Setting Up Supabase · Article
-- Querying Supabase from Python · Article
-- Lab: Build a Supabase-backed notes database · Lab
+- [Setting Up Supabase](03-postgresql-on-supabase/setting-up-supabase.md) · Article ✍️ *written*
+- [Querying Supabase from Python](03-postgresql-on-supabase/querying-supabase-from-python.md) · Article ✍️ *written*
+- [Lab: Build a Supabase-backed notes database](03-postgresql-on-supabase/lab-build-a-supabase-backed-notes-database.md) · Lab ✍️ *written*
 
 <a id="m4"></a>
 ### 4. NoSQL with MongoDB Atlas (5 lessons)
-- What is a Document Database? · Article
-- Databases and Collections · Article
-- Insert, Find, Query and Sort · Article
-- Update, Delete and Drop · Article
-- Lab: Store chat history in MongoDB · Lab
+- [What is a Document Database?](04-nosql-with-mongodb-atlas/what-is-a-document-database.md) · Article ✍️ *written*
+- [Databases and Collections](04-nosql-with-mongodb-atlas/databases-and-collections.md) · Article ✍️ *written*
+- [Insert, Find, Query and Sort](04-nosql-with-mongodb-atlas/insert-find-query-and-sort.md) · Article ✍️ *written*
+- [Update, Delete and Drop](04-nosql-with-mongodb-atlas/update-delete-and-drop.md) · Article ✍️ *written*
+- [Lab: Store chat history in MongoDB](04-nosql-with-mongodb-atlas/lab-store-chat-history-in-mongodb.md) · Lab ✍️ *written*
