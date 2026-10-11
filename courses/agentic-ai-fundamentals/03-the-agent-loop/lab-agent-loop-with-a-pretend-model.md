@@ -502,4 +502,4 @@ A common follow-up: *"How do you test an agent without paying for API calls?"* A
 
 ---
 
-**Up next:** [What is a Tool?](../course.md#m4)
+**Up next:** [What is a Tool?](../04-tools-and-function-calling/what-is-a-tool.md)

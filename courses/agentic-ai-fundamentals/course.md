@@ -34,10 +34,10 @@ What AI agents are, how the agent loop works, and how to build one from scratch 
 ### 4. Tools and Function Calling ➕ (4 lessons)
 > **Before you start:** [Generative AI and LLM Foundations › Prompting and Structured Output](../generative-ai-and-llm-foundations/course.md#m4)
 
-- What is a Tool? · Article ➕
-- Function Calling Step by Step · Article ➕
-- Designing Good Tools · Article ➕
-- Lab: Tool-using agent from scratch · Lab ➕
+- [What is a Tool?](04-tools-and-function-calling/what-is-a-tool.md) · Article ➕ ✍️ *written*
+- [Function Calling Step by Step](04-tools-and-function-calling/function-calling-step-by-step.md) · Article ➕ ✍️ *written*
+- [Designing Good Tools](04-tools-and-function-calling/designing-good-tools.md) · Article ➕ ✍️ *written*
+- [Lab: Tool-using agent from scratch](04-tools-and-function-calling/lab-tool-using-agent-from-scratch.md) · Lab ➕ ✍️ *written*
 
 <a id="m5"></a>
 ### 5. Reasoning Patterns ➕ (2 lessons)
