@@ -12,14 +12,14 @@ Model the world as entities and relationships: ontologies with worked examples, 
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Entities and Relationships ➕ (4 lessons)
-- Entities, Relationships and Properties · Article ➕
-- What is a Knowledge Graph? · Article ➕
-- Knowledge Graphs vs Relational Databases vs Vector Stores · Article ➕
-- Where Knowledge Graphs Are Used · Article ➕
+- [Entities, Relationships and Properties](02-entities-and-relationships/entities-relationships-and-properties.md) · Article ➕ ✍️ *written*
+- [What is a Knowledge Graph?](02-entities-and-relationships/what-is-a-knowledge-graph.md) · Article ➕ ✍️ *written*
+- [Knowledge Graphs vs Relational Databases vs Vector Stores](02-entities-and-relationships/knowledge-graphs-vs-relational-databases-vs-vector-stores.md) · Article ➕ ✍️ *written*
+- [Where Knowledge Graphs Are Used](02-entities-and-relationships/where-knowledge-graphs-are-used.md) · Article ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Ontologies and Semantics ➕ (6 lessons)
