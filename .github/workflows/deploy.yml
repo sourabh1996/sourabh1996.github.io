@@ -1,9 +1,10 @@
-# Builds the Astro site and publishes it to GitHub Pages on every push to main.
+# Builds and checks the site on every pull request, and publishes it to GitHub Pages on every push to main.
 # In the repo settings, set Pages > Source to "GitHub Actions".
 name: Deploy site
 on:
   push:
     branches: [main]
+  pull_request:
   workflow_dispatch:
 permissions:
   contents: read
@@ -21,6 +22,8 @@ jobs:
         with: { python-version: "3.12" }
       - name: Rebuild catalog (fails if a syllabus topic or prerequisite link breaks)
         run: python3 build_catalog.py .
+      - name: Run every code example in the lessons and check its output
+        run: python3 tools/check_code.py
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm, cache-dependency-path: site/package-lock.json }
       - name: Build site
@@ -33,6 +36,8 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with: { path: site/dist }
   deploy:
+    # Pull requests only build and check; merging to main publishes.
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     environment:
