@@ -414,7 +414,7 @@ def real_model(history):
 run_agent("Is 'Atomic Habits' available? If yes, reserve it for me.", real_model, TOOLS)
 ```
 
-You'll write the real version, with the actual API shapes, in [Function Calling Step by Step](../course.md#m4).
+You'll write the real version, with the actual API shapes, in [Function Calling Step by Step](../04-tools-and-function-calling/function-calling-step-by-step.md).
 
 ---
 

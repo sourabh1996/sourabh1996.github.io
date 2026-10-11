@@ -181,7 +181,7 @@ You'll see these names in papers and frameworks:
 | **Plan-and-Execute** | Plan all steps, execute in order, replan if needed | Multi-part research and reports |
 | **ReWOO** (reasoning without observation) | Plan all tool calls up front with placeholders, run them, then answer once | Cutting model calls when steps don't depend much on each other |
 | **LLM Compiler / parallel planning** | Plan steps as a dependency graph and run independent ones in parallel | Speed when many lookups are independent |
-| **Task decomposition into sub-agents** | Planner assigns sub-tasks to specialised agents | Big tasks; see [Multi-Agent Systems](../course.md#m6) |
+| **Task decomposition into sub-agents** | Planner assigns sub-tasks to specialised agents | Big tasks; see [What are Multi-Agent Systems?](../06-multi-agent-systems-and-the-ecosystem/what-are-multi-agent-systems.md) |
 
 All share the core move: **think about the whole task before doing it**.
 
@@ -371,4 +371,4 @@ Also common: *"Compare ReAct and plan-and-execute."* ReAct is adaptive and simpl
 
 ---
 
-**Up next:** [What are Multi-Agent Systems?](../course.md#m6)
+**Up next:** [What are Multi-Agent Systems?](../06-multi-agent-systems-and-the-ecosystem/what-are-multi-agent-systems.md)

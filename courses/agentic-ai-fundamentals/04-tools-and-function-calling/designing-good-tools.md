@@ -209,7 +209,7 @@ Guidelines:
 - **One tool per task a user would recognise** ("look up an order", "refund an order"), not one per database table or API endpoint.
 - **Combine steps that always happen together.** If every `get_order_header` is followed by `get_order_lines`, merge them.
 - **Split read from write.** Keep `get_order` and `refund_order` separate so the risky one can have approval and stricter rules.
-- **Keep the list short.** Every extra tool adds description text to every request and another option to confuse. If an agent needs dozens of tools, consider splitting the work across specialised agents (you'll meet this in [Multi-Agent Systems](../course.md#m6)).
+- **Keep the list short.** Every extra tool adds description text to every request and another option to confuse. If an agent needs dozens of tools, consider splitting the work across specialised agents (you'll meet this in [What are Multi-Agent Systems?](../06-multi-agent-systems-and-the-ecosystem/what-are-multi-agent-systems.md)).
 
 ### Rule 7: Build safety into the tool, not just the prompt
 

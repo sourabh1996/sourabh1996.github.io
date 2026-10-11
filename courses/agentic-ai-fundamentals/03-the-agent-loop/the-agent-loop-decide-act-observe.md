@@ -262,7 +262,7 @@ Without the repeated-action check, it would have burned through all six steps (a
 
 ### Where the real model plugs in
 
-In a real agent, `pretend_model` is replaced by a function that calls an LLM API. The shape stays the same: send instructions, tool descriptions and history; get back either a tool call or a final answer. You'll do exactly that in [Function Calling Step by Step](../course.md#m4). The loop you just wrote won't need to change, which is the point of building it by hand first.
+In a real agent, `pretend_model` is replaced by a function that calls an LLM API. The shape stays the same: send instructions, tool descriptions and history; get back either a tool call or a final answer. You'll do exactly that in [Function Calling Step by Step](../04-tools-and-function-calling/function-calling-step-by-step.md). The loop you just wrote won't need to change, which is the point of building it by hand first.
 
 ### Try It Yourself
 

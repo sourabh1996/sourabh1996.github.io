@@ -179,7 +179,7 @@ flowchart LR
   E --> F["Multi-agent system<br/><i>Research, write and<br/>review a report</i>"]
 ```
 
-Moving right, the system takes on more of the decision-making, more steps and more ability to act. Moving left, it becomes simpler, cheaper and more predictable. You'll study the [Workflows vs Agents](../course.md#m3) trade-off in detail in the next module.
+Moving right, the system takes on more of the decision-making, more steps and more ability to act. Moving left, it becomes simpler, cheaper and more predictable. You'll study the [Workflows vs Agents](../03-the-agent-loop/workflows-vs-agents.md) trade-off in detail in the next module.
 
 ### Try It Yourself
 
@@ -268,4 +268,4 @@ Common follow-ups:
 
 ---
 
-**Up next:** [The Agent Loop: Decide, Act, Observe](../course.md#m3)
+**Up next:** [Agentic AI Use Cases](agentic-ai-use-cases.md)

@@ -97,7 +97,7 @@ The strong version answers the questions the model would otherwise have to guess
 - **A description**: what it does and when to use it.
 - **A parameter schema**: what inputs it takes, with types and descriptions.
 
-The model never sees your code, only those three things. So **the description is the interface**. A tool with a vague description gets used wrongly, no matter how good the code behind it is. You'll learn to design tools properly in [Designing Good Tools](../course.md#m4).
+The model never sees your code, only those three things. So **the description is the interface**. A tool with a vague description gets used wrongly, no matter how good the code behind it is. You'll learn to design tools properly in [Designing Good Tools](../04-tools-and-function-calling/designing-good-tools.md).
 
 Tools fall into two broad groups, and the difference matters for safety:
 

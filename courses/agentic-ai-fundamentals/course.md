@@ -21,7 +21,7 @@ What AI agents are, how the agent loop works, and how to build one from scratch 
 - [What is an AI Agent?](02-understanding-agents/what-is-an-ai-agent.md) · Article ✍️ *written*
 - [Agentic AI vs Traditional AI Agents](02-understanding-agents/agentic-ai-vs-traditional-ai-agents.md) · Article ✍️ *written*
 - [Agentic AI vs Generative AI](02-understanding-agents/agentic-ai-vs-generative-ai.md) · Article ✍️ *written*
-- Agentic AI Use Cases · Article
+- [Agentic AI Use Cases](02-understanding-agents/agentic-ai-use-cases.md) · Article ✍️ *written*
 
 <a id="m3"></a>
 ### 3. The Agent Loop ➕ (4 lessons)
@@ -48,6 +48,6 @@ What AI agents are, how the agent loop works, and how to build one from scratch 
 ### 6. Multi-Agent Systems and the Ecosystem (3 lessons)
 > **Before you start:** [LangChain Complete Guide › Agents, Monitoring and Deployment](../langchain-complete-guide/course.md#m8)
 
-- What are Multi-Agent Systems? · Article
-- Overview of Agentic Frameworks · Article
-- Trends in Multi-Agent AI · Article
+- [What are Multi-Agent Systems?](06-multi-agent-systems-and-the-ecosystem/what-are-multi-agent-systems.md) · Article ✍️ *written*
+- [Overview of Agentic Frameworks](06-multi-agent-systems-and-the-ecosystem/overview-of-agentic-frameworks.md) · Article ✍️ *written*
+- [Trends in Multi-Agent AI](06-multi-agent-systems-and-the-ecosystem/trends-in-multi-agent-ai.md) · Article ✍️ *written*
