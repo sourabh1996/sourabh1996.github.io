@@ -12,7 +12,7 @@ What generative AI is, how LLMs work, and how to use them well: foundation model
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Fundamentals of Generative AI (5 lessons)
