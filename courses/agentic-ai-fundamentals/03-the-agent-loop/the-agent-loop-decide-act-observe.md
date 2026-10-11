@@ -117,8 +117,8 @@ On the third decide step, the model receives all five messages and concludes the
 This has three big consequences:
 
 1. **The history grows with every step**, so each call costs more and takes longer than the last.
-2. **Models have a maximum input size** (the *context window*). Long-running agents must trim or summarise old history, which you'll study in [LangGraph State and Memory](../../langgraph-state-and-memory/course.md).
-3. **Whatever is in the history can steer the agent**, including text that came back from tools. A web page that says "ignore your instructions" ends up in the history. This is the root of *prompt injection*, covered in [Guardrails and Security](../../enterprise-llm-systems/course.md#m6).
+2. **Models have a maximum input size** (the *context window*). Long-running agents must trim or summarise old history, which you'll study in [LangGraph State and Memory](../../langgraph-complete-guide/course.md).
+3. **Whatever is in the history can steer the agent**, including text that came back from tools. A web page that says "ignore your instructions" ends up in the history. This is the root of *prompt injection*, covered in [Guardrails and Security](../../retrieval-augmented-generation-rag/course.md#m6).
 
 ### How a loop can end
 
@@ -295,7 +295,7 @@ When a coding agent fixes a bug, each trip round the loop is one action: search 
 
 ### Example 3: Support agents with approval steps
 
-A refund agent might be allowed to look up orders freely but need a human to approve any refund over a threshold. In loop terms, the act step pauses, asks a person, and records the answer as an observation. You'll build this pattern in [Human-in-the-Loop with LangGraph](../../human-in-the-loop-with-langgraph/course.md).
+A refund agent might be allowed to look up orders freely but need a human to approve any refund over a threshold. In loop terms, the act step pauses, asks a person, and records the answer as an observation. You'll build this pattern in [Human-in-the-Loop with LangGraph](../../langgraph-complete-guide/course.md).
 
 ---
 

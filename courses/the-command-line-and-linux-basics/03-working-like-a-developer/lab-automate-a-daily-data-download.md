@@ -744,7 +744,7 @@ bad=$(awk -F, 'NR > 1 && !($2 ~ /^[0-9]+(\.[0-9]+)?$/ && $2 > 0) { print; exit }
 - **cron-proofing** with a wrapper that fixes the working directory and `PATH`, absolute paths in the crontab, and `>> log 2>&1`.
 - **Testing against a fake provider**, so failures are rehearsed before they happen for real.
 
-You've now used almost every tool in this course together. Next, you'll put projects like this one under version control and share them, in [Git and GitHub: Zero to Pro](../../git-and-github-zero-to-pro/course.md). Later, [Data Engineering Foundations](../../data-engineering-foundations/course.md) and [Orchestration with Airflow](../../orchestration-with-airflow/course.md#m2) grow this little pipeline into the real thing.
+You've now used almost every tool in this course together. Next, you'll put projects like this one under version control and share them, in [Git and GitHub: Zero to Pro](../../git-and-github-zero-to-pro/course.md). Later, [Data Engineering Foundations](../../data-engineering-foundations/course.md) and [Orchestration with Airflow](../../data-pipelines-ingestion-dbt-and-airflow/course.md#m4) grow this little pipeline into the real thing.
 
 ---
 

@@ -15,7 +15,7 @@ breadcrumbs: [Catalog, Agentic AI Fundamentals, Understanding Agents]
 >
 > This article assumes you know what a large language model is and roughly how it produces text. If not, read these first:
 > - [How LLMs Work](../../generative-ai-and-llm-foundations/course.md#m3) (Generative AI and LLM Foundations)
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals), for the code in this article
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Fundamentals), for the code in this article
 
 ## Introduction
 

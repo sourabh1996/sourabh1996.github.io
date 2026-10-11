@@ -88,7 +88,7 @@ A sequential pipeline is really a **workflow** of agents (see [Workflows vs Agen
 Agents need a way to pass work and results. Three common approaches:
 
 - **Messages.** Agents send each other text, like a chat. Easy, but details can get lost in paraphrasing.
-- **Shared state.** All agents read and write one structured object (for example `{"topic": ..., "sources": [...], "draft": ..., "review": ...}`). This is LangGraph's approach, covered in [LangGraph State and Memory](../../langgraph-state-and-memory/course.md).
+- **Shared state.** All agents read and write one structured object (for example `{"topic": ..., "sources": [...], "draft": ..., "review": ...}`). This is LangGraph's approach, covered in [LangGraph State and Memory](../../langgraph-complete-guide/course.md).
 - **Agents as tools.** The supervisor calls a worker exactly like a tool: `research_agent(question)` returns a result. This reuses everything from [function calling](../04-tools-and-function-calling/function-calling-step-by-step.md).
 
 Whatever the channel, the golden rule is: **each hand-off should carry everything the next agent needs**, because agents don't share memory unless you give them a shared state.
@@ -194,7 +194,7 @@ More agents bring new ways to fail:
 - **Cost and latency multiply.** Every hand-off is at least one more model call. A five-agent system can easily cost 5 to 15 times more than one agent.
 - **Lost context.** Agent B only knows what agent A passed on. A summary that drops one detail can derail everything downstream.
 - **Endless loops.** Writer and reviewer can bounce a draft back and forth forever. Use turn limits and clear acceptance criteria.
-- **Blame is hard to assign.** When the final answer is wrong, which agent caused it? You need **tracing** of every hand-off (see [Observability](../../enterprise-llm-systems/course.md#m3)).
+- **Blame is hard to assign.** When the final answer is wrong, which agent caused it? You need **tracing** of every hand-off (see [Observability](../../agent-evals-observability-and-reliability/course.md#m4)).
 - **Inconsistent behaviour.** Small changes in one agent's prompt can change the whole team's behaviour.
 
 A practical rule: **start with one agent; split out a second only when you can name the specific problem it solves.**
@@ -205,7 +205,7 @@ A practical rule: **start with one agent; split out a second only when you can n
 - **Least privilege.** Give each agent only the tools it needs. The writer doesn't need web search; the researcher doesn't need the "publish" tool.
 - **Structured hand-offs.** Pass structured data (fields in a shared state, JSON) rather than long chatty messages.
 - **Clear stopping rules.** Turn limits, acceptance criteria, and a final owner who decides "done".
-- **Humans at the risky points.** Pause for approval before irreversible actions (covered in [Human-in-the-Loop with LangGraph](../../human-in-the-loop-with-langgraph/course.md)).
+- **Humans at the risky points.** Pause for approval before irreversible actions (covered in [Human-in-the-Loop with LangGraph](../../langgraph-complete-guide/course.md)).
 
 ---
 

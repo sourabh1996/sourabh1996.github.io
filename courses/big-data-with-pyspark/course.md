@@ -1,12 +1,12 @@
 # Big Data with PySpark
 
 **Advanced · 4 modules · 12 lessons · ~5 hrs**  
-Track 4 · Production Engineering and Big Data · Bootcamp syllabus module(s): 17
+Track 8 · Data Engineering · Bootcamp syllabus module(s): 17
 
 Process data that won't fit in memory with Spark: architecture, DataFrames, Spark SQL and optimisation.
 
-**Finish first:** [Numerical Computing and Data Analysis](../numerical-computing-and-data-analysis/course.md), [Databases: SQL and NoSQL](../databases-sql-and-nosql/course.md)  
-**Unlocks:** [Streaming Data with Kafka](../streaming-data-with-kafka/course.md), [Lakehouses and Open Table Formats](../lakehouses-and-open-table-formats/course.md)
+**Finish first:** [Data Engineering Foundations](../data-engineering-foundations/course.md)  
+**Unlocks:** [Warehouses and Lakehouses](../warehouses-and-lakehouses/course.md), [Streaming Data with Kafka](../streaming-data-with-kafka/course.md)
 
 ## Course content
 
@@ -22,7 +22,7 @@ Process data that won't fit in memory with Spark: architecture, DataFrames, Spar
 
 <a id="m3"></a>
 ### 3. PySpark DataFrames and SQL (5 lessons)
-> **Before you start:** [Numerical Computing and Data Analysis › pandas Core](../numerical-computing-and-data-analysis/course.md#m3), [Databases: SQL and NoSQL › Relational Databases and SQL](../databases-sql-and-nosql/course.md#m2)
+> **Before you start:** [Data Analysis and Visualisation with Python › pandas Core](../data-analysis-and-visualisation-with-python/course.md#m3), [Databases: SQL and NoSQL › Relational Databases and SQL](../databases-sql-and-nosql/course.md#m2)
 
 - From pandas to PySpark · Article
 - Filters, Aggregations and Joins · Article

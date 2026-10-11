@@ -1,12 +1,12 @@
 # Retrieval-Augmented Generation (RAG)
 
-**Intermediate · 5 modules · 22 lessons · ~10 hrs**  
-Track 7 · Generative AI · Bootcamp syllabus module(s): 23
+**Intermediate · 9 modules · 45 lessons · ~20 hrs**  
+Track 6 · Generative AI · Bootcamp syllabus module(s): 23, 21, 24
 
-Ground LLMs in your own data: loaders, splitters, vector stores, retrievers, the RAG pipeline, hybrid search, reranking and multimodal RAG.
+Ground LLMs in your own data: embeddings and vector databases, loaders, splitters, retrievers, hybrid search, reranking, vectorless and multimodal RAG, and evaluating it all.
 
-**Finish first:** [Vector Databases for AI](../vector-databases-for-ai/course.md), [LangChain Complete Guide](../langchain-complete-guide/course.md)  
-**Unlocks:** [Enterprise LLM Systems](../enterprise-llm-systems/course.md), [Agentic RAG Systems](../agentic-rag-systems/course.md), [Knowledge Graphs, Ontologies and Unstructured Data](../knowledge-graphs-ontologies-and-unstructured-data/course.md)
+**Finish first:** [LangChain Complete Guide](../langchain-complete-guide/course.md), [Databases: SQL and NoSQL](../databases-sql-and-nosql/course.md)  
+**Unlocks:** [Agentic RAG Systems](../agentic-rag-systems/course.md), [Agent Evals, Observability and Reliability](../agent-evals-observability-and-reliability/course.md), [Cloud Data Platforms](../cloud-data-platforms/course.md)
 
 ## Course content
 
@@ -16,7 +16,7 @@ Ground LLMs in your own data: loaders, splitters, vector stores, retrievers, the
 
 <a id="m2"></a>
 ### 2. Introduction to RAG (4 lessons)
-> **Before you start:** [Vector Databases for AI › Introduction to Vector Databases](../vector-databases-for-ai/course.md#m2), [Generative AI and LLM Foundations › How LLMs Work](../generative-ai-and-llm-foundations/course.md#m3)
+> **Before you start:** [Generative AI and LLM Foundations › How LLMs Work](../generative-ai-and-llm-foundations/course.md#m3)
 
 - What is RAG? · Article
 - RAG vs Fine-Tuning vs Prompting · Article
@@ -24,7 +24,33 @@ Ground LLMs in your own data: loaders, splitters, vector stores, retrievers, the
 - Lab: RAG from scratch, no framework · Lab ➕
 
 <a id="m3"></a>
-### 3. RAG Building Blocks in LangChain (7 lessons)
+### 3. Embeddings and Vector Databases (5 lessons)
+> **Before you start:** [NLP for Machine Learning › Word Embeddings](../nlp-for-machine-learning/course.md#m5), [Databases: SQL and NoSQL › Relational Databases and SQL](../databases-sql-and-nosql/course.md#m2)
+
+- Embeddings and Similarity Search · Article
+- Semantic Search Explained · Article
+- Vector vs SQL vs NoSQL Databases · Article
+- Storage and Indexing (HNSW, IVF) · Article
+- In-Memory, On-Disk and Cloud Vector DBs · Article
+
+<a id="m4"></a>
+### 4. Vector Database Tools (9 lessons)
+> **Before you start:** [Databases: SQL and NoSQL › NoSQL with MongoDB Atlas](../databases-sql-and-nosql/course.md#m4)
+
+- Chroma · Article
+- FAISS · Article
+- Qdrant · Article
+- Pinecone · Article
+- LanceDB · Article
+- Vector Search in MongoDB and Cassandra · Article
+- Embedding-Based Retrieval Pipelines · Article
+- Lab: Same search in three vector DBs · Lab
+- Lab: Semantic search over your notes · Lab
+
+<a id="m5"></a>
+### 5. RAG Building Blocks in LangChain (7 lessons)
+> **Before you start:** [LangChain Complete Guide › Chains and Runnables](../langchain-complete-guide/course.md#m6)
+
 - Document Loaders · Article
 - PDF, Web, CSV and Directory Loaders · Article
 - load() vs lazy_load() · Article
@@ -33,9 +59,9 @@ Ground LLMs in your own data: loaders, splitters, vector stores, retrievers, the
 - Retrievers · Article
 - MMR, Multi-Query and Contextual Compression Retrievers · Article
 
-<a id="m4"></a>
-### 4. Implementing RAG (7 lessons)
-> **Before you start:** [LangChain Complete Guide › Chains and Runnables](../langchain-complete-guide/course.md#m6), [Vector Databases for AI › Tools](../vector-databases-for-ai/course.md#m4)
+<a id="m6"></a>
+### 6. Implementing RAG (7 lessons)
+> **Before you start:** [LangChain Complete Guide › Chains and Runnables](../langchain-complete-guide/course.md#m6), [Vector Database Tools](#m4)
 
 - RAG with LangChain and a Vector DB · Article
 - Chunking Strategies · Article ➕
@@ -45,10 +71,25 @@ Ground LLMs in your own data: loaders, splitters, vector stores, retrievers, the
 - Lab: Chat with a PDF · Lab
 - Project: Chat with Any YouTube Video · Lab
 
-<a id="m5"></a>
-### 5. Advanced RAG (3 lessons)
-> **Before you start:** [LangChain Complete Guide › Chains and Runnables](../langchain-complete-guide/course.md#m6)
-
+<a id="m7"></a>
+### 7. Advanced RAG (3 lessons)
 - Memory in RAG Systems · Article
 - Multimodal RAG · Article
 - Lab: RAG over images and text · Lab
+
+<a id="m8"></a>
+### 8. Vectorless RAG (5 lessons)
+- Limits of Vector RAG · Article
+- PageIndex and Chunk-Free Segmentation · Article
+- The Document Tree Model · Article
+- The Iterative Search Loop · Article
+- Deterministic Page Referencing · Article
+
+<a id="m9"></a>
+### 9. RAG Evaluation (4 lessons)
+> **Before you start:** [Implementing RAG](#m6)
+
+- The RAG Triad Metrics · Article
+- LLM-as-a-Judge · Article
+- Turn-Based Evaluation with Ragas · Article
+- Lab: Evaluate your RAG app with Ragas · Lab

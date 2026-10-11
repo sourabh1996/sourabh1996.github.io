@@ -168,7 +168,7 @@ CrewAI or AutoGen for a prototype; LangGraph for production
 ### 6. Why this platform teaches LangChain, LangGraph and MCP
 
 - **LangChain** gives you the building blocks (models, prompts, structured output, retrievers, tools) used everywhere in GenAI apps, and its ideas transfer to every other toolkit. → [LangChain Complete Guide](../../langchain-complete-guide/course.md)
-- **LangGraph** is low-level enough to teach how agents really work (state, loops, checkpoints, interrupts) and robust enough for production. → [LangGraph Fundamentals](../../langgraph-fundamentals/course.md)
+- **LangGraph** is low-level enough to teach how agents really work (state, loops, checkpoints, interrupts) and robust enough for production. → [LangGraph Fundamentals](../../langgraph-complete-guide/course.md)
 - **MCP** is framework-neutral: tools you expose through it work with LangGraph, provider SDKs, desktop assistants and IDEs alike. → [Model Context Protocol (MCP)](../../model-context-protocol-mcp/course.md)
 
 Once you know these three and the from-scratch core, picking up any other framework is a matter of reading its docs for an afternoon.

@@ -121,7 +121,7 @@ Example output:
 Python 3.13.16
 ```
 
-If you see "command not found", don't worry. [Package Managers and Virtual Environments](../03-working-like-a-developer/package-managers-and-virtual-environments.md) shows you how to install it properly. The [Python Fundamentals](../../python-fundamentals/course.md#m2) course also walks through it.
+If you see "command not found", don't worry. [Package Managers and Virtual Environments](../03-working-like-a-developer/package-managers-and-virtual-environments.md) shows you how to install it properly. The [Python Fundamentals](../../python-programming/course.md#m2) course also walks through it.
 
 ### Is it safe to practise?
 

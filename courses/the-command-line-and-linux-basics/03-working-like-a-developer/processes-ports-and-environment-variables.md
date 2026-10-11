@@ -595,7 +595,7 @@ A developer's FastAPI app won't start: "Address already in use". `lsof -i :8000`
 
 ### Example 2: Twelve-Factor Configuration
 
-Modern web apps follow the "twelve-factor" practice of keeping configuration in environment variables. The same Docker image of a payments service runs in testing with `DATABASE_URL` pointing at a test database and in production with the real one. Nothing in the code changes; only the environment does. You'll use this pattern when deploying in [Production APIs with FastAPI](../../production-apis-with-fastapi/course.md#m7).
+Modern web apps follow the "twelve-factor" practice of keeping configuration in environment variables. The same Docker image of a payments service runs in testing with `DATABASE_URL` pointing at a test database and in production with the real one. Nothing in the code changes; only the environment does. You'll use this pattern when deploying in [Production APIs with FastAPI](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m9).
 
 ### Example 3: A Runaway Data Job
 

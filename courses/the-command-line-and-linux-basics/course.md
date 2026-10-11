@@ -1,12 +1,12 @@
 # The Command Line and Linux Basics
 
 **Beginner · 3 modules · 11 lessons · ~5 hrs**  
-Track 0 · Developer Toolkit · ➕ Added beyond the bootcamp syllabus
+Track 1 · Programming Foundations · ➕ Added beyond the bootcamp syllabus
 
 Get comfortable in a terminal: files, paths, permissions, processes, pipes, environment variables and shell scripts.
 
 **Finish first:** Nothing, this is a starting point.  
-**Unlocks:** [Git and GitHub: Zero to Pro](../git-and-github-zero-to-pro/course.md), [Data Engineering Foundations](../data-engineering-foundations/course.md)
+**Unlocks:** [Python Programming](../python-programming/course.md), [Git and GitHub: Zero to Pro](../git-and-github-zero-to-pro/course.md), [Data Engineering Foundations](../data-engineering-foundations/course.md)
 
 ## Course content
 
