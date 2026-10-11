@@ -120,15 +120,15 @@ Here's a map of the main pieces of LangGraph and where you'll learn each:
 |---|---|---|
 | `StateGraph`, `START`, `END` | Define a graph over a state | This module |
 | `add_node`, `add_edge` | Add steps and fixed connections | [Graphs, Nodes, Edges and State](graphs-nodes-edges-and-state.md) |
-| `add_conditional_edges` | Branch or loop based on state | [Conditional Workflows](../course.md#m3) |
+| `add_conditional_edges` | Branch or loop based on state | [Conditional Workflows](../03-workflow-patterns-in-langgraph/conditional-workflows.md) |
 | Reducers (`Annotated[list, operator.add]`) | Control how updates merge, e.g. append instead of overwrite | [The LangGraph Execution Model](the-langgraph-execution-model.md) |
 | `invoke`, `stream` | Run the graph; get the final state or step-by-step updates | [The LangGraph Execution Model](the-langgraph-execution-model.md) |
-| `Send` | Fan out to many parallel tasks (map-reduce) | [Parallel Workflows](../course.md#m3) |
-| `MessagesState`, `add_messages` | State for chat-style message lists | [Building a Chatbot](../course.md#m5) |
-| `ToolNode`, `tools_condition` | Run tool calls and route the agent loop | [Tools in LangGraph](../course.md#m4) |
-| Checkpointers (`InMemorySaver`, SQLite, Postgres) | Save state after every step; threads; resume | [Persistence and Checkpointers](../course.md#m5) |
+| `Send` | Fan out to many parallel tasks (map-reduce) | [Parallel Workflows](../03-workflow-patterns-in-langgraph/parallel-workflows.md) |
+| `MessagesState`, `add_messages` | State for chat-style message lists | [Building a Chatbot](../05-chatbots-and-persistence/building-a-chatbot-with-langgraph.md) |
+| `ToolNode`, `tools_condition` | Run tool calls and route the agent loop | [Tools in LangGraph](../04-workflows-and-agents/tools-in-langgraph-toolnode-and-tools-condition.md) |
+| Checkpointers (`InMemorySaver`, SQLite, Postgres) | Save state after every step; threads; resume | [Persistence and Checkpointers](../05-chatbots-and-persistence/persistence-and-checkpointers.md) |
 | `interrupt`, `Command` | Pause for a human and resume with their input | [Human-in-the-Loop with LangGraph](../../human-in-the-loop-with-langgraph/course.md) |
-| Subgraphs | Use a compiled graph as a node in another graph | [Subgraphs](../course.md#m6) |
+| Subgraphs | Use a compiled graph as a node in another graph | [Subgraphs](../06-subgraphs/what-are-subgraphs.md) |
 
 ### 5. The life cycle of a LangGraph app
 
@@ -151,9 +151,9 @@ flowchart LR
 
 LangGraph the library is free and open source. Around it sit optional products from the same company:
 
-- **LangSmith**: tracing, evaluation and monitoring for LLM apps, including LangGraph runs. → [LangSmith Observability for LangGraph](../course.md#m7)
+- **LangSmith**: tracing, evaluation and monitoring for LLM apps, including LangGraph runs. → [LangSmith Observability for LangGraph](../07-deployment-and-observability/langsmith-observability-for-langgraph.md)
 - **LangGraph Studio**: a visual IDE that shows your graph, lets you run it step by step, inspect state and edit it. → [LangGraph Studio](langgraph-studio.md)
-- **Deployment platform** (LangGraph Platform / LangSmith Deployment): hosting for LangGraph apps with APIs for threads, runs and background jobs. → [Deploying and Running LangGraph Apps](../course.md#m7)
+- **Deployment platform** (LangGraph Platform / LangSmith Deployment): hosting for LangGraph apps with APIs for threads, runs and background jobs. → [Deploying and Running LangGraph Apps](../07-deployment-and-observability/deploying-and-running-langgraph-apps.md)
 - **Prebuilt agents**: ready-made agent loops (in LangChain 1.x, `create_agent` builds a LangGraph agent for you).
 
 You can use the library without any of these; everything in modules 2 and 3 runs locally with no account.

@@ -264,4 +264,4 @@ generate evaluate optimise evaluate optimise evaluate
 
 ---
 
-**Up next:** [Tool Calling in LangGraph](../course.md#m4)
+**Up next:** [Chains in LangGraph](../04-workflows-and-agents/chains-in-langgraph.md)

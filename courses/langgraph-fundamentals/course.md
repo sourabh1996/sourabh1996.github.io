@@ -39,32 +39,32 @@ Build agent workflows as graphs: core concepts, sequential, parallel, conditiona
 ### 4. Workflows and Agents (8 lessons)
 > **Before you start:** [Agentic AI Fundamentals › Tools and Function Calling](../agentic-ai-fundamentals/course.md#m4)
 
-- Chains in LangGraph · Article
-- Routers · Article
-- Building Agents · Article
-- Agents with Memory · Article
-- Tools in LangGraph: ToolNode and tools_condition · Article
-- Using MCP Tools in LangGraph · Article
-- RAG Inside a LangGraph Agent · Article
-- Lab: Rebuild your scratch agent in LangGraph · Lab
+- [Chains in LangGraph](04-workflows-and-agents/chains-in-langgraph.md) · Article ✍️ *written*
+- [Routers](04-workflows-and-agents/routers.md) · Article ✍️ *written*
+- [Building Agents](04-workflows-and-agents/building-agents.md) · Article ✍️ *written*
+- [Agents with Memory](04-workflows-and-agents/agents-with-memory.md) · Article ✍️ *written*
+- [Tools in LangGraph: ToolNode and tools_condition](04-workflows-and-agents/tools-in-langgraph-toolnode-and-tools-condition.md) · Article ✍️ *written*
+- [Using MCP Tools in LangGraph](04-workflows-and-agents/using-mcp-tools-in-langgraph.md) · Article ✍️ *written*
+- [RAG Inside a LangGraph Agent](04-workflows-and-agents/rag-inside-a-langgraph-agent.md) · Article ✍️ *written*
+- [Lab: Rebuild your scratch agent in LangGraph](04-workflows-and-agents/lab-rebuild-your-scratch-agent-in-langgraph.md) · Lab ✍️ *written*
 
 <a id="m5"></a>
 ### 5. Chatbots and Persistence (5 lessons)
 > **Before you start:** [Interactive Data Apps with Streamlit › Streamlit Basics](../interactive-data-apps-with-streamlit/course.md#m2)
 
-- Building a Chatbot with LangGraph · Article
-- Persistence and Checkpointers · Article
-- Threads, Fault Tolerance and Resuming · Article
-- Persistent Storage with SQLite · Article
-- Lab: Chatbot UI with Streamlit, streaming and saved chats · Lab
+- [Building a Chatbot with LangGraph](05-chatbots-and-persistence/building-a-chatbot-with-langgraph.md) · Article ✍️ *written*
+- [Persistence and Checkpointers](05-chatbots-and-persistence/persistence-and-checkpointers.md) · Article ✍️ *written*
+- [Threads, Fault Tolerance and Resuming](05-chatbots-and-persistence/threads-fault-tolerance-and-resuming.md) · Article ✍️ *written*
+- [Persistent Storage with SQLite](05-chatbots-and-persistence/persistent-storage-with-sqlite.md) · Article ✍️ *written*
+- [Lab: Chatbot UI with Streamlit, streaming and saved chats](05-chatbots-and-persistence/lab-chatbot-ui-with-streamlit-streaming-and-saved-chats.md) · Lab ✍️ *written*
 
 <a id="m6"></a>
 ### 6. Subgraphs (3 lessons)
-- What are Subgraphs? · Article
-- Shared vs Different State in Subgraphs · Article
-- Lab: Translation workflow with a subgraph · Lab
+- [What are Subgraphs?](06-subgraphs/what-are-subgraphs.md) · Article ✍️ *written*
+- [Shared vs Different State in Subgraphs](06-subgraphs/shared-vs-different-state-in-subgraphs.md) · Article ✍️ *written*
+- [Lab: Translation workflow with a subgraph](06-subgraphs/lab-translation-workflow-with-a-subgraph.md) · Lab ✍️ *written*
 
 <a id="m7"></a>
 ### 7. Deployment and Observability (2 lessons)
-- Deploying and Running LangGraph Apps · Article
-- LangSmith Observability for LangGraph · Article
+- [Deploying and Running LangGraph Apps](07-deployment-and-observability/deploying-and-running-langgraph-apps.md) · Article ✍️ *written*
+- [LangSmith Observability for LangGraph](07-deployment-and-observability/langsmith-observability-for-langgraph.md) · Article ✍️ *written*

@@ -203,7 +203,7 @@ The pattern is identical; only the wire format changed. That's why your [tool-us
 In frameworks you'll meet it as:
 
 - **LangChain:** `create_agent` in LangChain 1.x (older code uses `create_react_agent` with an `AgentExecutor`) ([LangChain Agents](../../langchain-complete-guide/course.md#m8)).
-- **LangGraph:** the prebuilt `create_react_agent` (now superseded by LangChain's `create_agent`, which runs on LangGraph), or your own graph with a model node, a `ToolNode` and a loop back ([LangGraph Fundamentals](../../langgraph-fundamentals/course.md#m4)).
+- **LangGraph:** the prebuilt `create_react_agent` (now superseded by LangChain's `create_agent`, which runs on LangGraph), or your own graph with a model node, a `ToolNode` and a loop back ([LangGraph Fundamentals](../../langgraph-fundamentals/04-workflows-and-agents/building-agents.md)).
 
 ### 5. Where ReAct struggles
 

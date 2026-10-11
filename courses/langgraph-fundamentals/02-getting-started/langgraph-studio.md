@@ -111,7 +111,7 @@ langgraph dev
 
 The command starts a local API server (by default on `http://127.0.0.1:2024`), and prints a link that opens Studio in your browser connected to that server. Studio's web UI is served through LangSmith, so you'll be asked to sign in with a (free) LangSmith account the first time. Your graph and data still run on your machine.
 
-If you prefer not to use the browser UI, the same local server also exposes an HTTP API and API docs, which you'll use when deploying in [Deploying and Running LangGraph Apps](../course.md#m7).
+If you prefer not to use the browser UI, the same local server also exposes an HTTP API and API docs, which you'll use when deploying in [Deploying and Running LangGraph Apps](../07-deployment-and-observability/deploying-and-running-langgraph-apps.md).
 
 > **Tip:** if Studio can't find your graph, check three things: the path in `langgraph.json` is relative to that file, the variable name after the colon matches your code, and your dependencies are listed so the server can import them.
 
@@ -126,7 +126,7 @@ Here's a practical routine when a graph misbehaves:
 5. **Fix the code.** Edit the node; hot reload picks it up. Run the original input again.
 6. **Add interrupts** before risky nodes (like a tool that sends email) so you can check the state before it runs.
 
-This workflow relies on **checkpoints**, which the dev server adds for you. You'll learn how checkpoints work, and how to use them in your own apps, in [Persistence and Checkpointers](../course.md#m5), and the full set of time-travel tools in [Human-in-the-Loop with LangGraph](../../human-in-the-loop-with-langgraph/course.md).
+This workflow relies on **checkpoints**, which the dev server adds for you. You'll learn how checkpoints work, and how to use them in your own apps, in [Persistence and Checkpointers](../05-chatbots-and-persistence/persistence-and-checkpointers.md), and the full set of time-travel tools in [Human-in-the-Loop with LangGraph](../../human-in-the-loop-with-langgraph/course.md).
 
 ### 5. Studio without an LLM
 
@@ -137,7 +137,7 @@ Studio works for any LangGraph graph, including the plain-Python graphs from thi
 - **`draw_mermaid()`** for the structure: `print(graph.get_graph().draw_mermaid())`.
 - **`stream(..., stream_mode="values")`** to print the full state after every step.
 - **`stream_mode="debug"`** for task-level detail.
-- **LangSmith tracing** (no Studio needed) to record runs from scripts and servers. → [LangSmith Observability for LangGraph](../course.md#m7)
+- **LangSmith tracing** (no Studio needed) to record runs from scripts and servers. → [LangSmith Observability for LangGraph](../07-deployment-and-observability/langsmith-observability-for-langgraph.md)
 
 ```python
 from typing import TypedDict
