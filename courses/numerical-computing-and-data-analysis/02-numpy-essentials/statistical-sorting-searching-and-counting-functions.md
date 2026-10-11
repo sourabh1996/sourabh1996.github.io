@@ -443,7 +443,7 @@ print((totals > 180).sum(), (totals > 180).mean())   # count and fraction
 values, counts = np.unique(teams, return_counts=True)
 print(values)
 print(counts)
-print(values[counts.argmax()], "batted first most often")
+print("batted first most often:", values[counts == counts.max()])   # a 4-way tie
 ```
 
 Output:
@@ -453,7 +453,7 @@ Output:
 5 0.5
 ['CSK' 'GT' 'KKR' 'MI' 'RCB' 'SRH']
 [2 1 2 2 2 1]
-CSK batted first most often
+batted first most often: ['CSK' 'KKR' 'MI' 'RCB']
 ```
 
 `np.unique` returns the sorted distinct values. Optional extras:

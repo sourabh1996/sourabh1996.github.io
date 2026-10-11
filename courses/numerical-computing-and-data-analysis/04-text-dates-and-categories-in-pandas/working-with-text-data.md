@@ -439,7 +439,7 @@ Output:
 2   0          1        0     1
 ```
 
-Machine learning models need numbers, so this is a common step before training. The Feature Engineering course covers encoding in depth.
+Machine learning models need numbers, so this is a common step before training. [Feature Engineering and EDA](../../feature-engineering-and-eda/course.md) covers encoding in depth.
 
 ### 10. Cleaning column names
 
@@ -574,7 +574,7 @@ Property portals, job boards and log analysers pull structured fields (price, lo
 
 ### Example 3: Preparing text for machine learning
 
-Before building a spam filter or sentiment model, teams lowercase, strip punctuation with `str.replace`, split into words and count them. The NLP course builds on exactly these steps.
+Before building a spam filter or sentiment model, teams lowercase, strip punctuation with `str.replace`, split into words and count them. [NLP for Machine Learning](../../nlp-for-machine-learning/course.md) builds on exactly these steps.
 
 ---
 

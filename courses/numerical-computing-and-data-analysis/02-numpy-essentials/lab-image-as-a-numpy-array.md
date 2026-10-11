@@ -435,7 +435,9 @@ edges = np.hypot(dx, dy)
 print(edges.shape)
 strong = edges > 20
 print("edge pixels:", strong.sum())
-print("rows with most edge pixels:", np.argsort(strong.sum(axis=1))[::-1][:3])
+per_row = strong.sum(axis=1)
+top_rows = np.argsort(-per_row, kind="stable")[:3]      # stable: ties keep row order
+print("rows with most edge pixels:", top_rows, "| counts:", per_row[top_rows])
 ```
 
 Output:
@@ -443,10 +445,10 @@ Output:
 ```
 (95, 127)
 edge pixels: 256
-rows with most edge pixels: [63 32 33]
+rows with most edge pixels: [63 32 33] | counts: [127  11   7]
 ```
 
-Row 63 (the horizon, where sky meets ground) has the most strong edges. Next come rows 32 and 33, the flat top of the sun's circle, where many edge pixels line up in one row. Stars and the rest of the sun's outline add a few edge pixels to many other rows.
+Sorting `-per_row` puts the largest counts first, and `kind="stable"` makes rows with equal counts come out in row order, so the answer is the same on every computer. Row 63 (the horizon, where sky meets ground) has the most strong edges. Next come rows 32 and 33, the flat top of the sun's circle, where many edge pixels line up in one row. Stars and the rest of the sun's outline add a few edge pixels to many other rows.
 
 ---
 

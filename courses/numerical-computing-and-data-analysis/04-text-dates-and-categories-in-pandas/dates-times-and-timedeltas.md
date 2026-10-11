@@ -143,7 +143,7 @@ ValueError: time data "11 Oct 2026" doesn't match format "%Y-%m-%d". You might w
 DatetimeIndex(['2026-10-11', '2026-10-11', '2026-10-12'], dtype='datetime64[us]', freq=None)
 ```
 
-`format="mixed"` parses each value separately (slower, and only use it when you trust the data). For dirty data, **`errors="coerce"`** turns anything unparseable into **`NaT`** ("Not a Time", the datetime version of `NaN`):
+`format="mixed"` parses each value separately (slower, and only use it when you trust the data). Be careful combining it with `dayfirst=True`: the per-value parser then also swaps day and month in ISO dates such as `2026-07-03`, reading it as 7 March. Parse ISO values first with `format="ISO8601"` and `errors="coerce"`, then the rest; the [Lab: Clean and summarise a messy CSV](../05-statistics-and-plots-in-pandas/lab-clean-and-summarise-a-messy-csv.md) walks through it. For dirty data, **`errors="coerce"`** turns anything unparseable into **`NaT`** ("Not a Time", the datetime version of `NaN`):
 
 ```python
 dirty = pd.Series(["2026-10-11", "tomorrow", None, "2026-13-01", "2026-10-12"])

@@ -106,23 +106,9 @@ import matplotlib.pyplot as plt
 
 ---
 
-## How Every Lesson Is Built
+## How the Lessons Work
 
-Every article on this platform follows the same shape, so you always know where to look:
-
-| Section | What it gives you |
-|---|---|
-| **Before you start** | Links to the earlier lessons this one depends on. If a term is unfamiliar, follow the link. |
-| **Introduction** | Why the topic matters, with an everyday example. |
-| **Key Insight** | The one idea to remember if you remember nothing else. |
-| **Core Explanation** | The topic step by step, with diagrams, tables and runnable code. |
-| **Try It Yourself** | Short exercises with answers hidden in a fold. |
-| **Real-World Examples** | Where the idea shows up in real data work. |
-| **Common Misconceptions** | The mistakes almost everyone makes, corrected. |
-| **Interview Relevance** | What interviewers ask about this topic and what a strong answer covers. |
-| **Key Takeaways** | A one-minute summary to review later. |
-
-**Labs** are different. A lab is a guided build: you start with raw data and finish with a result. This course has three labs: editing an image as a NumPy array, exploring a sales dataset, and cleaning a messy CSV. Please don't skip them; they are where the methods turn into skills.
+Every article follows the same shape as the rest of the site (Before you start, Key Insight, Core Explanation, Try It Yourself, Real-World Examples, Common Misconceptions, Interview Relevance, Key Takeaways). This course also has three **labs**: editing an image as a NumPy array, exploring a sales dataset, and cleaning a messy CSV. Please don't skip them; they are where the methods turn into skills.
 
 ### How the code works
 
@@ -152,22 +138,6 @@ If any of those feel shaky, work through [Python Fundamentals](../../python-fund
 3. **Print small things.** Every dataset here is tiny on purpose. When something confuses you, print the intermediate result.
 4. **Do the Try It Yourself exercises.** They are short and they target the exact spots where people go wrong.
 5. **Keep the docs open.** The NumPy and pandas documentation is excellent. When a lesson mentions a function, glance at its page to see the other parameters it accepts.
-
----
-
-## Common Misconceptions
-
-### Misconception 1: "pandas replaces NumPy, so I can skip NumPy"
-
-pandas is built on NumPy-style arrays. Every column of a DataFrame behaves like a one-dimensional array, and ideas such as dtypes, vectorised arithmetic, boolean masks and broadcasting carry straight over. Skipping NumPy makes pandas feel like a pile of unrelated tricks.
-
-### Misconception 2: "Any NumPy or pandas tutorial will do"
-
-Code written for NumPy 1.x or pandas 1.x often fails or silently behaves differently today. `df.append`, `np.float_`, `fillna(method="ffill")` and chained assignments like `df["a"][0] = 5` either raise errors or do nothing in current versions. This course teaches the current behaviour and points out the old patterns.
-
-### Misconception 3: "You need big data to learn data analysis"
-
-The skills are identical for ten rows and ten million rows. Small tables let you check every result by eye, which is how you build trust in your code.
 
 ---
 

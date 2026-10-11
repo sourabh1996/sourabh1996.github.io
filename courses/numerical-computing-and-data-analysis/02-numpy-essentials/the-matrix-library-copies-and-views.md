@@ -233,7 +233,7 @@ Output:
 6.5 45.3
 ```
 
-Each extra hour adds about 6.5 marks. You will build on this in the machine learning courses.
+Each extra hour adds about 6.5 marks. You will build on this in [Machine Learning Fundamentals](../../machine-learning-fundamentals/course.md).
 
 **Eigenvalues and eigenvectors** describe the directions a matrix stretches. For a symmetric matrix (such as a covariance matrix) use `np.linalg.eigh`, which is faster, more stable and returns real numbers in ascending order:
 
@@ -255,7 +255,7 @@ Output:
 True
 ```
 
-This is the heart of **principal component analysis (PCA)**, covered in the Feature Engineering course. `np.linalg.eig` handles general (non-symmetric) matrices, and `np.linalg.svd` computes the singular value decomposition.
+This is the heart of **principal component analysis (PCA)**, covered in [Feature Engineering and EDA](../../feature-engineering-and-eda/course.md). `np.linalg.eig` handles general (non-symmetric) matrices, and `np.linalg.svd` computes the singular value decomposition.
 
 NumPy 2 also added array-API names: `np.matrix_transpose(a)` (or the `a.mT` attribute) transposes only the **last two axes**, which is what you want for a stack of matrices, whereas `.T` reverses all axes:
 
