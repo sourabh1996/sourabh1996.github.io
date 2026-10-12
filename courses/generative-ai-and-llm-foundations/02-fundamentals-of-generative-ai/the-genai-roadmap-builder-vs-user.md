@@ -154,7 +154,7 @@ Whatever layer you pick, five skills transfer:
 1. **A correct mental model of LLMs**: tokens, next-token prediction, training stages, sampling, context. (Module 3.)
 2. **Clear specification**: saying exactly what you want, in what format, with what constraints. (Module 4.)
 3. **Evaluation**: deciding what "good" means and measuring it on real examples, not by eyeballing three outputs.
-4. **Healthy scepticism**: checking facts, numbers and code, and knowing the failure modes. ([Where LLMs Fail](../course.md#m3).)
+4. **Healthy scepticism**: checking facts, numbers and code, and knowing the failure modes. ([Where LLMs Fail](../03-how-llms-work/where-llms-fail.md).)
 5. **Keeping current without chasing hype**: models change every few months; fundamentals don't.
 
 ---
@@ -188,7 +188,7 @@ Output:
 12,000 tokens per chat: break-even at 52,083 chats/month
 ```
 
-Quadrupling the tokens per conversation cuts the break-even volume to a quarter. Token usage per request is often the biggest driver of GenAI cost, which is why [Tokens and Context Windows](../course.md#m3) matters so much for builders.
+Quadrupling the tokens per conversation cuts the break-even volume to a quarter. Token usage per request is often the biggest driver of GenAI cost, which is why [Tokens and Context Windows](../03-how-llms-work/tokens-and-context-windows.md) matters so much for builders.
 
 </details>
 

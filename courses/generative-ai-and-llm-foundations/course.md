@@ -26,11 +26,11 @@ What generative AI is, how LLMs work, and how to use them well: foundation model
 ### 3. How LLMs Work ➕ (5 lessons)
 > **Before you start:** [Sequence Models, Attention and Transformers › Transformers](../sequence-models-attention-and-transformers/course.md#m5)
 
-- What is a Large Language Model? · Article ➕
-- Tokens and Context Windows · Article ➕
-- Temperature and Model Settings · Article ➕
-- Where LLMs Fail · Article ➕
-- Lab: Your first LLM API call · Lab ➕
+- [What is a Large Language Model?](03-how-llms-work/what-is-a-large-language-model.md) · Article ➕ ✍️ *written*
+- [Tokens and Context Windows](03-how-llms-work/tokens-and-context-windows.md) · Article ➕ ✍️ *written*
+- [Temperature and Model Settings](03-how-llms-work/temperature-and-model-settings.md) · Article ➕ ✍️ *written*
+- [Where LLMs Fail](03-how-llms-work/where-llms-fail.md) · Article ➕ ✍️ *written*
+- [Lab: Your first LLM API call](03-how-llms-work/lab-your-first-llm-api-call.md) · Lab ➕ ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Prompting and Structured Output ➕ (4 lessons)

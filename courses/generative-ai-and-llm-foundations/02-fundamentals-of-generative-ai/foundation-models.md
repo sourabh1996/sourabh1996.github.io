@@ -77,7 +77,7 @@ This is called **transfer learning**: knowledge learned on one huge task transfe
 | **Speech models** | Map audio to text and text to audio | Transcription, voice agents, text-to-speech | Speech-recognition and TTS models |
 | **Scientific foundation models** | Learn from protein, molecule, weather or genome data | Drug discovery, forecasting | Research models |
 
-**Embedding models** deserve a special mention because builders use them constantly. They don't generate text; they turn text into a list of numbers so that a computer can measure meaning. You'll see embeddings inside LLMs in [What is a Large Language Model?](../course.md#m3) and use them for search in [Embeddings and Similarity Search](../../vector-databases-for-ai/course.md#m2).
+**Embedding models** deserve a special mention because builders use them constantly. They don't generate text; they turn text into a list of numbers so that a computer can measure meaning. You'll see embeddings inside LLMs in [What is a Large Language Model?](../03-how-llms-work/what-is-a-large-language-model.md) and use them for search in [Embeddings and Similarity Search](../../vector-databases-for-ai/course.md#m2).
 
 ### 4. Scale and scaling laws
 
@@ -128,7 +128,7 @@ flowchart LR
   D --> E["Assistant model<br/>helpful, honest, safer"]
 ```
 
-You'll study each stage, including how reasoning models get their extra training, in [What is a Large Language Model?](../course.md#m3). For now, remember that "foundation model" can mean the base model or the finished assistant, and that most products use the finished assistant.
+You'll study each stage, including how reasoning models get their extra training, in [What is a Large Language Model?](../03-how-llms-work/what-is-a-large-language-model.md). For now, remember that "foundation model" can mean the base model or the finished assistant, and that most products use the finished assistant.
 
 ### 6. Open-weight vs closed models
 
@@ -193,7 +193,7 @@ Because thousands of products sit on a few foundation models, their weaknesses s
 - **Single points of failure**: an outage or a model change at a provider affects all its customers at once, which is why serious products test before switching model versions.
 - **Opaque training data**: it's often unclear exactly what a closed model was trained on, which raises copyright and privacy questions.
 - **Concentration of power**: training frontier models needs resources few organisations have.
-- **Under-served languages**: models trained mostly on English data can be weaker, and more expensive per word, in many Indian languages (you'll see why in [Tokens and Context Windows](../course.md#m3)). Efforts to build India-focused models and datasets aim to close that gap.
+- **Under-served languages**: models trained mostly on English data can be weaker, and more expensive per word, in many Indian languages (you'll see why in [Tokens and Context Windows](../03-how-llms-work/tokens-and-context-windows.md)). Efforts to build India-focused models and datasets aim to close that gap.
 
 ---
 
@@ -278,4 +278,4 @@ Common follow-ups: *"When would you fine-tune instead of using RAG?"* (behaviour
 
 ---
 
-**Up next:** [What is a Large Language Model?](../course.md#m3)
+**Up next:** [What is a Large Language Model?](../03-how-llms-work/what-is-a-large-language-model.md)

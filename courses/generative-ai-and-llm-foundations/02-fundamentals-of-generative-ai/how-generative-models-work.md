@@ -109,7 +109,7 @@ spread too wide  loss = 5.339
 
 The fitted model has the lowest loss. Neural generative models are trained the same way, just with billions of parameters instead of two, and with an optimisation method (**gradient descent**) that nudges every parameter a tiny step in the direction that lowers the loss, over and over, across the whole dataset.
 
-For an LLM, the loss is exactly this idea applied to text: **how surprised was the model by the actual next token?** If the text says "ek cutting chai" and the model gave "chai" a high probability after "ek cutting", the loss is low. You'll see this in detail in [What is a Large Language Model?](../course.md#m3).
+For an LLM, the loss is exactly this idea applied to text: **how surprised was the model by the actual next token?** If the text says "ek cutting chai" and the model gave "chai" a high probability after "ek cutting", the loss is low. You'll see this in detail in [What is a Large Language Model?](../03-how-llms-work/what-is-a-large-language-model.md).
 
 ### 3. Four families of generative models
 
@@ -322,7 +322,7 @@ A generative model stores **parameters** that describe patterns. Large models ca
 
 ### "Randomness means the output is careless"
 
-Randomness is what makes each output new. The model controls *how much* randomness and *where*: a well-trained model puts its probability on plausible choices, so random picks are still sensible. You'll control this yourself with temperature in [Temperature and Model Settings](../course.md#m3).
+Randomness is what makes each output new. The model controls *how much* randomness and *where*: a well-trained model puts its probability on plausible choices, so random picks are still sensible. You'll control this yourself with temperature in [Temperature and Model Settings](../03-how-llms-work/temperature-and-model-settings.md).
 
 ### "GANs are what make deepfakes, so all image AI is GANs"
 

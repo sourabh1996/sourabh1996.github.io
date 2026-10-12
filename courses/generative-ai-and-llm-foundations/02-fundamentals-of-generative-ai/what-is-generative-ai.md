@@ -150,7 +150,7 @@ You should also spot the weaknesses, because every one of them has a big brother
 
 - **It only looks one word back.** After "chai" it can't remember that it has already ordered three things, so it rambles ("one cutting chai and one samosa and two vada pav and one samosa please") or repeats itself ("two cutting chai and one cutting chai"). Real LLMs look back over thousands or millions of words using a mechanism called **attention** (Module 3).
 - **It can only use words it has seen.** It will never say "filter coffee". Real LLMs train on trillions of words, so their vocabulary of patterns is vast, but they still know nothing past their training data unless you give it to them.
-- **It is fluent, not truthful.** It happily produces orders no one placed. A real LLM, likewise, produces **plausible** text; whether that text is **true** is a separate question. This is the root of **hallucination**, covered in [Where LLMs Fail](../course.md#m3).
+- **It is fluent, not truthful.** It happily produces orders no one placed. A real LLM, likewise, produces **plausible** text; whether that text is **true** is a separate question. This is the root of **hallucination**, covered in [Where LLMs Fail](../03-how-llms-work/where-llms-fail.md).
 
 ### 5. How we got here: a short history
 
@@ -296,7 +296,7 @@ Bigger models are usually more capable, but they cost more and respond more slow
 
 *"What is generative AI, and how is it different from traditional ML?"* A strong answer: generative AI models learn the distribution of their training data well enough to **sample new data** from it (text, images, audio, code), while traditional discriminative models learn to **map inputs to labels or numbers**. Mention that modern generative AI is mostly deep learning, that LLMs are the text branch and work by next-token prediction, and that scale (data, parameters, compute) unlocked general abilities. Strong candidates also name the limits (hallucination, knowledge cutoff, bias, cost) and how teams mitigate them (grounding with retrieval, human review, evaluation).
 
-Follow-ups you might get: *"Give an example of a generative model that isn't a neural network"* (an n-gram text model like the bigram one above, or a Gaussian mixture model). *"Why did generative AI take off around 2022?"* (transformers, scale, instruction tuning and RLHF made models useful and safe enough for the public; see [Foundation Models](foundation-models.md) and [What is a Large Language Model?](../course.md#m3)).
+Follow-ups you might get: *"Give an example of a generative model that isn't a neural network"* (an n-gram text model like the bigram one above, or a Gaussian mixture model). *"Why did generative AI take off around 2022?"* (transformers, scale, instruction tuning and RLHF made models useful and safe enough for the public; see [Foundation Models](foundation-models.md) and [What is a Large Language Model?](../03-how-llms-work/what-is-a-large-language-model.md)).
 
 ---
 
