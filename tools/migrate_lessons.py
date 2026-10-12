@@ -16,6 +16,10 @@ import json, os, re, subprocess, sys, tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 START = "How This Course Works"
+# Old modules whose lessons were all dropped as duplicates: (old course slug, old module number) -> new home.
+DROPPED_MODULES = {
+    ("enterprise-llm-systems", 6): ("agent-security-and-safety", 2),  # Guardrails and Security
+}
 
 
 def slug(s):
@@ -56,6 +60,7 @@ def main(old_path):
                         course_home[c["slug"]] = ns
                         first_pos[c["slug"]] = int(nd[:2])
                     break
+    anchor.update({k: v for k, v in DROPPED_MODULES.items() if k not in anchor})
     for c in old:  # a course whose lessons were all dropped falls back to itself
         course_home.setdefault(c["slug"], c["slug"])
     # The old course that contributes the earliest module keeps its "How This Course Works".

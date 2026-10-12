@@ -1,7 +1,7 @@
 # How lessons are written
 
 This is the house style for every lesson on the site. The reference lessons are
-`courses/agentic-ai-fundamentals/` and `courses/langgraph-fundamentals/` (modules 1 to 3). Read two of them
+`courses/agentic-ai-fundamentals/` and `courses/langgraph-complete-guide/` (modules 1 to 3). Read two of them
 before writing.
 
 ## Where a lesson lives
@@ -42,7 +42,7 @@ reading_time: <minutes> min
 1. `# <Title>: The Complete Guide` (labs: `# Lab: ...`)
 2. `> 📚 **Before you start**` with links to the exact earlier lessons this one depends on. Link written lessons by
    relative path (`../02-getting-started/what-is-langgraph.md`). Link lessons that aren't written yet through their
-   module anchor on the generated course page (`../../python-fundamentals/course.md#m6`). For the very first lesson
+   module anchor on the generated course page (`../../python-programming/course.md#m6`). For the very first lesson
    of a beginner course, say no prior knowledge is needed.
 3. `## Introduction`: a relatable real-world hook, then what the reader will be able to do by the end.
 4. `> 💡 **Key Insight**`: the one idea to remember.
