@@ -12,13 +12,13 @@ reading_time: 30 min
 > 📚 **Before you start**
 >
 > This lesson assumes you can write functions and work with dictionaries and lists:
-> - [Functions and Parameter Passing](../course.md#m6) (Python Fundamentals › Functions and Iterators)
-> - [Containers and Mutability](../course.md#m3) (Python Fundamentals › Core Language Concepts)
-> - [Dictionaries and Dictionary Views](../course.md#m5) (Python Fundamentals › Strings and Data Structures)
+> - [Functions and Parameter Passing](../06-functions-and-iterators/functions-and-parameter-passing.md) (module 6, Functions and Iterators)
+> - [Containers and Mutability](../03-core-language-concepts/containers-and-mutability.md) (module 3, Core Language Concepts)
+> - [Dictionaries and Dictionary Views](../05-strings-and-data-structures/dictionaries-and-dictionary-views.md) (module 5, Strings and Data Structures)
 
 ## Introduction
 
-Imagine you are writing the software for a small UPI wallet app. Each user has a name, a phone number and a balance. Users can add money, pay someone, and see their history. With what you know from Python Fundamentals, you would probably store each wallet as a dictionary and write functions like `pay(wallet, amount)`.
+Imagine you are writing the software for a small UPI wallet app. Each user has a name, a phone number and a balance. Users can add money, pay someone, and see their history. With what you know from the first six modules of this course, you would probably store each wallet as a dictionary and write functions like `pay(wallet, amount)`.
 
 That works for a week. Then someone writes `wallet["balence"] = 500` (a typo that silently creates a new key), someone else passes a phone number where a wallet was expected, and a third person sets the balance to a negative number directly. Nothing in the code says "a wallet is *this* shape and can only be changed in *these* ways."
 

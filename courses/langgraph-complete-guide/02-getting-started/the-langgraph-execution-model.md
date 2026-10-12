@@ -12,7 +12,7 @@ reading_time: 26 min
 > 📚 **Before you start**
 >
 > - [Graphs, Nodes, Edges and State](graphs-nodes-edges-and-state.md), for the building blocks.
-> - [Concurrency for AI Apps](../../python-programming/course.md#m10) in Advanced Python, helpful but optional, for the idea of things running "at the same time".
+> - [Concurrency for AI Apps](../../python-programming/course.md#m10) in Python Programming, helpful but optional, for the idea of things running "at the same time".
 
 ## Introduction
 
@@ -122,7 +122,7 @@ Now each node's `["name"]` is **added** to the list. The default (no reducer) is
 | `count: int` | Replace (only one writer per super-step allowed) | Most fields |
 | `log: Annotated[list, operator.add]` | Append lists | Logs, collected results from parallel branches |
 | `total: Annotated[int, operator.add]` | Add numbers | Running totals, counters |
-| `messages: Annotated[list, add_messages]` | Append messages, update by id | Chat history (module 5) |
+| `messages: Annotated[list, add_messages]` | Append messages, update by id | Chat history (module 6) |
 | `Annotated[dict, my_merge]` | Your own function | Custom merges |
 
 A custom reducer is just a function. Here's one that keeps the highest score seen:
@@ -158,7 +158,7 @@ Reducers are covered in depth in [State Reducers](../course.md#m4).
 
 - **`"updates"`** (default): each node's returned update, as `{node_name: update}`.
 - **`"values"`**: the **full state** after each super-step.
-- Others include `"messages"` (LLM tokens, used for chat UIs in module 5) and `"debug"` (everything).
+- Others include `"messages"` (LLM tokens, used for chat UIs in module 6) and `"debug"` (everything).
 
 ```python
 print("updates:")
@@ -238,7 +238,7 @@ GraphRecursionError: Recursion limit of 5 reached without hitting a stop conditi
 The second argument to `invoke` and `stream` is the **config**, a dictionary of run settings that aren't part of the state:
 
 - `recursion_limit`: maximum super-steps.
-- `configurable`: custom values, most importantly `thread_id` for persistence (module 5).
+- `configurable`: custom values, most importantly `thread_id` for persistence (module 6).
 - `tags` and `metadata`: labels for tracing in LangSmith.
 
 ```python

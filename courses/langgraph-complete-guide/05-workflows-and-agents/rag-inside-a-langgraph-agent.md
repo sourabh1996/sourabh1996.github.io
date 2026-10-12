@@ -387,7 +387,7 @@ This shape is the starting point for the advanced patterns (corrective RAG, self
 - Start with the **workflow** (A) if nearly every request needs the knowledge base. It's predictable, cheap and easy to evaluate.
 - Move to **agentic** (B) when the assistant also chats, uses other tools, or has several knowledge sources to choose from.
 - Add **grading and rewriting** (C) when you see retrieval failures in your logs, especially with vague or colloquial questions.
-- You can combine them: an agent whose `search_policies` tool is itself a small corrective subgraph. Module 6 shows how to nest graphs like that.
+- You can combine them: an agent whose `search_policies` tool is itself a small corrective subgraph. Module 9 shows how to nest graphs like that.
 
 ---
 

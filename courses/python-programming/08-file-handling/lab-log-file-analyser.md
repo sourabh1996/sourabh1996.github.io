@@ -13,7 +13,7 @@ reading_time: 45 min
 >
 > - [Reading and Writing Files](reading-and-writing-files.md)
 > - [Buffered I/O and Other File Methods](buffered-i-o-and-other-file-methods.md)
-> - [Iterators and Generators](../course.md#m6) (Python Fundamentals)
+> - [Iterators and Generators](../06-functions-and-iterators/iterators-and-generators.md)
 > - [Classes and Objects](../07-object-oriented-programming/classes-and-objects.md), for dataclasses
 
 ## What You'll Build
@@ -320,7 +320,7 @@ GET /health             48     2    4.2       2       4
 overall server error rate: 8.2%  (429 rate limits: 9)
 ```
 
-Chat calls dominate latency (they wrap an LLM call), and the rate-limit count is a hint that the service should add request queuing or backoff, a topic you'll handle yourself in Module 5.
+Chat calls dominate latency (they wrap an LLM call), and the rate-limit count is a hint that the service should add request queuing or backoff, a topic you'll handle yourself in Module 10.
 
 ---
 

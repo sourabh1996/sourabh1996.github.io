@@ -384,7 +384,7 @@ next: ('approve_amount',)
 ['approval: yes']
 ```
 
-It uses the same machinery as fault tolerance: the thread is saved, `next` shows where it stopped, and a later call continues it. The full story, with approvals, edits and breakpoints, is in [Human-in-the-Loop with LangGraph](../course.md).
+It uses the same machinery as fault tolerance: the thread is saved, `next` shows where it stopped, and a later call continues it. The full story, with approvals, edits and breakpoints, is in [Human-in-the-Loop and Debugging](../course.md#m8), later in this course.
 
 ---
 

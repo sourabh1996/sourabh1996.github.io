@@ -11,7 +11,7 @@ reading_time: 40 min
 
 > 📚 **Before you start**
 >
-> - [Functions and Parameter Passing](../course.md#m6) (Python Fundamentals)
+> - [Functions and Parameter Passing](../06-functions-and-iterators/functions-and-parameter-passing.md)
 > - [Reading and Writing Files](../08-file-handling/reading-and-writing-files.md), for `pathlib`, `tempfile` and TOML
 > - [Lab: Log file analyser](../08-file-handling/lab-log-file-analyser.md), which ended with `if __name__ == "__main__":`
 

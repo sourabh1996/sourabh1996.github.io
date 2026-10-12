@@ -24,7 +24,7 @@ A **support ticket triage** graph for an online shop. Given a customer message, 
 3. **Check** the reply against simple rules, and **rewrite** it if it fails (up to two times).
 4. Return a clean result with just the fields the caller needs.
 
-It uses every idea from this module: state with reducers, fan-out and fan-in, conditional edges, a loop with a stopping rule, input and output schemas, and streaming. The "intelligence" inside nodes is simple keyword rules so the lab runs offline; in module 4 you'll swap them for model calls without changing the graph.
+It uses every idea from this module: state with reducers, fan-out and fan-in, conditional edges, a loop with a stopping rule, input and output schemas, and streaming. The "intelligence" inside nodes is simple keyword rules so the lab runs offline; in module 5 you'll swap them for model calls without changing the graph.
 
 ```mermaid
 flowchart LR

@@ -12,7 +12,7 @@ reading_time: 30 min
 > 📚 **Before you start**
 >
 > - [Classes and Objects](classes-and-objects.md): classes, `self`, `__init__`, attribute lookup and dataclasses
-> - [Functions and Parameter Passing](../course.md#m6) (Python Fundamentals), for `*args` and `**kwargs`
+> - [Functions and Parameter Passing](../06-functions-and-iterators/functions-and-parameter-passing.md), for `*args` and `**kwargs`
 
 ## Introduction
 

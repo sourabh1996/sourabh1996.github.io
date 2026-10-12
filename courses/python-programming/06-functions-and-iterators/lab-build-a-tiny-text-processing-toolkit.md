@@ -348,7 +348,7 @@ Output:
 best vada pav in mumbai
 ```
 
-`raise ValueError(...)` stops the program with an error message of your choosing. You'll learn to raise and catch errors properly in [Advanced Python Programming](../course.md#m9); for now, it's the right way to refuse bad input loudly instead of silently ignoring it:
+`raise ValueError(...)` stops the program with an error message of your choosing. You'll learn to raise and catch errors properly later in this course, in [try/except and Custom Exceptions](../09-modules-and-exceptions/try-except-and-custom-exceptions.md); for now, it's the right way to refuse bad input loudly instead of silently ignoring it:
 
 ```python
 # not-run: shows an error on purpose (paste after the toolkit code)
@@ -493,7 +493,7 @@ Example output:
 ₹15,00,000.00
 ```
 
-Modules and imports are covered fully in [Advanced Python Programming](../course.md#m9).
+Modules and imports are covered fully later in this course, in [Importing and Managing Modules](../09-modules-and-exceptions/importing-and-managing-modules.md).
 
 ---
 
@@ -579,8 +579,8 @@ For exercise 1, `mask_phone_v2` reuses `mask_phone` rather than copying its logi
 - **Dispatch tables** to build pipelines from names, and `raise ValueError` to reject bad input.
 - **Testing** with `assert`, including keeping a failing test for a known bug, and the **`if __name__ == "__main__":`** guard that turns a script into an importable module.
 
-You've now covered the whole of Python Fundamentals. Next, [Advanced Python Programming](../course.md) builds on everything here with classes, files, modules and proper error handling.
+You've now covered the fundamentals: values, control flow, data structures and functions. The rest of this course builds on everything here with classes, files, modules and proper error handling, starting with [Object-Oriented Programming](../course.md#m7).
 
 ---
 
-**Up next:** [Advanced Python Programming](../course.md)
+**Up next:** [Classes and Objects](../07-object-oriented-programming/classes-and-objects.md)

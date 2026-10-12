@@ -397,7 +397,7 @@ step  9  next=('assistant',)  last=tool: travel in 2026-10: ₹1,200 across 1 ex
 step 10  next=()  last=ai: And on travel you've spent ₹1,200 this m
 ```
 
-Steps 0 to 5 are the first turn and 7 to 10 the follow-up. Step 6, with `next=('__start__',)`, is the checkpoint saved the moment the second user message arrived, before any node ran. This history is what LangGraph Studio draws, what lets a crashed run resume, and what human-in-the-loop features rewind. You'll use it heavily in module 5.
+Steps 0 to 5 are the first turn and 7 to 10 the follow-up. Step 6, with `next=('__start__',)`, is the checkpoint saved the moment the second user message arrived, before any node ran. This history is what LangGraph Studio draws, what lets a crashed run resume, and what human-in-the-loop features rewind. You'll use it heavily in module 6.
 
 ---
 

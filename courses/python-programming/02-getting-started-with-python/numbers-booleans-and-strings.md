@@ -917,4 +917,4 @@ Basic types come up in screening rounds and online assessments, usually as "what
 
 ---
 
-**Up next:** [Lab: Set up Python and run your first script](lab-set-up-python-and-run-your-first-script.md)
+**Up next:** [Setting Up Your ML Environment: Anaconda, Jupyter and Colab](../course.md#m2)

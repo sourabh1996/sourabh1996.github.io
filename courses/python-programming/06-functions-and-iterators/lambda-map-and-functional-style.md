@@ -410,7 +410,7 @@ A-001 A-002 B-001 A-003
 
 Each counter has its own private `count` that nothing else can touch. Without `nonlocal`, `count += 1` would raise `UnboundLocalError`, just like the global case.
 
-Closures are the basis of **decorators**, a powerful Python feature that wraps functions with extra behaviour, covered in [Advanced Python Programming](../course.md#m7).
+Closures are the basis of **decorators**, a powerful Python feature that wraps functions with extra behaviour, covered later in this course, in [Decorators, classmethod and staticmethod](../07-object-oriented-programming/decorators-classmethod-and-staticmethod.md).
 
 ### 9. The late-binding trap
 
@@ -616,7 +616,7 @@ Every "sort by price", "sort by rating", "newest first" button in a shopping or 
 
 ### Example 2: Data transformations in pandas
 
-In [Numerical Computing and Data Analysis](../../data-analysis-and-visualisation-with-python/course.md) you'll write `df["name"].map(str.title)` and `df["price"].apply(lambda p: p * 1.18)`. Same idea as `map`: a function applied to every value of a column.
+In [Data Analysis and Visualisation with Python](../../data-analysis-and-visualisation-with-python/course.md) you'll write `df["name"].map(str.title)` and `df["price"].apply(lambda p: p * 1.18)`. Same idea as `map`: a function applied to every value of a column.
 
 ### Example 3: Configurable behaviour with closures
 

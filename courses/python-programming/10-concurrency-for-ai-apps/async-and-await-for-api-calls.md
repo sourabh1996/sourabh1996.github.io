@@ -12,7 +12,7 @@ reading_time: 45 min
 > 📚 **Before you start**
 >
 > - [Threads, Processes and Async](threads-processes-and-async.md): I/O-bound work, the event loop idea, and why async suits API calls
-> - [Iterators and Generators](../course.md#m6) (Python Fundamentals): coroutines grew out of generators
+> - [Iterators and Generators](../06-functions-and-iterators/iterators-and-generators.md): coroutines grew out of generators
 > - [try/except and Custom Exceptions](../09-modules-and-exceptions/try-except-and-custom-exceptions.md) and [Error Handling Best Practices](../09-modules-and-exceptions/error-handling-best-practices.md): exception groups, context managers and retries
 
 ## Introduction

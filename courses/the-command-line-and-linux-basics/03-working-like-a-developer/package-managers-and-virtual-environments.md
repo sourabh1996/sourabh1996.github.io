@@ -550,7 +550,7 @@ A new data engineer joins a team whose repository uses uv. Their setup instructi
 
 ### Example 2: Docker Images
 
-A Dockerfile for a FastAPI service typically starts from a slim Linux image, runs `apt-get install -y` for a few system libraries, then installs Python dependencies from a lock file. Every command is the same as on your laptop; the container just runs them automatically. You'll write these in [Production APIs with FastAPI](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m9).
+A Dockerfile for a FastAPI service typically starts from a slim Linux image, runs `apt-get install -y` for a few system libraries, then installs Python dependencies from a lock file. Every command is the same as on your laptop; the container just runs them automatically. You'll write these in [APIs and Apps: FastAPI, Streamlit and Docker](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m9).
 
 ### Example 3: The Broken System Python
 

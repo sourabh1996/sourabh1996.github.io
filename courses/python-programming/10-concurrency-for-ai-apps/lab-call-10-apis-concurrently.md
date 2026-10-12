@@ -583,4 +583,4 @@ After two consecutive failures the breaker "opens" and the broken service is ski
 
 ---
 
-**Up next:** You've finished Advanced Python Programming. Continue with [Production APIs with FastAPI](../../apis-and-apps-fastapi-streamlit-and-docker/course.md), where these async patterns power real web services, or [Generative AI and LLM Foundations](../../generative-ai-and-llm-foundations/course.md).
+**Up next:** You've finished Python Programming. Continue with [Git and GitHub: Zero to Pro](../../git-and-github-zero-to-pro/course.md) to keep your code safe and share it, then [Data Analysis and Visualisation with Python](../../data-analysis-and-visualisation-with-python/course.md). The async patterns from this module come back in [APIs and Apps: FastAPI, Streamlit and Docker](../../apis-and-apps-fastapi-streamlit-and-docker/course.md), where they power real web services.

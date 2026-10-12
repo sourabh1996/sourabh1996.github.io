@@ -328,7 +328,7 @@ Output:
 needs human review: ['Bengali']
 ```
 
-The Bengali copy tried twice, ran out of attempts, and returned a record marked for review, while Hindi completed normally. One language failing didn't block the others. In a real system you'd pause here for a human editor using an interrupt (see [Human-in-the-Loop with LangGraph](../course.md)).
+The Bengali copy tried twice, ran out of attempts, and returned a record marked for review, while Hindi completed normally. One language failing didn't block the others. In a real system you'd pause here for a human editor using an interrupt (see [Human-in-the-Loop and Debugging](../course.md#m8), earlier in this course).
 
 Restore the good Bengali translation for the exercises:
 

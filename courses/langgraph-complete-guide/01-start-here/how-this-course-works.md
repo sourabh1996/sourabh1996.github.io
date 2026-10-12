@@ -30,8 +30,11 @@ By the end of this course you will be able to:
 - **Explain why LangGraph exists** and when to use it instead of a simple LangChain chain.
 - **Build graphs** from nodes, edges and state, and understand exactly how LangGraph executes them step by step.
 - **Implement the core workflow patterns**: sequential, parallel, conditional (routing) and iterative (looping).
+- **Design state properly**: typed schemas, reducers that merge updates from parallel nodes, and separate input, output and private schemas.
 - **Build agents** with tools using `ToolNode` and `tools_condition`, plug in MCP tools, and add retrieval (RAG).
 - **Build a chatbot with memory** that saves conversations, resumes after crashes, and stores data in SQLite, with a Streamlit UI.
+- **Keep long conversations within budget** by trimming, filtering and summarising messages, and remember users across sessions with long-term stores.
+- **Put a human in the loop**: stream progress, pause with breakpoints and `interrupt`, let a person edit the state, and rewind a run with time travel.
 - **Compose graphs from subgraphs**, deploy them, and trace them with LangSmith.
 
 ### The course at a glance
@@ -40,21 +43,43 @@ By the end of this course you will be able to:
 flowchart LR
   A["Module 1: Start Here"] --> B["Module 2: Getting Started<br/>nodes, edges, state"]
   B --> C["Module 3: Workflow Patterns<br/>sequential, parallel,<br/>conditional, loops"]
-  C --> D["Module 4: Workflows and Agents<br/>tools, MCP, RAG"]
-  D --> E["Module 5: Chatbots and Persistence<br/>memory, threads, SQLite"]
-  E --> F["Module 6: Subgraphs"]
-  F --> G["Module 7: Deployment and<br/>Observability"]
+  C --> D["Module 4: State in Depth<br/>schemas, reducers"]
+  D --> E["Module 5: Workflows and Agents<br/>tools, MCP, RAG"]
+  E --> F["Module 6: Chatbots and Persistence<br/>checkpoints, threads, SQLite"]
+  F --> G["Module 7: Memory<br/>trim, summarise, stores"]
+  G --> H["Module 8: Human-in-the-Loop<br/>and Debugging"]
+  H --> I["Module 9: Subgraphs"]
+  I --> J["Module 10: Deployment and<br/>Observability"]
 ```
 
-After this course, [LangGraph State and Memory](../course.md) goes deeper into state reducers and memory, and [Human-in-the-Loop with LangGraph](../course.md) covers interrupts, breakpoints and time travel.
+Each module builds on the one before it:
+
+| Module | You learn | You build |
+|---|---|---|
+| **2. Getting Started** | Why LangGraph exists, graphs, nodes, edges and state, how a graph runs step by step, LangGraph Studio | Your first graph |
+| **3. Workflow Patterns** | Sequential, parallel, conditional and looping workflows | An essay evaluator with parallel graders, and a post generator with an evaluator loop |
+| **4. State in Depth** | The state system, schemas and data flow, reducers, multiple schemas | A multi-schema agent |
+| **5. Workflows and Agents** | Chains and routers in LangGraph, LangChain agents, building agents with tools, MCP tools and RAG | Your scratch agent from Agentic AI Fundamentals, rebuilt in LangGraph |
+| **6. Chatbots and Persistence** | Chatbots, checkpointers, threads, fault tolerance and resuming, SQLite storage | A Streamlit chatbot with streaming and saved chats |
+| **7. Memory** | Trimming and filtering messages, summarising long conversations, long-term memory with stores | A long chat kept under a token budget |
+| **8. Human-in-the-Loop and Debugging** | Streaming, breakpoints, `interrupt` and `Command`, editing state, dynamic breakpoints, time travel | An approval step before a risky tool, and a time-travel debugging session |
+| **9. Subgraphs** | Graphs inside graphs, shared and separate state | A translation workflow with a subgraph |
+| **10. Deployment and Observability** | Running LangGraph apps as services, tracing with LangSmith | (applies everything to the apps you've built) |
+
+Why this order? Modules 2 and 3 teach the shape of a graph with plain Python functions, so nothing distracts from the wiring. Module 4 then looks closely at the one thing every node touches, the state, before module 5 puts a real model and tools inside the nodes. Module 6 makes those agents durable with checkpoints, and modules 7 and 8 build directly on checkpoints: memory decides what the saved conversation keeps, and human-in-the-loop pauses, edits and rewinds it. Modules 9 and 10 are about scaling up: composing big graphs from small ones, then running and watching them in production.
+
+### Who this course is for
+
+This course is for developers who have built an agent by hand and now want to build one that survives real use. You don't need any earlier LangGraph experience. If you have used LangGraph before, skim modules 2 and 3, and spend your time on state, memory and human-in-the-loop (modules 4, 7 and 8), which are where most production bugs live.
 
 ---
 
 ## What You Need Before Starting
 
-- **Python** comfortable enough to read classes, type hints and dictionaries. [Advanced Python Programming](../../python-programming/course.md) covers type hints and classes.
+- **Python** comfortable enough to read classes, type hints and dictionaries. [Python Programming](../../python-programming/course.md#m7) covers type hints and classes.
 - **The agent loop and tool calling**, from [Agentic AI Fundamentals](../../agentic-ai-fundamentals/course.md). This course assumes you know what a tool call and a tool result are.
 - **LangChain basics**: chat models, messages and prompt templates, from the [LangChain Complete Guide](../../langchain-complete-guide/course.md). You need these from module 4 onward; modules 2 and 3 use plain Python.
+- **Streamlit basics**, from [APIs and Apps: FastAPI, Streamlit and Docker](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m6), for the chatbot lab in module 6.
 
 ### Installing LangGraph
 
@@ -106,6 +131,7 @@ For a three-line script, yes. For anything that needs pausing, resuming, streami
 
 - LangGraph models apps as **graphs**: **nodes** do work, **edges** decide what's next, **state** carries data.
 - It adds **persistence, streaming, human-in-the-loop and debugging** to the loops you wrote by hand.
+- The course runs from your first graph through **state, agents, persistence, memory and human-in-the-loop** to subgraphs and deployment, and each module relies on the ones before it.
 - Modules 2 and 3 need **no API key**; nodes are plain Python functions.
 - Install with `pip install langgraph`; examples use LangGraph 1.2.
 

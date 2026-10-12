@@ -13,7 +13,7 @@ reading_time: 32 min
 >
 > - [LangGraph Studio](../02-getting-started/langgraph-studio.md), where you met `langgraph.json` and `langgraph dev`.
 > - [Persistence and Checkpointers](../06-chatbots-and-persistence/persistence-and-checkpointers.md) and [Threads, Fault Tolerance and Resuming](../06-chatbots-and-persistence/threads-fault-tolerance-and-resuming.md), because a deployed agent is mostly about threads and durable state.
-> - [APIs and FastAPI Fundamentals](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m2) in Production APIs with FastAPI, for section 2.
+> - [APIs and FastAPI Fundamentals](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m2) in APIs and Apps: FastAPI, Streamlit and Docker, for section 2.
 
 ## Introduction
 

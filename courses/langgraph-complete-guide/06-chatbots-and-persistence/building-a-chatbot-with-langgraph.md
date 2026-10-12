@@ -19,7 +19,7 @@ reading_time: 26 min
 
 Think about the apps you chat with every day: a bank's WhatsApp assistant, Swiggy's help chat, a college admissions bot. Under the hood they need the same four things: a **model** that replies, **memory** of the conversation, **separate threads** for every user, and **replies that appear word by word** instead of after a long pause.
 
-You already have the first three pieces from module 4. This module turns them into a proper chatbot and then makes it durable: saved to disk, able to survive crashes, and wired to a web UI. This first lesson builds the chatbot itself. By the end you'll be able to write a chatbot graph with a system prompt and per-user settings, run a multi-turn conversation, stream tokens as they're generated, and edit or delete messages in a saved conversation.
+You already have the first three pieces from module 5. This module turns them into a proper chatbot and then makes it durable: saved to disk, able to survive crashes, and wired to a web UI. This first lesson builds the chatbot itself. By the end you'll be able to write a chatbot graph with a system prompt and per-user settings, run a multi-turn conversation, stream tokens as they're generated, and edit or delete messages in a saved conversation.
 
 > 💡 **Key Insight**
 >
@@ -283,7 +283,7 @@ Output:
 ['Reply 2', 'three', 'Reply 3']
 ```
 
-Unlike trimming inside the node (module 4), `RemoveMessage` **really deletes** messages from the saved thread. Use trimming when you want to keep the full record; use removal when you don't want old messages stored at all.
+Unlike trimming inside the node (module 5), `RemoveMessage` **really deletes** messages from the saved thread. Use trimming when you want to keep the full record; use removal when you don't want old messages stored at all.
 
 **Edit** a message by sending a new one with the **same id**. For example, a moderation step that redacts a phone number the user typed:
 
@@ -316,7 +316,7 @@ Hi! (phone number removed) | same id: True | total: 6
 | Recover from errors | Resume from the last checkpoint | [Threads, Fault Tolerance and Resuming](threads-fault-tolerance-and-resuming.md) |
 | Typing effect | `stream_mode="messages"` | This lesson |
 | A UI with a chat list | Streamlit + saved threads | [Lab: Chatbot UI with Streamlit](lab-chatbot-ui-with-streamlit-streaming-and-saved-chats.md) |
-| Keep costs down | Trim, remove or summarise messages | [LangGraph State and Memory](../course.md#m7) |
+| Keep costs down | Trim, remove or summarise messages | [Memory](../course.md#m7), later in this course |
 | See what happened | LangSmith tracing | [LangSmith Observability](../10-deployment-and-observability/langsmith-observability-for-langgraph.md) |
 
 ---

@@ -297,7 +297,7 @@ A node may return `{}` when it has nothing to change.
 
 - **Approval workflows** (expenses, refunds, loans) are naturally graphs: compute, check rules, route to automatic approval or human review.
 - **Document processing** graphs keep fields like `raw_text`, `chunks`, `summary` and `errors` in the state, with one node per transformation.
-- **Agents** keep `messages` in the state, with a model node and a tools node connected by a conditional edge (module 4).
+- **Agents** keep `messages` in the state, with a model node and a tools node connected by a conditional edge (module 5).
 
 ---
 

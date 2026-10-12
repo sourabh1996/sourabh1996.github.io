@@ -356,7 +356,7 @@ The two passages share "trains", but if one had said "train" and the other "trai
 
 ## Step 10: Reading a Real File
 
-To analyse a real document, read its text from a file instead of a string. The rest of the pipeline is unchanged. File handling is covered fully in [Advanced Python Programming](../course.md#m8); for now, this is all you need:
+To analyse a real document, read its text from a file instead of a string. The rest of the pipeline is unchanged. File handling is covered fully later in this course, in [Reading and Writing Files](../08-file-handling/reading-and-writing-files.md); for now, this is all you need:
 
 ```python
 # not-run: needs a file called speech.txt next to the script

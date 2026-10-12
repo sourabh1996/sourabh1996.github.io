@@ -102,7 +102,7 @@ sequenceDiagram
   Note over F: loop ends
 ```
 
-Here's the same thing written by hand. It uses `try`/`except`, which catches an error instead of letting it stop the program; you'll learn it properly in [Advanced Python Programming](../course.md#m9), but the idea is readable:
+Here's the same thing written by hand. It uses `try`/`except`, which catches an error instead of letting it stop the program; you'll learn it properly later in this course, in [try/except and Custom Exceptions](../09-modules-and-exceptions/try-except-and-custom-exceptions.md), but the idea is readable:
 
 ```python
 tokens = ["A101", "A102", "A103"]
@@ -171,7 +171,7 @@ Output:
 
 ### 4. Generator functions and yield
 
-Writing an iterator by hand is possible (with a class, which you'll learn in [Advanced Python Programming](../course.md#m7)), but there's a much easier way. Any function that contains the keyword **`yield`** is a **generator function**. Calling it doesn't run the body; it returns a **generator object**, which is an iterator.
+Writing an iterator by hand is possible (with a class, which you'll learn later in this course, in [Dunder Methods](../07-object-oriented-programming/dunder-methods.md)), but there's a much easier way. Any function that contains the keyword **`yield`** is a **generator function**. Calling it doesn't run the body; it returns a **generator object**, which is an iterator.
 
 ```python
 def token_machine(prefix, start, count):

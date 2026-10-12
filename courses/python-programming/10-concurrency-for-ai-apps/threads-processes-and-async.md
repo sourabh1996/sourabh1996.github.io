@@ -11,7 +11,7 @@ reading_time: 40 min
 
 > 📚 **Before you start**
 >
-> - [Functions and Iterators](../course.md#m6) (Python Fundamentals): functions as values, iterators and generators
+> - [Functions and Iterators](../course.md#m6) (module 6): functions as values, iterators and generators
 > - [Importing and Managing Modules](../09-modules-and-exceptions/importing-and-managing-modules.md), for `if __name__ == "__main__":`
 > - [Error Handling Best Practices](../09-modules-and-exceptions/error-handling-best-practices.md), for context managers
 

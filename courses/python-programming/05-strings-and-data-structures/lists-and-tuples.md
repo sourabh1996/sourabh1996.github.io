@@ -565,7 +565,7 @@ Station(code='NDLS', name='New Delhi', zone='NR')
 CSMT
 ```
 
-Named tuples are immutable like regular tuples. For richer records with methods, you'll use classes and dataclasses in [Advanced Python Programming](../course.md#m7).
+Named tuples are immutable like regular tuples. For richer records with methods, you'll use classes and dataclasses later in this course, in [Classes and Objects](../07-object-oriented-programming/classes-and-objects.md).
 
 ### 12. List or tuple?
 

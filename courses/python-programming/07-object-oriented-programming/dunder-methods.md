@@ -13,7 +13,7 @@ reading_time: 35 min
 >
 > - [Classes and Objects](classes-and-objects.md) and [Inheritance and Polymorphism](inheritance-and-polymorphism.md)
 > - [Decorators, classmethod and staticmethod](decorators-classmethod-and-staticmethod.md), for `@functools.total_ordering` and class methods
-> - [Iterators and Generators](../course.md#m6) (Python Fundamentals), for the iteration protocol
+> - [Iterators and Generators](../06-functions-and-iterators/iterators-and-generators.md), for the iteration protocol
 
 ## Introduction
 
@@ -486,7 +486,7 @@ Ravi is back at the desk
 exception still reached the caller
 ```
 
-If `__exit__` returns `True`, the exception is suppressed. Do that only deliberately. Files, locks, database connections and HTTP clients are all context managers. You will use them throughout [Reading and Writing Files](../08-file-handling/reading-and-writing-files.md), and write them the easy way with `contextlib` in [Error Handling Best Practices](../09-modules-and-exceptions/error-handling-best-practices.md). The async equivalents, `__aenter__` and `__aexit__`, power `async with` in Module 5.
+If `__exit__` returns `True`, the exception is suppressed. Do that only deliberately. Files, locks, database connections and HTTP clients are all context managers. You will use them throughout [Reading and Writing Files](../08-file-handling/reading-and-writing-files.md), and write them the easy way with `contextlib` in [Error Handling Best Practices](../09-modules-and-exceptions/error-handling-best-practices.md). The async equivalents, `__aenter__` and `__aexit__`, power `async with` in Module 10.
 
 ### 10. Attribute Access: `__getattr__`
 

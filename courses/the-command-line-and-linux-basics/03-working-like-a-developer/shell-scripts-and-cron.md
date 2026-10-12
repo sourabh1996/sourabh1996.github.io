@@ -595,7 +595,7 @@ It moves into the project first, runs the script, and appends both normal output
 - **macOS**: `crontab -e` works, but Apple's own scheduler is **launchd**, configured with `.plist` files in `~/Library/LaunchAgents`. launchd can run jobs missed while the Mac was asleep, which cron can't. Scripts run by cron may need **Full Disk Access** (System Settings → Privacy & Security) to read protected folders like Documents or Desktop.
 - **WSL**: services don't always start automatically. Run `sudo service cron start`, or enable systemd for your distribution (by adding `systemd=true` under `[boot]` in `/etc/wsl.conf`) so cron starts with WSL. Jobs only run while WSL is running.
 - **Windows**: the equivalent is **Task Scheduler** (search for it in the Start menu), or the `schtasks` command.
-- **Laptops sleep.** cron on a laptop misses any job scheduled while the lid is closed. Anything important belongs on an always-on server, or in a scheduler with catch-up (launchd, systemd timers, or a workflow orchestrator like Airflow, which you'll meet in [Orchestration with Airflow](../../data-pipelines-ingestion-dbt-and-airflow/course.md#m4)).
+- **Laptops sleep.** cron on a laptop misses any job scheduled while the lid is closed. Anything important belongs on an always-on server, or in a scheduler with catch-up (launchd, systemd timers, or a workflow orchestrator like Airflow, which you'll meet in [Data Pipelines: Ingestion, dbt and Airflow](../../data-pipelines-ingestion-dbt-and-airflow/course.md#m4)).
 
 ### 14. Scripts and Schedules from Python
 

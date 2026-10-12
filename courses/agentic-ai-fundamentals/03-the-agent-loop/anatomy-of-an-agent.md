@@ -123,7 +123,7 @@ flowchart LR
   H --> M{{"Model"}}
 ```
 
-Most beginner agents need only short-term memory. Long-term memory is powerful but brings hard questions (what to save, when to forget, privacy), which you'll tackle in [LangGraph State and Memory](../../langgraph-complete-guide/course.md).
+Most beginner agents need only short-term memory. Long-term memory is powerful but brings hard questions (what to save, when to forget, privacy), which you'll tackle in [LangGraph Complete Guide › Memory](../../langgraph-complete-guide/course.md#m7).
 
 ### 5. The loop: the heartbeat
 
@@ -139,7 +139,7 @@ The **loop** runs everything: call the model, run the requested tool, record the
 - **Input checks**: validating tool arguments before running anything.
 - **Output checks**: checking the final answer (for example, no personal data, no promises the company can't keep).
 
-Guardrails are what make it possible to give an agent real tools without losing sleep. You'll go deep on them in [Guardrails and Security](../../retrieval-augmented-generation-rag/course.md#m6).
+Guardrails are what make it possible to give an agent real tools without losing sleep. You'll go deep on them in [Agent Security and Safety](../../agent-security-and-safety/course.md#m4).
 
 ### 7. The environment: the world it acts on
 

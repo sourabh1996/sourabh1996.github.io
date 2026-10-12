@@ -354,7 +354,7 @@ An empty tuple. The run finished, so there are no pending tasks and therefore no
 
 - **Multi-agent systems**: a supervisor graph with a "researcher" subgraph (a tool-using agent) and a "writer" subgraph (a draft-and-critique loop).
 - **Shared components across products**: a company maintains one "PII redaction" subgraph used by every chatbot and document pipeline.
-- **Agentic RAG**: the retrieval step from module 4 (retrieve, grade, rewrite, retry) wrapped as a subgraph and used as one node in a larger assistant.
+- **Agentic RAG**: the retrieval step from module 5 (retrieve, grade, rewrite, retry) wrapped as a subgraph and used as one node in a larger assistant.
 
 ---
 

@@ -265,7 +265,7 @@ Output:
 6 messages still saved
 ```
 
-`token_counter=len` counts each message as one "token" so the example is easy to follow; in a real app you'd pass the model (or a tokenizer function) to count actual tokens. `start_on="human"` makes the trimmed view begin at a user message, so it never starts with an orphaned tool result. Trimming, summarising and long-term memory get a full treatment in [LangGraph State and Memory](../course.md#m7).
+`token_counter=len` counts each message as one "token" so the example is easy to follow; in a real app you'd pass the model (or a tokenizer function) to count actual tokens. `start_on="human"` makes the trimmed view begin at a user message, so it never starts with an orphaned tool result. Trimming, summarising and long-term memory get a full treatment later in this course, in the [Memory](../course.md#m7) module.
 
 ### 8. Short-term vs long-term memory
 
@@ -274,7 +274,7 @@ Output:
 | Scope | One thread (one conversation) | Across threads (the same user, many chats) |
 | LangGraph feature | **Checkpointer** + `thread_id` | **Store** (`InMemoryStore`, Postgres store...) |
 | Example | "Add GST to *that*" | "Remember I'm vegetarian" in every future chat |
-| Covered in | This lesson and module 5 | [Long-Term Memory with Stores](../course.md#m7) |
+| Covered in | This lesson and module 6 | [Long-Term Memory with Stores](../course.md#m7) |
 
 This course focuses on the first. The checkpointer is also what gives you fault tolerance, resuming and human-in-the-loop, so it's worth understanding well.
 

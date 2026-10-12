@@ -236,7 +236,7 @@ Two details to know:
 - `update_state` goes through the **reducers**. Updating `log` would **append**, not replace, because `log` uses `operator.add`. For `messages`, sending a message with an existing id replaces it, as you saw in the last lesson.
 - By default the update is treated as coming from the node that ran last before that checkpoint, which decides what runs next. You can pass `as_node="some_node"` to pretend the update came from a specific node, so the graph continues from that node's outgoing edges.
 
-These are the building blocks of **time travel** and **human-in-the-loop** editing, which have their own course: [Human-in-the-Loop with LangGraph](../course.md).
+These are the building blocks of **time travel** and **human-in-the-loop** editing, which have their own module later in this course: [Human-in-the-Loop and Debugging](../course.md#m8).
 
 ### 7. Choosing a checkpointer
 
@@ -248,7 +248,7 @@ All checkpointers implement the same interface (`put`, `get_tuple`, `list` and a
 | `SqliteSaver` / `AsyncSqliteSaver` | `langgraph-checkpoint-sqlite` | A SQLite file | Local apps, prototypes, single-machine tools |
 | `PostgresSaver` / `AsyncPostgresSaver` | `langgraph-checkpoint-postgres` | PostgreSQL | Production servers, many workers |
 | Others | separate packages (for example Redis and MongoDB integrations) | Those databases | When your stack already uses them |
-| Managed | built into LangSmith Deployment | Provided Postgres | Deployed apps (module 7) |
+| Managed | built into LangSmith Deployment | Provided Postgres | Deployed apps (module 10) |
 
 ```python
 # not-run: needs `pip install langgraph-checkpoint-postgres "psycopg[binary,pool]"` and a database

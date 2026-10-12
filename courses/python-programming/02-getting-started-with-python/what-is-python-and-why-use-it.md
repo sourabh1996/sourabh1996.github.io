@@ -221,7 +221,7 @@ Output:
 <class 'str'>
 ```
 
-`int` means integer (whole number); `str` means string (text). The same name, `price`, held a number and then a string. That flexibility makes Python quick to write. The cost is that some type mistakes are only found while the program runs, which is why Python programmers lean heavily on testing and, in bigger projects, on optional **type hints** (covered in [Advanced Python Programming](../course.md)).
+`int` means integer (whole number); `str` means string (text). The same name, `price`, held a number and then a string. That flexibility makes Python quick to write. The cost is that some type mistakes are only found while the program runs, which is why Python programmers lean heavily on testing and, in bigger projects, on optional **type hints** (covered later in this course, in [Classes and Objects](../07-object-oriented-programming/classes-and-objects.md)).
 
 ### 8. "Batteries included": the standard library
 
@@ -248,7 +248,7 @@ Output:
 4
 ```
 
-`import math` makes the `math` module available; `math.sqrt` is its square root function. You'll use `import` a lot, and it gets its own lesson in [Advanced Python Programming](../course.md#m9).
+`import math` makes the `math` module available; `math.sqrt` is its square root function. You'll use `import` a lot, and it gets its own lesson later in this course, [Importing and Managing Modules](../09-modules-and-exceptions/importing-and-managing-modules.md).
 
 Beyond the standard library there is **PyPI**, the Python Package Index (pypi.org), which hosts more than half a million free packages written by others: `pandas` for tables of data, `numpy` for fast maths, `requests` for the web, `scikit-learn` and `pytorch` for machine learning, `langchain` and `langgraph` for AI agents. You install them with a tool called `pip`. This ecosystem is the single biggest reason Python dominates data and AI.
 
@@ -269,7 +269,7 @@ Beyond the standard library there is **PyPI**, the Python Package Index (pypi.or
 Being honest about weaknesses makes you a better engineer:
 
 - **Raw speed.** Pure Python loops are much slower than the same loops in C, C++, Rust or Go, often by 10 to 100 times. In practice this matters less than it sounds, because libraries like NumPy and pandas do their heavy work in fast compiled code underneath. Newer versions keep getting faster too.
-- **Running many threads at once.** Standard CPython has a **Global Interpreter Lock** (GIL) that lets only one thread run Python code at a time. Python 3.13 introduced an optional "free-threaded" build without the GIL, and Python 3.14 made it officially supported, but most installations still use the default build. You'll learn about threads and async in [Advanced Python Programming](../course.md#m10).
+- **Running many threads at once.** Standard CPython has a **Global Interpreter Lock** (GIL) that lets only one thread run Python code at a time. Python 3.13 introduced an optional "free-threaded" build without the GIL, and Python 3.14 made it officially supported, but most installations still use the default build. You'll learn about threads and async later in this course, in [Threads, Processes and Async](../10-concurrency-for-ai-apps/threads-processes-and-async.md).
 - **Mobile apps and browser front-ends.** Phone apps are usually written in Kotlin or Swift; web page interactivity in JavaScript. Python can be squeezed into both but it's not the natural fit.
 - **Very low memory devices.** Python uses more memory than C. (There is MicroPython for tiny microcontrollers, but it's a separate, smaller implementation.)
 

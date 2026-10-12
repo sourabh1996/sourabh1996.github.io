@@ -13,7 +13,7 @@ reading_time: 50 min
 >
 > - [Building a Chatbot with LangGraph](building-a-chatbot-with-langgraph.md), for the chatbot graph and `stream_mode="messages"`.
 > - [Persistent Storage with SQLite](persistent-storage-with-sqlite.md), for `SqliteSaver` and listing threads.
-> - [Streamlit Basics](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m6) and [Session State](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m7) in Interactive Data Apps with Streamlit.
+> - [Streamlit Basics](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m6) and [Session State](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m7) in APIs and Apps: FastAPI, Streamlit and Docker.
 
 ## What You'll Build
 
@@ -401,4 +401,4 @@ Output:
 
 ---
 
-**Up next:** [What are Subgraphs?](../09-subgraphs/what-are-subgraphs.md)
+**Up next:** [Trimming and Filtering Messages](../course.md#m7)

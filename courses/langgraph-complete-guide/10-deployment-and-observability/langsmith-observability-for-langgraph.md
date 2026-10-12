@@ -147,7 +147,7 @@ chain LangGraph              {'thread_id': 'cust-42', 'user_id': 'u-1001'}
     chain tools_condition        {'thread_id': 'cust-42', 'user_id': 'u-1001', 'langgraph_step': 3}
 ```
 
-Read it top to bottom and you'll recognise the agent loop from module 4. A few details are worth noticing, because they're exactly what you'll see in LangSmith:
+Read it top to bottom and you'll recognise the agent loop from module 5. A few details are worth noticing, because they're exactly what you'll see in LangSmith:
 
 - The root run is called **`LangGraph`** by default. You'll rename it in the next section.
 - Each node is a child run, and LangGraph adds metadata such as **`langgraph_step`** (and `langgraph_node`), so you can tell which super-step a call belongs to.
@@ -247,7 +247,7 @@ with langsmith.tracing_context(enabled=False):
 
 ### 7. Using traces: debug, monitor, improve
 
-**Debugging a bad answer.** Find the trace (filter by `user_id` or the conversation's thread), open the model run just before the bad answer, and read exactly what the model was given. Common discoveries: the retriever returned the wrong document, a tool returned an error the model glossed over, the prompt was missing a field, or the conversation was trimmed too aggressively. LangSmith's playground lets you re-run that model call with an edited prompt to test a fix. For graphs served by an Agent Server, you can also open the thread in **Studio** and replay from the failing step, using the checkpoint tools from module 5.
+**Debugging a bad answer.** Find the trace (filter by `user_id` or the conversation's thread), open the model run just before the bad answer, and read exactly what the model was given. Common discoveries: the retriever returned the wrong document, a tool returned an error the model glossed over, the prompt was missing a field, or the conversation was trimmed too aggressively. LangSmith's playground lets you re-run that model call with an edited prompt to test a fix. For graphs served by an Agent Server, you can also open the thread in **Studio** and replay from the failing step, using the checkpoint tools from module 6.
 
 **Monitoring.** LangSmith dashboards chart trace counts, error rates, latency (median and slowest percentiles) and token cost over time, per project, and you can set alerts on them. A sudden jump in latency or errors after a deploy is usually visible here first.
 
@@ -362,4 +362,4 @@ Logs are flat lines. A trace keeps the **structure** (which model call happened 
 
 ---
 
-**Up next:** You've finished LangGraph Fundamentals. Continue with [LangGraph State and Memory](../course.md) for reducers, multiple schemas and long-term memory, then [Human-in-the-Loop with LangGraph](../course.md).
+**Up next:** You've finished the LangGraph Complete Guide. Continue with [Agentic RAG Systems](../../agentic-rag-systems/course.md), where an agent built as a graph decides when and how to retrieve, then [Context Engineering and Agent Memory](../../context-engineering-and-agent-memory/course.md).

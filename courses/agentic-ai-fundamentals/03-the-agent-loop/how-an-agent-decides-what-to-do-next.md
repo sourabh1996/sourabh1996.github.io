@@ -329,7 +329,7 @@ As tasks get harder, letting the model improvise every step gets risky. These pa
 | **Routers** | A small, fast decision (often with structured output) picks which branch or specialist handles the request | [Conditional Workflows](../../langgraph-complete-guide/03-workflow-patterns-in-langgraph/conditional-workflows.md) |
 | **Fixed workflows with an LLM inside** | Your code fixes the order of steps; the model only fills in content | [Workflows vs Agents](workflows-vs-agents.md) |
 | **Typed decision models** | A model built for decisions returns a choice with a probability instead of text, so code can branch on it directly | [Decision Models: Typed Answers instead of Text](../../agent-frameworks-and-sdks/course.md#m4) |
-| **Human approval** | Risky steps pause until a person says yes | [Human-in-the-Loop with LangGraph](../../langgraph-complete-guide/course.md) |
+| **Human approval** | Risky steps pause until a person says yes | [LangGraph Complete Guide › Human-in-the-Loop and Debugging](../../langgraph-complete-guide/course.md#m8) |
 
 A useful way to see the spectrum:
 

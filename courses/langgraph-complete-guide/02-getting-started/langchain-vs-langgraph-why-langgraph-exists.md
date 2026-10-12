@@ -143,7 +143,7 @@ Look at what you got for free:
 - **Every step's update is streamed**, so a UI could show progress live.
 - **State is explicit**: at any moment you can see topic, outline, draft, score and tries.
 
-Add a **checkpointer** (module 5) and the same graph can pause, resume and survive crashes. Add an **interrupt** and a human can approve the outline before drafting.
+Add a **checkpointer** (module 6) and the same graph can pause, resume and survive crashes. Add an **interrupt** and a human can approve the outline before drafting.
 
 ### 4. Side by side
 

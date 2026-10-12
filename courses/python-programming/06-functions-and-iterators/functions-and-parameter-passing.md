@@ -795,7 +795,7 @@ Output:
 10 C -> X: None
 ```
 
-One definition, tested with four calls, and invalid units handled in one place. In [Advanced Python Programming](../course.md#m9) you'll learn to raise a proper exception instead of returning `None`.
+One definition, tested with four calls, and invalid units handled in one place. Later in this course, in [try/except and Custom Exceptions](../09-modules-and-exceptions/try-except-and-custom-exceptions.md), you'll learn to raise a proper exception instead of returning `None`.
 
 ---
 

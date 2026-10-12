@@ -126,7 +126,7 @@ Here's a practical routine when a graph misbehaves:
 5. **Fix the code.** Edit the node; hot reload picks it up. Run the original input again.
 6. **Add interrupts** before risky nodes (like a tool that sends email) so you can check the state before it runs.
 
-This workflow relies on **checkpoints**, which the dev server adds for you. You'll learn how checkpoints work, and how to use them in your own apps, in [Persistence and Checkpointers](../06-chatbots-and-persistence/persistence-and-checkpointers.md), and the full set of time-travel tools in [Human-in-the-Loop with LangGraph](../course.md).
+This workflow relies on **checkpoints**, which the dev server adds for you. You'll learn how checkpoints work, and how to use them in your own apps, in [Persistence and Checkpointers](../06-chatbots-and-persistence/persistence-and-checkpointers.md), and the full set of time-travel tools in [Human-in-the-Loop and Debugging](../course.md#m8), later in this course.
 
 ### 5. Studio without an LLM
 

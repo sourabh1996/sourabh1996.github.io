@@ -71,7 +71,7 @@ flowchart TB
 - **Bytecode plus a virtual machine.** Python and Java compile to bytecode, which a virtual machine runs. Java's virtual machine (the JVM) includes a **JIT (just-in-time) compiler** that turns frequently used bytecode into machine code while the program runs, which is a big reason Java is much faster than standard Python. CPython has an experimental JIT since 3.13, but it is off by default and the speed-up so far is modest.
 - **JavaScript** engines in browsers (V8 in Chrome, for example) also use aggressive JIT compilation.
 
-What this means in practice: a tight loop doing simple arithmetic a hundred million times might take well under a second in C or Rust and tens of seconds in pure Python. The same job written with NumPy (a Python library implemented in C) is close to C speed. You'll use that trick in [Numerical Computing and Data Analysis](../../data-analysis-and-visualisation-with-python/course.md).
+What this means in practice: a tight loop doing simple arithmetic a hundred million times might take well under a second in C or Rust and tens of seconds in pure Python. The same job written with NumPy (a Python library implemented in C) is close to C speed. You'll use that trick in [Data Analysis and Visualisation with Python](../../data-analysis-and-visualisation-with-python/course.md).
 
 ### 3. Difference two: types
 

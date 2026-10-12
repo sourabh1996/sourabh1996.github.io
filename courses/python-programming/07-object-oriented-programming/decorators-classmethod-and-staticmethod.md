@@ -11,7 +11,7 @@ reading_time: 35 min
 
 > 📚 **Before you start**
 >
-> - [Functions and Parameter Passing](../course.md#m6) and [Lambda, map and Functional Style](../course.md#m6) (Python Fundamentals): `*args`, `**kwargs`, functions as values
+> - [Functions and Parameter Passing](../06-functions-and-iterators/functions-and-parameter-passing.md) and [Lambda, map and Functional Style](../06-functions-and-iterators/lambda-map-and-functional-style.md): `*args`, `**kwargs`, functions as values
 > - [Classes and Objects](classes-and-objects.md) and [Encapsulation and Abstraction](encapsulation-and-abstraction.md): methods, `@dataclass` and `@property`
 
 ## Introduction
@@ -593,7 +593,7 @@ confirm(Booking('4521873690'), 'B2-34') -> 'seat B2-34 confirmed'
 
 Notice `self` showing up as the first argument in the log. Without the `__repr__` method it would print as something like `<__main__.Booking object at 0x7f...>`, which is why classes you log should define one (see [Dunder Methods](dunder-methods.md)).
 
-An `async def` function returns a coroutine when called, so a decorator for it needs an `async` wrapper that `await`s the original. You will learn `async`/`await` in Module 5; here is the shape for reference:
+An `async def` function returns a coroutine when called, so a decorator for it needs an `async` wrapper that `await`s the original. You will learn `async`/`await` in Module 10; here is the shape for reference:
 
 ```python
 import asyncio

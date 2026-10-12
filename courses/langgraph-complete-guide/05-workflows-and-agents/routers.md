@@ -383,7 +383,7 @@ Output:
 Cancellation needs a supervisor's approval.
 ```
 
-Notice that `cancel_ticket` never ran: the router sent the graph around it. Real approval flows pause and wait for a person; you'll build those in [Human-in-the-Loop with LangGraph](../course.md).
+Notice that `cancel_ticket` never ran: the router sent the graph around it. Real approval flows pause and wait for a person; you'll build those later in this course, in [Human-in-the-Loop and Debugging](../course.md#m8).
 
 </details>
 
@@ -431,4 +431,4 @@ That's its default label. A path map like `{"tools": "my_node", END: END}` lets 
 
 ---
 
-**Up next:** [Building Agents](building-agents.md)
+**Up next:** [LangChain Agents](../course.md#m5)

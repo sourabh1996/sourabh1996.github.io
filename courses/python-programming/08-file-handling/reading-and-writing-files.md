@@ -11,8 +11,8 @@ reading_time: 40 min
 
 > 📚 **Before you start**
 >
-> - [Working with Strings](../course.md#m5) and [Dictionaries and Dictionary Views](../course.md#m5) (Python Fundamentals)
-> - [Iterators and Generators](../course.md#m6) (Python Fundamentals), because a file is an iterator of lines
+> - [Working with Strings](../05-strings-and-data-structures/working-with-strings.md) and [Dictionaries and Dictionary Views](../05-strings-and-data-structures/dictionaries-and-dictionary-views.md)
+> - [Iterators and Generators](../06-functions-and-iterators/iterators-and-generators.md), because a file is an iterator of lines
 > - [Dunder Methods](../07-object-oriented-programming/dunder-methods.md), for how `with` works (`__enter__`/`__exit__`)
 
 ## Introduction

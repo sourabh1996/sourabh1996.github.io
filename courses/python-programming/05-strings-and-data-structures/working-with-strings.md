@@ -425,7 +425,7 @@ True
 True
 ```
 
-That's a reasonable first check of an Indian PAN format: five capital letters, four digits, one letter. (For complex patterns, Python's `re` module for **regular expressions** is the professional tool, covered in [Advanced Python Programming](../course.md).)
+That's a reasonable first check of an Indian PAN format: five capital letters, four digits, one letter. (For complex patterns, Python's `re` module for **regular expressions** is the professional tool, used later in this course in [Lab: Log file analyser](../08-file-handling/lab-log-file-analyser.md).)
 
 A subtle point: `.isdigit()` is true for some Unicode characters that `int()` can't convert, like superscript `²`. For "can I safely call `int()`?" checks on everyday input, `.isdecimal()` is the strictest:
 
@@ -582,7 +582,7 @@ b'\xe2\x82\xb9500'
 ₹500
 ```
 
-A `b'...'` value is a `bytes` object. `.decode()` turns bytes back into a string. You'll use this when reading files in [Advanced Python Programming](../course.md#m8).
+A `b'...'` value is a `bytes` object. `.decode()` turns bytes back into a string. You'll use this when reading files later in this course, in [Reading and Writing Files](../08-file-handling/reading-and-writing-files.md).
 
 ### 13. Comparing and sorting strings
 

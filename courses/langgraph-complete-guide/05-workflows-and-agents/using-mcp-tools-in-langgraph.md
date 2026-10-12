@@ -13,7 +13,7 @@ reading_time: 28 min
 >
 > - [Tools in LangGraph: ToolNode and tools_condition](tools-in-langgraph-toolnode-and-tools-condition.md), for how tools plug into a graph.
 > - [Model Context Protocol (MCP)](../../model-context-protocol-mcp/course.md#m2), for what MCP servers, clients and tools are. You need the ideas, not the details.
-> - [async and await](../../python-programming/course.md#m10) in Advanced Python, because MCP tools are called asynchronously.
+> - [async and await](../../python-programming/course.md#m10) in Python Programming, because MCP tools are called asynchronously.
 
 ## Introduction
 
@@ -315,7 +315,7 @@ Output:
 ['expenses_add_expense', 'expenses_total_spent']
 ```
 
-**Keep risky tools behind approval.** An MCP server you didn't write might include write or delete tools. Use the `wrap_tool_call` guard from the [previous lesson](tools-in-langgraph-toolnode-and-tools-condition.md) or a custom router to stop them, and see [Human-in-the-Loop with LangGraph](../course.md) for proper approvals.
+**Keep risky tools behind approval.** An MCP server you didn't write might include write or delete tools. Use the `wrap_tool_call` guard from the [previous lesson](tools-in-langgraph-toolnode-and-tools-condition.md) or a custom router to stop them, and see [Human-in-the-Loop and Debugging](../course.md#m8), later in this course, for proper approvals.
 
 **Treat tool output as untrusted.** Text from a third-party server goes straight into the model's context. It could contain instructions ("ignore previous instructions and..."). Only connect servers you trust, and don't give an agent both untrusted inputs and powerful write tools without a human check. [Agent Security and Safety](../../agent-security-and-safety/course.md) covers this in depth.
 

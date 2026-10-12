@@ -197,7 +197,7 @@ flowchart LR
     C -->|feedback| G
 ```
 
-This is also called the **evaluator-optimizer** or **generator-critic** pattern. You'll build it as a looping graph in LangGraph (a post generator with an evaluator loop) in [LangGraph Fundamentals](../../langgraph-complete-guide/course.md#m3).
+This is also called the **evaluator-optimizer** or **generator-critic** pattern. You'll build it as a looping graph in LangGraph (a post generator with an evaluator loop) in [LangGraph Complete Guide](../../langgraph-complete-guide/course.md#m3).
 
 Here's a from-scratch version. The task: write a one-line product tagline under 60 characters that mentions battery life and doesn't use the word "best". The **critic is plain code** here (rule checks), which is a great practice whenever criteria can be checked mechanically:
 

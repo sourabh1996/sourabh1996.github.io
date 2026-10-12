@@ -127,7 +127,7 @@ Here's a map of the main pieces of LangGraph and where you'll learn each:
 | `MessagesState`, `add_messages` | State for chat-style message lists | [Building a Chatbot](../06-chatbots-and-persistence/building-a-chatbot-with-langgraph.md) |
 | `ToolNode`, `tools_condition` | Run tool calls and route the agent loop | [Tools in LangGraph](../05-workflows-and-agents/tools-in-langgraph-toolnode-and-tools-condition.md) |
 | Checkpointers (`InMemorySaver`, SQLite, Postgres) | Save state after every step; threads; resume | [Persistence and Checkpointers](../06-chatbots-and-persistence/persistence-and-checkpointers.md) |
-| `interrupt`, `Command` | Pause for a human and resume with their input | [Human-in-the-Loop with LangGraph](../course.md) |
+| `interrupt`, `Command` | Pause for a human and resume with their input | [Human-in-the-Loop and Debugging](../course.md#m8) |
 | Subgraphs | Use a compiled graph as a node in another graph | [Subgraphs](../09-subgraphs/what-are-subgraphs.md) |
 
 ### 5. The life cycle of a LangGraph app
