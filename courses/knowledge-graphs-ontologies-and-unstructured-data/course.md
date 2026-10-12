@@ -1,12 +1,12 @@
 # Knowledge Graphs, Ontologies and Unstructured Data
 
 **Advanced · 6 modules · 29 lessons · ~13 hrs**  
-Track 8 · Agentic AI · ➕ Added beyond the bootcamp syllabus
+Track 7 · Agentic AI · ➕ Added beyond the bootcamp syllabus
 
 Model the world as entities and relationships: ontologies with worked examples, Neo4j and Cypher, turning documents into structured data, and knowledge graphs that power agents and GraphRAG.
 
-**Finish first:** [Retrieval-Augmented Generation (RAG)](../retrieval-augmented-generation-rag/course.md), [LangGraph Fundamentals](../langgraph-fundamentals/course.md)  
-**Unlocks:** Nothing, this is a final course.
+**Finish first:** [Agentic RAG Systems](../agentic-rag-systems/course.md)  
+**Unlocks:** [Context Engineering and Agent Memory](../context-engineering-and-agent-memory/course.md)
 
 ## Course content
 
@@ -50,6 +50,8 @@ Model the world as entities and relationships: ontologies with worked examples, 
 
 <a id="m6"></a>
 ### 6. Knowledge Graphs for AI Agents ➕ (6 lessons)
+> **Before you start:** [Agentic RAG Systems › Agentic RAG Architectures](../agentic-rag-systems/course.md#m3), [Retrieval-Augmented Generation (RAG) › Embeddings and Vector Databases](../retrieval-augmented-generation-rag/course.md#m3)
+
 - Building a Knowledge Graph from Text with an LLM · Article ➕
 - GraphRAG · Article ➕
 - Hybrid Retrieval: Graphs plus Vectors · Article ➕
