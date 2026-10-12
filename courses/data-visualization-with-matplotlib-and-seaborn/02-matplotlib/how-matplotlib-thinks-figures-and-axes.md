@@ -11,7 +11,6 @@ reading_time: 22 min
 
 > 📚 **Before you start**
 >
-> - [How This Course Works](../01-start-here/how-this-course-works.md), for how the examples save their charts
 > - [pandas Core](../../numerical-computing-and-data-analysis/course.md#m3) (Numerical Computing and Data Analysis), for building the small DataFrames used here
 > - [Quick Visualisation with pandas](../../numerical-computing-and-data-analysis/course.md#m5), if you have used `df.plot()` before: it is Matplotlib underneath
 
@@ -30,6 +29,20 @@ By the end of this article you will be able to name every part of a chart, expla
 ---
 
 ## Core Explanation
+
+### Setup: how the examples in these lessons run
+
+Install the libraries in a virtual environment with `python -m pip install matplotlib seaborn pandas numpy scipy` (SciPy is only needed for the clustered heatmap later on). The examples were checked with Matplotlib 3.11.2, Seaborn 0.13.2 and pandas 3.0.5; anything newer works the same way.
+
+Every example saves its chart into a throwaway folder made by `tempfile.mkdtemp()`, stored in `out_dir`, and then closes the figure:
+
+```python
+# not-run: the pattern every example below uses
+fig.savefig(os.path.join(out_dir, "some-name.png"), bbox_inches="tight")
+plt.close(fig)
+```
+
+Print `out_dir` to find the files, or set `out_dir = "."` to save next to your script. In Jupyter a figure also appears under the cell automatically; in a plain script, call `plt.show()` to open a window. The image under each example is exactly what its code saves. Section 8 explains what happens behind the scenes in each case.
 
 ### 1. The anatomy of a chart
 
@@ -316,7 +329,7 @@ Practical rules:
 
 A **backend** is the part of Matplotlib that turns your Figure into something visible. There are two kinds:
 
-- **Non-interactive backends** write files. `Agg` writes PNGs, and is the default on servers with no screen. The examples in this course work on any backend because they call `savefig`.
+- **Non-interactive backends** write files. `Agg` writes PNGs, and is the default on servers with no screen. The examples in these lessons work on any backend because they call `savefig`.
 - **Interactive backends** open a window you can zoom and pan (`TkAgg`, `QtAgg`, `MacOSX`). In a script, `plt.show()` opens that window and waits until you close it.
 
 Jupyter uses an inline backend that renders the Figure as an image under the cell when the cell finishes. That is why notebook users rarely call `plt.show()`, and why a Figure "appears twice" if you both return it and let the cell finish: you displayed it explicitly and Jupyter displayed it again.
@@ -344,7 +357,7 @@ Output:
 1.5
 ```
 
-`mpl.rc_context` changes defaults only inside the `with` block, which is the safe way to experiment. Seaborn's themes, which you'll meet in module 3, work by setting many `rcParams` at once.
+`mpl.rc_context` changes defaults only inside the `with` block, which is the safe way to experiment. Seaborn's themes, which you'll meet in [Styling Charts for Communication](../03-seaborn-and-storytelling/styling-charts-for-communication.md), work by setting many `rcParams` at once.
 
 ### 10. Putting it together: the habits
 

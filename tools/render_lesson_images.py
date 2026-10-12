@@ -5,9 +5,11 @@ tools/check_code.py never write into the repo. This script runs a lesson's ```py
 same way check_code.py does, but makes `tempfile.mkdtemp()` return
 site/public/img/<course-slug>/, so the PNGs the lesson shows are exactly what its code draws.
 
-Usage: python3 tools/render_lesson_images.py courses/<course>/<module>/<lesson>.md [...]
+Images the lessons do not embed (exercise answers, intermediate steps) are deleted afterwards.
+
+Usage: MPLBACKEND=Agg python3 tools/render_lesson_images.py courses/<course>/*/*.md
 """
-import contextlib, io, os, sys, tempfile
+import contextlib, glob, io, os, re, sys, tempfile
 
 os.environ["MPLBACKEND"] = "Agg"
 import matplotlib
@@ -34,7 +36,14 @@ def render(path):
         tempfile.mkdtemp = real_mkdtemp
         import matplotlib.pyplot as plt
         plt.close("all")
-    for name in sorted(f for f in os.listdir(out) if f.endswith(".png")):
+    # Exercise answers and intermediate steps also save charts; keep only images a lesson embeds.
+    embedded = set()
+    for lesson in glob.glob(os.path.join(ROOT, "courses", course, "*", "*.md")):
+        embedded |= set(re.findall(rf"/img/{re.escape(course)}/([^)\s]+)", open(lesson).read()))
+    for name in sorted(os.listdir(out)):
+        if name not in embedded:
+            os.remove(os.path.join(out, name))
+            continue
         size = os.path.getsize(os.path.join(out, name)) // 1024
         if size > 120:
             print(f"  warning: {name} is {size} KB")

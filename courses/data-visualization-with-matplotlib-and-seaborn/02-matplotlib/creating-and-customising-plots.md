@@ -40,7 +40,7 @@ By the end you will be able to pick the right chart for a question, draw it from
 | Are two numbers related? | Scatter | `ax.scatter` |
 | What is the range or uncertainty? | Shaded band or error bars | `ax.fill_between`, `ax.errorbar` |
 | How is a total split into parts? | Stacked bar (pie only for 2 or 3 parts) | `ax.bar(..., bottom=)`, `ax.pie` |
-| How are values spread out? | Histogram, box plot | `ax.hist` (module 3 goes deep) |
+| How are values spread out? | Histogram, box plot | `ax.hist` ([Histograms, Pair Plots and Heatmaps](../03-seaborn-and-storytelling/histograms-pair-plots-and-heatmaps.md) goes deep) |
 
 Set up the imports and an output folder once:
 
@@ -355,7 +355,7 @@ October 2025 ₹83 L
 | `ax.text(x, y, "...")` | Text at a data position |
 | `ax.annotate("...", xy=..., xytext=..., arrowprops=...)` | Text at `xytext` with an arrow pointing at `xy` |
 
-Notice the title. It says what the reader should see ("crossed the target in the festive season") instead of what the axes are ("Revenue by month"). You'll practise this in module 3.
+Notice the title. It says what the reader should see ("crossed the target in the festive season") instead of what the axes are ("Revenue by month"). You'll practise this in [Styling Charts for Communication](../03-seaborn-and-storytelling/styling-charts-for-communication.md).
 
 ### 8. Legends
 
@@ -366,7 +366,7 @@ A legend collects every Artist that has a `label=`. The options you will need:
 - **`bbox_to_anchor`**: place the legend relative to the Axes, including *outside* it. `ax.legend(loc="upper left", bbox_to_anchor=(1.01, 1))` puts it just right of the plot area.
 - **`frameon=False`, `title="..."`** for a cleaner look and a heading.
 
-Often the best legend is no legend: write the series name at the end of each line with `ax.text`. The styling lesson in module 3 shows how.
+Often the best legend is no legend: write the series name at the end of each line with `ax.text`. [Styling Charts for Communication](../03-seaborn-and-storytelling/styling-charts-for-communication.md) shows how.
 
 ### 9. Two y-axes: know it, rarely use it
 
@@ -437,7 +437,7 @@ Output:
 True True
 ```
 
-Styles are a good starting point. Seaborn's themes, covered in module 3, are a better one.
+Styles are a good starting point. Seaborn's themes, covered in [Styling Charts for Communication](../03-seaborn-and-storytelling/styling-charts-for-communication.md), are a better one.
 
 ---
 

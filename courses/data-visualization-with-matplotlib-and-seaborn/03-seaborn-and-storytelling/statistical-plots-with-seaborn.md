@@ -364,7 +364,7 @@ Useful options: `order=2` fits a curve (a second-degree polynomial), `logistic=T
 
 ### 10. Finishing a Seaborn chart with Matplotlib
 
-Because Axes-level functions return a normal Axes, you can keep going with everything from module 2:
+Because Axes-level functions return a normal Axes, you can keep going with everything from [Creating and Customising Plots](../02-matplotlib/creating-and-customising-plots.md):
 
 ```python
 import matplotlib.ticker as mticker
