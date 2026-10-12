@@ -12,16 +12,16 @@ Ground LLMs in your own data: loaders, splitters, vector stores, retrievers, the
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Introduction to RAG (4 lessons)
 > **Before you start:** [Vector Databases for AI › Introduction to Vector Databases](../vector-databases-for-ai/course.md#m2), [Generative AI and LLM Foundations › How LLMs Work](../generative-ai-and-llm-foundations/course.md#m3)
 
-- What is RAG? · Article
-- RAG vs Fine-Tuning vs Prompting · Article
-- The RAG Pipeline End to End · Article
-- Lab: RAG from scratch, no framework · Lab ➕
+- [What is RAG?](02-introduction-to-rag/what-is-rag.md) · Article ✍️ *written*
+- [RAG vs Fine-Tuning vs Prompting](02-introduction-to-rag/rag-vs-fine-tuning-vs-prompting.md) · Article ✍️ *written*
+- [The RAG Pipeline End to End](02-introduction-to-rag/the-rag-pipeline-end-to-end.md) · Article ✍️ *written*
+- [Lab: RAG from scratch, no framework](02-introduction-to-rag/lab-rag-from-scratch-no-framework.md) · Lab ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. RAG Building Blocks in LangChain (7 lessons)
