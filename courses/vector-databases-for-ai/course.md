@@ -12,15 +12,15 @@ Embeddings, similarity search and the vector databases behind RAG: Chroma, FAISS
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Introduction to Vector Databases (3 lessons)
 > **Before you start:** [NLP for Machine Learning › Word Embeddings](../nlp-for-machine-learning/course.md#m5), [Databases: SQL and NoSQL › Relational Databases and SQL](../databases-sql-and-nosql/course.md#m2)
 
-- Embeddings and Similarity Search · Article
-- Semantic Search Explained · Article
-- Vector vs SQL vs NoSQL Databases · Article
+- [Embeddings and Similarity Search](02-introduction-to-vector-databases/embeddings-and-similarity-search.md) · Article ✍️ *written*
+- [Semantic Search Explained](02-introduction-to-vector-databases/semantic-search-explained.md) · Article ✍️ *written*
+- [Vector vs SQL vs NoSQL Databases](02-introduction-to-vector-databases/vector-vs-sql-vs-nosql-databases.md) · Article ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Architecture (2 lessons)
