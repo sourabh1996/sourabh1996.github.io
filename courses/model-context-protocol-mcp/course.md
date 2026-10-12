@@ -12,16 +12,16 @@ The standard way to plug tools and data into AI apps: why MCP exists, its archit
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Understanding MCP (4 lessons)
 > **Before you start:** [Agentic AI Fundamentals › Tools and Function Calling](../agentic-ai-fundamentals/course.md#m4)
 
-- Why MCP Exists: The Fragmentation Problem · Article
-- What is MCP? · Article
-- Hosts, Clients and Servers · Article
-- MCP Primitives: Tools, Resources and Prompts · Article
+- [Why MCP Exists: The Fragmentation Problem](02-understanding-mcp/why-mcp-exists-the-fragmentation-problem.md) · Article ✍️ *written*
+- [What is MCP?](02-understanding-mcp/what-is-mcp.md) · Article ✍️ *written*
+- [Hosts, Clients and Servers](02-understanding-mcp/hosts-clients-and-servers.md) · Article ✍️ *written*
+- [MCP Primitives: Tools, Resources and Prompts](02-understanding-mcp/mcp-primitives-tools-resources-and-prompts.md) · Article ✍️ *written*
 
 <a id="m3"></a>
 ### 3. How MCP Components Talk (4 lessons)
