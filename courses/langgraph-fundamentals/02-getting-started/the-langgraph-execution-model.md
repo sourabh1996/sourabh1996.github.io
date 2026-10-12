@@ -150,7 +150,7 @@ Output:
 {'best': 9}
 ```
 
-Reducers are covered in depth in [State Reducers](../../langgraph-state-and-memory/course.md#m3).
+Reducers are covered in depth in [State Reducers](../../langgraph-state-and-memory/03-advanced-state/state-reducers.md).
 
 ### 4. Watching the execution: `stream`
 

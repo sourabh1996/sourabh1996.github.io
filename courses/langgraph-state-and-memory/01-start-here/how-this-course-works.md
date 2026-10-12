@@ -4,7 +4,7 @@ course: LangGraph State and Memory
 module: "1. Start Here"
 type: Article
 level: Intermediate
-reading_time: 8 min
+reading_time: 5 min
 ---
 
 # How This Course Works
@@ -46,11 +46,6 @@ flowchart LR
   C --> D["Module 4: Optimising Memory<br/>trimming, summaries,<br/>stores, lab"]
 ```
 
-| Module | Lessons | You'll build |
-|---|---|---|
-| 2. State Fundamentals | The LangGraph State System; State Schemas and Data Flow | Small graphs that make every state rule visible |
-| 3. Advanced State | State Reducers; Multiple Schemas; Lab | A support agent whose callers see only a question and an answer |
-| 4. Optimising Memory | Trimming and Filtering; Summarising; Long-Term Memory with Stores; Lab | A chatbot that stays under a token budget for a long conversation and remembers facts across chats |
 
 After this course, [Human-in-the-Loop with LangGraph](../../human-in-the-loop-with-langgraph/course.md) uses the same state and checkpoint machinery to pause graphs for people, let them edit state, and rewind to earlier checkpoints.
 
@@ -78,30 +73,6 @@ python -c "import importlib.metadata as m; print(m.version('langgraph'), m.versi
 ### Do I need an API key?
 
 **No.** Every runnable example uses plain Python functions, LangChain's `FakeListChatModel`, or the small `GenericFakeChatModel` subclass from Fundamentals whose `bind_tools` returns itself. Even semantic search in the store lesson runs offline, using a tiny hand-written embedding function. Where a lesson shows the real-model version (Claude, a real embedding model, a Postgres store), the block is marked as not run on this site and the expected output is labelled "Example output".
-
----
-
-## How Every Lesson Is Built
-
-Lessons follow the same template as the rest of the platform: **Before you start** links, an **Introduction**, a **Key Insight**, a **Core Explanation** with diagrams and runnable code, **Try It Yourself** exercises with hidden answers, **Real-World Examples**, **Common Misconceptions**, **Interview Relevance** and **Key Takeaways**. **Labs** are guided builds from an empty file to something that works.
-
-A tip specific to this course: when state behaves unexpectedly, **print it after every step**. `app.stream(inputs, stream_mode="values")` shows the full state after each super-step, and `stream_mode="updates"` shows exactly what each node returned. Almost every state bug becomes obvious once you can see the update next to the result.
-
----
-
-## Common Misconceptions
-
-### "State and memory are the same thing"
-
-State is the data of one run. Memory is state that's been **saved** (by a checkpointer, per thread) or **stored** (in a store, across threads). A graph without a checkpointer has state but no memory.
-
-### "Memory problems are solved by bigger context windows"
-
-A larger window delays the problem; it doesn't remove it. Every token you send costs money and time, and models often pay less attention to the middle of a very long prompt. Deciding what the model sees is a design job.
-
-### "This is advanced material I can skip"
-
-Reducers and schemas decide whether parallel branches work, whether subgraphs compose and whether your chatbot stays affordable. They're everyday tools, not extras.
 
 ---
 
