@@ -12,15 +12,15 @@ Treat the context window as a budget: what to put in it, when to fetch more, how
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. The Context Window as a Budget ➕ (5 lessons)
-- From Prompt Engineering to Context Engineering · Article ➕
-- Context Rot and Lost in the Middle · Article ➕
-- System Prompts at the Right Altitude · Article ➕
-- Examples vs Rules · Article ➕
-- Prompt Caching · Article ➕
+- [From Prompt Engineering to Context Engineering](02-the-context-window-as-a-budget/from-prompt-engineering-to-context-engineering.md) · Article ➕ ✍️ *written*
+- [Context Rot and Lost in the Middle](02-the-context-window-as-a-budget/context-rot-and-lost-in-the-middle.md) · Article ➕ ✍️ *written*
+- [System Prompts at the Right Altitude](02-the-context-window-as-a-budget/system-prompts-at-the-right-altitude.md) · Article ➕ ✍️ *written*
+- [Examples vs Rules](02-the-context-window-as-a-budget/examples-vs-rules.md) · Article ➕ ✍️ *written*
+- [Prompt Caching](02-the-context-window-as-a-budget/prompt-caching.md) · Article ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Just-in-Time Context ➕ (5 lessons)
