@@ -25,10 +25,10 @@ The standard way to plug tools and data into AI apps: why MCP exists, its archit
 
 <a id="m3"></a>
 ### 3. How MCP Components Talk (4 lessons)
-- Data Flow in MCP · Article
-- The Data Layer: JSON-RPC Messages · Article
-- The Transport Layer: stdio and Streamable HTTP · Article
-- Using MCP in Claude Desktop and Cursor · Article
+- [Data Flow in MCP](03-how-mcp-components-talk/data-flow-in-mcp.md) · Article ✍️ *written*
+- [The Data Layer: JSON-RPC Messages](03-how-mcp-components-talk/the-data-layer-json-rpc-messages.md) · Article ✍️ *written*
+- [The Transport Layer: stdio and Streamable HTTP](03-how-mcp-components-talk/the-transport-layer-stdio-and-streamable-http.md) · Article ✍️ *written*
+- [Using MCP in Claude Desktop and Cursor](03-how-mcp-components-talk/using-mcp-in-claude-desktop-and-cursor.md) · Article ✍️ *written*
 
 <a id="m4"></a>
 ### 4. The MCP Lifecycle (2 lessons)

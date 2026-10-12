@@ -484,4 +484,4 @@ Sampling is deprecated as of `2026-07-28`. Servers that need a model should call
 
 ---
 
-**Up next:** [Data Flow in MCP](../course.md#m3)
+**Up next:** [Data Flow in MCP](../03-how-mcp-components-talk/data-flow-in-mcp.md)

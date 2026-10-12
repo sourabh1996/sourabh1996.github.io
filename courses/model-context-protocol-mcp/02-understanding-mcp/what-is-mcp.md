@@ -279,8 +279,8 @@ flowchart TB
 
 | Layer | Question it answers | Lesson |
 |---|---|---|
-| **Data layer** | Which messages exist and what do they mean? | [The Data Layer: JSON-RPC Messages](../course.md#m3) |
-| **Transport layer** | How do the bytes get from client to server, and how is the connection secured? | [The Transport Layer: stdio and Streamable HTTP](../course.md#m3) |
+| **Data layer** | Which messages exist and what do they mean? | [The Data Layer: JSON-RPC Messages](../03-how-mcp-components-talk/the-data-layer-json-rpc-messages.md) |
+| **Transport layer** | How do the bytes get from client to server, and how is the connection secured? | [The Transport Layer: stdio and Streamable HTTP](../03-how-mcp-components-talk/the-transport-layer-stdio-and-streamable-http.md) |
 
 The `handle` function above is pure data layer: it doesn't care how the message arrived.
 
