@@ -105,10 +105,22 @@ def main(old_path, base=None):
                         continue  # not a lesson of the old catalog (already migrated)
                 moves[src] = dst
 
+    # Where every old-layout lesson lives now, whether or not this branch has the file (main may have moved it).
+    expected = {}
+    for c in old:
+        for i, m in enumerate(c["modules"], 1):
+            for l in m["lessons"]:
+                if l["title"] in new_where:
+                    ns, nd = new_where[l["title"]]
+                    expected[f"courses/{c['slug']}/{i:02d}-{slug(m['title'])}/{slug(l['title'])}.md"] = \
+                        f"courses/{ns}/{nd}/{slug(l['title'])}.md"
+
     def new_target(target_abs, frag):
         rel = os.path.relpath(target_abs, ROOT)
         if rel in moves:
             return moves[rel], frag
+        if rel in expected and not os.path.exists(target_abs):
+            return expected[rel], frag
         parts = rel.split(os.sep)
         if len(parts) == 3 and parts[0] == "courses" and parts[2] == "course.md" and parts[1] in old_slugs:
             s = parts[1]
