@@ -1,12 +1,12 @@
 # Generative AI and LLM Foundations
 
 **Beginner · 5 modules · 18 lessons · ~8 hrs**  
-Track 7 · Generative AI · Bootcamp syllabus module(s): 20
+Track 6 · Generative AI · Bootcamp syllabus module(s): 20
 
 What generative AI is, how LLMs work, and how to use them well: foundation models, tokens, prompting and structured output.
 
-**Finish first:** [Sequence Models, Attention and Transformers](../sequence-models-attention-and-transformers/course.md), [Advanced Python Programming](../advanced-python-programming/course.md)  
-**Unlocks:** [Vector Databases for AI](../vector-databases-for-ai/course.md), [LangChain Complete Guide](../langchain-complete-guide/course.md), [Agentic AI Fundamentals](../agentic-ai-fundamentals/course.md)
+**Finish first:** [Sequence Models, Attention and Transformers](../sequence-models-attention-and-transformers/course.md), [APIs and Apps: FastAPI, Streamlit and Docker](../apis-and-apps-fastapi-streamlit-and-docker/course.md)  
+**Unlocks:** [LangChain Complete Guide](../langchain-complete-guide/course.md), [Agentic AI Fundamentals](../agentic-ai-fundamentals/course.md)
 
 ## Course content
 
@@ -24,7 +24,7 @@ What generative AI is, how LLMs work, and how to use them well: foundation model
 
 <a id="m3"></a>
 ### 3. How LLMs Work ➕ (5 lessons)
-> **Before you start:** [Sequence Models, Attention and Transformers › Transformers](../sequence-models-attention-and-transformers/course.md#m5)
+> **Before you start:** [Sequence Models, Attention and Transformers › Transformers](../sequence-models-attention-and-transformers/course.md#m6)
 
 - What is a Large Language Model? · Article ➕
 - Tokens and Context Windows · Article ➕
@@ -34,7 +34,7 @@ What generative AI is, how LLMs work, and how to use them well: foundation model
 
 <a id="m4"></a>
 ### 4. Prompting and Structured Output ➕ (4 lessons)
-> **Before you start:** [Production APIs with FastAPI › Validation and Schemas](../production-apis-with-fastapi/course.md#m4)
+> **Before you start:** [APIs and Apps: FastAPI, Streamlit and Docker › Validation and Schemas](../apis-and-apps-fastapi-streamlit-and-docker/course.md#m4)
 
 - Prompting Fundamentals · Article ➕
 - System Prompts and Roles · Article ➕

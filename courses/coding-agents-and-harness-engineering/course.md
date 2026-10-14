@@ -1,7 +1,7 @@
 # Coding Agents and Harness Engineering
 
-**Advanced · 5 modules · 19 lessons · ~8 hrs**  
-Track 8 · Agentic AI · ➕ Added beyond the bootcamp syllabus
+**Advanced · 6 modules · 22 lessons · ~10 hrs**  
+Track 7 · Agentic AI · ➕ Added beyond the bootcamp syllabus
 
 Use coding agents well and build the harness around a model: loops, tools, permissions, hooks, sandboxes, long-running agents and keeping agent-written code healthy.
 
@@ -22,24 +22,32 @@ Use coding agents well and build the harness around a model: loops, tools, permi
 - Reviewing AI-Written Code · Article ➕
 
 <a id="m3"></a>
-### 3. What a Harness Is ➕ (5 lessons)
+### 3. Coding Agents on GitHub ➕ (5 lessons)
+> **Before you start:** [Git and GitHub: Zero to Pro › GitHub Actions](../git-and-github-zero-to-pro/course.md#m7), [Model Context Protocol (MCP) › Building with MCP](../model-context-protocol-mcp/course.md#m5)
+
+- Copilot in the Editor and on GitHub · Article ➕
+- Coding Agents that Open Pull Requests · Article ➕
+- Repository Instructions: AGENTS.md and Custom Instructions · Article ➕
+- The GitHub MCP Server · Article ➕
+- Running Coding Agents in GitHub Actions · Article ➕
+
+<a id="m4"></a>
+### 4. What a Harness Is ➕ (5 lessons)
 - Model plus Harness: the Parts of an Agent Runtime · Article ➕
 - Permissions, Hooks and Approval Modes · Article ➕
 - Subagents, Slash Commands and Plugins · Article ➕
 - Sandboxes: Containers, MicroVMs and Hosted Sandboxes · Article ➕
 - Lab: Build a minimal coding-agent harness · Lab ➕
 
-<a id="m4"></a>
-### 4. Long-Running Agents ➕ (4 lessons)
+<a id="m5"></a>
+### 5. Long-Running Agents ➕ (4 lessons)
 - Initializer Agents, Feature Lists and Progress Files · Article ➕
 - Handing Off across Context Windows · Article ➕
 - Git as a Safety Net and Checkpoints · Article ➕
 - Parallel Agents with Worktrees · Article ➕
 
-<a id="m5"></a>
-### 5. Harness Engineering for Codebases ➕ (5 lessons)
-- Instruction Files as a Map, Not a Manual · Article ➕
+<a id="m6"></a>
+### 6. Harness Engineering for Codebases ➕ (3 lessons)
 - Linters and Tests that Teach the Agent · Article ➕
 - Background Cleanup Agents · Article ➕
-- Headless Agents in CI · Article ➕
 - Lab: Make a repository agent-ready · Lab ➕

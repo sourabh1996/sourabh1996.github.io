@@ -94,6 +94,8 @@ details.module > summary::-webkit-details-marker { display: none; }
 .prose pre { border-radius: 12px; padding: 18px; overflow-x: auto; font-size: 15px; border: 1px solid var(--border); }
 .prose code { font-size: .88em; } .prose :not(pre) > code { background: var(--surface-2); padding: 2px 6px; border-radius: 6px; }
 .prose table { border-collapse: collapse; width: 100%; font-size: 16px; display: block; overflow-x: auto; }
+.prose img { display: block; max-width: 100%; height: auto; margin: 28px auto; border-radius: 14px; }
+.prose img + em, .prose p > img + em { display: block; text-align: center; font-size: 15px; color: var(--text-2); margin-top: -16px; }
 .prose th, .prose td { border: 1px solid var(--border); padding: 10px 14px; text-align: left; }
 .prose th { background: var(--surface-2); }
 .prose hr { border: 0; border-top: 1px solid var(--border); margin: 48px 0; }

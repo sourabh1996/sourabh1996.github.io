@@ -5,21 +5,15 @@
 > The platform is text only: every topic is one in-depth **Article**, with **Labs** where the reader builds something. Hours are estimates (article 25 min, lab 45 min).
 > Each course lists the courses to finish first, and each module links to the exact earlier modules it builds on.
 
-**51 courses · 246 modules · 921 lessons · ~416 hours**
+**41 courses · 235 modules · 936 lessons · ~425 hours**
 
-## Developer Toolkit
-
-| # | Course | Level | Syllabus modules | Modules | Lessons | Est. hrs | Finish first |
-|---|---|---|---|---|---|---|---|
-
-
-## Python and Data Foundations
+## Programming Foundations
 
 | # | Course | Level | Syllabus modules | Modules | Lessons | Est. hrs | Finish first |
 |---|---|---|---|---|---|---|---|
 
 
-## Statistics
+## Working with Data
 
 | # | Course | Level | Syllabus modules | Modules | Lessons | Est. hrs | Finish first |
 |---|---|---|---|---|---|---|---|
@@ -31,13 +25,7 @@
 |---|---|---|---|---|---|---|---|
 
 
-## Production Engineering and Big Data
-
-| # | Course | Level | Syllabus modules | Modules | Lessons | Est. hrs | Finish first |
-|---|---|---|---|---|---|---|---|
-
-
-## Data Engineering
+## Apps, APIs and MLOps
 
 | # | Course | Level | Syllabus modules | Modules | Lessons | Est. hrs | Finish first |
 |---|---|---|---|---|---|---|---|
@@ -56,6 +44,12 @@
 
 
 ## Agentic AI
+
+| # | Course | Level | Syllabus modules | Modules | Lessons | Est. hrs | Finish first |
+|---|---|---|---|---|---|---|---|
+
+
+## Data Engineering
 
 | # | Course | Level | Syllabus modules | Modules | Lessons | Est. hrs | Finish first |
 |---|---|---|---|---|---|---|---|
