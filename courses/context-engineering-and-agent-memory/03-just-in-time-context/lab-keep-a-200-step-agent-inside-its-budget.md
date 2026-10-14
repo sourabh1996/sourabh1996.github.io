@@ -586,4 +586,4 @@ This lab kept one task alive across 200 steps. Module 4 asks the next question: 
 
 ---
 
-**Up next:** [Short-Term vs Long-Term Memory](../course.md#m4)
+**Up next:** [Short-Term vs Long-Term Memory](../04-memory-systems/short-term-vs-long-term-memory.md)

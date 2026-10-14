@@ -368,16 +368,16 @@ The window gets a few hundred tokens of memory, each piece chosen for this reque
 from pydantic import ValidationError
 
 try:
-    TravellerProfile(**{**profile.model_dump(), "favourite_colour": "blue"}, )
-    print("accepted, but silently ignored:", "favourite_colour" in TravellerProfile.model_fields)
-except ValidationError as e:
+    checked = TravellerProfile(**{**profile.model_dump(), "favourite_colour": "blue"})
+    print("accepted; favourite_colour kept?", "favourite_colour" in checked.model_dump())
+except ValidationError:
     print("rejected")
 ```
 
 Output:
 
 ```
-accepted, but silently ignored: False
+accepted; favourite_colour kept? False
 ```
 
 By default Pydantic **ignores** unknown fields, so the profile stays clean but the information is silently dropped. If you'd rather catch it (so it can go to the fact collection instead), set `model_config = {"extra": "forbid"}` on the class, and the update raises a `ValidationError`. Either way the profile can't grow fields you didn't design.

@@ -32,9 +32,9 @@ Treat the context window as a budget: what to put in it, when to fetch more, how
 
 <a id="m4"></a>
 ### 4. Memory Systems ➕ (6 lessons)
-- Short-Term vs Long-Term Memory · Article ➕
-- Semantic, Episodic and Procedural Memory · Article ➕
-- Memory Files: CLAUDE.md and AGENTS.md · Article ➕
-- Writing, Updating and Forgetting Memories · Article ➕
-- Knowledge Graphs as Agent Memory · Article ➕
-- Lab: An assistant that remembers your preferences · Lab ➕
+- [Short-Term vs Long-Term Memory](04-memory-systems/short-term-vs-long-term-memory.md) · Article ➕ ✍️ *written*
+- [Semantic, Episodic and Procedural Memory](04-memory-systems/semantic-episodic-and-procedural-memory.md) · Article ➕ ✍️ *written*
+- [Memory Files: CLAUDE.md and AGENTS.md](04-memory-systems/memory-files-claude-md-and-agents-md.md) · Article ➕ ✍️ *written*
+- [Writing, Updating and Forgetting Memories](04-memory-systems/writing-updating-and-forgetting-memories.md) · Article ➕ ✍️ *written*
+- [Knowledge Graphs as Agent Memory](04-memory-systems/knowledge-graphs-as-agent-memory.md) · Article ➕ ✍️ *written*
+- [Lab: An assistant that remembers your preferences](04-memory-systems/lab-an-assistant-that-remembers-your-preferences.md) · Lab ➕ ✍️ *written*
