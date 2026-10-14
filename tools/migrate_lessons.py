@@ -8,8 +8,10 @@ must move to the new one. This script compares an old catalog.json with the curr
   deletes the others,
 - rewrites every relative .md link in every lesson, including course.md#mN module anchors.
 
-Run from the repository root:
-    python3 tools/migrate_lessons.py tools/restructure/catalog-2026-10-11.json
+Run from the repository root of a branch written against the old layout, after merging main:
+    python3 tools/migrate_lessons.py tools/restructure/catalog-2026-10-11.json origin/main
+The second argument limits the work to files the branch added or changed, so lessons already in the new layout
+are left alone.
 Then run python3 build_catalog.py . as usual. Running it twice is harmless.
 """
 import json, os, re, subprocess, sys, tempfile
@@ -40,7 +42,16 @@ def layout(catalog):
     return where, mods
 
 
-def main(old_path):
+def changed_since(base):
+    out = subprocess.run(["git", "-C", ROOT, "diff", "--name-only", base, "--", "courses"], check=True,
+                         capture_output=True, text=True).stdout.split()
+    out += subprocess.run(["git", "-C", ROOT, "ls-files", "--others", "--exclude-standard", "courses"], check=True,
+                          capture_output=True, text=True).stdout.split()
+    return set(out)
+
+
+def main(old_path, base=None):
+    only = changed_since(base) if base else None
     old = json.load(open(old_path))
     with tempfile.TemporaryDirectory() as tmp:
         subprocess.run([sys.executable, os.path.join(ROOT, "build_catalog.py"), tmp], check=True, stdout=subprocess.DEVNULL)
@@ -112,6 +123,8 @@ def main(old_path):
     for dp, _, files in os.walk(os.path.join(ROOT, "courses")):
         all_files += [os.path.relpath(os.path.join(dp, f), ROOT) for f in files if f.endswith(".md") and f != "course.md"]
     for src in all_files:
+        if only is not None and src not in only:
+            continue  # already in the new layout
         dst = moves.get(src, src)
         if dst is None:
             continue
@@ -151,10 +164,10 @@ def main(old_path):
     for dp, dirs, files in os.walk(os.path.join(ROOT, "courses"), topdown=False):
         if not os.listdir(dp):
             os.rmdir(dp)
-    fix_front_matter(new)
+    fix_front_matter(new, None if only is None else {moves.get(f) or f for f in only})
 
 
-def fix_front_matter(new):
+def fix_front_matter(new, only=None):
     """Set each lesson's course: and module: lines to where the lesson now lives."""
     info = {}
     for c in new:
@@ -166,16 +179,18 @@ def fix_front_matter(new):
             continue
         for f in os.listdir(d):
             p = os.path.join(d, f)
+            if only is not None and os.path.relpath(p, ROOT) not in only:
+                continue
             text = open(p).read()
             if not text.startswith("---\n"):
                 continue
             head, rest = text[4:].split("\n---\n", 1)
-            head = re.sub(r"(?m)^course: .*$", f"course: {ct}", head)
-            head = re.sub(r"(?m)^module: .*$", f'module: "{mt}"', head)
+            head = re.sub(r"(?m)^course: .*$", lambda _: "course: " + json.dumps(ct, ensure_ascii=False), head)
+            head = re.sub(r"(?m)^module: .*$", lambda _: "module: " + json.dumps(mt, ensure_ascii=False), head)
             new_text = "---\n" + head + "\n---\n" + rest
             if new_text != text:
                 open(p, "w").write(new_text)
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else None)
