@@ -1,6 +1,6 @@
 ---
 title: "Foundation Models"
-course: Generative AI and LLM Foundations
+course: "Generative AI and LLM Foundations"
 module: "2. Fundamentals of Generative AI"
 type: Article
 level: Beginner
@@ -77,7 +77,7 @@ This is called **transfer learning**: knowledge learned on one huge task transfe
 | **Speech models** | Map audio to text and text to audio | Transcription, voice agents, text-to-speech | Speech-recognition and TTS models |
 | **Scientific foundation models** | Learn from protein, molecule, weather or genome data | Drug discovery, forecasting | Research models |
 
-**Embedding models** deserve a special mention because builders use them constantly. They don't generate text; they turn text into a list of numbers so that a computer can measure meaning. You'll see embeddings inside LLMs in [What is a Large Language Model?](../03-how-llms-work/what-is-a-large-language-model.md) and use them for search in [Embeddings and Similarity Search](../../vector-databases-for-ai/course.md#m2).
+**Embedding models** deserve a special mention because builders use them constantly. They don't generate text; they turn text into a list of numbers so that a computer can measure meaning. You'll see embeddings inside LLMs in [What is a Large Language Model?](../03-how-llms-work/what-is-a-large-language-model.md) and use them for search in [Embeddings and Similarity Search](../../retrieval-augmented-generation-rag/course.md#m3).
 
 ### 4. Scale and scaling laws
 

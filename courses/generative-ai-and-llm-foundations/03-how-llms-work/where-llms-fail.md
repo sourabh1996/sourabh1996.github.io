@@ -1,6 +1,6 @@
 ---
 title: "Where LLMs Fail"
-course: Generative AI and LLM Foundations
+course: "Generative AI and LLM Foundations"
 module: "3. How LLMs Work"
 type: Article
 level: Beginner

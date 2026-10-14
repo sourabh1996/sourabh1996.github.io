@@ -1,6 +1,6 @@
 ---
 title: "How This Course Works"
-course: Generative AI and LLM Foundations
+course: "Generative AI and LLM Foundations"
 module: "1. Start Here"
 type: Article
 level: Beginner
@@ -12,8 +12,8 @@ reading_time: 9 min
 > 📚 **Before you start**
 >
 > - No prior knowledge of generative AI is needed. This is the first lesson of the course.
-> - It helps to have met transformers once, in [Sequence Models, Attention and Transformers › Transformers](../../sequence-models-attention-and-transformers/course.md#m5), but every idea you need is re-explained here at an intuitive level.
-> - Basic Python (functions, lists, dictionaries) from [Python Fundamentals](../../python-fundamentals/course.md) is enough for the code.
+> - It helps to have met transformers once, in [Sequence Models, Attention and Transformers › Transformers](../../sequence-models-attention-and-transformers/course.md#m6), but every idea you need is re-explained here at an intuitive level.
+> - Basic Python (functions, lists, dictionaries) from [Python Programming](../../python-programming/course.md) is enough for the code.
 
 ## Introduction
 
@@ -105,7 +105,7 @@ Generative AI moves faster than any other part of software. Model names, prices 
 
 ### "I need to understand the maths of transformers before I can use LLMs well"
 
-You need the **intuitions**, not the equations: that text becomes tokens, tokens become vectors, attention lets every token look at the others, and the model outputs a probability for every possible next token. This course gives you those intuitions with small, concrete examples. The full maths lives in the [Transformers module](../../sequence-models-attention-and-transformers/course.md#m5) of the previous course.
+You need the **intuitions**, not the equations: that text becomes tokens, tokens become vectors, attention lets every token look at the others, and the model outputs a probability for every possible next token. This course gives you those intuitions with small, concrete examples. The full maths lives in the [Transformers module](../../sequence-models-attention-and-transformers/course.md#m6) of the previous course.
 
 ### "Prompting is just typing questions; there's nothing to learn"
 

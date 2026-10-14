@@ -1,6 +1,6 @@
 ---
 title: "How Generative Models Work"
-course: Generative AI and LLM Foundations
+course: "Generative AI and LLM Foundations"
 module: "2. Fundamentals of Generative AI"
 type: Article
 level: Beginner
@@ -12,7 +12,7 @@ reading_time: 30 min
 > 📚 **Before you start**
 >
 > - [What is Generative AI?](what-is-generative-ai.md), where you built a tiny bigram model that generates chai orders.
-> - Basic probability helps: the idea that a probability is a number from 0 to 1 and that the probabilities of all outcomes add up to 1. [Statistics Foundations](../../statistics-foundations/course.md) covers it if you need a refresher.
+> - Basic probability helps: the idea that a probability is a number from 0 to 1 and that the probabilities of all outcomes add up to 1. [Statistics for Data Science](../../statistics-for-data-science/course.md) covers it if you need a refresher.
 
 ## Introduction
 

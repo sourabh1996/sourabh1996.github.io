@@ -1,6 +1,6 @@
 ---
 title: "Lab: Your first LLM API call"
-course: Generative AI and LLM Foundations
+course: "Generative AI and LLM Foundations"
 module: "3. How LLMs Work"
 type: Lab
 level: Beginner
@@ -14,7 +14,7 @@ reading_time: 40 min
 > - [What is a Large Language Model?](what-is-a-large-language-model.md), for what happens inside the model when you call it.
 > - [Tokens and Context Windows](tokens-and-context-windows.md), for token counts, costs and statelessness.
 > - [Temperature and Model Settings](temperature-and-model-settings.md), for `max_tokens`, stop reasons and effort.
-> - Python functions, dictionaries and `try`/`except` from [Python Fundamentals](../../python-fundamentals/course.md).
+> - Python functions, dictionaries and `try`/`except` from [Python Programming](../../python-programming/course.md).
 
 ## What You'll Build
 

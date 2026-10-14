@@ -1,6 +1,6 @@
 ---
 title: "Generative vs Discriminative Models"
-course: Generative AI and LLM Foundations
+course: "Generative AI and LLM Foundations"
 module: "2. Fundamentals of Generative AI"
 type: Article
 level: Beginner
@@ -12,7 +12,7 @@ reading_time: 26 min
 > 📚 **Before you start**
 >
 > - [How Generative Models Work](how-generative-models-work.md), for the idea of a data distribution and sampling from it.
-> - It helps to have trained a classifier once, for example logistic regression in [Machine Learning Fundamentals](../../machine-learning-fundamentals/course.md). If you haven't, a "classifier" is simply a model that reads an input and outputs a label.
+> - It helps to have trained a classifier once, for example logistic regression in [Machine Learning Foundations: Data, EDA and Features](../../machine-learning-foundations-data-eda-and-features/course.md). If you haven't, a "classifier" is simply a model that reads an input and outputs a label.
 
 ## Introduction
 

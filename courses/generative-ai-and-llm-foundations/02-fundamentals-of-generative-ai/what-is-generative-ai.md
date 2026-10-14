@@ -1,6 +1,6 @@
 ---
 title: "What is Generative AI?"
-course: Generative AI and LLM Foundations
+course: "Generative AI and LLM Foundations"
 module: "2. Fundamentals of Generative AI"
 type: Article
 level: Beginner
@@ -12,7 +12,7 @@ reading_time: 24 min
 > 📚 **Before you start**
 >
 > - [How This Course Works](../01-start-here/how-this-course-works.md), for how the course is organised.
-> - No other prior knowledge is needed. If you have met machine learning before (for example in [Machine Learning Fundamentals](../../machine-learning-fundamentals/course.md)), you will recognise some words, but every term is explained here.
+> - No other prior knowledge is needed. If you have met machine learning before (for example in [Machine Learning Foundations: Data, EDA and Features](../../machine-learning-foundations-data-eda-and-features/course.md)), you will recognise some words, but every term is explained here.
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "What is a Large Language Model?"
-course: Generative AI and LLM Foundations
+course: "Generative AI and LLM Foundations"
 module: "3. How LLMs Work"
 type: Article
 level: Beginner
@@ -13,7 +13,7 @@ reading_time: 40 min
 >
 > - [How Generative Models Work](../02-fundamentals-of-generative-ai/how-generative-models-work.md), for autoregressive generation and training as "make real data likely".
 > - [Foundation Models](../02-fundamentals-of-generative-ai/foundation-models.md), for pretraining, scale and adaptation.
-> - The [Transformers module](../../sequence-models-attention-and-transformers/course.md#m5) covers the architecture mathematically. This lesson gives you the intuition, so it is fine to read it first.
+> - The [Transformers module](../../sequence-models-attention-and-transformers/course.md#m6) covers the architecture mathematically. This lesson gives you the intuition, so it is fine to read it first.
 
 ## Introduction
 
@@ -108,7 +108,7 @@ similarity(chai, samosa) = 0.50
 similarity(chai, train ) = 0.07
 ```
 
-"chai" and "coffee" point in almost exactly the same direction (0.996, which rounds to 1.00); "chai" is further from "samosa" and far from "train". Nobody tells a real model what each dimension means; training discovers whatever arrangement helps predict the next token, and similar words end up in similar places because they appear in similar contexts. This is the same idea behind the embedding models used for search in [Embeddings and Similarity Search](../../vector-databases-for-ai/course.md#m2).
+"chai" and "coffee" point in almost exactly the same direction (0.996, which rounds to 1.00); "chai" is further from "samosa" and far from "train". Nobody tells a real model what each dimension means; training discovers whatever arrangement helps predict the next token, and similar words end up in similar places because they appear in similar contexts. This is the same idea behind the embedding models used for search in [Embeddings and Similarity Search](../../retrieval-augmented-generation-rag/course.md#m3).
 
 The model also needs to know **word order** ("dog bites man" versus "man bites dog"), so it adds information about each token's **position**. Modern LLMs mostly use a technique called rotary position embeddings, which encodes the relative distance between tokens.
 

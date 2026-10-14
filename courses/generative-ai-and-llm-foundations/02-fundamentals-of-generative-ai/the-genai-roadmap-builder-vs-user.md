@@ -1,6 +1,6 @@
 ---
 title: "The GenAI Roadmap: Builder vs User"
-course: Generative AI and LLM Foundations
+course: "Generative AI and LLM Foundations"
 module: "2. Fundamentals of Generative AI"
 type: Article
 level: Beginner
@@ -144,8 +144,8 @@ flowchart TB
 ```
 
 - **User track**: this course alone makes you a much stronger user. Modules 3 and 4 are the most useful.
-- **Application-builder track (most learners)**: continue to [Embeddings and Similarity Search](../../vector-databases-for-ai/course.md#m2), [Retrieval-Augmented Generation](../../retrieval-augmented-generation-rag/course.md), [Agentic AI Fundamentals](../../agentic-ai-fundamentals/course.md) and [LangGraph Fundamentals](../../langgraph-fundamentals/course.md), then the production topics such as [Agent Evals, Observability and Reliability](../../agent-evals-observability-and-reliability/course.md).
-- **Model-builder track**: go deep on [Deep Learning with PyTorch](../../deep-learning-with-pytorch/course.md) and the [Transformers module](../../sequence-models-attention-and-transformers/course.md#m5), then study fine-tuning and serving.
+- **Application-builder track (most learners)**: continue to [Embeddings and Similarity Search](../../retrieval-augmented-generation-rag/course.md#m3), [Retrieval-Augmented Generation](../../retrieval-augmented-generation-rag/course.md), [Agentic AI Fundamentals](../../agentic-ai-fundamentals/course.md) and [LangGraph Complete Guide](../../langgraph-complete-guide/course.md), then the production topics such as [Agent Evals, Observability and Reliability](../../agent-evals-observability-and-reliability/course.md).
+- **Model-builder track**: go deep on [Deep Learning with PyTorch](../../deep-learning-with-pytorch/course.md) and the [Transformers module](../../sequence-models-attention-and-transformers/course.md#m6), then study fine-tuning and serving.
 
 ### 6. Skills that matter on every path
 
