@@ -63,7 +63,8 @@ cfg = {"configurable": {"thread_id": "old-1"}}
 with warnings.catch_warnings(record=True) as caught:
     warnings.simplefilter("always")
     out = old.invoke({"payee": "Sai Electricals", "amount": 25000.0, "log": []}, cfg)
-print(caught[0].category.__name__, "-", str(caught[0].message).split(".")[0])
+dep = next(w for w in caught if issubclass(w.category, DeprecationWarning))  # skip unrelated warnings
+print(dep.category.__name__, "-", str(dep.message).split(".")[0])
 print("paused with:", out["__interrupt__"][0].value, "| next:", old.get_state(cfg).next)
 ```
 
