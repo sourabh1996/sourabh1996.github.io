@@ -1,7 +1,7 @@
 # Streaming Data with Kafka
 
 **Advanced · 3 modules · 13 lessons · ~6 hrs**  
-Track 5 · Data Engineering · ➕ Added beyond the bootcamp syllabus
+Track 8 · Data Engineering · ➕ Added beyond the bootcamp syllabus
 
 Move and process events in real time: Kafka, delivery guarantees, schemas, CDC with Debezium and stream processing with Flink and Spark.
 

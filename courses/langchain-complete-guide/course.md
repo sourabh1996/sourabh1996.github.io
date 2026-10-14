@@ -1,12 +1,12 @@
 # LangChain Complete Guide
 
-**Intermediate · 8 modules · 39 lessons · ~17 hrs**  
-Track 7 · Generative AI · Bootcamp syllabus module(s): 22
+**Intermediate · 8 modules · 37 lessons · ~17 hrs**  
+Track 6 · Generative AI · Bootcamp syllabus module(s): 22
 
 Build LLM apps with LangChain: models, prompts, structured output, parsers, chains, runnables, tools, tool calling and agents.
 
 **Finish first:** [Generative AI and LLM Foundations](../generative-ai-and-llm-foundations/course.md)  
-**Unlocks:** [Retrieval-Augmented Generation (RAG)](../retrieval-augmented-generation-rag/course.md), [LangGraph Fundamentals](../langgraph-fundamentals/course.md), [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md)
+**Unlocks:** [Retrieval-Augmented Generation (RAG)](../retrieval-augmented-generation-rag/course.md), [LangGraph Complete Guide](../langgraph-complete-guide/course.md)
 
 ## Course content
 
@@ -38,7 +38,7 @@ Build LLM apps with LangChain: models, prompts, structured output, parsers, chai
 
 <a id="m5"></a>
 ### 5. Structured Output and Output Parsers (7 lessons)
-> **Before you start:** [Generative AI and LLM Foundations › Prompting and Structured Output](../generative-ai-and-llm-foundations/course.md#m4), [Production APIs with FastAPI › Validation and Schemas](../production-apis-with-fastapi/course.md#m4)
+> **Before you start:** [Generative AI and LLM Foundations › Prompting and Structured Output](../generative-ai-and-llm-foundations/course.md#m4), [APIs and Apps: FastAPI, Streamlit and Docker › Validation and Schemas](../apis-and-apps-fastapi-streamlit-and-docker/course.md#m4)
 
 - Why Structured Output Matters · Article
 - Structured Output with TypedDict · Article
@@ -68,11 +68,9 @@ Build LLM apps with LangChain: models, prompts, structured output, parsers, chai
 - Lab: Currency converter with tool calling · Lab
 
 <a id="m8"></a>
-### 8. Agents, Monitoring and Deployment (5 lessons)
-> **Before you start:** [Production APIs with FastAPI › APIs and FastAPI Fundamentals](../production-apis-with-fastapi/course.md#m2)
+### 8. Monitoring and Deployment (3 lessons)
+> **Before you start:** [APIs and Apps: FastAPI, Streamlit and Docker › APIs and FastAPI Fundamentals](../apis-and-apps-fastapi-streamlit-and-docker/course.md#m2)
 
-- LangChain Agents · Article
-- ReAct Agents with AgentExecutor · Article
 - LangSmith Monitoring · Article
 - LangServe Deployment · Article
 - Lab: Deploy a chain with LangServe · Lab

@@ -1,12 +1,12 @@
 # Tools, Agent Skills and Code Execution
 
 **Intermediate · 4 modules · 18 lessons · ~8 hrs**  
-Track 8 · Agentic AI · ➕ Added beyond the bootcamp syllabus
+Track 7 · Agentic AI · ➕ Added beyond the bootcamp syllabus
 
 Give agents capabilities the right way: tools models use well, tool search for large toolsets, code execution, and Agent Skills (SKILL.md).
 
-**Finish first:** [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md), [Context Engineering and Agent Memory](../context-engineering-and-agent-memory/course.md)  
-**Unlocks:** [Coding Agents and Harness Engineering](../coding-agents-and-harness-engineering/course.md), [Agent Security and Safety](../agent-security-and-safety/course.md)
+**Finish first:** [Context Engineering and Agent Memory](../context-engineering-and-agent-memory/course.md)  
+**Unlocks:** [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md), [Coding Agents and Harness Engineering](../coding-agents-and-harness-engineering/course.md), [Agent Security and Safety](../agent-security-and-safety/course.md)
 
 ## Course content
 

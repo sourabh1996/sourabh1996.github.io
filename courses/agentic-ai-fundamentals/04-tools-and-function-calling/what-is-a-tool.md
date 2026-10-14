@@ -107,7 +107,7 @@ Shimla: 54°F, clear skies
 ['city']
 ```
 
-The `input_schema` is written in **JSON Schema**, a standard way to describe the shape of JSON data. Almost every model provider uses it for tools, so learning it once pays off everywhere. You've met the same idea in [Pydantic Models](../../production-apis-with-fastapi/course.md#m4), which can generate JSON Schema for you.
+The `input_schema` is written in **JSON Schema**, a standard way to describe the shape of JSON data. Almost every model provider uses it for tools, so learning it once pays off everywhere. You've met the same idea in [Pydantic Models](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m4), which can generate JSON Schema for you.
 
 ### 3. How a model "uses" a tool
 

@@ -197,7 +197,7 @@ flowchart LR
     C -->|feedback| G
 ```
 
-This is also called the **evaluator-optimizer** or **generator-critic** pattern. You'll build it as a looping graph in LangGraph (a post generator with an evaluator loop) in [LangGraph Fundamentals](../../langgraph-fundamentals/course.md#m3).
+This is also called the **evaluator-optimizer** or **generator-critic** pattern. You'll build it as a looping graph in LangGraph (a post generator with an evaluator loop) in [LangGraph Complete Guide](../../langgraph-complete-guide/course.md#m3).
 
 Here's a from-scratch version. The task: write a one-line product tagline under 60 characters that mentions battery life and doesn't use the word "best". The **critic is plain code** here (rule checks), which is a great practice whenever criteria can be checked mechanically:
 
@@ -251,7 +251,7 @@ round 3: '14 hours of battery in a 1.2 kg body. Study anywhere.'
 Three things make reflection work well:
 
 - **Specific feedback.** "Too long (66 chars, max 60)" is actionable; "could be better" isn't.
-- **Objective checks where possible.** Tests, linters, schema validators and word counts are cheap, deterministic critics. Use a model as critic only for things code can't judge (tone, accuracy against a source, helpfulness), ideally with a clear rubric ("LLM-as-a-judge", covered in [RAG Evaluation](../../enterprise-llm-systems/course.md#m2)).
+- **Objective checks where possible.** Tests, linters, schema validators and word counts are cheap, deterministic critics. Use a model as critic only for things code can't judge (tone, accuracy against a source, helpfulness), ideally with a clear rubric ("LLM-as-a-judge", covered in [RAG Evaluation](../../retrieval-augmented-generation-rag/course.md#m9)).
 - **A round limit.** Some outputs never satisfy a critic. Stop after a few rounds and return the best attempt or ask a human.
 
 ### 6. Reflection on actions, not just text

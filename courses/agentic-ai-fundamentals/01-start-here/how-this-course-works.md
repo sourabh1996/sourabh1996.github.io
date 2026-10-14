@@ -71,7 +71,7 @@ Every article on this platform follows the same shape, so you always know where 
 
 You do **not** need a machine learning background. You do need:
 
-- **Basic Python.** Functions, lists, dictionaries, loops and `if` statements. If any of those feel shaky, work through [Python Fundamentals](../../python-fundamentals/course.md) first.
+- **Basic Python.** Functions, lists, dictionaries, loops and `if` statements. If any of those feel shaky, work through [Python Programming](../../python-programming/course.md) first.
 - **A rough idea of what a large language model (LLM) is.** You should know that it takes text in and produces text out, one token at a time. [Generative AI and LLM Foundations](../../generative-ai-and-llm-foundations/course.md) covers this properly.
 - **Python 3.10 or newer** installed on your computer, and a code editor such as VS Code.
 
@@ -95,7 +95,7 @@ Not for most of this course. The early lessons use a **pretend model**, a normal
 
 ### Misconception 1: "I need to learn a framework like LangChain or LangGraph first"
 
-The opposite. If you start with a framework, you learn its vocabulary without understanding what it does for you. Then the first time something breaks, you're stuck. This course builds every piece by hand first. The [LangGraph Fundamentals](../../langgraph-fundamentals/course.md) course comes after this one for exactly that reason.
+The opposite. If you start with a framework, you learn its vocabulary without understanding what it does for you. Then the first time something breaks, you're stuck. This course builds every piece by hand first. The [LangGraph Complete Guide](../../langgraph-complete-guide/course.md) comes after this one for exactly that reason.
 
 ### Misconception 2: "Agents are only for experts"
 
