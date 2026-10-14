@@ -295,7 +295,7 @@ Up to version `2025-11-25`, a client had to open every connection with an `initi
 | Sessions on HTTP | `Mcp-Session-Id` header | None |
 | Server asks client a question | Server sends its own request | Server returns `input_required`, client retries |
 
-Why the change? Stateless servers are much easier to run behind load balancers, scale horizontally and restart without breaking users. You'll see both styles in the wild for a while, because many deployed servers still speak the older versions. [Initialisation: Version and Capability Negotiation](../course.md#m4) covers how clients handle both.
+Why the change? Stateless servers are much easier to run behind load balancers, scale horizontally and restart without breaking users. You'll see both styles in the wild for a while, because many deployed servers still speak the older versions. [Initialisation: Version and Capability Negotiation](../04-the-mcp-lifecycle/initialisation-version-and-capability-negotiation.md) covers how clients handle both.
 
 ### 8. What MCP is not
 
@@ -305,7 +305,7 @@ Why the change? Stateless servers are much easier to run behind load balancers, 
 | An agent framework | It has no loop, planner or memory; frameworks *use* MCP to get tools |
 | A replacement for REST APIs | Servers usually *wrap* existing APIs and databases |
 | A security boundary by itself | It gives hooks (consent, OAuth); the host and server must enforce them |
-| Agent-to-agent messaging | That's A2A's job; MCP connects an agent to tools and data. See [Agent-to-Agent (A2A) Protocol](../course.md#m5) |
+| Agent-to-agent messaging | That's A2A's job; MCP connects an agent to tools and data. A2A is taught in [Multi-Agent Systems and Agent Protocols › The A2A Protocol](../../multi-agent-systems-and-agent-protocols/course.md#m3) |
 
 ---
 

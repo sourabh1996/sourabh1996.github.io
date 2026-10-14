@@ -131,7 +131,7 @@ A resource is data with a **URI**. It might be a real file (`file:///home/asha/n
 
 Annotations help the host decide what to include: `audience` (`"user"`, `"assistant"` or both), `priority` (0 to 1), `lastModified`. A missing resource returns JSON-RPC error `-32602` (it was `-32002` in older versions, so clients still accept both).
 
-Clients can follow changes by opening a **subscription stream** with `subscriptions/listen` and naming resource URIs; the server then sends `notifications/resources/updated` when they change. You'll see the full mechanics in [Operation and Shutdown](../course.md#m4).
+Clients can follow changes by opening a **subscription stream** with `subscriptions/listen` and naming resource URIs; the server then sends `notifications/resources/updated` when they change. You'll see the full mechanics in [Operation and Shutdown](../04-the-mcp-lifecycle/operation-and-shutdown.md).
 
 ### 4. Prompts in depth
 

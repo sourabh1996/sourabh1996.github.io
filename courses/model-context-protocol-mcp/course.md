@@ -32,8 +32,8 @@ The standard way to plug tools and data into AI apps: why MCP exists, its archit
 
 <a id="m4"></a>
 ### 4. The MCP Lifecycle (2 lessons)
-- Initialisation: Version and Capability Negotiation · Article
-- Operation and Shutdown · Article
+- [Initialisation: Version and Capability Negotiation](04-the-mcp-lifecycle/initialisation-version-and-capability-negotiation.md) · Article ✍️ *written*
+- [Operation and Shutdown](04-the-mcp-lifecycle/operation-and-shutdown.md) · Article ✍️ *written*
 
 <a id="m5"></a>
 ### 5. Building with MCP (8 lessons)

@@ -34,7 +34,7 @@ By the end of this course you will be able to:
 - **Understand the lifecycle**: how a client and server agree on a version and capabilities, how they work, and how they shut down. Both the modern per-request model and the older `initialize` handshake.
 - **Build servers and clients** in Python with the official SDK and FastMCP, deploy a remote server, and wrap LangChain tools as an MCP server.
 - **Run MCP in production**: OAuth 2.1 authorization, MCP Apps (interactive UI), registries, gateways and the Docker MCP Toolkit.
-- **Place MCP among other protocols**, especially Agent-to-Agent (A2A).
+- **Know where MCP stops**: it connects an agent to tools and data. Agent-to-agent messaging (the A2A protocol) is a different job, taught later in [Multi-Agent Systems and Agent Protocols](../../multi-agent-systems-and-agent-protocols/course.md#m3).
 
 ### The course at a glance
 

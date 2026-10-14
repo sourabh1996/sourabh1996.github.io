@@ -347,4 +347,4 @@ Listing only makes it available. The description still has to convince the model
 
 ---
 
-**Up next:** [Initialisation: Version and Capability Negotiation](../course.md#m4)
+**Up next:** [Initialisation: Version and Capability Negotiation](../04-the-mcp-lifecycle/initialisation-version-and-capability-negotiation.md)
