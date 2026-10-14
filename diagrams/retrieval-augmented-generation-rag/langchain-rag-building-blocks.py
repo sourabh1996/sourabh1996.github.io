@@ -1,0 +1,40 @@
+# Module 3's central idea: the LangChain classes that make up a RAG pipeline, and the methods that connect them.
+SPEC = {
+    "title": "RAG building blocks in LangChain",
+    "accent": "blue",
+    "width": 1100, "height": 640,
+    "bands": [
+        {"y": 80, "h": 220, "label": "Index", "color": "blue"},
+        {"y": 320, "h": 300, "label": "Query", "color": "green"},
+    ],
+    "groups": [
+        {"x": 470, "y": 345, "w": 290, "h": 250, "label": "Smarter retrievers", "color": "green"},
+    ],
+    "nodes": {
+        "sources": {"x": 160, "y": 115, "w": 135, "h": 150, "icon": "📂", "label": "Sources", "sub": "PDF · web\nCSV · folders\nYouTube", "color": "gray"},
+        "loader": {"x": 315, "y": 115, "w": 135, "h": 150, "icon": "📥", "label": "Loader", "sub": "PyPDFLoader\nWebBaseLoader\n.load() / .lazy_load()", "color": "blue"},
+        "docs": {"x": 470, "y": 115, "w": 135, "h": 150, "icon": "📄", "label": "Document", "sub": "page_content\n+ metadata", "color": "blue"},
+        "splitter": {"x": 625, "y": 115, "w": 135, "h": 150, "icon": "✂️", "label": "Splitter", "sub": "Recursive\nCharacterText\nSplitter", "color": "blue"},
+        "embed": {"x": 780, "y": 115, "w": 135, "h": 150, "icon": "🔢", "label": "Embeddings", "sub": "embed_documents\nembed_query", "color": "blue"},
+        "store": {"x": 935, "y": 115, "w": 135, "h": 150, "icon": "🗄️", "label": "VectorStore", "sub": "add_documents\nsimilarity_search", "color": "blue"},
+        "question": {"x": 160, "y": 420, "w": 135, "h": 110, "icon": "❓", "label": "Question", "sub": "a string", "color": "green"},
+        "retriever": {"x": 315, "y": 420, "w": 135, "h": 110, "icon": "🔎", "label": "Retriever", "sub": "as_retriever()\n.invoke(question)", "color": "green"},
+        "mmr": {"x": 490, "y": 370, "w": 250, "h": 60, "label": "🎯 MMR: relevant + diverse", "color": "green", "size": 14},
+        "multi": {"x": 490, "y": 445, "w": 250, "h": 60, "label": "🔀 Multi-query: rephrase", "color": "green", "size": 14},
+        "comp": {"x": 490, "y": 520, "w": 250, "h": 60, "label": "🗜️ Compression: trim", "color": "green", "size": 14},
+        "results": {"x": 785, "y": 420, "w": 130, "h": 110, "icon": "📑", "label": "list of\nDocuments", "color": "green"},
+        "llm": {"x": 940, "y": 420, "w": 130, "h": 110, "icon": "🧠", "label": "Prompt\n+ LLM", "color": "green"},
+    },
+    "edges": [
+        {"from": "sources", "to": "loader"},
+        {"from": "loader", "to": "docs"},
+        {"from": "docs", "to": "splitter"},
+        {"from": "splitter", "to": "embed"},
+        {"from": "embed", "to": "store"},
+        {"from": "question", "to": "retriever"},
+        {"from": "store", "to": "retriever", "from_side": "bottom", "to_side": "top", "via": [(1002, 300), (382, 300)], "label": "as_retriever()", "label_at": (700, 300)},
+        {"from": "retriever", "to": "multi"},
+        {"from": "multi", "to": "results"},
+        {"from": "results", "to": "llm"},
+    ],
+}
