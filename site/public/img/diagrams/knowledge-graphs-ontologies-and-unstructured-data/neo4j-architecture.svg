@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 750" width="1080" height="750" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Inside Neo4j: from a Cypher query to stored graph records">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1078" height="748" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Inside Neo4j: from a Cypher query to stored graph records</text>
+<rect x="20" y="80" width="1040" height="130" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="90" width="110" height="110" rx="10" fill="#2f5fb3"/>
+<text x="85.0" y="153.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Clients</text>
+<rect x="20" y="240" width="1040" height="315" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="250" width="110" height="295" rx="10" fill="#5b3fa0"/>
+<text x="85.0" y="393.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Neo4j</text><text x="85.0" y="421.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">DBMS</text>
+<rect x="20" y="585" width="1040" height="120" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="595" width="110" height="100" rx="10" fill="#1f766d"/>
+<text x="85.0" y="641.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Run it</text><text x="85.0" y="668.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">on</text>
+<path d="M330.0,370.0 L360.0,370.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M540.0,370.0 L570.0,370.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M660.0,410.0 L660.0,458.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="671.0" y="426.0" width="78.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="710" y="440.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">find start</text>
+<path d="M660.0,410.0 L660.0,434.0 L345.0,434.0 L345.0,458.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="414.5" y="420.0" width="71.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="450" y="434.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">hop along</text>
+<rect x="150" y="100" width="190" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="245.0" y="138.0" font-size="28" text-anchor="middle">🖥️</text>
+<text x="245.0" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Neo4j Browser</text>
+<text x="245.0" y="181.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">type Cypher, see graphs</text>
+<rect x="360" y="100" width="190" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="455.0" y="138.0" font-size="28" text-anchor="middle">🐍</text>
+<text x="455.0" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Python driver</text>
+<text x="455.0" y="181.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">your application</text>
+<rect x="570" y="100" width="190" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="665.0" y="138.0" font-size="28" text-anchor="middle">🤖</text>
+<text x="665.0" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LLM agent</text>
+<text x="665.0" y="181.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">text-to-Cypher tool</text>
+<rect x="780" y="100" width="190" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="875.0" y="138.0" font-size="28" text-anchor="middle">🔭</text>
+<text x="875.0" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Explore / BI tools</text>
+<text x="875.0" y="181.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">visual search</text>
+<rect x="150" y="262" width="820" height="46" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="560.0" y="290.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Bolt protocol (port 7687)  ·  HTTP API (port 7474)</text>
+<rect x="150" y="330" width="180" height="80" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="240.0" y="363.0" font-size="28" text-anchor="middle">📝</text>
+<text x="240.0" y="386.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Parse</text>
+<text x="240.0" y="406.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Cypher text to a tree</text>
+<rect x="360" y="330" width="180" height="80" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="450.0" y="363.0" font-size="28" text-anchor="middle">🧭</text>
+<text x="450.0" y="386.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Plan</text>
+<text x="450.0" y="406.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">pick indexes and order</text>
+<rect x="570" y="330" width="180" height="80" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="660.0" y="363.0" font-size="28" text-anchor="middle">⚙️</text>
+<text x="660.0" y="386.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Run</text>
+<text x="660.0" y="406.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">expand along relationships</text>
+<rect x="780" y="330" width="190" height="80" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="875.0" y="363.0" font-size="28" text-anchor="middle">🔒</text>
+<text x="875.0" y="386.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Transactions</text>
+<text x="875.0" y="406.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">ACID, write-ahead log</text>
+<rect x="150" y="458" width="390" height="80" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="345.0" y="491.0" font-size="28" text-anchor="middle">🗄️</text>
+<text x="345.0" y="514.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Graph storage</text>
+<text x="345.0" y="534.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">nodes · relationships · properties, neighbours linked directly</text>
+<rect x="570" y="458" width="180" height="80" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="660.0" y="491.0" font-size="28" text-anchor="middle">🔎</text>
+<text x="660.0" y="514.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Indexes</text>
+<text x="660.0" y="534.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">range, text, full-text, vector</text>
+<rect x="780" y="458" width="190" height="80" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="875.0" y="491.0" font-size="28" text-anchor="middle">🧩</text>
+<text x="875.0" y="514.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Plugins</text>
+<text x="875.0" y="534.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">APOC, Graph Data Science</text>
+<rect x="150" y="605" width="190" height="80" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="245.0" y="638.0" font-size="28" text-anchor="middle">💻</text>
+<text x="245.0" y="661.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Neo4j Desktop</text>
+<text x="245.0" y="681.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">on your laptop</text>
+<rect x="360" y="605" width="190" height="80" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="455.0" y="638.0" font-size="28" text-anchor="middle">🐳</text>
+<text x="455.0" y="661.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Docker image</text>
+<text x="455.0" y="681.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">one command</text>
+<rect x="570" y="605" width="190" height="80" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="665.0" y="638.0" font-size="28" text-anchor="middle">☁️</text>
+<text x="665.0" y="661.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">AuraDB</text>
+<text x="665.0" y="681.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">managed cloud, free tier</text>
+<rect x="780" y="605" width="190" height="80" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="875.0" y="638.0" font-size="28" text-anchor="middle">🏢</text>
+<text x="875.0" y="661.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Self-managed cluster</text>
+<text x="875.0" y="681.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Enterprise Edition</text>
+<text x="540" y="732.0" font-size="13.5" font-weight="500" fill="#57606a" text-anchor="middle">Every client sends Cypher over Bolt. The planner chooses a starting point (often an index), then the runtime hops from node to node.</text>
+</svg>
