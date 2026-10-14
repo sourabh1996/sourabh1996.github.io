@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 720" width="1100" height="720" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="How an agent decides its next step">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="718" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#9a6412"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">How an agent decides its next step</text>
+<rect x="30" y="95" width="280" height="440" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="81.3" y="80" width="177.4" height="30" rx="15" fill="#2f5fb3"/>
+<text x="170.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">What the model sees</text>
+<rect x="770" y="95" width="300" height="440" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="835.6" y="80" width="168.79999999999998" height="30" rx="15" fill="#2e7d4f"/>
+<text x="920.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">What it can choose</text>
+<rect x="30" y="575" width="1040" height="120" rx="14" fill="none" stroke="#e0b25c" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="302.20000000000005" y="560" width="495.59999999999997" height="30" rx="15" fill="#9a6412"/>
+<text x="550.0" y="580.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">What the harness (your code) checks before anything runs</text>
+<path d="M285.0,170.0 L400.0,330.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M285.0,280.0 L400.0,330.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M285.0,390.0 L400.0,330.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M670.0,330.0 L795.0,170.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M670.0,330.0 L795.0,280.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M670.0,330.0 L795.0,385.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M670.0,330.0 L795.0,481.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="55" y="125" width="230" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="170.0" y="163.0" font-size="28" text-anchor="middle">📜</text>
+<text x="170.0" y="186.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Instructions</text>
+<text x="170.0" y="206.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">role, rules, when to stop</text>
+<rect x="55" y="235" width="230" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="170.0" y="273.0" font-size="28" text-anchor="middle">🧰</text>
+<text x="170.0" y="296.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Tool menu</text>
+<text x="170.0" y="316.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">name + description + inputs</text>
+<rect x="55" y="345" width="230" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="170.0" y="383.0" font-size="28" text-anchor="middle">🗒️</text>
+<text x="170.0" y="406.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">History so far</text>
+<text x="170.0" y="426.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">goal, past actions, results</text>
+<rect x="55" y="455" width="230" height="62" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="170.0" y="491.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">➕ Retrieved facts, memory</text>
+<rect x="400" y="230" width="270" height="200" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="535.0" y="307.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="535.0" y="330.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">The model</text>
+<text x="535.0" y="350.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">reads everything, then writes</text><text x="535.0" y="365.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">the most likely good next step:</text><text x="535.0" y="381.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">either words or a tool call</text>
+<rect x="795" y="125" width="250" height="90" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="920.0" y="163.0" font-size="28" text-anchor="middle">🛠️</text>
+<text x="920.0" y="186.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Call a tool</text>
+<text x="920.0" y="206.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">search_books(title=&quot;Godan&quot;)</text>
+<rect x="795" y="235" width="250" height="90" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="920.0" y="273.0" font-size="28" text-anchor="middle">🙋</text>
+<text x="920.0" y="296.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Ask the user</text>
+<text x="920.0" y="316.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;Which branch, Andheri or Thane?&quot;</text>
+<rect x="795" y="345" width="250" height="80" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="920.0" y="386.0" font-size="28" text-anchor="middle">🗺️</text>
+<text x="920.0" y="409.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Write or update a plan</text>
+<rect x="795" y="445" width="250" height="72" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="920.0" y="486.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">✅ Answer and stop</text>
+<rect x="60" y="610" width="220" height="66" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="170.0" y="648.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">🛡️ Is this tool allowed?</text>
+<rect x="310" y="610" width="230" height="66" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="425.0" y="648.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">🙋 Needs human approval?</text>
+<rect x="570" y="610" width="230" height="66" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="685.0" y="648.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">⏱️ Steps or money left?</text>
+<rect x="830" y="610" width="215" height="66" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="937.5" y="648.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">🔍 Inputs valid?</text>
+<text x="535" y="470.0" font-size="15" font-weight="700" fill="#9a6412" text-anchor="middle">The model decides WHAT to do.</text>
+<text x="535" y="492.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Your loop decides WHEN to ask it and WHETHER it may run.</text>
+</svg>

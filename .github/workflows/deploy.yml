@@ -10,8 +10,10 @@ permissions:
   contents: read
   pages: write
   id-token: write
+# One run per branch or PR: a new push cancels that branch's older run, but pull request
+# checks never cancel each other or the deploy from main.
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: true
 jobs:
   build:

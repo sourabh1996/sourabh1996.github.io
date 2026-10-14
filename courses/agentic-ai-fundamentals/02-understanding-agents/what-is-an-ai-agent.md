@@ -15,7 +15,7 @@ breadcrumbs: [Catalog, Agentic AI Fundamentals, Understanding Agents]
 >
 > This article assumes you know what a large language model is and roughly how it produces text. If not, read these first:
 > - [How LLMs Work](../../generative-ai-and-llm-foundations/course.md#m3) (Generative AI and LLM Foundations)
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals), for the code in this article
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming), for the code in this article
 
 ## Introduction
 
@@ -90,7 +90,7 @@ No matter how complex an agent looks, from a tiny script to a coding agent with 
 | **Tools** | Functions the agent can ask to run | The hands |
 | **Loop** | Code that repeats decide → act → observe until done | The heartbeat |
 
-Most real agents add a fifth part, **memory**, so they can remember earlier steps and past conversations. You will build it in the *LangGraph State and Memory* course.
+Most real agents add a fifth part, **memory**, so they can remember earlier steps and past conversations. You will build it in the *LangGraph Complete Guide* course.
 
 ```mermaid
 flowchart TB
@@ -327,4 +327,4 @@ Common follow-ups:
 
 ---
 
-**Up next:** *Agentic AI vs Traditional AI Agents*
+**Up next:** [Agentic AI vs Traditional AI Agents](agentic-ai-vs-traditional-ai-agents.md)
