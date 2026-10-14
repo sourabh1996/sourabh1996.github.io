@@ -1,0 +1,42 @@
+# Pinecone's hierarchy (project, index, namespaces, documents) and the serverless storage/compute split.
+SPEC = {
+    "title": "How Pinecone organises your data",
+    "accent": "amber",
+    "width": 1100, "height": 680,
+    "groups": [
+        {"x": 30, "y": 95, "w": 560, "h": 470, "label": "What you create", "color": "amber"},
+        {"x": 620, "y": 95, "w": 450, "h": 470, "label": "What Pinecone runs for you", "color": "gray"},
+    ],
+    "nodes": {
+        "proj": {"x": 55, "y": 130, "w": 510, "h": 80, "icon": "🔑", "label": "Project + API key",
+                 "sub": "PINECONE_API_KEY in your environment", "color": "amber"},
+        "idx": {"x": 55, "y": 235, "w": 510, "h": 95, "icon": "📚", "label": "Index: help-centre",
+                "sub": "schema: dense vector (dim, metric) + text fields\ncloud + region, its own host URL", "color": "amber"},
+        "ns1": {"x": 55, "y": 355, "w": 160, "h": 85, "label": "acme", "sub": "namespace", "color": "teal", "size": 15},
+        "ns2": {"x": 230, "y": 355, "w": 160, "h": 85, "label": "zomato", "sub": "namespace", "color": "teal", "size": 15},
+        "ns3": {"x": 405, "y": 355, "w": 160, "h": 85, "label": "__default__", "sub": "namespace", "color": "teal", "size": 15},
+        "doc": {"x": 55, "y": 460, "w": 510, "h": 85, "icon": "📄", "label": "Document",
+                "sub": "_id, embedding, text, topic, lang ... (40 KB metadata)", "color": "blue"},
+        "api": {"x": 645, "y": 130, "w": 400, "h": 80, "icon": "🌐", "label": "API endpoint per index",
+                "sub": "upsert, search, fetch, update, delete", "color": "gray"},
+        "comp": {"x": 645, "y": 235, "w": 400, "h": 95, "icon": "⚙️", "label": "Query compute",
+                 "sub": "scales with traffic, caches hot data", "color": "purple"},
+        "store": {"x": 645, "y": 355, "w": 400, "h": 85, "icon": "🪣", "label": "Object storage",
+                  "sub": "durable home of every namespace", "color": "green"},
+        "bill": {"x": 645, "y": 460, "w": 400, "h": 85, "icon": "🧾", "label": "Usage-based billing",
+                 "sub": "storage + reads + writes", "color": "coral"},
+    },
+    "edges": [
+        {"from": "proj", "to": "idx", "solid": True},
+        {"from": "idx", "to": "ns1", "solid": True},
+        {"from": "idx", "to": "ns2", "solid": True},
+        {"from": "idx", "to": "ns3", "solid": True},
+        {"from": "ns1", "to": "doc"},
+        {"from": "api", "to": "comp", "solid": True},
+        {"from": "comp", "to": "store", "solid": True},
+    ],
+    "notes": [
+        {"x": 550, "y": 610, "text": "A search runs inside one namespace, so one namespace per customer keeps tenants apart and fast.", "size": 14, "weight": 600, "color": "#1f2328"},
+        {"x": 550, "y": 640, "text": "There is nothing to install or operate: no servers, shards or replicas to size.", "size": 13},
+    ],
+}
