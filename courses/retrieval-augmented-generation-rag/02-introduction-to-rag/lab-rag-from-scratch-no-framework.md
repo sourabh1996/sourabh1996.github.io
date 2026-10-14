@@ -306,7 +306,7 @@ Output:
 11 records reloaded, same results: True
 ```
 
-This exact-search index is fine for tens of thousands of chunks. Beyond that you'd switch to an approximate index (HNSW, IVF) in a vector database, which is what [Vector Stores in LangChain](../course.md#m5) wraps.
+This exact-search index is fine for tens of thousands of chunks. Beyond that you'd switch to an approximate index (HNSW, IVF) in a vector database, which is what [Vector Stores in LangChain](../05-rag-building-blocks-in-langchain/vector-stores-in-langchain.md) wraps.
 
 ## Step 5: The prompt builder
 

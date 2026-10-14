@@ -534,4 +534,4 @@ Overlap helps sentences that straddle a boundary. It doesn't tell a chunk which 
 
 ---
 
-**Up next:** [Vector Stores in LangChain](../course.md#m5)
+**Up next:** [Vector Stores in LangChain](vector-stores-in-langchain.md)
