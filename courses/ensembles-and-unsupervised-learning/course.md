@@ -1,11 +1,11 @@
 # Ensembles and Unsupervised Learning
 
-**Intermediate · 4 modules · 17 lessons · ~8 hrs**  
+**Intermediate · 5 modules · 22 lessons · ~10 hrs**  
 Track 3 · Machine Learning · Bootcamp syllabus module(s): 13
 
-Boost accuracy with voting, bagging, random forests, AdaBoost, gradient boosting, XGBoost and stacking, then learn clustering.
+Boost accuracy with voting, bagging, random forests, boosting and stacking, then find structure without labels: clustering and PCA.
 
-**Finish first:** [Machine Learning Fundamentals](../machine-learning-fundamentals/course.md)  
+**Finish first:** [Supervised Learning](../supervised-learning/course.md)  
 **Unlocks:** Nothing, this is a final course.
 
 ## Course content
@@ -16,7 +16,7 @@ Boost accuracy with voting, bagging, random forests, AdaBoost, gradient boosting
 
 <a id="m2"></a>
 ### 2. Ensemble Learning (5 lessons)
-> **Before you start:** [Machine Learning Fundamentals › More Supervised Algorithms](../machine-learning-fundamentals/course.md#m6)
+> **Before you start:** [Supervised Learning › More Supervised Algorithms](../supervised-learning/course.md#m5)
 
 - What is Ensemble Learning? · Article
 - Voting Ensembles · Article
@@ -34,7 +34,7 @@ Boost accuracy with voting, bagging, random forests, AdaBoost, gradient boosting
 
 <a id="m4"></a>
 ### 4. Unsupervised Learning (6 lessons)
-> **Before you start:** [Feature Engineering and EDA › Feature Transformation and Selection](../feature-engineering-and-eda/course.md#m6)
+> **Before you start:** [Machine Learning Foundations: Data, EDA and Features › Feature Transformation and Selection](../machine-learning-foundations-data-eda-and-features/course.md#m7)
 
 - What is Clustering? · Article
 - K-Means · Article
@@ -42,3 +42,13 @@ Boost accuracy with voting, bagging, random forests, AdaBoost, gradient boosting
 - Hierarchical Clustering · Article
 - DBSCAN · Article
 - Lab: Customer segmentation · Lab
+
+<a id="m5"></a>
+### 5. Dimensionality Reduction (5 lessons)
+> **Before you start:** [Data Analysis and Visualisation with Python › NumPy Essentials](../data-analysis-and-visualisation-with-python/course.md#m2), [Unsupervised Learning](#m4)
+
+- The Curse of Dimensionality · Article
+- PCA: The Intuition · Article
+- PCA: The Maths Step by Step · Article
+- PCA in Practice · Article
+- Lab: Compress MNIST with PCA · Lab

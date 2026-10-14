@@ -346,7 +346,7 @@ Hybrids are the norm: routing to workflows for common cases and to agents for ra
 Common follow-ups:
 
 - *"Design a support system for 1 million tickets a month."* Routing first; workflows for the top categories; an agent with human handoff for the long tail; evaluation and monitoring throughout.
-- *"How would you test an agent?"* Scenario-based test sets, checking both final outcomes and the steps taken, run repeatedly because outputs vary. Covered in [Evaluating RAG and LLM Systems](../../enterprise-llm-systems/course.md#m2).
+- *"How would you test an agent?"* Scenario-based test sets, checking both final outcomes and the steps taken, run repeatedly because outputs vary. Covered in [Agent Evals, Observability and Reliability](../../agent-evals-observability-and-reliability/course.md#m2).
 
 ---
 

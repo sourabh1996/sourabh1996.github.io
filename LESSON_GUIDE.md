@@ -1,7 +1,7 @@
 # How lessons are written
 
 This is the house style for every lesson on the site. The reference lessons are
-`courses/agentic-ai-fundamentals/` and `courses/langgraph-fundamentals/` (modules 1 to 3). Read two of them
+`courses/agentic-ai-fundamentals/` and `courses/langgraph-complete-guide/` (modules 1 to 3). Read two of them
 before writing.
 
 ## Where a lesson lives
@@ -13,6 +13,16 @@ before writing.
   - Slugs come from `slug()` in `build_catalog.py`: lowercase, with every run of non-alphanumerics turned into `-`, ➕ removed.
   - The file name must match a lesson title in the catalog. The build fails on orphans.
 - Every course starts with `01-start-here/how-this-course-works.md`.
+
+## Flow: one course builds on the last
+
+The reader starts knowing nothing. The catalog order (tracks, then courses, then modules, then lessons) is the
+reading order, and every lesson may rely only on what came before it.
+- Never use a term, tool or library before the lesson that teaches it. If you must, explain it in one line and
+  link forward to where it is taught properly.
+- Before adding a new course or module, check whether an existing one already covers the idea. Extend it instead.
+  The catalog was consolidated on 2026-10-11 for exactly this reason.
+- If the catalog changes shape again, move written lessons with `tools/migrate_lessons.py` (see its docstring).
 
 ## Front matter
 
@@ -32,7 +42,7 @@ reading_time: <minutes> min
 1. `# <Title>: The Complete Guide` (labs: `# Lab: ...`)
 2. `> 📚 **Before you start**` with links to the exact earlier lessons this one depends on. Link written lessons by
    relative path (`../02-getting-started/what-is-langgraph.md`). Link lessons that aren't written yet through their
-   module anchor on the generated course page (`../../python-fundamentals/course.md#m6`). For the very first lesson
+   module anchor on the generated course page (`../../python-programming/course.md#m6`). For the very first lesson
    of a beginner course, say no prior knowledge is needed.
 3. `## Introduction`: a relatable real-world hook, then what the reader will be able to do by the end.
 4. `> 💡 **Key Insight**`: the one idea to remember.

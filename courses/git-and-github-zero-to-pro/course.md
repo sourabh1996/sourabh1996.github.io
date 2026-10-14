@@ -1,12 +1,12 @@
 # Git and GitHub: Zero to Pro
 
-**Beginner · 12 modules · 63 lessons · ~27 hrs**  
-Track 0 · Developer Toolkit · ➕ Added beyond the bootcamp syllabus
+**Beginner · 11 modules · 58 lessons · ~25 hrs**  
+Track 1 · Programming Foundations · ➕ Added beyond the bootcamp syllabus
 
 Everything about Git and GitHub: how Git works inside, branching, collaboration, Actions, Pages, Codespaces, Copilot and coding agents, security and open source.
 
-**Finish first:** [The Command Line and Linux Basics](../the-command-line-and-linux-basics/course.md)  
-**Unlocks:** [ELT and Transformation with dbt](../elt-and-transformation-with-dbt/course.md), [Coding Agents and Harness Engineering](../coding-agents-and-harness-engineering/course.md)
+**Finish first:** [The Command Line and Linux Basics](../the-command-line-and-linux-basics/course.md), [Python Programming](../python-programming/course.md)  
+**Unlocks:** [Coding Agents and Harness Engineering](../coding-agents-and-harness-engineering/course.md), [Data Pipelines: Ingestion, dbt and Airflow](../data-pipelines-ingestion-dbt-and-airflow/course.md)
 
 ## Course content
 
@@ -80,23 +80,15 @@ Everything about Git and GitHub: how Git works inside, branching, collaboration,
 - Lab: Deploy a static site with Actions · Lab ➕
 
 <a id="m9"></a>
-### 9. AI on GitHub ➕ (5 lessons)
-- Copilot in the Editor and on GitHub · Article ➕
-- Coding Agents that Open Pull Requests · Article ➕
-- Repository Instructions: AGENTS.md and Custom Instructions · Article ➕
-- The GitHub MCP Server · Article ➕
-- Running Coding Agents in GitHub Actions · Article ➕
-
-<a id="m10"></a>
-### 10. Security and Supply Chain ➕ (5 lessons)
+### 9. Security and Supply Chain ➕ (5 lessons)
 - Dependabot Alerts and Updates · Article ➕
 - Code Scanning and Secret Scanning · Article ➕
 - Signed Commits and Artifact Attestations · Article ➕
 - Hardening Actions: Pinning and Least Privilege · Article ➕
 - Removing a Leaked Secret from History · Article ➕
 
-<a id="m11"></a>
-### 11. Open Source and Advanced Git ➕ (6 lessons)
+<a id="m10"></a>
+### 10. Open Source and Advanced Git ➕ (6 lessons)
 - Contributing to Open Source · Article ➕
 - Licenses in Plain English · Article ➕
 - Maintaining a Project: Templates, Releases and Semver · Article ➕
@@ -104,7 +96,7 @@ Everything about Git and GitHub: how Git works inside, branching, collaboration,
 - Git LFS for Large Files · Article ➕
 - Git Hooks and pre-commit · Article ➕
 
-<a id="m12"></a>
-### 12. Git and GitHub Interview Prep ➕ (2 lessons)
+<a id="m11"></a>
+### 11. Git and GitHub Interview Prep ➕ (2 lessons)
 - Git Interview Questions Explained · Article ➕
 - Scenario Drills: Broken main, Leaked Secrets, Lost Work · Article ➕
