@@ -13,7 +13,7 @@ reading_time: 28 min
 >
 > - [Graphs, Nodes, Edges and State](../02-getting-started/graphs-nodes-edges-and-state.md), where you first defined a state schema.
 > - [The LangGraph Execution Model](../02-getting-started/the-langgraph-execution-model.md), for super-steps and the first look at reducers.
-> - [Building Agents](../05-workflows-and-agents/building-agents.md) and [Agents with Memory](../05-workflows-and-agents/agents-with-memory.md), from the Workflows and Agents module this course builds on.
+> - [Parallel Workflows](../03-workflow-patterns-in-langgraph/parallel-workflows.md), for nodes that run in the same step.
 
 ## Introduction
 
@@ -325,7 +325,7 @@ The GST rate didn't become part of the state, so it isn't saved in checkpoints, 
 
 ### 8. Where state lives after the run
 
-Without a checkpointer, the state exists only while `invoke` runs; the returned dictionary is all that's left. With a checkpointer, LangGraph saves the state after every super-step under the thread's id, and `get_state` reads the latest copy back:
+A **checkpointer** is an object that saves the state as a graph runs, so it can be read back or resumed later ([Persistence and Checkpointers](../06-chatbots-and-persistence/persistence-and-checkpointers.md) covers it properly). Without a checkpointer, the state exists only while `invoke` runs; the returned dictionary is all that's left. With a checkpointer, LangGraph saves the state after every super-step under the thread's id, and `get_state` reads the latest copy back:
 
 ```python
 from langgraph.checkpoint.memory import InMemorySaver
@@ -366,7 +366,7 @@ flowchart TB
     ST <-->|"nodes read and write"| STORE
 ```
 
-Module 4 of this course is about the two memory boxes: keeping the checkpointed conversation small, and putting durable facts in the store.
+The [Memory](../course.md#m7) module, later in this course, is about the two memory boxes: keeping the checkpointed conversation small, and putting durable facts in the store.
 
 ---
 

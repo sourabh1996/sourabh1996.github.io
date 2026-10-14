@@ -478,4 +478,4 @@ The risk: the **oldest** notes are dropped first, and those are often the most i
 
 ---
 
-**Up next:** You've finished LangGraph Complete Guide. Continue with [LangGraph Complete Guide](../course.md), where the same checkpoints let people pause, edit and rewind your graphs.
+**Up next:** [Streaming Real-Time Updates](../08-human-in-the-loop-and-debugging/streaming-real-time-updates.md)

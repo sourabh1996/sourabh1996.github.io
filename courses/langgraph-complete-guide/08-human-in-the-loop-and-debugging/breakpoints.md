@@ -241,7 +241,7 @@ stream: {'__interrupt__': ()}
 - The pending task has no error (so it isn't a failure) and **no interrupt payload**: a breakpoint carries no question or data, unlike `interrupt()`.
 - In the update stream, a breakpoint shows up as an `__interrupt__` entry with an **empty** tuple.
 
-A failed run (module 5 of Fundamentals) also has `next` set, but its task carries an `error`. Checking `tasks` tells you which situation you're in.
+A failed run (see [Threads, Fault Tolerance and Resuming](../06-chatbots-and-persistence/threads-fault-tolerance-and-resuming.md)) also has `next` set, but its task carries an `error`. Checking `tasks` tells you which situation you're in.
 
 ### 8. Parallel steps and subgraphs
 
@@ -307,7 +307,7 @@ LangGraph has two ways to pause, and its docs are clear about which is for what:
 | Resume with | `invoke(None, config)` | `invoke(Command(resume=...), config)` |
 | Best for | Stepping through, inspecting, debugging in Studio | Approvals, edits, clarifying questions |
 
-You'll build approvals properly with `interrupt()` in module 3, starting with [Pausing with interrupt and Resuming with Command](pausing-with-interrupt-and-resuming-with-command.md).
+You'll build approvals properly with `interrupt()` later in this module, starting with [Pausing with interrupt and Resuming with Command](pausing-with-interrupt-and-resuming-with-command.md).
 
 ---
 

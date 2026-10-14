@@ -14,7 +14,7 @@ reading_time: 34 min
 > - [Breakpoints](breakpoints.md), for pausing a run and resuming from a checkpoint.
 > - [Streaming Real-Time Updates](streaming-real-time-updates.md), where `__interrupt__` first appeared in the stream.
 > - [Threads, Fault Tolerance and Resuming](../06-chatbots-and-persistence/threads-fault-tolerance-and-resuming.md), whose last section previewed `interrupt()`.
-> - [Guardrails and Security](../../agent-security-and-safety/course.md#m2) in Enterprise LLM Systems, for why risky actions need a human check.
+> - Optional, later on the path: [Threat Modelling Agents](../../agent-security-and-safety/course.md#m2) in Agent Security and Safety, for why risky actions need a human check.
 
 ## Introduction
 

@@ -13,7 +13,6 @@ reading_time: 26 min
 >
 > - [State Schemas and Data Flow](state-schemas-and-data-flow.md), especially section 5 on narrower node inputs.
 > - [State Reducers](state-reducers.md), because reducers keep working across schemas.
-> - [Shared vs Different State in Subgraphs](../09-subgraphs/shared-vs-different-state-in-subgraphs.md), where you first met `input_schema` and `output_schema` on a subgraph.
 
 ## Introduction
 
@@ -174,7 +173,7 @@ channels: ['question', 'answer', 'keywords', 'matched_doc']
 
 `keywords` and `matched_doc` aren't in `Overall`, yet they work: LangGraph found the `Scratch` schema on the nodes' type hints and created channels for its keys. `retrieve_p` and `respond_p` read only the `Scratch` view; the `-> Scratch` return hints are documentation (nodes may write any registered key).
 
-The rule to remember: **a key must appear in some schema LangGraph can see** (the overall state, the input or output schema, or a node's parameter type hint). A node writing a key that no schema mentions is silently dropped, exactly like the typo case from the first module.
+The rule to remember: **a key must appear in some schema LangGraph can see** (the overall state, the input or output schema, or a node's parameter type hint). A node writing a key that no schema mentions is silently dropped, exactly like the typo case from [Graphs, Nodes, Edges and State](../02-getting-started/graphs-nodes-edges-and-state.md).
 
 ### 4. "Private" is not "secret"
 

@@ -13,7 +13,7 @@ reading_time: 28 min
 >
 > - [The LangGraph State System](the-langgraph-state-system.md), for snapshots, updates and merging.
 > - [Graphs, Nodes, Edges and State](../02-getting-started/graphs-nodes-edges-and-state.md), where you first saw `TypedDict` and Pydantic schemas.
-> - [Routers](../05-workflows-and-agents/routers.md), helpful for section 6, which combines routing and updates.
+> - [Conditional Workflows](../03-workflow-patterns-in-langgraph/conditional-workflows.md), helpful for section 6, which combines routing and updates.
 
 ## Introduction
 
@@ -235,7 +235,7 @@ flowchart LR
 | `best` | `rank` | `answer` |
 | `answer` | `answer` | the caller |
 
-A table like this shows three things at a glance: every field has exactly one writer (no parallel clash), every field is written before it's read (no `KeyError`), and only `query` and `answer` matter to the caller (a hint that the next module's **input and output schemas** would tidy the interface).
+A table like this shows three things at a glance: every field has exactly one writer (no parallel clash), every field is written before it's read (no `KeyError`), and only `query` and `answer` matter to the caller (a hint that the **input and output schemas** later in this module would tidy the interface).
 
 ```python
 class TrainEnquiry(TypedDict):
@@ -320,7 +320,7 @@ rank sees only: ['trains']
 Take 12951 Mumbai Rajdhani on 2026-10-20 (15.9 h).
 ```
 
-The node can still **write** any key of the graph's state (`best` here). Narrow inputs make a node easier to test (you only need to build a tiny dictionary) and stop it from quietly depending on fields it shouldn't. The next module takes this idea further with private state and graph-level input and output schemas: [Multiple Schemas](multiple-schemas.md).
+The node can still **write** any key of the graph's state (`best` here). Narrow inputs make a node easier to test (you only need to build a tiny dictionary) and stop it from quietly depending on fields it shouldn't. Later in this module, a lesson takes this idea further with private state and graph-level input and output schemas: [Multiple Schemas](multiple-schemas.md).
 
 ### 6. Updating and routing together with `Command`
 

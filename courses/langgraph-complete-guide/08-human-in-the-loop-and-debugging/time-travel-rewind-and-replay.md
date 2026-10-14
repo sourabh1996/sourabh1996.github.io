@@ -505,4 +505,4 @@ Only if you fork from after the interrupt. Travelling to before it re-runs the n
 
 ---
 
-**Up next:** [Lab: Debug an agent with time travel](lab-debug-an-agent-with-time-travel.md)
+**Up next:** [Lab: Approval step before a risky tool](lab-approval-step-before-a-risky-tool.md)

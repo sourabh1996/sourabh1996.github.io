@@ -12,7 +12,7 @@ reading_time: 45 min
 > 📚 **Before you start**
 >
 > - [Multiple Schemas](multiple-schemas.md) and [State Reducers](state-reducers.md), the two ideas this lab combines.
-> - [Tools in LangGraph: ToolNode and tools_condition](../05-workflows-and-agents/tools-in-langgraph-toolnode-and-tools-condition.md), for the agent loop inside.
+> - [Lab: Tool-using agent from scratch](../../agentic-ai-fundamentals/04-tools-and-function-calling/lab-tool-using-agent-from-scratch.md) in Agentic AI Fundamentals, for the agent loop inside. LangGraph's ready-made `ToolNode` and `tools_condition` are explained in Step 5 and covered properly in the next module, in [Tools in LangGraph: ToolNode and tools_condition](../05-workflows-and-agents/tools-in-langgraph-toolnode-and-tools-condition.md).
 > - [The LangGraph State System](the-langgraph-state-system.md), for runtime context.
 
 ## What You'll Build
@@ -145,7 +145,7 @@ Output:
 
 ## Step 3: A Scripted Model
 
-To run offline we use the `GenericFakeChatModel` subclass from Fundamentals, whose `bind_tools` returns itself. The script plays the part a real model would: look up, raise a dispute, answer.
+To run offline we use a small subclass of LangChain's `GenericFakeChatModel` whose `bind_tools` returns itself. The script plays the part a real model would: look up, raise a dispute, answer.
 
 ```python
 from langchain_core.language_models.fake_chat_models import GenericFakeChatModel
@@ -253,7 +253,7 @@ Output:
 ['messages', 'question', 'answer', 'tools_used', 'dispute_id', 'final_reply']
 ```
 
-`tools_condition` returns `"tools"` or `END`; the mapping sends `END` to `finish` instead, so the agent always tidies up before stopping. The channel list shows the union of every schema, including the private `final_reply`.
+`ToolNode(tools)` is a ready-made node that runs every tool call in the latest AI message and adds the results to `messages`. `tools_condition` returns `"tools"` when there are tool calls to run, or `END` otherwise; the mapping sends `END` to `finish` instead, so the agent always tidies up before stopping. The channel list shows the union of every schema, including the private `final_reply`.
 
 ---
 
@@ -381,7 +381,7 @@ That's the API a front-end team or another graph builds on.
 
 ## Step 9: Reuse It as a Subgraph
 
-Because the interface is small, the agent drops into a bigger workflow cleanly. Here a parent "support desk" graph routes UPI questions to it. When a compiled graph is added as a node, its **output schema** decides what flows back to the parent:
+Because the interface is small, the agent drops into a bigger workflow cleanly. Here a parent "support desk" graph routes UPI questions to it. A compiled graph added as a node of another graph is called a **subgraph** (the [Subgraphs](../course.md#m9) module covers them later in this course). When a compiled graph is added as a node, its **output schema** decides what flows back to the parent:
 
 ```python
 class Desk(TypedDict):
@@ -528,4 +528,4 @@ In production you'd also pass the customer id into the tool itself, so it never 
 
 ---
 
-**Up next:** [Trimming and Filtering Messages](../07-memory/trimming-and-filtering-messages.md)
+**Up next:** [Chains in LangGraph](../05-workflows-and-agents/chains-in-langgraph.md)

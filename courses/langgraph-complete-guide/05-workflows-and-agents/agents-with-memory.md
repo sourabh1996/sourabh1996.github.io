@@ -274,13 +274,9 @@ Output:
 | Scope | One thread (one conversation) | Across threads (the same user, many chats) |
 | LangGraph feature | **Checkpointer** + `thread_id` | **Store** (`InMemoryStore`, Postgres store...) |
 | Example | "Add GST to *that*" | "Remember I'm vegetarian" in every future chat |
-<<<<<<< HEAD:courses/langgraph-fundamentals/04-workflows-and-agents/agents-with-memory.md
-| Covered in | This lesson and module 5 | [Long-Term Memory with Stores](../07-memory/long-term-memory-with-stores.md) |
-=======
-| Covered in | This lesson and module 6 | [Long-Term Memory with Stores](../course.md#m7) |
->>>>>>> origin/main:courses/langgraph-complete-guide/05-workflows-and-agents/agents-with-memory.md
+| Covered in | This lesson and module 6 | [Long-Term Memory with Stores](../07-memory/long-term-memory-with-stores.md) |
 
-This course focuses on the first. The checkpointer is also what gives you fault tolerance, resuming and human-in-the-loop, so it's worth understanding well.
+This lesson focuses on the first. The checkpointer is also what gives you fault tolerance, resuming and human-in-the-loop, so it's worth understanding well.
 
 ---
 

@@ -150,11 +150,7 @@ Output:
 {'best': 9}
 ```
 
-<<<<<<< HEAD:courses/langgraph-fundamentals/02-getting-started/the-langgraph-execution-model.md
 Reducers are covered in depth in [State Reducers](../04-state-in-depth/state-reducers.md).
-=======
-Reducers are covered in depth in [State Reducers](../course.md#m4).
->>>>>>> origin/main:courses/langgraph-complete-guide/02-getting-started/the-langgraph-execution-model.md
 
 ### 4. Watching the execution: `stream`
 

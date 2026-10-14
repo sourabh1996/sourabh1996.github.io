@@ -423,4 +423,4 @@ update   searched 2026-02-12: Here are your options: 12951 Mumbai Rajdhani at 17
 
 ---
 
-**Up next:** You've finished LangGraph Complete Guide. Put everything together in the [Multi-Agent Research System (Capstone)](../../multi-agent-research-system-capstone/course.md).
+**Up next:** [What are Subgraphs?](../09-subgraphs/what-are-subgraphs.md)

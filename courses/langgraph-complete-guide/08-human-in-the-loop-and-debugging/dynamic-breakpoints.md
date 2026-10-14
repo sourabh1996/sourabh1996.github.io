@@ -19,7 +19,7 @@ reading_time: 30 min
 
 A UPI app doesn't ask for your PIN twice for every ₹20 chai. But send ₹50,000 to someone you've never paid before, late at night, and it slows down: a warning, a cooling-off period, an extra confirmation. The **same action** gets a different amount of friction depending on **the situation**.
 
-That's a dynamic breakpoint: a pause that happens **only when the state says it should**. Static breakpoints (module 2) stop at a node every time, which is perfect for debugging and annoying in production. A good human-in-the-loop design asks rarely and precisely: high amounts, new payees, low model confidence, sensitive words, a policy violation. Everything else flows through untouched.
+That's a dynamic breakpoint: a pause that happens **only when the state says it should**. Static breakpoints (from [Breakpoints](breakpoints.md)) stop at a node every time, which is perfect for debugging and annoying in production. A good human-in-the-loop design asks rarely and precisely: high amounts, new payees, low model confidence, sensitive words, a policy violation. Everything else flows through untouched.
 
 In LangGraph, the old way to do this was to raise a special `NodeInterrupt` exception inside a node. That exception is now **deprecated**; the current way is simply to call `interrupt()` inside an `if`. This lesson shows both (so you recognise the old one in tutorials), then covers writing pause policies, pausing inside tools and its surprising re-run behaviour, validation loops that ask again until an answer is acceptable, and choosing breakpoints per call.
 
@@ -526,4 +526,4 @@ Use a conditional edge back to the asking node; each retry becomes a clean, chec
 
 ---
 
-**Up next:** [Lab: Approval step before a risky tool](lab-approval-step-before-a-risky-tool.md)
+**Up next:** [Time Travel: Rewind and Replay](time-travel-rewind-and-replay.md)

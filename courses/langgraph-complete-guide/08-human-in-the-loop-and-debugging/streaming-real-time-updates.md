@@ -11,7 +11,7 @@ reading_time: 32 min
 
 > 📚 **Before you start**
 >
-> - [The LangGraph State System](../04-state-in-depth/the-langgraph-state-system.md) and [State Schemas and Data Flow](../04-state-in-depth/state-schemas-and-data-flow.md), from the State Fundamentals module this course builds on.
+> - [The LangGraph State System](../04-state-in-depth/the-langgraph-state-system.md) and [State Schemas and Data Flow](../04-state-in-depth/state-schemas-and-data-flow.md), from the State in Depth module.
 > - [The LangGraph Execution Model](../02-getting-started/the-langgraph-execution-model.md), where you first used `stream_mode="updates"` and `"values"`.
 > - [Building a Chatbot with LangGraph](../06-chatbots-and-persistence/building-a-chatbot-with-langgraph.md), where you streamed tokens with `stream_mode="messages"`.
 
@@ -148,7 +148,7 @@ updates | () | ['format_message']
 | `ns` | Namespace: `()` for the main graph, a tuple of path segments for events from a subgraph |
 | `data` | The payload, same as that mode's v1 payload |
 
-Branching on `part["type"]` is the clean way to handle mixed streams, and the rest of this course uses `version="v2"`. (`invoke` also accepts `version="v2"`, returning a `GraphOutput` object with `.value` and `.interrupts`; you'll meet it in module 3.)
+Branching on `part["type"]` is the clean way to handle mixed streams, and the rest of this course uses `version="v2"`. (`invoke` also accepts `version="v2"`, returning a `GraphOutput` object with `.value` and `.interrupts`; you'll meet it later in this module.)
 
 The order matters too: the three `custom` progress events arrived **before** `fetch_scorecard`'s update, because they were sent while the node was still running. That's what makes custom events useful for long nodes.
 
@@ -362,7 +362,7 @@ Each `ns` entry looks like `"translate:<task id>"`; the part before the colon is
 
 ### 9. Interrupts appear in the stream
 
-Module 3 is about pausing graphs with `interrupt()`. When that happens during `stream`, the `updates` mode emits a special `__interrupt__` entry, so a UI can show the question right away:
+Later in this module you'll pause graphs with `interrupt()`. When that happens during `stream`, the `updates` mode emits a special `__interrupt__` entry, so a UI can show the question right away:
 
 ```python
 from langgraph.types import interrupt
@@ -444,7 +444,7 @@ async def report(match: str):
     return StreamingResponse(events(), media_type="text/event-stream")
 ```
 
-Deployed LangGraph apps (the Agent Server from [Deploying and Running LangGraph Apps](../10-deployment-and-observability/deploying-and-running-langgraph-apps.md)) expose the same stream modes over HTTP for you.
+Deployed LangGraph apps (the Agent Server, covered later in [Deploying and Running LangGraph Apps](../10-deployment-and-observability/deploying-and-running-langgraph-apps.md)) expose the same stream modes over HTTP for you.
 
 ### 11. A newer API to know about: `stream_events(version="v3")`
 

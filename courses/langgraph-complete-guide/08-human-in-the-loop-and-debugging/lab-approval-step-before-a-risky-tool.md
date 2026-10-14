@@ -515,4 +515,4 @@ Rejected calls are removed from the AI message and answered with a `ToolMessage`
 
 ---
 
-**Up next:** [Time Travel: Rewind and Replay](time-travel-rewind-and-replay.md)
+**Up next:** [Lab: Debug an agent with time travel](lab-debug-an-agent-with-time-travel.md)

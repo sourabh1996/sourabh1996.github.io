@@ -204,7 +204,7 @@ B next: ('legal_check',)
 B: ['written', 'legal checked', 'published: Diwali sale! Up to 40% off. T&C apply.']
 ```
 
-In case A, `legal_check` never ran: the update stood in for it, and the graph moved on to `publish`. In case B the edit counted as `write`'s output, so `legal_check` still ran on the edited text. You'll use `as_node` again for time travel in module 4, where it decides how a fork continues.
+In case A, `legal_check` never ran: the update stood in for it, and the graph moved on to `publish`. In case B the edit counted as `write`'s output, so `legal_check` still ran on the edited text. You'll use `as_node` again for time travel later in this module, where it decides how a fork continues.
 
 ```mermaid
 flowchart LR
