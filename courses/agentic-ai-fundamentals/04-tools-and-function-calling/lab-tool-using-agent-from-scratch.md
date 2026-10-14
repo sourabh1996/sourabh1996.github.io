@@ -439,7 +439,7 @@ def approve_small(name, args):
 
 - **LangChain's `@tool`** and the **Anthropic SDK's `@beta_tool`** both generate tool definitions from function signatures and docstrings, exactly like your decorator.
 - **MCP servers** written with FastMCP use the same idea (`@mcp.tool()`), which you'll build in [Model Context Protocol (MCP)](../../model-context-protocol-mcp/course.md).
-- **Production agents** log transcripts like the one in Step 6 to tracing tools such as LangSmith, so engineers can see every call. See [Observability](../../enterprise-llm-systems/course.md#m3).
+- **Production agents** log transcripts like the one in Step 6 to tracing tools such as LangSmith, so engineers can see every call. See [Observability](../../agent-evals-observability-and-reliability/course.md#m4).
 
 ---
 

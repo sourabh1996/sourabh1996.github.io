@@ -13,7 +13,7 @@ reading_time: 35 min
 >
 > - [The Agent Loop: Decide, Act, Observe](the-agent-loop-decide-act-observe.md), for the three steps you'll code here.
 > - [Anatomy of an Agent](anatomy-of-an-agent.md), for the parts (model, instructions, tools, memory, loop, guardrails).
-> - [Functions](../../python-fundamentals/course.md#m6) and dictionaries from Python Fundamentals. That's all the Python you need.
+> - [Functions](../../python-programming/course.md#m6) and dictionaries from Python Programming. That's all the Python you need.
 
 ## What You'll Build
 
@@ -423,7 +423,7 @@ You'll write the real version, with the actual API shapes, in [Function Calling 
 1. **Add a tool.** Write `list_all_books()` (ignore the argument) and register it as a read tool. Then change `pretend_model` so that if the user's goal contains no quoted title, it calls `list_all_books` first.
 2. **Count the cost.** Make `run_agent` also return how many tool calls it made. Real agents are billed per model call, so this number matters.
 3. **Approve only cheap actions.** Give each book a price in `CATALOGUE` and write an `approve` function that says yes automatically under 500 and asks (returns `False`) above it.
-4. **Return a trace.** Instead of printing, collect each step as a dictionary (`step`, `tool`, `arg`, `result`) in a list. This is the beginning of the *observability* you'll meet in [Enterprise LLM Systems](../../enterprise-llm-systems/course.md#m3).
+4. **Return a trace.** Instead of printing, collect each step as a dictionary (`step`, `tool`, `arg`, `result`) in a list. This is the beginning of the *observability* you'll meet in [Agent Evals, Observability and Reliability](../../agent-evals-observability-and-reliability/course.md#m4).
 
 <details>
 <summary>Show answers</summary>
@@ -476,7 +476,7 @@ It tests everything except the model's judgement: the loop, the tools, the error
 
 ### "Agents need a framework"
 
-You just built one in about 100 lines of plain Python. Frameworks like LangGraph add persistence, streaming and visual graphs, which is why you'll learn them in [LangGraph Fundamentals](../../langgraph-fundamentals/course.md). But the core is this loop.
+You just built one in about 100 lines of plain Python. Frameworks like LangGraph add persistence, streaming and visual graphs, which is why you'll learn them in [LangGraph Complete Guide](../../langgraph-complete-guide/course.md). But the core is this loop.
 
 ### "If the model is good, guardrails are optional"
 
