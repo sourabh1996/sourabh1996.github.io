@@ -1,11 +1,11 @@
 # Cloud Data Platforms
 
 **Advanced · 3 modules · 11 lessons · ~5 hrs**  
-Track 5 · Data Engineering · ➕ Added beyond the bootcamp syllabus
+Track 8 · Data Engineering · ➕ Added beyond the bootcamp syllabus
 
 The data services on AWS, Google Cloud and Azure, how they fit together, what they cost, and which certifications map to them.
 
-**Finish first:** [Lakehouses and Open Table Formats](../lakehouses-and-open-table-formats/course.md), [Production APIs with FastAPI](../production-apis-with-fastapi/course.md)  
+**Finish first:** [Warehouses and Lakehouses](../warehouses-and-lakehouses/course.md), [APIs and Apps: FastAPI, Streamlit and Docker](../apis-and-apps-fastapi-streamlit-and-docker/course.md), [Retrieval-Augmented Generation (RAG)](../retrieval-augmented-generation-rag/course.md), [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md)  
 **Unlocks:** [Data Engineering Capstone and System Design](../data-engineering-capstone-and-system-design/course.md)
 
 ## Course content

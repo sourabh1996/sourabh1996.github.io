@@ -1,12 +1,12 @@
 # Data Engineering Foundations
 
 **Intermediate · 4 modules · 16 lessons · ~7 hrs**  
-Track 5 · Data Engineering · ➕ Added beyond the bootcamp syllabus
+Track 8 · Data Engineering · ➕ Added beyond the bootcamp syllabus
 
 What data engineers build and why: the data lifecycle, OLTP vs OLAP, batch vs streaming, file formats and advanced SQL.
 
-**Finish first:** [Databases: SQL and NoSQL](../databases-sql-and-nosql/course.md), [Numerical Computing and Data Analysis](../numerical-computing-and-data-analysis/course.md), [The Command Line and Linux Basics](../the-command-line-and-linux-basics/course.md)  
-**Unlocks:** [Data Modelling and Warehousing](../data-modelling-and-warehousing/course.md), [Streaming Data with Kafka](../streaming-data-with-kafka/course.md)
+**Finish first:** [Databases: SQL and NoSQL](../databases-sql-and-nosql/course.md), [Data Analysis and Visualisation with Python](../data-analysis-and-visualisation-with-python/course.md), [The Command Line and Linux Basics](../the-command-line-and-linux-basics/course.md)  
+**Unlocks:** [Big Data with PySpark](../big-data-with-pyspark/course.md), [Warehouses and Lakehouses](../warehouses-and-lakehouses/course.md), [Streaming Data with Kafka](../streaming-data-with-kafka/course.md)
 
 ## Course content
 

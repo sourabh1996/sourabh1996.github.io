@@ -1,11 +1,11 @@
 # Agent Frameworks and SDKs
 
 **Intermediate · 5 modules · 20 lessons · ~9 hrs**  
-Track 8 · Agentic AI · ➕ Added beyond the bootcamp syllabus
+Track 7 · Agentic AI · ➕ Added beyond the bootcamp syllabus
 
 A hands-on tour of the major agent frameworks, type-safe agents and decision models, and how to choose without lock-in.
 
-**Finish first:** [LangGraph Fundamentals](../langgraph-fundamentals/course.md), [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md)  
+**Finish first:** [LangGraph Complete Guide](../langgraph-complete-guide/course.md), [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md)  
 **Unlocks:** [Multi-Agent Systems and Agent Protocols](../multi-agent-systems-and-agent-protocols/course.md), [Computer-Use, Browser and Voice Agents](../computer-use-browser-and-voice-agents/course.md), [Agent Evals, Observability and Reliability](../agent-evals-observability-and-reliability/course.md)
 
 ## Course content

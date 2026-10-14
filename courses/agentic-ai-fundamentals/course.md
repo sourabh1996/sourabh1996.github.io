@@ -1,12 +1,12 @@
 # Agentic AI Fundamentals
 
 **Beginner · 6 modules · 19 lessons · ~8 hrs**  
-Track 8 · Agentic AI · Bootcamp syllabus module(s): 25
+Track 7 · Agentic AI · Bootcamp syllabus module(s): 25
 
 What AI agents are, how the agent loop works, and how to build one from scratch before touching a framework.
 
 **Finish first:** [Generative AI and LLM Foundations](../generative-ai-and-llm-foundations/course.md)  
-**Unlocks:** [LangGraph Fundamentals](../langgraph-fundamentals/course.md), [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md), [Context Engineering and Agent Memory](../context-engineering-and-agent-memory/course.md)
+**Unlocks:** [LangGraph Complete Guide](../langgraph-complete-guide/course.md)
 
 ## Course content
 
@@ -33,7 +33,7 @@ What AI agents are, how the agent loop works, and how to build one from scratch 
 
 <a id="m4"></a>
 ### 4. Tools and Function Calling ➕ (4 lessons)
-> **Before you start:** [Generative AI and LLM Foundations › Prompting and Structured Output](../generative-ai-and-llm-foundations/course.md#m4)
+> **Before you start:** [Generative AI and LLM Foundations › Prompting and Structured Output](../generative-ai-and-llm-foundations/course.md#m4), [LangChain Complete Guide › Tools and Tool Calling](../langchain-complete-guide/course.md#m7)
 
 - [What is a Tool?](04-tools-and-function-calling/what-is-a-tool.md) · Article ➕ ✍️ *written*
 - [Function Calling Step by Step](04-tools-and-function-calling/function-calling-step-by-step.md) · Article ➕ ✍️ *written*
@@ -47,8 +47,6 @@ What AI agents are, how the agent loop works, and how to build one from scratch 
 
 <a id="m6"></a>
 ### 6. Multi-Agent Systems and the Ecosystem (3 lessons)
-> **Before you start:** [LangChain Complete Guide › Agents, Monitoring and Deployment](../langchain-complete-guide/course.md#m8)
-
 - [What are Multi-Agent Systems?](06-multi-agent-systems-and-the-ecosystem/what-are-multi-agent-systems.md) · Article ✍️ *written*
 - [Overview of Agentic Frameworks](06-multi-agent-systems-and-the-ecosystem/overview-of-agentic-frameworks.md) · Article ✍️ *written*
 - [Trends in Multi-Agent AI](06-multi-agent-systems-and-the-ecosystem/trends-in-multi-agent-ai.md) · Article ✍️ *written*

@@ -1,11 +1,11 @@
 # Data Quality, Governance and DataOps
 
 **Advanced · 3 modules · 10 lessons · ~4 hrs**  
-Track 5 · Data Engineering · ➕ Added beyond the bootcamp syllabus
+Track 8 · Data Engineering · ➕ Added beyond the bootcamp syllabus
 
 Make data trustworthy: tests, contracts, lineage, observability, CI/CD and infrastructure as code for data platforms.
 
-**Finish first:** [ELT and Transformation with dbt](../elt-and-transformation-with-dbt/course.md), [Orchestration with Airflow](../orchestration-with-airflow/course.md)  
+**Finish first:** [Data Pipelines: Ingestion, dbt and Airflow](../data-pipelines-ingestion-dbt-and-airflow/course.md)  
 **Unlocks:** [Data Engineering Capstone and System Design](../data-engineering-capstone-and-system-design/course.md)
 
 ## Course content
