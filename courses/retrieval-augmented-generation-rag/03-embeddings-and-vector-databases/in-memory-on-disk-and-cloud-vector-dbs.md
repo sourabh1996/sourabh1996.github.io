@@ -1,7 +1,7 @@
 ---
 title: "In-Memory, On-Disk and Cloud Vector DBs"
-course: Vector Databases for AI
-module: "3. Architecture"
+course: "Retrieval-Augmented Generation (RAG)"
+module: "3. Embeddings and Vector Databases"
 type: Article
 level: Intermediate
 reading_time: 32 min
@@ -12,7 +12,7 @@ reading_time: 32 min
 > 📚 **Before you start**
 >
 > - [Storage and Indexing (HNSW, IVF)](storage-and-indexing-hnsw-ivf.md), for ANN indexes, quantization, segments and the write-ahead log.
-> - [Vector vs SQL vs NoSQL Databases](../02-introduction-to-vector-databases/vector-vs-sql-vs-nosql-databases.md), for the difference between a vector index and a vector database.
+> - [Vector vs SQL vs NoSQL Databases](vector-vs-sql-vs-nosql-databases.md), for the difference between a vector index and a vector database.
 
 ## Introduction
 

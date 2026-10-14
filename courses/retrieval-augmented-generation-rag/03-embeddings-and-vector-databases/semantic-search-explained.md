@@ -1,7 +1,7 @@
 ---
 title: "Semantic Search Explained"
-course: Vector Databases for AI
-module: "2. Introduction to Vector Databases"
+course: "Retrieval-Augmented Generation (RAG)"
+module: "3. Embeddings and Vector Databases"
 type: Article
 level: Intermediate
 reading_time: 30 min
@@ -196,7 +196,7 @@ flowchart TB
 - **Indexing** runs when documents are added or changed. It is usually a batch job, and it is where most of the cost goes (embedding millions of chunks).
 - **Querying** runs for every request and must be fast: one embedding call plus one index search, typically tens of milliseconds in total.
 
-The [Embedding-Based Retrieval Pipelines](../course.md#m5) lesson builds both pipelines in full. The rest of this section covers the decisions inside them that most affect quality.
+The [Embedding-Based Retrieval Pipelines](../course.md#m4) lesson builds both pipelines in full. The rest of this section covers the decisions inside them that most affect quality.
 
 ### 5. Chunking: one vector per idea
 
@@ -228,7 +228,7 @@ score against chunk: 1.000  The app may crash on old phones; update the app to f
 score against chunk: 0.000  Monsoon delays can affect trains in July and August.
 ```
 
-The relevant chunk is a perfect match on its own (1.000), while the whole document scores only 0.84, because the whole-document vector dilutes the app-crash meaning with refunds and monsoons. Chunk size is a trade-off: too large and meanings blur; too small and a chunk loses the context needed to make sense ("it takes 5 to 7 days", but *what* does?). Chunking strategies are treated in depth in [Chunking Strategies](../../retrieval-augmented-generation-rag/course.md#m4).
+The relevant chunk is a perfect match on its own (1.000), while the whole document scores only 0.84, because the whole-document vector dilutes the app-crash meaning with refunds and monsoons. Chunk size is a trade-off: too large and meanings blur; too small and a chunk loses the context needed to make sense ("it takes 5 to 7 days", but *what* does?). Chunking strategies are treated in depth in [Chunking Strategies](../course.md#m6).
 
 ### 6. Asymmetric search: short questions, long answers
 
@@ -298,7 +298,7 @@ charged but transaction did not go through
    0.0161  How to get a refund for a cancelled IRCTC train ticket
 ```
 
-The first query needs the **exact number**; the second needs **meaning**. Hybrid search handles both with one code path. Several vector databases now offer hybrid search built in (Qdrant, Weaviate, Pinecone and others combine dense vectors with keyword or sparse-vector scoring), and you will meet it again in [Hybrid Search](../../retrieval-augmented-generation-rag/course.md#m4).
+The first query needs the **exact number**; the second needs **meaning**. Hybrid search handles both with one code path. Several vector databases now offer hybrid search built in (Qdrant, Weaviate, Pinecone and others combine dense vectors with keyword or sparse-vector scoring), and you will meet it again in [Hybrid Search](../course.md#m6).
 
 ```mermaid
 flowchart LR
@@ -310,7 +310,7 @@ flowchart LR
   R --> O["Final top k"]
 ```
 
-A further step, **reranking**, takes the top 20 to 100 fused results and re-scores each (query, passage) pair with a slower, more accurate model called a **cross-encoder**, which reads the query and passage **together** instead of comparing two separate vectors. Retrieval finds candidates cheaply; reranking orders them carefully. It is covered in [Reranking](../../retrieval-augmented-generation-rag/course.md#m4).
+A further step, **reranking**, takes the top 20 to 100 fused results and re-scores each (query, passage) pair with a slower, more accurate model called a **cross-encoder**, which reads the query and passage **together** instead of comparing two separate vectors. Retrieval finds candidates cheaply; reranking orders them carefully. It is covered in [Reranking](../course.md#m6).
 
 ### 9. Measuring search quality: recall@k and MRR
 

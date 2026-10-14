@@ -27,11 +27,11 @@ Ground LLMs in your own data: embeddings and vector databases, loaders, splitter
 ### 3. Embeddings and Vector Databases (5 lessons)
 > **Before you start:** [NLP for Machine Learning › Word Embeddings](../nlp-for-machine-learning/course.md#m5), [Databases: SQL and NoSQL › Relational Databases and SQL](../databases-sql-and-nosql/course.md#m2)
 
-- Embeddings and Similarity Search · Article
-- Semantic Search Explained · Article
-- Vector vs SQL vs NoSQL Databases · Article
-- Storage and Indexing (HNSW, IVF) · Article
-- In-Memory, On-Disk and Cloud Vector DBs · Article
+- [Embeddings and Similarity Search](03-embeddings-and-vector-databases/embeddings-and-similarity-search.md) · Article ✍️ *written*
+- [Semantic Search Explained](03-embeddings-and-vector-databases/semantic-search-explained.md) · Article ✍️ *written*
+- [Vector vs SQL vs NoSQL Databases](03-embeddings-and-vector-databases/vector-vs-sql-vs-nosql-databases.md) · Article ✍️ *written*
+- [Storage and Indexing (HNSW, IVF)](03-embeddings-and-vector-databases/storage-and-indexing-hnsw-ivf.md) · Article ✍️ *written*
+- [In-Memory, On-Disk and Cloud Vector DBs](03-embeddings-and-vector-databases/in-memory-on-disk-and-cloud-vector-dbs.md) · Article ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Vector Database Tools (9 lessons)

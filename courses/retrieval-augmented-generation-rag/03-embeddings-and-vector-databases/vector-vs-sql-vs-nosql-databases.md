@@ -1,7 +1,7 @@
 ---
 title: "Vector vs SQL vs NoSQL Databases"
-course: Vector Databases for AI
-module: "2. Introduction to Vector Databases"
+course: "Retrieval-Augmented Generation (RAG)"
+module: "3. Embeddings and Vector Databases"
 type: Article
 level: Intermediate
 reading_time: 28 min
@@ -263,7 +263,7 @@ Example output:
 ...
 ```
 
-The `ORDER BY embedding <=> $1 LIMIT 5` pattern is what lets PostgreSQL use the HNSW index instead of scanning. MongoDB and Cassandra are covered hands-on in [Vector Search in MongoDB and Cassandra](../course.md#m5).
+The `ORDER BY embedding <=> $1 LIMIT 5` pattern is what lets PostgreSQL use the HNSW index instead of scanning. MongoDB and Cassandra are covered hands-on in [Vector Search in MongoDB and Cassandra](../course.md#m4).
 
 ### 7. Dedicated vector database or vector search in your existing database?
 

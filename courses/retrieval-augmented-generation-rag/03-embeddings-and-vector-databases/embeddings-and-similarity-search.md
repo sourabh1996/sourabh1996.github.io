@@ -1,7 +1,7 @@
 ---
 title: "Embeddings and Similarity Search"
-course: Vector Databases for AI
-module: "2. Introduction to Vector Databases"
+course: "Retrieval-Augmented Generation (RAG)"
+module: "3. Embeddings and Vector Databases"
 type: Article
 level: Intermediate
 reading_time: 32 min
@@ -11,9 +11,9 @@ reading_time: 32 min
 
 > 📚 **Before you start**
 >
-> - [How This Course Works](../01-start-here/how-this-course-works.md), for how the runnable examples are set up.
+> - [How This Course Works](../course.md), for how the runnable examples are set up.
 > - [NLP for Machine Learning › Word Embeddings](../../nlp-for-machine-learning/course.md#m5), for word vectors and Word2Vec. This lesson recaps the parts you need.
-> - [Numerical Computing and Data Analysis](../../numerical-computing-and-data-analysis/course.md), for NumPy arrays and shapes.
+> - [Data Analysis and Visualisation with Python](../../data-analysis-and-visualisation-with-python/course.md), for NumPy arrays and shapes.
 
 ## Introduction
 

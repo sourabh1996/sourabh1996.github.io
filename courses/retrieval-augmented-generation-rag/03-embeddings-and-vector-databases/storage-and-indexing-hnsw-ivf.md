@@ -1,7 +1,7 @@
 ---
 title: "Storage and Indexing (HNSW, IVF)"
-course: Vector Databases for AI
-module: "3. Architecture"
+course: "Retrieval-Augmented Generation (RAG)"
+module: "3. Embeddings and Vector Databases"
 type: Article
 level: Intermediate
 reading_time: 45 min
@@ -11,8 +11,8 @@ reading_time: 45 min
 
 > 📚 **Before you start**
 >
-> - [Embeddings and Similarity Search](../02-introduction-to-vector-databases/embeddings-and-similarity-search.md), for cosine similarity, brute-force kNN and recall@k.
-> - [Vector vs SQL vs NoSQL Databases](../02-introduction-to-vector-databases/vector-vs-sql-vs-nosql-databases.md), for why a B-tree cannot index closeness and what the curse of dimensionality does.
+> - [Embeddings and Similarity Search](embeddings-and-similarity-search.md), for cosine similarity, brute-force kNN and recall@k.
+> - [Vector vs SQL vs NoSQL Databases](vector-vs-sql-vs-nosql-databases.md), for why a B-tree cannot index closeness and what the curse of dimensionality does.
 > - Comfort with NumPy and the idea of k-means clustering. [Ensembles and Unsupervised Learning](../../ensembles-and-unsupervised-learning/course.md) covers k-means if it is new to you; this lesson recaps it.
 
 ## Introduction
