@@ -184,7 +184,7 @@ COVERAGE = {
  ("Weight initialisation", ["Weight Initialisation"]),
  ("Dropout", ["Dropout"]),
  ("Batch normalisation", ["Batch Normalisation"]),
- ("Keras and PyTorch", ["Keras Fundamentals", "PyTorch Fundamentals"]),
+ ("Keras and PyTorch", ["Keras Fundamentals", "Tensors in PyTorch"]),
  ("Visualising architecture and performance", ["Visualising Network Architecture and Training"]),
 ],
 "19 Advanced DL for NLP": [
@@ -236,7 +236,7 @@ COVERAGE = {
  ("RAG triad metrics", ["The RAG Triad Metrics"]),
  ("LLM-as-a-judge", ["LLM-as-a-Judge"]),
  ("Turn-based evaluation (Ragas)", ["Turn-Based Evaluation with Ragas"]),
- ("Traces and spans", ["Traces and Spans"]),
+ ("Traces and spans", ["Traces, Spans and OpenTelemetry GenAI Conventions"]),
  ("Intermediate output access; aggregated analytics", ["Intermediate Outputs and Analytics"]),
  ("Feedback and annotation loops", ["Feedback and Annotation Loops"]),
  ("Prompt optimisation pipelines", ["Prompt Optimisation Pipelines"]),
@@ -319,6 +319,6 @@ COVERAGE = {
  ("Network intrusion detection", ["Project: Network Intrusion Detection System"]),
  ("Text summarisation, translation, QA", ["Project: Text Summarisation", "Project: Machine Translation", "Project: Question Answering"]),
  ("RAG Q&A with CI/CD", ["Project: RAG Q&A System with CI/CD"]),
- ("Multi-agent research system", ["Project: Multi-Agent Research Analysis and Generation"]),
+ ("Multi-agent research system", ["Lab: Build the research team"]),
 ],
 }

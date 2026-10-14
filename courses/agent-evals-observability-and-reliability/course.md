@@ -1,11 +1,11 @@
 # Agent Evals, Observability and Reliability
 
-**Advanced · 5 modules · 18 lessons · ~8 hrs**  
-Track 8 · Agentic AI · ➕ Added beyond the bootcamp syllabus
+**Advanced · 5 modules · 22 lessons · ~10 hrs**  
+Track 7 · Agentic AI · Bootcamp syllabus module(s): 24
 
 Know whether your agent works: outcome and trajectory evals, LLM judges, benchmarks, tracing with OpenTelemetry, and reliability engineering.
 
-**Finish first:** [Agent Frameworks and SDKs](../agent-frameworks-and-sdks/course.md), [Enterprise LLM Systems](../enterprise-llm-systems/course.md)  
+**Finish first:** [Agent Frameworks and SDKs](../agent-frameworks-and-sdks/course.md), [Retrieval-Augmented Generation (RAG)](../retrieval-augmented-generation-rag/course.md)  
 **Unlocks:** [Shipping Agents to Production](../shipping-agents-to-production/course.md)
 
 ## Course content
@@ -30,12 +30,18 @@ Know whether your agent works: outcome and trajectory evals, LLM judges, benchma
 - Contamination and Eval Awareness · Article ➕
 
 <a id="m4"></a>
-### 4. Observability ➕ (5 lessons)
-- Traces, Spans and OpenTelemetry GenAI Conventions · Article ➕
-- LangSmith, Langfuse, Phoenix and Braintrust · Article ➕
+### 4. Observability (9 lessons)
+> **Before you start:** [LangChain Complete Guide › Monitoring and Deployment](../langchain-complete-guide/course.md#m8)
+
+- Traces, Spans and OpenTelemetry GenAI Conventions · Article
+- LangSmith Setup and Zero-Code Tracing · Article
+- Intermediate Outputs and Analytics · Article
+- Low-Code Agent Tracing · Article
+- Langfuse, Opik, Phoenix and Braintrust · Article ➕
 - Cost, Latency and Token Dashboards · Article ➕
-- Online Evals and Feedback Loops · Article ➕
-- Lab: Trace and debug an agent with Langfuse · Lab ➕
+- Feedback and Annotation Loops · Article
+- Prompt Optimisation Pipelines · Article
+- Lab: Trace an app in LangSmith and Opik · Lab
 
 <a id="m5"></a>
 ### 5. Reliability Engineering ➕ (3 lessons)

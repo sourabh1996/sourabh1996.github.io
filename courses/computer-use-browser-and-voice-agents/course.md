@@ -1,7 +1,7 @@
 # Computer-Use, Browser and Voice Agents
 
 **Advanced · 4 modules · 12 lessons · ~5 hrs**  
-Track 8 · Agentic AI · ➕ Added beyond the bootcamp syllabus
+Track 7 · Agentic AI · ➕ Added beyond the bootcamp syllabus
 
 Agents that see and act on screens and web pages, and agents that talk in real time.
 
