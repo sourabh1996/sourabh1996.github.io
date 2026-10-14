@@ -1,6 +1,6 @@
 ---
 title: "Selecting, Sorting and Indexing Data"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "3. pandas Core"
 type: Article
 level: Beginner

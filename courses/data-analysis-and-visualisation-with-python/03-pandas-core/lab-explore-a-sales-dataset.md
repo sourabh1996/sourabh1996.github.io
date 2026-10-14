@@ -1,6 +1,6 @@
 ---
 title: "Lab: Explore a sales dataset"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "3. pandas Core"
 type: Lab
 level: Beginner
@@ -266,7 +266,7 @@ Output:
 weekend share of revenue: 30.6%  (weekends are 28.6% of days)
 ```
 
-Weekends bring in slightly more than their share of the calendar (30.6% of revenue from 28.6% of the days). A small weekend bump like this is exactly the kind of pattern the check is meant to reveal; whether it is meaningful or just noise is a question for [Statistics Foundations](../../statistics-foundations/course.md).
+Weekends bring in slightly more than their share of the calendar (30.6% of revenue from 28.6% of the days). A small weekend bump like this is exactly the kind of pattern the check is meant to reveal; whether it is meaningful or just noise is a question for [Statistics for Data Science](../../statistics-for-data-science/course.md).
 
 ---
 

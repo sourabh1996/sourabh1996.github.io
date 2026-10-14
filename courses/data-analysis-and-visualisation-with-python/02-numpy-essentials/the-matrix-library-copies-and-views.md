@@ -1,6 +1,6 @@
 ---
 title: "The Matrix Library, Copies and Views"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "2. NumPy Essentials"
 type: Article
 level: Beginner
@@ -14,7 +14,7 @@ reading_time: 35 min
 > - [Creating, Indexing and Slicing Arrays](creating-indexing-and-slicing-arrays.md), for views from slicing and copies from fancy indexing
 > - [Data Types and Array Attributes](data-types-and-array-attributes.md), for `strides`, `flags` and `base`
 > - [Array Manipulation and Arithmetic](array-manipulation-and-arithmetic.md), for reshaping, transposing and element-wise `*`
-> - [Python Fundamentals › Core Language Concepts](../../python-fundamentals/course.md#m3), for how Python names refer to objects and what mutability means
+> - [Python Programming › Core Language Concepts](../../python-programming/course.md#m3), for how Python names refer to objects and what mutability means
 
 ## Introduction
 
@@ -233,7 +233,7 @@ Output:
 6.5 45.3
 ```
 
-Each extra hour adds about 6.5 marks. You will build on this in [Machine Learning Fundamentals](../../machine-learning-fundamentals/course.md).
+Each extra hour adds about 6.5 marks. You will build on this in [Machine Learning Foundations: Data, EDA and Features](../../machine-learning-foundations-data-eda-and-features/course.md).
 
 **Eigenvalues and eigenvectors** describe the directions a matrix stretches. For a symmetric matrix (such as a covariance matrix) use `np.linalg.eigh`, which is faster, more stable and returns real numbers in ascending order:
 
@@ -255,7 +255,7 @@ Output:
 True
 ```
 
-This is the heart of **principal component analysis (PCA)**, covered in [Feature Engineering and EDA](../../feature-engineering-and-eda/course.md). `np.linalg.eig` handles general (non-symmetric) matrices, and `np.linalg.svd` computes the singular value decomposition.
+This is the heart of **principal component analysis (PCA)**, covered in [Machine Learning Foundations: Data, EDA and Features](../../machine-learning-foundations-data-eda-and-features/course.md). `np.linalg.eig` handles general (non-symmetric) matrices, and `np.linalg.svd` computes the singular value decomposition.
 
 NumPy 2 also added array-API names: `np.matrix_transpose(a)` (or the `a.mT` attribute) transposes only the **last two axes**, which is what you want for a stack of matrices, whereas `.T` reverses all axes:
 

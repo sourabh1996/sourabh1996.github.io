@@ -1,6 +1,6 @@
 ---
 title: "Lab: Clean and summarise a messy CSV"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "5. Statistics and Plots in pandas"
 type: Lab
 level: Beginner
@@ -609,4 +609,4 @@ Tuesday
 
 ---
 
-**Up next:** You have finished Numerical Computing and Data Analysis. Continue with [Data Visualization with Matplotlib and Seaborn](../../data-visualization-with-matplotlib-and-seaborn/course.md) or [Statistics Foundations](../../statistics-foundations/course.md).
+**Up next:** You have finished Data Analysis and Visualisation with Python. Continue with [Data Analysis and Visualisation with Python](../course.md) or [Statistics for Data Science](../../statistics-for-data-science/course.md).

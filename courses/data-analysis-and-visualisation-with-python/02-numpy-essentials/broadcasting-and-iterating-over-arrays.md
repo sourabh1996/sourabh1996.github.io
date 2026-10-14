@@ -1,6 +1,6 @@
 ---
 title: "Broadcasting and Iterating over Arrays"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "2. NumPy Essentials"
 type: Article
 level: Beginner
@@ -13,7 +13,7 @@ reading_time: 30 min
 >
 > - [What is a NumPy Array?](what-is-a-numpy-array.md), for shapes, axes and element-wise operations
 > - [Creating, Indexing and Slicing Arrays](creating-indexing-and-slicing-arrays.md), for `np.newaxis` and slicing
-> - [Python Fundamentals › Control Flow](../../python-fundamentals/course.md#m4), for `for` loops
+> - [Python Programming › Control Flow](../../python-programming/course.md#m4), for `for` loops
 
 ## Introduction
 

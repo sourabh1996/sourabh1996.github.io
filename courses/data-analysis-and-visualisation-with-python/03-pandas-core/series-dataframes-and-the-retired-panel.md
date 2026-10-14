@@ -1,6 +1,6 @@
 ---
 title: "Series, DataFrames (and the Retired Panel)"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "3. pandas Core"
 type: Article
 level: Beginner
@@ -14,7 +14,7 @@ reading_time: 35 min
 > - [What is a NumPy Array?](../02-numpy-essentials/what-is-a-numpy-array.md), for vectorised operations, shape and axes
 > - [Data Types and Array Attributes](../02-numpy-essentials/data-types-and-array-attributes.md), for dtypes and `nan`
 > - [The Matrix Library, Copies and Views](../02-numpy-essentials/the-matrix-library-copies-and-views.md), for views and copies, which pandas 3 handles differently
-> - [Python Fundamentals › Strings and Data Structures](../../python-fundamentals/course.md#m5), for dictionaries and lists of dictionaries
+> - [Python Programming › Strings and Data Structures](../../python-programming/course.md#m5), for dictionaries and lists of dictionaries
 
 ## Introduction
 

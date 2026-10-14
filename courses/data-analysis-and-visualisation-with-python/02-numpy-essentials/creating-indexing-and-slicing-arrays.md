@@ -1,6 +1,6 @@
 ---
 title: "Creating, Indexing and Slicing Arrays"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "2. NumPy Essentials"
 type: Article
 level: Beginner
@@ -12,7 +12,7 @@ reading_time: 30 min
 > 📚 **Before you start**
 >
 > - [What is a NumPy Array?](what-is-a-numpy-array.md), for shape, axes and dtype
-> - [Python Fundamentals › Strings and Data Structures](../../python-fundamentals/course.md#m5), for list indexing and slicing (`a[1:4]`, `a[::-1]`)
+> - [Python Programming › Strings and Data Structures](../../python-programming/course.md#m5), for list indexing and slicing (`a[1:4]`, `a[::-1]`)
 
 ## Introduction
 

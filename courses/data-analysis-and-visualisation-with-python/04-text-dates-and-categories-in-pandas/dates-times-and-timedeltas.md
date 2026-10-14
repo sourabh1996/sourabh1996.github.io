@@ -1,6 +1,6 @@
 ---
 title: "Dates, Times and Timedeltas"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "4. Text, Dates and Categories in pandas"
 type: Article
 level: Beginner

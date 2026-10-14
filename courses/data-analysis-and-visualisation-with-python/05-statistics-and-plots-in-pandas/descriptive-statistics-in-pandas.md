@@ -1,6 +1,6 @@
 ---
 title: "Descriptive Statistics in pandas"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "5. Statistics and Plots in pandas"
 type: Article
 level: Beginner
@@ -22,7 +22,7 @@ A school principal receives the board exam results for 300 students and has ten 
 
 Those numbers are **descriptive statistics**: summaries that describe a dataset without trying to predict or prove anything. pandas computes all of them in one or two lines, on a whole table, per column, per row or per group. They are always the first step of any analysis, because they show you what the data looks like and where it might be wrong.
 
-This lesson covers `describe`, every individual summary method (with the pandas defaults that differ from NumPy), counting and missing values, correlation, and the most important tool in practical data analysis: **group-wise statistics** with `groupby`, `agg`, `transform`, `crosstab` and `pivot_table`. The [Statistics Foundations](../../statistics-foundations/course.md) course explains the theory behind each measure; this lesson is about computing them correctly and quickly.
+This lesson covers `describe`, every individual summary method (with the pandas defaults that differ from NumPy), counting and missing values, correlation, and the most important tool in practical data analysis: **group-wise statistics** with `groupby`, `agg`, `transform`, `crosstab` and `pivot_table`. The [Statistics for Data Science](../../statistics-for-data-science/course.md) course explains the theory behind each measure; this lesson is about computing them correctly and quickly.
 
 > 💡 **Key Insight**
 >
@@ -274,7 +274,7 @@ Name: count, dtype: int64
 
 `count()` excludes missing values while `size` (or `len`) includes them, so `len(df) - df.count()` is another way to count gaps. `value_counts` drops missing values unless you pass `dropna=False`, and `bins=` groups numbers into ranges on the fly.
 
-What to do with the gaps depends on the question: drop them (`dropna`), fill them with a constant or a statistic (`fillna(m.median())`), or carry neighbouring values (`ffill`, `interpolate`) for time series. The [Lab: Clean and summarise a messy CSV](lab-clean-and-summarise-a-messy-csv.md) practises these choices, and [Feature Engineering and EDA](../../feature-engineering-and-eda/course.md) covers imputation in depth.
+What to do with the gaps depends on the question: drop them (`dropna`), fill them with a constant or a statistic (`fillna(m.median())`), or carry neighbouring values (`ffill`, `interpolate`) for time series. The [Lab: Clean and summarise a messy CSV](lab-clean-and-summarise-a-messy-csv.md) practises these choices, and [Machine Learning Foundations: Data, EDA and Features](../../machine-learning-foundations-data-eda-and-features/course.md) covers imputation in depth.
 
 ### 6. Correlation and covariance
 

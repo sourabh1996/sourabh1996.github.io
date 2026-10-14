@@ -1,6 +1,6 @@
 ---
 title: "Data Types and Array Attributes"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "2. NumPy Essentials"
 type: Article
 level: Beginner
@@ -13,7 +13,7 @@ reading_time: 30 min
 >
 > - [What is a NumPy Array?](what-is-a-numpy-array.md), for the idea that every element shares one type
 > - [Creating, Indexing and Slicing Arrays](creating-indexing-and-slicing-arrays.md), for building arrays to experiment with
-> - [Python Fundamentals › Getting Started with Python](../../python-fundamentals/course.md#m2), for Python's own `int`, `float`, `bool` and `str`
+> - [Python Programming › Getting Started with Python](../../python-programming/course.md#m2), for Python's own `int`, `float`, `bool` and `str`
 
 ## Introduction
 

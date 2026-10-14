@@ -1,6 +1,6 @@
 ---
 title: "Categorical Data"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "4. Text, Dates and Categories in pandas"
 type: Article
 level: Beginner
@@ -390,7 +390,7 @@ Output:
 [0 1 0 2] ['b', 'a', 'c']
 ```
 
-Integer codes imply an order, which suits ordered categories (sizes, ratings) but misleads many models for unordered ones (cities); one-hot encoding avoids that. The [Feature Engineering and EDA](../../feature-engineering-and-eda/course.md) course covers encoding choices in depth.
+Integer codes imply an order, which suits ordered categories (sizes, ratings) but misleads many models for unordered ones (cities); one-hot encoding avoids that. The [Machine Learning Foundations: Data, EDA and Features](../../machine-learning-foundations-data-eda-and-features/course.md) course covers encoding choices in depth.
 
 ### 10. When to use categoricals (and when not)
 

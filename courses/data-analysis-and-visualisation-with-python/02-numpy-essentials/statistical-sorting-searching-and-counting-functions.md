@@ -1,6 +1,6 @@
 ---
 title: "Statistical, Sorting, Searching and Counting Functions"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "2. NumPy Essentials"
 type: Article
 level: Beginner
@@ -79,7 +79,7 @@ Output:
 22.823 24.058
 ```
 
-The [Statistics Foundations](../../statistics-foundations/course.md) course explains why *n − 1* is used.
+The [Statistics for Data Science](../../statistics-for-data-science/course.md) course explains why *n − 1* is used.
 
 **Weighted averages** use `np.average` with `weights`. A batter's average across seasons with different numbers of innings:
 

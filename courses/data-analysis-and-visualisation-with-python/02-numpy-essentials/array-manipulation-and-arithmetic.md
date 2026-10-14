@@ -1,6 +1,6 @@
 ---
 title: "Array Manipulation and Arithmetic"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "2. NumPy Essentials"
 type: Article
 level: Beginner

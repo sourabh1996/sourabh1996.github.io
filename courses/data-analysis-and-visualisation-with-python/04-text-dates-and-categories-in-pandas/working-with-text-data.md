@@ -1,6 +1,6 @@
 ---
 title: "Working with Text Data"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "4. Text, Dates and Categories in pandas"
 type: Article
 level: Beginner
@@ -14,7 +14,7 @@ reading_time: 35 min
 > - [Series, DataFrames (and the Retired Panel)](../03-pandas-core/series-dataframes-and-the-retired-panel.md), for the pandas 3 `str` dtype
 > - [Selecting, Sorting and Indexing Data](../03-pandas-core/selecting-sorting-and-indexing-data.md), for boolean filters
 > - [Binary and String Functions](../02-numpy-essentials/binary-and-string-functions.md), for vectorised string operations in NumPy
-> - [Python Fundamentals › Strings and Data Structures](../../python-fundamentals/course.md#m5), for Python's string methods
+> - [Python Programming › Strings and Data Structures](../../python-programming/course.md#m5), for Python's string methods
 
 ## Introduction
 
@@ -439,7 +439,7 @@ Output:
 2   0          1        0     1
 ```
 
-Machine learning models need numbers, so this is a common step before training. [Feature Engineering and EDA](../../feature-engineering-and-eda/course.md) covers encoding in depth.
+Machine learning models need numbers, so this is a common step before training. [Machine Learning Foundations: Data, EDA and Features](../../machine-learning-foundations-data-eda-and-features/course.md) covers encoding in depth.
 
 ### 10. Cleaning column names
 

@@ -1,6 +1,6 @@
 ---
 title: "What is a NumPy Array?"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "2. NumPy Essentials"
 type: Article
 level: Beginner
@@ -12,8 +12,8 @@ reading_time: 25 min
 > 📚 **Before you start**
 >
 > This is the first technical lesson of the course. You need comfortable basic Python, especially lists and loops:
-> - [Python Fundamentals › Strings and Data Structures](../../python-fundamentals/course.md#m5), for lists, tuples and slicing
-> - [Python Fundamentals › Control Flow](../../python-fundamentals/course.md#m4), for `for` loops
+> - [Python Programming › Strings and Data Structures](../../python-programming/course.md#m5), for lists, tuples and slicing
+> - [Python Programming › Control Flow](../../python-programming/course.md#m4), for `for` loops
 > - [How This Course Works](../01-start-here/how-this-course-works.md), for the versions and setup
 
 ## Introduction

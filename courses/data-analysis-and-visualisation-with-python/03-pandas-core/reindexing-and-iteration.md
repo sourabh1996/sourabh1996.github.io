@@ -1,6 +1,6 @@
 ---
 title: "Reindexing and Iteration"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "3. pandas Core"
 type: Article
 level: Beginner
@@ -14,7 +14,7 @@ reading_time: 30 min
 > - [Series, DataFrames (and the Retired Panel)](series-dataframes-and-the-retired-panel.md), for the index and label alignment
 > - [Selecting, Sorting and Indexing Data](selecting-sorting-and-indexing-data.md), for `set_index`, `reset_index` and `.loc`
 > - [Broadcasting and Iterating over Arrays](../02-numpy-essentials/broadcasting-and-iterating-over-arrays.md), for why vectorised code beats loops
-> - [Python Fundamentals › Functions and Iterators](../../python-fundamentals/course.md#m6), for iterators, lambdas and `map`
+> - [Python Programming › Functions and Iterators](../../python-programming/course.md#m6), for iterators, lambdas and `map`
 
 ## Introduction
 

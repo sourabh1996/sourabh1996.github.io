@@ -1,6 +1,6 @@
 ---
 title: "Binary and String Functions"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "2. NumPy Essentials"
 type: Article
 level: Beginner
@@ -13,7 +13,7 @@ reading_time: 30 min
 >
 > - [Data Types and Array Attributes](data-types-and-array-attributes.md), for unsigned integers, string dtypes and `StringDType`
 > - [Array Manipulation and Arithmetic](array-manipulation-and-arithmetic.md), for ufuncs and element-wise operations
-> - [Python Fundamentals › Strings and Data Structures](../../python-fundamentals/course.md#m5), for Python's string methods (`upper`, `strip`, `replace`, `find`)
+> - [Python Programming › Strings and Data Structures](../../python-programming/course.md#m5), for Python's string methods (`upper`, `strip`, `replace`, `find`)
 
 ## Introduction
 

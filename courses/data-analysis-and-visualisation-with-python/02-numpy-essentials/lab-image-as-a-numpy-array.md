@@ -1,6 +1,6 @@
 ---
 title: "Lab: Image as a NumPy array"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "2. NumPy Essentials"
 type: Lab
 level: Beginner

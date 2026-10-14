@@ -1,6 +1,6 @@
 ---
 title: "Quick Visualisation with pandas"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "5. Statistics and Plots in pandas"
 type: Article
 level: Beginner
@@ -19,7 +19,7 @@ reading_time: 35 min
 
 A table of 365 daily temperatures tells you almost nothing at a glance. The same numbers drawn as a line instantly show the summer peak, the monsoon dip and the one broken sensor reading in January. A list of salaries hides its shape; a histogram shows whether most people earn about the same or whether a few earn far more. Pictures are often the fastest way to *understand* data, and the fastest way to find mistakes in it.
 
-You do not need a separate charting tool for this. Every pandas Series and DataFrame has a **`.plot`** method that draws the most common chart types in one line, using **Matplotlib** underneath. The index becomes the x-axis, each column becomes a series, and the column names become the legend. These are **exploratory** charts: quick, rough and meant for you. Polished charts for reports are the subject of the [Data Visualization with Matplotlib and Seaborn](../../data-visualization-with-matplotlib-and-seaborn/course.md) course.
+You do not need a separate charting tool for this. Every pandas Series and DataFrame has a **`.plot`** method that draws the most common chart types in one line, using **Matplotlib** underneath. The index becomes the x-axis, each column becomes a series, and the column names become the legend. These are **exploratory** charts: quick, rough and meant for you. Polished charts for reports are the subject of the [Data Analysis and Visualisation with Python](../course.md) course.
 
 In this lesson you will learn every `kind` of plot pandas offers, how to pick the right one for your question, how to customise and combine plots through the Matplotlib `Axes` object that `.plot` returns, how to save them to files, and the extra tools in `pandas.plotting` such as the scatter matrix.
 

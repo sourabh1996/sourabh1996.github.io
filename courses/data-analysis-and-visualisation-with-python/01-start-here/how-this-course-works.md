@@ -1,6 +1,6 @@
 ---
 title: "How This Course Works"
-course: Numerical Computing and Data Analysis
+course: "Data Analysis and Visualisation with Python"
 module: "1. Start Here"
 type: Article
 level: Beginner
@@ -123,11 +123,11 @@ Every article follows the same shape as the rest of the site (Before you start, 
 
 You do **not** need any maths beyond school arithmetic and averages. You do need comfortable basic Python:
 
-- **Lists, tuples, dictionaries and slicing.** Arrays and DataFrames reuse the same ideas. See [Python Fundamentals › Strings and Data Structures](../../python-fundamentals/course.md#m5).
-- **Loops and `if` statements.** You will learn to replace many loops, so you need to know what they do. See [Python Fundamentals › Control Flow](../../python-fundamentals/course.md#m4).
-- **Functions and lambdas.** pandas uses them for custom transformations. See [Python Fundamentals › Functions and Iterators](../../python-fundamentals/course.md#m6).
+- **Lists, tuples, dictionaries and slicing.** Arrays and DataFrames reuse the same ideas. See [Python Programming › Strings and Data Structures](../../python-programming/course.md#m5).
+- **Loops and `if` statements.** You will learn to replace many loops, so you need to know what they do. See [Python Programming › Control Flow](../../python-programming/course.md#m4).
+- **Functions and lambdas.** pandas uses them for custom transformations. See [Python Programming › Functions and Iterators](../../python-programming/course.md#m6).
 
-If any of those feel shaky, work through [Python Fundamentals](../../python-fundamentals/course.md) first. It will make this course much smoother.
+If any of those feel shaky, work through [Python Programming](../../python-programming/course.md) first. It will make this course much smoother.
 
 ---
 
