@@ -11,7 +11,7 @@ reading_time: 22 min
 
 > 📚 **Before you start**
 >
-> - [pandas Core](../course.md#m3) (Data Analysis and Visualisation with Python), for building the small DataFrames used here
+> - [pandas Core](../course.md#m3), for building the small DataFrames used here
 > - [Quick Visualisation with pandas](../course.md#m5), if you have used `df.plot()` before: it is Matplotlib underneath
 
 ## Introduction
@@ -152,7 +152,7 @@ Both files look identical. Notice the naming pattern: `plt.title(...)` becomes `
 | `plt.legend` | `ax.legend` |
 | `plt.savefig` | `fig.savefig` |
 
-**Which should you use?** The explicit style, almost always. The pyplot style is fine for a one-line chart in a notebook, but as soon as there are two Axes, "current" becomes a guessing game. The Matplotlib documentation itself recommends the explicit interface for anything beyond quick interactive work. Seaborn and pandas both accept an `ax=` argument, which only makes sense in the explicit style. This course uses `fig, ax` everywhere.
+**Which should you use?** The explicit style, almost always. The pyplot style is fine for a one-line chart in a notebook, but as soon as there are two Axes, "current" becomes a guessing game. The Matplotlib documentation itself recommends the explicit interface for anything beyond quick interactive work. Seaborn and pandas both accept an `ax=` argument, which only makes sense in the explicit style. These lessons use `fig, ax` everywhere.
 
 You can always get the hidden objects from pyplot if you need them: `plt.gcf()` returns the current Figure and `plt.gca()` the current Axes ("get current figure", "get current axes").
 

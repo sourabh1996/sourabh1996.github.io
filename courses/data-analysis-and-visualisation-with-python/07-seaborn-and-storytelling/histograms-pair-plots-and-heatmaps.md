@@ -12,7 +12,7 @@ reading_time: 28 min
 > 📚 **Before you start**
 >
 > - [Statistical Plots with Seaborn](statistical-plots-with-seaborn.md), for `hue`, long-form data and Axes-level vs figure-level functions
-> - [Descriptive Statistics in pandas](../course.md#m5) (Data Analysis and Visualisation with Python), for `describe`, `corr` and `pivot_table`
+> - [Descriptive Statistics in pandas](../course.md#m5), for `describe`, `corr` and `pivot_table`
 
 ## Introduction
 

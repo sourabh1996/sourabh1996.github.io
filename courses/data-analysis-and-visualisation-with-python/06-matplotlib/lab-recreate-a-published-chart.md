@@ -13,7 +13,7 @@ reading_time: 40 min
 >
 > - [How Matplotlib Thinks: Figures and Axes](how-matplotlib-thinks-figures-and-axes.md)
 > - [Creating and Customising Plots](creating-and-customising-plots.md)
-> - [Descriptive Statistics in pandas](../course.md#m5) (Data Analysis and Visualisation with Python), for mean, variance and correlation
+> - [Descriptive Statistics in pandas](../course.md#m5), for mean, variance and correlation
 
 ## What You'll Build
 

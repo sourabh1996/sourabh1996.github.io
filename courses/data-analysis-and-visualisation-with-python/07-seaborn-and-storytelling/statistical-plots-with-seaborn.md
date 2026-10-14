@@ -13,7 +13,7 @@ reading_time: 28 min
 >
 > - [How Matplotlib Thinks: Figures and Axes](../06-matplotlib/how-matplotlib-thinks-figures-and-axes.md), because every Seaborn chart is a Matplotlib Figure and Axes
 > - [Creating and Customising Plots](../06-matplotlib/creating-and-customising-plots.md), for titles, labels and formatters
-> - [Descriptive Statistics in pandas](../course.md#m5) and [Categorical Data](../course.md#m4) (Data Analysis and Visualisation with Python), for means, `groupby` and category columns
+> - [Descriptive Statistics in pandas](../course.md#m5) and [Categorical Data](../course.md#m4), for means, `groupby` and category columns
 
 ## Introduction
 

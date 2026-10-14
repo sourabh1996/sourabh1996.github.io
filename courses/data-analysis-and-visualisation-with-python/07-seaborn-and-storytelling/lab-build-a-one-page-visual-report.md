@@ -389,8 +389,8 @@ busiest month by orders: 2025-10 15,072
 - **Export for the medium**: PNG for screens, PDF for print.
 - **Review like an editor** with a checklist before you send anything.
 
-That completes the Matplotlib and Seaborn lessons. Next, [Machine Learning Foundations: Data, EDA and Features](../../machine-learning-foundations-data-eda-and-features/course.md) puts these charts to work exploring datasets before modelling, and [APIs and Apps: FastAPI, Streamlit and Docker](../../apis-and-apps-fastapi-streamlit-and-docker/course.md) shows how to turn a page like this into an interactive dashboard.
+That completes the Matplotlib and Seaborn lessons, and this course. Later, [Machine Learning Foundations: Data, EDA and Features](../../machine-learning-foundations-data-eda-and-features/course.md) puts these charts to work exploring datasets before modelling, and [APIs and Apps: FastAPI, Streamlit and Docker](../../apis-and-apps-fastapi-streamlit-and-docker/course.md) shows how to turn a page like this into an interactive dashboard.
 
 ---
 
-**Up next:** [Machine Learning Foundations: Data, EDA and Features](../../machine-learning-foundations-data-eda-and-features/course.md)
+**Up next:** [Databases: SQL and NoSQL](../../databases-sql-and-nosql/course.md#m1)

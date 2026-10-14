@@ -430,8 +430,8 @@ Cold Coffee is ₹60.
 - **Keep the model at the edge**: a function that takes a system prompt and history and yields text, so a pretend model and a real one are interchangeable.
 - **Production basics**: secrets for keys, a cached client, trimmed history, error messages and persistence in a database.
 
-That completes the Streamlit lessons. You can now build dashboards, stateful tools and chat front ends for AI apps. To build the agent behind a chat UI like this one, continue with [Agentic AI Fundamentals](../../agentic-ai-fundamentals/course.md).
+That completes the Streamlit lessons. You can now build dashboards, stateful tools and chat front ends for AI apps. Next, [module 8](../course.md#m8) puts a Streamlit front end on a real model served by FastAPI. To build the agent behind a chat UI like this one, continue later with [Agentic AI Fundamentals](../../agentic-ai-fundamentals/course.md).
 
 ---
 
-**Up next:** [Agentic AI Fundamentals](../../agentic-ai-fundamentals/course.md)
+**Up next:** [Serving a Trained Model with FastAPI](../course.md#m8)

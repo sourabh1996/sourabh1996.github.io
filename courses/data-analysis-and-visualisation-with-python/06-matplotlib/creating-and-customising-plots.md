@@ -12,7 +12,7 @@ reading_time: 28 min
 > 📚 **Before you start**
 >
 > - [How Matplotlib Thinks: Figures and Axes](how-matplotlib-thinks-figures-and-axes.md), for `fig, ax = plt.subplots()` and the explicit style
-> - [Dates, Times and Timedeltas](../course.md#m4) (Data Analysis and Visualisation with Python), for `pd.date_range` and date columns
+> - [Dates, Times and Timedeltas](../course.md#m4), for `pd.date_range` and date columns
 > - [Selecting, Sorting and Indexing Data](../course.md#m3), for `sort_values` and `groupby`
 
 ## Introduction
