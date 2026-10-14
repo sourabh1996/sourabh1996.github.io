@@ -609,4 +609,4 @@ Tuesday
 
 ---
 
-**Up next:** You have finished Data Analysis and Visualisation with Python. Continue with [Data Analysis and Visualisation with Python](../course.md) or [Statistics for Data Science](../../statistics-for-data-science/course.md).
+**Up next:** [How Matplotlib Thinks: Figures and Axes](../course.md#m6)

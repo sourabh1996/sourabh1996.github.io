@@ -13,7 +13,7 @@ reading_time: 10 min
 
 Think about the last time you looked at your UPI history and wondered how much you actually spent on chai and snacks last month. With a few hundred transactions you could scroll and add them up by hand. With a few hundred thousand rows (a shop's yearly sales, a city's train ticket bookings, every ball bowled in ten IPL seasons) you need tools that can crunch numbers in bulk and answer questions in one line of code.
 
-Those tools are **NumPy** and **pandas**. Almost every data science, machine learning and data engineering library in Python is built on top of them or speaks their language. scikit-learn takes NumPy arrays. PyTorch tensors convert to and from them. Matplotlib and Seaborn plot them. Spark has a pandas API. Learn these two libraries properly and the rest of the data world becomes much easier to read.
+Those tools are **NumPy** and **pandas**. Almost every data science, machine learning and data engineering library in Python is built on top of them or speaks their language. scikit-learn takes NumPy arrays. PyTorch tensors convert to and from them. Matplotlib and Seaborn plot them. Spark has a pandas API. Learn these two libraries properly and the rest of the data world becomes much easier to read. Once you can find answers in a table, the last two modules teach **Matplotlib** and **Seaborn**, so you can show those answers as clear charts other people understand.
 
 This first article is short. It tells you what you will learn, how the lessons are built, which versions this course targets, and how to set up your machine so every example runs exactly as printed.
 
@@ -34,6 +34,8 @@ By the end of this course you will be able to:
 - **Build and explore pandas Series and DataFrames**, select rows and columns with `.loc` and `.iloc`, sort, filter, reindex and iterate correctly.
 - **Clean text, parse dates and use categorical data**, the three column types that cause the most trouble in real datasets.
 - **Describe a dataset in numbers and quick charts** using pandas' statistics and plotting methods.
+- **Build any chart with Matplotlib**: figures, axes, subplots, labels, colours and saved images.
+- **Draw statistical charts with Seaborn** (distributions, comparisons, pair plots and heatmaps) and style them so a reader gets the point at a glance.
 - **Write modern code for NumPy 2 and pandas 3**, and recognise outdated code (such as `df.append`, `np.float_` or the old `Panel`) when you find it in older tutorials.
 
 ### The course at a glance
@@ -44,9 +46,11 @@ flowchart LR
   B --> C["Module 3: pandas Core<br/>Series and DataFrames"]
   C --> D["Module 4: Text, Dates and Categories<br/>Real-world column types"]
   D --> E["Module 5: Statistics and Plots<br/>Summarise and visualise"]
+  E --> F["Module 6: Matplotlib<br/>Figures, axes and custom charts"]
+  F --> G["Module 7: Seaborn and Storytelling<br/>Statistical charts that communicate"]
 ```
 
-Module 2 gives you NumPy, the engine. Module 3 builds pandas on top of it: labelled rows and columns around NumPy-style data. Module 4 handles the messy column types every real dataset has. Module 5 turns tables into summaries and charts, and ends with a lab where you clean a messy CSV from start to finish.
+Module 2 gives you NumPy, the engine. Module 3 builds pandas on top of it: labelled rows and columns around NumPy-style data. Module 4 handles the messy column types every real dataset has. Module 5 turns tables into summaries and quick charts, and ends with a lab where you clean a messy CSV from start to finish. Module 6 opens up Matplotlib, the library under those quick charts, so you can control every part of a figure. Module 7 adds Seaborn for statistical charts and shows how to style them for an audience, ending with a one-page visual report.
 
 ---
 
@@ -58,7 +62,8 @@ Both libraries changed a lot recently, and a large share of the tutorials online
 |---|---|---|
 | **NumPy** | 2.5 | NumPy 2 removed many old aliases (`np.float_`, `np.NaN`, `np.Inf`), changed how mixed types are promoted, added the `np.strings` module and a variable-length string dtype, and prints scalars as `np.float64(3.0)` in the REPL. |
 | **pandas** | 3.0 | pandas 3 makes **Copy-on-Write** the only behaviour, uses a real **string dtype** (`str`) for text columns by default, parses dates at microsecond resolution by default, and removed long-deprecated methods such as `DataFrame.append` and `applymap`. |
-| **matplotlib** | 3.11 | Used only for quick charts in module 5. |
+| **matplotlib** | 3.11 | Draws pandas' quick charts in module 5, and is taught properly in module 6. |
+| **seaborn** | 0.13 | Statistical charts in module 7, built on Matplotlib. |
 
 Whenever a lesson touches one of these changes, it says so and shows the old way next to the new one, so you can read older code without being confused by it.
 
@@ -67,7 +72,7 @@ Whenever a lesson touches one of these changes, it says so and shows the old way
 You need **Python 3.12 or newer** (NumPy 2.5 requires it) and a code editor such as VS Code (or a Jupyter notebook, which suits data work well). Then install the libraries:
 
 ```bash
-python -m pip install "numpy>=2.5" "pandas>=3.0" matplotlib
+python -m pip install "numpy>=2.5" "pandas>=3.0" matplotlib seaborn
 ```
 
 pandas 3 works without the optional `pyarrow` package, but installing it (`pip install pyarrow`) makes text columns faster and lower in memory. Everything in this course works either way, and the output looks the same.
@@ -102,13 +107,14 @@ The whole Python data community imports these libraries under the same short nam
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import seaborn as sns
 ```
 
 ---
 
 ## How the Lessons Work
 
-Every article follows the same shape as the rest of the site (Before you start, Key Insight, Core Explanation, Try It Yourself, Real-World Examples, Common Misconceptions, Interview Relevance, Key Takeaways). This course also has three **labs**: editing an image as a NumPy array, exploring a sales dataset, and cleaning a messy CSV. Please don't skip them; they are where the methods turn into skills.
+Every article follows the same shape as the rest of the site (Before you start, Key Insight, Core Explanation, Try It Yourself, Real-World Examples, Common Misconceptions, Interview Relevance, Key Takeaways). This course also has five **labs**: editing an image as a NumPy array, exploring a sales dataset, cleaning a messy CSV, recreating a published chart, and building a one-page visual report. Please don't skip them; they are where the methods turn into skills.
 
 ### How the code works
 
@@ -143,7 +149,7 @@ If any of those feel shaky, work through [Python Programming](../../python-progr
 
 ## Key Takeaways
 
-- **NumPy** gives you fast arrays and maths; **pandas** gives you labelled tables built on the same ideas. You learn them in that order.
+- **NumPy** gives you fast arrays and maths; **pandas** gives you labelled tables built on the same ideas; **Matplotlib** and **Seaborn** turn them into charts. You learn them in that order.
 - The course targets **NumPy 2.5 and pandas 3.0**, and calls out every important change from older versions.
 - Every code example **runs as shown** and every output is **real**, with no downloads needed.
 - You need **basic Python**: data structures, loops and functions.
