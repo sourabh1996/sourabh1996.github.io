@@ -1,11 +1,11 @@
 # Multi-Agent Research System (Capstone)
 
 **Advanced · 5 modules · 15 lessons · ~7 hrs**  
-Track 8 · Agentic AI · Bootcamp syllabus module(s): 31
+Track 7 · Agentic AI · Bootcamp syllabus module(s): 31
 
 Build and ship a multi-agent system that researches, analyses and writes reports, with CI/CD on AWS.
 
-**Finish first:** [Human-in-the-Loop with LangGraph](../human-in-the-loop-with-langgraph/course.md), [Agentic RAG Systems](../agentic-rag-systems/course.md), [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md), [Production APIs with FastAPI](../production-apis-with-fastapi/course.md), [Enterprise LLM Systems](../enterprise-llm-systems/course.md), [Multi-Agent Systems and Agent Protocols](../multi-agent-systems-and-agent-protocols/course.md), [Shipping Agents to Production](../shipping-agents-to-production/course.md)  
+**Finish first:** [LangGraph Complete Guide](../langgraph-complete-guide/course.md), [Agentic RAG Systems](../agentic-rag-systems/course.md), [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md), [Multi-Agent Systems and Agent Protocols](../multi-agent-systems-and-agent-protocols/course.md), [Shipping Agents to Production](../shipping-agents-to-production/course.md)  
 **Unlocks:** Nothing, this is a final course.
 
 ## Course content
@@ -23,7 +23,7 @@ Build and ship a multi-agent system that researches, analyses and writes reports
 
 <a id="m3"></a>
 ### 3. Collaboration and Control (3 lessons)
-> **Before you start:** [LangGraph State and Memory › Advanced State](../langgraph-state-and-memory/course.md#m3), [Human-in-the-Loop with LangGraph › Human Feedback](../human-in-the-loop-with-langgraph/course.md#m3)
+> **Before you start:** [LangGraph Complete Guide › State in Depth](../langgraph-complete-guide/course.md#m4), [LangGraph Complete Guide › Human-in-the-Loop and Debugging](../langgraph-complete-guide/course.md#m8)
 
 - Shared Memory and Communication State · Article
 - Prompting for Multi-Turn Collaboration · Article
@@ -40,7 +40,7 @@ Build and ship a multi-agent system that researches, analyses and writes reports
 
 <a id="m5"></a>
 ### 5. Deployment and Automation (5 lessons)
-> **Before you start:** [Production APIs with FastAPI › Production Considerations](../production-apis-with-fastapi/course.md#m5), [Interactive Data Apps with Streamlit › Streamlit Basics](../interactive-data-apps-with-streamlit/course.md#m2), [MLOps with MLflow › Serving and Deployment](../mlops-with-mlflow/course.md#m5)
+> **Before you start:** [APIs and Apps: FastAPI, Streamlit and Docker › Production Considerations](../apis-and-apps-fastapi-streamlit-and-docker/course.md#m5), [APIs and Apps: FastAPI, Streamlit and Docker › Streamlit Basics](../apis-and-apps-fastapi-streamlit-and-docker/course.md#m6), [MLOps with MLflow › Serving and Deployment](../mlops-with-mlflow/course.md#m5)
 
 - FastAPI Backend for Agents · Article
 - UI for Logs, Graphs and Reports · Article
