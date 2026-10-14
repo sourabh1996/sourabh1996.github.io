@@ -76,7 +76,7 @@ flowchart TB
 
 Two trends matter more than any single product:
 
-- **Multimodal models.** The leading models no longer handle just one kind of data. The same model can read a photo of a handwritten bill, listen to a voice note and answer in text. You will study these in [Recent Breakthroughs in GenAI](../course.md#m5).
+- **Multimodal models.** The leading models no longer handle just one kind of data. The same model can read a photo of a handwritten bill, listen to a voice note and answer in text. You will study these in [Recent Breakthroughs in GenAI](../05-advances-and-applications/recent-breakthroughs-in-genai.md).
 - **From generating to doing.** Generative models are increasingly used as the "brain" of **agents** that take actions (search, book, send) rather than only producing content. That is the subject of the [Agentic AI Fundamentals](../../agentic-ai-fundamentals/course.md) course that follows this one.
 
 ### 4. A tiny generative model you can read in one screen

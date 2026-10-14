@@ -535,4 +535,4 @@ The repair loop cut the review queue from three messages to one, at the cost of 
 
 ---
 
-**Up next:** [Recent Breakthroughs in GenAI](../course.md#m5)
+**Up next:** [Recent Breakthroughs in GenAI](../05-advances-and-applications/recent-breakthroughs-in-genai.md)

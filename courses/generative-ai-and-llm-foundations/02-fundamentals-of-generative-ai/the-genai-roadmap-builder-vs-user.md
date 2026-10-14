@@ -126,7 +126,7 @@ Output:
 5,000,000 chats/month: API ₹   6,000,000 vs GPU ₹250,000 -> self-host
 ```
 
-At low volume the API is far cheaper. At very high volume a fixed GPU cost can win, **if** the open model is good enough for the task and you have people to run it. Real decisions also weigh quality, privacy rules, latency and engineering time, and at millions of chats a month you would need several servers, not one; this toy ignores all of that. You will revisit this in [The GenAI Project Lifecycle](../course.md#m5).
+At low volume the API is far cheaper. At very high volume a fixed GPU cost can win, **if** the open model is good enough for the task and you have people to run it. Real decisions also weigh quality, privacy rules, latency and engineering time, and at millions of chats a month you would need several servers, not one; this toy ignores all of that. You will revisit this in [The GenAI Project Lifecycle](../05-advances-and-applications/the-genai-project-lifecycle.md).
 
 ### 5. A roadmap through this site
 

@@ -43,6 +43,6 @@ What generative AI is, how LLMs work, and how to use them well: foundation model
 
 <a id="m5"></a>
 ### 5. Advances and Applications (3 lessons)
-- Recent Breakthroughs in GenAI · Article
-- GenAI Applications Across Industries · Article
-- The GenAI Project Lifecycle · Article
+- [Recent Breakthroughs in GenAI](05-advances-and-applications/recent-breakthroughs-in-genai.md) · Article ✍️ *written*
+- [GenAI Applications Across Industries](05-advances-and-applications/genai-applications-across-industries.md) · Article ✍️ *written*
+- [The GenAI Project Lifecycle](05-advances-and-applications/the-genai-project-lifecycle.md) · Article ✍️ *written*

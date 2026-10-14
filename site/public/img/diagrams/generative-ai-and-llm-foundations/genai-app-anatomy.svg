@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 660" width="1100" height="660" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Inside a typical industry GenAI application">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="658" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Inside a typical industry GenAI application</text>
+<rect x="225" y="75" width="640" height="430" rx="14" fill="none" stroke="#a68be0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="469.2" y="60" width="151.6" height="30" rx="15" fill="#5b3fa0"/>
+<text x="545.0" y="80.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Your application</text>
+<path d="M190.0,275.0 L245.0,275.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="189.0" y="252.0" width="57.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="217.5" y="266.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">request</text>
+<path d="M445.0,185.0 L327.5,210.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M410.0,275.0 L470.0,275.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="415.0" y="244.0" width="50.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="440" y="258.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">prompt</text>
+<path d="M635.0,275.0 L690.0,275.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M765.0,340.0 L765.0,375.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="736.5" y="334.5" width="57.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="765.0" y="348.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">flagged</text>
+<path d="M840.0,275.0 L915.0,275.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="879.0" y="244.0" width="22.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="890" y="258.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">ok</text>
+<path d="M840.0,430.0 L997.5,350.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M552.5,340.0 L440.0,375.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="25" y="200" width="165" height="150" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="107.5" y="252.0" font-size="28" text-anchor="middle">📱</text>
+<text x="107.5" y="275.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Channel</text>
+<text x="107.5" y="295.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">WhatsApp, app,</text><text x="107.5" y="310.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">website, phone,</text><text x="107.5" y="326.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">internal tool</text>
+<rect x="245" y="210" width="165" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="327.5" y="252.0" font-size="28" text-anchor="middle">⚙️</text>
+<text x="327.5" y="275.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Backend</text>
+<text x="327.5" y="295.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">who is the user?</text><text x="327.5" y="310.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">what may they see?</text><text x="327.5" y="326.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">build the prompt</text>
+<rect x="245" y="105" width="400" height="80" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="445.0" y="138.0" font-size="28" text-anchor="middle">📂</text>
+<text x="445.0" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Company context</text>
+<text x="445.0" y="181.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">policy PDFs, catalogue, customer account</text>
+<rect x="470" y="210" width="165" height="130" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="552.5" y="260.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="552.5" y="283.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Foundation model</text>
+<text x="552.5" y="303.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">API or</text><text x="552.5" y="318.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">self-hosted</text>
+<rect x="690" y="210" width="150" height="130" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="765.0" y="260.0" font-size="28" text-anchor="middle">🛡️</text>
+<text x="765.0" y="283.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Checks</text>
+<text x="765.0" y="303.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">schema, business</text><text x="765.0" y="318.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">rules, safety</text>
+<rect x="690" y="375" width="150" height="110" rx="12" fill="#fbe9f2" stroke="#e597bd" stroke-width="2"/>
+<text x="765.0" y="415.0" font-size="28" text-anchor="middle">🧑‍💼</text>
+<text x="765.0" y="438.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Human review</text>
+<text x="765.0" y="458.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">risky or unsure</text><text x="765.0" y="473.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">cases</text>
+<rect x="915" y="200" width="165" height="150" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="997.5" y="252.0" font-size="28" text-anchor="middle">🏦</text>
+<text x="997.5" y="275.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Answer or act</text>
+<text x="997.5" y="295.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">reply to user;</text><text x="997.5" y="310.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">CRM, core banking,</text><text x="997.5" y="326.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">hospital records</text>
+<rect x="245" y="375" width="390" height="110" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="440.0" y="415.0" font-size="28" text-anchor="middle">📊</text>
+<text x="440.0" y="438.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Logs and evaluation</text>
+<text x="440.0" y="458.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">every request recorded: quality,</text><text x="440.0" y="473.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">cost, new failure patterns</text>
+<text x="550" y="560.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">The model is one box. The boxes around it make the application safe in a real industry.</text>
+<text x="550" y="595.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Industries differ in the context, the checks and who reviews, far more than in the model.</text>
+</svg>

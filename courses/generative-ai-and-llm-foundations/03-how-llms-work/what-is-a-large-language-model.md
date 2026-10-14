@@ -393,7 +393,7 @@ reward 1.0  <- A chai costs ₹15. How much do 7 chais cost?
 reward 0.0  <- Train leaves 09:40, journey 2h 35m. Arrival minute past the hour?
 ```
 
-The second attempt forgot to carry the hour, so it earns nothing. Nobody has to label how to think; the model discovers that **longer, more careful reasoning** (checking its work, trying another approach when stuck) earns more reward. The results are **reasoning models**, such as OpenAI's o1 (2024) and its successors, DeepSeek-R1 (January 2025), and the extended or adaptive thinking modes in Claude and Gemini. They "think" in hidden or summarised reasoning tokens before answering, and you can often set how much effort they spend. You'll see this as a setting in [Temperature and Model Settings](temperature-and-model-settings.md) and as a breakthrough in [Recent Breakthroughs in GenAI](../course.md#m5).
+The second attempt forgot to carry the hour, so it earns nothing. Nobody has to label how to think; the model discovers that **longer, more careful reasoning** (checking its work, trying another approach when stuck) earns more reward. The results are **reasoning models**, such as OpenAI's o1 (2024) and its successors, DeepSeek-R1 (January 2025), and the extended or adaptive thinking modes in Claude and Gemini. They "think" in hidden or summarised reasoning tokens before answering, and you can often set how much effort they spend. You'll see this as a setting in [Temperature and Model Settings](temperature-and-model-settings.md) and as a breakthrough in [Recent Breakthroughs in GenAI](../05-advances-and-applications/recent-breakthroughs-in-genai.md).
 
 ### 14. What an LLM is and isn't
 
