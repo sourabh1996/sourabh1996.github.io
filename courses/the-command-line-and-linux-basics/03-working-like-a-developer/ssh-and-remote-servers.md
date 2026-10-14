@@ -310,7 +310,7 @@ pipeline: 1 windows (created Sun Oct 11 06:20:14 2026)
 | `%` / `"` | Split the pane side by side / top and bottom |
 | arrow keys | Move between panes |
 
-`screen` is an older tool that does the same job. For programs that should run **permanently** (a web API, a worker), use a service manager like systemd or Docker instead, so they restart after crashes and reboots; the [FastAPI course](../../production-apis-with-fastapi/course.md#m7) covers deploying them.
+`screen` is an older tool that does the same job. For programs that should run **permanently** (a web API, a worker), use a service manager like systemd or Docker instead, so they restart after crashes and reboots; the [FastAPI course](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m9) covers deploying them.
 
 ### 10. Tunnels: Reaching a Remote Web App Safely
 
@@ -564,7 +564,7 @@ An ML engineer rents a GPU machine by the hour. They `ssh gpu`, start `tmux new 
 
 ### Example 3: The Leaked Private Key
 
-A developer commits a folder that includes `id_rsa` to a public GitHub repository. Within hours, automated scanners find it, and the company's servers that trusted that key are at risk. The fix: remove the key from every `authorized_keys`, generate a new pair, and treat the old key as compromised forever. This is why private keys never go into project folders, and why the Git course spends time on [secrets](../../git-and-github-zero-to-pro/course.md#m10).
+A developer commits a folder that includes `id_rsa` to a public GitHub repository. Within hours, automated scanners find it, and the company's servers that trusted that key are at risk. The fix: remove the key from every `authorized_keys`, generate a new pair, and treat the old key as compromised forever. This is why private keys never go into project folders, and why the Git course spends time on [secrets](../../coding-agents-and-harness-engineering/course.md#m4).
 
 ---
 

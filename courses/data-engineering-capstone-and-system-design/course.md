@@ -1,11 +1,11 @@
 # Data Engineering Capstone and System Design
 
 **Advanced · 3 modules · 6 lessons · ~3 hrs**  
-Track 5 · Data Engineering · ➕ Added beyond the bootcamp syllabus
+Track 8 · Data Engineering · ➕ Added beyond the bootcamp syllabus
 
 Build an end-to-end platform and practise the system design and SQL questions asked in data engineering interviews.
 
-**Finish first:** [Streaming Data with Kafka](../streaming-data-with-kafka/course.md), [Lakehouses and Open Table Formats](../lakehouses-and-open-table-formats/course.md), [Data Quality, Governance and DataOps](../data-quality-governance-and-dataops/course.md), [Cloud Data Platforms](../cloud-data-platforms/course.md)  
+**Finish first:** [Streaming Data with Kafka](../streaming-data-with-kafka/course.md), [Warehouses and Lakehouses](../warehouses-and-lakehouses/course.md), [Data Quality, Governance and DataOps](../data-quality-governance-and-dataops/course.md), [Cloud Data Platforms](../cloud-data-platforms/course.md)  
 **Unlocks:** Nothing, this is a final course.
 
 ## Course content
