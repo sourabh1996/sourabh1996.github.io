@@ -24,11 +24,11 @@ Treat the context window as a budget: what to put in it, when to fetch more, how
 
 <a id="m3"></a>
 ### 3. Just-in-Time Context ➕ (5 lessons)
-- Retrieval vs Agentic Search · Article ➕
-- Tool Results that Don't Flood the Window · Article ➕
-- Compaction and Summarisation · Article ➕
-- Offloading Context to Files and Scratchpads · Article ➕
-- Lab: Keep a 200-step agent inside its budget · Lab ➕
+- [Retrieval vs Agentic Search](03-just-in-time-context/retrieval-vs-agentic-search.md) · Article ➕ ✍️ *written*
+- [Tool Results that Don't Flood the Window](03-just-in-time-context/tool-results-that-don-t-flood-the-window.md) · Article ➕ ✍️ *written*
+- [Compaction and Summarisation](03-just-in-time-context/compaction-and-summarisation.md) · Article ➕ ✍️ *written*
+- [Offloading Context to Files and Scratchpads](03-just-in-time-context/offloading-context-to-files-and-scratchpads.md) · Article ➕ ✍️ *written*
+- [Lab: Keep a 200-step agent inside its budget](03-just-in-time-context/lab-keep-a-200-step-agent-inside-its-budget.md) · Lab ➕ ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Memory Systems ➕ (6 lessons)

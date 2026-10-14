@@ -366,4 +366,4 @@ Trimming reduces tokens but rewrites the prefix, which turns cheap cache reads i
 
 ---
 
-**Up next:** [Retrieval vs Agentic Search](../course.md#m3)
+**Up next:** [Retrieval vs Agentic Search](../03-just-in-time-context/retrieval-vs-agentic-search.md)
