@@ -23,12 +23,12 @@ Model the world as entities and relationships: ontologies with worked examples, 
 
 <a id="m3"></a>
 ### 3. Ontologies and Semantics ➕ (6 lessons)
-- What is an Ontology? A Worked Example · Article ➕
-- Taxonomies, Schemas and Ontologies Compared · Article ➕
-- RDF, RDFS and OWL in Plain English · Article ➕
-- Designing an Ontology for Your Domain · Article ➕
-- Semantic Search, Semantic Layers and Shared Meaning · Article ➕
-- Lab: Design an ontology for an online shop · Lab ➕
+- [What is an Ontology? A Worked Example](03-ontologies-and-semantics/what-is-an-ontology-a-worked-example.md) · Article ➕ ✍️ *written*
+- [Taxonomies, Schemas and Ontologies Compared](03-ontologies-and-semantics/taxonomies-schemas-and-ontologies-compared.md) · Article ➕ ✍️ *written*
+- [RDF, RDFS and OWL in Plain English](03-ontologies-and-semantics/rdf-rdfs-and-owl-in-plain-english.md) · Article ➕ ✍️ *written*
+- [Designing an Ontology for Your Domain](03-ontologies-and-semantics/designing-an-ontology-for-your-domain.md) · Article ➕ ✍️ *written*
+- [Semantic Search, Semantic Layers and Shared Meaning](03-ontologies-and-semantics/semantic-search-semantic-layers-and-shared-meaning.md) · Article ➕ ✍️ *written*
+- [Lab: Design an ontology for an online shop](03-ontologies-and-semantics/lab-design-an-ontology-for-an-online-shop.md) · Lab ➕ ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Neo4j and Cypher ➕ (6 lessons)

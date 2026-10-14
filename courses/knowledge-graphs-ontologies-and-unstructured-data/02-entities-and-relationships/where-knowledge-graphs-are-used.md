@@ -334,4 +334,4 @@ Interviewers often ask *"Give an example where a graph database is the right cho
 
 ---
 
-**Up next:** [What is an Ontology? A Worked Example](../course.md#m3)
+**Up next:** [What is an Ontology? A Worked Example](../03-ontologies-and-semantics/what-is-an-ontology-a-worked-example.md)

@@ -298,7 +298,7 @@ Output:
 
 The rule runs again on its own output: Assam is a Tea, so a Product, so a Thing. That repeat-until-stable loop is called computing the **closure**.
 
-**3.** An ontology would declare that `placed` has **domain** Customer and **range** Order, meaning only customers place, and only orders are placed. A validator could then reject `PUNE placed O-1001` because Pune is a City. You'll write exactly this rule in [What is an Ontology? A Worked Example](../course.md#m3).
+**3.** An ontology would declare that `placed` has **domain** Customer and **range** Order, meaning only customers place, and only orders are placed. A validator could then reject `PUNE placed O-1001` because Pune is a City. You'll write exactly this rule in [What is an Ontology? A Worked Example](../03-ontologies-and-semantics/what-is-an-ontology-a-worked-example.md).
 
 </details>
 
