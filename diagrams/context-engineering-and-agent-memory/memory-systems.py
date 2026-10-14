@@ -1,0 +1,52 @@
+# Module 4 central idea: short-term memory lives in the thread, long-term memory lives in a store,
+# and both only matter when they are put back into the context window.
+SPEC = {
+    "title": "Agent memory: what stays in the thread, what outlives it",
+    "accent": "purple",
+    "width": 1100, "height": 700,
+    "groups": [
+        {"x": 30, "y": 100, "w": 300, "h": 420, "label": "Short-term memory", "color": "blue"},
+        {"x": 400, "y": 100, "w": 300, "h": 420, "label": "Context window (one call)", "color": "gray"},
+        {"x": 770, "y": 100, "w": 300, "h": 420, "label": "Long-term memory", "color": "purple"},
+    ],
+    "nodes": {
+        "thread": {"x": 55, "y": 140, "w": 250, "h": 100, "icon": "🧵", "label": "Thread state",
+                   "sub": "messages, tool results,\nplan, scratchpad", "color": "blue"},
+        "ckpt": {"x": 55, "y": 270, "w": 250, "h": 100, "icon": "💾", "label": "Checkpointer",
+                 "sub": "saves the thread after\nevery step (thread_id)", "color": "blue"},
+        "ends": {"x": 55, "y": 400, "w": 250, "h": 95, "icon": "⏳", "label": "Ends with the thread",
+                 "sub": "compacted when long,\ngone in a new chat", "color": "amber"},
+
+        "sys": {"x": 425, "y": 140, "w": 250, "h": 52, "label": "📜 Instructions + memory files", "color": "gray", "size": 14},
+        "mem": {"x": 425, "y": 205, "w": 250, "h": 52, "label": "🧠 Retrieved memories", "color": "purple", "size": 14},
+        "hist": {"x": 425, "y": 270, "w": 250, "h": 52, "label": "💬 This thread's messages", "color": "blue", "size": 14},
+        "new": {"x": 425, "y": 335, "w": 250, "h": 52, "label": "✉️ The new message", "color": "gray", "size": 14},
+        "model": {"x": 425, "y": 415, "w": 250, "h": 80, "icon": "🤖", "label": "Model replies",
+                  "sub": "and may decide to remember", "color": "green"},
+
+        "sem": {"x": 795, "y": 140, "w": 250, "h": 95, "icon": "📇", "label": "Semantic",
+                "sub": "facts: 'mother needs\na lower berth'", "color": "purple"},
+        "epi": {"x": 795, "y": 255, "w": 250, "h": 95, "icon": "🎞️", "label": "Episodic",
+                "sub": "past episodes: 'last refund\ncase went like this'", "color": "purple"},
+        "proc": {"x": 795, "y": 370, "w": 250, "h": 95, "icon": "🛠️", "label": "Procedural",
+                 "sub": "how to work: loaded with\nthe instructions", "color": "purple"},
+    },
+    "edges": [
+        {"from": "thread", "to": "ckpt", "solid": True},
+        {"from": "ckpt", "to": "ends", "solid": True},
+        {"from": "ckpt", "to": "hist", "label": "load thread", "from_side": "right", "to_side": "left",
+         "via": [(365, 320), (365, 296)]},
+        {"from": "sem", "to": "mem", "label": "search", "from_side": "left", "to_side": "right",
+         "via": [(735, 187), (735, 231)]},
+        {"from": "model", "to": "epi", "label": "write", "from_side": "right", "to_side": "left",
+         "via": [(735, 455), (735, 302)]},
+    ],
+    "notes": [
+        {"x": 550, "y": 565, "text": "Memory is text your code saves and later puts back into the window.",
+         "weight": 700, "size": 16, "color": "#1f2328"},
+        {"x": 550, "y": 593, "text": "The model's weights never change: you decide what to write, what to retrieve and what to forget.",
+         "size": 14},
+        {"x": 550, "y": 640, "text": "Write  →  store  →  retrieve  →  inject  →  update or forget",
+         "weight": 700, "size": 15, "color": "#5b3fa0"},
+    ],
+}
