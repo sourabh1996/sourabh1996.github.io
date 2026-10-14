@@ -1,6 +1,6 @@
 ---
 title: "How This Course Works"
-course: Context Engineering and Agent Memory
+course: "Context Engineering and Agent Memory"
 module: "1. Start Here"
 type: Article
 level: Intermediate
@@ -73,7 +73,7 @@ Every article follows the same shape, so you always know where to look:
 ## What You Need Before Starting
 
 - **The agent loop.** You should be comfortable with the decide, act, observe loop and with tool calling. [Agentic AI Fundamentals](../../agentic-ai-fundamentals/course.md) covers both; the most useful lessons are [The Agent Loop](../../agentic-ai-fundamentals/03-the-agent-loop/the-agent-loop-decide-act-observe.md) and [Function Calling Step by Step](../../agentic-ai-fundamentals/04-tools-and-function-calling/function-calling-step-by-step.md).
-- **LangGraph state.** Module 4 uses LangGraph checkpointers and stores. [LangGraph Fundamentals](../../langgraph-fundamentals/course.md) and [LangGraph State and Memory](../../langgraph-state-and-memory/course.md) introduce them.
+- **LangGraph state.** Module 4 uses LangGraph checkpointers and stores. [LangGraph Complete Guide](../../langgraph-complete-guide/course.md) and [LangGraph Complete Guide](../../langgraph-complete-guide/course.md) introduce them.
 - **Tokens.** You should know that models read text as tokens and that a context window has a maximum size. [Tokens and Context Windows](../../generative-ai-and-llm-foundations/course.md#m3) explains this.
 - **Python 3.10 or newer** with the packages in the site's `requirements-lessons.txt` (LangGraph, LangChain Core, NumPy and a few others).
 

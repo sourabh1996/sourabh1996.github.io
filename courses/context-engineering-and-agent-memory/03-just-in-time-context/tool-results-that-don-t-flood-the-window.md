@@ -1,6 +1,6 @@
 ---
 title: "Tool Results that Don't Flood the Window"
-course: Context Engineering and Agent Memory
+course: "Context Engineering and Agent Memory"
 module: "3. Just-in-Time Context"
 type: Article
 level: Intermediate

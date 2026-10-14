@@ -1,6 +1,6 @@
 ---
 title: "From Prompt Engineering to Context Engineering"
-course: Context Engineering and Agent Memory
+course: "Context Engineering and Agent Memory"
 module: "2. The Context Window as a Budget"
 type: Article
 level: Intermediate
@@ -305,10 +305,10 @@ flowchart LR
 
 | Move | What it means | Examples | Taught in |
 |---|---|---|---|
-| **Write** | Store information outside the window so it can be recalled later | Scratchpad files, to-do lists, memory stores | [Module 3](../../context-engineering-and-agent-memory/course.md#m3), [Module 4](../../context-engineering-and-agent-memory/course.md#m4) |
-| **Select** | Bring in only the relevant pieces, at the moment they are needed | Retrieval, agentic search, choosing examples, loading memories | [Module 3](../../context-engineering-and-agent-memory/course.md#m3) |
-| **Compress** | Reduce the tokens used by what stays | Trimming history, clearing old tool results, summarising, compaction | [Module 3](../../context-engineering-and-agent-memory/course.md#m3) |
-| **Isolate** | Split work so each part has a clean, small window | Sub-agents that return short summaries, sandboxes that hold big data | [Module 3](../../context-engineering-and-agent-memory/course.md#m3) |
+| **Write** | Store information outside the window so it can be recalled later | Scratchpad files, to-do lists, memory stores | [Module 3](../course.md#m3), [Module 4](../course.md#m4) |
+| **Select** | Bring in only the relevant pieces, at the moment they are needed | Retrieval, agentic search, choosing examples, loading memories | [Module 3](../course.md#m3) |
+| **Compress** | Reduce the tokens used by what stays | Trimming history, clearing old tool results, summarising, compaction | [Module 3](../course.md#m3) |
+| **Isolate** | Split work so each part has a clean, small window | Sub-agents that return short summaries, sandboxes that hold big data | [Module 3](../course.md#m3) |
 
 And one rule sits above all four: **order and stability matter**. Items that never change go first and stay byte-for-byte identical, so they can be cached. Items that change every turn go last.
 

@@ -1,6 +1,6 @@
 ---
 title: "Offloading Context to Files and Scratchpads"
-course: Context Engineering and Agent Memory
+course: "Context Engineering and Agent Memory"
 module: "3. Just-in-Time Context"
 type: Article
 level: Intermediate

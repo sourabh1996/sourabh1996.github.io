@@ -1,6 +1,6 @@
 ---
 title: "Compaction and Summarisation"
-course: Context Engineering and Agent Memory
+course: "Context Engineering and Agent Memory"
 module: "3. Just-in-Time Context"
 type: Article
 level: Intermediate
@@ -13,7 +13,7 @@ reading_time: 32 min
 >
 > - [Tool Results that Don't Flood the Window](tool-results-that-don-t-flood-the-window.md), for tool-result clearing, the lightest form of compaction.
 > - [Prompt Caching](../02-the-context-window-as-a-budget/prompt-caching.md), for why rewriting history has a cost.
-> - [Trimming and Filtering Messages](../../langgraph-state-and-memory/course.md#m4) and [Summarising Long Conversations](../../langgraph-state-and-memory/course.md#m4), for the LangGraph view of the same problem.
+> - [Trimming and Filtering Messages](../../langgraph-complete-guide/course.md#m7) and [Summarising Long Conversations](../../langgraph-complete-guide/course.md#m7), for the LangGraph view of the same problem.
 
 ## Introduction
 

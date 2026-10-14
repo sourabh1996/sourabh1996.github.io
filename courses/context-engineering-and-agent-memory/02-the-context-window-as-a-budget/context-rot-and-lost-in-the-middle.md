@@ -1,6 +1,6 @@
 ---
 title: "Context Rot and Lost in the Middle"
-course: Context Engineering and Agent Memory
+course: "Context Engineering and Agent Memory"
 module: "2. The Context Window as a Budget"
 type: Article
 level: Intermediate

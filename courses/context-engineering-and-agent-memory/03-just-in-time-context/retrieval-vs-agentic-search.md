@@ -1,6 +1,6 @@
 ---
 title: "Retrieval vs Agentic Search"
-course: Context Engineering and Agent Memory
+course: "Context Engineering and Agent Memory"
 module: "3. Just-in-Time Context"
 type: Article
 level: Intermediate
@@ -244,7 +244,7 @@ Agentic search is only as good as the tools and the guidance. The practical rule
 When you do retrieve upfront, a few improvements matter most:
 
 - **Retrieve fewer, better chunks.** Rerank a larger candidate set and keep only the top few.
-- **Hybrid search.** Combine keyword search (BM25, good for exact terms like "TDR" or a train number) with embedding search (good for paraphrases). You'll find details in [Hybrid Search](../../retrieval-augmented-generation-rag/course.md#m4).
+- **Hybrid search.** Combine keyword search (BM25, good for exact terms like "TDR" or a train number) with embedding search (good for paraphrases). You'll find details in [Hybrid Search](../../retrieval-augmented-generation-rag/course.md#m6).
 - **Contextual retrieval.** Before indexing, prepend a short note to each chunk explaining where it comes from and what it's about. In Anthropic's September 2024 write-up, adding about 50 to 100 tokens of context per chunk cut failed retrievals by 35% with contextual embeddings, by 49% when combined with contextual BM25, and by 67% when reranking was added.
 - **Skip retrieval for small corpora.** The same write-up suggests that if the whole knowledge base is under about 200,000 tokens, you can often include all of it in the prompt and rely on prompt caching to keep it affordable.
 
