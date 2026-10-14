@@ -13,7 +13,7 @@ reading_time: 28 min
 >
 > - [Writing SQL Queries](../02-relational-databases-and-sql/writing-sql-queries.md) and [Primary and Foreign Keys](../02-relational-databases-and-sql/primary-and-foreign-keys.md), because you'll write `CREATE TABLE`, constraints and queries in PostgreSQL
 > - [Joins and Unions](../02-relational-databases-and-sql/joins-and-unions.md), for the query at the end of the walkthrough
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals), for the helper functions in the code
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming), for the helper functions in the code
 
 ## Introduction
 
@@ -414,7 +414,7 @@ Many small teams build their first product on Supabase: a React or Flutter front
 
 ### Example 2: AI apps with pgvector
 
-Supabase offers the `pgvector` extension, which stores AI embeddings in a PostgreSQL column and searches them by similarity. Teams building chatbots over their own documents often keep the documents, users and vectors in one Supabase database. The Vector Databases for AI course builds on exactly this.
+Supabase offers the `pgvector` extension, which stores AI embeddings in a PostgreSQL column and searches them by similarity. Teams building chatbots over their own documents often keep the documents, users and vectors in one Supabase database. The Retrieval-Augmented Generation (RAG) course builds on exactly this.
 
 ### Example 3: Internal tools and dashboards
 

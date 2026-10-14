@@ -14,7 +14,7 @@ reading_time: 45 min
 > - [Setting Up Supabase](setting-up-supabase.md), for your project, the SQL Editor, grants and RLS
 > - [Querying Supabase from Python](querying-supabase-from-python.md), for psycopg, the supabase client, placeholders and the "write once, run on both" pattern
 > - [Primary and Foreign Keys](../02-relational-databases-and-sql/primary-and-foreign-keys.md), for junction tables, `ON DELETE CASCADE` and transactions
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals), plus basic classes, for the `NotesStore` class
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming), plus basic classes, for the `NotesStore` class
 
 ## What You'll Build
 

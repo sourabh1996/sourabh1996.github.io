@@ -13,7 +13,7 @@ reading_time: 32 min
 >
 > - [What is a Relational Database?](what-is-a-relational-database.md), for tables, data types, `NULL` and ACID
 > - [Writing SQL Queries](writing-sql-queries.md), for `SELECT`, `WHERE`, `INSERT`, `UPDATE` and `DELETE`
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals), plus `try`/`except`, which the code uses to catch database errors
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming), plus `try`/`except`, which the code uses to catch database errors
 
 ## Introduction
 

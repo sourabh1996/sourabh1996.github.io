@@ -14,7 +14,7 @@ reading_time: 32 min
 > - [Insert, Find, Query and Sort](insert-find-query-and-sort.md), for filters, query operators and the `MiniCollection` stand-in
 > - [Databases and Collections](databases-and-collections.md), for collections, `_id`, and TTL and unique indexes
 > - [Writing SQL Queries](../02-relational-databases-and-sql/writing-sql-queries.md), for the SQL `UPDATE` and `DELETE` these map to
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals)
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming)
 
 ## Introduction
 

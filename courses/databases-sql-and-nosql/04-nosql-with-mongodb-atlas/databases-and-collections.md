@@ -14,7 +14,7 @@ reading_time: 28 min
 > - [What is a Document Database?](what-is-a-document-database.md), for documents, BSON, `_id` and flexible schemas
 > - [Setting Up Supabase](../03-postgresql-on-supabase/setting-up-supabase.md), for keeping connection secrets in a `.env` file (the same habit applies here)
 > - [Primary and Foreign Keys](../02-relational-databases-and-sql/primary-and-foreign-keys.md), for what an index is and what it costs
-> - [Dictionaries and Dictionary Views](../../python-fundamentals/course.md#m5) (Python Fundamentals), because pymongo uses dictionaries for everything
+> - [Dictionaries and Dictionary Views](../../python-programming/course.md#m5) (Python Programming), because pymongo uses dictionaries for everything
 
 ## Introduction
 

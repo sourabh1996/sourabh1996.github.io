@@ -12,8 +12,8 @@ reading_time: 22 min
 > 📚 **Before you start**
 >
 > No database knowledge is needed. You should be comfortable with basic Python:
-> - [Lists, Tuples and Dictionaries](../../python-fundamentals/course.md#m5) (Python Fundamentals), because query results come back as lists of tuples
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals), for the small helper functions in the code
+> - [Lists, Tuples and Dictionaries](../../python-programming/course.md#m5) (Python Programming), because query results come back as lists of tuples
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming), for the small helper functions in the code
 > - [How This Course Works](../01-start-here/how-this-course-works.md), for how the code and outputs in this course are laid out
 
 ## Introduction

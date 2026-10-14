@@ -77,7 +77,7 @@ Every article on this platform follows the same shape, so you always know where 
 
 You do **not** need any previous database experience. You do need:
 
-- **Basic Python.** Variables, lists, dictionaries, loops, functions and `with` blocks. If any of those feel shaky, work through [Python Fundamentals](../../python-fundamentals/course.md) first, especially [Functions and Iterators](../../python-fundamentals/course.md#m6).
+- **Basic Python.** Variables, lists, dictionaries, loops, functions and `with` blocks. If any of those feel shaky, work through [Python Programming](../../python-programming/course.md) first, especially [Functions and Iterators](../../python-programming/course.md#m6).
 - **Python 3.10 or newer** and a code editor such as VS Code. Python's built-in `sqlite3` module is all you need for module 2.
 - **Two free accounts, later.** Module 3 uses a free [Supabase](https://supabase.com) project and module 4 uses a free MongoDB Atlas cluster. You can sign up with an email address or a GitHub account when you reach those modules. Neither needs a credit card for the free tier.
 

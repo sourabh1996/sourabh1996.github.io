@@ -13,7 +13,7 @@ reading_time: 25 min
 >
 > - [What is a Relational Database?](../02-relational-databases-and-sql/what-is-a-relational-database.md) and [Primary and Foreign Keys](../02-relational-databases-and-sql/primary-and-foreign-keys.md), because this lesson compares documents with tables, keys and normalisation
 > - [Joins and Unions](../02-relational-databases-and-sql/joins-and-unions.md), for what "avoiding a join" means
-> - [Dictionaries and Dictionary Views](../../python-fundamentals/course.md#m5) (Python Fundamentals), because a document is basically a Python dictionary
+> - [Dictionaries and Dictionary Views](../../python-programming/course.md#m5) (Python Programming), because a document is basically a Python dictionary
 
 ## Introduction
 
@@ -47,7 +47,7 @@ There are four main families, plus vector databases for AI:
 | **Graph** | nodes and the relationships between them | following connections: social networks, fraud rings, recommendations | Neo4j, Amazon Neptune |
 | **Vector** | lists of numbers (embeddings) | similarity search for AI | Pinecone, Qdrant, pgvector |
 
-This module is about the **document** family, using MongoDB. The [Vector Databases for AI](../../vector-databases-for-ai/course.md) course covers the last row.
+This module is about the **document** family, using MongoDB. The [Retrieval-Augmented Generation (RAG)](../../retrieval-augmented-generation-rag/course.md) course covers the last row.
 
 ### 2. What a document is
 

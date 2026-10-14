@@ -14,7 +14,7 @@ reading_time: 45 min
 > - [What is a Document Database?](what-is-a-document-database.md), for embedding versus referencing and the 16 MB limit
 > - [Databases and Collections](databases-and-collections.md), for connecting to Atlas and creating indexes
 > - [Insert, Find, Query and Sort](insert-find-query-and-sort.md) and [Update, Delete and Drop](update-delete-and-drop.md), for every operation this lab uses, and the `MiniCollection` stand-in
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals), plus basic classes
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming), plus basic classes
 
 ## What You'll Build
 
@@ -1036,7 +1036,7 @@ Output:
 - **Deleting related documents** without foreign keys, and **reporting** with an aggregation pipeline.
 - **Testable data code**: an injected clock and a stand-in collection, swapped for pymongo and the real time in one place.
 
-**Where next?** You now have SQL, PostgreSQL and MongoDB foundations. Continue with [Advanced SQL](../../data-engineering-foundations/course.md#m4) in Data Engineering Foundations (window functions, CTEs, query plans and isolation levels), or take documents further for AI apps in [Vector Databases for AI](../../vector-databases-for-ai/course.md).
+**Where next?** You now have SQL, PostgreSQL and MongoDB foundations. Continue with [Advanced SQL](../../data-engineering-foundations/course.md#m4) in Data Engineering Foundations (window functions, CTEs, query plans and isolation levels), or take documents further for AI apps in [Retrieval-Augmented Generation (RAG)](../../retrieval-augmented-generation-rag/course.md).
 
 ---
 

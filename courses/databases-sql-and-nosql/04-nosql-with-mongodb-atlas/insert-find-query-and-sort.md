@@ -14,7 +14,7 @@ reading_time: 38 min
 > - [Databases and Collections](databases-and-collections.md), for connecting with pymongo, collections, `_id` and indexes
 > - [What is a Document Database?](what-is-a-document-database.md), for nested documents and arrays
 > - [Writing SQL Queries](../02-relational-databases-and-sql/writing-sql-queries.md), because each MongoDB query here is compared with its SQL twin
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals), because `find()` returns an iterator (a cursor)
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming), because `find()` returns an iterator (a cursor)
 
 ## Introduction
 

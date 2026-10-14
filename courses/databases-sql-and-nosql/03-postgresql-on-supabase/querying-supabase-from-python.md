@@ -14,7 +14,7 @@ reading_time: 32 min
 > - [Setting Up Supabase](setting-up-supabase.md), for your project, the `books` table, grants, RLS, API keys, connection strings and the `require_env()` helper
 > - [Writing SQL Queries](../02-relational-databases-and-sql/writing-sql-queries.md), for the SQL that both Python routes send
 > - [Primary and Foreign Keys](../02-relational-databases-and-sql/primary-and-foreign-keys.md), for transactions and `IntegrityError`
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals), for method chaining, `with` blocks and generators
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming), for method chaining, `with` blocks and generators
 
 ## Introduction
 

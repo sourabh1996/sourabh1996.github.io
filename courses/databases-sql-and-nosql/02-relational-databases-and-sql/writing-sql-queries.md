@@ -12,7 +12,7 @@ reading_time: 35 min
 > 📚 **Before you start**
 >
 > - [What is a Relational Database?](what-is-a-relational-database.md), for tables, rows, columns, data types, `NULL` and how `sqlite3` runs SQL from Python
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals), for the small `show()` helper used to print results
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming), for the small `show()` helper used to print results
 
 ## Introduction
 

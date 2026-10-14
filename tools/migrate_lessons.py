@@ -18,6 +18,7 @@ import json, os, re, subprocess, sys, tempfile
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 START = "How This Course Works"
+SPLIT_COURSES = {"enterprise-llm-systems"}
 # Old modules whose lessons were all dropped as duplicates: (old course slug, old module number) -> new home.
 DROPPED_MODULES = {
     ("enterprise-llm-systems", 6): ("agent-security-and-safety", 2),  # Guardrails and Security
@@ -118,6 +119,11 @@ def main(old_path, base=None):
             return f"courses/{course_home[s]}/course.md", frag
         return rel, frag
 
+    # Old course names that no longer exist, mapped to the course that absorbed them. A course split across
+    # several new courses has no single new name and keeps its text for a human to fix.
+    title_of_slug = {c["slug"]: c["title"] for c in new}
+    renamed = {c["title"]: title_of_slug[course_home[c["slug"]]] for c in old
+               if c["slug"] not in title_of_slug and c["slug"] not in SPLIT_COURSES}
     link = re.compile(r"\]\(([^)#\s:]+\.md)(#[^)\s]*)?\)")
     all_files = []
     for dp, _, files in os.walk(os.path.join(ROOT, "courses")):
@@ -139,6 +145,10 @@ def main(old_path, base=None):
             return f"]({os.path.relpath(os.path.join(ROOT, nt), os.path.dirname(os.path.join(ROOT, dst)))}{nf})"
 
         new_text = link.sub(fix, text)
+        head, sep, body = new_text.partition("\n---\n") if new_text.startswith("---\n") else ("", "", new_text)
+        for old_name, new_name in renamed.items():
+            body = body.replace(old_name, new_name)
+        new_text = head + sep + body
         if dst != src:
             os.makedirs(os.path.dirname(os.path.join(ROOT, dst)), exist_ok=True)
             open(os.path.join(ROOT, dst), "w").write(new_text)
