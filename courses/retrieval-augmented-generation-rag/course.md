@@ -51,10 +51,10 @@ Ground LLMs in your own data: embeddings and vector databases, loaders, splitter
 ### 5. RAG Building Blocks in LangChain (7 lessons)
 > **Before you start:** [LangChain Complete Guide › Chains and Runnables](../langchain-complete-guide/course.md#m6)
 
-- Document Loaders · Article
-- PDF, Web, CSV and Directory Loaders · Article
-- load() vs lazy_load() · Article
-- Text Splitters · Article
+- [Document Loaders](05-rag-building-blocks-in-langchain/document-loaders.md) · Article ✍️ *written*
+- [PDF, Web, CSV and Directory Loaders](05-rag-building-blocks-in-langchain/pdf-web-csv-and-directory-loaders.md) · Article ✍️ *written*
+- [load() vs lazy_load()](05-rag-building-blocks-in-langchain/load-vs-lazy-load.md) · Article ✍️ *written*
+- [Text Splitters](05-rag-building-blocks-in-langchain/text-splitters.md) · Article ✍️ *written*
 - Vector Stores in LangChain · Article
 - Retrievers · Article
 - MMR, Multi-Query and Contextual Compression Retrievers · Article

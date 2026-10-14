@@ -37,7 +37,7 @@ flowchart LR
   A --> EV["Evaluator<br/>recall@k, MRR"]
 ```
 
-Every class you write here has a direct LangChain equivalent, which you'll meet in Module 3. After this lab, those classes will feel familiar rather than magical.
+Every class you write here has a direct LangChain equivalent, which you'll meet in Module 5. After this lab, those classes will feel familiar rather than magical.
 
 > 💡 **Key Insight**
 >
@@ -80,7 +80,7 @@ it/security-policy.md     70 words  access=all
 finance/travel-faq.md     72 words  access=managers
 ```
 
-Each line of a document starts with a short heading ("Annual leave.") followed by sentences. Real files are messier, which is why loaders and cleaners exist ([Document Loaders](../course.md#m5)).
+Each line of a document starts with a short heading ("Annual leave.") followed by sentences. Real files are messier, which is why loaders and cleaners exist ([Document Loaders](../05-rag-building-blocks-in-langchain/document-loaders.md)).
 
 ## Step 2: The chunker
 
@@ -631,4 +631,4 @@ Output:
 
 ---
 
-**Up next:** [Document Loaders](../course.md#m5)
+**Up next:** [Embeddings and Similarity Search](../course.md#m3)

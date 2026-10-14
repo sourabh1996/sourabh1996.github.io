@@ -13,7 +13,7 @@ reading_time: 32 min
 >
 > - [What is RAG?](what-is-rag.md), for the two phases (indexing and answering).
 > - [RAG vs Fine-Tuning vs Prompting](rag-vs-fine-tuning-vs-prompting.md), for when RAG is the right tool.
-> - [Introduction to Vector Databases](../course.md#m3), for embeddings and similarity search.
+> - The embedding refresher in [What is RAG?](what-is-rag.md). Embeddings and vector indexes get their full treatment in [Embeddings and Vector Databases](../course.md#m3), the next module.
 
 ## Introduction
 
@@ -73,7 +73,7 @@ A cleaned record looks like this:
 }
 ```
 
-LangChain calls this a `Document` (text plus a metadata dictionary) and provides **document loaders** for hundreds of formats. That's [Module 3](../course.md#m5).
+LangChain calls this a `Document` (text plus a metadata dictionary) and provides **document loaders** for hundreds of formats. That's [Module 5](../05-rag-building-blocks-in-langchain/document-loaders.md).
 
 ### 3. Chunk: cut documents into retrievable pieces
 
@@ -83,7 +83,7 @@ LangChain calls this a `Document` (text plus a metadata dictionary) and provides
 - **Too small** (say 30 tokens): a chunk loses context. "It is 60 days." means nothing without the heading "Notice period".
 - **A common starting point**: 200 to 800 tokens per chunk with 10 to 20% **overlap** (repeating the end of one chunk at the start of the next so a sentence cut in half still appears whole somewhere).
 
-Better splitters cut at natural boundaries (headings, paragraphs, sentences) rather than at a fixed character count. Advanced strategies add document context to each chunk, or index small chunks but return their larger parent section. All of this is covered in [Text Splitters](../course.md#m5) and [Chunking Strategies](../course.md#m6).
+Better splitters cut at natural boundaries (headings, paragraphs, sentences) rather than at a fixed character count. Advanced strategies add document context to each chunk, or index small chunks but return their larger parent section. All of this is covered in [Text Splitters](../05-rag-building-blocks-in-langchain/text-splitters.md) and [Chunking Strategies](../course.md#m6).
 
 ### 4. Embed: turn each chunk into a vector
 
@@ -128,7 +128,7 @@ The **index** stores each chunk's vector, text and metadata, and answers "which 
 - **Approximate nearest neighbour (ANN)** indexes such as **HNSW** (a graph you hop through towards the nearest neighbours) or **IVF** (cluster vectors, search only the nearest clusters) trade a tiny bit of accuracy for huge speed at millions of vectors.
 - **Where it lives**: a library in your process (FAISS), an embedded database (Chroma, LanceDB), a dedicated vector database (Qdrant, Weaviate, Milvus, Pinecone), or a vector extension of a database you already run (Postgres with pgvector, Elasticsearch, OpenSearch).
 
-Production systems usually keep a **keyword index** (BM25) alongside the vector index, because exact terms such as policy codes, error numbers and names are matched far better by keywords. Combining both is **hybrid search** ([Hybrid Search](../course.md#m6)). The [Retrieval-Augmented Generation (RAG)](../course.md) course covers index internals in depth.
+Production systems usually keep a **keyword index** (BM25) alongside the vector index, because exact terms such as policy codes, error numbers and names are matched far better by keywords. Combining both is **hybrid search** ([Hybrid Search](../course.md#m6)). [Storage and Indexing (HNSW, IVF)](../course.md#m3) covers index internals in depth, and [Vector Database Tools](../course.md#m4) tours the products.
 
 ### 6. Retrieve: find candidate chunks for the question
 
@@ -428,7 +428,7 @@ Can I bring my pet to the office?                -> I couldn't find that in the 
 recall@2 = 1.00   MRR = 1.00   faithfulness = 6/6
 ```
 
-That last line is the heartbeat of a RAG project. Every change you make in Modules 3 to 5 (a new splitter, hybrid search, a reranker) should move those numbers, and you should be able to say which.
+That last line is the heartbeat of a RAG project. Every change you make in Modules 5 to 7 (a new splitter, hybrid search, a reranker) should move those numbers, and you should be able to say which.
 
 ### 11. Running it in production
 

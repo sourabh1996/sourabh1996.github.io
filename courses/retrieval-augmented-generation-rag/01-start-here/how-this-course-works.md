@@ -15,7 +15,7 @@ Ask a general chatbot *"How many days of leave can I carry forward at my company
 
 Now imagine the same chatbot first **looks up** the right paragraph of your handbook, reads it, and then answers: *"You can carry forward up to 8 unused days (HR Handbook, section 2.1)."* That is **Retrieval-Augmented Generation**, or **RAG**: retrieve the relevant pieces of your own data, put them in front of the model, and let it generate an answer grounded in them.
 
-RAG is the most widely deployed pattern in applied generative AI. Support bots, internal "ask the wiki" tools, legal and medical research assistants, coding assistants that read your repository: under the hood, almost all of them retrieve before they generate. This course teaches you to build RAG systems properly, from a 60-line version with no framework at all to hybrid search, reranking, conversational memory and RAG over images.
+RAG is the most widely deployed pattern in applied generative AI. Support bots, internal "ask the wiki" tools, legal and medical research assistants, coding assistants that read your repository: under the hood, almost all of them retrieve before they generate. This course teaches you to build RAG systems properly, from a 60-line version with no framework at all to hybrid search, reranking, conversational memory, RAG over images, retrieval without any vectors at all, and a proper evaluation harness.
 
 > 💡 **Key Insight**
 >
@@ -28,12 +28,15 @@ RAG is the most widely deployed pattern in applied generative AI. Support bots, 
 By the end of this course you will be able to:
 
 - **Explain what RAG is**, when it beats fine-tuning or a long prompt, and when it doesn't.
+- **Understand embeddings and vector databases** well enough to pick an index and a product (Chroma, FAISS, Qdrant, Pinecone, LanceDB and more).
 - **Draw and build the full pipeline**: ingest, chunk, embed, index, retrieve, rerank, generate and evaluate.
 - **Build RAG from scratch** in plain Python and NumPy, so you understand every moving part.
 - **Use LangChain's RAG building blocks**: document loaders, text splitters, embeddings, vector stores and retrievers, including MMR, multi-query and contextual compression.
 - **Choose a chunking strategy**, a retrieval method, hybrid search and a reranker, and measure whether each change helped.
 - **Ship two real projects**: chat with a PDF, and chat with any YouTube video.
 - **Go beyond text**: conversational memory in RAG and multimodal RAG over images and text.
+- **Retrieve without vectors**: navigate a document's table of contents the way a person would (the PageIndex approach) and cite exact pages.
+- **Evaluate any RAG system** with the RAG triad, LLM-as-a-judge and Ragas.
 
 ### The whole system in one picture
 
@@ -46,18 +49,24 @@ This is the pipeline you will build piece by piece. Come back to it whenever you
 
 ```mermaid
 flowchart LR
-  A["Module 1<br/>Start Here"] --> B["Module 2<br/>Introduction to RAG<br/>what, why, from scratch"]
-  B --> C["Module 3<br/>Building Blocks in LangChain<br/>loaders to retrievers"]
-  C --> D["Module 4<br/>Implementing RAG<br/>chunking, hybrid, rerank, projects"]
-  D --> E["Module 5<br/>Advanced RAG<br/>memory and multimodal"]
+  B["Module 2<br/>Introduction to RAG<br/>what, why, from scratch"] --> C["Modules 3 and 4<br/>Embeddings and<br/>vector databases"]
+  C --> D["Module 5<br/>Building Blocks in LangChain<br/>loaders to retrievers"]
+  D --> E["Module 6<br/>Implementing RAG<br/>chunking, hybrid, rerank, projects"]
+  E --> F["Module 7<br/>Advanced RAG<br/>memory and multimodal"]
+  F --> G["Module 8<br/>Vectorless RAG<br/>tree search, page citations"]
+  G --> H["Module 9<br/>RAG Evaluation<br/>triad, judges, Ragas"]
 ```
 
 | Module | You will be able to |
 |---|---|
 | **2. Introduction to RAG** | Explain RAG, compare it with fine-tuning and prompting, trace the full pipeline, and build one with only NumPy |
-| **3. RAG Building Blocks in LangChain** | Load any document type, split it well, store vectors and wrap them in the right retriever |
-| **4. Implementing RAG** | Assemble a LangChain RAG chain, pick chunking and retrieval methods, add hybrid search and reranking, ship two projects |
-| **5. Advanced RAG** | Handle follow-up questions with memory, and retrieve over images as well as text |
+| **3. Embeddings and Vector Databases** | Explain embeddings, similarity search and how vector indexes (HNSW, IVF) find neighbours fast |
+| **4. Vector Database Tools** | Use Chroma, FAISS, Qdrant, Pinecone, LanceDB and database-native vector search, and pick between them |
+| **5. RAG Building Blocks in LangChain** | Load any document type, split it well, store vectors and wrap them in the right retriever |
+| **6. Implementing RAG** | Assemble a LangChain RAG chain, pick chunking and retrieval methods, add hybrid search and reranking, ship two projects |
+| **7. Advanced RAG** | Handle follow-up questions with memory, and retrieve over images as well as text |
+| **8. Vectorless RAG** | Know where vector search breaks on long structured documents, and build tree-search retrieval with exact page references |
+| **9. RAG Evaluation** | Score retrieval and answers with the RAG triad, build an LLM judge, and evaluate a full app with Ragas |
 
 ---
 
@@ -98,8 +107,8 @@ Because the handbook is invented, no model could have memorised it. If an answer
 ## What You Need Before Starting
 
 - **Python** at the level of functions, lists, dictionaries and classes. [Python Programming](../../python-programming/course.md) covers it.
-- **What an embedding and a vector database are.** [Retrieval-Augmented Generation (RAG)](../course.md) is the prerequisite course. You'll get a quick refresher here, but the details live there.
-- **LangChain basics** (models, prompts, runnables and the `|` pipe). [LangChain Complete Guide](../../langchain-complete-guide/course.md) covers them; Module 4 here leans on [Chains and Runnables](../../langchain-complete-guide/course.md#m6).
+- **No knowledge of embeddings or vector databases.** Module 2 gives a quick refresher and Modules 3 and 4 teach them properly.
+- **LangChain basics** (models, prompts, runnables and the `|` pipe). [LangChain Complete Guide](../../langchain-complete-guide/course.md) covers them; Modules 5 and 6 here lean on [Chains and Runnables](../../langchain-complete-guide/course.md#m6).
 - **How LLMs work** at the level of tokens and context windows. See [How LLMs Work](../../generative-ai-and-llm-foundations/course.md#m3).
 
 ### Do I need an API key?
@@ -112,7 +121,7 @@ No. Every runnable example uses **offline stand-ins**: a small hand-written embe
 
 1. **Type the code and predict the output** before you run it. When you're surprised, you've found something worth understanding.
 2. **Do the from-scratch lab in Module 2** before touching LangChain. After it, every LangChain class will look like a tidy wrapper around code you already wrote.
-3. **Measure, don't guess.** From Module 4 onwards, each technique comes with a small evaluation. Get into the habit of checking whether a change really helped.
+3. **Measure, don't guess.** From Module 6 onwards, each technique comes with a small evaluation. Get into the habit of checking whether a change really helped.
 4. **Keep your own documents handy.** Your college notes, a product manual or your company wiki make great practice data for the labs.
 
 ---

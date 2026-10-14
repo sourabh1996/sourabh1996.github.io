@@ -185,13 +185,28 @@ for i, chunk in enumerate(recursive_split(HANDBOOK, chunk_size=160, overlap=0)):
 Output:
 
 ```
-TBD
+--- chunk 0 (121 chars)
+2.1 Annual leave
+Every employee gets 24 days of paid leave per calendar year. Up to 8 unused days can be carried forward.
+--- chunk 1 (124 chars)
+2.2 Sick leave
+Employees get 10 days of sick leave per year. A doctor's note is required for more than 2 sick days in a row.
+--- chunk 2 (17 chars)
+5.1 Travel claims
+--- chunk 3 (153 chars)
+Submit bills on the Kharcha portal within 30 days of the trip. Claims are reimbursed within 15 days. Bills must show the GST number of the vendor. Claims
+--- chunk 4 (124 chars)
+without original bills are rejected. For trips abroad, convert amounts to rupees at the exchange rate on the date of travel.
+--- chunk 5 (114 chars)
+8.1 Notice period
+The notice period is 60 days. It can be shortened by paying basic salary for the remaining days.
 ```
 
 Look at what happened:
 
 - Sections 2.1 and 2.2 each fit in 160 characters, so each paragraph became one chunk. They weren't merged together because the two would exceed 160.
-- Section 5.1 is about 330 characters, too big. The splitter went one level finer (newlines), and the body line was still too big, so it went finer again (spaces) and packed words into chunks of up to 160 characters.
+- Section 5.1 is about 300 characters, too big. The splitter went one level finer (newlines). That separated the heading line from the body line. The body line was still too big, so it went finer again (spaces) and packed words into chunks of up to 160 characters.
+- Notice chunk 2: the heading `5.1 Travel claims` ended up **alone**, a 17-character chunk that says nothing useful, while chunks 3 and 4 lost their heading. That is the classic weakness of size-based splitting, and you'll fix it later in this lesson by putting headings back into chunks.
 - Section 8.1 fits, so it's one chunk.
 
 Now with overlap. Watch the start of the second travel-claims chunk:
@@ -205,10 +220,13 @@ for i, chunk in enumerate(recursive_split(HANDBOOK, chunk_size=160, overlap=40))
 Output:
 
 ```
-TBD
+--- chunk 3
+Submit bills on the Kharcha portal within 30 days of the trip. Claims are reimbursed within 15 days. Bills must show the GST number of the vendor. Claims
+--- chunk 4
+the GST number of the vendor. Claims without original bills are rejected. For trips abroad, convert amounts to rupees at the exchange rate on the date of
 ```
 
-Each continuation chunk now begins with the last few words of the previous one, so a sentence cut at a boundary appears whole in at least one chunk (or nearly so). Notice, though, that the *later* travel chunks still don't say "Travel claims" anywhere. That's the limit of plain splitting, and it's why [Chunking Strategies](../06-implementing-rag/chunking-strategies.md) adds headings and context to chunks.
+Each continuation chunk now begins with the last few words of the previous one, so a sentence cut at a boundary appears whole in at least one chunk (or nearly so). Notice, though, that the *later* travel chunks still don't say "Travel claims" anywhere. That's the limit of plain splitting, and it's why [Chunking Strategies](../course.md#m6) adds headings and context to chunks.
 
 ### 6. Seeing chunk boundaries
 
@@ -231,7 +249,8 @@ print("sizes:", [len(c) for c in chunks])
 Output:
 
 ```
-TBD
+chunk start offsets: [0, 123, 249, 267, 421, 547]
+sizes: [121, 124, 17, 153, 124, 114]
 ```
 
 ### 7. Measuring length in tokens
@@ -264,7 +283,7 @@ print([approx_tokens(c) for c in token_chunks])
 Output:
 
 ```
-TBD
+[30, 34, 4, 26, 26, 12, 27]
 ```
 
 Every chunk now respects a budget of 40 (approximate) tokens.
@@ -335,7 +354,9 @@ for d in split_markdown_headers(MARKDOWN):
 Output:
 
 ```
-TBD
+{'chapter': 'Leave', 'section': '2.1 Annual leave'} | Every employee gets 24 days of paid leave per
+{'chapter': 'Leave', 'section': '2.2 Sick leave'} | Employees get 10 days of sick leave per year.
+{'chapter': 'Travel', 'section': '5.2 Meal allowance'} | On client travel the daily meal allowance is
 ```
 
 #### Code: split on functions and classes
@@ -351,7 +372,7 @@ TBD
 | `TokenTextSplitter` | Raw token counts, ignoring structure |
 | `SemanticChunker` (in `langchain-experimental`) | Places where the meaning shifts, using embeddings of consecutive sentences |
 
-Semantic and other advanced strategies are compared with measurements in [Chunking Strategies](../06-implementing-rag/chunking-strategies.md).
+Semantic and other advanced strategies are compared with measurements in [Chunking Strategies](../course.md#m6).
 
 ### 9. Splitting documents and keeping metadata
 
@@ -372,13 +393,15 @@ def split_documents(docs, chunk_size, overlap=0, add_start_index=True):
 
 page = Document(page_content=HANDBOOK, metadata={"source": "hr/handbook-2026.pdf", "page_label": "3"})
 for c in split_documents([page], chunk_size=160)[:3]:
-    print(c.metadata, "|", c.page_content[:40])
+    print(c.metadata, "|", c.page_content[:40].replace("\n", " / "))
 ```
 
 Output:
 
 ```
-TBD
+{'source': 'hr/handbook-2026.pdf', 'page_label': '3', 'start_index': 0} | 2.1 Annual leave / Every employee gets 24 
+{'source': 'hr/handbook-2026.pdf', 'page_label': '3', 'start_index': 123} | 2.2 Sick leave / Employees get 10 days of 
+{'source': 'hr/handbook-2026.pdf', 'page_label': '3', 'start_index': 249} | 5.1 Travel claims
 ```
 
 Every chunk still knows its source and page, and `start_index` lets a UI highlight the exact passage in the original document.
@@ -398,7 +421,7 @@ There's no universal best size; it depends on your documents, questions and embe
 Then **measure**: build a small test set and compare recall at a few sizes, exactly as you did in the from-scratch lab. Keep in mind:
 
 - **Embedding model limits.** Each model has a maximum input length; text beyond it is truncated (silently, in some APIs). Keep chunks well under it.
-- **Small chunks** retrieve precisely but lose context; **large chunks** carry context but dilute the embedding and cost more prompt space. The "small-to-big" pattern (search small chunks, return their bigger parent) gets both; see [Chunking Strategies](../06-implementing-rag/chunking-strategies.md).
+- **Small chunks** retrieve precisely but lose context; **large chunks** carry context but dilute the embedding and cost more prompt space. The "small-to-big" pattern (search small chunks, return their bigger parent) gets both; see [Chunking Strategies](../course.md#m6).
 
 ---
 
@@ -420,7 +443,7 @@ print(len(recursive_split(HANDBOOK, 100, 0)), len(recursive_split(HANDBOOK, 100,
 Output:
 
 ```
-TBD
+12 13
 ```
 
 Overlap repeats text, so the same total content needs more chunks to carry it.
@@ -434,7 +457,7 @@ print(recursive_split("ABCDEFGHIJ", chunk_size=4))
 Output:
 
 ```
-TBD
+['ABCD', 'EFGH', 'IJ']
 ```
 
 There are no blank lines, newlines or spaces, so it fell all the way through to the empty-string separator, which splits into single characters and merges them back up to 4.
@@ -455,7 +478,7 @@ print(split_markdown_with_context(MARKDOWN)[2].page_content)
 Output:
 
 ```
-TBD
+Travel > 5.2 Meal allowance: On client travel the daily meal allowance is Rs 1,200 in metro cities and Rs 800 elsewhere.
 ```
 
 Embeddings only see `page_content`. With the heading path in the text, a question like *"travel meal limit"* has more to match, and the chunk is self-explanatory when shown to the model.
@@ -511,4 +534,4 @@ Overlap helps sentences that straddle a boundary. It doesn't tell a chunk which 
 
 ---
 
-**Up next:** [Vector Stores in LangChain](vector-stores-in-langchain.md)
+**Up next:** [Vector Stores in LangChain](../course.md#m5)

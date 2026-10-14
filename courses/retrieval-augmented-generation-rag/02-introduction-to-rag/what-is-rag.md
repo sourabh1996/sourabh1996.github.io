@@ -13,7 +13,7 @@ reading_time: 26 min
 >
 > - [How This Course Works](../01-start-here/how-this-course-works.md), for the running example (the Tarang Software handbook).
 > - [How LLMs Work](../../generative-ai-and-llm-foundations/course.md#m3), for tokens, context windows and why a model's knowledge is frozen at training time.
-> - [Introduction to Vector Databases](../course.md#m3), for what an embedding is. A short refresher is included below.
+> - No embedding knowledge yet: a short refresher is below, and the full treatment comes in [Embeddings and Vector Databases](../course.md#m3), right after this module.
 
 ## Introduction
 
@@ -353,8 +353,8 @@ flowchart LR
 | Stage | What changes | Where you'll learn it |
 |---|---|---|
 | **Naive RAG** | Fixed pipeline: embed, take top-k, generate | This module |
-| **Advanced RAG** | Smarter steps before retrieval (query rewriting, multi-query) and after it (reranking, compression), plus hybrid keyword and vector search | Modules 3 and 4 |
-| **Modular RAG** | Pieces become swappable components: memory, routers, several indexes, multimodal stores | Module 5 |
+| **Advanced RAG** | Smarter steps before retrieval (query rewriting, multi-query) and after it (reranking, compression), plus hybrid keyword and vector search | Modules 5 and 6 |
+| **Modular RAG** | Pieces become swappable components: memory, routers, several indexes, multimodal stores | Module 7 |
 | **Agentic RAG** | Retrieval becomes a tool an agent calls as many times as needed, grading what it finds | [Agentic RAG Systems](../../agentic-rag-systems/course.md) |
 
 Two current ideas worth knowing by name now:
@@ -431,7 +431,7 @@ The lesson in the last line is a real one: **if you change the embedding model, 
 - **Internal knowledge assistants** ("ask the wiki") search Confluence, SharePoint, Google Drive and Slack, respecting each employee's permissions at retrieval time.
 - **Legal and compliance research tools** retrieve clauses and judgments and show the exact passages, because lawyers must verify every claim.
 - **Coding assistants** retrieve relevant files, functions and documentation from your repository before writing code.
-- **Chat-with-your-PDF apps** (you'll build one in Module 4) index a single document on upload and answer questions about it.
+- **Chat-with-your-PDF apps** (you'll build one in Module 6) index a single document on upload and answer questions about it.
 
 ---
 
@@ -451,7 +451,7 @@ Vectors are the most common retriever, but keyword search (BM25), SQL queries, k
 
 ### "More retrieved chunks is always better"
 
-More chunks raise the chance the right one is included, but also add noise, cost and latency, and models are known to use information in the middle of long contexts less reliably. The craft is getting a *small* set of *right* chunks, which is what reranking (Module 4) is for.
+More chunks raise the chance the right one is included, but also add noise, cost and latency, and models are known to use information in the middle of long contexts less reliably. The craft is getting a *small* set of *right* chunks, which is what reranking (Module 6) is for.
 
 ---
 

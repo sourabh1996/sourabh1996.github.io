@@ -13,6 +13,7 @@ reading_time: 24 min
 >
 > - [Lab: RAG from scratch, no framework](../02-introduction-to-rag/lab-rag-from-scratch-no-framework.md), where you loaded documents with metadata by hand.
 > - [The RAG Pipeline End to End](../02-introduction-to-rag/the-rag-pipeline-end-to-end.md), for why ingestion and metadata matter.
+> - [Vector Database Tools](../course.md#m4), where you stored and searched embeddings with real vector databases. This module wraps the same ideas in LangChain.
 > - [LangChain Foundations](../../langchain-complete-guide/course.md#m2), for installing LangChain and its package layout.
 
 ## Introduction
