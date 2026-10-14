@@ -1,7 +1,7 @@
 ---
 title: "What is Streamlit?"
-course: Interactive Data Apps with Streamlit
-module: "2. Streamlit Basics"
+course: "APIs and Apps: FastAPI, Streamlit and Docker"
+module: "6. Streamlit Basics"
 type: Article
 level: Beginner
 reading_time: 24 min
@@ -11,8 +11,8 @@ reading_time: 24 min
 
 > 📚 **Before you start**
 >
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals), for functions and decorators-as-syntax
-> - [pandas Core](../../numerical-computing-and-data-analysis/course.md#m3) (Numerical Computing and Data Analysis), for DataFrames
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming), for functions and decorators-as-syntax
+> - [pandas Core](../../data-analysis-and-visualisation-with-python/course.md#m3) (Data Analysis and Visualisation with Python), for DataFrames
 
 ## Introduction
 
@@ -199,7 +199,7 @@ script runs: 3 | expensive loads: 3
 
 Two consequences jump out, and they shape everything that follows:
 
-- **Normal variables reset on every run.** `clicks` is always 1. To remember things between reruns (a counter, a chat history, a logged-in user), you need **session state**, covered in [Session State](../03-state-and-responsiveness/session-state.md).
+- **Normal variables reset on every run.** `clicks` is always 1. To remember things between reruns (a counter, a chat history, a logged-in user), you need **session state**, covered in [Session State](../07-state-and-responsiveness/session-state.md).
 - **Expensive work repeats on every run.** Loading the data three times for three clicks is wasteful. That's what **caching** fixes, in section 6.
 
 ### 5. Showing things: the display commands
@@ -235,7 +235,7 @@ Explicit commands give you more control. The ones you'll use most:
 
 #### Matplotlib and Seaborn charts
 
-Every Matplotlib or Seaborn chart, such as those in [Creating and Customising Plots](../../data-visualization-with-matplotlib-and-seaborn/02-matplotlib/creating-and-customising-plots.md), works in Streamlit. Build the figure as usual and pass it to `st.pyplot`:
+Every Matplotlib or Seaborn chart, such as those in [Creating and Customising Plots](../../data-analysis-and-visualisation-with-python/06-matplotlib/creating-and-customising-plots.md), works in Streamlit. Build the figure as usual and pass it to `st.pyplot`:
 
 ```python
 # not-run: Streamlit app fragment
@@ -290,7 +290,7 @@ How the cache decides whether it has a stored answer:
 - **`ttl`** (time to live) expires entries after a duration, such as `ttl=600` (seconds) or `ttl="1h"`, so data refreshes. **`max_entries`** caps the number of stored results.
 - **`load_sales.clear()`** empties one function's cache; `st.cache_data.clear()` empties all data caches.
 - **`st.cache_data` returns copies**, so one user sorting their DataFrame in place can't affect another user. **`st.cache_resource` returns the same object to everyone**, so never store per-user information in it.
-- Both work with `async def` functions since version 1.64; you'll meet that in [async and await in Streamlit](../03-state-and-responsiveness/async-and-await-in-streamlit.md).
+- Both work with `async def` functions since version 1.64; you'll meet that in [async and await in Streamlit](../07-state-and-responsiveness/async-and-await-in-streamlit.md).
 
 The rule of thumb: **if you'd be happy for every user to share it and it's slow to create, cache it.** Use `cache_data` unless the object is a connection, client or model.
 
@@ -450,7 +450,7 @@ A team testing a customer-support assistant builds a chat interface in Streamlit
 
 ### Misconception 1: "Only the changed widget's code runs"
 
-The **whole script** reruns. That's what keeps Streamlit simple, and it's why caching and session state exist. ([Fragments](../03-state-and-responsiveness/async-and-await-in-streamlit.md), let you rerun just part of a page when you need to.)
+The **whole script** reruns. That's what keeps Streamlit simple, and it's why caching and session state exist. ([Fragments](../07-state-and-responsiveness/async-and-await-in-streamlit.md), let you rerun just part of a page when you need to.)
 
 ### Misconception 2: "Global variables keep their values between clicks"
 

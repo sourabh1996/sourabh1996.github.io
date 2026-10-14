@@ -52,17 +52,17 @@ Turn Python into products: FastAPI endpoints with Pydantic validation, Streamlit
 
 <a id="m6"></a>
 ### 6. Streamlit Basics (3 lessons)
-- What is Streamlit? · Article
-- Widgets and Layout · Article
-- Lab: Your first dashboard · Lab
+- [What is Streamlit?](06-streamlit-basics/what-is-streamlit.md) · Article ✍️ *written*
+- [Widgets and Layout](06-streamlit-basics/widgets-and-layout.md) · Article ✍️ *written*
+- [Lab: Your first dashboard](06-streamlit-basics/lab-your-first-dashboard.md) · Lab ✍️ *written*
 
 <a id="m7"></a>
 ### 7. State and Responsiveness (3 lessons)
 > **Before you start:** [Python Programming › Concurrency for AI Apps](../python-programming/course.md#m10)
 
-- Session State · Article
-- async and await in Streamlit · Article
-- Lab: Build a chat UI shell for an LLM app · Lab
+- [Session State](07-state-and-responsiveness/session-state.md) · Article ✍️ *written*
+- [async and await in Streamlit](07-state-and-responsiveness/async-and-await-in-streamlit.md) · Article ✍️ *written*
+- [Lab: Build a chat UI shell for an LLM app](07-state-and-responsiveness/lab-build-a-chat-ui-shell-for-an-llm-app.md) · Lab ✍️ *written*
 
 <a id="m8"></a>
 ### 8. Serving Machine Learning Models (3 lessons)

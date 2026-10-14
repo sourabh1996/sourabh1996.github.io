@@ -1,7 +1,7 @@
 ---
 title: "How Matplotlib Thinks: Figures and Axes"
-course: Data Visualization with Matplotlib and Seaborn
-module: "2. Matplotlib"
+course: "Data Analysis and Visualisation with Python"
+module: "6. Matplotlib"
 type: Article
 level: Beginner
 reading_time: 22 min
@@ -11,8 +11,8 @@ reading_time: 22 min
 
 > 📚 **Before you start**
 >
-> - [pandas Core](../../numerical-computing-and-data-analysis/course.md#m3) (Numerical Computing and Data Analysis), for building the small DataFrames used here
-> - [Quick Visualisation with pandas](../../numerical-computing-and-data-analysis/course.md#m5), if you have used `df.plot()` before: it is Matplotlib underneath
+> - [pandas Core](../course.md#m3) (Data Analysis and Visualisation with Python), for building the small DataFrames used here
+> - [Quick Visualisation with pandas](../course.md#m5), if you have used `df.plot()` before: it is Matplotlib underneath
 
 ## Introduction
 
@@ -357,7 +357,7 @@ Output:
 1.5
 ```
 
-`mpl.rc_context` changes defaults only inside the `with` block, which is the safe way to experiment. Seaborn's themes, which you'll meet in [Styling Charts for Communication](../03-seaborn-and-storytelling/styling-charts-for-communication.md), work by setting many `rcParams` at once.
+`mpl.rc_context` changes defaults only inside the `with` block, which is the safe way to experiment. Seaborn's themes, which you'll meet in [Styling Charts for Communication](../07-seaborn-and-storytelling/styling-charts-for-communication.md), work by setting many `rcParams` at once.
 
 ### 10. Putting it together: the habits
 

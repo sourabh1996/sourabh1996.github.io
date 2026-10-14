@@ -1,7 +1,7 @@
 ---
 title: "Session State"
-course: Interactive Data Apps with Streamlit
-module: "3. State and Responsiveness"
+course: "APIs and Apps: FastAPI, Streamlit and Docker"
+module: "7. State and Responsiveness"
 type: Article
 level: Beginner
 reading_time: 26 min
@@ -11,10 +11,10 @@ reading_time: 26 min
 
 > 📚 **Before you start**
 >
-> - [What is Streamlit?](../02-streamlit-basics/what-is-streamlit.md), for the rerun model
-> - [Widgets and Layout](../02-streamlit-basics/widgets-and-layout.md), for widget keys and forms
-> - [Dictionaries and Dictionary Views](../../python-fundamentals/course.md#m5) (Python Fundamentals), because session state behaves like a dictionary
-> - [Concurrency for AI Apps](../../advanced-python-programming/course.md#m5) (Advanced Python Programming), used in the next lesson
+> - [What is Streamlit?](../06-streamlit-basics/what-is-streamlit.md), for the rerun model
+> - [Widgets and Layout](../06-streamlit-basics/widgets-and-layout.md), for widget keys and forms
+> - [Dictionaries and Dictionary Views](../../python-programming/course.md#m5) (Python Programming), because session state behaves like a dictionary
+> - [Concurrency for AI Apps](../../python-programming/course.md#m10) (Python Programming), used in the next lesson
 
 ## Introduction
 
@@ -305,7 +305,7 @@ Answers are copied into `answers` when the user moves on, so they survive even t
 
 ### 7. Pattern: remember a button click
 
-Recall from [Widgets and Layout](../02-streamlit-basics/widgets-and-layout.md) that buttons are `True` for one run only. To make a click "stick", store it:
+Recall from [Widgets and Layout](../06-streamlit-basics/widgets-and-layout.md) that buttons are `True` for one run only. To make a click "stick", store it:
 
 ```python
 # not-run: Streamlit app, run with: streamlit run app.py

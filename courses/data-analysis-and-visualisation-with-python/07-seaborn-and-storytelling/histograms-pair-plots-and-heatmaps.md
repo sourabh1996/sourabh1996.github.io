@@ -1,7 +1,7 @@
 ---
 title: "Histograms, Pair Plots and Heatmaps"
-course: Data Visualization with Matplotlib and Seaborn
-module: "3. Seaborn and Storytelling"
+course: "Data Analysis and Visualisation with Python"
+module: "7. Seaborn and Storytelling"
 type: Article
 level: Beginner
 reading_time: 28 min
@@ -12,7 +12,7 @@ reading_time: 28 min
 > 📚 **Before you start**
 >
 > - [Statistical Plots with Seaborn](statistical-plots-with-seaborn.md), for `hue`, long-form data and Axes-level vs figure-level functions
-> - [Descriptive Statistics in pandas](../../numerical-computing-and-data-analysis/course.md#m5) (Numerical Computing and Data Analysis), for `describe`, `corr` and `pivot_table`
+> - [Descriptive Statistics in pandas](../course.md#m5) (Data Analysis and Visualisation with Python), for `describe`, `corr` and `pivot_table`
 
 ## Introduction
 

@@ -1,7 +1,7 @@
 ---
 title: "Widgets and Layout"
-course: Interactive Data Apps with Streamlit
-module: "2. Streamlit Basics"
+course: "APIs and Apps: FastAPI, Streamlit and Docker"
+module: "6. Streamlit Basics"
 type: Article
 level: Beginner
 reading_time: 26 min
@@ -12,8 +12,8 @@ reading_time: 26 min
 > 📚 **Before you start**
 >
 > - [What is Streamlit?](what-is-streamlit.md), for the rerun model and running an app
-> - [Selecting, Sorting and Indexing Data](../../numerical-computing-and-data-analysis/course.md#m3) (Numerical Computing and Data Analysis), for filtering DataFrames with boolean masks
-> - [Dates, Times and Timedeltas](../../numerical-computing-and-data-analysis/course.md#m4), for date ranges
+> - [Selecting, Sorting and Indexing Data](../../data-analysis-and-visualisation-with-python/course.md#m3) (Data Analysis and Visualisation with Python), for filtering DataFrames with boolean masks
+> - [Dates, Times and Timedeltas](../../data-analysis-and-visualisation-with-python/course.md#m4), for date ranges
 
 ## Introduction
 
@@ -82,7 +82,7 @@ Arguments shared by most widgets:
 - **`key`**: a unique name; see section 3.
 - **`help`**: a tooltip with a question-mark icon.
 - **`disabled=True`**: shows the widget greyed out.
-- **`on_change` / `on_click`**: a function to call when the value changes (covered properly in [Session State](../03-state-and-responsiveness/session-state.md)).
+- **`on_change` / `on_click`**: a function to call when the value changes (covered properly in [Session State](../07-state-and-responsiveness/session-state.md)).
 - **`width`**: many elements accept `width="stretch"`, `"content"` or a number of pixels.
 
 ### 2. Buttons are momentary
@@ -98,7 +98,7 @@ if st.button("Show the special"):
     qty = st.number_input("How many?", 1, 10, 1)   # changing this hides everything!
 ```
 
-Change the quantity and the special disappears: the number input triggers a rerun in which the button returns `False`, so the `if` block (including the number input itself) isn't drawn. The fixes are to use `st.checkbox`/`st.toggle` for "show/hide", or to remember the click in [session state](../03-state-and-responsiveness/session-state.md). Use buttons for *actions* (save, refresh, send), not for *states*.
+Change the quantity and the special disappears: the number input triggers a rerun in which the button returns `False`, so the `if` block (including the number input itself) isn't drawn. The fixes are to use `st.checkbox`/`st.toggle` for "show/hide", or to remember the click in [session state](../07-state-and-responsiveness/session-state.md). Use buttons for *actions* (save, refresh, send), not for *states*.
 
 ### 3. Widget identity and keys
 

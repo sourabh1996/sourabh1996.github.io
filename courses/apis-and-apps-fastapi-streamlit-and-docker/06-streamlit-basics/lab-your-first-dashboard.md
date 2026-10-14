@@ -1,7 +1,7 @@
 ---
 title: "Lab: Your first dashboard"
-course: Interactive Data Apps with Streamlit
-module: "2. Streamlit Basics"
+course: "APIs and Apps: FastAPI, Streamlit and Docker"
+module: "6. Streamlit Basics"
 type: Lab
 level: Beginner
 reading_time: 45 min
@@ -13,7 +13,7 @@ reading_time: 45 min
 >
 > - [What is Streamlit?](what-is-streamlit.md), for running apps and caching
 > - [Widgets and Layout](widgets-and-layout.md), for the sidebar, columns, metrics and tabs
-> - [pandas Core](../../numerical-computing-and-data-analysis/course.md#m3) and [Dates, Times and Timedeltas](../../numerical-computing-and-data-analysis/course.md#m4) (Numerical Computing and Data Analysis), for `groupby`, `pivot_table` and date filtering
+> - [pandas Core](../../data-analysis-and-visualisation-with-python/course.md#m3) and [Dates, Times and Timedeltas](../../data-analysis-and-visualisation-with-python/course.md#m4) (Data Analysis and Visualisation with Python), for `groupby`, `pivot_table` and date filtering
 
 ## What You'll Build
 
@@ -486,4 +486,4 @@ best outlet: Kothrud
 
 ---
 
-**Up next:** [Session State](../03-state-and-responsiveness/session-state.md)
+**Up next:** [Session State](../07-state-and-responsiveness/session-state.md)

@@ -1,7 +1,7 @@
 ---
 title: "Lab: Build a chat UI shell for an LLM app"
-course: Interactive Data Apps with Streamlit
-module: "3. State and Responsiveness"
+course: "APIs and Apps: FastAPI, Streamlit and Docker"
+module: "7. State and Responsiveness"
 type: Lab
 level: Beginner
 reading_time: 50 min
@@ -13,7 +13,7 @@ reading_time: 50 min
 >
 > - [Session State](session-state.md), for keeping the conversation across reruns and for callbacks
 > - [async and await in Streamlit](async-and-await-in-streamlit.md), for `st.write_stream` and generators
-> - [Widgets and Layout](../02-streamlit-basics/widgets-and-layout.md), for the sidebar and keys
+> - [Widgets and Layout](../06-streamlit-basics/widgets-and-layout.md), for the sidebar and keys
 
 ## What You'll Build
 

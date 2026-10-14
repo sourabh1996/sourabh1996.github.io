@@ -1,7 +1,7 @@
 ---
 title: "Statistical Plots with Seaborn"
-course: Data Visualization with Matplotlib and Seaborn
-module: "3. Seaborn and Storytelling"
+course: "Data Analysis and Visualisation with Python"
+module: "7. Seaborn and Storytelling"
 type: Article
 level: Beginner
 reading_time: 28 min
@@ -11,9 +11,9 @@ reading_time: 28 min
 
 > 📚 **Before you start**
 >
-> - [How Matplotlib Thinks: Figures and Axes](../02-matplotlib/how-matplotlib-thinks-figures-and-axes.md), because every Seaborn chart is a Matplotlib Figure and Axes
-> - [Creating and Customising Plots](../02-matplotlib/creating-and-customising-plots.md), for titles, labels and formatters
-> - [Descriptive Statistics in pandas](../../numerical-computing-and-data-analysis/course.md#m5) and [Categorical Data](../../numerical-computing-and-data-analysis/course.md#m4) (Numerical Computing and Data Analysis), for means, `groupby` and category columns
+> - [How Matplotlib Thinks: Figures and Axes](../06-matplotlib/how-matplotlib-thinks-figures-and-axes.md), because every Seaborn chart is a Matplotlib Figure and Axes
+> - [Creating and Customising Plots](../06-matplotlib/creating-and-customising-plots.md), for titles, labels and formatters
+> - [Descriptive Statistics in pandas](../course.md#m5) and [Categorical Data](../course.md#m4) (Data Analysis and Visualisation with Python), for means, `groupby` and category columns
 
 ## Introduction
 
@@ -364,7 +364,7 @@ Useful options: `order=2` fits a curve (a second-degree polynomial), `logistic=T
 
 ### 10. Finishing a Seaborn chart with Matplotlib
 
-Because Axes-level functions return a normal Axes, you can keep going with everything from [Creating and Customising Plots](../02-matplotlib/creating-and-customising-plots.md):
+Because Axes-level functions return a normal Axes, you can keep going with everything from [Creating and Customising Plots](../06-matplotlib/creating-and-customising-plots.md):
 
 ```python
 import matplotlib.ticker as mticker

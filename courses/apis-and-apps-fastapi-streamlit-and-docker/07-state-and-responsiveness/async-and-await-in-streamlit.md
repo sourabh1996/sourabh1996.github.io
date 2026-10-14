@@ -1,7 +1,7 @@
 ---
 title: "async and await in Streamlit"
-course: Interactive Data Apps with Streamlit
-module: "3. State and Responsiveness"
+course: "APIs and Apps: FastAPI, Streamlit and Docker"
+module: "7. State and Responsiveness"
 type: Article
 level: Beginner
 reading_time: 28 min
@@ -12,9 +12,9 @@ reading_time: 28 min
 > 📚 **Before you start**
 >
 > - [Session State](session-state.md), for keeping values across reruns
-> - [What is Streamlit?](../02-streamlit-basics/what-is-streamlit.md), for the rerun model and caching
-> - [Concurrency for AI Apps](../../advanced-python-programming/course.md#m5) (Advanced Python Programming), for threads, processes and the basics of `async`/`await`
-> - [Iterators and Generators](../../python-fundamentals/course.md#m6) (Python Fundamentals), for `yield`
+> - [What is Streamlit?](../06-streamlit-basics/what-is-streamlit.md), for the rerun model and caching
+> - [Concurrency for AI Apps](../../python-programming/course.md#m10) (Python Programming), for threads, processes and the basics of `async`/`await`
+> - [Iterators and Generators](../../python-programming/course.md#m6) (Python Programming), for `yield`
 
 ## Introduction
 

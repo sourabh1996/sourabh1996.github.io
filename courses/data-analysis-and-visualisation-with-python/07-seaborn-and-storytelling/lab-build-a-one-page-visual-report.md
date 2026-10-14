@@ -1,7 +1,7 @@
 ---
 title: "Lab: Build a one-page visual report"
-course: Data Visualization with Matplotlib and Seaborn
-module: "3. Seaborn and Storytelling"
+course: "Data Analysis and Visualisation with Python"
+module: "7. Seaborn and Storytelling"
 type: Lab
 level: Beginner
 reading_time: 50 min
@@ -11,10 +11,10 @@ reading_time: 50 min
 
 > 📚 **Before you start**
 >
-> - [How Matplotlib Thinks: Figures and Axes](../02-matplotlib/how-matplotlib-thinks-figures-and-axes.md), for `subplot_mosaic`
+> - [How Matplotlib Thinks: Figures and Axes](../06-matplotlib/how-matplotlib-thinks-figures-and-axes.md), for `subplot_mosaic`
 > - [Statistical Plots with Seaborn](statistical-plots-with-seaborn.md) and [Histograms, Pair Plots and Heatmaps](histograms-pair-plots-and-heatmaps.md)
 > - [Styling Charts for Communication](styling-charts-for-communication.md), for titles, highlighting and direct labels
-> - [Selecting, Sorting and Indexing Data](../../numerical-computing-and-data-analysis/course.md#m3) and [Dates, Times and Timedeltas](../../numerical-computing-and-data-analysis/course.md#m4), for `groupby`, `pivot_table` and `.dt`
+> - [Selecting, Sorting and Indexing Data](../course.md#m3) and [Dates, Times and Timedeltas](../course.md#m4), for `groupby`, `pivot_table` and `.dt`
 
 ## What You'll Build
 
@@ -389,8 +389,8 @@ busiest month by orders: 2025-10 15,072
 - **Export for the medium**: PNG for screens, PDF for print.
 - **Review like an editor** with a checklist before you send anything.
 
-That completes the Matplotlib and Seaborn lessons. Next, [Feature Engineering and EDA](../../feature-engineering-and-eda/course.md) puts these charts to work exploring datasets before modelling, and [Interactive Data Apps with Streamlit](../../interactive-data-apps-with-streamlit/course.md) shows how to turn a page like this into an interactive dashboard.
+That completes the Matplotlib and Seaborn lessons. Next, [Machine Learning Foundations: Data, EDA and Features](../../machine-learning-foundations-data-eda-and-features/course.md) puts these charts to work exploring datasets before modelling, and [APIs and Apps: FastAPI, Streamlit and Docker](../../apis-and-apps-fastapi-streamlit-and-docker/course.md) shows how to turn a page like this into an interactive dashboard.
 
 ---
 
-**Up next:** [Feature Engineering and EDA](../../feature-engineering-and-eda/course.md)
+**Up next:** [Machine Learning Foundations: Data, EDA and Features](../../machine-learning-foundations-data-eda-and-features/course.md)

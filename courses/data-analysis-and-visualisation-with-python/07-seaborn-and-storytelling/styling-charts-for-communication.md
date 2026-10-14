@@ -1,7 +1,7 @@
 ---
 title: "Styling Charts for Communication"
-course: Data Visualization with Matplotlib and Seaborn
-module: "3. Seaborn and Storytelling"
+course: "Data Analysis and Visualisation with Python"
+module: "7. Seaborn and Storytelling"
 type: Article
 level: Beginner
 reading_time: 26 min
@@ -11,7 +11,7 @@ reading_time: 26 min
 
 > 📚 **Before you start**
 >
-> - [Creating and Customising Plots](../02-matplotlib/creating-and-customising-plots.md), for annotations, tick formatters and `axhline`
+> - [Creating and Customising Plots](../06-matplotlib/creating-and-customising-plots.md), for annotations, tick formatters and `axhline`
 > - [Statistical Plots with Seaborn](statistical-plots-with-seaborn.md), for `hue` and how Seaborn picks colours
 > - [Histograms, Pair Plots and Heatmaps](histograms-pair-plots-and-heatmaps.md), for sequential and diverging colour maps
 
@@ -344,7 +344,7 @@ Most readers read the title, glance at the chart, and stop. So:
 - **Source line** at the bottom for anything you publish.
 - **Annotate the one or two points** the story depends on, not every point.
 - **Readable sizes.** Nothing smaller than about 9 points in a report, bigger on slides (that's what `context="talk"` is for).
-- **Format numbers for people**: `₹4.2 Cr`, `18%`, `Feb`. See the formatters in [Creating and Customising Plots](../02-matplotlib/creating-and-customising-plots.md).
+- **Format numbers for people**: `₹4.2 Cr`, `18%`, `Feb`. See the formatters in [Creating and Customising Plots](../06-matplotlib/creating-and-customising-plots.md).
 
 A small helper keeps titles and subtitles consistent across a report:
 

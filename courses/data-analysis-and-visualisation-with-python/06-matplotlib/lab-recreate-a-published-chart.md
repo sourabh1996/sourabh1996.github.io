@@ -1,7 +1,7 @@
 ---
 title: "Lab: Recreate a published chart"
-course: Data Visualization with Matplotlib and Seaborn
-module: "2. Matplotlib"
+course: "Data Analysis and Visualisation with Python"
+module: "6. Matplotlib"
 type: Lab
 level: Beginner
 reading_time: 40 min
@@ -13,7 +13,7 @@ reading_time: 40 min
 >
 > - [How Matplotlib Thinks: Figures and Axes](how-matplotlib-thinks-figures-and-axes.md)
 > - [Creating and Customising Plots](creating-and-customising-plots.md)
-> - [Descriptive Statistics in pandas](../../numerical-computing-and-data-analysis/course.md#m5) (Numerical Computing and Data Analysis), for mean, variance and correlation
+> - [Descriptive Statistics in pandas](../course.md#m5) (Data Analysis and Visualisation with Python), for mean, variance and correlation
 
 ## What You'll Build
 
@@ -351,4 +351,4 @@ slope=0.345 intercept=4.006 r=1.0000
 
 ---
 
-**Up next:** [Statistical Plots with Seaborn](../03-seaborn-and-storytelling/statistical-plots-with-seaborn.md)
+**Up next:** [Statistical Plots with Seaborn](../07-seaborn-and-storytelling/statistical-plots-with-seaborn.md)
