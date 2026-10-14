@@ -38,7 +38,7 @@ This lesson maps every vector tool onto that picture, so that when you meet Chro
 
 ### 1. Four deployment styles
 
-![A spectrum from left to right: a library inside your process with vectors in RAM; an embedded database inside your process with files on local disk; a self-hosted server reached over the network; and a managed cloud service run by a provider, with notes on who operates each one and how far each scales](/img/diagrams/vector-databases-for-ai/deployment-spectrum.svg)
+![A spectrum from left to right: a library inside your process with vectors in RAM; an embedded database inside your process with files on local disk; a self-hosted server reached over the network; and a managed cloud service run by a provider, with notes on who operates each one and how far each scales](/img/diagrams/retrieval-augmented-generation-rag/vdb-deployment-spectrum.svg)
 *From a library inside your Python process to a fully managed service. Moving right adds scale and removes operational work, at the cost of network hops and bills.*
 
 | Style | Where it runs | Persistence | Examples | Best for |
@@ -79,17 +79,21 @@ def ram_estimate_gb(n, dims, bytes_per_number=4.0, hnsw_m=16, metadata_bytes=0):
     graph = n * hnsw_m * 2 * 4          # layer-0 neighbour ids, 4 bytes each
     return (vectors + graph + n * metadata_bytes) / 1e9
 
-print(f"{'collection':<38} {'float32':>9} {'int8':>8} {'binary':>8}")
+print(f"{'collection':<44} {'float32':>9} {'int8':>8} {'binary':>8}")
 for label, n, dims in [("50k chunks, 384-d (a small help centre)", 50_000, 384),
                        ("5M chunks, 1024-d (a company wiki)", 5_000_000, 1024),
                        ("100M items, 768-d (an e-commerce catalogue)", 100_000_000, 768)]:
     sizes = [ram_estimate_gb(n, dims, b) for b in (4, 1, 1 / 8)]
-    print(f"{label:<38} " + " ".join(f"{s:>7.1f}G" for s in sizes))
+    print(f"{label:<44} " + " ".join(f"{s:>7.2f}G" for s in sizes))
 ```
 
 Output:
 
 ```
+collection                                     float32     int8   binary
+50k chunks, 384-d (a small help centre)         0.08G    0.03G    0.01G
+5M chunks, 1024-d (a company wiki)             21.12G    5.76G    1.28G
+100M items, 768-d (an e-commerce catalogue)   320.00G   89.60G   22.40G
 ```
 
 A small help centre fits in the RAM of any laptop. A company wiki at float32 needs a big server, but fits comfortably on a normal one with int8 scalar quantization. A hundred-million-item catalogue needs several hundred gigabytes at full precision, which is where quantization, disk-based indexes and multiple machines come in. Notice that at binary precision the **graph links** start to cost more than the vectors themselves.
@@ -117,14 +121,14 @@ path = os.path.join(folder, "vectors.npy")
 
 vectors = rng.normal(size=(N, D)).astype(np.float32)
 vectors /= np.linalg.norm(vectors, axis=1, keepdims=True)
-cluster_of = rng.integers(0, 100, N)             # pretend IVF assignment: 100 lists
+cluster_of = np.arange(N) % 100                  # pretend IVF assignment: 100 lists of 2,000
 order = np.argsort(cluster_of, kind="stable")    # store each list contiguously on disk
 np.save(path, vectors[order])
 list_bounds = np.searchsorted(cluster_of[order], np.arange(101))
 del vectors                                       # nothing left in RAM
 
 on_disk = np.load(path, mmap_mode="r")            # opens instantly, reads nothing yet
-print(type(on_disk).__name__, on_disk.shape, f"file size {os.path.getsize(path) / 1e6:.1f} MB")
+print(type(on_disk).__name__, on_disk.shape, f"vectors on disk: {on_disk.nbytes / 1e6:.1f} MB")
 
 c = 42                                            # pretend the query's nearest centroid is list 42
 start, end = list_bounds[c], list_bounds[c + 1]
@@ -137,6 +141,8 @@ print(f"searched list {c}: rows {start} to {end} ({block.nbytes / 1e6:.2f} MB re
 Output:
 
 ```
+memmap (200000, 64) vectors on disk: 51.2 MB
+searched list 42: rows 84000 to 86000 (0.51 MB read), best row 84000
 ```
 
 The file is over 50 MB, but the search read about half a megabyte: one list. This is how disk-based IVF works, and why storing each list **contiguously** matters: one sequential read per probed list instead of thousands of scattered ones. Disk-based **graph** indexes (the DiskANN family) work the same way in spirit: compressed vectors in RAM decide which neighbours to visit, and full-precision vectors are fetched from SSD only for the final re-ranking.
@@ -203,6 +209,9 @@ print("Hindi only:   ", reopened.search([0.9, 0.1, 0.3], k=2, where={"lang": "hi
 Output:
 
 ```
+['records.json', 'vectors.npy']
+all languages: [('refund-en', 1.0), ('refund-hi', 0.999)]
+Hindi only:    [('refund-hi', 0.999)]
 ```
 
 Three things this toy is missing, and which real embedded databases add: an **ANN index** instead of brute force; **incremental, crash-safe writes** (our `save()` rewrites everything, and a crash halfway through would corrupt the files, which is what a write-ahead log prevents); and **safe concurrent access** (two processes writing to the same folder at once would clobber each other). That last point is the main reason teams move from embedded to a server: an embedded store is normally owned by **one** process.
@@ -269,6 +278,10 @@ for queries in [1, 10, 100, 1000]:                       # millions of queries p
 Output:
 
 ```
+    1M queries/month: fixed    600  usage-based      18  -> usage-based
+   10M queries/month: fixed    600  usage-based      90  -> usage-based
+  100M queries/month: fixed    600  usage-based     810  -> fixed servers
+ 1000M queries/month: fixed    600  usage-based    8010  -> fixed servers
 ```
 
 The exact crossover depends entirely on real prices and your traffic, which is the point of writing the model down: usage-based pricing wins at low and spiky traffic, and fixed capacity wins at high, steady traffic. Always run this calculation with current prices before committing.
@@ -319,6 +332,8 @@ for dims in (1536, 768):
 Output:
 
 ```
+1536-d: total 12.8 GB, of which graph 0.5 GB
+768-d: total 6.7 GB, of which graph 0.5 GB
 ```
 
 The graph cost depends on N and M, not on the dimension, so it stays the same while the vector part halves.
@@ -340,6 +355,7 @@ print(TinyVectorStore(store_dir).search([0.9, 0.1, 0.3], k=3))
 Output:
 
 ```
+[('refund-en', 1.0), ('upi-en', 0.785), ('tatkal-en', 0.318)]
 ```
 
 Real databases avoid rewriting everything on each delete: they write a tombstone to the log and clean up during compaction.
@@ -349,12 +365,13 @@ Real databases avoid rewriting everything on each delete: they write a tombstone
 ```python
 start, end = list_bounds[40], list_bounds[43]
 block = np.asarray(on_disk[start:end])
-print(f"read {block.nbytes / 1e6:.2f} MB of {os.path.getsize(path) / 1e6:.1f} MB")
+print(f"read {block.nbytes / 1e6:.2f} MB of {on_disk.nbytes / 1e6:.1f} MB")
 ```
 
 Output:
 
 ```
+read 1.54 MB of 51.2 MB
 ```
 
 Because lists 40 to 42 are stored next to each other, this is still one contiguous read of about three lists' worth of data, a small fraction of the file. In a real index the probed lists are usually not neighbours on disk, so each probe is its own read, which is why `nprobe` affects disk-based latency so directly.

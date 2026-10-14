@@ -11,7 +11,7 @@ reading_time: 32 min
 
 > 📚 **Before you start**
 >
-> - [How This Course Works](../course.md), for how the runnable examples are set up.
+> - [What is RAG?](../course.md#m2), for why a RAG system needs to find the right passages before the model answers. This module builds the "find" part.
 > - [NLP for Machine Learning › Word Embeddings](../../nlp-for-machine-learning/course.md#m5), for word vectors and Word2Vec. This lesson recaps the parts you need.
 > - [Data Analysis and Visualisation with Python](../../data-analysis-and-visualisation-with-python/course.md), for NumPy arrays and shapes.
 
@@ -422,7 +422,7 @@ At a million 1,536-dimensional vectors, every single query does about 1.5 billio
 2. **Memory.** All vectors must be read for every query, and 600 GB does not fit in one machine's RAM.
 3. **Everything else a database does.** Saving to disk, adding and deleting items, filtering by metadata ("only documents from 2026"), serving many users, backups.
 
-Vector databases solve the first two with **approximate nearest neighbour (ANN)** indexes: data structures such as **HNSW**, **IVF** and **PQ** that examine only a small, smart fraction of the vectors and return *almost* the exact answer, often 95 to 99 percent of the true top results, in a few milliseconds. They solve the third by being databases. You will build each index yourself in [Storage and Indexing (HNSW, IVF)](../course.md#m3).
+Vector databases solve the first two with **approximate nearest neighbour (ANN)** indexes: data structures such as **HNSW**, **IVF** and **PQ** that examine only a small, smart fraction of the vectors and return *almost* the exact answer, often 95 to 99 percent of the true top results, in a few milliseconds. They solve the third by being databases. You will build each index yourself in [Storage and Indexing (HNSW, IVF)](storage-and-indexing-hnsw-ivf.md).
 
 ### 11. Measuring quality: recall
 
@@ -452,7 +452,7 @@ Recall is the main quality number you will tune in every vector database. Every 
 1. **Feel the length problem.** Take `a = [3, 4]` and make `d = [30, 40]` and `e = [4, 3]`. Which is "more similar" to `a` by dot product, and which by cosine? Explain the difference in one sentence.
 2. **Cosine without normalising.** Write `cosine_search(query_vec, matrix, k)` that works even when the stored vectors are **not** unit length, without changing the stored matrix. Test it on a matrix where one row is multiplied by 10.
 3. **Add a word, change a result.** Add `"washed": (0, 0.3, 0, 0, 0.6, 0)` to the toy `LEXICON` and search again for "my cricket game got washed out by rain". Does the top result change? Do the scores?
-4. **Memory budget.** Your company has 20 million support tickets and uses a 768-dimensional model. How much RAM do the raw float32 vectors need? How much if you store them as 1-byte integers instead (a trick called scalar quantization, covered in [Storage and Indexing (HNSW, IVF)](../course.md#m3))?
+4. **Memory budget.** Your company has 20 million support tickets and uses a 768-dimensional model. How much RAM do the raw float32 vectors need? How much if you store them as 1-byte integers instead (a trick called scalar quantization, covered in [Storage and Indexing (HNSW, IVF)](storage-and-indexing-hnsw-ivf.md))?
 
 <details>
 <summary>Show answers</summary>

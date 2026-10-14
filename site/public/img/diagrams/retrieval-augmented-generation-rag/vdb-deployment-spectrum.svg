@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" width="1100" height="600" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Where your vectors live">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="598" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Where your vectors live</text>
+<rect x="30" y="95" width="500" height="380" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="161.2" y="80" width="237.6" height="30" rx="15" fill="#2f5fb3"/>
+<text x="280.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Inside your Python process</text>
+<rect x="570" y="95" width="500" height="380" rx="14" fill="none" stroke="#a68be0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="744.2" y="80" width="151.6" height="30" rx="15" fill="#5b3fa0"/>
+<text x="820.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Over the network</text>
+<path d="M255.0,205.0 L305.0,205.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M505.0,205.0 L595.0,205.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="532.0" y="182.0" width="36.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="550.0" y="196.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">grow</text>
+<path d="M795.0,205.0 L845.0,205.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="55" y="130" width="200" height="150" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="155.0" y="182.0" font-size="28" text-anchor="middle">📚</text>
+<text x="155.0" y="205.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Library</text>
+<text x="155.0" y="225.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">vectors in RAM</text><text x="155.0" y="240.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">you save files yourself</text><text x="155.0" y="256.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">FAISS, hnswlib</text>
+<rect x="305" y="130" width="200" height="150" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="405.0" y="182.0" font-size="28" text-anchor="middle">🗄️</text>
+<text x="405.0" y="205.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Embedded DB</text>
+<text x="405.0" y="225.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">local files, auto-saved</text><text x="405.0" y="240.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">one process owns it</text><text x="405.0" y="256.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Chroma, LanceDB</text>
+<rect x="595" y="130" width="200" height="150" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="695.0" y="182.0" font-size="28" text-anchor="middle">🖥️</text>
+<text x="695.0" y="205.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Self-hosted server</text>
+<text x="695.0" y="225.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">your machines, Docker</text><text x="695.0" y="240.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">many clients share it</text><text x="695.0" y="256.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Qdrant, Milvus, pgvector</text>
+<rect x="845" y="130" width="200" height="150" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="945.0" y="182.0" font-size="28" text-anchor="middle">☁️</text>
+<text x="945.0" y="205.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Managed cloud</text>
+<text x="945.0" y="225.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">provider runs it</text><text x="945.0" y="240.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">API key + endpoint</text><text x="945.0" y="256.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Pinecone, Qdrant Cloud</text>
+<rect x="55" y="320" width="450" height="125" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="280.0" y="367.5" font-size="28" text-anchor="middle">🧑‍💻</text>
+<text x="280.0" y="390.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">You run nothing extra</text>
+<text x="280.0" y="410.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">fastest calls, no network hop</text><text x="280.0" y="426.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">limited to one machine and one owner</text>
+<rect x="595" y="320" width="450" height="125" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="820.0" y="367.5" font-size="28" text-anchor="middle">🌐</text>
+<text x="820.0" y="390.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">A service answers queries</text>
+<text x="820.0" y="410.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">shared by many apps, scales out</text><text x="820.0" y="426.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">you (or a provider) operate it</text>
+<text x="550" y="520.0" font-size="14" font-weight="600" fill="#1f2328" text-anchor="middle">Moving right adds scale and sharing, and removes work you do yourself.</text>
+<text x="550" y="548.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">The price: a network hop on every query, and a bill or an on-call rota.</text>
+</svg>

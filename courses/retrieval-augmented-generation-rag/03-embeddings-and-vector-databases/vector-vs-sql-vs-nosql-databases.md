@@ -71,7 +71,7 @@ A SQL query **filters**. Each row either satisfies `WHERE fare < 1500 AND source
 
 A vector query **ranks**. Every stored vector has *some* similarity to the query; the database returns the top k. There is no "match" or "no match", only "closer" and "further". The answer is a list, and with an approximate index it can differ very slightly from the exact top k.
 
-Most real searches need **both**: "the 5 most similar help articles, **but only** in Hindi and only for the payments product". That combination, **filtered vector search**, is one of the hardest parts of building a vector database, and you will see how databases handle it in [Storage and Indexing (HNSW, IVF)](../course.md#m3).
+Most real searches need **both**: "the 5 most similar help articles, **but only** in Hindi and only for the payments product". That combination, **filtered vector search**, is one of the hardest parts of building a vector database, and you will see how databases handle it in [Storage and Indexing (HNSW, IVF)](storage-and-indexing-hnsw-ivf.md).
 
 ### 3. You *can* store vectors in SQL
 
@@ -191,7 +191,7 @@ Output:
 
 In 2 dimensions the farthest point is many times further away than the nearest, so it is easy to rule out most points quickly. In 1,000 dimensions every point is roughly the same distance away, so simple tricks that "rule out far regions" (which work well for maps in 2-D, like finding the nearest petrol pump) stop paying off.
 
-Real embeddings are not uniformly random. They cluster around topics, so their structure is much friendlier than this worst case. **ANN indexes exploit that structure**: IVF groups vectors into clusters and only searches the nearest clusters; HNSW builds a graph that links each vector to its neighbours and walks it. Both give up a tiny bit of exactness for enormous speed. That is the subject of [Storage and Indexing (HNSW, IVF)](../course.md#m3).
+Real embeddings are not uniformly random. They cluster around topics, so their structure is much friendlier than this worst case. **ANN indexes exploit that structure**: IVF groups vectors into clusters and only searches the nearest clusters; HNSW builds a graph that links each vector to its neighbours and walks it. Both give up a tiny bit of exactness for enormous speed. That is the subject of [Storage and Indexing (HNSW, IVF)](storage-and-indexing-hnsw-ivf.md).
 
 ### 5. What a record in a vector database looks like
 
@@ -299,7 +299,7 @@ A vector *index* (like FAISS) only finds nearest neighbours in memory. A vector 
 | **Hybrid search** | Keyword and vector scores combined in one query |
 | **Quantization and tiered storage** | Fitting billions of vectors into affordable memory and disk |
 
-The difference between a vector **library**, an embedded vector **store**, and a vector **database server** is the subject of [In-Memory, On-Disk and Cloud Vector DBs](../course.md#m3).
+The difference between a vector **library**, an embedded vector **store**, and a vector **database server** is the subject of [In-Memory, On-Disk and Cloud Vector DBs](in-memory-on-disk-and-cloud-vector-dbs.md).
 
 ---
 
@@ -428,4 +428,4 @@ With an ANN index they return an approximate top k. That is usually fine for sea
 
 ---
 
-**Up next:** [Storage and Indexing (HNSW, IVF)](../course.md#m3)
+**Up next:** [Storage and Indexing (HNSW, IVF)](storage-and-indexing-hnsw-ivf.md)
