@@ -1,11 +1,11 @@
 # MLOps with MLflow
 
 **Advanced · 5 modules · 15 lessons · ~7 hrs**  
-Track 3 · Machine Learning · Bootcamp syllabus module(s): 15
+Track 4 · Apps, APIs and MLOps · Bootcamp syllabus module(s): 15
 
 Manage the ML lifecycle: track experiments, register models and serve them in production.
 
-**Finish first:** [Machine Learning Fundamentals](../machine-learning-fundamentals/course.md)  
+**Finish first:** [Supervised Learning](../supervised-learning/course.md), [APIs and Apps: FastAPI, Streamlit and Docker](../apis-and-apps-fastapi-streamlit-and-docker/course.md)  
 **Unlocks:** Nothing, this is a final course.
 
 ## Course content
@@ -21,7 +21,7 @@ Manage the ML lifecycle: track experiments, register models and serve them in pr
 
 <a id="m3"></a>
 ### 3. Experiment Tracking (5 lessons)
-> **Before you start:** [Machine Learning Fundamentals › Regression](../machine-learning-fundamentals/course.md#m3)
+> **Before you start:** [Supervised Learning › Regression](../supervised-learning/course.md#m2)
 
 - Logging Params, Metrics and Artifacts · Article
 - Artifact Management · Article
@@ -37,6 +37,8 @@ Manage the ML lifecycle: track experiments, register models and serve them in pr
 
 <a id="m5"></a>
 ### 5. Serving and Deployment (4 lessons)
+> **Before you start:** [APIs and Apps: FastAPI, Streamlit and Docker › Docker and Cloud Deployment](../apis-and-apps-fastapi-streamlit-and-docker/course.md#m9)
+
 - Real-Time Serving and Local Deployment · Article
 - Containerisation · Article
 - Cloud and Orchestration · Article

@@ -1,12 +1,12 @@
 # Model Context Protocol (MCP)
 
-**Intermediate · 6 modules · 24 lessons · ~10 hrs**  
-Track 8 · Agentic AI · Bootcamp syllabus module(s): 30
+**Intermediate · 6 modules · 23 lessons · ~10 hrs**  
+Track 7 · Agentic AI · Bootcamp syllabus module(s): 30
 
 The standard way to plug tools and data into AI apps: why MCP exists, its architecture and lifecycle, and building local and remote servers and clients.
 
-**Finish first:** [Agentic AI Fundamentals](../agentic-ai-fundamentals/course.md), [LangChain Complete Guide](../langchain-complete-guide/course.md)  
-**Unlocks:** [Tools, Agent Skills and Code Execution](../tools-agent-skills-and-code-execution/course.md), [Agent Frameworks and SDKs](../agent-frameworks-and-sdks/course.md), [Multi-Agent Research System (Capstone)](../multi-agent-research-system-capstone/course.md)
+**Finish first:** [Tools, Agent Skills and Code Execution](../tools-agent-skills-and-code-execution/course.md), [APIs and Apps: FastAPI, Streamlit and Docker](../apis-and-apps-fastapi-streamlit-and-docker/course.md)  
+**Unlocks:** [Agent Frameworks and SDKs](../agent-frameworks-and-sdks/course.md), [Agent Security and Safety](../agent-security-and-safety/course.md), [Multi-Agent Research System (Capstone)](../multi-agent-research-system-capstone/course.md), [Cloud Data Platforms](../cloud-data-platforms/course.md)
 
 ## Course content
 
@@ -36,8 +36,8 @@ The standard way to plug tools and data into AI apps: why MCP exists, its archit
 - Operation and Shutdown · Article
 
 <a id="m5"></a>
-### 5. Building with MCP (9 lessons)
-> **Before you start:** [LangChain Complete Guide › Tools and Tool Calling](../langchain-complete-guide/course.md#m7), [Production APIs with FastAPI › Docker and Cloud Deployment](../production-apis-with-fastapi/course.md#m7)
+### 5. Building with MCP (8 lessons)
+> **Before you start:** [LangChain Complete Guide › Tools and Tool Calling](../langchain-complete-guide/course.md#m7), [APIs and Apps: FastAPI, Streamlit and Docker › Docker and Cloud Deployment](../apis-and-apps-fastapi-streamlit-and-docker/course.md#m9)
 
 - Open MCP Registries (Smithery) · Article
 - Building a Local MCP Server with FastMCP · Article
@@ -45,7 +45,6 @@ The standard way to plug tools and data into AI apps: why MCP exists, its archit
 - Building an MCP Client · Article
 - Building MCP Servers with LangChain · Article
 - Docker MCP Catalog and Toolkit · Article
-- Agent-to-Agent (A2A) Protocol · Article ➕
 - Lab: Build and connect your own MCP server · Lab
 - Lab: Expense tracker MCP server · Lab
 
