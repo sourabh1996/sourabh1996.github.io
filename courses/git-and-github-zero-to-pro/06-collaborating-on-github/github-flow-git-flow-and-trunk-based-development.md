@@ -286,7 +286,7 @@ Whatever you choose, write it down in `CONTRIBUTING.md` and **enforce it with to
 ### 6. Naming, Tags and Release Conventions
 
 - **Branch names**: lowercase, hyphens, optionally a type prefix or issue number: `feature/upi-payments`, `fix/12-rounding`, `docs/readme-setup`. Slashes are fine in branch names and group nicely in tools.
-- **Tags**: annotated tags named with **semantic versioning**, `vMAJOR.MINOR.PATCH` (`v1.2.1`): bump MAJOR for breaking changes, MINOR for new features, PATCH for fixes ([module 11](../course.md#m11)).
+- **Tags**: annotated tags named with **semantic versioning**, `vMAJOR.MINOR.PATCH` (`v1.2.1`): bump MAJOR for breaking changes, MINOR for new features, PATCH for fixes ([module 10](../course.md#m10)).
 - **Releases**: GitHub Releases attach notes and files to a tag and can generate notes from merged PRs ([module 8](../course.md#m8)).
 - **Environment branches** (`staging`, `production` that code is merged into to deploy) are an older pattern; most teams now deploy a commit or tag to an environment instead of keeping a branch per environment.
 

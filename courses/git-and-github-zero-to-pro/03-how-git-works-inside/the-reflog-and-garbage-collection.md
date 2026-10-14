@@ -302,7 +302,7 @@ garbage: 0
 size-garbage: 0
 ```
 
-Sixteen loose objects became twelve packed ones: the four unreachable objects (the old kulhad commit, the deleted Diwali commit and their tree and blob) are gone for good, and `fsck` finds nothing unreachable any more. **Never run those two commands in a real repository unless you specifically mean to destroy recoverable history**; the main legitimate use is right after removing a leaked secret or huge file from history ([module 10](../course.md#m10)), so that the old objects really disappear from your clone.
+Sixteen loose objects became twelve packed ones: the four unreachable objects (the old kulhad commit, the deleted Diwali commit and their tree and blob) are gone for good, and `fsck` finds nothing unreachable any more. **Never run those two commands in a real repository unless you specifically mean to destroy recoverable history**; the main legitimate use is right after removing a leaked secret or huge file from history ([module 9](../course.md#m9)), so that the old objects really disappear from your clone.
 
 ### 9. The Stash Lives in a Reflog Too
 

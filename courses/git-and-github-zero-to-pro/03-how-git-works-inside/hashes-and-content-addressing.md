@@ -12,7 +12,7 @@ reading_time: 25 min
 > 📚 **Before you start**
 >
 > - [Blobs, Trees, Commits and Tags](blobs-trees-commits-and-tags.md), for the four object types and `git cat-file`
-> - [Python Fundamentals](../../python-fundamentals/course.md) (optional), to follow the Python examples
+> - [Python Programming](../../python-programming/course.md) (optional), to follow the Python examples
 
 ## Introduction
 

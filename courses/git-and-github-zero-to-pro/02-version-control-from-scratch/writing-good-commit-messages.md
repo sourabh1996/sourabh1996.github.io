@@ -239,7 +239,7 @@ BREAKING CHANGE: code importing PRICES must use MENU_PRICES.
 | `!` after the type, or a `BREAKING CHANGE:` footer | Incompatible change | Major bump (**2**.0.0) |
 | `docs`, `refactor`, `test`, `ci`, `build`, `perf`, `style`, `chore` | Common extra types (conventions, not required by the spec) | No release by default |
 
-The pay-off is automation: release tools can read the history, decide the next version number and generate a changelog. The cost is a little ceremony on every commit. Notice Conventional Commits subjects are often lowercase after the colon; follow whichever style your team uses consistently. Versioning and release automation are covered in [module 11](../course.md#m11), and enforcing a format with commit hooks in the same module.
+The pay-off is automation: release tools can read the history, decide the next version number and generate a changelog. The cost is a little ceremony on every commit. Notice Conventional Commits subjects are often lowercase after the colon; follow whichever style your team uses consistently. Versioning and release automation are covered in [module 10](../course.md#m10), and enforcing a format with commit hooks in the same module.
 
 ### 9. One Logical Change per Commit
 

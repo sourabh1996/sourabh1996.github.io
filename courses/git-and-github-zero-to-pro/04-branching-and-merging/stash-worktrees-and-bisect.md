@@ -293,7 +293,7 @@ Example output:
 
 The `hotfix-gst` **branch** survives either way; only the folder goes.
 
-Worktrees are especially handy for: urgent fixes during long-running work, reviewing a teammate's pull request without disturbing your branch, running a slow test suite on one branch while coding on another, and running several AI coding agents in parallel, each in its own worktree and branch ([module 9](../course.md#m9)).
+Worktrees are especially handy for: urgent fixes during long-running work, reviewing a teammate's pull request without disturbing your branch, running a slow test suite on one branch while coding on another, and running several AI coding agents in parallel, each in its own worktree and branch ([the Coding Agents and Harness Engineering course](../../coding-agents-and-harness-engineering/course.md#m3)).
 
 ### Part C: git bisect
 

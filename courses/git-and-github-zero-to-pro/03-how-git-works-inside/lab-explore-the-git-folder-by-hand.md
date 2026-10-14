@@ -79,7 +79,7 @@ What each piece is for:
 | `HEAD` | Which branch you're on |
 | `config` | This repository's local configuration |
 | `description` | Only used by the old GitWeb browser; safe to ignore |
-| `hooks/` | Sample scripts Git can run at certain moments ([module 11](../course.md#m11)); the `.sample` suffix keeps them inactive |
+| `hooks/` | Sample scripts Git can run at certain moments ([module 10](../course.md#m10)); the `.sample` suffix keeps them inactive |
 | `info/exclude` | Personal ignore rules for this clone |
 | `objects/` | The object database (empty so far, apart from `info/` and `pack/` folders) |
 | `refs/heads/`, `refs/tags/` | Branches and tags (empty so far) |

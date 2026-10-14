@@ -236,7 +236,7 @@ Healthy review cultures write down a few rules:
 - **Who merges**: often the author, after approval, so they can watch the deploy.
 - **Stale approvals**: a ruleset can dismiss approvals when new commits are pushed, so reviewers see the final version.
 
-GitHub also offers **automatic review requests** for teams (round-robin or load-balanced assignment), and AI-assisted reviews: you can request a review from Copilot on a PR, which leaves comments like a human reviewer would ([module 9](../course.md#m9)). Treat AI review as an extra pair of eyes, not a replacement for a teammate who knows the system.
+GitHub also offers **automatic review requests** for teams (round-robin or load-balanced assignment), and AI-assisted reviews: you can request a review from Copilot on a PR, which leaves comments like a human reviewer would ([the Coding Agents and Harness Engineering course](../../coding-agents-and-harness-engineering/course.md#m3)). Treat AI review as an extra pair of eyes, not a replacement for a teammate who knows the system.
 
 ---
 

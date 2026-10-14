@@ -249,7 +249,7 @@ That's version control in miniature: snapshots, messages, history, differences a
 ### 7. What Version Control Is Not
 
 - **It is not a backup tool by itself.** History on your laptop dies with your laptop. Pushing to a remote such as GitHub is what makes it a backup.
-- **It is not good at huge binary files.** Videos, large datasets and model weights bloat a repository quickly. Tools like [Git LFS](../course.md#m11) or data-versioning tools handle those.
+- **It is not good at huge binary files.** Videos, large datasets and model weights bloat a repository quickly. Tools like [Git LFS](../course.md#m10) or data-versioning tools handle those.
 - **It does not save automatically.** Nothing is recorded until you commit. Uncommitted work is unprotected.
 - **It is not a place for secrets.** Passwords and API keys committed to history are very hard to remove. The [.gitignore lesson](gitignore-and-what-never-to-commit.md) covers how to keep them out.
 

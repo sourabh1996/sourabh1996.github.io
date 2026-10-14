@@ -33,7 +33,6 @@ By the end of this course you will be able to:
 - **Work with GitHub**: clone, fetch, pull and push, authenticate with SSH keys or tokens, use the GitHub CLI, fork projects and present a repository well.
 - **Collaborate like a professional team**: pull requests, code review, issues and Projects, branching workflows, branch protection, rulesets, CODEOWNERS, merge strategies and merge queues.
 - **Automate and ship**: GitHub Actions, Pages, Codespaces, Packages and releases.
-- **Use AI on GitHub**: Copilot, coding agents that open pull requests, repository instructions and the GitHub MCP server.
 - **Keep a project secure** and contribute to open source, then walk into a Git interview prepared.
 
 ### The course at a glance
@@ -47,16 +46,15 @@ flowchart TB
   E --> F["Module 6: Collaborating on GitHub<br/>PRs, reviews, workflows"]
   F --> G["Module 7: GitHub Actions<br/>Automation and CI"]
   G --> H["Module 8: Pages, Codespaces, Packages"]
-  F --> I["Module 9: AI on GitHub"]
-  G --> J["Module 10: Security and Supply Chain"]
-  F --> K["Module 11: Open Source and Advanced Git"]
-  J --> L["Module 12: Interview Prep"]
+  G --> J["Module 9: Security and Supply Chain"]
+  F --> K["Module 10: Open Source and Advanced Git"]
+  J --> L["Module 11: Interview Prep"]
   K --> L
 ```
 
 The first half of the course (modules 2 to 6) is about **Git itself and working with other people**. Module 2 gets you productive on your own machine. Module 3 opens the `.git` folder so the rest of the course makes sense. Module 4 is the heart of Git: branches, merges, rebases and undoing mistakes. Modules 5 and 6 take your work to GitHub and teach the team habits that companies expect.
 
-The second half (modules 7 to 12) builds on that foundation: automation with [GitHub Actions](../course.md#m7), hosting and environments in [module 8](../course.md#m8), [AI on GitHub](../course.md#m9), [security](../course.md#m10), [open source and advanced Git](../course.md#m11), and [interview preparation](../course.md#m12).
+The second half (modules 7 to 11) builds on that foundation: automation with [GitHub Actions](../course.md#m7), hosting and environments in [module 8](../course.md#m8), [security](../course.md#m9), [open source and advanced Git](../course.md#m10), and [interview preparation](../course.md#m11). Using AI coding agents on GitHub (Copilot, agents that open pull requests, the GitHub MCP server) is taught later, in [Coding Agents on GitHub](../../coding-agents-and-harness-engineering/course.md#m3), once you have learned how agents and MCP work.
 
 ### Git and GitHub are different things
 
@@ -135,7 +133,7 @@ You do **not** need any programming experience to follow modules 2 to 6. You do 
 - **A free GitHub account** from module 5 onwards. You can create it at github.com when you get there.
 - **A code editor** such as VS Code. Any editor works; it just needs to save plain text.
 
-A few lessons include short, optional Python snippets (for example, computing a Git hash yourself). You can skip them, or pick up the basics in [Python Fundamentals](../../python-fundamentals/course.md).
+A few lessons include short, optional Python snippets (for example, computing a Git hash yourself). You can skip them, or pick up the basics in [Python Programming](../../python-programming/course.md).
 
 ### Use a practice folder
 

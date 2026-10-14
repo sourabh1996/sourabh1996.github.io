@@ -139,7 +139,7 @@ Each entry is **mode, type, hash, name**. The modes Git uses are few:
 | `100755` | Executable file |
 | `120000` | Symbolic link |
 | `040000` | Sub-tree (a folder) |
-| `160000` | Submodule (a commit in another repository; [module 11](../course.md#m11)) |
+| `160000` | Submodule (a commit in another repository; [module 10](../course.md#m10)) |
 
 Notice what's **not** there: timestamps, owners, and most permissions. Git tracks only whether a file is executable. It also doesn't track empty folders, because a tree only exists if it has entries.
 
@@ -247,7 +247,7 @@ A **tag** gives a permanent, human-friendly name to a commit, typically a releas
 |---|---|---|
 | **Created with** | `git tag v0.1` | `git tag -a v1.0 -m "message"` |
 | **What it is** | Just a name pointing at a commit (a ref, next-but-one lesson) | A real **tag object** with tagger, date and message, plus a name pointing at it |
-| **Can be signed?** | No | Yes (`-s`; [module 10](../course.md#m10)) |
+| **Can be signed?** | No | Yes (`-s`; [module 9](../course.md#m9)) |
 | **Use for** | Private bookmarks | **Releases** and anything you share |
 
 ```bash

@@ -194,7 +194,7 @@ How to add one:
 
 GitHub detects the licence and shows it in the repository sidebar. In source files, many projects add a one-line **SPDX identifier** comment such as `SPDX-License-Identifier: MIT`, a standard tag that tools can read.
 
-Two cautions. First, a licence can't be taken back for copies people already received under it; you can change the licence for future versions. Second, this is a practical summary, not legal advice; for anything with money or a company involved, ask a lawyer. [Licenses in Plain English](../course.md#m11) in module 11 goes deeper, including licence compatibility.
+Two cautions. First, a licence can't be taken back for copies people already received under it; you can change the licence for future versions. Second, this is a practical summary, not legal advice; for anything with money or a company involved, ask a lawyer. [Licenses in Plain English](../course.md#m10) in module 10 goes deeper, including licence compatibility.
 
 ### 5. The Other Community Files
 

@@ -318,7 +318,7 @@ You don't have to write `.gitignore` from scratch. GitHub maintains the **github
    SMS_API_KEY=
    ```
 3. Run `git diff --staged` before every commit.
-4. Turn on automated checks: GitHub's **secret scanning** and **push protection** can block pushes that contain many known token formats, and pre-commit hooks can scan locally (both covered in [module 10](../course.md#m10) and [module 11](../course.md#m11)).
+4. Turn on automated checks: GitHub's **secret scanning** and **push protection** can block pushes that contain many known token formats, and pre-commit hooks can scan locally (both covered in [module 9](../course.md#m9) and [module 10](../course.md#m10)).
 
 **If a secret is committed:**
 
@@ -333,7 +333,7 @@ flowchart LR
 ```
 
 - **Not pushed yet:** unstage and amend. If it's buried in older unpushed commits, interactive rebase can remove it (module 4).
-- **Pushed, even for a minute, even to a private repository:** assume it's compromised. Bots scan public GitHub for keys within minutes of a push. **Revoke the key and create a new one first.** Cleaning history comes second, because the old commit may already be in other clones, forks, caches and CI logs. The full clean-up procedure is in [Removing a Leaked Secret from History](../course.md#m10).
+- **Pushed, even for a minute, even to a private repository:** assume it's compromised. Bots scan public GitHub for keys within minutes of a push. **Revoke the key and create a new one first.** Cleaning history comes second, because the old commit may already be in other clones, forks, caches and CI logs. The full clean-up procedure is in [Removing a Leaked Secret from History](../course.md#m9).
 
 Deleting the file in a new commit is **not** enough: the secret is still in every earlier commit, readable with `git show <old-commit>:.env`.
 
@@ -376,7 +376,7 @@ A student pushes a weekend project to a public repository with a cloud access ke
 
 ### Example 2: The 2 GB Repository
 
-A data team commits a few CSV exports "just for now". Months later every clone downloads 2 GB of old data that nobody needs, and CI takes minutes just to check out the code. Removing large files from history is a painful rewrite; ignoring `data/` from day one (and storing data in object storage or with [Git LFS](../course.md#m11)) would have avoided it.
+A data team commits a few CSV exports "just for now". Months later every clone downloads 2 GB of old data that nobody needs, and CI takes minutes just to check out the code. Removing large files from history is a painful rewrite; ignoring `data/` from day one (and storing data in object storage or with [Git LFS](../course.md#m10)) would have avoided it.
 
 ### Example 3: Shared vs Personal Editor Settings
 

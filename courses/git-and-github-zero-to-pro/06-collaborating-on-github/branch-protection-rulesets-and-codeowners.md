@@ -148,7 +148,7 @@ gh ruleset check main
 | **Require signed commits** | Every commit must have a verified signature | Higher-assurance repositories |
 | **Require deployments to succeed** | A deployment to an environment (for example staging) must succeed first | Deployment gates |
 | **Require merge queue** | Merges go through a queue that tests each change against the latest `main` | Busy repositories ([Merge Strategies and Merge Queues](merge-strategies-and-merge-queues.md)) |
-| **Require code scanning results** | Code scanning must report no alerts above a threshold | Security ([module 10](../course.md#m10)) |
+| **Require code scanning results** | Code scanning must report no alerts above a threshold | Security ([module 9](../course.md#m9)) |
 | **Restrict creations / updates** | Only bypass actors can create or push to matching branches | Locking release branches |
 
 A sensible starting ruleset for `main` on a small team: restrict deletions, block force pushes, require a pull request with one approval and stale-approval dismissal, require conversation resolution, and require the CI check (for example `test`) to pass.

@@ -433,7 +433,7 @@ edbec81 G asha@example.com Add the menu
 
 `%G?` prints `G` for a good signature (`N` means none, `B` bad), and `%GS` prints the signer. `git verify-commit HEAD` checks a single commit and exits non-zero if the signature is bad, which is useful in scripts.
 
-For GitHub to show **Verified**, upload the same public key again as a **Signing Key** (the same settings page, or `gh ssh-key add ~/.ssh/id_ed25519.pub --type signing`), and make sure your commit email is one verified on your account. Repository rules can require signed commits on protected branches ([Branch Protection, Rulesets and CODEOWNERS](../06-collaborating-on-github/branch-protection-rulesets-and-codeowners.md)), and [module 10](../course.md#m10) goes deeper into signing and supply-chain trust.
+For GitHub to show **Verified**, upload the same public key again as a **Signing Key** (the same settings page, or `gh ssh-key add ~/.ssh/id_ed25519.pub --type signing`), and make sure your commit email is one verified on your account. Repository rules can require signed commits on protected branches ([Branch Protection, Rulesets and CODEOWNERS](../06-collaborating-on-github/branch-protection-rulesets-and-codeowners.md)), and [module 9](../course.md#m9) goes deeper into signing and supply-chain trust.
 
 ### 10. Reading Authentication Errors
 
@@ -452,7 +452,7 @@ For GitHub to show **Verified**, upload the same public key again as a **Signing
 - **One key per device:** if a laptop is lost, delete just that key on GitHub.
 - **Leaked a token or key?** Revoke it on GitHub **first** (Settings → Developer settings, or Settings → SSH and GPG keys), then clean up. Deleting it from a commit is not enough; it's already in history and possibly in clones ([.gitignore and What Never to Commit](../02-version-control-from-scratch/gitignore-and-what-never-to-commit.md)).
 - **Turn on two-factor authentication.** GitHub requires it for accounts that contribute code on github.com.
-- **Push protection:** GitHub's secret scanning can block a push that contains a recognisable token; you'll meet it in [module 10](../course.md#m10).
+- **Push protection:** GitHub's secret scanning can block a push that contains a recognisable token; you'll meet it in [module 9](../course.md#m9).
 
 ---
 
