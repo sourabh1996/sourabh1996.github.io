@@ -1,6 +1,6 @@
 ---
 title: "The Data Layer: JSON-RPC Messages"
-course: Model Context Protocol (MCP)
+course: "Model Context Protocol (MCP)"
 module: "3. How MCP Components Talk"
 type: Article
 level: Intermediate

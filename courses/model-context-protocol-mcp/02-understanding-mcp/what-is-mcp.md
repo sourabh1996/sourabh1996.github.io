@@ -1,6 +1,6 @@
 ---
 title: "What is MCP?"
-course: Model Context Protocol (MCP)
+course: "Model Context Protocol (MCP)"
 module: "2. Understanding MCP"
 type: Article
 level: Intermediate

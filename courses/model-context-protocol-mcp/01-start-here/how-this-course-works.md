@@ -1,6 +1,6 @@
 ---
 title: "How This Course Works"
-course: Model Context Protocol (MCP)
+course: "Model Context Protocol (MCP)"
 module: "1. Start Here"
 type: Article
 level: Intermediate
@@ -103,7 +103,7 @@ For testing servers interactively, the **MCP Inspector** is the standard tool. I
 
 - **Agentic AI basics.** You should know what a tool is and how function calling works: the model writes a structured tool call, your code runs it, the result goes back to the model. [Agentic AI Fundamentals › Tools and Function Calling](../../agentic-ai-fundamentals/04-tools-and-function-calling/function-calling-step-by-step.md) covers this.
 - **Comfortable Python.** Functions, dictionaries, `async`/`await` at a reading level, and decorators.
-- **A little HTTP and JSON.** What a POST request, a header and a status code are. [Production APIs with FastAPI](../../production-apis-with-fastapi/course.md) covers this if you need it.
+- **A little HTTP and JSON.** What a POST request, a header and a status code are. [APIs and Apps: FastAPI, Streamlit and Docker](../../apis-and-apps-fastapi-streamlit-and-docker/course.md) covers this if you need it.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "The Transport Layer: stdio and Streamable HTTP"
-course: Model Context Protocol (MCP)
+course: "Model Context Protocol (MCP)"
 module: "3. How MCP Components Talk"
 type: Article
 level: Intermediate
@@ -12,7 +12,7 @@ reading_time: 34 min
 > 📚 **Before you start**
 >
 > - [The Data Layer: JSON-RPC Messages](the-data-layer-json-rpc-messages.md), for the messages that transports carry.
-> - [HTTP Methods and Status Codes](../../production-apis-with-fastapi/course.md#m2), if POST, headers and status codes are new to you.
+> - [HTTP Methods and Status Codes](../../apis-and-apps-fastapi-streamlit-and-docker/course.md#m2), if POST, headers and status codes are new to you.
 
 ## Introduction
 

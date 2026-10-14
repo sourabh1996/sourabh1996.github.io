@@ -1,6 +1,6 @@
 ---
 title: "Using MCP in Claude Desktop and Cursor"
-course: Model Context Protocol (MCP)
+course: "Model Context Protocol (MCP)"
 module: "3. How MCP Components Talk"
 type: Article
 level: Intermediate
