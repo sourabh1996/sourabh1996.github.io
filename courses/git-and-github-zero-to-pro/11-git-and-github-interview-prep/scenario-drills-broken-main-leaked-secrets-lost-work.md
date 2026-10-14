@@ -1,7 +1,7 @@
 ---
 title: "Scenario Drills: Broken main, Leaked Secrets, Lost Work"
 course: "Git and GitHub: Zero to Pro"
-module: "12. Git and GitHub Interview Prep"
+module: "11. Git and GitHub Interview Prep"
 type: Article
 level: Advanced
 reading_time: 40 min
@@ -13,7 +13,7 @@ reading_time: 40 min
 >
 > - [Git Interview Questions Explained](git-interview-questions-explained.md)
 > - [The Reflog and Garbage Collection](../course.md#m3) and [Undoing Things](../course.md#m4)
-> - [Removing a Leaked Secret from History](../10-security-and-supply-chain/removing-a-leaked-secret-from-history.md)
+> - [Removing a Leaked Secret from History](../09-security-and-supply-chain/removing-a-leaked-secret-from-history.md)
 
 ## Introduction
 
@@ -87,7 +87,7 @@ gh pr create --fill --title "Revert #418: broke main"
 
 **Contain:** **revoke and rotate the key now.** Everything else waits. Check the provider's logs for use since the push.
 
-**Recover:** decide whether to rewrite history (sensitive personal data or an unrotatable secret: yes; a revoked key: optional). If yes, use `git filter-repo --sensitive-data-removal` with `--replace-text` or `--invert-paths --path`, force-push with `--mirror`, contact GitHub Support for PR refs and cached views, and have everyone re-clone. The full procedure is in [Removing a Leaked Secret from History](../10-security-and-supply-chain/removing-a-leaked-secret-from-history.md).
+**Recover:** decide whether to rewrite history (sensitive personal data or an unrotatable secret: yes; a revoked key: optional). If yes, use `git filter-repo --sensitive-data-removal` with `--replace-text` or `--invert-paths --path`, force-push with `--mirror`, contact GitHub Support for PR refs and cached views, and have everyone re-clone. The full procedure is in [Removing a Leaked Secret from History](../09-security-and-supply-chain/removing-a-leaked-secret-from-history.md).
 
 **Close the alert** as revoked in the Security tab, with a note.
 
@@ -326,7 +326,7 @@ Eight test runs instead of up to 199. `git bisect run` treats exit code 0 as goo
 2. **Assess**: search for uses across the organisation, and review recent runs' logs for exfiltrated data.
 3. **Rotate** every secret those workflows could access; revoke cloud sessions if OIDC roles were reachable.
 4. **Recover**: remove the action or pin it to a verified-clean commit SHA.
-5. **Prevent**: pin all actions to SHAs with Dependabot updates, `permissions: {}` by default, and environment-scoped secrets (see [Hardening Actions](../10-security-and-supply-chain/hardening-actions-pinning-and-least-privilege.md)).
+5. **Prevent**: pin all actions to SHAs with Dependabot updates, `permissions: {}` by default, and environment-scoped secrets (see [Hardening Actions](../09-security-and-supply-chain/hardening-actions-pinning-and-least-privilege.md)).
 
 ### 12. Practising Safely
 

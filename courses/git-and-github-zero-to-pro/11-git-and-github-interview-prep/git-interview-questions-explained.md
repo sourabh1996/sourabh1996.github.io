@@ -1,7 +1,7 @@
 ---
 title: "Git Interview Questions Explained"
 course: "Git and GitHub: Zero to Pro"
-module: "12. Git and GitHub Interview Prep"
+module: "11. Git and GitHub Interview Prep"
 type: Article
 level: Intermediate
 reading_time: 40 min
@@ -15,7 +15,7 @@ reading_time: 40 min
 >
 > - [How Git Works Inside](../course.md#m3) and [Branching and Merging](../course.md#m4)
 > - [Collaborating on GitHub](../course.md#m6)
-> - [GitHub Actions](../07-github-actions/workflows-jobs-steps-and-runners.md) and [Security and Supply Chain](../10-security-and-supply-chain/hardening-actions-pinning-and-least-privilege.md)
+> - [GitHub Actions](../07-github-actions/workflows-jobs-steps-and-runners.md) and [Security and Supply Chain](../09-security-and-supply-chain/hardening-actions-pinning-and-least-privilege.md)
 
 ## Introduction
 
@@ -307,7 +307,7 @@ It merges (or rebases) immediately, which can create surprise merge commits or c
 This whole lesson is interview relevance. How it maps to roles:
 
 - **Software engineers:** Q1–Q26, especially merge/rebase, undoing things, PR workflow and conflict resolution.
-- **DevOps and platform engineers:** add Q27–Q32 (Actions, OIDC, pinning, supply chain) and monorepo and LFS topics from module 11.
+- **DevOps and platform engineers:** add Q27–Q32 (Actions, OIDC, pinning, supply chain) and monorepo and LFS topics from module 10.
 - **Data and ML engineers:** fundamentals, LFS and DVC, notebooks in Git, CI for models.
 - **Senior and lead roles:** branching strategies, protecting `main`, merge queues, security policy, and how the team uses AI agents safely.
 

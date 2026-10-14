@@ -1,7 +1,7 @@
 ---
 title: "Git Hooks and pre-commit"
 course: "Git and GitHub: Zero to Pro"
-module: "11. Open Source and Advanced Git"
+module: "10. Open Source and Advanced Git"
 type: Article
 level: Intermediate
 reading_time: 25 min
@@ -181,7 +181,7 @@ What's going on:
 - **`rev`** pins each tool's version, so everyone (and CI) runs the same checks.
 - **`pre-commit-hooks`** provides small general checks; `check-added-large-files` catches what should be in [Git LFS](git-lfs-for-large-files.md).
 - **Ruff** lints (fixing what it can) and formats Python.
-- **gitleaks** scans staged changes for secrets, your last line of defence before [a leaked secret](../10-security-and-supply-chain/removing-a-leaked-secret-from-history.md).
+- **gitleaks** scans staged changes for secrets, your last line of defence before [a leaked secret](../09-security-and-supply-chain/removing-a-leaked-secret-from-history.md).
 - **`repo: local`** hooks run your own scripts; `language: pygrep` is a built-in regex check; `stages:` picks the Git hook.
 - **`default_install_hook_types`** makes `pre-commit install` set up both the `pre-commit` and `commit-msg` hooks.
 
@@ -319,7 +319,7 @@ Keep the commit-time hooks **fast** (a few seconds): move slow things (the full 
 - **Pin versions** (`rev`) and update them on purpose: run `pre-commit autoupdate` in a regular PR, or let pre-commit.ci open those PRs for you.
 - **Don't surprise people**: document `pre-commit install` in CONTRIBUTING.md and your dev container's `postCreateCommand` (see [Codespaces and Dev Containers](../08-github-pages-codespaces-and-packages/codespaces-and-dev-containers.md)).
 - **Hooks run code from the internet** (each `repo:`). Review new hook repositories as you would any dependency, and consider `autoupdate --freeze` to pin SHAs.
-- **Coding agents** commit too: tell them in AGENTS.md to run `pre-commit run --all-files` before finishing (see [Repository Instructions](../09-ai-on-github/repository-instructions-agents-md-and-custom-instructions.md)).
+- **Coding agents** commit too: tell them in AGENTS.md to run `pre-commit run --all-files` before finishing (see [Repository Instructions](../../coding-agents-and-harness-engineering/03-coding-agents-on-github/repository-instructions-agents-md-and-custom-instructions.md)).
 
 ---
 
@@ -434,4 +434,4 @@ A common follow-up: *"How would you stop secrets being committed across a 200-pe
 
 ---
 
-**Up next:** [Git Interview Questions Explained](../12-git-and-github-interview-prep/git-interview-questions-explained.md)
+**Up next:** [Git Interview Questions Explained](../11-git-and-github-interview-prep/git-interview-questions-explained.md)

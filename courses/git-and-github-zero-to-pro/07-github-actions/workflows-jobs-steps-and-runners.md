@@ -164,7 +164,7 @@ The settings you will use most on a step:
 
 On Linux and macOS, `run` steps use `bash -e {0}` by default, so the script stops at the first failing command. A non-zero exit code fails the step, and a failed step fails the job.
 
-The `@v7` part is a **ref**: a tag, branch or full commit SHA of the action's repository. Major-version tags are convenient; full SHAs are safest. The [Hardening Actions](../10-security-and-supply-chain/hardening-actions-pinning-and-least-privilege.md) lesson explains why.
+The `@v7` part is a **ref**: a tag, branch or full commit SHA of the action's repository. Major-version tags are convenient; full SHAs are safest. The [Hardening Actions](../09-security-and-supply-chain/hardening-actions-pinning-and-least-privilege.md) lesson explains why.
 
 ### 5. Jobs: Parallel by Default, Chained with `needs`
 

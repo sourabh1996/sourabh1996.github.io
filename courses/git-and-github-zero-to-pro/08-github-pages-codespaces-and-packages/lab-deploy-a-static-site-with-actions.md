@@ -500,4 +500,4 @@ Output:
 
 ---
 
-**Up next:** [Copilot in the Editor and on GitHub](../09-ai-on-github/copilot-in-the-editor-and-on-github.md)
+**Up next:** [Dependabot Alerts and Updates](../09-security-and-supply-chain/dependabot-alerts-and-updates.md)

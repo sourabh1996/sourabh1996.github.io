@@ -1,7 +1,7 @@
 ---
 title: "Running Coding Agents in GitHub Actions"
-course: "Git and GitHub: Zero to Pro"
-module: "9. AI on GitHub"
+course: "Coding Agents and Harness Engineering"
+module: "3. Coding Agents on GitHub"
 type: Article
 level: Advanced
 reading_time: 30 min
@@ -11,9 +11,9 @@ reading_time: 30 min
 
 > 📚 **Before you start**
 >
-> - [Triggers and Events](../07-github-actions/triggers-and-events.md), especially `issue_comment` and the dangers of `pull_request_target`
-> - [Secrets, Variables and Environments](../07-github-actions/secrets-variables-and-environments.md)
-> - [OIDC: Deploying to the Cloud without Stored Keys](../07-github-actions/oidc-deploying-to-the-cloud-without-stored-keys.md)
+> - [Triggers and Events](../../git-and-github-zero-to-pro/07-github-actions/triggers-and-events.md), especially `issue_comment` and the dangers of `pull_request_target`
+> - [Secrets, Variables and Environments](../../git-and-github-zero-to-pro/07-github-actions/secrets-variables-and-environments.md)
+> - [OIDC: Deploying to the Cloud without Stored Keys](../../git-and-github-zero-to-pro/07-github-actions/oidc-deploying-to-the-cloud-without-stored-keys.md)
 > - [Coding Agents that Open Pull Requests](coding-agents-that-open-pull-requests.md) and [Repository Instructions](repository-instructions-agents-md-and-custom-instructions.md)
 
 ## Introduction
@@ -435,4 +435,4 @@ Common follow-ups:
 
 ---
 
-**Up next:** [Dependabot Alerts and Updates](../10-security-and-supply-chain/dependabot-alerts-and-updates.md)
+**Up next:** [What a Harness Is](../course.md#m4)

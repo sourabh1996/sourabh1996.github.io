@@ -376,7 +376,7 @@ A Python package's `release.yml` triggers on `push: tags: ["v*"]`. Pushing `v2.4
 
 ### Example 3: A Comment-Triggered Agent
 
-A team's `issue_comment` workflow checks whether a comment starts with `@claude` and whether the commenter has write access, then runs a coding agent on the pull request. You'll build this in [Running Coding Agents in GitHub Actions](../09-ai-on-github/running-coding-agents-in-github-actions.md).
+A team's `issue_comment` workflow checks whether a comment starts with `@claude` and whether the commenter has write access, then runs a coding agent on the pull request. You'll build this in [Running Coding Agents in GitHub Actions](../../coding-agents-and-harness-engineering/03-coding-agents-on-github/running-coding-agents-in-github-actions.md).
 
 ---
 

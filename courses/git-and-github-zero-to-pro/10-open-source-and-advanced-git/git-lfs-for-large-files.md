@@ -1,7 +1,7 @@
 ---
 title: "Git LFS for Large Files"
 course: "Git and GitHub: Zero to Pro"
-module: "11. Open Source and Advanced Git"
+module: "10. Open Source and Advanced Git"
 type: Article
 level: Intermediate
 reading_time: 20 min
@@ -32,7 +32,7 @@ Git has the same problem. Every clone downloads **every version of every file** 
 
 ### 1. Why Big Files Hurt Git
 
-- **Clones grow forever.** Deleting a file doesn't remove it from history (see [Removing a Leaked Secret from History](../10-security-and-supply-chain/removing-a-leaked-secret-from-history.md) for what that takes).
+- **Clones grow forever.** Deleting a file doesn't remove it from history (see [Removing a Leaked Secret from History](../09-security-and-supply-chain/removing-a-leaked-secret-from-history.md) for what that takes).
 - **Binary files don't diff or delta-compress well**, so each version is stored nearly whole.
 - **GitHub limits** regular Git files: you get a warning for files over **50 MiB**, and pushes containing a file over **100 MiB** are **blocked**.
 

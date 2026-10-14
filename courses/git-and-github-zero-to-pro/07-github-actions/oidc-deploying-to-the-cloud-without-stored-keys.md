@@ -347,7 +347,7 @@ jobs:
 ```
 
 - **npm** and other registries offer trusted publishing from GitHub Actions in a similar way.
-- **HashiCorp Vault**, **Kubernetes** clusters and some AI providers can also accept GitHub OIDC tokens. For example, Anthropic's `claude-code-action` accepts workload identity federation settings instead of a stored API key, as you'll see in [Running Coding Agents in GitHub Actions](../09-ai-on-github/running-coding-agents-in-github-actions.md).
+- **HashiCorp Vault**, **Kubernetes** clusters and some AI providers can also accept GitHub OIDC tokens. For example, Anthropic's `claude-code-action` accepts workload identity federation settings instead of a stored API key, as you'll see in [Running Coding Agents in GitHub Actions](../../coding-agents-and-harness-engineering/03-coding-agents-on-github/running-coding-agents-in-github-actions.md).
 
 ### 10. Hardening Checklist
 

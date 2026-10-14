@@ -1,7 +1,7 @@
 ---
 title: "Dependabot Alerts and Updates"
 course: "Git and GitHub: Zero to Pro"
-module: "10. Security and Supply Chain"
+module: "9. Security and Supply Chain"
 type: Article
 level: Intermediate
 reading_time: 25 min

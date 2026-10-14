@@ -1,7 +1,7 @@
 ---
 title: "Licenses in Plain English"
 course: "Git and GitHub: Zero to Pro"
-module: "11. Open Source and Advanced Git"
+module: "10. Open Source and Advanced Git"
 type: Article
 level: Intermediate
 reading_time: 20 min

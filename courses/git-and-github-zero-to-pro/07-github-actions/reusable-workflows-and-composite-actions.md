@@ -14,7 +14,7 @@ reading_time: 25 min
 > - [Workflows, Jobs, Steps and Runners](workflows-jobs-steps-and-runners.md)
 > - [Matrix Builds and Caching](matrix-builds-and-caching.md)
 > - [Secrets, Variables and Environments](secrets-variables-and-environments.md)
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals), because the idea is exactly "write a function once, call it everywhere"
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming), because the idea is exactly "write a function once, call it everywhere"
 
 ## Introduction
 
@@ -282,7 +282,7 @@ Callers pin a ref, so you can improve things without breaking everyone:
 
 - **Tag releases** with semantic versions (`v2.3.0`) and move a major tag (`v2`) to the latest compatible release. Callers on `@v2` get fixes automatically; breaking changes go to `v3`.
 - **Keep a changelog** so teams know what changed.
-- **Security-sensitive callers pin to a full commit SHA** and let Dependabot propose updates. The trade-off between convenience and safety is covered in [Hardening Actions](../10-security-and-supply-chain/hardening-actions-pinning-and-least-privilege.md).
+- **Security-sensitive callers pin to a full commit SHA** and let Dependabot propose updates. The trade-off between convenience and safety is covered in [Hardening Actions](../09-security-and-supply-chain/hardening-actions-pinning-and-least-privilege.md).
 - Calling `@main` means every change to the shared repository instantly runs in every caller. Only do this for your own repositories in active development.
 
 ---

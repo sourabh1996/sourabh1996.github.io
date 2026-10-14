@@ -54,7 +54,7 @@ v1.4.0
 
 Conventions that tools expect:
 
-- Prefix with `v` and use **semantic versioning**: `v<major>.<minor>.<patch>` (covered fully in [Maintaining a Project](../11-open-source-and-advanced-git/maintaining-a-project-templates-releases-and-semver.md)).
+- Prefix with `v` and use **semantic versioning**: `v<major>.<minor>.<patch>` (covered fully in [Maintaining a Project](../10-open-source-and-advanced-git/maintaining-a-project-templates-releases-and-semver.md)).
 - **Never move or reuse a version tag.** Someone may already have built from it. If `v1.4.0` is broken, release `v1.4.1`.
 - Pre-releases use suffixes: `v2.0.0-rc.1`, `v2.0.0-beta.2`.
 
@@ -307,7 +307,7 @@ And on every push to `main`, `ghcr.io/chai-co/orders-api:main`. Key details:
 - The metadata action adds the OCI label `org.opencontainers.image.source` pointing at the repository, which **links the package to the repo** so it appears on the repository page and can inherit its access settings.
 - `cache-from`/`cache-to: type=gha` stores Docker layer cache in the Actions cache, so unchanged layers aren't rebuilt.
 - A new package is **private** by default. Change visibility under the package's **Package settings** if it should be public.
-- The `digest` output of the push step (`steps.push.outputs.digest`) is the image's immutable `sha256:` fingerprint. Deploy by digest when you need certainty, and attest it as shown in [Signed Commits and Artifact Attestations](../10-security-and-supply-chain/signed-commits-and-artifact-attestations.md).
+- The `digest` output of the push step (`steps.push.outputs.digest`) is the image's immutable `sha256:` fingerprint. Deploy by digest when you need certainty, and attest it as shown in [Signed Commits and Artifact Attestations](../09-security-and-supply-chain/signed-commits-and-artifact-attestations.md).
 
 Pulling it:
 

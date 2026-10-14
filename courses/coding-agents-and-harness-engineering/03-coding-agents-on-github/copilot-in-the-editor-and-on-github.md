@@ -1,7 +1,7 @@
 ---
 title: "Copilot in the Editor and on GitHub"
-course: "Git and GitHub: Zero to Pro"
-module: "9. AI on GitHub"
+course: "Coding Agents and Harness Engineering"
+module: "3. Coding Agents on GitHub"
 type: Article
 level: Beginner
 reading_time: 25 min
@@ -11,7 +11,7 @@ reading_time: 25 min
 
 > 📚 **Before you start**
 >
-> - [Pull Requests End to End](../course.md#m6) and [Code Review that Helps](../course.md#m6) (Collaborating on GitHub)
+> - [Pull Requests End to End](../../git-and-github-zero-to-pro/course.md#m6) and [Code Review that Helps](../../git-and-github-zero-to-pro/course.md#m6) (Collaborating on GitHub)
 > - [What is an AI Agent?](../../agentic-ai-fundamentals/02-understanding-agents/what-is-an-ai-agent.md) (Agentic AI Fundamentals), helpful for the agent features but not required
 
 ## Introduction

@@ -1,7 +1,7 @@
 ---
 title: "Removing a Leaked Secret from History"
 course: "Git and GitHub: Zero to Pro"
-module: "10. Security and Supply Chain"
+module: "9. Security and Supply Chain"
 type: Article
 level: Advanced
 reading_time: 25 min
@@ -241,7 +241,7 @@ By default, BFG doesn't change the files in your latest commit (it assumes you'v
 
 | Layer | What to set up |
 |---|---|
-| **Your machine** | A `pre-commit` hook with a secret scanner such as gitleaks, detect-secrets or trufflehog (see [Git Hooks and pre-commit](../11-open-source-and-advanced-git/git-hooks-and-pre-commit.md)) |
+| **Your machine** | A `pre-commit` hook with a secret scanner such as gitleaks, detect-secrets or trufflehog (see [Git Hooks and pre-commit](../10-open-source-and-advanced-git/git-hooks-and-pre-commit.md)) |
 | **`.gitignore`** | `.env`, `*.pem`, `credentials.json`, cloud CLI config folders ([.gitignore and What Never to Commit](../course.md#m2)) |
 | **GitHub** | Secret scanning **push protection**, which blocks pushes containing known secret formats before they land |
 | **Code** | Read secrets from environment variables or a secret manager; commit an `.env.example` with placeholder values |
@@ -342,4 +342,4 @@ Common follow-ups: *"Why not `git filter-branch`?"* (slow, error-prone, discoura
 
 ---
 
-**Up next:** [Contributing to Open Source](../11-open-source-and-advanced-git/contributing-to-open-source.md)
+**Up next:** [Contributing to Open Source](../10-open-source-and-advanced-git/contributing-to-open-source.md)

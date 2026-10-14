@@ -1,7 +1,7 @@
 ---
 title: "The GitHub MCP Server"
-course: "Git and GitHub: Zero to Pro"
-module: "9. AI on GitHub"
+course: "Coding Agents and Harness Engineering"
+module: "3. Coding Agents on GitHub"
 type: Article
 level: Intermediate
 reading_time: 25 min
@@ -12,7 +12,7 @@ reading_time: 25 min
 > 📚 **Before you start**
 >
 > - [What is MCP?](../../model-context-protocol-mcp/course.md#m2) and [Hosts, Clients and Servers](../../model-context-protocol-mcp/course.md#m2) (Model Context Protocol)
-> - [SSH Keys, Tokens and the GitHub CLI](../course.md#m5) (Remotes and GitHub Basics), for personal access tokens
+> - [SSH Keys, Tokens and the GitHub CLI](../../git-and-github-zero-to-pro/course.md#m5) (Remotes and GitHub Basics), for personal access tokens
 > - [Coding Agents that Open Pull Requests](coding-agents-that-open-pull-requests.md)
 
 ## Introduction

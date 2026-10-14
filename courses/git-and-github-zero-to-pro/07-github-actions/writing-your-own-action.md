@@ -13,7 +13,7 @@ reading_time: 30 min
 >
 > - [Reusable Workflows and Composite Actions](reusable-workflows-and-composite-actions.md), which covers the composite kind
 > - [Workflows, Jobs, Steps and Runners](workflows-jobs-steps-and-runners.md), for `GITHUB_OUTPUT` and workflow commands
-> - [Functions and Iterators](../../python-fundamentals/course.md#m6) (Python Fundamentals)
+> - [Functions and Iterators](../../python-programming/course.md#m6) (Python Programming)
 
 ## Introduction
 

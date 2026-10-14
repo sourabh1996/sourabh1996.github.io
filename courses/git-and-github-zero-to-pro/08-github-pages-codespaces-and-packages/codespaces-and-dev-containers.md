@@ -301,7 +301,7 @@ For a large project, building the container and installing dependencies can take
 
 - **Other editors and tools** that implement the open specification can use the same file.
 - **CI** can run tests in the dev container (for example with the dev container CLI) so the environment is identical.
-- **Coding agents:** Copilot cloud agent sets up its own environment from a `copilot-setup-steps.yml` workflow rather than from `devcontainer.json`, but the same discipline applies: an environment written as code is one an agent can reproduce. See [Coding Agents that Open Pull Requests](../09-ai-on-github/coding-agents-that-open-pull-requests.md).
+- **Coding agents:** Copilot cloud agent sets up its own environment from a `copilot-setup-steps.yml` workflow rather than from `devcontainer.json`, but the same discipline applies: an environment written as code is one an agent can reproduce. See [Coding Agents that Open Pull Requests](../../coding-agents-and-harness-engineering/03-coding-agents-on-github/coding-agents-that-open-pull-requests.md).
 
 ---
 

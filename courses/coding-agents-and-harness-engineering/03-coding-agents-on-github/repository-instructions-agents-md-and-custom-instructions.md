@@ -1,7 +1,7 @@
 ---
 title: "Repository Instructions: AGENTS.md and Custom Instructions"
-course: "Git and GitHub: Zero to Pro"
-module: "9. AI on GitHub"
+course: "Coding Agents and Harness Engineering"
+module: "3. Coding Agents on GitHub"
 type: Article
 level: Intermediate
 reading_time: 25 min
@@ -13,7 +13,7 @@ reading_time: 25 min
 >
 > - [Copilot in the Editor and on GitHub](copilot-in-the-editor-and-on-github.md)
 > - [Coding Agents that Open Pull Requests](coding-agents-that-open-pull-requests.md)
-> - [A Great README, LICENSE and Profile](../course.md#m5) (Remotes and GitHub Basics), since instructions files are a README for machines
+> - [A Great README, LICENSE and Profile](../../git-and-github-zero-to-pro/course.md#m5) (Remotes and GitHub Basics), since instructions files are a README for machines
 
 ## Introduction
 

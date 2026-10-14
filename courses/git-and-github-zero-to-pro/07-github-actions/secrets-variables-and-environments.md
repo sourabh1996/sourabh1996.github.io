@@ -225,7 +225,7 @@ Scopes you'll see most often:
 | `security-events` | Upload code scanning results |
 | `actions`, `checks`, `statuses`, `deployments` | Manage runs, check runs, commit statuses, deployments |
 
-If you leave out `permissions:` entirely, the token gets the **default** set from repository or organization settings. Newer repositories and organizations default to read-only, but older ones may still default to read/write for everything. Always write an explicit block; it documents intent and protects you if the default changes. The [Hardening Actions](../10-security-and-supply-chain/hardening-actions-pinning-and-least-privilege.md) lesson goes further.
+If you leave out `permissions:` entirely, the token gets the **default** set from repository or organization settings. Newer repositories and organizations default to read-only, but older ones may still default to read/write for everything. Always write an explicit block; it documents intent and protects you if the default changes. The [Hardening Actions](../09-security-and-supply-chain/hardening-actions-pinning-and-least-privilege.md) lesson goes further.
 
 ### 7. When `GITHUB_TOKEN` Isn't Enough: GitHub App Tokens
 
@@ -327,7 +327,7 @@ Each deployment is recorded, so the repository's **Deployments** page shows what
 - **Rotate** long-lived secrets on a schedule, and immediately when someone with access leaves.
 - Keep production secrets behind an environment with required reviewers and a branch rule.
 - Give every job an explicit, minimal `permissions:` block.
-- If a secret leaks, **revoke it first**, then clean up. See [Removing a Leaked Secret from History](../10-security-and-supply-chain/removing-a-leaked-secret-from-history.md).
+- If a secret leaks, **revoke it first**, then clean up. See [Removing a Leaked Secret from History](../09-security-and-supply-chain/removing-a-leaked-secret-from-history.md).
 
 ---
 

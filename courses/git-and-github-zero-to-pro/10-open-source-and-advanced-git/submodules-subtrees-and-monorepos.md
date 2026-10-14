@@ -1,7 +1,7 @@
 ---
 title: "Submodules, Subtrees and Monorepos"
 course: "Git and GitHub: Zero to Pro"
-module: "11. Open Source and Advanced Git"
+module: "10. Open Source and Advanced Git"
 type: Article
 level: Advanced
 reading_time: 30 min

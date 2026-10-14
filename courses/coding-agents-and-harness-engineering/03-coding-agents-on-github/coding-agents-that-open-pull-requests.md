@@ -1,7 +1,7 @@
 ---
 title: "Coding Agents that Open Pull Requests"
-course: "Git and GitHub: Zero to Pro"
-module: "9. AI on GitHub"
+course: "Coding Agents and Harness Engineering"
+module: "3. Coding Agents on GitHub"
 type: Article
 level: Intermediate
 reading_time: 30 min
@@ -12,8 +12,8 @@ reading_time: 30 min
 > 📚 **Before you start**
 >
 > - [Copilot in the Editor and on GitHub](copilot-in-the-editor-and-on-github.md)
-> - [Pull Requests End to End](../course.md#m6) and [Branch Protection, Rulesets and CODEOWNERS](../course.md#m6) (Collaborating on GitHub)
-> - [Workflows, Jobs, Steps and Runners](../07-github-actions/workflows-jobs-steps-and-runners.md), because the agent's environment is set up with a workflow file
+> - [Pull Requests End to End](../../git-and-github-zero-to-pro/course.md#m6) and [Branch Protection, Rulesets and CODEOWNERS](../../git-and-github-zero-to-pro/course.md#m6) (Collaborating on GitHub)
+> - [Workflows, Jobs, Steps and Runners](../../git-and-github-zero-to-pro/07-github-actions/workflows-jobs-steps-and-runners.md), because the agent's environment is set up with a workflow file
 > - [What is an AI Agent?](../../agentic-ai-fundamentals/02-understanding-agents/what-is-an-ai-agent.md) (Agentic AI Fundamentals)
 
 ## Introduction

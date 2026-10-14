@@ -1,7 +1,7 @@
 ---
 title: "Signed Commits and Artifact Attestations"
 course: "Git and GitHub: Zero to Pro"
-module: "10. Security and Supply Chain"
+module: "9. Security and Supply Chain"
 type: Article
 level: Advanced
 reading_time: 30 min
