@@ -36,10 +36,10 @@ What generative AI is, how LLMs work, and how to use them well: foundation model
 ### 4. Prompting and Structured Output ➕ (4 lessons)
 > **Before you start:** [APIs and Apps: FastAPI, Streamlit and Docker › Validation and Schemas](../apis-and-apps-fastapi-streamlit-and-docker/course.md#m4)
 
-- Prompting Fundamentals · Article ➕
-- System Prompts and Roles · Article ➕
-- Structured JSON Output · Article ➕
-- Lab: Reliable JSON extraction · Lab ➕
+- [Prompting Fundamentals](04-prompting-and-structured-output/prompting-fundamentals.md) · Article ➕ ✍️ *written*
+- [System Prompts and Roles](04-prompting-and-structured-output/system-prompts-and-roles.md) · Article ➕ ✍️ *written*
+- [Structured JSON Output](04-prompting-and-structured-output/structured-json-output.md) · Article ➕ ✍️ *written*
+- [Lab: Reliable JSON extraction](04-prompting-and-structured-output/lab-reliable-json-extraction.md) · Lab ➕ ✍️ *written*
 
 <a id="m5"></a>
 ### 5. Advances and Applications (3 lessons)
