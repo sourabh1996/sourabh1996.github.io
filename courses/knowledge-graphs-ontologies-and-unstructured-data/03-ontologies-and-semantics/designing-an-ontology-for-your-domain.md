@@ -1,6 +1,6 @@
 ---
 title: "Designing an Ontology for Your Domain"
-course: Knowledge Graphs, Ontologies and Unstructured Data
+course: "Knowledge Graphs, Ontologies and Unstructured Data"
 module: "3. Ontologies and Semantics"
 type: Article
 level: Advanced

@@ -1,6 +1,6 @@
 ---
 title: "Knowledge Graphs vs Relational Databases vs Vector Stores"
-course: Knowledge Graphs, Ontologies and Unstructured Data
+course: "Knowledge Graphs, Ontologies and Unstructured Data"
 module: "2. Entities and Relationships"
 type: Article
 level: Advanced
@@ -13,7 +13,7 @@ reading_time: 30 min
 >
 > - [What is a Knowledge Graph?](what-is-a-knowledge-graph.md), for triples and pattern queries.
 > - Basic SQL (SELECT, JOIN, GROUP BY). [Databases, SQL and NoSQL › Relational Databases and SQL](../../databases-sql-and-nosql/course.md#m2) covers it.
-> - What an embedding is. [Vector Databases for AI › Introduction to Vector Databases](../../vector-databases-for-ai/course.md#m2) covers it.
+> - What an embedding is. [Retrieval-Augmented Generation (RAG) › Introduction to Vector Databases](../../retrieval-augmented-generation-rag/course.md#m3) covers it.
 
 ## Introduction
 

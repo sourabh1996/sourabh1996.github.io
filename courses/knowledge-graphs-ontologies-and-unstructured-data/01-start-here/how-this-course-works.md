@@ -1,6 +1,6 @@
 ---
 title: "How This Course Works"
-course: Knowledge Graphs, Ontologies and Unstructured Data
+course: "Knowledge Graphs, Ontologies and Unstructured Data"
 module: "1. Start Here"
 type: Article
 level: Advanced
@@ -12,8 +12,8 @@ reading_time: 10 min
 > 📚 **Before you start**
 >
 > - [Retrieval-Augmented Generation (RAG)](../../retrieval-augmented-generation-rag/course.md), because module 6 builds GraphRAG on top of ordinary RAG.
-> - [LangGraph Fundamentals](../../langgraph-fundamentals/course.md), especially [Graphs, Nodes, Edges and State](../../langgraph-fundamentals/02-getting-started/graphs-nodes-edges-and-state.md), for building the agents in module 6.
-> - Comfortable Python: dictionaries, sets, list comprehensions and classes. [Python Fundamentals](../../python-fundamentals/course.md) covers them.
+> - [LangGraph Complete Guide](../../langgraph-complete-guide/course.md), especially [Graphs, Nodes, Edges and State](../../langgraph-complete-guide/02-getting-started/graphs-nodes-edges-and-state.md), for building the agents in module 6.
+> - Comfortable Python: dictionaries, sets, list comprehensions and classes. [Python Programming](../../python-programming/course.md) covers them.
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 ---
 title: "What is a Knowledge Graph?"
-course: Knowledge Graphs, Ontologies and Unstructured Data
+course: "Knowledge Graphs, Ontologies and Unstructured Data"
 module: "2. Entities and Relationships"
 type: Article
 level: Advanced

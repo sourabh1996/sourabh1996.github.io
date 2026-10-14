@@ -1,6 +1,6 @@
 ---
 title: "Entities, Relationships and Properties"
-course: Knowledge Graphs, Ontologies and Unstructured Data
+course: "Knowledge Graphs, Ontologies and Unstructured Data"
 module: "2. Entities and Relationships"
 type: Article
 level: Advanced
@@ -12,7 +12,7 @@ reading_time: 26 min
 > 📚 **Before you start**
 >
 > - [How This Course Works](../01-start-here/how-this-course-works.md), for the running examples.
-> - Python dictionaries, sets and tuples. [Python Fundamentals › Strings and Data Structures](../../python-fundamentals/course.md#m5) covers them.
+> - Python dictionaries, sets and tuples. [Python Programming › Strings and Data Structures](../../python-programming/course.md#m5) covers them.
 
 ## Introduction
 
