@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 680" width="1100" height="680" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Lab: a 200-step agent with a budget manager">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="678" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#9a6412"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Lab: a 200-step agent with a budget manager</text>
+<rect x="30" y="100" width="400" height="300" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="180.0" y="85" width="100.0" height="30" rx="15" fill="#2f5fb3"/>
+<text x="230.0" y="105.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Agent loop</text>
+<rect x="470" y="100" width="600" height="420" rx="14" fill="none" stroke="#e0b25c" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="616.8" y="85" width="306.4" height="30" rx="15" fill="#9a6412"/>
+<text x="770.0" y="105.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Budget manager (your harness code)</text>
+<path d="M220.0,185.0 L245.0,185.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M405.0,185.0 L440.0,185.0 L470.0,190.0 L500.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="416.0" y="164.5" width="78.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="455.0" y="178.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">raw result</text>
+<path d="M760.0,190.0 L790.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M917.5,240.0 L917.5,280.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M917.5,380.0 L917.0,395.0 L950.0,395.0 L950.0,560.0 L232.0,560.0 L232.5,375.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="893.5" y="454.5" width="113.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="950.0" y="468.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">fits the budget</text>
+<path d="M232.5,270.0 L140.0,235.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M140.0,235.0 L140.0,255.0 L450.0,255.0 L450.0,330.0 L500.0,330.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="397.0" y="269.5" width="106.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="450.0" y="283.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">append finding</text>
+<path d="M630.0,380.0 L772.5,410.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="60" y="135" width="160" height="100" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="140.0" y="170.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="140.0" y="193.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Model</text>
+<text x="140.0" y="213.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">records the last finding,</text><text x="140.0" y="228.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">calls the next tool</text>
+<rect x="245" y="135" width="160" height="100" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="325.0" y="170.0" font-size="28" text-anchor="middle">🎫</text>
+<text x="325.0" y="193.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">get_ticket</text>
+<text x="325.0" y="213.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">helpdesk API,</text><text x="325.0" y="228.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">200 tickets</text>
+<rect x="60" y="270" width="345" height="105" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="232.5" y="307.5" font-size="28" text-anchor="middle">🪟</text>
+<text x="232.5" y="330.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Context window</text>
+<text x="232.5" y="350.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">budget 16,000 = 14,000 usable + 2,000 reserve</text><text x="232.5" y="366.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">prefix, history, results</text>
+<rect x="500" y="140" width="260" height="100" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="630.0" y="175.0" font-size="28" text-anchor="middle">✂️</text>
+<text x="630.0" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 3: Shape at source</text>
+<text x="630.0" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">concise result + truncated</text><text x="630.0" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">transcript with a pointer</text>
+<rect x="790" y="140" width="255" height="100" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="917.5" y="175.0" font-size="28" text-anchor="middle">🧹</text>
+<text x="917.5" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 2: Clear old results</text>
+<text x="917.5" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">above 70%: keep last 3,</text><text x="917.5" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">only if 4,000+ tokens freed</text>
+<rect x="500" y="280" width="260" height="100" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="630.0" y="315.0" font-size="28" text-anchor="middle">🗒️</text>
+<text x="630.0" y="338.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 4: Notes file</text>
+<text x="630.0" y="358.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">one line per finding,</text><text x="630.0" y="373.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">NOTES.md on disk</text>
+<rect x="790" y="280" width="255" height="100" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="917.5" y="315.0" font-size="28" text-anchor="middle">🗜️</text>
+<text x="917.5" y="338.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 4: Compact</text>
+<text x="917.5" y="358.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">above 80%: summary that</text><text x="917.5" y="373.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">points to NOTES.md + last turn</text>
+<rect x="500" y="410" width="545" height="80" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="772.5" y="455.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">✅ Final answer computed from NOTES.md, checked against ground truth</text>
+<text x="550" y="610.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Naive loop: dies at step 10.  Clearing only: dies at step 119.  Compaction without notes: finishes with the wrong total.</text>
+<text x="550" y="638.0" font-size="15" font-weight="700" fill="#2e7d4f" text-anchor="middle">All four layers: 200 steps, peak under budget, correct total, and only 2 history rewrites.</text>
+</svg>
