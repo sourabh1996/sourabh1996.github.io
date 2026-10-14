@@ -1,7 +1,7 @@
 ---
 title: "Editing State with Human Input"
-course: Human-in-the-Loop with LangGraph
-module: "3. Human Feedback"
+course: "LangGraph Complete Guide"
+module: "8. Human-in-the-Loop and Debugging"
 type: Article
 level: Intermediate
 reading_time: 34 min
@@ -12,9 +12,9 @@ reading_time: 34 min
 > 📚 **Before you start**
 >
 > - [Pausing with interrupt and Resuming with Command](pausing-with-interrupt-and-resuming-with-command.md), for `interrupt()`, resume values and `Command(goto=...)`.
-> - [Breakpoints](../02-interactive-workflows/breakpoints.md), where you first fixed state at a pause with `update_state`.
-> - [State Reducers](../../langgraph-state-and-memory/03-advanced-state/state-reducers.md), because every edit goes through the reducers, and `add_messages` replaces messages by id.
-> - [Tools in LangGraph: ToolNode and tools_condition](../../langgraph-fundamentals/04-workflows-and-agents/tools-in-langgraph-toolnode-and-tools-condition.md), for the agent loop in section 5.
+> - [Breakpoints](breakpoints.md), where you first fixed state at a pause with `update_state`.
+> - [State Reducers](../04-state-in-depth/state-reducers.md), because every edit goes through the reducers, and `add_messages` replaces messages by id.
+> - [Tools in LangGraph: ToolNode and tools_condition](../05-workflows-and-agents/tools-in-langgraph-toolnode-and-tools-condition.md), for the agent loop in section 5.
 
 ## Introduction
 

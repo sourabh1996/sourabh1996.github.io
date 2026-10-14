@@ -1,7 +1,7 @@
 ---
 title: "Summarising Long Conversations"
-course: LangGraph State and Memory
-module: "4. Optimising Memory"
+course: "LangGraph Complete Guide"
+module: "7. Memory"
 type: Article
 level: Intermediate
 reading_time: 28 min
@@ -12,8 +12,8 @@ reading_time: 28 min
 > 📚 **Before you start**
 >
 > - [Trimming and Filtering Messages](trimming-and-filtering-messages.md), for windows, token counting and `RemoveMessage`.
-> - [State Reducers](../03-advanced-state/state-reducers.md), for how `add_messages` deletes by id.
-> - [Conditional Workflows](../../langgraph-fundamentals/03-workflow-patterns-in-langgraph/conditional-workflows.md), because the summary step runs only when needed.
+> - [State Reducers](../04-state-in-depth/state-reducers.md), for how `add_messages` deletes by id.
+> - [Conditional Workflows](../03-workflow-patterns-in-langgraph/conditional-workflows.md), because the summary step runs only when needed.
 
 ## Introduction
 

@@ -1,7 +1,7 @@
 ---
 title: "Multiple Schemas"
-course: LangGraph State and Memory
-module: "3. Advanced State"
+course: "LangGraph Complete Guide"
+module: "4. State in Depth"
 type: Article
 level: Intermediate
 reading_time: 26 min
@@ -11,9 +11,9 @@ reading_time: 26 min
 
 > 📚 **Before you start**
 >
-> - [State Schemas and Data Flow](../02-state-fundamentals/state-schemas-and-data-flow.md), especially section 5 on narrower node inputs.
+> - [State Schemas and Data Flow](state-schemas-and-data-flow.md), especially section 5 on narrower node inputs.
 > - [State Reducers](state-reducers.md), because reducers keep working across schemas.
-> - [Shared vs Different State in Subgraphs](../../langgraph-fundamentals/06-subgraphs/shared-vs-different-state-in-subgraphs.md), where you first met `input_schema` and `output_schema` on a subgraph.
+> - [Shared vs Different State in Subgraphs](../09-subgraphs/shared-vs-different-state-in-subgraphs.md), where you first met `input_schema` and `output_schema` on a subgraph.
 
 ## Introduction
 
@@ -404,7 +404,7 @@ graph schema only: {'answer': 'To block a debit card, use the app, net banking, 
 ValidationError | String should have at least 5 characters [type=string_too_short, input_value='hi', input_type=str]
 ```
 
-A surprise worth remembering: putting a Pydantic model in `input_schema` alone **didn't** reject `"hi"`. The graph-level input schema decides which keys get in; validation happens when a node **reads** the state as that Pydantic model (the same rule as in [State Schemas and Data Flow](../02-state-fundamentals/state-schemas-and-data-flow.md)). So make the first node's parameter the Pydantic input model, as `extract_checked` does.
+A surprise worth remembering: putting a Pydantic model in `input_schema` alone **didn't** reject `"hi"`. The graph-level input schema decides which keys get in; validation happens when a node **reads** the state as that Pydantic model (the same rule as in [State Schemas and Data Flow](state-schemas-and-data-flow.md)). So make the first node's parameter the Pydantic input model, as `extract_checked` does.
 
 </details>
 

@@ -1,7 +1,7 @@
 ---
 title: "Long-Term Memory with Stores"
-course: LangGraph State and Memory
-module: "4. Optimising Memory"
+course: "LangGraph Complete Guide"
+module: "7. Memory"
 type: Article
 level: Intermediate
 reading_time: 32 min
@@ -11,10 +11,10 @@ reading_time: 32 min
 
 > 📚 **Before you start**
 >
-> - [The LangGraph State System](../02-state-fundamentals/the-langgraph-state-system.md), for runtime context and the map of where data lives.
-> - [Agents with Memory](../../langgraph-fundamentals/04-workflows-and-agents/agents-with-memory.md), for short-term memory with checkpointers and threads.
+> - [The LangGraph State System](../04-state-in-depth/the-langgraph-state-system.md), for runtime context and the map of where data lives.
+> - [Agents with Memory](../05-workflows-and-agents/agents-with-memory.md), for short-term memory with checkpointers and threads.
 > - [Summarising Long Conversations](summarising-long-conversations.md), since summaries and stores solve different halves of the memory problem.
-> - [RAG Building Blocks in LangChain](../../retrieval-augmented-generation-rag/course.md#m3) in the RAG course (vector stores and embeddings), helpful but optional, for section 6.
+> - [RAG Building Blocks in LangChain](../../retrieval-augmented-generation-rag/course.md#m7) in the RAG course (vector stores and embeddings), helpful but optional, for section 6.
 
 ## Introduction
 

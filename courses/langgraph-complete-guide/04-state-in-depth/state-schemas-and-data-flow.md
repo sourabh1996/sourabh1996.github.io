@@ -1,7 +1,7 @@
 ---
 title: "State Schemas and Data Flow"
-course: LangGraph State and Memory
-module: "2. State Fundamentals"
+course: "LangGraph Complete Guide"
+module: "4. State in Depth"
 type: Article
 level: Intermediate
 reading_time: 28 min
@@ -12,8 +12,8 @@ reading_time: 28 min
 > 📚 **Before you start**
 >
 > - [The LangGraph State System](the-langgraph-state-system.md), for snapshots, updates and merging.
-> - [Graphs, Nodes, Edges and State](../../langgraph-fundamentals/02-getting-started/graphs-nodes-edges-and-state.md), where you first saw `TypedDict` and Pydantic schemas.
-> - [Routers](../../langgraph-fundamentals/04-workflows-and-agents/routers.md), helpful for section 6, which combines routing and updates.
+> - [Graphs, Nodes, Edges and State](../02-getting-started/graphs-nodes-edges-and-state.md), where you first saw `TypedDict` and Pydantic schemas.
+> - [Routers](../05-workflows-and-agents/routers.md), helpful for section 6, which combines routing and updates.
 
 ## Introduction
 
@@ -320,7 +320,7 @@ rank sees only: ['trains']
 Take 12951 Mumbai Rajdhani on 2026-10-20 (15.9 h).
 ```
 
-The node can still **write** any key of the graph's state (`best` here). Narrow inputs make a node easier to test (you only need to build a tiny dictionary) and stop it from quietly depending on fields it shouldn't. The next module takes this idea further with private state and graph-level input and output schemas: [Multiple Schemas](../03-advanced-state/multiple-schemas.md).
+The node can still **write** any key of the graph's state (`best` here). Narrow inputs make a node easier to test (you only need to build a tiny dictionary) and stop it from quietly depending on fields it shouldn't. The next module takes this idea further with private state and graph-level input and output schemas: [Multiple Schemas](multiple-schemas.md).
 
 ### 6. Updating and routing together with `Command`
 
@@ -388,7 +388,7 @@ Output:
 {'prefs': {'berth': 'lower'}}
 ```
 
-The meal and language preferences are gone. Either make them separate fields, return the merged dictionary (`{**state["prefs"], "berth": "lower"}`), or give the field a merging reducer, which is the first custom reducer in [State Reducers](../03-advanced-state/state-reducers.md).
+The meal and language preferences are gone. Either make them separate fields, return the merged dictionary (`{**state["prefs"], "berth": "lower"}`), or give the field a merging reducer, which is the first custom reducer in [State Reducers](state-reducers.md).
 
 A few more rules:
 
@@ -539,4 +539,4 @@ It limits what the node **sees**. It can still write any key of the graph's stat
 
 ---
 
-**Up next:** [State Reducers](../03-advanced-state/state-reducers.md)
+**Up next:** [State Reducers](state-reducers.md)

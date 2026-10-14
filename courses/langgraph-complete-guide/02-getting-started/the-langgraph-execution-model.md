@@ -1,6 +1,6 @@
 ---
 title: "The LangGraph Execution Model"
-course: LangGraph Complete Guide
+course: "LangGraph Complete Guide"
 module: "2. Getting Started"
 type: Article
 level: Intermediate
@@ -151,7 +151,7 @@ Output:
 ```
 
 <<<<<<< HEAD:courses/langgraph-fundamentals/02-getting-started/the-langgraph-execution-model.md
-Reducers are covered in depth in [State Reducers](../../langgraph-state-and-memory/03-advanced-state/state-reducers.md).
+Reducers are covered in depth in [State Reducers](../04-state-in-depth/state-reducers.md).
 =======
 Reducers are covered in depth in [State Reducers](../course.md#m4).
 >>>>>>> origin/main:courses/langgraph-complete-guide/02-getting-started/the-langgraph-execution-model.md

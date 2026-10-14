@@ -1,7 +1,7 @@
 ---
 title: "Lab: Debug an agent with time travel"
-course: Human-in-the-Loop with LangGraph
-module: "4. Debugging"
+course: "LangGraph Complete Guide"
+module: "8. Human-in-the-Loop and Debugging"
 type: Lab
 level: Intermediate
 reading_time: 45 min
@@ -12,8 +12,8 @@ reading_time: 45 min
 > 📚 **Before you start**
 >
 > - [Time Travel: Rewind and Replay](time-travel-rewind-and-replay.md), for history, replay, forks and `as_node`.
-> - [Streaming Real-Time Updates](../02-interactive-workflows/streaming-real-time-updates.md) and [Breakpoints](../02-interactive-workflows/breakpoints.md), the other two debugging tools you'll combine here.
-> - [Tools in LangGraph: ToolNode and tools_condition](../../langgraph-fundamentals/04-workflows-and-agents/tools-in-langgraph-toolnode-and-tools-condition.md), for the agent's shape.
+> - [Streaming Real-Time Updates](streaming-real-time-updates.md) and [Breakpoints](breakpoints.md), the other two debugging tools you'll combine here.
+> - [Tools in LangGraph: ToolNode and tools_condition](../05-workflows-and-agents/tools-in-langgraph-toolnode-and-tools-condition.md), for the agent's shape.
 
 ## What You'll Build
 
@@ -423,4 +423,4 @@ update   searched 2026-02-12: Here are your options: 12951 Mumbai Rajdhani at 17
 
 ---
 
-**Up next:** You've finished Human-in-the-Loop with LangGraph. Put everything together in the [Multi-Agent Research System (Capstone)](../../multi-agent-research-system-capstone/course.md).
+**Up next:** You've finished LangGraph Complete Guide. Put everything together in the [Multi-Agent Research System (Capstone)](../../multi-agent-research-system-capstone/course.md).

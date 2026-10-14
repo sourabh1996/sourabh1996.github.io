@@ -1,7 +1,7 @@
 ---
 title: "State Reducers"
-course: LangGraph State and Memory
-module: "3. Advanced State"
+course: "LangGraph Complete Guide"
+module: "4. State in Depth"
 type: Article
 level: Intermediate
 reading_time: 30 min
@@ -11,10 +11,10 @@ reading_time: 30 min
 
 > 📚 **Before you start**
 >
-> - [The LangGraph State System](../02-state-fundamentals/the-langgraph-state-system.md), for channels and the one-writer-per-step rule.
-> - [State Schemas and Data Flow](../02-state-fundamentals/state-schemas-and-data-flow.md), where a nested dictionary lost its data.
-> - [Chains in LangGraph](../../langgraph-fundamentals/04-workflows-and-agents/chains-in-langgraph.md), for the first look at `add_messages`.
-> - [Parallel Workflows](../../langgraph-fundamentals/03-workflow-patterns-in-langgraph/parallel-workflows.md), since reducers matter most when branches run together.
+> - [The LangGraph State System](the-langgraph-state-system.md), for channels and the one-writer-per-step rule.
+> - [State Schemas and Data Flow](state-schemas-and-data-flow.md), where a nested dictionary lost its data.
+> - [Chains in LangGraph](../05-workflows-and-agents/chains-in-langgraph.md), for the first look at `add_messages`.
+> - [Parallel Workflows](../03-workflow-patterns-in-langgraph/parallel-workflows.md), since reducers matter most when branches run together.
 
 ## Introduction
 
@@ -362,7 +362,7 @@ Output:
 ['atta', 'atta', 'dal']
 ```
 
-The rule: **send only what's new** to a field with an appending reducer. (`add_messages` is more forgiving for *message objects* with ids, since a repeated id replaces instead of appending, but new dictionaries or tuples get new ids and duplicate just the same.) The same trap appears when a subgraph returns a list that the parent appends to; see [Shared vs Different State in Subgraphs](../../langgraph-fundamentals/06-subgraphs/shared-vs-different-state-in-subgraphs.md).
+The rule: **send only what's new** to a field with an appending reducer. (`add_messages` is more forgiving for *message objects* with ids, since a repeated id replaces instead of appending, but new dictionaries or tuples get new ids and duplicate just the same.) The same trap appears when a subgraph returns a list that the parent appends to; see [Shared vs Different State in Subgraphs](../09-subgraphs/shared-vs-different-state-in-subgraphs.md).
 
 ### 9. Choosing a merge rule
 

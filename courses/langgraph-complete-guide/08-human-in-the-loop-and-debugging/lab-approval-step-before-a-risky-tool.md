@@ -1,7 +1,7 @@
 ---
 title: "Lab: Approval step before a risky tool"
-course: Human-in-the-Loop with LangGraph
-module: "3. Human Feedback"
+course: "LangGraph Complete Guide"
+module: "8. Human-in-the-Loop and Debugging"
 type: Lab
 level: Intermediate
 reading_time: 50 min
@@ -12,8 +12,8 @@ reading_time: 50 min
 > 📚 **Before you start**
 >
 > - [Pausing with interrupt and Resuming with Command](pausing-with-interrupt-and-resuming-with-command.md), [Editing State with Human Input](editing-state-with-human-input.md) and [Dynamic Breakpoints](dynamic-breakpoints.md): this lab puts all three together.
-> - [Streaming Real-Time Updates](../02-interactive-workflows/streaming-real-time-updates.md), for the console in Step 8.
-> - [State Reducers](../../langgraph-state-and-memory/03-advanced-state/state-reducers.md), for the audit-log field.
+> - [Streaming Real-Time Updates](streaming-real-time-updates.md), for the console in Step 8.
+> - [State Reducers](../04-state-in-depth/state-reducers.md), for the audit-log field.
 
 ## What You'll Build
 
@@ -515,4 +515,4 @@ Rejected calls are removed from the AI message and answered with a `ToolMessage`
 
 ---
 
-**Up next:** [Time Travel: Rewind and Replay](../04-debugging/time-travel-rewind-and-replay.md)
+**Up next:** [Time Travel: Rewind and Replay](time-travel-rewind-and-replay.md)

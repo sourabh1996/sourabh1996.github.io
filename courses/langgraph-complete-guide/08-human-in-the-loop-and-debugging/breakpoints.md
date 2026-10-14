@@ -1,7 +1,7 @@
 ---
 title: "Breakpoints"
-course: Human-in-the-Loop with LangGraph
-module: "2. Interactive Workflows"
+course: "LangGraph Complete Guide"
+module: "8. Human-in-the-Loop and Debugging"
 type: Article
 level: Intermediate
 reading_time: 26 min
@@ -12,8 +12,8 @@ reading_time: 26 min
 > 📚 **Before you start**
 >
 > - [Streaming Real-Time Updates](streaming-real-time-updates.md), for watching a run step by step.
-> - [Persistence and Checkpointers](../../langgraph-fundamentals/05-chatbots-and-persistence/persistence-and-checkpointers.md), for `StateSnapshot`, `next` and resuming with `invoke(None, config)`.
-> - [The LangGraph State System](../../langgraph-state-and-memory/02-state-fundamentals/the-langgraph-state-system.md), for what a node sees and returns.
+> - [Persistence and Checkpointers](../06-chatbots-and-persistence/persistence-and-checkpointers.md), for `StateSnapshot`, `next` and resuming with `invoke(None, config)`.
+> - [The LangGraph State System](../04-state-in-depth/the-langgraph-state-system.md), for what a node sees and returns.
 
 ## Introduction
 
@@ -109,7 +109,7 @@ A breakpoint needs a checkpointer. Without one the run still stops at the breakp
 
 ### 3. Fix the state, then continue
 
-At the breakpoint we can correct the amount with `update_state` (covered fully in [Editing State with Human Input](../03-human-feedback/editing-state-with-human-input.md)) and resume with `None`:
+At the breakpoint we can correct the amount with `update_state` (covered fully in [Editing State with Human Input](editing-state-with-human-input.md)) and resume with `None`:
 
 ```python
 app.update_state(cfg, {"amount": 48000.0})
@@ -307,7 +307,7 @@ LangGraph has two ways to pause, and its docs are clear about which is for what:
 | Resume with | `invoke(None, config)` | `invoke(Command(resume=...), config)` |
 | Best for | Stepping through, inspecting, debugging in Studio | Approvals, edits, clarifying questions |
 
-You'll build approvals properly with `interrupt()` in module 3, starting with [Pausing with interrupt and Resuming with Command](../03-human-feedback/pausing-with-interrupt-and-resuming-with-command.md).
+You'll build approvals properly with `interrupt()` in module 3, starting with [Pausing with interrupt and Resuming with Command](pausing-with-interrupt-and-resuming-with-command.md).
 
 ---
 
@@ -424,4 +424,4 @@ They work, but they can't be conditional, carry no question and receive no answe
 
 ---
 
-**Up next:** [Pausing with interrupt and Resuming with Command](../03-human-feedback/pausing-with-interrupt-and-resuming-with-command.md)
+**Up next:** [Pausing with interrupt and Resuming with Command](pausing-with-interrupt-and-resuming-with-command.md)

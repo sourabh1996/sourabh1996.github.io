@@ -1,7 +1,7 @@
 ---
 title: "Trimming and Filtering Messages"
-course: LangGraph State and Memory
-module: "4. Optimising Memory"
+course: "LangGraph Complete Guide"
+module: "7. Memory"
 type: Article
 level: Intermediate
 reading_time: 30 min
@@ -12,8 +12,8 @@ reading_time: 30 min
 > 📚 **Before you start**
 >
 > - [How LLMs Work](../../generative-ai-and-llm-foundations/course.md#m3) in Generative AI and LLM Foundations, for tokens and context windows.
-> - [State Reducers](../03-advanced-state/state-reducers.md), for `add_messages`, `RemoveMessage` and `REMOVE_ALL_MESSAGES`.
-> - [Agents with Memory](../../langgraph-fundamentals/04-workflows-and-agents/agents-with-memory.md), where you first trimmed what a model sees.
+> - [State Reducers](../04-state-in-depth/state-reducers.md), for `add_messages`, `RemoveMessage` and `REMOVE_ALL_MESSAGES`.
+> - [Agents with Memory](../05-workflows-and-agents/agents-with-memory.md), where you first trimmed what a model sees.
 
 ## Introduction
 

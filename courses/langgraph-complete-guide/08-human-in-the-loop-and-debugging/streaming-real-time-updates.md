@@ -1,7 +1,7 @@
 ---
 title: "Streaming Real-Time Updates"
-course: Human-in-the-Loop with LangGraph
-module: "2. Interactive Workflows"
+course: "LangGraph Complete Guide"
+module: "8. Human-in-the-Loop and Debugging"
 type: Article
 level: Intermediate
 reading_time: 32 min
@@ -11,9 +11,9 @@ reading_time: 32 min
 
 > 📚 **Before you start**
 >
-> - [The LangGraph State System](../../langgraph-state-and-memory/02-state-fundamentals/the-langgraph-state-system.md) and [State Schemas and Data Flow](../../langgraph-state-and-memory/02-state-fundamentals/state-schemas-and-data-flow.md), from the State Fundamentals module this course builds on.
-> - [The LangGraph Execution Model](../../langgraph-fundamentals/02-getting-started/the-langgraph-execution-model.md), where you first used `stream_mode="updates"` and `"values"`.
-> - [Building a Chatbot with LangGraph](../../langgraph-fundamentals/05-chatbots-and-persistence/building-a-chatbot-with-langgraph.md), where you streamed tokens with `stream_mode="messages"`.
+> - [The LangGraph State System](../04-state-in-depth/the-langgraph-state-system.md) and [State Schemas and Data Flow](../04-state-in-depth/state-schemas-and-data-flow.md), from the State Fundamentals module this course builds on.
+> - [The LangGraph Execution Model](../02-getting-started/the-langgraph-execution-model.md), where you first used `stream_mode="updates"` and `"values"`.
+> - [Building a Chatbot with LangGraph](../06-chatbots-and-persistence/building-a-chatbot-with-langgraph.md), where you streamed tokens with `stream_mode="messages"`.
 
 ## Introduction
 
@@ -392,7 +392,7 @@ Output:
 __interrupt__ -> {'question': 'Post this to the fan group?', 'preview': 'India won by 36 runs!'}
 ```
 
-You'll learn to answer that question in [Pausing with interrupt and Resuming with Command](../03-human-feedback/pausing-with-interrupt-and-resuming-with-command.md).
+You'll learn to answer that question in [Pausing with interrupt and Resuming with Command](pausing-with-interrupt-and-resuming-with-command.md).
 
 ### 10. Async streaming for web servers
 
@@ -444,7 +444,7 @@ async def report(match: str):
     return StreamingResponse(events(), media_type="text/event-stream")
 ```
 
-Deployed LangGraph apps (the Agent Server from [Deploying and Running LangGraph Apps](../../langgraph-fundamentals/07-deployment-and-observability/deploying-and-running-langgraph-apps.md)) expose the same stream modes over HTTP for you.
+Deployed LangGraph apps (the Agent Server from [Deploying and Running LangGraph Apps](../10-deployment-and-observability/deploying-and-running-langgraph-apps.md)) expose the same stream modes over HTTP for you.
 
 ### 11. A newer API to know about: `stream_events(version="v3")`
 

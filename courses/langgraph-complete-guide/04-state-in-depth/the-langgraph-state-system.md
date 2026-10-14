@@ -1,7 +1,7 @@
 ---
 title: "The LangGraph State System"
-course: LangGraph State and Memory
-module: "2. State Fundamentals"
+course: "LangGraph Complete Guide"
+module: "4. State in Depth"
 type: Article
 level: Intermediate
 reading_time: 28 min
@@ -11,9 +11,9 @@ reading_time: 28 min
 
 > 📚 **Before you start**
 >
-> - [Graphs, Nodes, Edges and State](../../langgraph-fundamentals/02-getting-started/graphs-nodes-edges-and-state.md), where you first defined a state schema.
-> - [The LangGraph Execution Model](../../langgraph-fundamentals/02-getting-started/the-langgraph-execution-model.md), for super-steps and the first look at reducers.
-> - [Building Agents](../../langgraph-fundamentals/04-workflows-and-agents/building-agents.md) and [Agents with Memory](../../langgraph-fundamentals/04-workflows-and-agents/agents-with-memory.md), from the Workflows and Agents module this course builds on.
+> - [Graphs, Nodes, Edges and State](../02-getting-started/graphs-nodes-edges-and-state.md), where you first defined a state schema.
+> - [The LangGraph Execution Model](../02-getting-started/the-langgraph-execution-model.md), for super-steps and the first look at reducers.
+> - [Building Agents](../05-workflows-and-agents/building-agents.md) and [Agents with Memory](../05-workflows-and-agents/agents-with-memory.md), from the Workflows and Agents module this course builds on.
 
 ## Introduction
 
@@ -248,7 +248,7 @@ Output:
 ['dal ready', 'naan ready'] ['dal makhani', 'naan']
 ```
 
-(We sort because parallel nodes in the same step have no guaranteed order.) Reducers have a whole lesson of their own: [State Reducers](../03-advanced-state/state-reducers.md).
+(We sort because parallel nodes in the same step have no guaranteed order.) Reducers have a whole lesson of their own: [State Reducers](state-reducers.md).
 
 ### 6. Under the hood: every key is a channel
 
@@ -321,7 +321,7 @@ Output:
 {'subtotal': 240.0, 'total': 283.2}
 ```
 
-The GST rate didn't become part of the state, so it isn't saved in checkpoints, can't be changed by a node by mistake, and doesn't show up in the graph's output. The `runtime` object also carries the long-term memory **store** (`runtime.store`), which you'll use in [Long-Term Memory with Stores](../04-optimising-memory/long-term-memory-with-stores.md), and a **stream writer** for custom progress events.
+The GST rate didn't become part of the state, so it isn't saved in checkpoints, can't be changed by a node by mistake, and doesn't show up in the graph's output. The `runtime` object also carries the long-term memory **store** (`runtime.store`), which you'll use in [Long-Term Memory with Stores](../07-memory/long-term-memory-with-stores.md), and a **stream writer** for custom progress events.
 
 ### 8. Where state lives after the run
 

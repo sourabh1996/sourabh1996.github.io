@@ -1,7 +1,7 @@
 ---
 title: "Pausing with interrupt and Resuming with Command"
-course: Human-in-the-Loop with LangGraph
-module: "3. Human Feedback"
+course: "LangGraph Complete Guide"
+module: "8. Human-in-the-Loop and Debugging"
 type: Article
 level: Intermediate
 reading_time: 34 min
@@ -11,10 +11,10 @@ reading_time: 34 min
 
 > 📚 **Before you start**
 >
-> - [Breakpoints](../02-interactive-workflows/breakpoints.md), for pausing a run and resuming from a checkpoint.
-> - [Streaming Real-Time Updates](../02-interactive-workflows/streaming-real-time-updates.md), where `__interrupt__` first appeared in the stream.
-> - [Threads, Fault Tolerance and Resuming](../../langgraph-fundamentals/05-chatbots-and-persistence/threads-fault-tolerance-and-resuming.md), whose last section previewed `interrupt()`.
-> - [Guardrails and Security](../../enterprise-llm-systems/course.md#m6) in Enterprise LLM Systems, for why risky actions need a human check.
+> - [Breakpoints](breakpoints.md), for pausing a run and resuming from a checkpoint.
+> - [Streaming Real-Time Updates](streaming-real-time-updates.md), where `__interrupt__` first appeared in the stream.
+> - [Threads, Fault Tolerance and Resuming](../06-chatbots-and-persistence/threads-fault-tolerance-and-resuming.md), whose last section previewed `interrupt()`.
+> - [Guardrails and Security](../../agent-security-and-safety/course.md#m2) in Enterprise LLM Systems, for why risky actions need a human check.
 
 ## Introduction
 
@@ -131,7 +131,7 @@ sequenceDiagram
 
 ### 2. Approve or reject: routing after the answer
 
-Usually the answer decides where the graph goes next. The node that asks can return a `Command(goto=...)` (from [State Schemas and Data Flow](../../langgraph-state-and-memory/02-state-fundamentals/state-schemas-and-data-flow.md)) to route on the answer:
+Usually the answer decides where the graph goes next. The node that asks can return a `Command(goto=...)` (from [State Schemas and Data Flow](../04-state-in-depth/state-schemas-and-data-flow.md)) to route on the answer:
 
 ```python
 issued = []

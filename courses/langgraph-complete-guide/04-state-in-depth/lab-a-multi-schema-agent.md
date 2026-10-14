@@ -1,7 +1,7 @@
 ---
 title: "Lab: A multi-schema agent"
-course: LangGraph State and Memory
-module: "3. Advanced State"
+course: "LangGraph Complete Guide"
+module: "4. State in Depth"
 type: Lab
 level: Intermediate
 reading_time: 45 min
@@ -12,8 +12,8 @@ reading_time: 45 min
 > 📚 **Before you start**
 >
 > - [Multiple Schemas](multiple-schemas.md) and [State Reducers](state-reducers.md), the two ideas this lab combines.
-> - [Tools in LangGraph: ToolNode and tools_condition](../../langgraph-fundamentals/04-workflows-and-agents/tools-in-langgraph-toolnode-and-tools-condition.md), for the agent loop inside.
-> - [The LangGraph State System](../02-state-fundamentals/the-langgraph-state-system.md), for runtime context.
+> - [Tools in LangGraph: ToolNode and tools_condition](../05-workflows-and-agents/tools-in-langgraph-toolnode-and-tools-condition.md), for the agent loop inside.
+> - [The LangGraph State System](the-langgraph-state-system.md), for runtime context.
 
 ## What You'll Build
 
@@ -528,4 +528,4 @@ In production you'd also pass the customer id into the tool itself, so it never 
 
 ---
 
-**Up next:** [Trimming and Filtering Messages](../04-optimising-memory/trimming-and-filtering-messages.md)
+**Up next:** [Trimming and Filtering Messages](../07-memory/trimming-and-filtering-messages.md)

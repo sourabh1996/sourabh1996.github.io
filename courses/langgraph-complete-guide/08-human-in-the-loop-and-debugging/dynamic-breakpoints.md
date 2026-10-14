@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Breakpoints"
-course: Human-in-the-Loop with LangGraph
-module: "3. Human Feedback"
+course: "LangGraph Complete Guide"
+module: "8. Human-in-the-Loop and Debugging"
 type: Article
 level: Intermediate
 reading_time: 30 min
@@ -11,7 +11,7 @@ reading_time: 30 min
 
 > 📚 **Before you start**
 >
-> - [Breakpoints](../02-interactive-workflows/breakpoints.md), the static kind this lesson makes conditional.
+> - [Breakpoints](breakpoints.md), the static kind this lesson makes conditional.
 > - [Pausing with interrupt and Resuming with Command](pausing-with-interrupt-and-resuming-with-command.md), especially the rule that a node re-runs from the top when resumed.
 > - [Editing State with Human Input](editing-state-with-human-input.md), for `update_state` and the tool-call review node.
 

@@ -1,7 +1,7 @@
 ---
 title: "Lab: Keep a long chat under budget"
-course: LangGraph State and Memory
-module: "4. Optimising Memory"
+course: "LangGraph Complete Guide"
+module: "7. Memory"
 type: Lab
 level: Intermediate
 reading_time: 45 min
@@ -12,7 +12,7 @@ reading_time: 45 min
 > 📚 **Before you start**
 >
 > - [Trimming and Filtering Messages](trimming-and-filtering-messages.md), [Summarising Long Conversations](summarising-long-conversations.md) and [Long-Term Memory with Stores](long-term-memory-with-stores.md): this lab combines all three.
-> - [The LangGraph State System](../02-state-fundamentals/the-langgraph-state-system.md), for runtime context.
+> - [The LangGraph State System](../04-state-in-depth/the-langgraph-state-system.md), for runtime context.
 
 ## What You'll Build
 
@@ -478,4 +478,4 @@ The risk: the **oldest** notes are dropped first, and those are often the most i
 
 ---
 
-**Up next:** You've finished LangGraph State and Memory. Continue with [Human-in-the-Loop with LangGraph](../../human-in-the-loop-with-langgraph/01-start-here/how-this-course-works.md), where the same checkpoints let people pause, edit and rewind your graphs.
+**Up next:** You've finished LangGraph Complete Guide. Continue with [LangGraph Complete Guide](../course.md), where the same checkpoints let people pause, edit and rewind your graphs.

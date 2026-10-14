@@ -1,6 +1,6 @@
 ---
 title: "Agents with Memory"
-course: LangGraph Complete Guide
+course: "LangGraph Complete Guide"
 module: "5. Workflows and Agents"
 type: Article
 level: Intermediate
@@ -275,7 +275,7 @@ Output:
 | LangGraph feature | **Checkpointer** + `thread_id` | **Store** (`InMemoryStore`, Postgres store...) |
 | Example | "Add GST to *that*" | "Remember I'm vegetarian" in every future chat |
 <<<<<<< HEAD:courses/langgraph-fundamentals/04-workflows-and-agents/agents-with-memory.md
-| Covered in | This lesson and module 5 | [Long-Term Memory with Stores](../../langgraph-state-and-memory/04-optimising-memory/long-term-memory-with-stores.md) |
+| Covered in | This lesson and module 5 | [Long-Term Memory with Stores](../07-memory/long-term-memory-with-stores.md) |
 =======
 | Covered in | This lesson and module 6 | [Long-Term Memory with Stores](../course.md#m7) |
 >>>>>>> origin/main:courses/langgraph-complete-guide/05-workflows-and-agents/agents-with-memory.md

@@ -1,7 +1,7 @@
 ---
 title: "Time Travel: Rewind and Replay"
-course: Human-in-the-Loop with LangGraph
-module: "4. Debugging"
+course: "LangGraph Complete Guide"
+module: "8. Human-in-the-Loop and Debugging"
 type: Article
 level: Intermediate
 reading_time: 32 min
@@ -11,9 +11,9 @@ reading_time: 32 min
 
 > 📚 **Before you start**
 >
-> - [Persistence and Checkpointers](../../langgraph-fundamentals/05-chatbots-and-persistence/persistence-and-checkpointers.md), where you first listed history, replayed and forked. This lesson goes much deeper.
-> - [Editing State with Human Input](../03-human-feedback/editing-state-with-human-input.md), for `update_state` and `as_node`.
-> - [Pausing with interrupt and Resuming with Command](../03-human-feedback/pausing-with-interrupt-and-resuming-with-command.md), because interrupts behave in a particular way during replays.
+> - [Persistence and Checkpointers](../06-chatbots-and-persistence/persistence-and-checkpointers.md), where you first listed history, replayed and forked. This lesson goes much deeper.
+> - [Editing State with Human Input](editing-state-with-human-input.md), for `update_state` and `as_node`.
+> - [Pausing with interrupt and Resuming with Command](pausing-with-interrupt-and-resuming-with-command.md), because interrupts behave in a particular way during replays.
 
 ## Introduction
 
