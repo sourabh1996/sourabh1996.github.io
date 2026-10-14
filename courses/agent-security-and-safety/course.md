@@ -1,11 +1,11 @@
 # Agent Security and Safety
 
 **Advanced · 4 modules · 17 lessons · ~7 hrs**  
-Track 8 · Agentic AI · ➕ Added beyond the bootcamp syllabus
+Track 7 · Agentic AI · ➕ Added beyond the bootcamp syllabus
 
 Threat-model an agent and defend it: prompt injection, the OWASP Top 10 for agentic applications, least privilege, sandboxing, approvals and red-teaming.
 
-**Finish first:** [Tools, Agent Skills and Code Execution](../tools-agent-skills-and-code-execution/course.md), [Enterprise LLM Systems](../enterprise-llm-systems/course.md)  
+**Finish first:** [Tools, Agent Skills and Code Execution](../tools-agent-skills-and-code-execution/course.md), [Model Context Protocol (MCP)](../model-context-protocol-mcp/course.md)  
 **Unlocks:** [Shipping Agents to Production](../shipping-agents-to-production/course.md)
 
 ## Course content

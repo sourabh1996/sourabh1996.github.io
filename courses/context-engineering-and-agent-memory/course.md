@@ -1,11 +1,11 @@
 # Context Engineering and Agent Memory
 
 **Intermediate · 4 modules · 17 lessons · ~8 hrs**  
-Track 8 · Agentic AI · ➕ Added beyond the bootcamp syllabus
+Track 7 · Agentic AI · ➕ Added beyond the bootcamp syllabus
 
 Treat the context window as a budget: what to put in it, when to fetch more, how to compact long runs, and how agents remember across sessions.
 
-**Finish first:** [Agentic AI Fundamentals](../agentic-ai-fundamentals/course.md), [LangGraph State and Memory](../langgraph-state-and-memory/course.md)  
+**Finish first:** [LangGraph Complete Guide](../langgraph-complete-guide/course.md), [Knowledge Graphs, Ontologies and Unstructured Data](../knowledge-graphs-ontologies-and-unstructured-data/course.md)  
 **Unlocks:** [Tools, Agent Skills and Code Execution](../tools-agent-skills-and-code-execution/course.md)
 
 ## Course content

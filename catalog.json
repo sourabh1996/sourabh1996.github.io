@@ -2,7 +2,7 @@
  {
   "id": 1,
   "slug": "the-command-line-and-linux-basics",
-  "track": "Track 0 · Developer Toolkit",
+  "track": "Track 1 · Programming Foundations",
   "title": "The Command Line and Linux Basics",
   "level": "Beginner",
   "syllabus_modules": [],
@@ -88,8 +88,297 @@
  },
  {
   "id": 2,
+  "slug": "python-programming",
+  "track": "Track 1 · Programming Foundations",
+  "title": "Python Programming",
+  "level": "Beginner",
+  "syllabus_modules": [
+   1,
+   2
+  ],
+  "added": false,
+  "description": "Learn Python from zero to confident: values, control flow, collections, functions, classes, files, modules, errors and async code.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Getting Started with Python",
+    "added": false,
+    "lessons": [
+     {
+      "title": "What is Python and Why Use It?",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Python vs Other Languages",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Numbers, Booleans and Strings",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Setting Up Your ML Environment: Anaconda, Jupyter and Colab",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Set up Python and run your first script",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Core Language Concepts",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Containers and Mutability",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Operators and Precedence",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Build a unit converter",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Control Flow",
+    "added": false,
+    "lessons": [
+     {
+      "title": "if, elif and else",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "for and while Loops",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "break, continue and range()",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Number guessing game",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Strings and Data Structures",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Working with Strings",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lists and Tuples",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Sets",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Dictionaries and Dictionary Views",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "List and Dictionary Comprehensions",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Word frequency counter",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Functions and Iterators",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Functions and Parameter Passing",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Iterators and Generators",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lambda, map and Functional Style",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Build a tiny text-processing toolkit",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Object-Oriented Programming",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Classes and Objects",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Inheritance and Polymorphism",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Encapsulation and Abstraction",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Decorators, classmethod and staticmethod",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Dunder Methods",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Model a library system with classes",
+      "type": "Lab",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Python Programming",
+      "slug": "python-programming",
+      "module": "Functions and Iterators",
+      "anchor": "m6"
+     }
+    ]
+   },
+   {
+    "title": "File Handling",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Reading and Writing Files",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Buffered I/O and Other File Methods",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Log file analyser",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Modules and Exceptions",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Importing and Managing Modules",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "try/except and Custom Exceptions",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Error Handling Best Practices",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Concurrency for AI Apps",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Threads, Processes and Async",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "async and await for API Calls",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Call 10 APIs concurrently",
+      "type": "Lab",
+      "added": true
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Python Programming",
+      "slug": "python-programming",
+      "module": "Functions and Iterators",
+      "anchor": "m6"
+     }
+    ]
+   }
+  ],
+  "module_count": 10,
+  "lesson_count": 38,
+  "hours": 18,
+  "prerequisites": [
+   {
+    "course": "The Command Line and Linux Basics",
+    "slug": "the-command-line-and-linux-basics"
+   }
+  ]
+ },
+ {
+  "id": 3,
   "slug": "git-and-github-zero-to-pro",
-  "track": "Track 0 · Developer Toolkit",
+  "track": "Track 1 · Programming Foundations",
   "title": "Git and GitHub: Zero to Pro",
   "level": "Beginner",
   "syllabus_modules": [],
@@ -369,37 +658,6 @@
     ]
    },
    {
-    "title": "AI on GitHub",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Copilot in the Editor and on GitHub",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Coding Agents that Open Pull Requests",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Repository Instructions: AGENTS.md and Custom Instructions",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "The GitHub MCP Server",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Running Coding Agents in GitHub Actions",
-      "type": "Article",
-      "added": true
-     }
-    ]
-   },
-   {
     "title": "Security and Supply Chain",
     "added": true,
     "lessons": [
@@ -483,330 +741,33 @@
     ]
    }
   ],
-  "module_count": 12,
-  "lesson_count": 63,
-  "hours": 27,
+  "module_count": 11,
+  "lesson_count": 58,
+  "hours": 25,
   "prerequisites": [
    {
     "course": "The Command Line and Linux Basics",
     "slug": "the-command-line-and-linux-basics"
+   },
+   {
+    "course": "Python Programming",
+    "slug": "python-programming"
    }
   ]
- },
- {
-  "id": 3,
-  "slug": "python-fundamentals",
-  "track": "Track 1 · Python and Data Foundations",
-  "title": "Python Fundamentals",
-  "level": "Beginner",
-  "syllabus_modules": [
-   1
-  ],
-  "added": false,
-  "description": "Learn Python from zero: values, operators, control flow, strings, collections, functions and generators.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Getting Started with Python",
-    "added": false,
-    "lessons": [
-     {
-      "title": "What is Python and Why Use It?",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Python vs Other Languages",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Numbers, Booleans and Strings",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Set up Python and run your first script",
-      "type": "Lab",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Core Language Concepts",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Containers and Mutability",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Operators and Precedence",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Build a unit converter",
-      "type": "Lab",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Control Flow",
-    "added": false,
-    "lessons": [
-     {
-      "title": "if, elif and else",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "for and while Loops",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "break, continue and range()",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Number guessing game",
-      "type": "Lab",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Strings and Data Structures",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Working with Strings",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lists and Tuples",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Sets",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Dictionaries and Dictionary Views",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "List and Dictionary Comprehensions",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Word frequency counter",
-      "type": "Lab",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Functions and Iterators",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Functions and Parameter Passing",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Iterators and Generators",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lambda, map and Functional Style",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Build a tiny text-processing toolkit",
-      "type": "Lab",
-      "added": false
-     }
-    ]
-   }
-  ],
-  "module_count": 6,
-  "lesson_count": 22,
-  "hours": 11
  },
  {
   "id": 4,
-  "slug": "advanced-python-programming",
-  "track": "Track 1 · Python and Data Foundations",
-  "title": "Advanced Python Programming",
-  "level": "Intermediate",
-  "syllabus_modules": [
-   2
-  ],
-  "added": false,
-  "description": "Write reusable, robust Python with OOP, decorators, file handling, modules and proper error handling.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Object-Oriented Programming",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Classes and Objects",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Inheritance and Polymorphism",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Encapsulation and Abstraction",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Decorators, classmethod and staticmethod",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Dunder Methods",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Model a library system with classes",
-      "type": "Lab",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "File Handling",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Reading and Writing Files",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Buffered I/O and Other File Methods",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Log file analyser",
-      "type": "Lab",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Modules and Exceptions",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Importing and Managing Modules",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "try/except and Custom Exceptions",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Error Handling Best Practices",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Concurrency for AI Apps",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Threads, Processes and Async",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "async and await for API Calls",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Call 10 APIs concurrently",
-      "type": "Lab",
-      "added": true
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "Python Fundamentals",
-      "slug": "python-fundamentals",
-      "module": "Functions and Iterators",
-      "anchor": "m6"
-     }
-    ]
-   }
-  ],
-  "module_count": 5,
-  "lesson_count": 16,
-  "hours": 7,
-  "prerequisites": [
-   {
-    "course": "Python Fundamentals",
-    "slug": "python-fundamentals"
-   }
-  ]
- },
- {
-  "id": 5,
-  "slug": "numerical-computing-and-data-analysis",
-  "track": "Track 1 · Python and Data Foundations",
-  "title": "Numerical Computing and Data Analysis",
+  "slug": "data-analysis-and-visualisation-with-python",
+  "track": "Track 2 · Working with Data",
+  "title": "Data Analysis and Visualisation with Python",
   "level": "Beginner",
   "syllabus_modules": [
    3,
-   4
+   4,
+   5
   ],
   "added": false,
-  "description": "Process data fast with NumPy arrays and pandas DataFrames: indexing, transforming, dates, text and statistics.",
+  "description": "Process and picture data: NumPy arrays, pandas DataFrames, text, dates and categories, then clear charts with Matplotlib and Seaborn.",
   "modules": [
    {
     "title": "Start Here",
@@ -870,8 +831,8 @@
     ],
     "prerequisites": [
      {
-      "course": "Python Fundamentals",
-      "slug": "python-fundamentals",
+      "course": "Python Programming",
+      "slug": "python-programming",
       "module": "Strings and Data Structures",
       "anchor": "m5"
      }
@@ -944,39 +905,6 @@
       "added": false
      }
     ]
-   }
-  ],
-  "module_count": 5,
-  "lesson_count": 20,
-  "hours": 9,
-  "prerequisites": [
-   {
-    "course": "Python Fundamentals",
-    "slug": "python-fundamentals"
-   }
-  ]
- },
- {
-  "id": 6,
-  "slug": "data-visualization-with-matplotlib-and-seaborn",
-  "track": "Track 1 · Python and Data Foundations",
-  "title": "Data Visualization with Matplotlib and Seaborn",
-  "level": "Beginner",
-  "syllabus_modules": [
-   5
-  ],
-  "added": false,
-  "description": "Turn data into clear charts: Matplotlib basics, Seaborn statistical plots and visual storytelling.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
    },
    {
     "title": "Matplotlib",
@@ -1026,20 +954,20 @@
     ]
    }
   ],
-  "module_count": 3,
-  "lesson_count": 8,
-  "hours": 4,
+  "module_count": 7,
+  "lesson_count": 27,
+  "hours": 13,
   "prerequisites": [
    {
-    "course": "Numerical Computing and Data Analysis",
-    "slug": "numerical-computing-and-data-analysis"
+    "course": "Python Programming",
+    "slug": "python-programming"
    }
   ]
  },
  {
-  "id": 7,
+  "id": 5,
   "slug": "databases-sql-and-nosql",
-  "track": "Track 1 · Python and Data Foundations",
+  "track": "Track 2 · Working with Data",
   "title": "Databases: SQL and NoSQL",
   "level": "Beginner",
   "syllabus_modules": [
@@ -1106,8 +1034,8 @@
     ],
     "prerequisites": [
      {
-      "course": "Python Fundamentals",
-      "slug": "python-fundamentals",
+      "course": "Python Programming",
+      "slug": "python-programming",
       "module": "Functions and Iterators",
       "anchor": "m6"
      }
@@ -1150,109 +1078,23 @@
   "hours": 6,
   "prerequisites": [
    {
-    "course": "Python Fundamentals",
-    "slug": "python-fundamentals"
+    "course": "Python Programming",
+    "slug": "python-programming"
    }
   ]
  },
  {
-  "id": 8,
-  "slug": "interactive-data-apps-with-streamlit",
-  "track": "Track 1 · Python and Data Foundations",
-  "title": "Interactive Data Apps with Streamlit",
+  "id": 6,
+  "slug": "statistics-for-data-science",
+  "track": "Track 2 · Working with Data",
+  "title": "Statistics for Data Science",
   "level": "Beginner",
   "syllabus_modules": [
-   7
+   8,
+   9
   ],
   "added": false,
-  "description": "Turn Python scripts into interactive web apps with widgets, session state and async.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Streamlit Basics",
-    "added": false,
-    "lessons": [
-     {
-      "title": "What is Streamlit?",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Widgets and Layout",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Your first dashboard",
-      "type": "Lab",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "State and Responsiveness",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Session State",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "async and await in Streamlit",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Build a chat UI shell for an LLM app",
-      "type": "Lab",
-      "added": false
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "Advanced Python Programming",
-      "slug": "advanced-python-programming",
-      "module": "Concurrency for AI Apps",
-      "anchor": "m5"
-     }
-    ]
-   }
-  ],
-  "module_count": 3,
-  "lesson_count": 7,
-  "hours": 4,
-  "prerequisites": [
-   {
-    "course": "Python Fundamentals",
-    "slug": "python-fundamentals"
-   },
-   {
-    "course": "Numerical Computing and Data Analysis",
-    "slug": "numerical-computing-and-data-analysis"
-   }
-  ]
- },
- {
-  "id": 9,
-  "slug": "statistics-foundations",
-  "track": "Track 2 · Statistics",
-  "title": "Statistics Foundations",
-  "level": "Beginner",
-  "syllabus_modules": [
-   8
-  ],
-  "added": false,
-  "description": "The core ideas behind all data science: data types, averages, spread, probability, distributions and estimation.",
+  "description": "The ideas behind every model and experiment: averages, spread, probability, distributions, estimation, hypothesis tests, Bayes and chi-square.",
   "modules": [
    {
     "title": "Start Here",
@@ -1328,8 +1170,8 @@
     ],
     "prerequisites": [
      {
-      "course": "Numerical Computing and Data Analysis",
-      "slug": "numerical-computing-and-data-analysis",
+      "course": "Data Analysis and Visualisation with Python",
+      "slug": "data-analysis-and-visualisation-with-python",
       "module": "NumPy Essentials",
       "anchor": "m2"
      }
@@ -1399,43 +1241,10 @@
     ],
     "prerequisites": [
      {
-      "course": "Statistics Foundations",
-      "slug": "statistics-foundations",
+      "course": "Statistics for Data Science",
+      "slug": "statistics-for-data-science",
       "module": "Distributions",
       "anchor": "m6"
-     }
-    ]
-   }
-  ],
-  "module_count": 7,
-  "lesson_count": 19,
-  "hours": 8,
-  "prerequisites": [
-   {
-    "course": "Numerical Computing and Data Analysis",
-    "slug": "numerical-computing-and-data-analysis"
-   }
-  ]
- },
- {
-  "id": 10,
-  "slug": "inferential-statistics",
-  "track": "Track 2 · Statistics",
-  "title": "Inferential Statistics",
-  "level": "Intermediate",
-  "syllabus_modules": [
-   9
-  ],
-  "added": false,
-  "description": "Make decisions with data: hypothesis tests, p-values, Bayes' theorem and chi-square tests.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
      }
     ]
    },
@@ -1466,14 +1275,14 @@
     ],
     "prerequisites": [
      {
-      "course": "Statistics Foundations",
-      "slug": "statistics-foundations",
+      "course": "Statistics for Data Science",
+      "slug": "statistics-for-data-science",
       "module": "Distributions",
       "anchor": "m6"
      },
      {
-      "course": "Statistics Foundations",
-      "slug": "statistics-foundations",
+      "course": "Statistics for Data Science",
+      "slug": "statistics-for-data-science",
       "module": "Estimation",
       "anchor": "m7"
      }
@@ -1496,8 +1305,8 @@
     ],
     "prerequisites": [
      {
-      "course": "Statistics Foundations",
-      "slug": "statistics-foundations",
+      "course": "Statistics for Data Science",
+      "slug": "statistics-for-data-science",
       "module": "Probability",
       "anchor": "m5"
      }
@@ -1525,34 +1334,86 @@
     ]
    }
   ],
-  "module_count": 4,
-  "lesson_count": 10,
-  "hours": 5,
+  "module_count": 10,
+  "lesson_count": 28,
+  "hours": 13,
   "prerequisites": [
    {
-    "course": "Statistics Foundations",
-    "slug": "statistics-foundations"
+    "course": "Data Analysis and Visualisation with Python",
+    "slug": "data-analysis-and-visualisation-with-python"
    }
   ]
  },
  {
-  "id": 11,
-  "slug": "feature-engineering-and-eda",
+  "id": 7,
+  "slug": "machine-learning-foundations-data-eda-and-features",
   "track": "Track 3 · Machine Learning",
-  "title": "Feature Engineering and EDA",
+  "title": "Machine Learning Foundations: Data, EDA and Features",
   "level": "Intermediate",
   "syllabus_modules": [
+   12,
    10,
    11
   ],
   "added": false,
-  "description": "Get data, explore it and prepare it for models: imputation, outliers, scaling, encoding, pipelines, PCA and real case studies.",
+  "description": "Start machine learning the right way: what ML is, getting and exploring data, cleaning it, and turning raw columns into good features.",
   "modules": [
    {
     "title": "Start Here",
     "lessons": [
      {
       "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "What is Machine Learning?",
+    "added": false,
+    "lessons": [
+     {
+      "title": "AI vs ML vs DL vs Data Science",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Supervised, Unsupervised, Semi-Supervised and Reinforcement Learning",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Batch vs Online Learning",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Instance-Based vs Model-Based Learning",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Challenges in Machine Learning",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "The Machine Learning Development Life Cycle",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Data Science and ML Job Roles",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Tensors: How Data Is Represented",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Train, Validation and Test Splits",
       "type": "Article",
       "added": false
      }
@@ -1626,14 +1487,14 @@
     ],
     "prerequisites": [
      {
-      "course": "Data Visualization with Matplotlib and Seaborn",
-      "slug": "data-visualization-with-matplotlib-and-seaborn",
+      "course": "Data Analysis and Visualisation with Python",
+      "slug": "data-analysis-and-visualisation-with-python",
       "module": "Seaborn and Storytelling",
-      "anchor": "m3"
+      "anchor": "m7"
      },
      {
-      "course": "Numerical Computing and Data Analysis",
-      "slug": "numerical-computing-and-data-analysis",
+      "course": "Data Analysis and Visualisation with Python",
+      "slug": "data-analysis-and-visualisation-with-python",
       "module": "Statistics and Plots in pandas",
       "anchor": "m5"
      }
@@ -1783,49 +1644,10 @@
     ],
     "prerequisites": [
      {
-      "course": "Statistics Foundations",
-      "slug": "statistics-foundations",
+      "course": "Statistics for Data Science",
+      "slug": "statistics-for-data-science",
       "module": "Data Behaviour and Relationships",
       "anchor": "m4"
-     }
-    ]
-   },
-   {
-    "title": "Dimensionality Reduction",
-    "added": false,
-    "lessons": [
-     {
-      "title": "The Curse of Dimensionality",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "PCA: The Intuition",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "PCA: The Maths Step by Step",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "PCA in Practice",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Compress MNIST with PCA",
-      "type": "Lab",
-      "added": false
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "Numerical Computing and Data Analysis",
-      "slug": "numerical-computing-and-data-analysis",
-      "module": "NumPy Essentials",
-      "anchor": "m2"
      }
     ]
    },
@@ -1857,91 +1679,36 @@
    }
   ],
   "module_count": 8,
-  "lesson_count": 46,
-  "hours": 20,
+  "lesson_count": 50,
+  "hours": 22,
   "prerequisites": [
    {
-    "course": "Numerical Computing and Data Analysis",
-    "slug": "numerical-computing-and-data-analysis"
+    "course": "Data Analysis and Visualisation with Python",
+    "slug": "data-analysis-and-visualisation-with-python"
    },
    {
-    "course": "Data Visualization with Matplotlib and Seaborn",
-    "slug": "data-visualization-with-matplotlib-and-seaborn"
-   },
-   {
-    "course": "Statistics Foundations",
-    "slug": "statistics-foundations"
+    "course": "Statistics for Data Science",
+    "slug": "statistics-for-data-science"
    }
   ]
  },
  {
-  "id": 12,
-  "slug": "machine-learning-fundamentals",
+  "id": 8,
+  "slug": "supervised-learning",
   "track": "Track 3 · Machine Learning",
-  "title": "Machine Learning Fundamentals",
+  "title": "Supervised Learning",
   "level": "Intermediate",
   "syllabus_modules": [
    12
   ],
   "added": false,
-  "description": "Understand and implement the core supervised learning algorithms from scratch and learn how to evaluate and tune them.",
+  "description": "The core supervised algorithms, built from scratch and with scikit-learn: regression, gradient descent, classification, trees, SVMs and honest model tuning.",
   "modules": [
    {
     "title": "Start Here",
     "lessons": [
      {
       "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "What is Machine Learning?",
-    "added": false,
-    "lessons": [
-     {
-      "title": "AI vs ML vs DL vs Data Science",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Supervised, Unsupervised, Semi-Supervised and Reinforcement Learning",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Batch vs Online Learning",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Instance-Based vs Model-Based Learning",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Challenges in Machine Learning",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "The Machine Learning Development Life Cycle",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Data Science and ML Job Roles",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Tensors: How Data Is Represented",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Setting Up Your ML Environment: Anaconda, Jupyter and Colab",
       "type": "Article",
       "added": false
      }
@@ -1984,16 +1751,16 @@
     ],
     "prerequisites": [
      {
-      "course": "Statistics Foundations",
-      "slug": "statistics-foundations",
+      "course": "Statistics for Data Science",
+      "slug": "statistics-for-data-science",
       "module": "Central Tendency and Dispersion",
       "anchor": "m3"
      },
      {
-      "course": "Feature Engineering and EDA",
-      "slug": "feature-engineering-and-eda",
+      "course": "Machine Learning Foundations: Data, EDA and Features",
+      "slug": "machine-learning-foundations-data-eda-and-features",
       "module": "Feature Scaling and Encoding",
-      "anchor": "m5"
+      "anchor": "m6"
      }
     ]
    },
@@ -2029,10 +1796,10 @@
     ],
     "prerequisites": [
      {
-      "course": "Machine Learning Fundamentals",
-      "slug": "machine-learning-fundamentals",
+      "course": "Supervised Learning",
+      "slug": "supervised-learning",
       "module": "Regression",
-      "anchor": "m3"
+      "anchor": "m2"
      }
     ]
    },
@@ -2078,8 +1845,8 @@
     ],
     "prerequisites": [
      {
-      "course": "Statistics Foundations",
-      "slug": "statistics-foundations",
+      "course": "Statistics for Data Science",
+      "slug": "statistics-for-data-science",
       "module": "Probability",
       "anchor": "m5"
      }
@@ -2127,10 +1894,10 @@
     ],
     "prerequisites": [
      {
-      "course": "Inferential Statistics",
-      "slug": "inferential-statistics",
+      "course": "Statistics for Data Science",
+      "slug": "statistics-for-data-science",
       "module": "Bayesian Thinking",
-      "anchor": "m3"
+      "anchor": "m9"
      }
     ]
    },
@@ -2138,11 +1905,6 @@
     "title": "Model Selection and Tuning",
     "added": false,
     "lessons": [
-     {
-      "title": "Train, Validation and Test Splits",
-      "type": "Article",
-      "added": false
-     },
      {
       "title": "Data Leakage",
       "type": "Article",
@@ -2171,22 +1933,18 @@
     ]
    }
   ],
-  "module_count": 7,
-  "lesson_count": 41,
-  "hours": 18,
+  "module_count": 6,
+  "lesson_count": 31,
+  "hours": 14,
   "prerequisites": [
    {
-    "course": "Feature Engineering and EDA",
-    "slug": "feature-engineering-and-eda"
-   },
-   {
-    "course": "Statistics Foundations",
-    "slug": "statistics-foundations"
+    "course": "Machine Learning Foundations: Data, EDA and Features",
+    "slug": "machine-learning-foundations-data-eda-and-features"
    }
   ]
  },
  {
-  "id": 13,
+  "id": 9,
   "slug": "ensembles-and-unsupervised-learning",
   "track": "Track 3 · Machine Learning",
   "title": "Ensembles and Unsupervised Learning",
@@ -2195,7 +1953,7 @@
    13
   ],
   "added": false,
-  "description": "Boost accuracy with voting, bagging, random forests, AdaBoost, gradient boosting, XGBoost and stacking, then learn clustering.",
+  "description": "Boost accuracy with voting, bagging, random forests, boosting and stacking, then find structure without labels: clustering and PCA.",
   "modules": [
    {
     "title": "Start Here",
@@ -2239,10 +1997,10 @@
     ],
     "prerequisites": [
      {
-      "course": "Machine Learning Fundamentals",
-      "slug": "machine-learning-fundamentals",
+      "course": "Supervised Learning",
+      "slug": "supervised-learning",
       "module": "More Supervised Algorithms",
-      "anchor": "m6"
+      "anchor": "m5"
      }
     ]
    },
@@ -2314,170 +2072,81 @@
     ],
     "prerequisites": [
      {
-      "course": "Feature Engineering and EDA",
-      "slug": "feature-engineering-and-eda",
+      "course": "Machine Learning Foundations: Data, EDA and Features",
+      "slug": "machine-learning-foundations-data-eda-and-features",
       "module": "Feature Transformation and Selection",
-      "anchor": "m6"
-     }
-    ]
-   }
-  ],
-  "module_count": 4,
-  "lesson_count": 17,
-  "hours": 8,
-  "prerequisites": [
-   {
-    "course": "Machine Learning Fundamentals",
-    "slug": "machine-learning-fundamentals"
-   }
-  ]
- },
- {
-  "id": 14,
-  "slug": "mlops-with-mlflow",
-  "track": "Track 3 · Machine Learning",
-  "title": "MLOps with MLflow",
-  "level": "Advanced",
-  "syllabus_modules": [
-   15
-  ],
-  "added": false,
-  "description": "Manage the ML lifecycle: track experiments, register models and serve them in production.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
+      "anchor": "m7"
      }
     ]
    },
    {
-    "title": "MLflow Fundamentals",
+    "title": "Dimensionality Reduction",
     "added": false,
     "lessons": [
      {
-      "title": "What is MLflow?",
+      "title": "The Curse of Dimensionality",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Installing and Setting Up MLflow",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Experiment Tracking",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Logging Params, Metrics and Artifacts",
+      "title": "PCA: The Intuition",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Artifact Management",
+      "title": "PCA: The Maths Step by Step",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Autologging",
+      "title": "PCA in Practice",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Analysing and Visualising Runs",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Track 20 experiments",
+      "title": "Lab: Compress MNIST with PCA",
       "type": "Lab",
       "added": false
      }
     ],
     "prerequisites": [
      {
-      "course": "Machine Learning Fundamentals",
-      "slug": "machine-learning-fundamentals",
-      "module": "Regression",
-      "anchor": "m3"
-     }
-    ]
-   },
-   {
-    "title": "Model Management",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Model Registry",
-      "type": "Article",
-      "added": false
+      "course": "Data Analysis and Visualisation with Python",
+      "slug": "data-analysis-and-visualisation-with-python",
+      "module": "NumPy Essentials",
+      "anchor": "m2"
      },
      {
-      "title": "Model Packaging",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lifecycle Stages and Transitions",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Serving and Deployment",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Real-Time Serving and Local Deployment",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Containerisation",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Cloud and Orchestration",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Serve a registered model",
-      "type": "Lab",
-      "added": false
+      "course": "Ensembles and Unsupervised Learning",
+      "slug": "ensembles-and-unsupervised-learning",
+      "module": "Unsupervised Learning",
+      "anchor": "m4"
      }
     ]
    }
   ],
   "module_count": 5,
-  "lesson_count": 15,
-  "hours": 7,
+  "lesson_count": 22,
+  "hours": 10,
   "prerequisites": [
    {
-    "course": "Machine Learning Fundamentals",
-    "slug": "machine-learning-fundamentals"
+    "course": "Supervised Learning",
+    "slug": "supervised-learning"
    }
   ]
  },
  {
-  "id": 15,
-  "slug": "production-apis-with-fastapi",
-  "track": "Track 4 · Production Engineering and Big Data",
-  "title": "Production APIs with FastAPI",
+  "id": 10,
+  "slug": "apis-and-apps-fastapi-streamlit-and-docker",
+  "track": "Track 4 · Apps, APIs and MLOps",
+  "title": "APIs and Apps: FastAPI, Streamlit and Docker",
   "level": "Intermediate",
   "syllabus_modules": [
-   14
+   14,
+   7
   ],
   "added": false,
-  "description": "Build production-grade APIs with FastAPI: endpoints, Pydantic validation, serving ML models, Docker and AWS deployment.",
+  "description": "Turn Python into products: FastAPI endpoints with Pydantic validation, Streamlit front ends, serving ML models, Docker and AWS deployment.",
   "modules": [
    {
     "title": "Start Here",
@@ -2583,10 +2252,10 @@
     ],
     "prerequisites": [
      {
-      "course": "Advanced Python Programming",
-      "slug": "advanced-python-programming",
+      "course": "Python Programming",
+      "slug": "python-programming",
       "module": "Object-Oriented Programming",
-      "anchor": "m2"
+      "anchor": "m7"
      }
     ]
    },
@@ -2622,10 +2291,60 @@
     ],
     "prerequisites": [
      {
-      "course": "Advanced Python Programming",
-      "slug": "advanced-python-programming",
+      "course": "Python Programming",
+      "slug": "python-programming",
       "module": "Modules and Exceptions",
-      "anchor": "m4"
+      "anchor": "m9"
+     }
+    ]
+   },
+   {
+    "title": "Streamlit Basics",
+    "added": false,
+    "lessons": [
+     {
+      "title": "What is Streamlit?",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Widgets and Layout",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Your first dashboard",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "State and Responsiveness",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Session State",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "async and await in Streamlit",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Build a chat UI shell for an LLM app",
+      "type": "Lab",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Python Programming",
+      "slug": "python-programming",
+      "module": "Concurrency for AI Apps",
+      "anchor": "m10"
      }
     ]
    },
@@ -2647,6 +2366,14 @@
       "title": "Lab: Wrap an ML model in an API",
       "type": "Lab",
       "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Supervised Learning",
+      "slug": "supervised-learning",
+      "module": "Regression",
+      "anchor": "m2"
      }
     ]
    },
@@ -2677,27 +2404,31 @@
     ]
    }
   ],
-  "module_count": 7,
-  "lesson_count": 28,
-  "hours": 13,
+  "module_count": 9,
+  "lesson_count": 34,
+  "hours": 16,
   "prerequisites": [
    {
-    "course": "Advanced Python Programming",
-    "slug": "advanced-python-programming"
+    "course": "Python Programming",
+    "slug": "python-programming"
+   },
+   {
+    "course": "Databases: SQL and NoSQL",
+    "slug": "databases-sql-and-nosql"
    }
   ]
  },
  {
-  "id": 16,
-  "slug": "big-data-with-pyspark",
-  "track": "Track 4 · Production Engineering and Big Data",
-  "title": "Big Data with PySpark",
+  "id": 11,
+  "slug": "mlops-with-mlflow",
+  "track": "Track 4 · Apps, APIs and MLOps",
+  "title": "MLOps with MLflow",
   "level": "Advanced",
   "syllabus_modules": [
-   17
+   15
   ],
   "added": false,
-  "description": "Process data that won't fit in memory with Spark: architecture, DataFrames, Spark SQL and optimisation.",
+  "description": "Manage the ML lifecycle: track experiments, register models and serve them in production.",
   "modules": [
    {
     "title": "Start Here",
@@ -2710,988 +2441,134 @@
     ]
    },
    {
-    "title": "The Big Data Problem",
+    "title": "MLflow Fundamentals",
     "added": false,
     "lessons": [
      {
-      "title": "Why Single Machines Fail",
+      "title": "What is MLflow?",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Distributed Computing and Spark",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Driver, Executors and Cluster Manager",
+      "title": "Installing and Setting Up MLflow",
       "type": "Article",
       "added": false
      }
     ]
    },
    {
-    "title": "PySpark DataFrames and SQL",
+    "title": "Experiment Tracking",
     "added": false,
     "lessons": [
      {
-      "title": "From pandas to PySpark",
+      "title": "Logging Params, Metrics and Artifacts",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Filters, Aggregations and Joins",
+      "title": "Artifact Management",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Spark SQL",
+      "title": "Autologging",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Complex Data Types",
+      "title": "Analysing and Visualising Runs",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Lab: Analyse a 10 GB dataset",
+      "title": "Lab: Track 20 experiments",
       "type": "Lab",
       "added": false
      }
     ],
     "prerequisites": [
      {
-      "course": "Numerical Computing and Data Analysis",
-      "slug": "numerical-computing-and-data-analysis",
-      "module": "pandas Core",
-      "anchor": "m3"
-     },
-     {
-      "course": "Databases: SQL and NoSQL",
-      "slug": "databases-sql-and-nosql",
-      "module": "Relational Databases and SQL",
+      "course": "Supervised Learning",
+      "slug": "supervised-learning",
+      "module": "Regression",
       "anchor": "m2"
      }
     ]
    },
    {
-    "title": "Optimisation",
+    "title": "Model Management",
     "added": false,
     "lessons": [
      {
-      "title": "Lazy Evaluation: Transformations vs Actions",
+      "title": "Model Registry",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Reading the Spark UI",
+      "title": "Model Packaging",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Spot Instances and Cost",
+      "title": "Lifecycle Stages and Transitions",
       "type": "Article",
       "added": false
+     }
+    ]
+   },
+   {
+    "title": "Serving and Deployment",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Real-Time Serving and Local Deployment",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Containerisation",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Cloud and Orchestration",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Serve a registered model",
+      "type": "Lab",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+      "slug": "apis-and-apps-fastapi-streamlit-and-docker",
+      "module": "Docker and Cloud Deployment",
+      "anchor": "m9"
      }
     ]
    }
   ],
-  "module_count": 4,
-  "lesson_count": 12,
-  "hours": 5,
-  "prerequisites": [
-   {
-    "course": "Numerical Computing and Data Analysis",
-    "slug": "numerical-computing-and-data-analysis"
-   },
-   {
-    "course": "Databases: SQL and NoSQL",
-    "slug": "databases-sql-and-nosql"
-   }
-  ]
- },
- {
-  "id": 17,
-  "slug": "data-engineering-foundations",
-  "track": "Track 5 · Data Engineering",
-  "title": "Data Engineering Foundations",
-  "level": "Intermediate",
-  "syllabus_modules": [],
-  "added": true,
-  "description": "What data engineers build and why: the data lifecycle, OLTP vs OLAP, batch vs streaming, file formats and advanced SQL.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "The Data Engineering Landscape",
-    "added": true,
-    "lessons": [
-     {
-      "title": "What Does a Data Engineer Do?",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "The Data Lifecycle: Ingest, Store, Transform, Serve",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "OLTP vs OLAP",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Batch vs Streaming",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "The Modern Data Stack",
-      "type": "Article",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "Files and Formats",
-    "added": true,
-    "lessons": [
-     {
-      "title": "CSV, JSON, Parquet and Avro",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Compression and Partitioned Files",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Fast DataFrames with Polars and DuckDB",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Convert a CSV lake to partitioned Parquet",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "Advanced SQL",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Window Functions",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "CTEs and Recursive Queries",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Query Plans and Indexes",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Transactions and Isolation Levels",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "SQL Patterns: Deduplication, Gaps and Islands, Sessionisation",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: 25 SQL interview problems",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   }
-  ],
-  "module_count": 4,
-  "lesson_count": 16,
+  "module_count": 5,
+  "lesson_count": 15,
   "hours": 7,
   "prerequisites": [
    {
-    "course": "Databases: SQL and NoSQL",
-    "slug": "databases-sql-and-nosql"
+    "course": "Supervised Learning",
+    "slug": "supervised-learning"
    },
    {
-    "course": "Numerical Computing and Data Analysis",
-    "slug": "numerical-computing-and-data-analysis"
-   },
-   {
-    "course": "The Command Line and Linux Basics",
-    "slug": "the-command-line-and-linux-basics"
+    "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+    "slug": "apis-and-apps-fastapi-streamlit-and-docker"
    }
   ]
  },
  {
-  "id": 18,
-  "slug": "data-modelling-and-warehousing",
-  "track": "Track 5 · Data Engineering",
-  "title": "Data Modelling and Warehousing",
-  "level": "Intermediate",
-  "syllabus_modules": [],
-  "added": true,
-  "description": "Design data that is easy to query: normalisation, dimensional models, slowly changing dimensions, Data Vault, medallion layers and cloud warehouses.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Modelling Fundamentals",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Normalisation and When to Break It",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Facts and Dimensions",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Star and Snowflake Schemas",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Slowly Changing Dimensions",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Data Vault and One Big Table",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Model an online shop as a star schema",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "Cloud Warehouses",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Columnar Storage and MPP",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Snowflake, BigQuery and Redshift Compared",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Partitioning, Clustering and Cost Control",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Semantic Layers and Metrics",
-      "type": "Article",
-      "added": true
-     }
-    ]
-   }
-  ],
-  "module_count": 3,
-  "lesson_count": 11,
-  "hours": 5,
-  "prerequisites": [
-   {
-    "course": "Data Engineering Foundations",
-    "slug": "data-engineering-foundations"
-   }
-  ]
- },
- {
-  "id": 19,
-  "slug": "elt-and-transformation-with-dbt",
-  "track": "Track 5 · Data Engineering",
-  "title": "ELT and Transformation with dbt",
-  "level": "Intermediate",
-  "syllabus_modules": [],
-  "added": true,
-  "description": "Load raw data and transform it inside the warehouse with tested, documented dbt models.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Ingestion",
-    "added": true,
-    "lessons": [
-     {
-      "title": "ETL vs ELT",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Ingestion Tools: Fivetran, Airbyte and dlt",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Change Data Capture",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Load an API into DuckDB with dlt",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "dbt",
-    "added": true,
-    "lessons": [
-     {
-      "title": "dbt Projects, Models and the DAG",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Sources, refs and the Medallion Layers",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Tests, Contracts and Documentation",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Incremental Models and Snapshots",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Jinja, Macros and Packages",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "CI for dbt and the Fusion Engine",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Build a dbt project on DuckDB",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   }
-  ],
-  "module_count": 3,
-  "lesson_count": 12,
-  "hours": 6,
-  "prerequisites": [
-   {
-    "course": "Data Modelling and Warehousing",
-    "slug": "data-modelling-and-warehousing"
-   },
-   {
-    "course": "Git and GitHub: Zero to Pro",
-    "slug": "git-and-github-zero-to-pro"
-   }
-  ]
- },
- {
-  "id": 20,
-  "slug": "orchestration-with-airflow",
-  "track": "Track 5 · Data Engineering",
-  "title": "Orchestration with Airflow",
-  "level": "Intermediate",
-  "syllabus_modules": [],
-  "added": true,
-  "description": "Schedule, retry and monitor pipelines: Airflow DAGs, the TaskFlow API, assets, backfills and alternatives like Dagster and Prefect.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Airflow Core",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Why Pipelines Need an Orchestrator",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "DAGs, Tasks, Operators and Sensors",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "The TaskFlow API",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Scheduling, Backfills and Idempotency",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Dynamic Task Mapping",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Assets and Event-Driven Scheduling in Airflow 3",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: A daily ELT DAG with retries and alerts",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "Running Orchestration in Production",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Running Airflow on Docker, Kubernetes and Managed Services",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Dagster, Prefect and Other Orchestrators",
-      "type": "Article",
-      "added": true
-     }
-    ]
-   }
-  ],
-  "module_count": 3,
-  "lesson_count": 10,
-  "hours": 4,
-  "prerequisites": [
-   {
-    "course": "ELT and Transformation with dbt",
-    "slug": "elt-and-transformation-with-dbt"
-   }
-  ]
- },
- {
-  "id": 21,
-  "slug": "streaming-data-with-kafka",
-  "track": "Track 5 · Data Engineering",
-  "title": "Streaming Data with Kafka",
-  "level": "Advanced",
-  "syllabus_modules": [],
-  "added": true,
-  "description": "Move and process events in real time: Kafka, delivery guarantees, schemas, CDC with Debezium and stream processing with Flink and Spark.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Kafka Fundamentals",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Events, Logs and the Streaming Mindset",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Topics, Partitions and Offsets",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Producers, Consumers and Consumer Groups",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Delivery Guarantees and Exactly-Once",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Schemas and Schema Evolution",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Kafka Without ZooKeeper: KRaft",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Produce and consume click events",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "Stream Processing",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Windows, Watermarks and Late Data",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Spark Structured Streaming",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Apache Flink",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "CDC with Debezium",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Real-time order dashboard",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   }
-  ],
-  "module_count": 3,
-  "lesson_count": 13,
-  "hours": 6,
-  "prerequisites": [
-   {
-    "course": "Data Engineering Foundations",
-    "slug": "data-engineering-foundations"
-   },
-   {
-    "course": "Big Data with PySpark",
-    "slug": "big-data-with-pyspark"
-   }
-  ]
- },
- {
-  "id": 22,
-  "slug": "lakehouses-and-open-table-formats",
-  "track": "Track 5 · Data Engineering",
-  "title": "Lakehouses and Open Table Formats",
-  "level": "Advanced",
-  "syllabus_modules": [],
-  "added": true,
-  "description": "Combine cheap storage with warehouse features: Delta Lake, Apache Iceberg, catalogs, time travel and query engines.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "The Lakehouse",
-    "added": true,
-    "lessons": [
-     {
-      "title": "From Data Lakes to Lakehouses",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Delta Lake",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Apache Iceberg and Iceberg v3",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Apache Hudi and Choosing a Format",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Catalogs: Unity, Polaris, Glue and REST",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Time Travel, Schema Evolution and Compaction",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Query Engines: Trino, DuckDB and ClickHouse",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Spark Performance Tuning: Shuffles, Skew and AQE",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Build a small Iceberg lakehouse",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   }
-  ],
-  "module_count": 2,
-  "lesson_count": 10,
-  "hours": 4,
-  "prerequisites": [
-   {
-    "course": "Big Data with PySpark",
-    "slug": "big-data-with-pyspark"
-   },
-   {
-    "course": "Data Modelling and Warehousing",
-    "slug": "data-modelling-and-warehousing"
-   }
-  ]
- },
- {
-  "id": 23,
-  "slug": "data-quality-governance-and-dataops",
-  "track": "Track 5 · Data Engineering",
-  "title": "Data Quality, Governance and DataOps",
-  "level": "Advanced",
-  "syllabus_modules": [],
-  "added": true,
-  "description": "Make data trustworthy: tests, contracts, lineage, observability, CI/CD and infrastructure as code for data platforms.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Trustworthy Data",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Data Quality Dimensions and Tests",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Great Expectations and Soda",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Data Contracts",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lineage with OpenLineage and Data Catalogs",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Data Observability",
-      "type": "Article",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "DataOps and Governance",
-    "added": true,
-    "lessons": [
-     {
-      "title": "CI/CD and Environments for Data",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Terraform for Data Platforms",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Privacy, PII and Access Control",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Add tests, contracts and CI to a pipeline",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   }
-  ],
-  "module_count": 3,
-  "lesson_count": 10,
-  "hours": 4,
-  "prerequisites": [
-   {
-    "course": "ELT and Transformation with dbt",
-    "slug": "elt-and-transformation-with-dbt"
-   },
-   {
-    "course": "Orchestration with Airflow",
-    "slug": "orchestration-with-airflow"
-   }
-  ]
- },
- {
-  "id": 24,
-  "slug": "cloud-data-platforms",
-  "track": "Track 5 · Data Engineering",
-  "title": "Cloud Data Platforms",
-  "level": "Advanced",
-  "syllabus_modules": [],
-  "added": true,
-  "description": "The data services on AWS, Google Cloud and Azure, how they fit together, what they cost, and which certifications map to them.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "The Big Three Clouds",
-    "added": true,
-    "lessons": [
-     {
-      "title": "AWS Data Services: S3, Glue, Athena, EMR, Redshift and Kinesis",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Google Cloud Data Services: BigQuery, Dataflow, Pub/Sub and Composer",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Azure Data Services: ADLS, Data Factory, Fabric and Databricks",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Databricks and Snowflake as Platforms",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "FinOps: Controlling Data Costs",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Data Engineering Certifications Map",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Serverless pipeline on AWS",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "Data Engineering for AI",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Pipelines for RAG: Chunking, Embedding and Refreshing",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Feature Stores and ML Pipelines",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Data Agents and MCP Servers for Warehouses",
-      "type": "Article",
-      "added": true
-     }
-    ]
-   }
-  ],
-  "module_count": 3,
-  "lesson_count": 11,
-  "hours": 5,
-  "prerequisites": [
-   {
-    "course": "Lakehouses and Open Table Formats",
-    "slug": "lakehouses-and-open-table-formats"
-   },
-   {
-    "course": "Production APIs with FastAPI",
-    "slug": "production-apis-with-fastapi"
-   }
-  ]
- },
- {
-  "id": 25,
-  "slug": "data-engineering-capstone-and-system-design",
-  "track": "Track 5 · Data Engineering",
-  "title": "Data Engineering Capstone and System Design",
-  "level": "Advanced",
-  "syllabus_modules": [],
-  "added": true,
-  "description": "Build an end-to-end platform and practise the system design and SQL questions asked in data engineering interviews.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Capstone",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Lab: CDC from Postgres to Kafka to Iceberg to dbt to a dashboard",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "Interview Preparation",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Data Pipeline System Design Framework",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Design Drills: Clickstream, Ride Events and Fraud Detection",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Batch vs Streaming, Lambda vs Kappa Trade-offs",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Data Engineering Interview Questions Explained",
-      "type": "Article",
-      "added": true
-     }
-    ]
-   }
-  ],
-  "module_count": 3,
-  "lesson_count": 6,
-  "hours": 3,
-  "prerequisites": [
-   {
-    "course": "Streaming Data with Kafka",
-    "slug": "streaming-data-with-kafka"
-   },
-   {
-    "course": "Lakehouses and Open Table Formats",
-    "slug": "lakehouses-and-open-table-formats"
-   },
-   {
-    "course": "Data Quality, Governance and DataOps",
-    "slug": "data-quality-governance-and-dataops"
-   },
-   {
-    "course": "Cloud Data Platforms",
-    "slug": "cloud-data-platforms"
-   }
-  ]
- },
- {
-  "id": 26,
+  "id": 12,
   "slug": "nlp-for-machine-learning",
-  "track": "Track 6 · Deep Learning and NLP",
+  "track": "Track 5 · Deep Learning and NLP",
   "title": "NLP for Machine Learning",
   "level": "Intermediate",
   "syllabus_modules": [
@@ -3794,10 +2671,10 @@
     ],
     "prerequisites": [
      {
-      "course": "Feature Engineering and EDA",
-      "slug": "feature-engineering-and-eda",
+      "course": "Machine Learning Foundations: Data, EDA and Features",
+      "slug": "machine-learning-foundations-data-eda-and-features",
       "module": "Feature Transformation and Selection",
-      "anchor": "m6"
+      "anchor": "m7"
      }
     ]
    },
@@ -3833,14 +2710,14 @@
     ],
     "prerequisites": [
      {
-      "course": "Numerical Computing and Data Analysis",
-      "slug": "numerical-computing-and-data-analysis",
+      "course": "Data Analysis and Visualisation with Python",
+      "slug": "data-analysis-and-visualisation-with-python",
       "module": "NumPy Essentials",
       "anchor": "m2"
      },
      {
-      "course": "Statistics Foundations",
-      "slug": "statistics-foundations",
+      "course": "Statistics for Data Science",
+      "slug": "statistics-for-data-science",
       "module": "Data Behaviour and Relationships",
       "anchor": "m4"
      }
@@ -3878,22 +2755,23 @@
   "hours": 11,
   "prerequisites": [
    {
-    "course": "Machine Learning Fundamentals",
-    "slug": "machine-learning-fundamentals"
+    "course": "Supervised Learning",
+    "slug": "supervised-learning"
    }
   ]
  },
  {
-  "id": 27,
-  "slug": "deep-learning-foundations",
-  "track": "Track 6 · Deep Learning and NLP",
-  "title": "Deep Learning Foundations",
+  "id": 13,
+  "slug": "deep-learning-with-pytorch",
+  "track": "Track 5 · Deep Learning and NLP",
+  "title": "Deep Learning with PyTorch",
   "level": "Intermediate",
   "syllabus_modules": [
-   18
+   18,
+   "PyTorch"
   ],
   "added": false,
-  "description": "How neural networks really work: perceptrons, backpropagation, activations, losses, optimisers, Keras and PyTorch.",
+  "description": "How neural networks really work, then build them in PyTorch: backpropagation, activations, optimisers, training loops, GPUs, CNNs and transfer learning.",
   "modules": [
    {
     "title": "Start Here",
@@ -3953,16 +2831,16 @@
     ],
     "prerequisites": [
      {
-      "course": "Machine Learning Fundamentals",
-      "slug": "machine-learning-fundamentals",
+      "course": "Supervised Learning",
+      "slug": "supervised-learning",
       "module": "Regression",
-      "anchor": "m3"
+      "anchor": "m2"
      },
      {
-      "course": "Machine Learning Fundamentals",
-      "slug": "machine-learning-fundamentals",
+      "course": "Supervised Learning",
+      "slug": "supervised-learning",
       "module": "Classification",
-      "anchor": "m5"
+      "anchor": "m4"
      }
     ]
    },
@@ -4014,75 +2892,11 @@
     ]
    },
    {
-    "title": "Frameworks",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Keras Fundamentals",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "PyTorch Fundamentals",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Visualising Network Architecture and Training",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Same model in Keras and PyTorch",
-      "type": "Lab",
-      "added": false
-     }
-    ]
-   }
-  ],
-  "module_count": 6,
-  "lesson_count": 19,
-  "hours": 8,
-  "prerequisites": [
-   {
-    "course": "Machine Learning Fundamentals",
-    "slug": "machine-learning-fundamentals"
-   }
-  ]
- },
- {
-  "id": 28,
-  "slug": "deep-learning-with-pytorch",
-  "track": "Track 6 · Deep Learning and NLP",
-  "title": "Deep Learning with PyTorch",
-  "level": "Intermediate",
-  "syllabus_modules": [
-   "PyTorch"
-  ],
-  "added": false,
-  "description": "Go hands-on with PyTorch: tensors, autograd, training loops, DataLoaders, GPUs, CNNs, transfer learning, RNNs and LSTMs.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
     "title": "PyTorch Basics",
     "added": false,
     "lessons": [
      {
       "title": "Why PyTorch? History, Features and Ecosystem",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "PyTorch vs TensorFlow and Other Frameworks",
       "type": "Article",
       "added": false
      },
@@ -4105,14 +2919,6 @@
       "title": "Lab: Gradients by hand vs autograd",
       "type": "Lab",
       "added": false
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "Deep Learning Foundations",
-      "slug": "deep-learning-foundations",
-      "module": "Frameworks",
-      "anchor": "m6"
      }
     ]
    },
@@ -4205,46 +3011,46 @@
     ]
    },
    {
-    "title": "Sequence Models in PyTorch",
+    "title": "Keras and Other Frameworks",
     "added": false,
     "lessons": [
      {
-      "title": "RNNs in PyTorch",
+      "title": "Keras Fundamentals",
       "type": "Article",
       "added": false
      },
      {
-      "title": "LSTMs in PyTorch",
+      "title": "PyTorch vs TensorFlow and Other Frameworks",
       "type": "Article",
       "added": false
      },
      {
-      "title": "Lab: Question answering with an RNN",
-      "type": "Lab",
+      "title": "Visualising Network Architecture and Training",
+      "type": "Article",
       "added": false
      },
      {
-      "title": "Lab: Next-word prediction with an LSTM",
+      "title": "Lab: Same model in Keras and PyTorch",
       "type": "Lab",
       "added": false
      }
     ]
    }
   ],
-  "module_count": 6,
-  "lesson_count": 25,
-  "hours": 12,
+  "module_count": 10,
+  "lesson_count": 38,
+  "hours": 18,
   "prerequisites": [
    {
-    "course": "Deep Learning Foundations",
-    "slug": "deep-learning-foundations"
+    "course": "Supervised Learning",
+    "slug": "supervised-learning"
    }
   ]
  },
  {
-  "id": 29,
+  "id": 14,
   "slug": "sequence-models-attention-and-transformers",
-  "track": "Track 6 · Deep Learning and NLP",
+  "track": "Track 5 · Deep Learning and NLP",
   "title": "Sequence Models, Attention and Transformers",
   "level": "Advanced",
   "syllabus_modules": [
@@ -4280,8 +3086,8 @@
     ],
     "prerequisites": [
      {
-      "course": "Deep Learning Foundations",
-      "slug": "deep-learning-foundations",
+      "course": "Deep Learning with PyTorch",
+      "slug": "deep-learning-with-pytorch",
       "module": "Neural Networks",
       "anchor": "m3"
      },
@@ -4311,6 +3117,40 @@
       "title": "Lab: Sentiment with an LSTM",
       "type": "Lab",
       "added": false
+     }
+    ]
+   },
+   {
+    "title": "Sequence Models in PyTorch",
+    "added": false,
+    "lessons": [
+     {
+      "title": "RNNs in PyTorch",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "LSTMs in PyTorch",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Question answering with an RNN",
+      "type": "Lab",
+      "added": false
+     },
+     {
+      "title": "Lab: Next-word prediction with an LSTM",
+      "type": "Lab",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Deep Learning with PyTorch",
+      "slug": "deep-learning-with-pytorch",
+      "module": "The Training Pipeline",
+      "anchor": "m7"
      }
     ]
    },
@@ -4362,13 +3202,13 @@
     ]
    }
   ],
-  "module_count": 5,
-  "lesson_count": 13,
-  "hours": 6,
+  "module_count": 6,
+  "lesson_count": 17,
+  "hours": 8,
   "prerequisites": [
    {
-    "course": "Deep Learning Foundations",
-    "slug": "deep-learning-foundations"
+    "course": "Deep Learning with PyTorch",
+    "slug": "deep-learning-with-pytorch"
    },
    {
     "course": "NLP for Machine Learning",
@@ -4377,9 +3217,9 @@
   ]
  },
  {
-  "id": 30,
+  "id": 15,
   "slug": "generative-ai-and-llm-foundations",
-  "track": "Track 7 · Generative AI",
+  "track": "Track 6 · Generative AI",
   "title": "Generative AI and LLM Foundations",
   "level": "Beginner",
   "syllabus_modules": [
@@ -4464,7 +3304,7 @@
       "course": "Sequence Models, Attention and Transformers",
       "slug": "sequence-models-attention-and-transformers",
       "module": "Transformers",
-      "anchor": "m5"
+      "anchor": "m6"
      }
     ]
    },
@@ -4495,8 +3335,8 @@
     ],
     "prerequisites": [
      {
-      "course": "Production APIs with FastAPI",
-      "slug": "production-apis-with-fastapi",
+      "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+      "slug": "apis-and-apps-fastapi-streamlit-and-docker",
       "module": "Validation and Schemas",
       "anchor": "m4"
      }
@@ -4533,168 +3373,15 @@
     "slug": "sequence-models-attention-and-transformers"
    },
    {
-    "course": "Advanced Python Programming",
-    "slug": "advanced-python-programming"
+    "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+    "slug": "apis-and-apps-fastapi-streamlit-and-docker"
    }
   ]
  },
  {
-  "id": 31,
-  "slug": "vector-databases-for-ai",
-  "track": "Track 7 · Generative AI",
-  "title": "Vector Databases for AI",
-  "level": "Intermediate",
-  "syllabus_modules": [
-   21
-  ],
-  "added": false,
-  "description": "Embeddings, similarity search and the vector databases behind RAG: Chroma, FAISS, Qdrant, Pinecone and LanceDB.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Introduction to Vector Databases",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Embeddings and Similarity Search",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Semantic Search Explained",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Vector vs SQL vs NoSQL Databases",
-      "type": "Article",
-      "added": false
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "NLP for Machine Learning",
-      "slug": "nlp-for-machine-learning",
-      "module": "Word Embeddings",
-      "anchor": "m5"
-     },
-     {
-      "course": "Databases: SQL and NoSQL",
-      "slug": "databases-sql-and-nosql",
-      "module": "Relational Databases and SQL",
-      "anchor": "m2"
-     }
-    ]
-   },
-   {
-    "title": "Architecture",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Storage and Indexing (HNSW, IVF)",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "In-Memory, On-Disk and Cloud Vector DBs",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Tools",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Chroma",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "FAISS",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Qdrant",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Pinecone",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "LanceDB",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Same search in three vector DBs",
-      "type": "Lab",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Integrations",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Vector Search in MongoDB and Cassandra",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Embedding-Based Retrieval Pipelines",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Semantic search over your notes",
-      "type": "Lab",
-      "added": false
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "Databases: SQL and NoSQL",
-      "slug": "databases-sql-and-nosql",
-      "module": "NoSQL with MongoDB Atlas",
-      "anchor": "m4"
-     }
-    ]
-   }
-  ],
-  "module_count": 5,
-  "lesson_count": 15,
-  "hours": 7,
-  "prerequisites": [
-   {
-    "course": "Generative AI and LLM Foundations",
-    "slug": "generative-ai-and-llm-foundations"
-   },
-   {
-    "course": "Databases: SQL and NoSQL",
-    "slug": "databases-sql-and-nosql"
-   }
-  ]
- },
- {
-  "id": 32,
+  "id": 16,
   "slug": "langchain-complete-guide",
-  "track": "Track 7 · Generative AI",
+  "track": "Track 6 · Generative AI",
   "title": "LangChain Complete Guide",
   "level": "Intermediate",
   "syllabus_modules": [
@@ -4844,8 +3531,8 @@
       "anchor": "m4"
      },
      {
-      "course": "Production APIs with FastAPI",
-      "slug": "production-apis-with-fastapi",
+      "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+      "slug": "apis-and-apps-fastapi-streamlit-and-docker",
       "module": "Validation and Schemas",
       "anchor": "m4"
      }
@@ -4929,19 +3616,9 @@
     ]
    },
    {
-    "title": "Agents, Monitoring and Deployment",
+    "title": "Monitoring and Deployment",
     "added": false,
     "lessons": [
-     {
-      "title": "LangChain Agents",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "ReAct Agents with AgentExecutor",
-      "type": "Article",
-      "added": false
-     },
      {
       "title": "LangSmith Monitoring",
       "type": "Article",
@@ -4960,8 +3637,8 @@
     ],
     "prerequisites": [
      {
-      "course": "Production APIs with FastAPI",
-      "slug": "production-apis-with-fastapi",
+      "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+      "slug": "apis-and-apps-fastapi-streamlit-and-docker",
       "module": "APIs and FastAPI Fundamentals",
       "anchor": "m2"
      }
@@ -4969,7 +3646,7 @@
    }
   ],
   "module_count": 8,
-  "lesson_count": 39,
+  "lesson_count": 37,
   "hours": 17,
   "prerequisites": [
    {
@@ -4979,16 +3656,18 @@
   ]
  },
  {
-  "id": 33,
+  "id": 17,
   "slug": "retrieval-augmented-generation-rag",
-  "track": "Track 7 · Generative AI",
+  "track": "Track 6 · Generative AI",
   "title": "Retrieval-Augmented Generation (RAG)",
   "level": "Intermediate",
   "syllabus_modules": [
-   23
+   23,
+   21,
+   24
   ],
   "added": false,
-  "description": "Ground LLMs in your own data: loaders, splitters, vector stores, retrievers, the RAG pipeline, hybrid search, reranking and multimodal RAG.",
+  "description": "Ground LLMs in your own data: embeddings and vector databases, loaders, splitters, retrievers, hybrid search, reranking, vectorless and multimodal RAG, and evaluating it all.",
   "modules": [
    {
     "title": "Start Here",
@@ -5027,16 +3706,114 @@
     ],
     "prerequisites": [
      {
-      "course": "Vector Databases for AI",
-      "slug": "vector-databases-for-ai",
-      "module": "Introduction to Vector Databases",
-      "anchor": "m2"
-     },
-     {
       "course": "Generative AI and LLM Foundations",
       "slug": "generative-ai-and-llm-foundations",
       "module": "How LLMs Work",
       "anchor": "m3"
+     }
+    ]
+   },
+   {
+    "title": "Embeddings and Vector Databases",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Embeddings and Similarity Search",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Semantic Search Explained",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Vector vs SQL vs NoSQL Databases",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Storage and Indexing (HNSW, IVF)",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "In-Memory, On-Disk and Cloud Vector DBs",
+      "type": "Article",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "NLP for Machine Learning",
+      "slug": "nlp-for-machine-learning",
+      "module": "Word Embeddings",
+      "anchor": "m5"
+     },
+     {
+      "course": "Databases: SQL and NoSQL",
+      "slug": "databases-sql-and-nosql",
+      "module": "Relational Databases and SQL",
+      "anchor": "m2"
+     }
+    ]
+   },
+   {
+    "title": "Vector Database Tools",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Chroma",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "FAISS",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Qdrant",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Pinecone",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "LanceDB",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Vector Search in MongoDB and Cassandra",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Embedding-Based Retrieval Pipelines",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Same search in three vector DBs",
+      "type": "Lab",
+      "added": false
+     },
+     {
+      "title": "Lab: Semantic search over your notes",
+      "type": "Lab",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Databases: SQL and NoSQL",
+      "slug": "databases-sql-and-nosql",
+      "module": "NoSQL with MongoDB Atlas",
+      "anchor": "m4"
      }
     ]
    },
@@ -5078,6 +3855,14 @@
       "title": "MMR, Multi-Query and Contextual Compression Retrievers",
       "type": "Article",
       "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "LangChain Complete Guide",
+      "slug": "langchain-complete-guide",
+      "module": "Chains and Runnables",
+      "anchor": "m6"
      }
     ]
    },
@@ -5129,9 +3914,9 @@
       "anchor": "m6"
      },
      {
-      "course": "Vector Databases for AI",
-      "slug": "vector-databases-for-ai",
-      "module": "Tools",
+      "course": "Retrieval-Augmented Generation (RAG)",
+      "slug": "retrieval-augmented-generation-rag",
+      "module": "Vector Database Tools",
       "anchor": "m4"
      }
     ]
@@ -5155,48 +3940,34 @@
       "type": "Lab",
       "added": false
      }
-    ],
-    "prerequisites": [
-     {
-      "course": "LangChain Complete Guide",
-      "slug": "langchain-complete-guide",
-      "module": "Chains and Runnables",
-      "anchor": "m6"
-     }
     ]
-   }
-  ],
-  "module_count": 5,
-  "lesson_count": 22,
-  "hours": 10,
-  "prerequisites": [
-   {
-    "course": "Vector Databases for AI",
-    "slug": "vector-databases-for-ai"
    },
    {
-    "course": "LangChain Complete Guide",
-    "slug": "langchain-complete-guide"
-   }
-  ]
- },
- {
-  "id": 34,
-  "slug": "enterprise-llm-systems",
-  "track": "Track 7 · Generative AI",
-  "title": "Enterprise LLM Systems",
-  "level": "Advanced",
-  "syllabus_modules": [
-   24
-  ],
-  "added": false,
-  "description": "Run LLM systems at scale: RAG evaluation with Ragas, observability with LangSmith and Opik, vectorless RAG and LLM gateways.",
-  "modules": [
-   {
-    "title": "Start Here",
+    "title": "Vectorless RAG",
+    "added": false,
     "lessons": [
      {
-      "title": "How This Course Works",
+      "title": "Limits of Vector RAG",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "PageIndex and Chunk-Free Segmentation",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "The Document Tree Model",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "The Iterative Search Loop",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Deterministic Page Referencing",
       "type": "Article",
       "added": false
      }
@@ -5232,181 +4003,29 @@
       "course": "Retrieval-Augmented Generation (RAG)",
       "slug": "retrieval-augmented-generation-rag",
       "module": "Implementing RAG",
-      "anchor": "m4"
-     }
-    ]
-   },
-   {
-    "title": "Observability",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Traces and Spans",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "LangSmith Setup and Zero-Code Tracing",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Intermediate Outputs and Analytics",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Feedback and Annotation Loops",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Prompt Optimisation Pipelines",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Low-Code Agent Tracing",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Trace an app in LangSmith and Opik",
-      "type": "Lab",
-      "added": false
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "LangChain Complete Guide",
-      "slug": "langchain-complete-guide",
-      "module": "Agents, Monitoring and Deployment",
-      "anchor": "m8"
-     }
-    ]
-   },
-   {
-    "title": "Vectorless RAG",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Limits of Vector RAG",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "PageIndex and Chunk-Free Segmentation",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "The Document Tree Model",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "The Iterative Search Loop",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Deterministic Page Referencing",
-      "type": "Article",
-      "added": false
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "Retrieval-Augmented Generation (RAG)",
-      "slug": "retrieval-augmented-generation-rag",
-      "module": "Implementing RAG",
-      "anchor": "m4"
-     }
-    ]
-   },
-   {
-    "title": "LLM Gateways",
-    "added": false,
-    "lessons": [
-     {
-      "title": "What is an LLM Gateway?",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "OpenAI-Compatible Routing with Bifrost",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Drop-In SDK Replacement",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Automated Structured Fallbacks",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Add a gateway with automatic fallback",
-      "type": "Lab",
-      "added": false
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "Production APIs with FastAPI",
-      "slug": "production-apis-with-fastapi",
-      "module": "Production Considerations",
-      "anchor": "m5"
-     }
-    ]
-   },
-   {
-    "title": "Guardrails and Security",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Prompt Injection Explained",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Input and Output Guardrails",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Attack and defend your own app",
-      "type": "Lab",
-      "added": true
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "LangChain Complete Guide",
-      "slug": "langchain-complete-guide",
-      "module": "Agents, Monitoring and Deployment",
-      "anchor": "m8"
+      "anchor": "m6"
      }
     ]
    }
   ],
-  "module_count": 6,
-  "lesson_count": 25,
-  "hours": 11,
+  "module_count": 9,
+  "lesson_count": 45,
+  "hours": 20,
   "prerequisites": [
    {
-    "course": "Retrieval-Augmented Generation (RAG)",
-    "slug": "retrieval-augmented-generation-rag"
+    "course": "LangChain Complete Guide",
+    "slug": "langchain-complete-guide"
+   },
+   {
+    "course": "Databases: SQL and NoSQL",
+    "slug": "databases-sql-and-nosql"
    }
   ]
  },
  {
-  "id": 35,
+  "id": 18,
   "slug": "agentic-ai-fundamentals",
-  "track": "Track 8 · Agentic AI",
+  "track": "Track 7 · Agentic AI",
   "title": "Agentic AI Fundamentals",
   "level": "Beginner",
   "syllabus_modules": [
@@ -5469,6 +4088,11 @@
       "added": true
      },
      {
+      "title": "How an Agent Decides What to Do Next",
+      "type": "Article",
+      "added": true
+     },
+     {
       "title": "Workflows vs Agents",
       "type": "Article",
       "added": true
@@ -5516,6 +4140,12 @@
       "slug": "generative-ai-and-llm-foundations",
       "module": "Prompting and Structured Output",
       "anchor": "m4"
+     },
+     {
+      "course": "LangChain Complete Guide",
+      "slug": "langchain-complete-guide",
+      "module": "Tools and Tool Calling",
+      "anchor": "m7"
      }
     ]
    },
@@ -5554,19 +4184,11 @@
       "type": "Article",
       "added": false
      }
-    ],
-    "prerequisites": [
-     {
-      "course": "LangChain Complete Guide",
-      "slug": "langchain-complete-guide",
-      "module": "Agents, Monitoring and Deployment",
-      "anchor": "m8"
-     }
     ]
    }
   ],
   "module_count": 6,
-  "lesson_count": 18,
+  "lesson_count": 19,
   "hours": 8,
   "prerequisites": [
    {
@@ -5576,16 +4198,18 @@
   ]
  },
  {
-  "id": 36,
-  "slug": "langgraph-fundamentals",
-  "track": "Track 8 · Agentic AI",
-  "title": "LangGraph Fundamentals",
+  "id": 19,
+  "slug": "langgraph-complete-guide",
+  "track": "Track 7 · Agentic AI",
+  "title": "LangGraph Complete Guide",
   "level": "Intermediate",
   "syllabus_modules": [
-   26
+   26,
+   27,
+   28
   ],
   "added": false,
-  "description": "Build agent workflows as graphs: core concepts, sequential, parallel, conditional and looping workflows, chatbots, persistence, tools and subgraphs.",
+  "description": "Build agents as graphs, from your first node to production: workflow patterns, state and reducers, tools, persistence, memory, human-in-the-loop, time travel and subgraphs.",
   "modules": [
    {
     "title": "Start Here",
@@ -5689,6 +4313,37 @@
     ]
    },
    {
+    "title": "State in Depth",
+    "added": false,
+    "lessons": [
+     {
+      "title": "The LangGraph State System",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "State Schemas and Data Flow",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "State Reducers",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Multiple Schemas",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: A multi-schema agent",
+      "type": "Lab",
+      "added": false
+     }
+    ]
+   },
+   {
     "title": "Workflows and Agents",
     "added": false,
     "lessons": [
@@ -5699,6 +4354,16 @@
      },
      {
       "title": "Routers",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "LangChain Agents",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "ReAct Agents with AgentExecutor",
       "type": "Article",
       "added": false
      },
@@ -5739,6 +4404,12 @@
       "slug": "agentic-ai-fundamentals",
       "module": "Tools and Function Calling",
       "anchor": "m4"
+     },
+     {
+      "course": "Agentic AI Fundamentals",
+      "slug": "agentic-ai-fundamentals",
+      "module": "Reasoning Patterns",
+      "anchor": "m5"
      }
     ]
    },
@@ -5774,10 +4445,90 @@
     ],
     "prerequisites": [
      {
-      "course": "Interactive Data Apps with Streamlit",
-      "slug": "interactive-data-apps-with-streamlit",
+      "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+      "slug": "apis-and-apps-fastapi-streamlit-and-docker",
       "module": "Streamlit Basics",
-      "anchor": "m2"
+      "anchor": "m6"
+     }
+    ]
+   },
+   {
+    "title": "Memory",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Trimming and Filtering Messages",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Summarising Long Conversations",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Long-Term Memory with Stores",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Keep a long chat under budget",
+      "type": "Lab",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Generative AI and LLM Foundations",
+      "slug": "generative-ai-and-llm-foundations",
+      "module": "How LLMs Work",
+      "anchor": "m3"
+     }
+    ]
+   },
+   {
+    "title": "Human-in-the-Loop and Debugging",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Streaming Real-Time Updates",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Breakpoints",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Pausing with interrupt and Resuming with Command",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Editing State with Human Input",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Dynamic Breakpoints",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Time Travel: Rewind and Replay",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Approval step before a risky tool",
+      "type": "Lab",
+      "added": false
+     },
+     {
+      "title": "Lab: Debug an agent with time travel",
+      "type": "Lab",
+      "added": false
      }
     ]
    },
@@ -5819,9 +4570,9 @@
     ]
    }
   ],
-  "module_count": 7,
-  "lesson_count": 32,
-  "hours": 15,
+  "module_count": 10,
+  "lesson_count": 51,
+  "hours": 24,
   "prerequisites": [
    {
     "course": "Agentic AI Fundamentals",
@@ -5834,228 +4585,9 @@
   ]
  },
  {
-  "id": 37,
-  "slug": "langgraph-state-and-memory",
-  "track": "Track 8 · Agentic AI",
-  "title": "LangGraph State and Memory",
-  "level": "Intermediate",
-  "syllabus_modules": [
-   27
-  ],
-  "added": false,
-  "description": "Master LangGraph's state system: schemas, reducers, multiple schemas, and trimming messages to save context.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "State Fundamentals",
-    "added": false,
-    "lessons": [
-     {
-      "title": "The LangGraph State System",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "State Schemas and Data Flow",
-      "type": "Article",
-      "added": false
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "LangGraph Fundamentals",
-      "slug": "langgraph-fundamentals",
-      "module": "Workflows and Agents",
-      "anchor": "m4"
-     }
-    ]
-   },
-   {
-    "title": "Advanced State",
-    "added": false,
-    "lessons": [
-     {
-      "title": "State Reducers",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Multiple Schemas",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: A multi-schema agent",
-      "type": "Lab",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Optimising Memory",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Trimming and Filtering Messages",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Summarising Long Conversations",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Long-Term Memory with Stores",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Keep a long chat under budget",
-      "type": "Lab",
-      "added": false
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "Generative AI and LLM Foundations",
-      "slug": "generative-ai-and-llm-foundations",
-      "module": "How LLMs Work",
-      "anchor": "m3"
-     }
-    ]
-   }
-  ],
-  "module_count": 4,
-  "lesson_count": 10,
-  "hours": 5,
-  "prerequisites": [
-   {
-    "course": "LangGraph Fundamentals",
-    "slug": "langgraph-fundamentals"
-   }
-  ]
- },
- {
-  "id": 38,
-  "slug": "human-in-the-loop-with-langgraph",
-  "track": "Track 8 · Agentic AI",
-  "title": "Human-in-the-Loop with LangGraph",
-  "level": "Intermediate",
-  "syllabus_modules": [
-   28
-  ],
-  "added": false,
-  "description": "Make agents interactive and controllable: streaming, interrupts, breakpoints, human edits to state and time travel.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Interactive Workflows",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Streaming Real-Time Updates",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Breakpoints",
-      "type": "Article",
-      "added": false
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "LangGraph State and Memory",
-      "slug": "langgraph-state-and-memory",
-      "module": "State Fundamentals",
-      "anchor": "m2"
-     }
-    ]
-   },
-   {
-    "title": "Human Feedback",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Pausing with interrupt and Resuming with Command",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Editing State with Human Input",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Dynamic Breakpoints",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Approval step before a risky tool",
-      "type": "Lab",
-      "added": false
-     }
-    ],
-    "prerequisites": [
-     {
-      "course": "Enterprise LLM Systems",
-      "slug": "enterprise-llm-systems",
-      "module": "Guardrails and Security",
-      "anchor": "m6"
-     }
-    ]
-   },
-   {
-    "title": "Debugging",
-    "added": false,
-    "lessons": [
-     {
-      "title": "Time Travel: Rewind and Replay",
-      "type": "Article",
-      "added": false
-     },
-     {
-      "title": "Lab: Debug an agent with time travel",
-      "type": "Lab",
-      "added": false
-     }
-    ]
-   }
-  ],
-  "module_count": 4,
-  "lesson_count": 9,
-  "hours": 4,
-  "prerequisites": [
-   {
-    "course": "LangGraph State and Memory",
-    "slug": "langgraph-state-and-memory"
-   }
-  ]
- },
- {
-  "id": 39,
+  "id": 20,
   "slug": "agentic-rag-systems",
-  "track": "Track 8 · Agentic AI",
+  "track": "Track 7 · Agentic AI",
   "title": "Agentic RAG Systems",
   "level": "Advanced",
   "syllabus_modules": [
@@ -6104,13 +4636,13 @@
       "course": "Retrieval-Augmented Generation (RAG)",
       "slug": "retrieval-augmented-generation-rag",
       "module": "Implementing RAG",
-      "anchor": "m4"
+      "anchor": "m6"
      },
      {
-      "course": "LangGraph Fundamentals",
-      "slug": "langgraph-fundamentals",
+      "course": "LangGraph Complete Guide",
+      "slug": "langgraph-complete-guide",
       "module": "Workflows and Agents",
-      "anchor": "m4"
+      "anchor": "m5"
      }
     ]
    },
@@ -6165,16 +4697,16 @@
     ],
     "prerequisites": [
      {
-      "course": "Vector Databases for AI",
-      "slug": "vector-databases-for-ai",
-      "module": "Tools",
+      "course": "Retrieval-Augmented Generation (RAG)",
+      "slug": "retrieval-augmented-generation-rag",
+      "module": "Vector Database Tools",
       "anchor": "m4"
      },
      {
-      "course": "Enterprise LLM Systems",
-      "slug": "enterprise-llm-systems",
+      "course": "Retrieval-Augmented Generation (RAG)",
+      "slug": "retrieval-augmented-generation-rag",
       "module": "RAG Evaluation",
-      "anchor": "m2"
+      "anchor": "m9"
      }
     ]
    }
@@ -6188,15 +4720,497 @@
     "slug": "retrieval-augmented-generation-rag"
    },
    {
-    "course": "LangGraph Fundamentals",
-    "slug": "langgraph-fundamentals"
+    "course": "LangGraph Complete Guide",
+    "slug": "langgraph-complete-guide"
    }
   ]
  },
  {
-  "id": 40,
+  "id": 21,
+  "slug": "knowledge-graphs-ontologies-and-unstructured-data",
+  "track": "Track 7 · Agentic AI",
+  "title": "Knowledge Graphs, Ontologies and Unstructured Data",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Model the world as entities and relationships: ontologies with worked examples, Neo4j and Cypher, turning documents into structured data, and knowledge graphs that power agents and GraphRAG.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Entities and Relationships",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Entities, Relationships and Properties",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "What is a Knowledge Graph?",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Knowledge Graphs vs Relational Databases vs Vector Stores",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Where Knowledge Graphs Are Used",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Ontologies and Semantics",
+    "added": true,
+    "lessons": [
+     {
+      "title": "What is an Ontology? A Worked Example",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Taxonomies, Schemas and Ontologies Compared",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "RDF, RDFS and OWL in Plain English",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Designing an Ontology for Your Domain",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Semantic Search, Semantic Layers and Shared Meaning",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Design an ontology for an online shop",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Neo4j and Cypher",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Property Graphs and Neo4j",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Cypher Basics: MATCH, CREATE and MERGE",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Graph Data Modelling",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Graph Algorithms: Paths, Centrality and Communities",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "SPARQL and RDF Triple Stores",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Build a company knowledge graph in Neo4j",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Digitising Unstructured Data",
+    "added": true,
+    "lessons": [
+     {
+      "title": "From Documents to Data: OCR and Document Parsing",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Extracting Tables, Forms and Layout",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Entity and Relation Extraction with LLMs",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Schema-Guided Extraction with Pydantic",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Entity Resolution and Deduplication",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Turn a pile of invoices into structured records",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Knowledge Graphs for AI Agents",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Building a Knowledge Graph from Text with an LLM",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "GraphRAG",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Hybrid Retrieval: Graphs plus Vectors",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Text-to-Cypher Agents",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Ontology-Grounded Agents",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: A GraphRAG agent over company documents",
+      "type": "Lab",
+      "added": true
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Agentic RAG Systems",
+      "slug": "agentic-rag-systems",
+      "module": "Agentic RAG Architectures",
+      "anchor": "m3"
+     },
+     {
+      "course": "Retrieval-Augmented Generation (RAG)",
+      "slug": "retrieval-augmented-generation-rag",
+      "module": "Embeddings and Vector Databases",
+      "anchor": "m3"
+     }
+    ]
+   }
+  ],
+  "module_count": 6,
+  "lesson_count": 29,
+  "hours": 13,
+  "prerequisites": [
+   {
+    "course": "Agentic RAG Systems",
+    "slug": "agentic-rag-systems"
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "slug": "context-engineering-and-agent-memory",
+  "track": "Track 7 · Agentic AI",
+  "title": "Context Engineering and Agent Memory",
+  "level": "Intermediate",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Treat the context window as a budget: what to put in it, when to fetch more, how to compact long runs, and how agents remember across sessions.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "The Context Window as a Budget",
+    "added": true,
+    "lessons": [
+     {
+      "title": "From Prompt Engineering to Context Engineering",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Context Rot and Lost in the Middle",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "System Prompts at the Right Altitude",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Examples vs Rules",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Prompt Caching",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Just-in-Time Context",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Retrieval vs Agentic Search",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Tool Results that Don't Flood the Window",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Compaction and Summarisation",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Offloading Context to Files and Scratchpads",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Keep a 200-step agent inside its budget",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Memory Systems",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Short-Term vs Long-Term Memory",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Semantic, Episodic and Procedural Memory",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Memory Files: CLAUDE.md and AGENTS.md",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Writing, Updating and Forgetting Memories",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Knowledge Graphs as Agent Memory",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: An assistant that remembers your preferences",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 4,
+  "lesson_count": 17,
+  "hours": 8,
+  "prerequisites": [
+   {
+    "course": "LangGraph Complete Guide",
+    "slug": "langgraph-complete-guide"
+   },
+   {
+    "course": "Knowledge Graphs, Ontologies and Unstructured Data",
+    "slug": "knowledge-graphs-ontologies-and-unstructured-data"
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "slug": "tools-agent-skills-and-code-execution",
+  "track": "Track 7 · Agentic AI",
+  "title": "Tools, Agent Skills and Code Execution",
+  "level": "Intermediate",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Give agents capabilities the right way: tools models use well, tool search for large toolsets, code execution, and Agent Skills (SKILL.md).",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Writing Tools for Agents",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Naming, Descriptions and Parameters",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Returning Just Enough",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Error Messages that Help the Agent Recover",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Evaluating Tools with an Agent in the Loop",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Scaling to Many Tools",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Why Hundreds of Tool Schemas Break Agents",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Tool Search and Deferred Loading",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Code Execution: Agents that Write Code against Tools",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Sandboxes for Running Agent Code",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Agent with a code-execution sandbox",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Agent Skills",
+    "added": true,
+    "lessons": [
+     {
+      "title": "What is an Agent Skill?",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Anatomy of a Skill Folder and SKILL.md",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Progressive Disclosure: Discovery, Activation, Execution",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Writing Descriptions that Trigger Correctly",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Bundling Scripts and Reference Files",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Skills vs MCP vs Subagents vs Prompts",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Testing, Versioning and Sharing Skills",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Write a skill and use it in two different agents",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 4,
+  "lesson_count": 18,
+  "hours": 8,
+  "prerequisites": [
+   {
+    "course": "Context Engineering and Agent Memory",
+    "slug": "context-engineering-and-agent-memory"
+   }
+  ]
+ },
+ {
+  "id": 24,
   "slug": "model-context-protocol-mcp",
-  "track": "Track 8 · Agentic AI",
+  "track": "Track 7 · Agentic AI",
   "title": "Model Context Protocol (MCP)",
   "level": "Intermediate",
   "syllabus_modules": [
@@ -6326,11 +5340,6 @@
       "added": false
      },
      {
-      "title": "Agent-to-Agent (A2A) Protocol",
-      "type": "Article",
-      "added": true
-     },
-     {
       "title": "Lab: Build and connect your own MCP server",
       "type": "Lab",
       "added": false
@@ -6349,10 +5358,10 @@
       "anchor": "m7"
      },
      {
-      "course": "Production APIs with FastAPI",
-      "slug": "production-apis-with-fastapi",
+      "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+      "slug": "apis-and-apps-fastapi-streamlit-and-docker",
       "module": "Docker and Cloud Deployment",
-      "anchor": "m7"
+      "anchor": "m9"
      }
     ]
    },
@@ -6384,294 +5393,23 @@
    }
   ],
   "module_count": 6,
-  "lesson_count": 24,
+  "lesson_count": 23,
   "hours": 10,
   "prerequisites": [
    {
-    "course": "Agentic AI Fundamentals",
-    "slug": "agentic-ai-fundamentals"
+    "course": "Tools, Agent Skills and Code Execution",
+    "slug": "tools-agent-skills-and-code-execution"
    },
    {
-    "course": "LangChain Complete Guide",
-    "slug": "langchain-complete-guide"
+    "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+    "slug": "apis-and-apps-fastapi-streamlit-and-docker"
    }
   ]
  },
  {
-  "id": 41,
-  "slug": "context-engineering-and-agent-memory",
-  "track": "Track 8 · Agentic AI",
-  "title": "Context Engineering and Agent Memory",
-  "level": "Intermediate",
-  "syllabus_modules": [],
-  "added": true,
-  "description": "Treat the context window as a budget: what to put in it, when to fetch more, how to compact long runs, and how agents remember across sessions.",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "The Context Window as a Budget",
-    "added": true,
-    "lessons": [
-     {
-      "title": "From Prompt Engineering to Context Engineering",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Context Rot and Lost in the Middle",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "System Prompts at the Right Altitude",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Examples vs Rules",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Prompt Caching",
-      "type": "Article",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "Just-in-Time Context",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Retrieval vs Agentic Search",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Tool Results that Don't Flood the Window",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Compaction and Summarisation",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Offloading Context to Files and Scratchpads",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Keep a 200-step agent inside its budget",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "Memory Systems",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Short-Term vs Long-Term Memory",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Semantic, Episodic and Procedural Memory",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Memory Files: CLAUDE.md and AGENTS.md",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Writing, Updating and Forgetting Memories",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Knowledge Graphs as Agent Memory",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: An assistant that remembers your preferences",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   }
-  ],
-  "module_count": 4,
-  "lesson_count": 17,
-  "hours": 8,
-  "prerequisites": [
-   {
-    "course": "Agentic AI Fundamentals",
-    "slug": "agentic-ai-fundamentals"
-   },
-   {
-    "course": "LangGraph State and Memory",
-    "slug": "langgraph-state-and-memory"
-   }
-  ]
- },
- {
-  "id": 42,
-  "slug": "tools-agent-skills-and-code-execution",
-  "track": "Track 8 · Agentic AI",
-  "title": "Tools, Agent Skills and Code Execution",
-  "level": "Intermediate",
-  "syllabus_modules": [],
-  "added": true,
-  "description": "Give agents capabilities the right way: tools models use well, tool search for large toolsets, code execution, and Agent Skills (SKILL.md).",
-  "modules": [
-   {
-    "title": "Start Here",
-    "lessons": [
-     {
-      "title": "How This Course Works",
-      "type": "Article",
-      "added": false
-     }
-    ]
-   },
-   {
-    "title": "Writing Tools for Agents",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Naming, Descriptions and Parameters",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Returning Just Enough",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Error Messages that Help the Agent Recover",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Evaluating Tools with an Agent in the Loop",
-      "type": "Article",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "Scaling to Many Tools",
-    "added": true,
-    "lessons": [
-     {
-      "title": "Why Hundreds of Tool Schemas Break Agents",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Tool Search and Deferred Loading",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Code Execution: Agents that Write Code against Tools",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Sandboxes for Running Agent Code",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Agent with a code-execution sandbox",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   },
-   {
-    "title": "Agent Skills",
-    "added": true,
-    "lessons": [
-     {
-      "title": "What is an Agent Skill?",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Anatomy of a Skill Folder and SKILL.md",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Progressive Disclosure: Discovery, Activation, Execution",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Writing Descriptions that Trigger Correctly",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Bundling Scripts and Reference Files",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Skills vs MCP vs Subagents vs Prompts",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Testing, Versioning and Sharing Skills",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Lab: Write a skill and use it in two different agents",
-      "type": "Lab",
-      "added": true
-     }
-    ]
-   }
-  ],
-  "module_count": 4,
-  "lesson_count": 18,
-  "hours": 8,
-  "prerequisites": [
-   {
-    "course": "Model Context Protocol (MCP)",
-    "slug": "model-context-protocol-mcp"
-   },
-   {
-    "course": "Context Engineering and Agent Memory",
-    "slug": "context-engineering-and-agent-memory"
-   }
-  ]
- },
- {
-  "id": 43,
+  "id": 25,
   "slug": "agent-frameworks-and-sdks",
-  "track": "Track 8 · Agentic AI",
+  "track": "Track 7 · Agentic AI",
   "title": "Agent Frameworks and SDKs",
   "level": "Intermediate",
   "syllabus_modules": [],
@@ -6813,8 +5551,8 @@
   "hours": 9,
   "prerequisites": [
    {
-    "course": "LangGraph Fundamentals",
-    "slug": "langgraph-fundamentals"
+    "course": "LangGraph Complete Guide",
+    "slug": "langgraph-complete-guide"
    },
    {
     "course": "Model Context Protocol (MCP)",
@@ -6823,9 +5561,9 @@
   ]
  },
  {
-  "id": 44,
+  "id": 26,
   "slug": "multi-agent-systems-and-agent-protocols",
-  "track": "Track 8 · Agentic AI",
+  "track": "Track 7 · Agentic AI",
   "title": "Multi-Agent Systems and Agent Protocols",
   "level": "Advanced",
   "syllabus_modules": [],
@@ -6873,6 +5611,11 @@
     "added": true,
     "lessons": [
      {
+      "title": "Agent-to-Agent (A2A) Protocol",
+      "type": "Article",
+      "added": true
+     },
+     {
       "title": "A2A Deep Dive: Agent Cards and Discovery",
       "type": "Article",
       "added": true
@@ -6914,7 +5657,7 @@
       "added": true
      },
      {
-      "title": "Generative UI and MCP Apps",
+      "title": "Generative UI",
       "type": "Article",
       "added": true
      },
@@ -6927,7 +5670,7 @@
    }
   ],
   "module_count": 4,
-  "lesson_count": 14,
+  "lesson_count": 15,
   "hours": 6,
   "prerequisites": [
    {
@@ -6937,9 +5680,9 @@
   ]
  },
  {
-  "id": 45,
+  "id": 27,
   "slug": "coding-agents-and-harness-engineering",
-  "track": "Track 8 · Agentic AI",
+  "track": "Track 7 · Agentic AI",
   "title": "Coding Agents and Harness Engineering",
   "level": "Advanced",
   "syllabus_modules": [],
@@ -6979,6 +5722,51 @@
       "title": "Reviewing AI-Written Code",
       "type": "Article",
       "added": true
+     }
+    ]
+   },
+   {
+    "title": "Coding Agents on GitHub",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Copilot in the Editor and on GitHub",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Coding Agents that Open Pull Requests",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Repository Instructions: AGENTS.md and Custom Instructions",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The GitHub MCP Server",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Running Coding Agents in GitHub Actions",
+      "type": "Article",
+      "added": true
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Git and GitHub: Zero to Pro",
+      "slug": "git-and-github-zero-to-pro",
+      "module": "GitHub Actions",
+      "anchor": "m7"
+     },
+     {
+      "course": "Model Context Protocol (MCP)",
+      "slug": "model-context-protocol-mcp",
+      "module": "Building with MCP",
+      "anchor": "m5"
      }
     ]
    },
@@ -7044,22 +5832,12 @@
     "added": true,
     "lessons": [
      {
-      "title": "Instruction Files as a Map, Not a Manual",
-      "type": "Article",
-      "added": true
-     },
-     {
       "title": "Linters and Tests that Teach the Agent",
       "type": "Article",
       "added": true
      },
      {
       "title": "Background Cleanup Agents",
-      "type": "Article",
-      "added": true
-     },
-     {
-      "title": "Headless Agents in CI",
       "type": "Article",
       "added": true
      },
@@ -7071,9 +5849,9 @@
     ]
    }
   ],
-  "module_count": 5,
-  "lesson_count": 19,
-  "hours": 8,
+  "module_count": 6,
+  "lesson_count": 22,
+  "hours": 10,
   "prerequisites": [
    {
     "course": "Tools, Agent Skills and Code Execution",
@@ -7086,9 +5864,9 @@
   ]
  },
  {
-  "id": 46,
+  "id": 28,
   "slug": "computer-use-browser-and-voice-agents",
-  "track": "Track 8 · Agentic AI",
+  "track": "Track 7 · Agentic AI",
   "title": "Computer-Use, Browser and Voice Agents",
   "level": "Advanced",
   "syllabus_modules": [],
@@ -7190,12 +5968,14 @@
   ]
  },
  {
-  "id": 47,
+  "id": 29,
   "slug": "agent-evals-observability-and-reliability",
-  "track": "Track 8 · Agentic AI",
+  "track": "Track 7 · Agentic AI",
   "title": "Agent Evals, Observability and Reliability",
   "level": "Advanced",
-  "syllabus_modules": [],
+  "syllabus_modules": [
+   24
+  ],
   "added": true,
   "description": "Know whether your agent works: outcome and trajectory evals, LLM judges, benchmarks, tracing with OpenTelemetry, and reliability engineering.",
   "modules": [
@@ -7268,15 +6048,30 @@
    },
    {
     "title": "Observability",
-    "added": true,
+    "added": false,
     "lessons": [
      {
       "title": "Traces, Spans and OpenTelemetry GenAI Conventions",
       "type": "Article",
-      "added": true
+      "added": false
      },
      {
-      "title": "LangSmith, Langfuse, Phoenix and Braintrust",
+      "title": "LangSmith Setup and Zero-Code Tracing",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Intermediate Outputs and Analytics",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Low-Code Agent Tracing",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Langfuse, Opik, Phoenix and Braintrust",
       "type": "Article",
       "added": true
      },
@@ -7286,14 +6081,27 @@
       "added": true
      },
      {
-      "title": "Online Evals and Feedback Loops",
+      "title": "Feedback and Annotation Loops",
       "type": "Article",
-      "added": true
+      "added": false
      },
      {
-      "title": "Lab: Trace and debug an agent with Langfuse",
+      "title": "Prompt Optimisation Pipelines",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Trace an app in LangSmith and Opik",
       "type": "Lab",
-      "added": true
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "LangChain Complete Guide",
+      "slug": "langchain-complete-guide",
+      "module": "Monitoring and Deployment",
+      "anchor": "m8"
      }
     ]
    },
@@ -7320,23 +6128,23 @@
    }
   ],
   "module_count": 5,
-  "lesson_count": 18,
-  "hours": 8,
+  "lesson_count": 22,
+  "hours": 10,
   "prerequisites": [
    {
     "course": "Agent Frameworks and SDKs",
     "slug": "agent-frameworks-and-sdks"
    },
    {
-    "course": "Enterprise LLM Systems",
-    "slug": "enterprise-llm-systems"
+    "course": "Retrieval-Augmented Generation (RAG)",
+    "slug": "retrieval-augmented-generation-rag"
    }
   ]
  },
  {
-  "id": 48,
+  "id": 30,
   "slug": "agent-security-and-safety",
-  "track": "Track 8 · Agentic AI",
+  "track": "Track 7 · Agentic AI",
   "title": "Agent Security and Safety",
   "level": "Advanced",
   "syllabus_modules": [],
@@ -7461,18 +6269,20 @@
     "slug": "tools-agent-skills-and-code-execution"
    },
    {
-    "course": "Enterprise LLM Systems",
-    "slug": "enterprise-llm-systems"
+    "course": "Model Context Protocol (MCP)",
+    "slug": "model-context-protocol-mcp"
    }
   ]
  },
  {
-  "id": 49,
+  "id": 31,
   "slug": "shipping-agents-to-production",
-  "track": "Track 8 · Agentic AI",
+  "track": "Track 7 · Agentic AI",
   "title": "Shipping Agents to Production",
   "level": "Advanced",
-  "syllabus_modules": [],
+  "syllabus_modules": [
+   24
+  ],
   "added": true,
   "description": "Architect, run and operate agents for real users: separating the loop from the sandbox, background agents, UX for approvals, and cost control.",
   "modules": [
@@ -7532,21 +6342,96 @@
       "added": true
      },
      {
-      "title": "Model Routing and Fallbacks",
+      "title": "Lab: Ship a background agent with approvals",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "LLM Gateways and Model Routing",
+    "added": false,
+    "lessons": [
+     {
+      "title": "What is an LLM Gateway?",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "OpenAI-Compatible Routing with Bifrost",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Drop-In SDK Replacement",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Automated Structured Fallbacks",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Add a gateway with automatic fallback",
+      "type": "Lab",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+      "slug": "apis-and-apps-fastapi-streamlit-and-docker",
+      "module": "Production Considerations",
+      "anchor": "m5"
+     }
+    ]
+   },
+   {
+    "title": "Personal and Business Automation Agents",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Identity Files: Giving an Agent a Persona and Rules",
       "type": "Article",
       "added": true
      },
      {
-      "title": "Lab: Ship a background agent with approvals",
+      "title": "The Setup Interview: Capturing What the Agent Needs to Know",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Tool Registries and Skill Kits",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Scheduled Agents with cron",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Running an Agent on Your Laptop with Local Models",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Agents for Business Automation: Case Studies",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Build a personal assistant agent end to end",
       "type": "Lab",
       "added": true
      }
     ]
    }
   ],
-  "module_count": 3,
-  "lesson_count": 10,
-  "hours": 4,
+  "module_count": 5,
+  "lesson_count": 21,
+  "hours": 9,
   "prerequisites": [
    {
     "course": "Agent Evals, Observability and Reliability",
@@ -7557,15 +6442,15 @@
     "slug": "agent-security-and-safety"
    },
    {
-    "course": "Production APIs with FastAPI",
-    "slug": "production-apis-with-fastapi"
+    "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+    "slug": "apis-and-apps-fastapi-streamlit-and-docker"
    }
   ]
  },
  {
-  "id": 50,
+  "id": 32,
   "slug": "multi-agent-research-system-capstone",
-  "track": "Track 8 · Agentic AI",
+  "track": "Track 7 · Agentic AI",
   "title": "Multi-Agent Research System (Capstone)",
   "level": "Advanced",
   "syllabus_modules": [
@@ -7630,16 +6515,16 @@
     ],
     "prerequisites": [
      {
-      "course": "LangGraph State and Memory",
-      "slug": "langgraph-state-and-memory",
-      "module": "Advanced State",
-      "anchor": "m3"
+      "course": "LangGraph Complete Guide",
+      "slug": "langgraph-complete-guide",
+      "module": "State in Depth",
+      "anchor": "m4"
      },
      {
-      "course": "Human-in-the-Loop with LangGraph",
-      "slug": "human-in-the-loop-with-langgraph",
-      "module": "Human Feedback",
-      "anchor": "m3"
+      "course": "LangGraph Complete Guide",
+      "slug": "langgraph-complete-guide",
+      "module": "Human-in-the-Loop and Debugging",
+      "anchor": "m8"
      }
     ]
    },
@@ -7715,16 +6600,16 @@
     ],
     "prerequisites": [
      {
-      "course": "Production APIs with FastAPI",
-      "slug": "production-apis-with-fastapi",
+      "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+      "slug": "apis-and-apps-fastapi-streamlit-and-docker",
       "module": "Production Considerations",
       "anchor": "m5"
      },
      {
-      "course": "Interactive Data Apps with Streamlit",
-      "slug": "interactive-data-apps-with-streamlit",
+      "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+      "slug": "apis-and-apps-fastapi-streamlit-and-docker",
       "module": "Streamlit Basics",
-      "anchor": "m2"
+      "anchor": "m6"
      },
      {
       "course": "MLOps with MLflow",
@@ -7740,8 +6625,8 @@
   "hours": 7,
   "prerequisites": [
    {
-    "course": "Human-in-the-Loop with LangGraph",
-    "slug": "human-in-the-loop-with-langgraph"
+    "course": "LangGraph Complete Guide",
+    "slug": "langgraph-complete-guide"
    },
    {
     "course": "Agentic RAG Systems",
@@ -7750,14 +6635,6 @@
    {
     "course": "Model Context Protocol (MCP)",
     "slug": "model-context-protocol-mcp"
-   },
-   {
-    "course": "Production APIs with FastAPI",
-    "slug": "production-apis-with-fastapi"
-   },
-   {
-    "course": "Enterprise LLM Systems",
-    "slug": "enterprise-llm-systems"
    },
    {
     "course": "Multi-Agent Systems and Agent Protocols",
@@ -7770,7 +6647,946 @@
   ]
  },
  {
-  "id": 51,
+  "id": 33,
+  "slug": "data-engineering-foundations",
+  "track": "Track 8 · Data Engineering",
+  "title": "Data Engineering Foundations",
+  "level": "Intermediate",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "What data engineers build and why: the data lifecycle, OLTP vs OLAP, batch vs streaming, file formats and advanced SQL.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "The Data Engineering Landscape",
+    "added": true,
+    "lessons": [
+     {
+      "title": "What Does a Data Engineer Do?",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The Data Lifecycle: Ingest, Store, Transform, Serve",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "OLTP vs OLAP",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Batch vs Streaming",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The Modern Data Stack",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Files and Formats",
+    "added": true,
+    "lessons": [
+     {
+      "title": "CSV, JSON, Parquet and Avro",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Compression and Partitioned Files",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Fast DataFrames with Polars and DuckDB",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Convert a CSV lake to partitioned Parquet",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Advanced SQL",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Window Functions",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "CTEs and Recursive Queries",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Query Plans and Indexes",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Transactions and Isolation Levels",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "SQL Patterns: Deduplication, Gaps and Islands, Sessionisation",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: 25 SQL interview problems",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 4,
+  "lesson_count": 16,
+  "hours": 7,
+  "prerequisites": [
+   {
+    "course": "Databases: SQL and NoSQL",
+    "slug": "databases-sql-and-nosql"
+   },
+   {
+    "course": "Data Analysis and Visualisation with Python",
+    "slug": "data-analysis-and-visualisation-with-python"
+   },
+   {
+    "course": "The Command Line and Linux Basics",
+    "slug": "the-command-line-and-linux-basics"
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "slug": "big-data-with-pyspark",
+  "track": "Track 8 · Data Engineering",
+  "title": "Big Data with PySpark",
+  "level": "Advanced",
+  "syllabus_modules": [
+   17
+  ],
+  "added": false,
+  "description": "Process data that won't fit in memory with Spark: architecture, DataFrames, Spark SQL and optimisation.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "The Big Data Problem",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Why Single Machines Fail",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Distributed Computing and Spark",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Driver, Executors and Cluster Manager",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "PySpark DataFrames and SQL",
+    "added": false,
+    "lessons": [
+     {
+      "title": "From pandas to PySpark",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Filters, Aggregations and Joins",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Spark SQL",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Complex Data Types",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Lab: Analyse a 10 GB dataset",
+      "type": "Lab",
+      "added": false
+     }
+    ],
+    "prerequisites": [
+     {
+      "course": "Data Analysis and Visualisation with Python",
+      "slug": "data-analysis-and-visualisation-with-python",
+      "module": "pandas Core",
+      "anchor": "m3"
+     },
+     {
+      "course": "Databases: SQL and NoSQL",
+      "slug": "databases-sql-and-nosql",
+      "module": "Relational Databases and SQL",
+      "anchor": "m2"
+     }
+    ]
+   },
+   {
+    "title": "Optimisation",
+    "added": false,
+    "lessons": [
+     {
+      "title": "Lazy Evaluation: Transformations vs Actions",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Reading the Spark UI",
+      "type": "Article",
+      "added": false
+     },
+     {
+      "title": "Spot Instances and Cost",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   }
+  ],
+  "module_count": 4,
+  "lesson_count": 12,
+  "hours": 5,
+  "prerequisites": [
+   {
+    "course": "Data Engineering Foundations",
+    "slug": "data-engineering-foundations"
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "slug": "warehouses-and-lakehouses",
+  "track": "Track 8 · Data Engineering",
+  "title": "Warehouses and Lakehouses",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Design data that is easy to query and cheap to store: dimensional models, slowly changing dimensions, cloud warehouses, and lakehouses on Delta Lake and Iceberg.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Modelling Fundamentals",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Normalisation and When to Break It",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Facts and Dimensions",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Star and Snowflake Schemas",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Slowly Changing Dimensions",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Data Vault and One Big Table",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Model an online shop as a star schema",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Cloud Warehouses",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Columnar Storage and MPP",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Snowflake, BigQuery and Redshift Compared",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Partitioning, Clustering and Cost Control",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Semantic Layers and Metrics",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "The Lakehouse",
+    "added": true,
+    "lessons": [
+     {
+      "title": "From Data Lakes to Lakehouses",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Delta Lake",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Apache Iceberg and Iceberg v3",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Apache Hudi and Choosing a Format",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Catalogs: Unity, Polaris, Glue and REST",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Time Travel, Schema Evolution and Compaction",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Query Engines: Trino, DuckDB and ClickHouse",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Spark Performance Tuning: Shuffles, Skew and AQE",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Build a small Iceberg lakehouse",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 4,
+  "lesson_count": 20,
+  "hours": 9,
+  "prerequisites": [
+   {
+    "course": "Data Engineering Foundations",
+    "slug": "data-engineering-foundations"
+   },
+   {
+    "course": "Big Data with PySpark",
+    "slug": "big-data-with-pyspark"
+   }
+  ]
+ },
+ {
+  "id": 36,
+  "slug": "data-pipelines-ingestion-dbt-and-airflow",
+  "track": "Track 8 · Data Engineering",
+  "title": "Data Pipelines: Ingestion, dbt and Airflow",
+  "level": "Intermediate",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Move data in, transform it with tested dbt models, and run it all on a schedule with Airflow and its alternatives.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Ingestion",
+    "added": true,
+    "lessons": [
+     {
+      "title": "ETL vs ELT",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Ingestion Tools: Fivetran, Airbyte and dlt",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Change Data Capture",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Load an API into DuckDB with dlt",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "dbt",
+    "added": true,
+    "lessons": [
+     {
+      "title": "dbt Projects, Models and the DAG",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Sources, refs and the Medallion Layers",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Tests, Contracts and Documentation",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Incremental Models and Snapshots",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Jinja, Macros and Packages",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "CI for dbt and the Fusion Engine",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Build a dbt project on DuckDB",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Airflow Core",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Why Pipelines Need an Orchestrator",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "DAGs, Tasks, Operators and Sensors",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "The TaskFlow API",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Scheduling, Backfills and Idempotency",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Dynamic Task Mapping",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Assets and Event-Driven Scheduling in Airflow 3",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: A daily ELT DAG with retries and alerts",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Running Orchestration in Production",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Running Airflow on Docker, Kubernetes and Managed Services",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Dagster, Prefect and Other Orchestrators",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 5,
+  "lesson_count": 21,
+  "hours": 9,
+  "prerequisites": [
+   {
+    "course": "Warehouses and Lakehouses",
+    "slug": "warehouses-and-lakehouses"
+   },
+   {
+    "course": "Git and GitHub: Zero to Pro",
+    "slug": "git-and-github-zero-to-pro"
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "slug": "streaming-data-with-kafka",
+  "track": "Track 8 · Data Engineering",
+  "title": "Streaming Data with Kafka",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Move and process events in real time: Kafka, delivery guarantees, schemas, CDC with Debezium and stream processing with Flink and Spark.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Kafka Fundamentals",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Events, Logs and the Streaming Mindset",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Topics, Partitions and Offsets",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Producers, Consumers and Consumer Groups",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Delivery Guarantees and Exactly-Once",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Schemas and Schema Evolution",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Kafka Without ZooKeeper: KRaft",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Produce and consume click events",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Stream Processing",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Windows, Watermarks and Late Data",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Spark Structured Streaming",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Apache Flink",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "CDC with Debezium",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Real-time order dashboard",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 13,
+  "hours": 6,
+  "prerequisites": [
+   {
+    "course": "Data Engineering Foundations",
+    "slug": "data-engineering-foundations"
+   },
+   {
+    "course": "Big Data with PySpark",
+    "slug": "big-data-with-pyspark"
+   }
+  ]
+ },
+ {
+  "id": 38,
+  "slug": "data-quality-governance-and-dataops",
+  "track": "Track 8 · Data Engineering",
+  "title": "Data Quality, Governance and DataOps",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Make data trustworthy: tests, contracts, lineage, observability, CI/CD and infrastructure as code for data platforms.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Trustworthy Data",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Data Quality Dimensions and Tests",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Great Expectations and Soda",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Data Contracts",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lineage with OpenLineage and Data Catalogs",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Data Observability",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "DataOps and Governance",
+    "added": true,
+    "lessons": [
+     {
+      "title": "CI/CD and Environments for Data",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Terraform for Data Platforms",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Privacy, PII and Access Control",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Add tests, contracts and CI to a pipeline",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 10,
+  "hours": 4,
+  "prerequisites": [
+   {
+    "course": "Data Pipelines: Ingestion, dbt and Airflow",
+    "slug": "data-pipelines-ingestion-dbt-and-airflow"
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "slug": "cloud-data-platforms",
+  "track": "Track 8 · Data Engineering",
+  "title": "Cloud Data Platforms",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "The data services on AWS, Google Cloud and Azure, how they fit together, what they cost, and which certifications map to them.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "The Big Three Clouds",
+    "added": true,
+    "lessons": [
+     {
+      "title": "AWS Data Services: S3, Glue, Athena, EMR, Redshift and Kinesis",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Google Cloud Data Services: BigQuery, Dataflow, Pub/Sub and Composer",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Azure Data Services: ADLS, Data Factory, Fabric and Databricks",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Databricks and Snowflake as Platforms",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "FinOps: Controlling Data Costs",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Data Engineering Certifications Map",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Lab: Serverless pipeline on AWS",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Data Engineering for AI",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Pipelines for RAG: Chunking, Embedding and Refreshing",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Feature Stores and ML Pipelines",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Data Agents and MCP Servers for Warehouses",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 11,
+  "hours": 5,
+  "prerequisites": [
+   {
+    "course": "Warehouses and Lakehouses",
+    "slug": "warehouses-and-lakehouses"
+   },
+   {
+    "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+    "slug": "apis-and-apps-fastapi-streamlit-and-docker"
+   },
+   {
+    "course": "Retrieval-Augmented Generation (RAG)",
+    "slug": "retrieval-augmented-generation-rag"
+   },
+   {
+    "course": "Model Context Protocol (MCP)",
+    "slug": "model-context-protocol-mcp"
+   }
+  ]
+ },
+ {
+  "id": 40,
+  "slug": "data-engineering-capstone-and-system-design",
+  "track": "Track 8 · Data Engineering",
+  "title": "Data Engineering Capstone and System Design",
+  "level": "Advanced",
+  "syllabus_modules": [],
+  "added": true,
+  "description": "Build an end-to-end platform and practise the system design and SQL questions asked in data engineering interviews.",
+  "modules": [
+   {
+    "title": "Start Here",
+    "lessons": [
+     {
+      "title": "How This Course Works",
+      "type": "Article",
+      "added": false
+     }
+    ]
+   },
+   {
+    "title": "Capstone",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Lab: CDC from Postgres to Kafka to Iceberg to dbt to a dashboard",
+      "type": "Lab",
+      "added": true
+     }
+    ]
+   },
+   {
+    "title": "Interview Preparation",
+    "added": true,
+    "lessons": [
+     {
+      "title": "Data Pipeline System Design Framework",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Design Drills: Clickstream, Ride Events and Fraud Detection",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Batch vs Streaming, Lambda vs Kappa Trade-offs",
+      "type": "Article",
+      "added": true
+     },
+     {
+      "title": "Data Engineering Interview Questions Explained",
+      "type": "Article",
+      "added": true
+     }
+    ]
+   }
+  ],
+  "module_count": 3,
+  "lesson_count": 6,
+  "hours": 3,
+  "prerequisites": [
+   {
+    "course": "Streaming Data with Kafka",
+    "slug": "streaming-data-with-kafka"
+   },
+   {
+    "course": "Warehouses and Lakehouses",
+    "slug": "warehouses-and-lakehouses"
+   },
+   {
+    "course": "Data Quality, Governance and DataOps",
+    "slug": "data-quality-governance-and-dataops"
+   },
+   {
+    "course": "Cloud Data Platforms",
+    "slug": "cloud-data-platforms"
+   }
+  ]
+ },
+ {
+  "id": 41,
   "slug": "end-to-end-ai-projects",
   "track": "Track 9 · Projects",
   "title": "End-to-End AI Projects",
@@ -7814,10 +7630,10 @@
       "anchor": "m3"
      },
      {
-      "course": "Interactive Data Apps with Streamlit",
-      "slug": "interactive-data-apps-with-streamlit",
+      "course": "APIs and Apps: FastAPI, Streamlit and Docker",
+      "slug": "apis-and-apps-fastapi-streamlit-and-docker",
       "module": "State and Responsiveness",
-      "anchor": "m3"
+      "anchor": "m7"
      }
     ]
    },
@@ -7876,7 +7692,7 @@
       "course": "Sequence Models, Attention and Transformers",
       "slug": "sequence-models-attention-and-transformers",
       "module": "Transformers",
-      "anchor": "m5"
+      "anchor": "m6"
      }
     ]
    },
@@ -7895,13 +7711,13 @@
       "course": "Retrieval-Augmented Generation (RAG)",
       "slug": "retrieval-augmented-generation-rag",
       "module": "Advanced RAG",
-      "anchor": "m5"
+      "anchor": "m7"
      },
      {
-      "course": "Enterprise LLM Systems",
-      "slug": "enterprise-llm-systems",
+      "course": "Retrieval-Augmented Generation (RAG)",
+      "slug": "retrieval-augmented-generation-rag",
       "module": "RAG Evaluation",
-      "anchor": "m2"
+      "anchor": "m9"
      }
     ]
    },
@@ -7911,11 +7727,6 @@
     "lessons": [
      {
       "title": "Project: AI Newsletter Generator with MCP",
-      "type": "Lab",
-      "added": false
-     },
-     {
-      "title": "Project: Multi-Agent Research Analysis and Generation",
       "type": "Lab",
       "added": false
      }
@@ -7931,7 +7742,7 @@
    }
   ],
   "module_count": 6,
-  "lesson_count": 11,
-  "hours": 8
+  "lesson_count": 10,
+  "hours": 7
  }
 ]

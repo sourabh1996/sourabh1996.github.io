@@ -1,11 +1,11 @@
 # NLP for Machine Learning
 
 **Intermediate · 6 modules · 23 lessons · ~11 hrs**  
-Track 6 · Deep Learning and NLP · Bootcamp syllabus module(s): 16
+Track 5 · Deep Learning and NLP · Bootcamp syllabus module(s): 16
 
 Turn text into features and predictions: the NLP pipeline, preprocessing, POS tagging, TF-IDF, Word2Vec and text classification.
 
-**Finish first:** [Machine Learning Fundamentals](../machine-learning-fundamentals/course.md)  
+**Finish first:** [Supervised Learning](../supervised-learning/course.md)  
 **Unlocks:** [Sequence Models, Attention and Transformers](../sequence-models-attention-and-transformers/course.md)
 
 ## Course content
@@ -31,7 +31,7 @@ Turn text into features and predictions: the NLP pipeline, preprocessing, POS ta
 
 <a id="m4"></a>
 ### 4. Text Representation (4 lessons)
-> **Before you start:** [Feature Engineering and EDA › Feature Transformation and Selection](../feature-engineering-and-eda/course.md#m6)
+> **Before you start:** [Machine Learning Foundations: Data, EDA and Features › Feature Transformation and Selection](../machine-learning-foundations-data-eda-and-features/course.md#m7)
 
 - Common Terms: Corpus, Vocabulary, Document · Article
 - One-Hot, Bag of Words and N-Grams · Article
@@ -40,7 +40,7 @@ Turn text into features and predictions: the NLP pipeline, preprocessing, POS ta
 
 <a id="m5"></a>
 ### 5. Word Embeddings (5 lessons)
-> **Before you start:** [Numerical Computing and Data Analysis › NumPy Essentials](../numerical-computing-and-data-analysis/course.md#m2), [Statistics Foundations › Data Behaviour and Relationships](../statistics-foundations/course.md#m4)
+> **Before you start:** [Data Analysis and Visualisation with Python › NumPy Essentials](../data-analysis-and-visualisation-with-python/course.md#m2), [Statistics for Data Science › Data Behaviour and Relationships](../statistics-for-data-science/course.md#m4)
 
 - What are Word Vectors? · Article
 - The Distributional Hypothesis · Article

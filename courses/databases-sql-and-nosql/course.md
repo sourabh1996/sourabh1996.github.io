@@ -1,12 +1,12 @@
 # Databases: SQL and NoSQL
 
 **Beginner · 4 modules · 13 lessons · ~6 hrs**  
-Track 1 · Python and Data Foundations · Bootcamp syllabus module(s): 6
+Track 2 · Working with Data · Bootcamp syllabus module(s): 6
 
 Store and query data with PostgreSQL on Supabase and documents in MongoDB Atlas.
 
-**Finish first:** [Python Fundamentals](../python-fundamentals/course.md)  
-**Unlocks:** [Big Data with PySpark](../big-data-with-pyspark/course.md), [Data Engineering Foundations](../data-engineering-foundations/course.md), [Vector Databases for AI](../vector-databases-for-ai/course.md)
+**Finish first:** [Python Programming](../python-programming/course.md)  
+**Unlocks:** [APIs and Apps: FastAPI, Streamlit and Docker](../apis-and-apps-fastapi-streamlit-and-docker/course.md), [Retrieval-Augmented Generation (RAG)](../retrieval-augmented-generation-rag/course.md), [Data Engineering Foundations](../data-engineering-foundations/course.md)
 
 ## Course content
 
@@ -23,7 +23,7 @@ Store and query data with PostgreSQL on Supabase and documents in MongoDB Atlas.
 
 <a id="m3"></a>
 ### 3. PostgreSQL on Supabase (3 lessons)
-> **Before you start:** [Python Fundamentals › Functions and Iterators](../python-fundamentals/course.md#m6)
+> **Before you start:** [Python Programming › Functions and Iterators](../python-programming/course.md#m6)
 
 - Setting Up Supabase · Article
 - Querying Supabase from Python · Article

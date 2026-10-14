@@ -60,7 +60,7 @@ flowchart LR
 
 **Why:** Real tasks (migrating code, monitoring systems, compiling research) take longer than a chat reply.
 
-**For you:** Persistence and checkpoints become essential, along with progress reporting and safe resumption. → [Persistence and Checkpointers in LangGraph](../../langgraph-fundamentals/05-chatbots-and-persistence/persistence-and-checkpointers.md)
+**For you:** Persistence and checkpoints become essential, along with progress reporting and safe resumption. → [Persistence and Checkpointers in LangGraph](../../langgraph-complete-guide/06-chatbots-and-persistence/persistence-and-checkpointers.md)
 
 ### 4. Agents that use computers and code
 
@@ -68,7 +68,7 @@ flowchart LR
 
 **Why:** Code is a more expressive action language than single tool calls, and much software has no API, only a screen.
 
-**For you:** Sandboxing, permissions and approval for actions become central design concerns. → [Guardrails and Security](../../enterprise-llm-systems/course.md#m6)
+**For you:** Sandboxing, permissions and approval for actions become central design concerns. → [Agent Security and Safety](../../agent-security-and-safety/course.md#m4)
 
 ### 5. Memory that lasts
 
@@ -76,7 +76,7 @@ flowchart LR
 
 **Why:** Re-explaining context every session is frustrating and wasteful.
 
-**For you:** Learn short-term vs long-term memory, summarisation and retrieval, and the privacy questions that come with storing user data. → [LangGraph State and Memory](../../langgraph-state-and-memory/course.md)
+**For you:** Learn short-term vs long-term memory, summarisation and retrieval, and the privacy questions that come with storing user data. → [LangGraph Complete Guide › Memory](../../langgraph-complete-guide/course.md#m7)
 
 ### 6. Agentic retrieval
 
@@ -92,7 +92,7 @@ flowchart LR
 
 **Why:** Agents are non-deterministic and multi-step; you can't eyeball quality at scale or spot regressions without measurement.
 
-**For you:** Build evaluation in from day one. → [Enterprise LLM Systems](../../enterprise-llm-systems/course.md)
+**For you:** Build evaluation in from day one. → [Agent Evals, Observability and Reliability](../../agent-evals-observability-and-reliability/course.md)
 
 ### 8. Human-in-the-loop by design
 
@@ -100,7 +100,7 @@ flowchart LR
 
 **Why:** Trust and accountability. Full autonomy is rarely the goal for high-stakes actions.
 
-**For you:** Interrupts, approvals, editing state and time travel. → [Human-in-the-Loop with LangGraph](../../human-in-the-loop-with-langgraph/course.md)
+**For you:** Interrupts, approvals, editing state and time travel. → [LangGraph Complete Guide › Human-in-the-Loop and Debugging](../../langgraph-complete-guide/course.md#m8)
 
 ### 9. Cost, speed and model routing
 
@@ -108,7 +108,7 @@ flowchart LR
 
 **Why:** Multi-agent systems multiply calls; cost and latency decide whether a product is viable.
 
-**For you:** Measure cost per completed task, not per call, and learn LLM gateways. → [LLM Gateways](../../enterprise-llm-systems/course.md#m5)
+**For you:** Measure cost per completed task, not per call, and learn LLM gateways. → [LLM Gateways](../../shipping-agents-to-production/course.md#m4)
 
 ### 10. Safety, security and governance
 
@@ -116,7 +116,7 @@ flowchart LR
 
 **Why:** An agent that reads untrusted content and holds powerful tools is an attractive target.
 
-**For you:** Treat every tool result as untrusted data, never as instructions; restrict tools; log and review. → [Guardrails and Security](../../enterprise-llm-systems/course.md#m6)
+**For you:** Treat every tool result as untrusted data, never as instructions; restrict tools; log and review. → [Agent Security and Safety](../../agent-security-and-safety/course.md)
 
 ### Summary map
 
@@ -125,13 +125,13 @@ flowchart LR
 | Standard protocols | Integration sprawl | MCP |
 | Orchestrator + sub-agents | Context limits, parallel work | Capstone |
 | Long-running agents | Tasks longer than a chat turn | LangGraph persistence |
-| Code and computer use | Limited action space | Guardrails and Security |
-| Lasting memory | Re-explaining context | LangGraph State and Memory |
+| Code and computer use | Limited action space | Agent Security and Safety |
+| Lasting memory | Re-explaining context | LangGraph memory |
 | Agentic retrieval | Fixed RAG fails on hard questions | Agentic RAG |
-| Evaluation and observability | Can't see or measure quality | Enterprise LLM Systems |
-| Human-in-the-loop | Trust for risky actions | HITL with LangGraph |
+| Evaluation and observability | Can't see or measure quality | Agent Evals, Observability and Reliability |
+| Human-in-the-loop | Trust for risky actions | LangGraph human-in-the-loop |
 | Cost and routing | Calls multiply | LLM Gateways |
-| Security and governance | Prompt injection, misuse | Guardrails and Security |
+| Security and governance | Prompt injection, misuse | Agent Security and Safety |
 
 ### A quick self-check
 
@@ -177,7 +177,7 @@ Readiness: 4/7
 
 **1.** (a) Lasting memory. (b) Orchestrator and sub-agents (fresh contexts returning summaries). (c) Safety and security: treat tool results as untrusted, restrict tools, add guardrails. (d) Cost, speed and model routing: cheaper models for sub-tasks, caching, fewer hand-offs.
 
-**2.** For example, a document assistant would focus on agentic retrieval (Agentic RAG Systems) and evaluation (Enterprise LLM Systems).
+**2.** For example, a document assistant would focus on agentic retrieval (Agentic RAG Systems) and evaluation (the RAG Evaluation module of Retrieval-Augmented Generation).
 
 **3.** Usually tracing or evaluation first, because you can't improve what you can't see or measure.
 
@@ -223,4 +223,4 @@ Prompt injection and over-powered tools are design problems. Fixing them after l
 
 ---
 
-**Up next:** You've finished Agentic AI Fundamentals. Continue with [LangGraph Fundamentals](../../langgraph-fundamentals/course.md) to build these patterns with a production framework.
+**Up next:** You've finished Agentic AI Fundamentals. Continue with the [LangGraph Complete Guide](../../langgraph-complete-guide/course.md) to build these patterns with a production framework.
