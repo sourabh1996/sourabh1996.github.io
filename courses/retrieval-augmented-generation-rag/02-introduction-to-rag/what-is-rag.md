@@ -1,6 +1,6 @@
 ---
 title: "What is RAG?"
-course: Retrieval-Augmented Generation (RAG)
+course: "Retrieval-Augmented Generation (RAG)"
 module: "2. Introduction to RAG"
 type: Article
 level: Intermediate
@@ -13,7 +13,7 @@ reading_time: 26 min
 >
 > - [How This Course Works](../01-start-here/how-this-course-works.md), for the running example (the Tarang Software handbook).
 > - [How LLMs Work](../../generative-ai-and-llm-foundations/course.md#m3), for tokens, context windows and why a model's knowledge is frozen at training time.
-> - [Introduction to Vector Databases](../../vector-databases-for-ai/course.md#m2), for what an embedding is. A short refresher is included below.
+> - [Introduction to Vector Databases](../course.md#m3), for what an embedding is. A short refresher is included below.
 
 ## Introduction
 
@@ -359,7 +359,7 @@ flowchart LR
 
 Two current ideas worth knowing by name now:
 
-- **Contextual retrieval** (described by Anthropic in 2024): before indexing, each chunk gets a short LLM-written note about where it sits in its document ("This section is from Tarang's leave policy..."), so isolated chunks keep their meaning. Combined with keyword search and reranking, Anthropic reported a 67% drop in failed retrievals on their tests. You'll implement it in [Chunking Strategies](../course.md#m4).
+- **Contextual retrieval** (described by Anthropic in 2024): before indexing, each chunk gets a short LLM-written note about where it sits in its document ("This section is from Tarang's leave policy..."), so isolated chunks keep their meaning. Combined with keyword search and reranking, Anthropic reported a 67% drop in failed retrievals on their tests. You'll implement it in [Chunking Strategies](../course.md#m6).
 - **Agentic search**: coding agents often skip embeddings entirely and search files with tools like `grep`, reading what they find and searching again. Retrieval doesn't have to mean vectors.
 
 ---

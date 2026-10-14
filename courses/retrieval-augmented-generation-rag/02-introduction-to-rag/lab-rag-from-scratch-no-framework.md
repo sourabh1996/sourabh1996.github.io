@@ -1,6 +1,6 @@
 ---
 title: "Lab: RAG from scratch, no framework"
-course: Retrieval-Augmented Generation (RAG)
+course: "Retrieval-Augmented Generation (RAG)"
 module: "2. Introduction to RAG"
 type: Lab
 level: Intermediate
@@ -13,7 +13,7 @@ reading_time: 45 min
 >
 > - [The RAG Pipeline End to End](the-rag-pipeline-end-to-end.md), for the eight stages you're about to build.
 > - [What is RAG?](what-is-rag.md), for the toy embedding idea used here.
-> - Comfortable Python: classes, dictionaries, list comprehensions, and basic NumPy arrays ([NumPy](../../numerical-computing-and-data-analysis/course.md)).
+> - Comfortable Python: classes, dictionaries, list comprehensions, and basic NumPy arrays ([NumPy](../../data-analysis-and-visualisation-with-python/course.md)).
 
 ## What You'll Build
 
@@ -80,7 +80,7 @@ it/security-policy.md     70 words  access=all
 finance/travel-faq.md     72 words  access=managers
 ```
 
-Each line of a document starts with a short heading ("Annual leave.") followed by sentences. Real files are messier, which is why loaders and cleaners exist ([Document Loaders](../course.md#m3)).
+Each line of a document starts with a short heading ("Annual leave.") followed by sentences. Real files are messier, which is why loaders and cleaners exist ([Document Loaders](../course.md#m5)).
 
 ## Step 2: The chunker
 
@@ -306,7 +306,7 @@ Output:
 11 records reloaded, same results: True
 ```
 
-This exact-search index is fine for tens of thousands of chunks. Beyond that you'd switch to an approximate index (HNSW, IVF) in a vector database, which is what [Vector Stores in LangChain](../course.md#m3) wraps.
+This exact-search index is fine for tens of thousands of chunks. Beyond that you'd switch to an approximate index (HNSW, IVF) in a vector database, which is what [Vector Stores in LangChain](../course.md#m5) wraps.
 
 ## Step 5: The prompt builder
 
@@ -545,7 +545,7 @@ max_words=120: 10 chunks  recall@3=0.92  MRR=0.88
 
 Both misses are vocabulary gaps: nothing in the toy embedder links "credentials" to passwords or "antivirus tool" to software. A real embedding model would probably handle these two, but it will have its own gaps with your company's jargon, and you find them exactly this way.
 
-The chunk-size comparison shows tiny 15-word chunks ranking slightly better here (MRR 0.92), because each chunk is about one narrow thing. With documents this small the differences are modest, but the method is the point: **change one setting, re-run the same test set, compare numbers.** You'll use exactly this loop in [Chunking Strategies](../course.md#m4) on bigger documents where the differences are dramatic.
+The chunk-size comparison shows tiny 15-word chunks ranking slightly better here (MRR 0.92), because each chunk is about one narrow thing. With documents this small the differences are modest, but the method is the point: **change one setting, re-run the same test set, compare numbers.** You'll use exactly this loop in [Chunking Strategies](../course.md#m6) on bigger documents where the differences are dramatic.
 
 ---
 
@@ -631,4 +631,4 @@ Output:
 
 ---
 
-**Up next:** [Document Loaders](../course.md#m3)
+**Up next:** [Document Loaders](../course.md#m5)

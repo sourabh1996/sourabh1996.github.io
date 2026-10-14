@@ -1,7 +1,7 @@
 ---
 title: "Document Loaders"
-course: Retrieval-Augmented Generation (RAG)
-module: "3. RAG Building Blocks in LangChain"
+course: "Retrieval-Augmented Generation (RAG)"
+module: "5. RAG Building Blocks in LangChain"
 type: Article
 level: Intermediate
 reading_time: 24 min

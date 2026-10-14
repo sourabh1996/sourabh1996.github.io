@@ -1,6 +1,6 @@
 ---
 title: "RAG vs Fine-Tuning vs Prompting"
-course: Retrieval-Augmented Generation (RAG)
+course: "Retrieval-Augmented Generation (RAG)"
 module: "2. Introduction to RAG"
 type: Article
 level: Intermediate

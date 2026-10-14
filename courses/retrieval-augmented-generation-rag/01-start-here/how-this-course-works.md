@@ -1,6 +1,6 @@
 ---
 title: "How This Course Works"
-course: Retrieval-Augmented Generation (RAG)
+course: "Retrieval-Augmented Generation (RAG)"
 module: "1. Start Here"
 type: Article
 level: Intermediate
@@ -97,8 +97,8 @@ Because the handbook is invented, no model could have memorised it. If an answer
 
 ## What You Need Before Starting
 
-- **Python** at the level of functions, lists, dictionaries and classes. [Python Fundamentals](../../python-fundamentals/course.md) covers it.
-- **What an embedding and a vector database are.** [Vector Databases for AI](../../vector-databases-for-ai/course.md) is the prerequisite course. You'll get a quick refresher here, but the details live there.
+- **Python** at the level of functions, lists, dictionaries and classes. [Python Programming](../../python-programming/course.md) covers it.
+- **What an embedding and a vector database are.** [Retrieval-Augmented Generation (RAG)](../course.md) is the prerequisite course. You'll get a quick refresher here, but the details live there.
 - **LangChain basics** (models, prompts, runnables and the `|` pipe). [LangChain Complete Guide](../../langchain-complete-guide/course.md) covers them; Module 4 here leans on [Chains and Runnables](../../langchain-complete-guide/course.md#m6).
 - **How LLMs work** at the level of tokens and context windows. See [How LLMs Work](../../generative-ai-and-llm-foundations/course.md#m3).
 

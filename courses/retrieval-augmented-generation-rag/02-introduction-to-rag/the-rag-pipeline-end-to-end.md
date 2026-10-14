@@ -1,6 +1,6 @@
 ---
 title: "The RAG Pipeline End to End"
-course: Retrieval-Augmented Generation (RAG)
+course: "Retrieval-Augmented Generation (RAG)"
 module: "2. Introduction to RAG"
 type: Article
 level: Intermediate
@@ -13,7 +13,7 @@ reading_time: 32 min
 >
 > - [What is RAG?](what-is-rag.md), for the two phases (indexing and answering).
 > - [RAG vs Fine-Tuning vs Prompting](rag-vs-fine-tuning-vs-prompting.md), for when RAG is the right tool.
-> - [Introduction to Vector Databases](../../vector-databases-for-ai/course.md#m2), for embeddings and similarity search.
+> - [Introduction to Vector Databases](../course.md#m3), for embeddings and similarity search.
 
 ## Introduction
 
@@ -73,7 +73,7 @@ A cleaned record looks like this:
 }
 ```
 
-LangChain calls this a `Document` (text plus a metadata dictionary) and provides **document loaders** for hundreds of formats. That's [Module 3](../course.md#m3).
+LangChain calls this a `Document` (text plus a metadata dictionary) and provides **document loaders** for hundreds of formats. That's [Module 3](../course.md#m5).
 
 ### 3. Chunk: cut documents into retrievable pieces
 
@@ -83,7 +83,7 @@ LangChain calls this a `Document` (text plus a metadata dictionary) and provides
 - **Too small** (say 30 tokens): a chunk loses context. "It is 60 days." means nothing without the heading "Notice period".
 - **A common starting point**: 200 to 800 tokens per chunk with 10 to 20% **overlap** (repeating the end of one chunk at the start of the next so a sentence cut in half still appears whole somewhere).
 
-Better splitters cut at natural boundaries (headings, paragraphs, sentences) rather than at a fixed character count. Advanced strategies add document context to each chunk, or index small chunks but return their larger parent section. All of this is covered in [Text Splitters](../course.md#m3) and [Chunking Strategies](../course.md#m4).
+Better splitters cut at natural boundaries (headings, paragraphs, sentences) rather than at a fixed character count. Advanced strategies add document context to each chunk, or index small chunks but return their larger parent section. All of this is covered in [Text Splitters](../course.md#m5) and [Chunking Strategies](../course.md#m6).
 
 ### 4. Embed: turn each chunk into a vector
 
@@ -128,7 +128,7 @@ The **index** stores each chunk's vector, text and metadata, and answers "which 
 - **Approximate nearest neighbour (ANN)** indexes such as **HNSW** (a graph you hop through towards the nearest neighbours) or **IVF** (cluster vectors, search only the nearest clusters) trade a tiny bit of accuracy for huge speed at millions of vectors.
 - **Where it lives**: a library in your process (FAISS), an embedded database (Chroma, LanceDB), a dedicated vector database (Qdrant, Weaviate, Milvus, Pinecone), or a vector extension of a database you already run (Postgres with pgvector, Elasticsearch, OpenSearch).
 
-Production systems usually keep a **keyword index** (BM25) alongside the vector index, because exact terms such as policy codes, error numbers and names are matched far better by keywords. Combining both is **hybrid search** ([Hybrid Search](../course.md#m4)). The [Vector Databases for AI](../../vector-databases-for-ai/course.md) course covers index internals in depth.
+Production systems usually keep a **keyword index** (BM25) alongside the vector index, because exact terms such as policy codes, error numbers and names are matched far better by keywords. Combining both is **hybrid search** ([Hybrid Search](../course.md#m6)). The [Retrieval-Augmented Generation (RAG)](../course.md) course covers index internals in depth.
 
 ### 6. Retrieve: find candidate chunks for the question
 
@@ -145,7 +145,7 @@ Choosing k is a trade-off. Retrieve too few and you miss the answer; too many an
 
 Embedding search is fast because it compares precomputed vectors, but it never looks at the question and chunk *together*. A **reranker** (usually a **cross-encoder**, a model that reads the question and one chunk side by side and outputs a relevance score) is slower but much more accurate. You run it only on the candidates from retrieval.
 
-Reranking also enables a **relevance guardrail**: if even the best reranked chunk scores below a threshold, the system says "I couldn't find that" instead of letting the model improvise from weak evidence. Details in [Reranking](../course.md#m4).
+Reranking also enables a **relevance guardrail**: if even the best reranked chunk scores below a threshold, the system says "I couldn't find that" instead of letting the model improvise from weak evidence. Details in [Reranking](../course.md#m6).
 
 ### 8. Generate: build the prompt and call the model
 
@@ -200,7 +200,7 @@ Without evaluation, every change is a guess. Build a **test set**: 30 to 200 rea
 | Generation | **Answer relevance / correctness** | Does it answer the question, and match the reference? |
 | Generation | **Citation accuracy** | Do the cited sources actually contain the cited claims? |
 
-Generation metrics are usually scored by an **LLM-as-judge** (a model grading answers against a rubric), with spot checks by people. Open-source frameworks such as **RAGAS** package metrics like faithfulness, answer relevancy, context precision and context recall. Deep coverage lives in [RAG Evaluation](../../enterprise-llm-systems/course.md#m2).
+Generation metrics are usually scored by an **LLM-as-judge** (a model grading answers against a rubric), with spot checks by people. Open-source frameworks such as **RAGAS** package metrics like faithfulness, answer relevancy, context precision and context recall. Deep coverage lives in [RAG Evaluation](../course.md#m9).
 
 Separate layers matter because the fix depends on the layer: low recall means fix chunking, embeddings or hybrid search; good recall but low faithfulness means fix the prompt or the model.
 
@@ -333,7 +333,7 @@ reranked:  [('5.2', 0.35), ('5.1', 0.32)]
 guardrail passes: True
 ```
 
-Retrieval found the right section first, with the travel-claims section close behind (both are about travel). Here the reranker agrees with that order and trims the list to two; in [Reranking](../course.md#m4) you'll see cases where it rescues a chunk that retrieval ranked low.
+Retrieval found the right section first, with the travel-claims section close behind (both are about travel). Here the reranker agrees with that order and trims the list to two; in [Reranking](../course.md#m6) you'll see cases where it rescues a chunk that retrieval ranked low.
 
 **Generate.** The prompt builder labels each chunk with its section so the model can cite it. The pretend LLM answers from the best-matching sentence in its context.
 

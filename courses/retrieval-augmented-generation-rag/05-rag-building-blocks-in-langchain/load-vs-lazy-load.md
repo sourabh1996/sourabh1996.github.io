@@ -1,7 +1,7 @@
 ---
 title: "load() vs lazy_load()"
-course: Retrieval-Augmented Generation (RAG)
-module: "3. RAG Building Blocks in LangChain"
+course: "Retrieval-Augmented Generation (RAG)"
+module: "5. RAG Building Blocks in LangChain"
 type: Article
 level: Intermediate
 reading_time: 22 min
@@ -13,7 +13,7 @@ reading_time: 22 min
 >
 > - [Document Loaders](document-loaders.md), for `BaseLoader` and how a custom loader implements `lazy_load`.
 > - [PDF, Web, CSV and Directory Loaders](pdf-web-csv-and-directory-loaders.md), for the loaders you'll call these methods on.
-> - Python generators and `yield` ([Advanced Python Programming](../../advanced-python-programming/course.md)).
+> - Python generators and `yield` ([Python Programming](../../python-programming/course.md)).
 
 ## Introduction
 
