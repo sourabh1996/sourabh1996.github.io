@@ -32,12 +32,12 @@ Model the world as entities and relationships: ontologies with worked examples, 
 
 <a id="m4"></a>
 ### 4. Neo4j and Cypher ➕ (6 lessons)
-- Property Graphs and Neo4j · Article ➕
-- Cypher Basics: MATCH, CREATE and MERGE · Article ➕
-- Graph Data Modelling · Article ➕
-- Graph Algorithms: Paths, Centrality and Communities · Article ➕
-- SPARQL and RDF Triple Stores · Article ➕
-- Lab: Build a company knowledge graph in Neo4j · Lab ➕
+- [Property Graphs and Neo4j](04-neo4j-and-cypher/property-graphs-and-neo4j.md) · Article ➕ ✍️ *written*
+- [Cypher Basics: MATCH, CREATE and MERGE](04-neo4j-and-cypher/cypher-basics-match-create-and-merge.md) · Article ➕ ✍️ *written*
+- [Graph Data Modelling](04-neo4j-and-cypher/graph-data-modelling.md) · Article ➕ ✍️ *written*
+- [Graph Algorithms: Paths, Centrality and Communities](04-neo4j-and-cypher/graph-algorithms-paths-centrality-and-communities.md) · Article ➕ ✍️ *written*
+- [SPARQL and RDF Triple Stores](04-neo4j-and-cypher/sparql-and-rdf-triple-stores.md) · Article ➕ ✍️ *written*
+- [Lab: Build a company knowledge graph in Neo4j](04-neo4j-and-cypher/lab-build-a-company-knowledge-graph-in-neo4j.md) · Lab ➕ ✍️ *written*
 
 <a id="m5"></a>
 ### 5. Digitising Unstructured Data ➕ (6 lessons)

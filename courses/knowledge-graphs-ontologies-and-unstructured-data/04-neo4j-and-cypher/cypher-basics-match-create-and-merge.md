@@ -48,7 +48,7 @@ This lesson teaches the Cypher you'll use 90% of the time, on the full Kiran Foo
 | `<-[:LEADS]-` | A `LEADS` relationship pointing left |
 | `-[:REPORTS_TO]-` | Either direction |
 | `-[m:MANAGES_ACCOUNT]->` | Name the relationship `m` to read its properties (`m.since`) |
-| `-[:WORKS_IN|LEADS]->` | Either of two types |
+| `-[:WORKS_IN\|LEADS]->` | Either of two types |
 
 A pattern is a chain of these: `(a)-[:R]->(b)<-[:S]-(c)`. Variables are like the `?x` of module 2: the same variable twice means the same node.
 

@@ -793,4 +793,4 @@ In SHACL you'd write this with `sh:lessThanOrEquals` on the `validFrom` path, po
 
 ---
 
-**Up next:** [Property Graphs and Neo4j](../course.md#m4)
+**Up next:** [Property Graphs and Neo4j](../04-neo4j-and-cypher/property-graphs-and-neo4j.md)
