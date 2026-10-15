@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="The RAG triad: three checks, one for each pair">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="638" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#9a6412"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">The RAG triad: three checks, one for each pair</text>
+<rect x="40" y="80" width="690" height="540" rx="14" fill="none" stroke="#e0b25c" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="249.0" y="65" width="272.0" height="30" rx="15" fill="#9a6412"/>
+<text x="385.0" y="85.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">The triad: no reference needed</text>
+<rect x="760" y="80" width="320" height="540" rx="14" fill="none" stroke="#a68be0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="814.1" y="65" width="211.79999999999998" height="30" rx="15" fill="#5b3fa0"/>
+<text x="920.0" y="85.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">With a reference answer</text>
+<path d="M350.0,180.0 L500.0,180.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="351.0" y="157.0" width="148.0" height="36" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="425.0" y="171.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">1. Context relevance</text><text x="425.0" y="188.6" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">is it on topic?</text>
+<path d="M595.0,240.0 L435.0,440.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="458.5" y="317.0" width="113.0" height="54" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="515.0" y="331.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">2. Groundedness</text><text x="515.0" y="348.6" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">is every claim</text><text x="515.0" y="366.1" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">in the context?</text>
+<path d="M265.0,240.0 L435.0,440.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="279.5" y="317.0" width="141.0" height="36" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="350.0" y="331.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">3. Answer relevance</text><text x="350.0" y="348.6" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">does it answer?</text>
+<path d="M840.0,365.0 L690.0,180.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="712.0" y="249.5" width="106.0" height="36" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="765.0" y="263.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">context recall</text><text x="765.0" y="281.1" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">and precision</text>
+<path d="M840.0,365.0 L530.0,500.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="642.5" y="409.5" width="85.0" height="36" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="685.0" y="423.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">answer</text><text x="685.0" y="441.1" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">correctness</text>
+<rect x="180" y="120" width="170" height="120" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="265.0" y="165.0" font-size="28" text-anchor="middle">❓</text>
+<text x="265.0" y="188.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Question</text>
+<text x="265.0" y="208.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">what the user</text><text x="265.0" y="223.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">asked</text>
+<rect x="500" y="120" width="190" height="120" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="595.0" y="165.0" font-size="28" text-anchor="middle">📚</text>
+<text x="595.0" y="188.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Retrieved context</text>
+<text x="595.0" y="208.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">chunks the</text><text x="595.0" y="223.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">retriever returned</text>
+<rect x="340" y="440" width="190" height="120" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="435.0" y="485.0" font-size="28" text-anchor="middle">💬</text>
+<text x="435.0" y="508.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Answer</text>
+<text x="435.0" y="528.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">what the model</text><text x="435.0" y="543.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">wrote</text>
+<rect x="840" y="300" width="180" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="930.0" y="350.0" font-size="28" text-anchor="middle">✅</text>
+<text x="930.0" y="373.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Reference</text>
+<text x="930.0" y="393.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">the answer a</text><text x="930.0" y="408.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">human expects</text>
+</svg>

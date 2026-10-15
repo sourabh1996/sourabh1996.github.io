@@ -89,7 +89,7 @@ Ground LLMs in your own data: embeddings and vector databases, loaders, splitter
 ### 9. RAG Evaluation (4 lessons)
 > **Before you start:** [Implementing RAG](#m6)
 
-- The RAG Triad Metrics · Article
-- LLM-as-a-Judge · Article
-- Turn-Based Evaluation with Ragas · Article
-- Lab: Evaluate your RAG app with Ragas · Lab
+- [The RAG Triad Metrics](09-rag-evaluation/the-rag-triad-metrics.md) · Article ✍️ *written*
+- [LLM-as-a-Judge](09-rag-evaluation/llm-as-a-judge.md) · Article ✍️ *written*
+- [Turn-Based Evaluation with Ragas](09-rag-evaluation/turn-based-evaluation-with-ragas.md) · Article ✍️ *written*
+- [Lab: Evaluate your RAG app with Ragas](09-rag-evaluation/lab-evaluate-your-rag-app-with-ragas.md) · Lab ✍️ *written*

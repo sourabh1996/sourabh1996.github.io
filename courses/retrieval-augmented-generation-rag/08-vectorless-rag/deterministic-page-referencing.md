@@ -414,4 +414,4 @@ Front matter, cover pages and separately numbered sections make them differ. Sho
 
 ---
 
-**Up next:** [The RAG Triad Metrics](../course.md#m9)
+**Up next:** [The RAG Triad Metrics](../09-rag-evaluation/the-rag-triad-metrics.md)
