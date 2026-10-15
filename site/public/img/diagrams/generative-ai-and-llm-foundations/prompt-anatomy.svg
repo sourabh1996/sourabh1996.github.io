@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 720" width="1100" height="720" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Anatomy of a good prompt">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="718" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Anatomy of a good prompt</text>
+<rect x="40" y="100" width="640" height="520" rx="14" fill="none" stroke="#6cc3b8" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="189.6" y="85" width="340.8" height="30" rx="15" fill="#1f766d"/>
+<text x="360.0" y="105.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">The prompt: everything the model reads</text>
+<path d="M650.0,357.5 L750.0,357.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="693.5" y="326.0" width="43.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="715" y="340.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">reads</text>
+<path d="M900.0,357.5 L930.0,357.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="70" y="135" width="280" height="135" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="210.0" y="179.5" font-size="28" text-anchor="middle">🧑‍💼</text>
+<text x="210.0" y="202.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Role and audience</text>
+<text x="210.0" y="222.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">who writes, for whom</text><text x="210.0" y="238.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;support team of a food app;</text><text x="210.0" y="253.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">readers are upset, on phones&quot;</text>
+<rect x="370" y="135" width="280" height="135" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="510.0" y="179.5" font-size="28" text-anchor="middle">🎯</text>
+<text x="510.0" y="202.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Task</text>
+<text x="510.0" y="222.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">one clear thing to produce</text><text x="510.0" y="238.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;write a reply to the</text><text x="510.0" y="253.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">complaint below&quot;</text>
+<rect x="70" y="290" width="280" height="135" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="210.0" y="334.5" font-size="28" text-anchor="middle">📎</text>
+<text x="210.0" y="357.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Context and data</text>
+<text x="210.0" y="377.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">facts it must not guess</text><text x="210.0" y="393.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">order #88213, ₹320, policy;</text><text x="210.0" y="408.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">complaint inside &lt;tags&gt;</text>
+<rect x="370" y="290" width="280" height="135" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="510.0" y="334.5" font-size="28" text-anchor="middle">📏</text>
+<text x="510.0" y="357.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Rules, with reasons</text>
+<text x="510.0" y="377.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;refund only if policy allows;</text><text x="510.0" y="393.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">never promise a time,</text><text x="510.0" y="408.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">because riders vary&quot;</text>
+<rect x="70" y="445" width="280" height="145" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="210.0" y="486.5" font-size="28" text-anchor="middle">🧾</text>
+<text x="210.0" y="509.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Output format</text>
+<text x="210.0" y="529.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">a shape code or a reader</text><text x="210.0" y="545.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">can use: &quot;max 3 sentences&quot;,</text><text x="210.0" y="560.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;answer in &lt;answer&gt; tags&quot;,</text><text x="210.0" y="576.4" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">or a JSON schema</text>
+<rect x="370" y="445" width="280" height="145" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="510.0" y="494.5" font-size="28" text-anchor="middle">🧩</text>
+<text x="510.0" y="517.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Examples</text>
+<text x="510.0" y="537.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">1 to 5 diverse samples</text><text x="510.0" y="553.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">of input → ideal output;</text><text x="510.0" y="568.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">the model copies the pattern</text>
+<rect x="750" y="290" width="150" height="135" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="825.0" y="342.5" font-size="28" text-anchor="middle">🤖</text>
+<text x="825.0" y="365.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LLM</text>
+<text x="825.0" y="385.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">fills any gap</text><text x="825.0" y="401.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">with a guess</text>
+<rect x="930" y="290" width="140" height="135" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="1000.0" y="334.5" font-size="28" text-anchor="middle">✅</text>
+<text x="1000.0" y="357.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Reply</text>
+<text x="1000.0" y="377.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">checked by</text><text x="1000.0" y="393.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">code or an</text><text x="1000.0" y="408.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">eval set</text>
+<text x="550" y="660.0" font-size="15" font-weight="700" fill="#1f766d" text-anchor="middle">Newcomer test: could a smart colleague with no background do the task from this text alone?</text>
+<text x="550" y="688.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Not every prompt needs all six parts; every weak prompt is missing at least one.</text>
+</svg>

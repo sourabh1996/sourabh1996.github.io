@@ -1,0 +1,52 @@
+# Module 4 lab: the preference-remembering assistant. Three LangGraph nodes around one model call,
+# a checkpointer for the chat and a namespaced store for the person.
+SPEC = {
+    "title": "The lab: an assistant that remembers preferences",
+    "accent": "purple",
+    "width": 1100, "height": 660,
+    "groups": [
+        {"x": 230, "y": 90, "w": 640, "h": 250, "label": "LangGraph graph (one turn)", "color": "gray"},
+        {"x": 230, "y": 400, "w": 640, "h": 170, "label": "Write pipeline inside remember", "color": "coral"},
+    ],
+    "nodes": {
+        "user": {"x": 30, "y": 150, "w": 160, "h": 110, "icon": "🙋", "label": "User message",
+                 "sub": "user_id from\nthe login", "color": "blue"},
+        "recall": {"x": 255, "y": 140, "w": 180, "h": 130, "icon": "🔎", "label": "recall",
+                   "sub": "profile + top facts\nunder 150 tokens", "color": "purple"},
+        "assistant": {"x": 460, "y": 140, "w": 180, "h": 130, "icon": "🤖", "label": "assistant",
+                      "sub": "memory block in the\nsystem prompt", "color": "green"},
+        "remember": {"x": 665, "y": 140, "w": 180, "h": 130, "icon": "✍️", "label": "remember",
+                     "sub": "after the reply:\nwrite or forget", "color": "purple"},
+
+        "extract": {"x": 255, "y": 440, "w": 180, "h": 105, "icon": "🧲", "label": "Extract",
+                    "sub": "slots and facts", "color": "coral"},
+        "filter": {"x": 460, "y": 440, "w": 180, "h": 105, "icon": "🛡️", "label": "Filter",
+                   "sub": "no secrets, no orders,\nonly the user's words", "color": "coral"},
+        "merge": {"x": 665, "y": 440, "w": 180, "h": 105, "icon": "🔁", "label": "Consolidate",
+                  "sub": "add, update with\nhistory, or skip", "color": "coral"},
+
+        "store": {"x": 910, "y": 300, "w": 165, "h": 140, "icon": "🗄️", "label": "Store",
+                  "sub": "users/u-104/profile\nusers/u-104/facts", "color": "teal"},
+        "ckpt": {"x": 910, "y": 120, "w": 165, "h": 110, "icon": "💾", "label": "Checkpointer",
+                 "sub": "saves each chat's\nthread state", "color": "blue"},
+    },
+    "edges": [
+        {"from": "user", "to": "recall", "solid": True},
+        {"from": "recall", "to": "assistant", "solid": True},
+        {"from": "assistant", "to": "remember", "solid": True},
+        {"from": "remember", "to": "extract", "label": "each turn", "from_side": "bottom", "to_side": "top",
+         "via": [(755, 370), (345, 370)]},
+        {"from": "extract", "to": "filter", "solid": True},
+        {"from": "filter", "to": "merge", "solid": True},
+        {"from": "merge", "to": "store", "label": "write", "from_side": "right", "to_side": "bottom",
+         "via": [(992, 492)]},
+        {"from": "store", "to": "recall", "label": "read", "from_side": "left", "to_side": "bottom",
+         "via": [(885, 370), (885, 305), (345, 305)]},
+    ],
+    "notes": [
+        {"x": 550, "y": 610, "text": "The checkpointer remembers the chat; the store remembers the person.",
+         "weight": 700, "size": 15, "color": "#1f2328"},
+        {"x": 550, "y": 636, "text": "Forget deletes the value and its history. Memories inform; they never authorise.",
+         "size": 14},
+    ],
+}

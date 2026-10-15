@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Six levers behind GenAI breakthroughs">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="638" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#5b3fa0"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Six levers behind GenAI breakthroughs</text>
+<path d="M200.0,230.0 L400.0,317.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M550.0,230.0 L550.0,270.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M900.0,230.0 L700.0,317.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M200.0,410.0 L400.0,317.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M550.0,410.0 L550.0,365.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M900.0,410.0 L700.0,317.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="400" y="270" width="300" height="95" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="550.0" y="302.5" font-size="28" text-anchor="middle">🚀</text>
+<text x="550.0" y="325.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Better GenAI</text>
+<text x="550.0" y="345.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">more capable, cheaper,</text><text x="550.0" y="361.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">able to act</text>
+<rect x="40" y="80" width="320" height="150" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="200.0" y="116.0" font-size="28" text-anchor="middle">📚</text>
+<text x="200.0" y="139.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Scale and data</text>
+<text x="200.0" y="159.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">cleaner data, synthetic data,</text><text x="200.0" y="174.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">small models trained longer</text><text x="200.0" y="190.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="200.0" y="205.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">smaller new models beat</text><text x="200.0" y="221.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">bigger old ones</text>
+<rect x="390" y="80" width="320" height="150" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="550.0" y="124.0" font-size="28" text-anchor="middle">🤝</text>
+<text x="550.0" y="147.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Post-training</text>
+<text x="550.0" y="167.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">SFT, RLHF, RLAIF, DPO</text><text x="550.0" y="182.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="550.0" y="198.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">GPT-3 became ChatGPT:</text><text x="550.0" y="213.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">helpful, follows instructions</text>
+<rect x="740" y="80" width="320" height="150" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="900.0" y="124.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="900.0" y="147.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Thinking at answer time</text>
+<text x="900.0" y="167.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">reasoning models (o1, R1)</text><text x="900.0" y="182.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="900.0" y="198.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">an effort dial: buy accuracy</text><text x="900.0" y="213.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">with tokens and time</text>
+<rect x="40" y="410" width="320" height="150" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="200.0" y="446.0" font-size="28" text-anchor="middle">🖼️</text>
+<text x="200.0" y="469.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Multimodality</text>
+<text x="200.0" y="489.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">images, voice, video,</text><text x="200.0" y="504.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">screenshots in and out</text><text x="200.0" y="520.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="200.0" y="535.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">read invoices, talk,</text><text x="200.0" y="551.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">generate creatives</text>
+<rect x="390" y="410" width="320" height="150" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="550.0" y="446.0" font-size="28" text-anchor="middle">⚡</text>
+<text x="550.0" y="469.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Long context, low cost</text>
+<text x="550.0" y="489.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">1M tokens, MoE, quantization,</text><text x="550.0" y="504.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">distillation, caching</text><text x="550.0" y="520.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="550.0" y="535.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">whole documents affordable;</text><text x="550.0" y="551.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">models on laptops</text>
+<rect x="740" y="410" width="320" height="150" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="900.0" y="446.0" font-size="28" text-anchor="middle">🛠️</text>
+<text x="900.0" y="469.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Tools and agents</text>
+<text x="900.0" y="489.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">function calling, computer use,</text><text x="900.0" y="504.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">MCP, coding agents</text><text x="900.0" y="520.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="900.0" y="535.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">models that act,</text><text x="900.0" y="551.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">not just talk</text>
+<text x="550" y="605.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Ask of every headline: which lever, measured how, at what cost?</text>
+</svg>

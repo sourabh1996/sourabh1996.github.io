@@ -37,11 +37,11 @@ Build agents as graphs, from your first node to production: workflow patterns, s
 
 <a id="m4"></a>
 ### 4. State in Depth (5 lessons)
-- The LangGraph State System · Article
-- State Schemas and Data Flow · Article
-- State Reducers · Article
-- Multiple Schemas · Article
-- Lab: A multi-schema agent · Lab
+- [The LangGraph State System](04-state-in-depth/the-langgraph-state-system.md) · Article ✍️ *written*
+- [State Schemas and Data Flow](04-state-in-depth/state-schemas-and-data-flow.md) · Article ✍️ *written*
+- [State Reducers](04-state-in-depth/state-reducers.md) · Article ✍️ *written*
+- [Multiple Schemas](04-state-in-depth/multiple-schemas.md) · Article ✍️ *written*
+- [Lab: A multi-schema agent](04-state-in-depth/lab-a-multi-schema-agent.md) · Lab ✍️ *written*
 
 <a id="m5"></a>
 ### 5. Workflows and Agents (10 lessons)
@@ -72,21 +72,21 @@ Build agents as graphs, from your first node to production: workflow patterns, s
 ### 7. Memory (4 lessons)
 > **Before you start:** [Generative AI and LLM Foundations › How LLMs Work](../generative-ai-and-llm-foundations/course.md#m3)
 
-- Trimming and Filtering Messages · Article
-- Summarising Long Conversations · Article ➕
-- Long-Term Memory with Stores · Article
-- Lab: Keep a long chat under budget · Lab
+- [Trimming and Filtering Messages](07-memory/trimming-and-filtering-messages.md) · Article ✍️ *written*
+- [Summarising Long Conversations](07-memory/summarising-long-conversations.md) · Article ➕ ✍️ *written*
+- [Long-Term Memory with Stores](07-memory/long-term-memory-with-stores.md) · Article ✍️ *written*
+- [Lab: Keep a long chat under budget](07-memory/lab-keep-a-long-chat-under-budget.md) · Lab ✍️ *written*
 
 <a id="m8"></a>
 ### 8. Human-in-the-Loop and Debugging (8 lessons)
-- Streaming Real-Time Updates · Article
-- Breakpoints · Article
-- Pausing with interrupt and Resuming with Command · Article
-- Editing State with Human Input · Article
-- Dynamic Breakpoints · Article
-- Time Travel: Rewind and Replay · Article
-- Lab: Approval step before a risky tool · Lab
-- Lab: Debug an agent with time travel · Lab
+- [Streaming Real-Time Updates](08-human-in-the-loop-and-debugging/streaming-real-time-updates.md) · Article ✍️ *written*
+- [Breakpoints](08-human-in-the-loop-and-debugging/breakpoints.md) · Article ✍️ *written*
+- [Pausing with interrupt and Resuming with Command](08-human-in-the-loop-and-debugging/pausing-with-interrupt-and-resuming-with-command.md) · Article ✍️ *written*
+- [Editing State with Human Input](08-human-in-the-loop-and-debugging/editing-state-with-human-input.md) · Article ✍️ *written*
+- [Dynamic Breakpoints](08-human-in-the-loop-and-debugging/dynamic-breakpoints.md) · Article ✍️ *written*
+- [Time Travel: Rewind and Replay](08-human-in-the-loop-and-debugging/time-travel-rewind-and-replay.md) · Article ✍️ *written*
+- [Lab: Approval step before a risky tool](08-human-in-the-loop-and-debugging/lab-approval-step-before-a-risky-tool.md) · Lab ✍️ *written*
+- [Lab: Debug an agent with time travel](08-human-in-the-loop-and-debugging/lab-debug-an-agent-with-time-travel.md) · Lab ✍️ *written*
 
 <a id="m9"></a>
 ### 9. Subgraphs (3 lessons)
