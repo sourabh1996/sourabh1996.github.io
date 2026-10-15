@@ -360,7 +360,7 @@ A modern server receiving old-style traffic should answer GET or DELETE with `40
 
 ### 9. Custom transports
 
-The spec allows other transports (for example WebSockets inside a company, or an in-memory pipe for tests) as long as they carry the same JSON-RPC messages and respect the lifecycle. SDKs use an **in-memory transport** for unit tests: the client and server run in the same process with no pipes at all. You'll use one in [Building an MCP Client](../course.md#m5).
+The spec allows other transports (for example WebSockets inside a company, or an in-memory pipe for tests) as long as they carry the same JSON-RPC messages and respect the lifecycle. SDKs use an **in-memory transport** for unit tests: the client and server run in the same process with no pipes at all. You will use one in [Building a Local MCP Server with FastMCP](../05-building-with-mcp/building-a-local-mcp-server-with-fastmcp.md).
 
 ---
 

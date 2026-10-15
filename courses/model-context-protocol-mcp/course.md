@@ -39,14 +39,14 @@ The standard way to plug tools and data into AI apps: why MCP exists, its archit
 ### 5. Building with MCP (8 lessons)
 > **Before you start:** [LangChain Complete Guide › Tools and Tool Calling](../langchain-complete-guide/course.md#m7), [APIs and Apps: FastAPI, Streamlit and Docker › Docker and Cloud Deployment](../apis-and-apps-fastapi-streamlit-and-docker/course.md#m9)
 
-- Open MCP Registries (Smithery) · Article
-- Building a Local MCP Server with FastMCP · Article
-- Building and Deploying a Remote MCP Server · Article
-- Building an MCP Client · Article
-- Building MCP Servers with LangChain · Article
-- Docker MCP Catalog and Toolkit · Article
-- Lab: Build and connect your own MCP server · Lab
-- Lab: Expense tracker MCP server · Lab
+- [Open MCP Registries (Smithery)](05-building-with-mcp/open-mcp-registries-smithery.md) · Article ✍️ *written*
+- [Building a Local MCP Server with FastMCP](05-building-with-mcp/building-a-local-mcp-server-with-fastmcp.md) · Article ✍️ *written*
+- [Building and Deploying a Remote MCP Server](05-building-with-mcp/building-and-deploying-a-remote-mcp-server.md) · Article ✍️ *written*
+- [Building an MCP Client](05-building-with-mcp/building-an-mcp-client.md) · Article ✍️ *written*
+- [Building MCP Servers with LangChain](05-building-with-mcp/building-mcp-servers-with-langchain.md) · Article ✍️ *written*
+- [Docker MCP Catalog and Toolkit](05-building-with-mcp/docker-mcp-catalog-and-toolkit.md) · Article ✍️ *written*
+- [Lab: Build and connect your own MCP server](05-building-with-mcp/lab-build-and-connect-your-own-mcp-server.md) · Lab ✍️ *written*
+- [Lab: Expense tracker MCP server](05-building-with-mcp/lab-expense-tracker-mcp-server.md) · Lab ✍️ *written*
 
 <a id="m6"></a>
 ### 6. MCP in Production ➕ (4 lessons)

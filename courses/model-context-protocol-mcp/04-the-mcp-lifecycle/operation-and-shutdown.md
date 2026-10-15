@@ -644,4 +644,4 @@ Closing stdin is the normal way. `SIGTERM` and `SIGKILL` are the fallback for se
 
 ---
 
-**Up next:** [Open MCP Registries (Smithery)](../course.md#m5)
+**Up next:** [Open MCP Registries (Smithery)](../05-building-with-mcp/open-mcp-registries-smithery.md)
