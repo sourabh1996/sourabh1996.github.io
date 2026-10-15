@@ -1,0 +1,45 @@
+# Module 3 central idea: a small working window, fed just in time and kept small by four moves.
+SPEC = {
+    "title": "Just-in-time context: a small window, fed on demand",
+    "accent": "teal",
+    "width": 1100, "height": 700,
+    "groups": [
+        {"x": 380, "y": 210, "w": 340, "h": 300, "label": "The agent's working window", "color": "blue"},
+    ],
+    "nodes": {
+        "sys": {"x": 405, "y": 240, "w": 290, "h": 46, "label": "📜 Instructions + memory file", "color": "blue", "size": 14},
+        "plan": {"x": 405, "y": 296, "w": 290, "h": 46, "label": "🗒️ Current plan / to-do", "color": "blue", "size": 14},
+        "recent": {"x": 405, "y": 352, "w": 290, "h": 46, "label": "💬 Recent turns, verbatim", "color": "blue", "size": 14},
+        "summary": {"x": 405, "y": 408, "w": 290, "h": 46, "label": "🧾 Summary of older turns", "color": "blue", "size": 14},
+        "refs": {"x": 405, "y": 464, "w": 290, "h": 36, "label": "🔗 Paths and IDs, not contents", "color": "gray", "size": 13},
+
+        "select": {"x": 40, "y": 110, "w": 280, "h": 110, "icon": "🔎", "label": "SELECT just in time",
+                   "sub": "list, grep, read line ranges,\nsearch tools, retrieval", "color": "teal"},
+        "shape": {"x": 40, "y": 260, "w": 280, "h": 110, "icon": "✂️", "label": "SHAPE tool results",
+                  "sub": "filters, fields, pages,\ncaps with guidance", "color": "teal"},
+        "compress": {"x": 40, "y": 410, "w": 280, "h": 110, "icon": "🗜️", "label": "COMPRESS history",
+                     "sub": "clear used results,\nsummarise, compact", "color": "amber"},
+        "write": {"x": 780, "y": 110, "w": 280, "h": 110, "icon": "📁", "label": "WRITE it down",
+                  "sub": "notes, progress file,\nbig results saved to disk", "color": "purple"},
+        "isolate": {"x": 780, "y": 260, "w": 280, "h": 110, "icon": "🧑‍🤝‍🧑", "label": "ISOLATE heavy reading",
+                    "sub": "sub-agent explores in its own\nwindow, returns ~1-2K tokens", "color": "green"},
+        "store": {"x": 780, "y": 410, "w": 280, "h": 110, "icon": "🗄️", "label": "Outside the window",
+                  "sub": "files, memory store, docs,\ncodebase, web, databases", "color": "gray"},
+    },
+    "edges": [
+        {"from": "select", "to": "plan", "to_side": "left", "from_side": "right", "via": [(350, 165), (350, 319)]},
+        {"from": "shape", "to": "recent", "to_side": "left", "from_side": "right", "via": [(360, 315), (360, 375)]},
+        {"from": "compress", "to": "summary", "to_side": "left", "from_side": "right"},
+        {"from": "plan", "to": "write", "from_side": "right", "to_side": "left", "via": [(750, 319), (750, 165)]},
+        {"from": "isolate", "to": "recent", "from_side": "left", "to_side": "right", "via": [(740, 315), (740, 375)]},
+        {"from": "store", "to": "refs", "from_side": "left", "to_side": "right", "via": [(740, 465), (740, 482)]},
+    ],
+    "notes": [
+        {"x": 550, "y": 560, "text": "The window holds what the next step needs. Everything else lives outside it,",
+         "weight": 700, "size": 16, "color": "#1f2328"},
+        {"x": 550, "y": 586, "text": "reachable by a path, an ID or a search, and is loaded only when it earns its place.",
+         "weight": 700, "size": 16, "color": "#1f2328"},
+        {"x": 550, "y": 630, "text": "Write, select, compress and isolate: four moves that keep a 200-step run inside a fixed budget.",
+         "size": 13},
+    ],
+}

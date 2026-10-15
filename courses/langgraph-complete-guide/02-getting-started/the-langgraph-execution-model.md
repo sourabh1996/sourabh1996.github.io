@@ -1,6 +1,6 @@
 ---
 title: "The LangGraph Execution Model"
-course: LangGraph Complete Guide
+course: "LangGraph Complete Guide"
 module: "2. Getting Started"
 type: Article
 level: Intermediate
@@ -150,7 +150,7 @@ Output:
 {'best': 9}
 ```
 
-Reducers are covered in depth in [State Reducers](../course.md#m4).
+Reducers are covered in depth in [State Reducers](../04-state-in-depth/state-reducers.md).
 
 ### 4. Watching the execution: `stream`
 
