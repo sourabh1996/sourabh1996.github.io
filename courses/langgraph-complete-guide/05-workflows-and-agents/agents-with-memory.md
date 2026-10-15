@@ -1,6 +1,6 @@
 ---
 title: "Agents with Memory"
-course: LangGraph Complete Guide
+course: "LangGraph Complete Guide"
 module: "5. Workflows and Agents"
 type: Article
 level: Intermediate
@@ -274,9 +274,9 @@ Output:
 | Scope | One thread (one conversation) | Across threads (the same user, many chats) |
 | LangGraph feature | **Checkpointer** + `thread_id` | **Store** (`InMemoryStore`, Postgres store...) |
 | Example | "Add GST to *that*" | "Remember I'm vegetarian" in every future chat |
-| Covered in | This lesson and module 6 | [Long-Term Memory with Stores](../course.md#m7) |
+| Covered in | This lesson and module 6 | [Long-Term Memory with Stores](../07-memory/long-term-memory-with-stores.md) |
 
-This course focuses on the first. The checkpointer is also what gives you fault tolerance, resuming and human-in-the-loop, so it's worth understanding well.
+This lesson focuses on the first. The checkpointer is also what gives you fault tolerance, resuming and human-in-the-loop, so it's worth understanding well.
 
 ---
 

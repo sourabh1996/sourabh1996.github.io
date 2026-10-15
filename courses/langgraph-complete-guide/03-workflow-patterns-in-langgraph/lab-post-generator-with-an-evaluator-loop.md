@@ -264,4 +264,4 @@ generate evaluate optimise evaluate optimise evaluate
 
 ---
 
-**Up next:** [The LangGraph State System](../course.md#m4)
+**Up next:** [The LangGraph State System](../04-state-in-depth/the-langgraph-state-system.md)

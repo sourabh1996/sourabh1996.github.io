@@ -280,29 +280,30 @@ The billing reply failed the first check (no order id), was rewritten once, and 
 
 ## Step 7: Watch It Run
 
-Stream the updates for the first ticket to see the super-steps, including the loop:
+Stream the run of the first ticket to see the super-steps, including the loop. The `debug` stream mode tags every finished node with the number of the super-step it ran in. The three analysers run at the same time, so they can finish in any order; sorting by step and then by name keeps the printout the same on every run:
 
 ```python
-for chunk in triage.stream({"message": tickets[0]}, stream_mode="updates"):
-    for node, update in chunk.items():
-        shown = {k: v for k, v in update.items() if k != "notes"}
-        print(f"{node:<22} {shown}")
+events = [e for e in triage.stream({"message": tickets[0]}, stream_mode="debug")
+          if e["type"] == "task_result"]
+for e in sorted(events, key=lambda e: (e["step"], e["payload"]["name"])):
+    shown = {k: v for k, v in dict(e["payload"]["result"]).items() if k != "notes"}
+    print(f'{e["step"]:<3} {e["payload"]["name"]:<22} {shown}')
 ```
 
 Output:
 
 ```
-categorise             {'category': 'billing'}
-detect_mood            {'mood': 'upset'}
-find_order_id          {'order_id': 'ORD-4417'}
-decide_priority        {'priority': 'high', 'attempts': 0}
-write_billing_reply    {'reply': "We're sorry about the billing problem. Our payments team will review your charge within 24 hours."}
-check_reply            {'problems': ['mention order ORD-4417']}
-rewrite_reply          {'reply': "We're sorry about the billing problem. Our payments team will review your charge within 24 hours. (Reference: ORD-4417.)", 'attempts': 1}
-check_reply            {'problems': []}
+1   categorise             {'category': 'billing'}
+1   detect_mood            {'mood': 'upset'}
+1   find_order_id          {'order_id': 'ORD-4417'}
+2   decide_priority        {'priority': 'high', 'attempts': 0}
+3   write_billing_reply    {'reply': "We're sorry about the billing problem. Our payments team will review your charge within 24 hours."}
+4   check_reply            {'problems': ['mention order ORD-4417']}
+5   rewrite_reply          {'reply': "We're sorry about the billing problem. Our payments team will review your charge within 24 hours. (Reference: ORD-4417.)", 'attempts': 1}
+6   check_reply            {'problems': []}
 ```
 
-Read it top to bottom: three analysers (one super-step), the fan-in, the branch to the billing writer, a failed check, one rewrite, and a passing check.
+Read it top to bottom: three analysers sharing super-step 1, the fan-in, the branch to the billing writer, a failed check, one rewrite, and a passing check.
 
 ---
 
