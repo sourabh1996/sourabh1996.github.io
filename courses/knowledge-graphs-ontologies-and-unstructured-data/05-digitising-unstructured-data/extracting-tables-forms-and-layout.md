@@ -150,7 +150,6 @@ flour  54.0  84.0 152.0
  1102 162.0 186.0 152.0
    40 204.0 216.0 152.0
 ```
-
 (The Malabar invoice here is the cleaned version from the last lesson, with OCR errors fixed.) Each row is one word with its position. The words `Ragi flour (25 kg)` are four separate words that belong in one cell. Nothing in the data says so yet; only their positions do.
 
 ### 3. Rebuilding a table from boxes
@@ -159,7 +158,7 @@ Three steps rebuild the line-item table:
 
 1. **Group words into lines**: words whose `top` values are within a small tolerance are on the same line.
 2. **Find the header line** and use the header words' positions as column anchors.
-3. **Assign every word below the header to the nearest column**, joining words that land in the same cell. Stop when a line has nothing in the first column (that's where the totals block starts).
+3. **Assign every word below the header to a column**: a column owns the strip from its header's left edge to the next header's left edge, and words landing in the same strip are joined into one cell. Stop when a line has nothing in the first column (that's where the totals block starts).
 
 ```python
 def group_lines(words, tol=3.0):
@@ -179,12 +178,13 @@ header_idx = next(i for i, ln in enumerate(lines)
                   if {"Description", "Amount"} <= {w["text"] for w in ln})
 header = lines[header_idx]
 cols = [w["text"] for w in header]
-centres = [(w["x0"] + w["x1"]) / 2 for w in header]
 print("header:", [(w["text"], w["x0"]) for w in header])
 
+starts = [w["x0"] for w in header]
+
 def column_of(word):
-    centre = (word["x0"] + word["x1"]) / 2
-    return min(range(len(centres)), key=lambda i: abs(centres[i] - centre))
+    """A column owns the space from its header's left edge up to the next header's left edge."""
+    return max(i for i, x in enumerate(starts) if x <= word["x0"] + 3)   # 3-point slack
 
 rows = []
 for ln in lines[header_idx + 1:]:
@@ -204,11 +204,10 @@ Output:
 
 ```
 header: [('Sl', 0.0), ('Description', 24.0), ('HSN', 162.0), ('Qty', 204.0), ('Unit', 240.0), ('Rate', 282.0), ('Amount', 342.0)]
-Sl     Description      HSN Qty Unit   Rate    Amount
+Sl         Description  HSN Qty Unit   Rate    Amount
  1  Ragi flour (25 kg) 1102  40  bag 950.00 38,000.00
  2 Jowar flour (25 kg) 1102  10  bag 880.00  8,800.00
 ```
-
 That's a real table: `Ragi flour (25 kg)` is one cell, and `40` is in the `Qty` column because of where it sits. Now the values can be **checked**, which is the whole point of structure:
 
 ```python
@@ -231,14 +230,13 @@ print("taxable + IGST == total:", totals["Taxable value"] + totals["IGST @ 5%"] 
 Output:
 
 ```
-    Description Qty   Rate    Amount  computed   ok
- Ragi flour (25  40 950.00 38,000.00   38000.0 True
-Jowar flour (25  10 880.00  8,800.00    8800.0 True
+        Description Qty   Rate    Amount  computed   ok
+ Ragi flour (25 kg)  40 950.00 38,000.00   38000.0 True
+Jowar flour (25 kg)  10 880.00  8,800.00    8800.0 True
 {'Taxable value': 46800.0, 'IGST @ 5%': 2340.0, 'Total (INR)': 49140.0}
 line items add up to taxable value: True
 taxable + IGST == total: True
 ```
-
 The totals block is a mini **key-value** area: label on the left, value right-aligned at the edge. The rule "the right-most word on the line is the value" is a typical layout heuristic. (We used `float` here only for a quick check; the stored records in later lessons use `Decimal`.)
 
 Real tables are harder: cells that wrap onto two lines, merged header cells ("Amount" spanning "Rate" and "Value"), tables that break across pages and repeat their header, and tables with no ruling lines at all. That's why dedicated table-structure models exist. But every one of them is answering the same two questions you just answered: which words share a row, and which share a column.
@@ -278,7 +276,6 @@ inv_05_saurashtra.pdf             NaN  15/09/2026  24AAECS5678F1Z2
 
 fields found: 10 of 15
 ```
-
 The template was written while looking at the Deccan invoices, so it works on Deccan and partly elsewhere. The Nashik invoice says `INVOICE #` and `Invoice date:` (lower-case d), Malabar says `Inv #` and `Dt.`, Saurashtra says `Bill No.` and `Bill Date:`. Notice the date column too: `Date:\s*(\S+)` matched inside `Bill Date:` on the Saurashtra invoice, which happened to be right; on another document the same accident could grab the wrong date.
 
 You can add synonyms, and teams do, for a while:
@@ -306,7 +303,6 @@ inv_05_saurashtra.pdf    SGC/889/26-27     15/09/2026  24AAECS5678F1Z2
 
 fields found: 15 of 15
 ```
-
 All fields found, after hand-writing synonyms for five suppliers. Kiran Foods has dozens of suppliers, each new one brings a new template, and suppliers change their billing software without warning. That maintenance burden is the main reason invoice extraction moved first to **ML models trained on many layouts** (the cloud prebuilt invoice models) and now to **LLMs with a schema** (the next two lessons), which understand that `Bill No.`, `Inv #` and `INVOICE #` all mean "invoice number" without being told.
 
 Templates still have a place: for a handful of high-volume, stable layouts they're fast, free and perfectly predictable. A common design is **templates for the known top suppliers, LLM extraction for the long tail**.
@@ -333,7 +329,6 @@ Output:
 naive top-to-bottom, left-to-right:
   Ship from: Bill to: FrostLine Cold Chain Kiran Foods Pvt Ltd Plot 7, Chakan MIDC Hinjewadi Phase 2 Pune 410501 Pune 4110 ...
 ```
-
 Reading strictly line by line interleaves the two addresses: "FrostLine Cold Chain Kiran Foods Pvt Ltd Plot 7, Chakan MIDC Hinjewadi...". An extractor reading this could easily pin Kiran Foods' GSTIN on FrostLine. The fix is to **find the column gutter**: an x-range that no word crosses, running down the block.
 
 ```python
@@ -365,7 +360,6 @@ gutters: [(126, 198)]
 left: Ship from: FrostLine Cold Chain Plot 7, Chakan MIDC Pune 410501 GSTIN 27AAHCF2468K1Z3
 right: Bill to: Kiran Foods Pvt Ltd Hinjewadi Phase 2 Pune 411057 GSTIN 27AAKCK4321M1Z9
 ```
-
 Each address is now intact and in order, so the seller's GSTIN stays with the seller. This "whitespace gutter" idea, applied recursively (split the page into columns, then each column into blocks), is the core of classic reading-order algorithms such as the **XY-cut**. Layout models learn more robust versions of it, and they handle cases like a full-width title above two columns.
 
 ### 6. The tools
@@ -464,21 +458,20 @@ Output:
   "tables": [
     [
       {
-        "Description": "Ragi flour (25",
-        "HSN": "kg) 1102",
+        "Description": "Ragi flour (25 kg)",
+        "HSN": "1102",
         "Qty": "40",
         "Unit": "bag",
         "Rate": "950.00",
         "Amount": "38,000.00"
       },
       {
-        "Description": "Jowar flour (25",
-        "HSN": "kg) 1102",
+        "Description": "Jowar flour (25 kg)",
+        "HSN": "1102",
         "Qty": "10",
         "Unit": "bag",
         "Rate": "880.00",
 ```
-
 This is still raw, supplier-specific text (`"Invoice No"` here, `"Bill No."` elsewhere; amounts as strings with commas). The next step maps it onto **one schema** with typed fields, whatever the supplier called them. That's the job of LLM extraction.
 
 ---
@@ -518,11 +511,10 @@ print(pd.DataFrame(out)[["Sl", "Description", "Amount"]].to_string(index=False))
 Output:
 
 ```
-Sl        Description    Amount
- 1 Ragi flour (25 kg) 38,000.00
- 2    Jowar flour (25  8,800.00
+Sl         Description    Amount
+ 1  Ragi flour (25 kg) 38,000.00
+ 2 Jowar flour (25 kg)  8,800.00
 ```
-
 Rule: a line with text only in a text column and nothing in the key columns continues the previous row.
 
 **2.**
@@ -537,7 +529,6 @@ Output:
 ```
 {'invoice_no': None, 'date': None, 'gstin': '36AABCD1234E1Z5'}
 ```
-
 Both the invoice number and the date are lost, silently. A template pipeline must alert on missing fields, or this supplier's invoices quietly stop being recorded correctly.
 
 **3.** With a 6-point minimum, every single space between words (6 points wide) counts as a gutter, so the page is "split" between every pair of words. The gutter must be clearly wider than normal word spacing, which is why real tools compare gaps with the typical space width of the page.
