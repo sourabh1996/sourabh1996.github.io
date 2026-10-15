@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Finding MCP servers: code, metadata, curation">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="638" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Finding MCP servers: code, metadata, curation</text>
+<rect x="20" y="80" width="1060" height="150" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="90" width="120" height="130" rx="10" fill="#5b3fa0"/>
+<text x="90.0" y="163.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Curate</text>
+<rect x="20" y="250" width="1060" height="150" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="260" width="120" height="130" rx="10" fill="#2f5fb3"/>
+<text x="90.0" y="333.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Describe</text>
+<rect x="20" y="420" width="1060" height="150" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="430" width="120" height="130" rx="10" fill="#2e7d4f"/>
+<text x="90.0" y="491.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Store</text><text x="90.0" y="518.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">code</text>
+<path d="M550.0,270.0 L400.0,240.0 L260.0,240.0 L260.0,210.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M550.0,270.0 L470.0,240.0 L470.0,210.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M550.0,380.0 L400.0,410.0 L245.0,410.0 L245.0,440.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="264.5" y="391.0" width="71.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="300" y="405.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">points to</text>
+<path d="M550.0,380.0 L450.0,410.0 L425.0,410.0 L425.0,440.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M550.0,380.0 L615.0,410.0 L615.0,440.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M550.0,380.0 L750.0,410.0 L895.0,410.0 L895.0,440.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M930.0,210.0 L960.0,270.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="165" y="100" width="190" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="260.0" y="140.0" font-size="28" text-anchor="middle">🛠️</text>
+<text x="260.0" y="163.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Smithery</text>
+<text x="260.0" y="183.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">search, hosted</text><text x="260.0" y="198.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">connections, CLI</text>
+<rect x="375" y="100" width="190" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="470.0" y="138.0" font-size="28" text-anchor="middle">🧩</text>
+<text x="470.0" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">GitHub MCP</text><text x="470.0" y="181.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Registry</text>
+<text x="470.0" y="201.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">inside VS Code</text>
+<rect x="585" y="100" width="190" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="680.0" y="138.0" font-size="28" text-anchor="middle">🐳</text>
+<text x="680.0" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Docker MCP</text><text x="680.0" y="181.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Catalog</text>
+<text x="680.0" y="201.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">signed images</text>
+<rect x="795" y="100" width="270" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="930.0" y="140.0" font-size="28" text-anchor="middle">🏢</text>
+<text x="930.0" y="163.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Company registry</text>
+<text x="930.0" y="183.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">approved servers only,</text><text x="930.0" y="198.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">same OpenAPI</text>
+<rect x="300" y="270" width="500" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="550.0" y="310.0" font-size="28" text-anchor="middle">📇</text>
+<text x="550.0" y="333.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Official MCP Registry</text>
+<text x="550.0" y="353.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">server.json metadata, verified namespaces</text><text x="550.0" y="368.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">io.github.user/...  or  in.example/...</text>
+<rect x="855" y="270" width="210" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="960.0" y="310.0" font-size="28" text-anchor="middle">💻</text>
+<text x="960.0" y="333.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Hosts</text>
+<text x="960.0" y="353.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">read curated lists,</text><text x="960.0" y="368.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">write mcpServers config</text>
+<rect x="165" y="440" width="160" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="245.0" y="488.0" font-size="28" text-anchor="middle">📦</text>
+<text x="245.0" y="511.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">npm</text>
+<text x="245.0" y="531.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">npx -y pkg@1.2.0</text>
+<rect x="345" y="440" width="160" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="425.0" y="488.0" font-size="28" text-anchor="middle">🐍</text>
+<text x="425.0" y="511.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">PyPI</text>
+<text x="425.0" y="531.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">uvx pkg==1.2.0</text>
+<rect x="525" y="440" width="180" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="615.0" y="488.0" font-size="28" text-anchor="middle">🐳</text>
+<text x="615.0" y="511.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Docker Hub</text>
+<text x="615.0" y="531.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">docker run -i --rm</text>
+<rect x="725" y="440" width="340" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="895.0" y="480.0" font-size="28" text-anchor="middle">🌐</text>
+<text x="895.0" y="503.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Remote endpoints</text>
+<text x="895.0" y="523.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">https://mcp.vendor.com/mcp</text><text x="895.0" y="538.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">(no install, maybe OAuth)</text>
+<text x="615" y="600.0" font-size="14" font-weight="600" fill="#2f5fb3" text-anchor="middle">The registry verifies who published an entry. It does not check what the code does: review before you install.</text>
+</svg>

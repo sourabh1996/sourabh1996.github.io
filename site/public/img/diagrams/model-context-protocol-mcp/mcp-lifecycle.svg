@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" width="1100" height="600" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="The MCP lifecycle: agree, operate, stop">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="598" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">The MCP lifecycle: agree, operate, stop</text>
+<rect x="20" y="85" width="1060" height="230" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="95" width="130" height="210" rx="10" fill="#1f766d"/>
+<text x="95.0" y="196.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Modern</text><text x="95.0" y="223.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">(2026)</text>
+<rect x="20" y="335" width="1060" height="230" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="345" width="130" height="210" rx="10" fill="#4b5563"/>
+<text x="95.0" y="434.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Legacy</text><text x="95.0" y="461.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">(2025 and</text><text x="95.0" y="489.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">earlier)</text>
+<path d="M375.0,162.5 L415.0,162.5" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M645.0,162.5 L685.0,162.5" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M875.0,162.5 L915.0,162.5" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M530.0,215.0 L530.0,235.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<path d="M375.0,412.5 L415.0,412.5" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M645.0,412.5 L685.0,412.5" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M875.0,412.5 L915.0,412.5" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="175" y="110" width="200" height="105" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="275.0" y="147.5" font-size="28" text-anchor="middle">🔎</text>
+<text x="275.0" y="170.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">server/discover</text>
+<text x="275.0" y="190.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">optional: versions,</text><text x="275.0" y="206.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">capabilities, instructions</text>
+<rect x="415" y="110" width="230" height="105" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="530.0" y="147.5" font-size="28" text-anchor="middle">📨</text>
+<text x="530.0" y="170.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Any request</text>
+<text x="530.0" y="190.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">carries version and</text><text x="530.0" y="206.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">capabilities in _meta</text>
+<rect x="685" y="110" width="190" height="105" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="780.0" y="147.5" font-size="28" text-anchor="middle">⚙️</text>
+<text x="780.0" y="170.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Operate</text>
+<text x="780.0" y="190.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">each request</text><text x="780.0" y="206.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">stands alone</text>
+<rect x="915" y="110" width="160" height="105" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="995.0" y="147.5" font-size="28" text-anchor="middle">🔚</text>
+<text x="995.0" y="170.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Stop</text>
+<text x="995.0" y="190.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">close stdin, or</text><text x="995.0" y="206.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">just stop POSTing</text>
+<rect x="300" y="235" width="460" height="62" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="530.0" y="271.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">↩️ -32022 Unsupported version: pick one from data.supported, retry</text>
+<rect x="175" y="360" width="200" height="105" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="275.0" y="397.5" font-size="28" text-anchor="middle">🤝</text>
+<text x="275.0" y="420.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">initialize</text>
+<text x="275.0" y="440.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">propose version,</text><text x="275.0" y="456.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">exchange capabilities</text>
+<rect x="415" y="360" width="230" height="105" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="530.0" y="395.5" font-size="28" text-anchor="middle">✅</text>
+<text x="530.0" y="418.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">notifications/</text><text x="530.0" y="438.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">initialized</text>
+<text x="530.0" y="458.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">client is ready</text>
+<rect x="685" y="360" width="190" height="105" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="780.0" y="397.5" font-size="28" text-anchor="middle">🧷</text>
+<text x="780.0" y="420.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Session</text>
+<text x="780.0" y="440.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">server remembers</text><text x="780.0" y="456.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">version + capabilities</text>
+<rect x="915" y="360" width="160" height="105" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="995.0" y="397.5" font-size="28" text-anchor="middle">🔚</text>
+<text x="995.0" y="420.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Close</text>
+<text x="995.0" y="440.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">close stdin, or</text><text x="995.0" y="456.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">HTTP DELETE</text>
+<text x="625" y="492.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Dual-era clients probe with server/discover first; any non-modern error means: fall back to initialize.</text>
+<text x="625" y="515.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Dual-era servers answer both: _meta on a request means modern, an initialize request means legacy.</text>
+<text x="625" y="548.0" font-size="14" font-weight="700" fill="#1f766d" text-anchor="middle">Same messages for tools, resources and prompts in both eras. Only how they agree differs.</text>
+</svg>

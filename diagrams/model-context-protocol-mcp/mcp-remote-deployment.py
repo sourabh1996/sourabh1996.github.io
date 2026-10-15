@@ -1,0 +1,40 @@
+# A remote MCP server in production: hosts call one HTTPS URL; a load balancer spreads POSTs over stateless instances that share storage and secrets.
+SPEC = {
+    "title": "A remote MCP server in production",
+    "accent": "teal",
+    "width": 1100, "height": 600,
+    "groups": [
+        {"x": 30, "y": 90, "w": 220, "h": 440, "label": "Clients", "color": "purple"},
+        {"x": 300, "y": 90, "w": 200, "h": 440, "label": "Edge", "color": "amber"},
+        {"x": 550, "y": 90, "w": 240, "h": 440, "label": "Stateless instances", "color": "teal"},
+        {"x": 840, "y": 90, "w": 230, "h": 440, "label": "Shared by all", "color": "gray"},
+    ],
+    "nodes": {
+        "claude": {"x": 55, "y": 130, "w": 170, "h": 85, "icon": "💬", "label": "Claude / ChatGPT", "sub": "remote connector", "color": "purple"},
+        "ide": {"x": 55, "y": 255, "w": 170, "h": 85, "icon": "🧑‍💻", "label": "IDE agent", "sub": "VS Code, Cursor", "color": "purple"},
+        "agent": {"x": 55, "y": 380, "w": 170, "h": 85, "icon": "🤖", "label": "Your agent", "sub": "SDK Client(url)", "color": "purple"},
+        "tls": {"x": 320, "y": 150, "w": 160, "h": 110, "icon": "🔒", "label": "HTTPS + auth", "sub": "TLS, token check,\nOrigin check", "color": "amber"},
+        "lb": {"x": 320, "y": 330, "w": 160, "h": 110, "icon": "⚖️", "label": "Load balancer", "sub": "routes any POST\nto any instance", "color": "amber"},
+        "i1": {"x": 575, "y": 125, "w": 190, "h": 85, "icon": "🐍", "label": "Instance 1", "sub": "POST /mcp", "color": "teal"},
+        "i2": {"x": 575, "y": 265, "w": 190, "h": 85, "icon": "🐍", "label": "Instance 2", "sub": "POST /mcp", "color": "teal"},
+        "i3": {"x": 575, "y": 405, "w": 190, "h": 85, "icon": "🐍", "label": "Instance 3", "sub": "POST /mcp\nGET /health", "color": "teal"},
+        "db": {"x": 865, "y": 125, "w": 180, "h": 95, "icon": "🗄️", "label": "Database", "sub": "data + handles", "color": "gray"},
+        "secret": {"x": 865, "y": 265, "w": 180, "h": 95, "icon": "🔑", "label": "Secret manager", "sub": "API keys, state\nsigning key", "color": "gray"},
+        "logs": {"x": 865, "y": 405, "w": 180, "h": 95, "icon": "📈", "label": "Logs + traces", "sub": "OpenTelemetry", "color": "gray"},
+    },
+    "edges": [
+        {"from": "claude", "to": "tls", "from_side": "right", "to_side": "left"},
+        {"from": "ide", "to": "tls", "from_side": "right", "to_side": "left"},
+        {"from": "agent", "to": "tls", "from_side": "right", "to_side": "left"},
+        {"from": "tls", "to": "lb", "from_side": "bottom", "to_side": "top", "solid": True},
+        {"from": "lb", "to": "i1", "from_side": "right", "to_side": "left"},
+        {"from": "lb", "to": "i2", "from_side": "right", "to_side": "left"},
+        {"from": "lb", "to": "i3", "from_side": "right", "to_side": "left"},
+        {"from": "i1", "to": "db", "from_side": "right", "to_side": "left"},
+        {"from": "i2", "to": "secret", "from_side": "right", "to_side": "left"},
+        {"from": "i3", "to": "logs", "from_side": "right", "to_side": "left"},
+    ],
+    "notes": [
+        {"x": 550, "y": 565, "text": "No sessions: every POST carries its own version, capabilities and token, so any instance can answer it.", "size": 14, "weight": 600, "color": "#1f766d"},
+    ],
+}
