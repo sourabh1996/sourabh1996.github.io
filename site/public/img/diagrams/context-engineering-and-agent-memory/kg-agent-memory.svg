@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="A knowledge graph as agent memory">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="638" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">A knowledge graph as agent memory</text>
+<rect x="20" y="80" width="1060" height="170" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="90" width="110" height="150" rx="10" fill="#5b3fa0"/>
+<text x="85.0" y="173.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Write</text>
+<rect x="20" y="380" width="1060" height="170" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="390" width="110" height="150" rx="10" fill="#2f5fb3"/>
+<text x="85.0" y="473.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Read</text>
+<path d="M285.0,165.0 L315.0,165.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M480.0,165.0 L510.0,165.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M675.0,165.0 L705.0,165.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M870.0,165.0 L990.0,165.0 L990.0,257.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="968.5" y="188.0" width="43.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="990.0" y="202.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">write</text>
+<path d="M285.0,465.0 L315.0,465.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M480.0,465.0 L510.0,465.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M675.0,465.0 L705.0,465.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M990.0,375.0 L990.0,565.0 L592.0,565.0 L592.5,520.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="773.0" y="542.0" width="36.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="791.0" y="556.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">read</text>
+<rect x="120" y="110" width="165" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="202.5" y="150.0" font-size="28" text-anchor="middle">💬</text>
+<text x="202.5" y="173.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Episode</text>
+<text x="202.5" y="193.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">what was said,</text><text x="202.5" y="208.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">and when</text>
+<rect x="315" y="110" width="165" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="397.5" y="150.0" font-size="28" text-anchor="middle">🤖</text>
+<text x="397.5" y="173.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Extract</text>
+<text x="397.5" y="193.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">entities and</text><text x="397.5" y="208.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">triples (LLM)</text>
+<rect x="510" y="110" width="165" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="592.5" y="150.0" font-size="28" text-anchor="middle">🪪</text>
+<text x="592.5" y="173.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Resolve</text>
+<text x="592.5" y="193.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">mom = my mother</text><text x="592.5" y="208.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">= Lata</text>
+<rect x="705" y="110" width="165" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="787.5" y="150.0" font-size="28" text-anchor="middle">🕒</text>
+<text x="787.5" y="173.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Upsert edge</text>
+<text x="787.5" y="193.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">close the old fact,</text><text x="787.5" y="208.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">don&#x27;t delete it</text>
+<rect x="900" y="257" width="180" height="118" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="990.0" y="293.0" font-size="28" text-anchor="middle">🕸️</text>
+<text x="990.0" y="316.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Graph store</text>
+<text x="990.0" y="336.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Arjun LIVES_IN</text><text x="990.0" y="351.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Hyderabad (since Sep)</text><text x="990.0" y="367.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Chennai (Mar to Sep)</text>
+<rect x="120" y="410" width="165" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="202.5" y="450.0" font-size="28" text-anchor="middle">❓</text>
+<text x="202.5" y="473.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Question</text>
+<text x="202.5" y="493.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">visit my brother</text><text x="202.5" y="508.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">with my mother</text>
+<rect x="315" y="410" width="165" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="397.5" y="450.0" font-size="28" text-anchor="middle">📍</text>
+<text x="397.5" y="473.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Find seeds</text>
+<text x="397.5" y="493.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">aliases or</text><text x="397.5" y="508.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">vector search</text>
+<rect x="510" y="410" width="165" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="592.5" y="450.0" font-size="28" text-anchor="middle">🧭</text>
+<text x="592.5" y="473.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Walk edges</text>
+<text x="592.5" y="493.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">current edges,</text><text x="592.5" y="508.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">1 to 2 hops</text>
+<rect x="705" y="410" width="165" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="787.5" y="450.0" font-size="28" text-anchor="middle">🪟</text>
+<text x="787.5" y="473.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Context</text>
+<text x="787.5" y="493.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">dated facts,</text><text x="787.5" y="508.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">under a budget</text>
+<text x="500" y="300.0" font-size="15" font-weight="700" fill="#1f766d" text-anchor="middle">Every edge keeps valid_from, invalid_at and its source episode.</text>
+<text x="500" y="328.0" font-size="14" font-weight="500" fill="#57606a" text-anchor="middle">One node per real thing, so finding Arjun finds every fact about him.</text>
+<text x="550" y="610.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Similarity finds sentences that sound alike; the graph returns what is true now.</text>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" width="1100" height="700" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Getting JSON from an LLM: the reliability ladder">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="698" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#9a6412"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Getting JSON from an LLM: the reliability ladder</text>
+<path d="M160.0,400.0 L160.0,395.0 L300.0,395.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M420.0,320.0 L420.0,315.0 L560.0,315.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M680.0,240.0 L680.0,235.0 L820.0,235.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="40" y="400" width="240" height="150" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="160.0" y="444.0" font-size="28" text-anchor="middle">🙏</text>
+<text x="160.0" y="467.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 1: Ask</text>
+<text x="160.0" y="487.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;reply with only JSON&quot;</text><text x="160.0" y="502.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">guarantees: nothing</text><text x="160.0" y="518.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">fails: preamble, ```fences,</text><text x="160.0" y="533.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">missing fields</text>
+<rect x="300" y="320" width="240" height="150" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="420.0" y="364.0" font-size="28" text-anchor="middle">🔁</text>
+<text x="420.0" y="387.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 2: Validate + retry</text>
+<text x="420.0" y="407.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">examples, parse, Pydantic,</text><text x="420.0" y="422.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">re-ask with the errors</text><text x="420.0" y="438.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">catches failures,</text><text x="420.0" y="453.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">costs extra calls</text>
+<rect x="560" y="240" width="240" height="150" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="680.0" y="284.0" font-size="28" text-anchor="middle">🧱</text>
+<text x="680.0" y="307.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 3: JSON mode</text>
+<text x="680.0" y="327.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">API setting</text><text x="680.0" y="342.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">guarantees: valid syntax</text><text x="680.0" y="358.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">fails: wrong fields</text><text x="680.0" y="373.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">or wrong types</text>
+<rect x="820" y="160" width="240" height="150" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="940.0" y="204.0" font-size="28" text-anchor="middle">🔒</text>
+<text x="940.0" y="227.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 4: Constrained</text>
+<text x="940.0" y="247.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">API takes your schema;</text><text x="940.0" y="262.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">invalid tokens masked</text><text x="940.0" y="278.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">guarantees: the shape</text><text x="940.0" y="293.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">(not the values)</text>
+<rect x="40" y="590" width="1020" height="70" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="550.0" y="630.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Always, at every step: check stop reason · business rules · values found in the source · human review when stakes are high</text>
+<text x="40" y="110.0" font-size="16" font-weight="700" fill="#2e7d4f" text-anchor="start">more reliable →</text>
+<text x="40" y="135.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="start">Steps 1-2 work with any model.</text>
+<text x="40" y="155.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="start">Steps 3-4 need API support.</text>
+</svg>

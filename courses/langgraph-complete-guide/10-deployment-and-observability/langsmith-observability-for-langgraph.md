@@ -13,7 +13,7 @@ reading_time: 28 min
 >
 > - [Building Agents](../05-workflows-and-agents/building-agents.md), since agents are what you'll most often need to trace.
 > - [Deploying and Running LangGraph Apps](deploying-and-running-langgraph-apps.md), for the production setting where tracing matters most.
-> - [LangSmith Monitoring](../course.md#m5) in the LangChain Complete Guide, helpful but optional.
+> - [LangSmith Monitoring](../../langchain-complete-guide/course.md#m8) in the LangChain Complete Guide, helpful but optional.
 
 ## Introduction
 

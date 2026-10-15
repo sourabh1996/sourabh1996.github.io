@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" width="1100" height="700" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="The GenAI project lifecycle">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="698" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">The GenAI project lifecycle</text>
+<path d="M290.0,155.0 L435.0,155.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M665.0,155.0 L810.0,155.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M925.0,220.0 L925.0,300.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M925.0,430.0 L925.0,510.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M810.0,575.0 L665.0,575.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="695.0" y="552.0" width="85.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="737.5" y="566.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">passes gate</text>
+<path d="M435.0,575.0 L290.0,575.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M175.0,510.0 L175.0,265.0 L550.0,265.0 L550.0,220.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="221.0" y="271.0" width="218.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="330" y="285.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">new failures become test cases</text>
+<path d="M550.0,430.0 L550.0,510.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="514.5" y="447.0" width="71.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="550.0" y="461.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">must pass</text>
+<rect x="60" y="90" width="230" height="130" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="175.0" y="140.0" font-size="28" text-anchor="middle">🎯</text>
+<text x="175.0" y="163.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 1: Scope</text>
+<text x="175.0" y="183.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">problem, users, out of scope;</text><text x="175.0" y="198.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">success criteria as numbers</text>
+<rect x="435" y="90" width="230" height="130" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="550.0" y="140.0" font-size="28" text-anchor="middle">📋</text>
+<text x="550.0" y="163.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 2: Evaluation set</text>
+<text x="550.0" y="183.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">real inputs, hard cases,</text><text x="550.0" y="198.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">a rule for &quot;correct&quot;</text>
+<rect x="810" y="90" width="230" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="925.0" y="140.0" font-size="28" text-anchor="middle">⚖️</text>
+<text x="925.0" y="163.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 3: Model and approach</text>
+<text x="925.0" y="183.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">adaptation ladder;</text><text x="925.0" y="198.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">candidates tested on evals</text>
+<rect x="810" y="300" width="230" height="130" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="925.0" y="350.0" font-size="28" text-anchor="middle">🧪</text>
+<text x="925.0" y="373.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 4: Prototype</text>
+<text x="925.0" y="393.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">prompts, retrieval, tools,</text><text x="925.0" y="408.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">structured output</text>
+<rect x="810" y="510" width="230" height="130" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="925.0" y="560.0" font-size="28" text-anchor="middle">🔁</text>
+<text x="925.0" y="583.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 5: Evaluate, iterate</text>
+<text x="925.0" y="603.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">read failures, group by</text><text x="925.0" y="618.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">cause, fix, re-run all</text>
+<rect x="435" y="510" width="230" height="130" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="550.0" y="560.0" font-size="28" text-anchor="middle">🚦</text>
+<text x="550.0" y="583.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 6: Harden, launch</text>
+<text x="550.0" y="603.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">guardrails, cost budget;</text><text x="550.0" y="618.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">shadow, canary, rollout</text>
+<rect x="60" y="510" width="230" height="130" rx="12" fill="#fbe9f2" stroke="#e597bd" stroke-width="2"/>
+<text x="175.0" y="560.0" font-size="28" text-anchor="middle">📈</text>
+<text x="175.0" y="583.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Step 7: Monitor, improve</text>
+<text x="175.0" y="603.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">quality, safety, cost,</text><text x="175.0" y="618.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">latency; pinned versions</text>
+<rect x="400" y="300" width="300" height="130" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="550.0" y="350.0" font-size="28" text-anchor="middle">🛂</text>
+<text x="550.0" y="373.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Release gate</text>
+<text x="550.0" y="393.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">scores on the evaluation set:</text><text x="550.0" y="408.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">quality, safety, speed, cost</text>
+<text x="550" y="675.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">The evaluation set is the spine: it picks the model, compares versions and gates every release.</text>
+</svg>
