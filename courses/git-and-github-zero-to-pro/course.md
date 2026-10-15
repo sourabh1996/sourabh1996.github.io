@@ -62,41 +62,41 @@ Everything about Git and GitHub: how Git works inside, branching, collaboration,
 
 <a id="m7"></a>
 ### 7. GitHub Actions ➕ (8 lessons)
-- Workflows, Jobs, Steps and Runners · Article ➕
-- Triggers and Events · Article ➕
-- Matrix Builds and Caching · Article ➕
-- Secrets, Variables and Environments · Article ➕
-- OIDC: Deploying to the Cloud without Stored Keys · Article ➕
-- Reusable Workflows and Composite Actions · Article ➕
-- Writing Your Own Action · Article ➕
-- Lab: CI that tests and lints a Python project · Lab ➕
+- [Workflows, Jobs, Steps and Runners](07-github-actions/workflows-jobs-steps-and-runners.md) · Article ➕ ✍️ *written*
+- [Triggers and Events](07-github-actions/triggers-and-events.md) · Article ➕ ✍️ *written*
+- [Matrix Builds and Caching](07-github-actions/matrix-builds-and-caching.md) · Article ➕ ✍️ *written*
+- [Secrets, Variables and Environments](07-github-actions/secrets-variables-and-environments.md) · Article ➕ ✍️ *written*
+- [OIDC: Deploying to the Cloud without Stored Keys](07-github-actions/oidc-deploying-to-the-cloud-without-stored-keys.md) · Article ➕ ✍️ *written*
+- [Reusable Workflows and Composite Actions](07-github-actions/reusable-workflows-and-composite-actions.md) · Article ➕ ✍️ *written*
+- [Writing Your Own Action](07-github-actions/writing-your-own-action.md) · Article ➕ ✍️ *written*
+- [Lab: CI that tests and lints a Python project](07-github-actions/lab-ci-that-tests-and-lints-a-python-project.md) · Lab ➕ ✍️ *written*
 
 <a id="m8"></a>
 ### 8. GitHub Pages, Codespaces and Packages ➕ (5 lessons)
-- Publishing a Site with GitHub Pages · Article ➕
-- Custom Domains and HTTPS · Article ➕
-- Codespaces and Dev Containers · Article ➕
-- Releases, Tags and GitHub Packages · Article ➕
-- Lab: Deploy a static site with Actions · Lab ➕
+- [Publishing a Site with GitHub Pages](08-github-pages-codespaces-and-packages/publishing-a-site-with-github-pages.md) · Article ➕ ✍️ *written*
+- [Custom Domains and HTTPS](08-github-pages-codespaces-and-packages/custom-domains-and-https.md) · Article ➕ ✍️ *written*
+- [Codespaces and Dev Containers](08-github-pages-codespaces-and-packages/codespaces-and-dev-containers.md) · Article ➕ ✍️ *written*
+- [Releases, Tags and GitHub Packages](08-github-pages-codespaces-and-packages/releases-tags-and-github-packages.md) · Article ➕ ✍️ *written*
+- [Lab: Deploy a static site with Actions](08-github-pages-codespaces-and-packages/lab-deploy-a-static-site-with-actions.md) · Lab ➕ ✍️ *written*
 
 <a id="m9"></a>
 ### 9. Security and Supply Chain ➕ (5 lessons)
-- Dependabot Alerts and Updates · Article ➕
-- Code Scanning and Secret Scanning · Article ➕
-- Signed Commits and Artifact Attestations · Article ➕
-- Hardening Actions: Pinning and Least Privilege · Article ➕
-- Removing a Leaked Secret from History · Article ➕
+- [Dependabot Alerts and Updates](09-security-and-supply-chain/dependabot-alerts-and-updates.md) · Article ➕ ✍️ *written*
+- [Code Scanning and Secret Scanning](09-security-and-supply-chain/code-scanning-and-secret-scanning.md) · Article ➕ ✍️ *written*
+- [Signed Commits and Artifact Attestations](09-security-and-supply-chain/signed-commits-and-artifact-attestations.md) · Article ➕ ✍️ *written*
+- [Hardening Actions: Pinning and Least Privilege](09-security-and-supply-chain/hardening-actions-pinning-and-least-privilege.md) · Article ➕ ✍️ *written*
+- [Removing a Leaked Secret from History](09-security-and-supply-chain/removing-a-leaked-secret-from-history.md) · Article ➕ ✍️ *written*
 
 <a id="m10"></a>
 ### 10. Open Source and Advanced Git ➕ (6 lessons)
-- Contributing to Open Source · Article ➕
-- Licenses in Plain English · Article ➕
-- Maintaining a Project: Templates, Releases and Semver · Article ➕
-- Submodules, Subtrees and Monorepos · Article ➕
-- Git LFS for Large Files · Article ➕
-- Git Hooks and pre-commit · Article ➕
+- [Contributing to Open Source](10-open-source-and-advanced-git/contributing-to-open-source.md) · Article ➕ ✍️ *written*
+- [Licenses in Plain English](10-open-source-and-advanced-git/licenses-in-plain-english.md) · Article ➕ ✍️ *written*
+- [Maintaining a Project: Templates, Releases and Semver](10-open-source-and-advanced-git/maintaining-a-project-templates-releases-and-semver.md) · Article ➕ ✍️ *written*
+- [Submodules, Subtrees and Monorepos](10-open-source-and-advanced-git/submodules-subtrees-and-monorepos.md) · Article ➕ ✍️ *written*
+- [Git LFS for Large Files](10-open-source-and-advanced-git/git-lfs-for-large-files.md) · Article ➕ ✍️ *written*
+- [Git Hooks and pre-commit](10-open-source-and-advanced-git/git-hooks-and-pre-commit.md) · Article ➕ ✍️ *written*
 
 <a id="m11"></a>
 ### 11. Git and GitHub Interview Prep ➕ (2 lessons)
-- Git Interview Questions Explained · Article ➕
-- Scenario Drills: Broken main, Leaked Secrets, Lost Work · Article ➕
+- [Git Interview Questions Explained](11-git-and-github-interview-prep/git-interview-questions-explained.md) · Article ➕ ✍️ *written*
+- [Scenario Drills: Broken main, Leaked Secrets, Lost Work](11-git-and-github-interview-prep/scenario-drills-broken-main-leaked-secrets-lost-work.md) · Article ➕ ✍️ *written*

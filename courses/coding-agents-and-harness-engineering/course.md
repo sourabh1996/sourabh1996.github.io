@@ -25,11 +25,11 @@ Use coding agents well and build the harness around a model: loops, tools, permi
 ### 3. Coding Agents on GitHub ➕ (5 lessons)
 > **Before you start:** [Git and GitHub: Zero to Pro › GitHub Actions](../git-and-github-zero-to-pro/course.md#m7), [Model Context Protocol (MCP) › Building with MCP](../model-context-protocol-mcp/course.md#m5)
 
-- Copilot in the Editor and on GitHub · Article ➕
-- Coding Agents that Open Pull Requests · Article ➕
-- Repository Instructions: AGENTS.md and Custom Instructions · Article ➕
-- The GitHub MCP Server · Article ➕
-- Running Coding Agents in GitHub Actions · Article ➕
+- [Copilot in the Editor and on GitHub](03-coding-agents-on-github/copilot-in-the-editor-and-on-github.md) · Article ➕ ✍️ *written*
+- [Coding Agents that Open Pull Requests](03-coding-agents-on-github/coding-agents-that-open-pull-requests.md) · Article ➕ ✍️ *written*
+- [Repository Instructions: AGENTS.md and Custom Instructions](03-coding-agents-on-github/repository-instructions-agents-md-and-custom-instructions.md) · Article ➕ ✍️ *written*
+- [The GitHub MCP Server](03-coding-agents-on-github/the-github-mcp-server.md) · Article ➕ ✍️ *written*
+- [Running Coding Agents in GitHub Actions](03-coding-agents-on-github/running-coding-agents-in-github-actions.md) · Article ➕ ✍️ *written*
 
 <a id="m4"></a>
 ### 4. What a Harness Is ➕ (5 lessons)
