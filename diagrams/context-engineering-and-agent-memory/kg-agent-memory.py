@@ -1,0 +1,53 @@
+# Module 4: a temporal knowledge graph as agent memory. Write path on top, read path below,
+# with the graph store in the middle on the right.
+SPEC = {
+    "title": "A knowledge graph as agent memory",
+    "accent": "teal",
+    "width": 1100, "height": 640,
+    "bands": [
+        {"y": 80, "h": 170, "label": "Write", "color": "purple"},
+        {"y": 380, "h": 170, "label": "Read", "color": "blue"},
+    ],
+    "nodes": {
+        "ep": {"x": 120, "y": 110, "w": 165, "h": 110, "icon": "💬", "label": "Episode",
+               "sub": "what was said,\nand when", "color": "purple"},
+        "ext": {"x": 315, "y": 110, "w": 165, "h": 110, "icon": "🤖", "label": "Extract",
+                "sub": "entities and\ntriples (LLM)", "color": "purple"},
+        "res": {"x": 510, "y": 110, "w": 165, "h": 110, "icon": "🪪", "label": "Resolve",
+                "sub": "mom = my mother\n= Lata", "color": "purple"},
+        "ups": {"x": 705, "y": 110, "w": 165, "h": 110, "icon": "🕒", "label": "Upsert edge",
+                "sub": "close the old fact,\ndon't delete it", "color": "purple"},
+
+        "graph": {"x": 900, "y": 257, "w": 180, "h": 118, "icon": "🕸️", "label": "Graph store",
+                  "sub": "Arjun LIVES_IN\nHyderabad (since Sep)\nChennai (Mar to Sep)", "color": "teal"},
+
+        "q": {"x": 120, "y": 410, "w": 165, "h": 110, "icon": "❓", "label": "Question",
+              "sub": "visit my brother\nwith my mother", "color": "blue"},
+        "seed": {"x": 315, "y": 410, "w": 165, "h": 110, "icon": "📍", "label": "Find seeds",
+                 "sub": "aliases or\nvector search", "color": "blue"},
+        "walk": {"x": 510, "y": 410, "w": 165, "h": 110, "icon": "🧭", "label": "Walk edges",
+                 "sub": "current edges,\n1 to 2 hops", "color": "blue"},
+        "ctx": {"x": 705, "y": 410, "w": 165, "h": 110, "icon": "🪟", "label": "Context",
+                "sub": "dated facts,\nunder a budget", "color": "green"},
+    },
+    "edges": [
+        {"from": "ep", "to": "ext", "solid": True},
+        {"from": "ext", "to": "res", "solid": True},
+        {"from": "res", "to": "ups", "solid": True},
+        {"from": "ups", "to": "graph", "label": "write", "from_side": "right", "to_side": "top",
+         "via": [(990, 165)]},
+        {"from": "q", "to": "seed", "solid": True},
+        {"from": "seed", "to": "walk", "solid": True},
+        {"from": "walk", "to": "ctx", "solid": True},
+        {"from": "graph", "to": "walk", "label": "read", "from_side": "bottom", "to_side": "bottom",
+         "via": [(990, 565), (592, 565)]},
+    ],
+    "notes": [
+        {"x": 500, "y": 300, "text": "Every edge keeps valid_from, invalid_at and its source episode.",
+         "weight": 700, "size": 15, "color": "#1f766d"},
+        {"x": 500, "y": 328, "text": "One node per real thing, so finding Arjun finds every fact about him.",
+         "size": 14},
+        {"x": 550, "y": 610, "text": "Similarity finds sentences that sound alike; the graph returns what is true now.",
+         "weight": 700, "size": 15, "color": "#1f2328"},
+    ],
+}

@@ -401,4 +401,4 @@ Output:
 
 ---
 
-**Up next:** [Trimming and Filtering Messages](../course.md#m7)
+**Up next:** [Trimming and Filtering Messages](../07-memory/trimming-and-filtering-messages.md)

@@ -12,29 +12,29 @@ Treat the context window as a budget: what to put in it, when to fetch more, how
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. The Context Window as a Budget ➕ (5 lessons)
-- From Prompt Engineering to Context Engineering · Article ➕
-- Context Rot and Lost in the Middle · Article ➕
-- System Prompts at the Right Altitude · Article ➕
-- Examples vs Rules · Article ➕
-- Prompt Caching · Article ➕
+- [From Prompt Engineering to Context Engineering](02-the-context-window-as-a-budget/from-prompt-engineering-to-context-engineering.md) · Article ➕ ✍️ *written*
+- [Context Rot and Lost in the Middle](02-the-context-window-as-a-budget/context-rot-and-lost-in-the-middle.md) · Article ➕ ✍️ *written*
+- [System Prompts at the Right Altitude](02-the-context-window-as-a-budget/system-prompts-at-the-right-altitude.md) · Article ➕ ✍️ *written*
+- [Examples vs Rules](02-the-context-window-as-a-budget/examples-vs-rules.md) · Article ➕ ✍️ *written*
+- [Prompt Caching](02-the-context-window-as-a-budget/prompt-caching.md) · Article ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Just-in-Time Context ➕ (5 lessons)
-- Retrieval vs Agentic Search · Article ➕
-- Tool Results that Don't Flood the Window · Article ➕
-- Compaction and Summarisation · Article ➕
-- Offloading Context to Files and Scratchpads · Article ➕
-- Lab: Keep a 200-step agent inside its budget · Lab ➕
+- [Retrieval vs Agentic Search](03-just-in-time-context/retrieval-vs-agentic-search.md) · Article ➕ ✍️ *written*
+- [Tool Results that Don't Flood the Window](03-just-in-time-context/tool-results-that-don-t-flood-the-window.md) · Article ➕ ✍️ *written*
+- [Compaction and Summarisation](03-just-in-time-context/compaction-and-summarisation.md) · Article ➕ ✍️ *written*
+- [Offloading Context to Files and Scratchpads](03-just-in-time-context/offloading-context-to-files-and-scratchpads.md) · Article ➕ ✍️ *written*
+- [Lab: Keep a 200-step agent inside its budget](03-just-in-time-context/lab-keep-a-200-step-agent-inside-its-budget.md) · Lab ➕ ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Memory Systems ➕ (6 lessons)
-- Short-Term vs Long-Term Memory · Article ➕
-- Semantic, Episodic and Procedural Memory · Article ➕
-- Memory Files: CLAUDE.md and AGENTS.md · Article ➕
-- Writing, Updating and Forgetting Memories · Article ➕
-- Knowledge Graphs as Agent Memory · Article ➕
-- Lab: An assistant that remembers your preferences · Lab ➕
+- [Short-Term vs Long-Term Memory](04-memory-systems/short-term-vs-long-term-memory.md) · Article ➕ ✍️ *written*
+- [Semantic, Episodic and Procedural Memory](04-memory-systems/semantic-episodic-and-procedural-memory.md) · Article ➕ ✍️ *written*
+- [Memory Files: CLAUDE.md and AGENTS.md](04-memory-systems/memory-files-claude-md-and-agents-md.md) · Article ➕ ✍️ *written*
+- [Writing, Updating and Forgetting Memories](04-memory-systems/writing-updating-and-forgetting-memories.md) · Article ➕ ✍️ *written*
+- [Knowledge Graphs as Agent Memory](04-memory-systems/knowledge-graphs-as-agent-memory.md) · Article ➕ ✍️ *written*
+- [Lab: An assistant that remembers your preferences](04-memory-systems/lab-an-assistant-that-remembers-your-preferences.md) · Lab ➕ ✍️ *written*
