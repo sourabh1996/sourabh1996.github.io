@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 720" width="1100" height="720" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="The context window as a budget: one request, item by item">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="718" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">The context window as a budget: one request, item by item</text>
+<rect x="36" y="270" width="248" height="340" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="54.10000000000001" y="255" width="211.79999999999998" height="30" rx="15" fill="#2f5fb3"/>
+<text x="160.0" y="275.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Stable prefix: cache it</text>
+<rect x="296" y="270" width="248" height="340" rx="14" fill="none" stroke="#6cc3b8" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="327.0" y="255" width="186.0" height="30" rx="15" fill="#1f766d"/>
+<text x="420.0" y="275.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Fetched just in time</text>
+<rect x="556" y="270" width="248" height="340" rx="14" fill="none" stroke="#e0b25c" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="604.2" y="255" width="151.6" height="30" rx="15" fill="#9a6412"/>
+<text x="680.0" y="275.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Grows every turn</text>
+<rect x="816" y="270" width="248" height="340" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="847.0" y="255" width="186.0" height="30" rx="15" fill="#2e7d4f"/>
+<text x="940.0" y="275.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Kept free on purpose</text>
+<rect x="40" y="120" width="173" height="64" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="126.5" y="149.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">Stable prefix</text>
+<text x="126.5" y="169.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">6,770</text>
+<rect x="213" y="120" width="66" height="64" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="246.0" y="149.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">RAG</text>
+<text x="246.0" y="169.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">2,600</text>
+<rect x="279" y="120" width="150" height="64" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="354.0" y="149.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">History</text>
+<text x="354.0" y="169.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">5,900</text>
+<rect x="429" y="120" width="250" height="64" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="554.0" y="149.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">Tool results</text>
+<text x="554.0" y="169.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">9,800</text>
+<rect x="679" y="120" width="14" height="64" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="686.0" y="157.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle"></text>
+<rect x="693" y="120" width="204" height="64" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="795.0" y="149.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">Answer reserve</text>
+<text x="795.0" y="169.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">8,000</text>
+<rect x="897" y="120" width="163" height="64" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="978.5" y="149.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">Headroom</text>
+<text x="978.5" y="169.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">6,860</text>
+<rect x="46" y="300" width="228" height="62" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="160.0" y="328.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">📜 System prompt</text>
+<text x="160.0" y="348.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">1,850 tokens</text>
+<rect x="46" y="375" width="228" height="62" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="160.0" y="403.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">🧰 Tool definitions (12)</text>
+<text x="160.0" y="423.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">3,400 tokens</text>
+<rect x="46" y="450" width="228" height="62" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="160.0" y="478.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">🧠 User memory</text>
+<text x="160.0" y="498.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">420 tokens</text>
+<rect x="46" y="525" width="228" height="62" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="160.0" y="553.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">🧪 Examples (3)</text>
+<text x="160.0" y="573.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">1,100 tokens</text>
+<rect x="306" y="300" width="228" height="62" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="420.0" y="328.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">📚 Policy chunks (4)</text>
+<text x="420.0" y="348.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">2,600 tokens</text>
+<text x="420.0" y="424.0" font-size="13" font-weight="700" fill="#1f766d" text-anchor="middle">Chosen for THIS question,</text>
+<text x="420.0" y="444.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">dropped next turn if</text><text x="420.0" y="459.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">no longer relevant</text>
+<rect x="566" y="300" width="228" height="62" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="680.0" y="328.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">💬 Conversation (8 turns)</text>
+<text x="680.0" y="348.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">5,900 tokens</text>
+<rect x="566" y="375" width="228" height="62" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="680.0" y="403.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">🛠️ Tool results so far</text>
+<text x="680.0" y="423.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">9,800 tokens</text>
+<rect x="566" y="450" width="228" height="62" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="680.0" y="478.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">🙋 New user message</text>
+<text x="680.0" y="498.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">70 tokens</text>
+<rect x="826" y="300" width="228" height="62" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="940.0" y="328.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">✍️ Reserved for answer</text>
+<text x="940.0" y="348.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">max_tokens = 8,000</text>
+<rect x="826" y="375" width="228" height="62" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="940.0" y="403.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">🌿 Headroom</text>
+<text x="940.0" y="423.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">6,860 tokens</text>
+<text x="40" y="105.0" font-size="14" font-weight="500" fill="#57606a" text-anchor="start">Turn 9 of a RailSathi refund chat. The bar is our 40,000-token operating budget (the model&#x27;s window is 1,000,000).</text>
+<text x="40" y="210.0" font-size="15" font-weight="700" fill="#2f5fb3" text-anchor="start">Input sent this turn: 25,140 tokens  ·  plus 8,000 reserved for the reply  ·  6,860 left before we must trim</text>
+<text x="40" y="236.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="start">The tiny red sliver is the user&#x27;s actual question: 70 tokens out of 25,140.</text>
+<text x="550" y="660.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Context engineering = deciding, every turn, which tokens earn a place in this bar.</text>
+<text x="550" y="688.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Fixed items go first and stay byte-identical (cheap with caching). Growing items get trimmed, cleared, compacted or offloaded.</text>
+</svg>
