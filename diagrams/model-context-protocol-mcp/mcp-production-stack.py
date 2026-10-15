@@ -1,0 +1,41 @@
+# MCP in an organisation: registries decide what is approved; one stateless gateway enforces identity, policy and audit.
+SPEC = {
+    "title": "MCP in production: registry decides, gateway enforces",
+    "accent": "purple",
+    "width": 1100, "height": 660,
+    "groups": [
+        {"x": 30, "y": 230, "w": 220, "h": 370, "label": "Hosts", "color": "blue"},
+        {"x": 330, "y": 230, "w": 300, "h": 370, "label": "MCP gateway (stateless)", "color": "purple"},
+        {"x": 710, "y": 230, "w": 360, "h": 370, "label": "Approved servers", "color": "teal"},
+    ],
+    "nodes": {
+        "public": {"x": 330, "y": 80, "w": 230, "h": 95, "icon": "🌐", "label": "Official MCP Registry", "sub": "verified namespaces", "color": "gray"},
+        "private": {"x": 640, "y": 80, "w": 230, "h": 95, "icon": "📒", "label": "Company registry", "sub": "approved, pinned,\n+ internal servers", "color": "amber"},
+        "idp": {"x": 30, "y": 80, "w": 220, "h": 95, "icon": "🪪", "label": "Identity provider", "sub": "login, OAuth tokens, groups", "color": "green"},
+        "claude": {"x": 50, "y": 270, "w": 180, "h": 80, "icon": "💬", "label": "Claude", "sub": "one URL", "color": "blue"},
+        "ide": {"x": 50, "y": 380, "w": 180, "h": 80, "icon": "🧑‍💻", "label": "VS Code", "sub": "one URL", "color": "blue"},
+        "agent": {"x": 50, "y": 490, "w": 180, "h": 80, "icon": "🤖", "label": "Internal agents", "sub": "one URL", "color": "blue"},
+        "authz": {"x": 355, "y": 270, "w": 250, "h": 80, "icon": "🔑", "label": "Check token + role", "sub": "audience, scopes", "color": "purple"},
+        "policy": {"x": 355, "y": 380, "w": 250, "h": 80, "icon": "🧭", "label": "Filter + route", "sub": "per-role tools, Mcp-Name", "color": "purple"},
+        "audit": {"x": 355, "y": 490, "w": 250, "h": 80, "icon": "📜", "label": "Inspect + audit", "sub": "secrets, logs, traces", "color": "purple"},
+        "s1": {"x": 735, "y": 270, "w": 310, "h": 80, "icon": "🧾", "label": "Expenses server", "sub": "remote, own checks too", "color": "teal"},
+        "s2": {"x": 735, "y": 380, "w": 310, "h": 80, "icon": "📇", "label": "CRM server", "sub": "gateway's own credentials", "color": "teal"},
+        "s3": {"x": 735, "y": 490, "w": 310, "h": 80, "icon": "🚆", "label": "Vendor's remote server", "sub": "pinned version", "color": "teal"},
+    },
+    "edges": [
+        {"from": "public", "to": "private", "label": "reviewed", "from_side": "right", "to_side": "left"},
+        {"from": "private", "to": "authz", "label": "what may be exposed", "from_side": "bottom", "to_side": "top", "via": [(755, 205), (480, 205)]},
+        {"from": "idp", "to": "claude", "from_side": "bottom", "to_side": "top"},
+        {"from": "claude", "to": "authz", "from_side": "right", "to_side": "left"},
+        {"from": "ide", "to": "policy", "from_side": "right", "to_side": "left"},
+        {"from": "agent", "to": "audit", "from_side": "right", "to_side": "left"},
+        {"from": "authz", "to": "policy", "from_side": "bottom", "to_side": "top", "solid": True},
+        {"from": "policy", "to": "audit", "from_side": "bottom", "to_side": "top", "solid": True},
+        {"from": "policy", "to": "s1", "from_side": "right", "to_side": "left"},
+        {"from": "policy", "to": "s2", "from_side": "right", "to_side": "left"},
+        {"from": "policy", "to": "s3", "from_side": "right", "to_side": "left"},
+    ],
+    "notes": [
+        {"x": 550, "y": 630, "text": "No token passthrough: the gateway calls each server with its own credentials.", "size": 14, "weight": 600, "color": "#6a3fb5"},
+    ],
+}

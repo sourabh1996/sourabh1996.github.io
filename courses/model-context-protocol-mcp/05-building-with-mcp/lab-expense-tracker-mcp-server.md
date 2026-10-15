@@ -746,4 +746,4 @@ Saved #9: ₹129.50 on food (2026-10-15)
 
 ---
 
-**Up next:** [What Changed in the 2026 MCP Specification](../course.md#m6)
+**Up next:** [What Changed in the 2026 MCP Specification](../06-mcp-in-production/what-changed-in-the-2026-mcp-specification.md)

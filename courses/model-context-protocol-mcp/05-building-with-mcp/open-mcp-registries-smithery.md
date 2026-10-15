@@ -84,7 +84,7 @@ Every server is described by a `server.json` document. Here is one for an imagin
 | `registryType` | `npm`, `pypi`, `nuget`, `cargo`, `oci` (Docker images) or `mcpb` (an MCP bundle file). |
 | `isSecret` | Tells the host to collect this value securely and never show it in plain text. |
 
-**Namespaces are verified.** To publish under `io.github.railyatri-dev/`, you must log in to the registry as that GitHub user; to publish under `in.example/`, you must prove you control `example.in` with a DNS or HTTP challenge. The package must also point back: an npm package needs an `mcpName` field in `package.json`, a PyPI package needs the text `mcp-name: <server name>` in its README, and a Docker image needs the label `io.modelcontextprotocol.server.name`. That two-way link stops someone from registering a famous package under their own name. You'll publish your own entry in [Gateways, Registries and Server Discovery](../course.md#m6).
+**Namespaces are verified.** To publish under `io.github.railyatri-dev/`, you must log in to the registry as that GitHub user; to publish under `in.example/`, you must prove you control `example.in` with a DNS or HTTP challenge. The package must also point back: an npm package needs an `mcpName` field in `package.json`, a PyPI package needs the text `mcp-name: <server name>` in its README, and a Docker image needs the label `io.modelcontextprotocol.server.name`. That two-way link stops someone from registering a famous package under their own name. You'll publish your own entry in [Gateways, Registries and Server Discovery](../06-mcp-in-production/gateways-registries-and-server-discovery.md).
 
 ### 3. Searching the official registry
 

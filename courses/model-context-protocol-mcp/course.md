@@ -50,7 +50,7 @@ The standard way to plug tools and data into AI apps: why MCP exists, its archit
 
 <a id="m6"></a>
 ### 6. MCP in Production ➕ (4 lessons)
-- What Changed in the 2026 MCP Specification · Article ➕
-- Authorization with OAuth 2.1 · Article ➕
-- MCP Apps: Interactive UI from a Tool · Article ➕
-- Gateways, Registries and Server Discovery · Article ➕
+- [What Changed in the 2026 MCP Specification](06-mcp-in-production/what-changed-in-the-2026-mcp-specification.md) · Article ➕ ✍️ *written*
+- [Authorization with OAuth 2.1](06-mcp-in-production/authorization-with-oauth-2-1.md) · Article ➕ ✍️ *written*
+- [MCP Apps: Interactive UI from a Tool](06-mcp-in-production/mcp-apps-interactive-ui-from-a-tool.md) · Article ➕ ✍️ *written*
+- [Gateways, Registries and Server Discovery](06-mcp-in-production/gateways-registries-and-server-discovery.md) · Article ➕ ✍️ *written*

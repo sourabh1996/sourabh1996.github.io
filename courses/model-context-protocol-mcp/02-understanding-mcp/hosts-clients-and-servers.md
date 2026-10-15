@@ -217,7 +217,7 @@ Read the arrows by role: the **model** only proposes, the **host** decides and r
 | Your Python agent using LangChain's MCP adapters | Your agent program | One per entry in the adapter's config | Whatever servers you list |
 | Docker MCP Toolkit | The AI app you connect | One client to the Docker gateway | The gateway, which fans out to many containerised servers |
 
-The last row shows that a program can play **two roles**: a gateway is a *server* to the host and a *client* to the servers behind it. You'll meet gateways in [Gateways, Registries and Server Discovery](../course.md#m6).
+The last row shows that a program can play **two roles**: a gateway is a *server* to the host and a *client* to the servers behind it. You'll meet gateways in [Gateways, Registries and Server Discovery](../06-mcp-in-production/gateways-registries-and-server-discovery.md).
 
 ### 9. Clients can offer features too
 

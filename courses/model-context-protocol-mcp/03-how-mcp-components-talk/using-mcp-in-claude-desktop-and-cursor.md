@@ -307,7 +307,7 @@ Output:
 
 - **Developers** commit `.cursor/mcp.json` or `.vscode/mcp.json` with servers for their issue tracker, database and docs, so every teammate's assistant gets the same tools.
 - **Non-developers** install servers into Claude Desktop as MCP Bundles or add remote connectors by URL, never touching JSON.
-- **Companies** publish an internal list of approved servers and push host configs through device management, which is the first step towards the gateways covered in [Gateways, Registries and Server Discovery](../course.md#m6).
+- **Companies** publish an internal list of approved servers and push host configs through device management, which is the first step towards the gateways covered in [Gateways, Registries and Server Discovery](../06-mcp-in-production/gateways-registries-and-server-discovery.md).
 
 ---
 

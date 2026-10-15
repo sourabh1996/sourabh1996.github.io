@@ -283,7 +283,7 @@ What the options mean:
 
 For a quick local experiment without uvicorn, `mcp.run(transport="streamable-http", host="127.0.0.1", port=8000)` serves the same app at `http://127.0.0.1:8000/mcp`. The standalone `fastmcp` package has the same idea: `mcp.run(transport="http", host="0.0.0.0", port=8000)` or `mcp.http_app()` for an ASGI app.
 
-**API keys or OAuth?** An API key in a header is fine for a private server used by your own agents or a small team. A public server that people connect from Claude, ChatGPT or an IDE should use OAuth 2.1, so each person signs in with their own account and hosts can handle login for them. [Authorization with OAuth 2.1](../course.md#m6) builds that.
+**API keys or OAuth?** An API key in a header is fine for a private server used by your own agents or a small team. A public server that people connect from Claude, ChatGPT or an IDE should use OAuth 2.1, so each person signs in with their own account and hosts can handle login for them. [Authorization with OAuth 2.1](../06-mcp-in-production/authorization-with-oauth-2-1.md) builds that.
 
 ### 4. Packaging it in Docker
 
@@ -342,7 +342,7 @@ Service URL: https://kirana-mcp-abc123-el.a.run.app
 | **Cloudflare Workers** | Runs TypeScript MCP servers at the edge (with the TypeScript SDK) |
 | **Serverless functions** (Lambda behind API Gateway) | Works because each POST stands alone; mind request timeouts for long tools |
 
-One limit to plan for: platforms cap how long one HTTP request may last (often 5 to 60 minutes). Tools that run longer should return quickly with a handle and let the client check back, which is what the **Tasks** extension standardises ([What Changed in the 2026 MCP Specification](../course.md#m6)).
+One limit to plan for: platforms cap how long one HTTP request may last (often 5 to 60 minutes). Tools that run longer should return quickly with a handle and let the client check back, which is what the **Tasks** extension standardises ([What Changed in the 2026 MCP Specification](../06-mcp-in-production/what-changed-in-the-2026-mcp-specification.md)).
 
 ### 6. Testing the deployed server
 
