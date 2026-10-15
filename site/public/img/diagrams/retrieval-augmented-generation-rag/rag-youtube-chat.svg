@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Chat with any YouTube video: the project architecture">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="638" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#b2442f"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Chat with any YouTube video: the project architecture</text>
+<rect x="20" y="80" width="1060" height="220" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="90" width="110" height="200" rx="10" fill="#b2442f"/>
+<text x="85.0" y="198.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Ingest</text>
+<rect x="20" y="320" width="1060" height="300" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="330" width="110" height="280" rx="10" fill="#2e7d4f"/>
+<text x="85.0" y="478.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Ask</text>
+<path d="M310.0,190.0 L340.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M490.0,190.0 L520.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M680.0,190.0 L710.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M870.0,190.0 L900.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M310.0,470.0 L340.0,470.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M490.0,470.0 L520.0,400.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M490.0,470.0 L520.0,540.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M680.0,400.0 L710.0,470.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M680.0,540.0 L710.0,470.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M870.0,470.0 L900.0,470.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M985.0,270.0 L985.0,315.0 L600.0,315.0 L600.0,345.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="160" y="110" width="150" height="160" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="235.0" y="167.0" font-size="28" text-anchor="middle">🔗</text>
+<text x="235.0" y="190.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Video URL</text>
+<text x="235.0" y="210.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">youtu.be/...</text><text x="235.0" y="225.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">watch?v=...</text><text x="235.0" y="241.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">shorts/...</text>
+<rect x="340" y="110" width="150" height="160" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="415.0" y="183.0" font-size="28" text-anchor="middle">🆔</text>
+<text x="415.0" y="206.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Video ID</text>
+<text x="415.0" y="226.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">11 characters</text>
+<rect x="520" y="110" width="160" height="160" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="600.0" y="167.0" font-size="28" text-anchor="middle">📝</text>
+<text x="600.0" y="190.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Transcript</text>
+<text x="600.0" y="210.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">snippets:</text><text x="600.0" y="225.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">text + start</text><text x="600.0" y="241.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">+ duration</text>
+<rect x="710" y="110" width="160" height="160" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="790.0" y="175.0" font-size="28" text-anchor="middle">⏱️</text>
+<text x="790.0" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Time windows</text>
+<text x="790.0" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">60 s chunks,</text><text x="790.0" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">15 s overlap</text>
+<rect x="900" y="110" width="170" height="160" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="985.0" y="175.0" font-size="28" text-anchor="middle">🗄️</text>
+<text x="985.0" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Index</text>
+<text x="985.0" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">vectors with</text><text x="985.0" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">start, end, url</text>
+<rect x="160" y="400" width="150" height="140" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="235.0" y="463.0" font-size="28" text-anchor="middle">❓</text>
+<text x="235.0" y="486.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Question</text>
+<text x="235.0" y="506.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">from the viewer</text>
+<rect x="340" y="400" width="150" height="140" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="415.0" y="455.0" font-size="28" text-anchor="middle">🚦</text>
+<text x="415.0" y="478.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Router</text>
+<text x="415.0" y="498.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">specific fact</text><text x="415.0" y="513.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">or whole video?</text>
+<rect x="520" y="345" width="160" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="600.0" y="393.0" font-size="28" text-anchor="middle">🔎</text>
+<text x="600.0" y="416.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Retrieve</text>
+<text x="600.0" y="436.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">top windows</text>
+<rect x="520" y="485" width="160" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="600.0" y="525.0" font-size="28" text-anchor="middle">🗂️</text>
+<text x="600.0" y="548.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Summary</text>
+<text x="600.0" y="568.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">map-reduce</text><text x="600.0" y="583.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">over all windows</text>
+<rect x="710" y="400" width="160" height="140" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="790.0" y="455.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="790.0" y="478.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LLM</text>
+<text x="790.0" y="498.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">answer from</text><text x="790.0" y="513.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">transcript only</text>
+<rect x="900" y="400" width="170" height="140" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="985.0" y="455.0" font-size="28" text-anchor="middle">▶️</text>
+<text x="985.0" y="478.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Answer</text>
+<text x="985.0" y="498.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">with clickable</text><text x="985.0" y="513.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&amp;t=95s links</text>
+</svg>

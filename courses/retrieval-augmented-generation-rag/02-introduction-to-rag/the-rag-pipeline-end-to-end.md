@@ -83,7 +83,7 @@ LangChain calls this a `Document` (text plus a metadata dictionary) and provides
 - **Too small** (say 30 tokens): a chunk loses context. "It is 60 days." means nothing without the heading "Notice period".
 - **A common starting point**: 200 to 800 tokens per chunk with 10 to 20% **overlap** (repeating the end of one chunk at the start of the next so a sentence cut in half still appears whole somewhere).
 
-Better splitters cut at natural boundaries (headings, paragraphs, sentences) rather than at a fixed character count. Advanced strategies add document context to each chunk, or index small chunks but return their larger parent section. All of this is covered in [Text Splitters](../05-rag-building-blocks-in-langchain/text-splitters.md) and [Chunking Strategies](../course.md#m6).
+Better splitters cut at natural boundaries (headings, paragraphs, sentences) rather than at a fixed character count. Advanced strategies add document context to each chunk, or index small chunks but return their larger parent section. All of this is covered in [Text Splitters](../05-rag-building-blocks-in-langchain/text-splitters.md) and [Chunking Strategies](../06-implementing-rag/chunking-strategies.md).
 
 ### 4. Embed: turn each chunk into a vector
 
@@ -128,7 +128,7 @@ The **index** stores each chunk's vector, text and metadata, and answers "which 
 - **Approximate nearest neighbour (ANN)** indexes such as **HNSW** (a graph you hop through towards the nearest neighbours) or **IVF** (cluster vectors, search only the nearest clusters) trade a tiny bit of accuracy for huge speed at millions of vectors.
 - **Where it lives**: a library in your process (FAISS), an embedded database (Chroma, LanceDB), a dedicated vector database (Qdrant, Weaviate, Milvus, Pinecone), or a vector extension of a database you already run (Postgres with pgvector, Elasticsearch, OpenSearch).
 
-Production systems usually keep a **keyword index** (BM25) alongside the vector index, because exact terms such as policy codes, error numbers and names are matched far better by keywords. Combining both is **hybrid search** ([Hybrid Search](../course.md#m6)). [Storage and Indexing (HNSW, IVF)](../course.md#m3) covers index internals in depth, and [Vector Database Tools](../course.md#m4) tours the products.
+Production systems usually keep a **keyword index** (BM25) alongside the vector index, because exact terms such as policy codes, error numbers and names are matched far better by keywords. Combining both is **hybrid search** ([Hybrid Search](../06-implementing-rag/hybrid-search.md)). [Storage and Indexing (HNSW, IVF)](../course.md#m3) covers index internals in depth, and [Vector Database Tools](../course.md#m4) tours the products.
 
 ### 6. Retrieve: find candidate chunks for the question
 
@@ -145,7 +145,7 @@ Choosing k is a trade-off. Retrieve too few and you miss the answer; too many an
 
 Embedding search is fast because it compares precomputed vectors, but it never looks at the question and chunk *together*. A **reranker** (usually a **cross-encoder**, a model that reads the question and one chunk side by side and outputs a relevance score) is slower but much more accurate. You run it only on the candidates from retrieval.
 
-Reranking also enables a **relevance guardrail**: if even the best reranked chunk scores below a threshold, the system says "I couldn't find that" instead of letting the model improvise from weak evidence. Details in [Reranking](../course.md#m6).
+Reranking also enables a **relevance guardrail**: if even the best reranked chunk scores below a threshold, the system says "I couldn't find that" instead of letting the model improvise from weak evidence. Details in [Reranking](../06-implementing-rag/reranking.md).
 
 ### 8. Generate: build the prompt and call the model
 
@@ -333,7 +333,7 @@ reranked:  [('5.2', 0.35), ('5.1', 0.32)]
 guardrail passes: True
 ```
 
-Retrieval found the right section first, with the travel-claims section close behind (both are about travel). Here the reranker agrees with that order and trims the list to two; in [Reranking](../course.md#m6) you'll see cases where it rescues a chunk that retrieval ranked low.
+Retrieval found the right section first, with the travel-claims section close behind (both are about travel). Here the reranker agrees with that order and trims the list to two; in [Reranking](../06-implementing-rag/reranking.md) you'll see cases where it rescues a chunk that retrieval ranked low.
 
 **Generate.** The prompt builder labels each chunk with its section so the model can cite it. The pretend LLM answers from the best-matching sentence in its context.
 

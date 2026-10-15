@@ -281,7 +281,7 @@ Output:
 ['5.1', '7.1']
 ```
 
-Both find 5.1 here because "Kharcha" happens to be a word our toy embedding also hashes. With a real embedding model, rare words and codes often get lost; that is exactly why [Hybrid Search](../course.md#m6) runs a proper keyword retriever (BM25) alongside the vector one. In LangChain, `BM25Retriever` lives in `langchain-community`:
+Both find 5.1 here because "Kharcha" happens to be a word our toy embedding also hashes. With a real embedding model, rare words and codes often get lost; that is exactly why [Hybrid Search](../06-implementing-rag/hybrid-search.md) runs a proper keyword retriever (BM25) alongside the vector one. In LangChain, `BM25Retriever` lives in `langchain-community`:
 
 ```python
 # not-run: needs langchain-community and rank-bm25
@@ -370,7 +370,7 @@ Read the first line of the chain carefully, because you'll write it many times:
 - `RunnablePassthrough()` passes the question through unchanged.
 - The resulting dictionary fills the prompt template.
 
-Add a chat model and an output parser at the end and you have a complete RAG chain. That's the first lesson of the next module, [RAG with LangChain and a Vector DB](../course.md#m6).
+Add a chat model and an output parser at the end and you have a complete RAG chain. That's the first lesson of the next module, [RAG with LangChain and a Vector DB](../06-implementing-rag/rag-with-langchain-and-a-vector-db.md).
 
 ### 8. Choosing k
 
@@ -381,7 +381,7 @@ Add a chat model and an output parser at the end and you have a complete RAG cha
 | The right chunk ranks 3rd but you only take 2: the answer is missed | Irrelevant chunks distract the model and cost tokens |
 | Questions that need two sections (*"leave plus holidays"*) get half an answer | Latency and price rise with every chunk |
 
-A practical approach: measure **recall@k** on a test set (as in the [from-scratch lab](../02-introduction-to-rag/lab-rag-from-scratch-no-framework.md)) for k = 1, 3, 5, 10, choose the smallest k where recall levels off, then consider retrieving more and **reranking** down to a few ([Reranking](../course.md#m6)).
+A practical approach: measure **recall@k** on a test set (as in the [from-scratch lab](../02-introduction-to-rag/lab-rag-from-scratch-no-framework.md)) for k = 1, 3, 5, 10, choose the smallest k where recall levels off, then consider retrieving more and **reranking** down to a few ([Reranking](../06-implementing-rag/reranking.md)).
 
 ```python
 TESTS = [("How many vacation days carry over?", "2.1"), ("Doctor's note for sick days?", "2.2"),

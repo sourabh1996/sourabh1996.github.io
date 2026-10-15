@@ -226,7 +226,7 @@ Submit bills on the Kharcha portal within 30 days of the trip. Claims are reimbu
 the GST number of the vendor. Claims without original bills are rejected. For trips abroad, convert amounts to rupees at the exchange rate on the date of
 ```
 
-Each continuation chunk now begins with the last few words of the previous one, so a sentence cut at a boundary appears whole in at least one chunk (or nearly so). Notice, though, that the *later* travel chunks still don't say "Travel claims" anywhere. That's the limit of plain splitting, and it's why [Chunking Strategies](../course.md#m6) adds headings and context to chunks.
+Each continuation chunk now begins with the last few words of the previous one, so a sentence cut at a boundary appears whole in at least one chunk (or nearly so). Notice, though, that the *later* travel chunks still don't say "Travel claims" anywhere. That's the limit of plain splitting, and it's why [Chunking Strategies](../06-implementing-rag/chunking-strategies.md) adds headings and context to chunks.
 
 ### 6. Seeing chunk boundaries
 
@@ -372,7 +372,7 @@ Output:
 | `TokenTextSplitter` | Raw token counts, ignoring structure |
 | `SemanticChunker` (in `langchain-experimental`) | Places where the meaning shifts, using embeddings of consecutive sentences |
 
-Semantic and other advanced strategies are compared with measurements in [Chunking Strategies](../course.md#m6).
+Semantic and other advanced strategies are compared with measurements in [Chunking Strategies](../06-implementing-rag/chunking-strategies.md).
 
 ### 9. Splitting documents and keeping metadata
 
@@ -421,7 +421,7 @@ There's no universal best size; it depends on your documents, questions and embe
 Then **measure**: build a small test set and compare recall at a few sizes, exactly as you did in the from-scratch lab. Keep in mind:
 
 - **Embedding model limits.** Each model has a maximum input length; text beyond it is truncated (silently, in some APIs). Keep chunks well under it.
-- **Small chunks** retrieve precisely but lose context; **large chunks** carry context but dilute the embedding and cost more prompt space. The "small-to-big" pattern (search small chunks, return their bigger parent) gets both; see [Chunking Strategies](../course.md#m6).
+- **Small chunks** retrieve precisely but lose context; **large chunks** carry context but dilute the embedding and cost more prompt space. The "small-to-big" pattern (search small chunks, return their bigger parent) gets both; see [Chunking Strategies](../06-implementing-rag/chunking-strategies.md).
 
 ---
 

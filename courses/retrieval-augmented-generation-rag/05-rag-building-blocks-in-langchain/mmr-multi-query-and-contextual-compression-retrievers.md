@@ -283,7 +283,7 @@ Do I have to pay for a replacement laptop?
 ['faq-1', '6.1']
 ```
 
-We took just the top result per query (k=1) to keep the output short. The original wording found the travel FAQ, but every rewritten query found section 6.1, so the union now contains the right answer. A neat side effect: if you count how many queries returned each chunk, you get a free relevance signal (6.1 was found by 3 of the 4 queries; see exercise 2). That idea, combining several ranked lists, is the heart of **Reciprocal Rank Fusion**, which you'll use in [Hybrid Search](../course.md#m6).
+We took just the top result per query (k=1) to keep the output short. The original wording found the travel FAQ, but every rewritten query found section 6.1, so the union now contains the right answer. A neat side effect: if you count how many queries returned each chunk, you get a free relevance signal (6.1 was found by 3 of the 4 queries; see exercise 2). That idea, combining several ranked lists, is the heart of **Reciprocal Rank Fusion**, which you'll use in [Hybrid Search](../06-implementing-rag/hybrid-search.md).
 
 The ready-made class does the same thing:
 
@@ -301,7 +301,7 @@ docs = multi.invoke("What happens if my notebook gets nicked on a work trip?")
 
 **Costs and cautions.** Multi-query adds one LLM call and N extra searches to every question, which can add several hundred milliseconds. It helps most with short, vague or slangy questions and with mismatched vocabulary (users say "salary slip", documents say "payslip"). It can also *hurt*: a rewrite that drifts from the user's intent drags in irrelevant chunks. Measure it.
 
-Related query transformations, covered in [Retrieval Methods](../course.md#m6), include **HyDE** (embed a hypothetical answer instead of the question), **step-back prompting** (search for the general principle first) and **query decomposition** (split a multi-part question into separate searches).
+Related query transformations, covered in [Retrieval Methods](../06-implementing-rag/retrieval-methods.md), include **HyDE** (embed a hypothetical answer instead of the question), **step-back prompting** (search for the general principle first) and **query decomposition** (split a multi-part question into separate searches).
 
 ### 4. Contextual compression: keep only what matters
 
@@ -323,7 +323,7 @@ LangChain splits this into a **base retriever** plus a **document compressor**, 
 | `LLMChainFilter` | Asks an LLM "is this document relevant? yes/no" for each document | One LLM call per document |
 | `LLMChainExtractor` | Asks an LLM to copy out only the relevant parts of each document | One LLM call per document, longer outputs |
 | `LLMListwiseRerank` | Asks an LLM to rank all documents at once and keep the top n | One LLM call |
-| Cross-encoder rerankers | Re-score with a reranking model and keep the top n ([Reranking](../course.md#m6)) | One reranker call |
+| Cross-encoder rerankers | Re-score with a reranking model and keep the top n ([Reranking](../06-implementing-rag/reranking.md)) | One reranker call |
 | `DocumentCompressorPipeline` | Chains several of the above (for example split into sentences, then filter) | Sum of the parts |
 
 Let's build two compressors ourselves. First, a big chunk to work with: imagine the loader produced the whole travel chapter as one chunk.
@@ -604,4 +604,4 @@ The ready-made classes do, in LangChain 1.x. The ideas need only a retriever, a 
 
 ---
 
-**Up next:** [RAG with LangChain and a Vector DB](../course.md#m6)
+**Up next:** [RAG with LangChain and a Vector DB](../06-implementing-rag/rag-with-langchain-and-a-vector-db.md)

@@ -63,13 +63,13 @@ Ground LLMs in your own data: embeddings and vector databases, loaders, splitter
 ### 6. Implementing RAG (7 lessons)
 > **Before you start:** [LangChain Complete Guide › Chains and Runnables](../langchain-complete-guide/course.md#m6), [Vector Database Tools](#m4)
 
-- RAG with LangChain and a Vector DB · Article
-- Chunking Strategies · Article ➕
-- Retrieval Methods · Article
-- Hybrid Search · Article
-- Reranking · Article
-- Lab: Chat with a PDF · Lab
-- Project: Chat with Any YouTube Video · Lab
+- [RAG with LangChain and a Vector DB](06-implementing-rag/rag-with-langchain-and-a-vector-db.md) · Article ✍️ *written*
+- [Chunking Strategies](06-implementing-rag/chunking-strategies.md) · Article ➕ ✍️ *written*
+- [Retrieval Methods](06-implementing-rag/retrieval-methods.md) · Article ✍️ *written*
+- [Hybrid Search](06-implementing-rag/hybrid-search.md) · Article ✍️ *written*
+- [Reranking](06-implementing-rag/reranking.md) · Article ✍️ *written*
+- [Lab: Chat with a PDF](06-implementing-rag/lab-chat-with-a-pdf.md) · Lab ✍️ *written*
+- [Project: Chat with Any YouTube Video](06-implementing-rag/project-chat-with-any-youtube-video.md) · Lab ✍️ *written*
 
 <a id="m7"></a>
 ### 7. Advanced RAG (3 lessons)

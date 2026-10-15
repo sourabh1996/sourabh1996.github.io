@@ -545,7 +545,7 @@ max_words=120: 10 chunks  recall@3=0.92  MRR=0.88
 
 Both misses are vocabulary gaps: nothing in the toy embedder links "credentials" to passwords or "antivirus tool" to software. A real embedding model would probably handle these two, but it will have its own gaps with your company's jargon, and you find them exactly this way.
 
-The chunk-size comparison shows tiny 15-word chunks ranking slightly better here (MRR 0.92), because each chunk is about one narrow thing. With documents this small the differences are modest, but the method is the point: **change one setting, re-run the same test set, compare numbers.** You'll use exactly this loop in [Chunking Strategies](../course.md#m6) on bigger documents where the differences are dramatic.
+The chunk-size comparison shows tiny 15-word chunks ranking slightly better here (MRR 0.92), because each chunk is about one narrow thing. With documents this small the differences are modest, but the method is the point: **change one setting, re-run the same test set, compare numbers.** You'll use exactly this loop in [Chunking Strategies](../06-implementing-rag/chunking-strategies.md) on bigger documents where the differences are dramatic.
 
 ---
 

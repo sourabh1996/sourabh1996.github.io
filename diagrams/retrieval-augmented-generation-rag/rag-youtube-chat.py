@@ -1,0 +1,36 @@
+# Architecture of the Chat with Any YouTube Video project: transcript in, timestamped answers out.
+SPEC = {
+    "title": "Chat with any YouTube video: the project architecture",
+    "accent": "coral",
+    "width": 1100, "height": 640,
+    "bands": [
+        {"y": 80, "h": 220, "label": "Ingest", "color": "coral"},
+        {"y": 320, "h": 300, "label": "Ask", "color": "green"},
+    ],
+    "nodes": {
+        "url": {"x": 160, "y": 110, "w": 150, "h": 160, "icon": "🔗", "label": "Video URL", "sub": "youtu.be/...\nwatch?v=...\nshorts/...", "color": "gray"},
+        "id": {"x": 340, "y": 110, "w": 150, "h": 160, "icon": "🆔", "label": "Video ID", "sub": "11 characters", "color": "coral"},
+        "tr": {"x": 520, "y": 110, "w": 160, "h": 160, "icon": "📝", "label": "Transcript", "sub": "snippets:\ntext + start\n+ duration", "color": "coral"},
+        "win": {"x": 710, "y": 110, "w": 160, "h": 160, "icon": "⏱️", "label": "Time windows", "sub": "60 s chunks,\n15 s overlap", "color": "coral"},
+        "idx": {"x": 900, "y": 110, "w": 170, "h": 160, "icon": "🗄️", "label": "Index", "sub": "vectors with\nstart, end, url", "color": "coral"},
+        "q": {"x": 160, "y": 400, "w": 150, "h": 140, "icon": "❓", "label": "Question", "sub": "from the viewer", "color": "gray"},
+        "route": {"x": 340, "y": 400, "w": 150, "h": 140, "icon": "🚦", "label": "Router", "sub": "specific fact\nor whole video?", "color": "purple"},
+        "ret": {"x": 520, "y": 345, "w": 160, "h": 110, "icon": "🔎", "label": "Retrieve", "sub": "top windows", "color": "green"},
+        "sum": {"x": 520, "y": 485, "w": 160, "h": 110, "icon": "🗂️", "label": "Summary", "sub": "map-reduce\nover all windows", "color": "purple"},
+        "llm": {"x": 710, "y": 400, "w": 160, "h": 140, "icon": "🧠", "label": "LLM", "sub": "answer from\ntranscript only", "color": "green"},
+        "ans": {"x": 900, "y": 400, "w": 170, "h": 140, "icon": "▶️", "label": "Answer", "sub": "with clickable\n&t=95s links", "color": "green"},
+    },
+    "edges": [
+        {"from": "url", "to": "id"},
+        {"from": "id", "to": "tr"},
+        {"from": "tr", "to": "win"},
+        {"from": "win", "to": "idx"},
+        {"from": "q", "to": "route"},
+        {"from": "route", "to": "ret"},
+        {"from": "route", "to": "sum"},
+        {"from": "ret", "to": "llm"},
+        {"from": "sum", "to": "llm"},
+        {"from": "llm", "to": "ans"},
+        {"from": "idx", "to": "ret", "from_side": "bottom", "to_side": "top", "via": [(985, 315), (600, 315)]},
+    ],
+}
