@@ -429,4 +429,4 @@ Disk-based indexes keep compressed vectors and navigation structures in RAM and 
 
 ---
 
-**Up next:** [Chroma](../course.md#m4)
+**Up next:** [Chroma](../04-vector-database-tools/chroma.md)

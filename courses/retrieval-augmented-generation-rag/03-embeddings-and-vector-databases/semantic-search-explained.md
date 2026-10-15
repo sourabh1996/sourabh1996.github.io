@@ -196,7 +196,7 @@ flowchart TB
 - **Indexing** runs when documents are added or changed. It is usually a batch job, and it is where most of the cost goes (embedding millions of chunks).
 - **Querying** runs for every request and must be fast: one embedding call plus one index search, typically tens of milliseconds in total.
 
-The [Embedding-Based Retrieval Pipelines](../course.md#m4) lesson builds both pipelines in full. The rest of this section covers the decisions inside them that most affect quality.
+The [Embedding-Based Retrieval Pipelines](../04-vector-database-tools/embedding-based-retrieval-pipelines.md) lesson builds both pipelines in full. The rest of this section covers the decisions inside them that most affect quality.
 
 ### 5. Chunking: one vector per idea
 

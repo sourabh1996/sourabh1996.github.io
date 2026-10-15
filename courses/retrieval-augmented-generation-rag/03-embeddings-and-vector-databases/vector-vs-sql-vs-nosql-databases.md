@@ -263,7 +263,7 @@ Example output:
 ...
 ```
 
-The `ORDER BY embedding <=> $1 LIMIT 5` pattern is what lets PostgreSQL use the HNSW index instead of scanning. MongoDB and Cassandra are covered hands-on in [Vector Search in MongoDB and Cassandra](../course.md#m4).
+The `ORDER BY embedding <=> $1 LIMIT 5` pattern is what lets PostgreSQL use the HNSW index instead of scanning. MongoDB and Cassandra are covered hands-on in [Vector Search in MongoDB and Cassandra](../04-vector-database-tools/vector-search-in-mongodb-and-cassandra.md).
 
 ### 7. Dedicated vector database or vector search in your existing database?
 

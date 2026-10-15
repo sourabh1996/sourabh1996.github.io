@@ -37,15 +37,15 @@ Ground LLMs in your own data: embeddings and vector databases, loaders, splitter
 ### 4. Vector Database Tools (9 lessons)
 > **Before you start:** [Databases: SQL and NoSQL › NoSQL with MongoDB Atlas](../databases-sql-and-nosql/course.md#m4)
 
-- Chroma · Article
-- FAISS · Article
-- Qdrant · Article
-- Pinecone · Article
-- LanceDB · Article
-- Vector Search in MongoDB and Cassandra · Article
-- Embedding-Based Retrieval Pipelines · Article
-- Lab: Same search in three vector DBs · Lab
-- Lab: Semantic search over your notes · Lab
+- [Chroma](04-vector-database-tools/chroma.md) · Article ✍️ *written*
+- [FAISS](04-vector-database-tools/faiss.md) · Article ✍️ *written*
+- [Qdrant](04-vector-database-tools/qdrant.md) · Article ✍️ *written*
+- [Pinecone](04-vector-database-tools/pinecone.md) · Article ✍️ *written*
+- [LanceDB](04-vector-database-tools/lancedb.md) · Article ✍️ *written*
+- [Vector Search in MongoDB and Cassandra](04-vector-database-tools/vector-search-in-mongodb-and-cassandra.md) · Article ✍️ *written*
+- [Embedding-Based Retrieval Pipelines](04-vector-database-tools/embedding-based-retrieval-pipelines.md) · Article ✍️ *written*
+- [Lab: Same search in three vector DBs](04-vector-database-tools/lab-same-search-in-three-vector-dbs.md) · Lab ✍️ *written*
+- [Lab: Semantic search over your notes](04-vector-database-tools/lab-semantic-search-over-your-notes.md) · Lab ✍️ *written*
 
 <a id="m5"></a>
 ### 5. RAG Building Blocks in LangChain (7 lessons)
