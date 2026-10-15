@@ -434,4 +434,4 @@ Figure 3 arrives, but only through the back door: page 3 ranks first because it 
 
 ---
 
-**Up next:** [Limits of Vector RAG](../course.md#m8)
+**Up next:** [Limits of Vector RAG](../08-vectorless-rag/limits-of-vector-rag.md)

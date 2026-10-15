@@ -79,11 +79,11 @@ Ground LLMs in your own data: embeddings and vector databases, loaders, splitter
 
 <a id="m8"></a>
 ### 8. Vectorless RAG (5 lessons)
-- Limits of Vector RAG · Article
-- PageIndex and Chunk-Free Segmentation · Article
-- The Document Tree Model · Article
-- The Iterative Search Loop · Article
-- Deterministic Page Referencing · Article
+- [Limits of Vector RAG](08-vectorless-rag/limits-of-vector-rag.md) · Article ✍️ *written*
+- [PageIndex and Chunk-Free Segmentation](08-vectorless-rag/pageindex-and-chunk-free-segmentation.md) · Article ✍️ *written*
+- [The Document Tree Model](08-vectorless-rag/the-document-tree-model.md) · Article ✍️ *written*
+- [The Iterative Search Loop](08-vectorless-rag/the-iterative-search-loop.md) · Article ✍️ *written*
+- [Deterministic Page Referencing](08-vectorless-rag/deterministic-page-referencing.md) · Article ✍️ *written*
 
 <a id="m9"></a>
 ### 9. RAG Evaluation (4 lessons)

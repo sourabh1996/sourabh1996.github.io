@@ -529,7 +529,7 @@ Output:
 {'answer': 'Claims are settled within 21 days of receiving complete documents. (p. 4-5)', 'sources': ['section 7, p. 4-5 (score 0.67)']}
 ```
 
-The settlement sentence is on page 5, but our chunk spans pages 4 and 5, so the best we can cite is the range. For page-exact citations, keep sentence-level page offsets in metadata (for example the `start_index` of each page within the cleaned text) and look up the page of the quoted sentence. Module 8's [Deterministic Page Referencing](../course.md#m8) builds exactly this.
+The settlement sentence is on page 5, but our chunk spans pages 4 and 5, so the best we can cite is the range. For page-exact citations, keep sentence-level page offsets in metadata (for example the `start_index` of each page within the cleaned text) and look up the page of the quoted sentence. Module 8's [Deterministic Page Referencing](../08-vectorless-rag/deterministic-page-referencing.md) builds exactly this.
 
 **3.**
 
