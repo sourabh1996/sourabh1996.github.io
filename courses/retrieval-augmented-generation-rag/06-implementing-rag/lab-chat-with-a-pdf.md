@@ -455,7 +455,7 @@ while (q := input("Ask about the policy (blank to quit): ").strip()):
 
 Two things change for real PDFs:
 
-- **Scanned PDFs** have no text layer; `PyPDFLoader` returns empty pages. Run OCR first, or use a layout-aware parser (for example `UnstructuredPDFLoader`, or a document AI service), or send the page images to a vision model ([Multimodal RAG](../course.md#m7)).
+- **Scanned PDFs** have no text layer; `PyPDFLoader` returns empty pages. Run OCR first, or use a layout-aware parser (for example `UnstructuredPDFLoader`, or a document AI service), or send the page images to a vision model ([Multimodal RAG](../07-advanced-rag/multimodal-rag.md)).
 - **Tables** often come out as jumbled text. Layout-aware parsers that output tables as Markdown or HTML, and chunking each table as one unit with its caption, help a lot.
 
 **When you don't need RAG at all:** a single PDF of a few dozen pages fits in a modern model's context window. Claude can read a PDF directly as a `document` content block and cite pages with citations enabled, which is the simplest "chat with a PDF" of all. RAG earns its place when there are many PDFs, very long ones, or many users asking questions, because sending the whole document with every question costs time and money.

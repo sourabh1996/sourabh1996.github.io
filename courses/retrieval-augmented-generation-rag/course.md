@@ -73,9 +73,9 @@ Ground LLMs in your own data: embeddings and vector databases, loaders, splitter
 
 <a id="m7"></a>
 ### 7. Advanced RAG (3 lessons)
-- Memory in RAG Systems · Article
-- Multimodal RAG · Article
-- Lab: RAG over images and text · Lab
+- [Memory in RAG Systems](07-advanced-rag/memory-in-rag-systems.md) · Article ✍️ *written*
+- [Multimodal RAG](07-advanced-rag/multimodal-rag.md) · Article ✍️ *written*
+- [Lab: RAG over images and text](07-advanced-rag/lab-rag-over-images-and-text.md) · Lab ✍️ *written*
 
 <a id="m8"></a>
 ### 8. Vectorless RAG (5 lessons)

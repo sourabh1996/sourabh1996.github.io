@@ -396,7 +396,7 @@ Main points of the video:
 [7:00] To sum up: UPI moves money bank to bank through NPCI in seconds.
 ```
 
-Our map step just takes each window's first sentence, so some lines are thin ("Now, limits.") and the opening window's line is the greeting rather than "UPI stands for Unified Payments Interface". The *shape* is right: one timestamped line per part of the video. With a real model, the map step runs one cheap LLM call per window (in parallel, with `.batch()`), and the reduce step runs one call over the window summaries. For long videos, cache the summary: it's the same for every user. The keyword router here is deliberately simple; a production router is usually a small LLM call with structured output (`{"route": "summary" | "retrieve"}`), the router pattern you met in [Agentic AI Fundamentals](../../agentic-ai-fundamentals/course.md).
+Our map step just takes each window's first sentence, so some lines are thin ("Now, limits.") and the opening window's line is the greeting rather than "UPI stands for Unified Payments Interface". The *shape* is right: one timestamped line per part of the video. With a real model, the map step runs one cheap LLM call per window (in parallel, with `.batch()`), and the reduce step runs one call over the window summaries. For long videos, cache the summary: it's the same for every user. The keyword router here is deliberately simple; a production router is usually a small LLM call with structured output (`{"route": "summary" | "retrieve"}`), a pattern you will meet again in [Agentic AI Fundamentals](../../agentic-ai-fundamentals/course.md).
 
 ## Step 7: Evaluate
 
@@ -582,4 +582,4 @@ Both are rejected because the ID must be exactly 11 characters from a fixed alph
 
 ---
 
-**Up next:** [Memory in RAG Systems](../course.md#m7)
+**Up next:** [Memory in RAG Systems](../07-advanced-rag/memory-in-rag-systems.md)

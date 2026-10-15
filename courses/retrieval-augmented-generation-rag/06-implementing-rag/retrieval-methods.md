@@ -258,7 +258,7 @@ This complementarity is the reason [Hybrid Search](hybrid-search.md) exists.
 Two newer families try to get the best of both worlds:
 
 - **Learned sparse retrieval** (SPLADE is the best-known model) runs a transformer over the text and outputs a weight for many vocabulary terms, including terms that *aren't in the text* but are related. "Email" might get weight on "mail", "outlook" and "inbox". The result is a sparse vector you can search with an inverted index, like BM25, but with synonyms built in.
-- **Late interaction** (ColBERT and its successors) keeps one embedding **per token** instead of one per chunk. At query time, each query token finds its most similar document token, and the scores are summed ("MaxSim"). It catches fine-grained matches that single-vector embeddings blur, at the cost of a much bigger index. ColPali applies the same idea to images of document pages, which matters for [Multimodal RAG](../course.md#m7).
+- **Late interaction** (ColBERT and its successors) keeps one embedding **per token** instead of one per chunk. At query time, each query token finds its most similar document token, and the scores are summed ("MaxSim"). It catches fine-grained matches that single-vector embeddings blur, at the cost of a much bigger index. ColPali applies the same idea to images of document pages, which matters for [Multimodal RAG](../07-advanced-rag/multimodal-rag.md).
 
 Here's MaxSim in miniature, with each word as a "token" embedded by our toy model:
 
