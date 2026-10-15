@@ -1,0 +1,35 @@
+# Store time and search time: the same embedding model turns text into vectors; the store finds nearby points.
+SPEC = {
+    "title": "From text to vector to nearest neighbours",
+    "accent": "teal",
+    "width": 1100, "height": 600,
+    "bands": [
+        {"y": 80, "h": 170, "w": 835, "label": "Store\ntime", "color": "blue"},
+        {"y": 280, "h": 170, "w": 835, "label": "Search\ntime", "color": "green"},
+    ],
+    "nodes": {
+        "doc": {"x": 150, "y": 105, "w": 210, "h": 120, "icon": "📄", "label": "Document",
+                "sub": "\"IRCTC ticket cancelled,\nrefund pending\"", "color": "blue"},
+        "m1": {"x": 405, "y": 105, "w": 170, "h": 120, "icon": "🧠", "label": "Embedding\nmodel", "color": "amber"},
+        "v1": {"x": 620, "y": 105, "w": 200, "h": 120, "icon": "🔢", "label": "Vector",
+               "sub": "[0.02, -0.05, 0.11, ...]\n384 floats", "color": "blue"},
+        "store": {"x": 890, "y": 105, "w": 185, "h": 345, "icon": "🗄️", "label": "Vector store",
+                  "sub": "id + vector\n+ text + metadata\n\nindex (HNSW, IVF)\nfinds close points\nwithout checking all", "color": "teal"},
+        "q": {"x": 150, "y": 305, "w": 210, "h": 120, "icon": "💬", "label": "Query",
+              "sub": "\"flight cancelled,\nwant my money back\"", "color": "green"},
+        "m2": {"x": 405, "y": 305, "w": 170, "h": 120, "icon": "🧠", "label": "Same\nmodel", "color": "amber"},
+        "v2": {"x": 620, "y": 305, "w": 200, "h": 120, "icon": "🎯", "label": "Query vector",
+               "sub": "compared by cosine,\ndot product or L2", "color": "green"},
+        "res": {"x": 150, "y": 492, "w": 925, "h": 86, "label": "Top-k results: 0.97 IRCTC ticket cancelled, refund pending  ·  0.58 UPI payment failed, rupees not received",
+                "sub": "ids, scores and the original text, ready for a search page or an LLM prompt (RAG)", "color": "gray", "size": 15},
+    },
+    "edges": [
+        {"from": "doc", "to": "m1", "solid": True},
+        {"from": "m1", "to": "v1", "solid": True},
+        {"from": "v1", "to": "store", "label": "upsert", "from_side": "right", "to_side": "left", "solid": True, "via": [(855, 165), (855, 240)]},
+        {"from": "q", "to": "m2", "solid": True},
+        {"from": "m2", "to": "v2", "solid": True},
+        {"from": "v2", "to": "store", "label": "search", "from_side": "right", "to_side": "left", "solid": True, "via": [(855, 365), (855, 315)]},
+    ],
+    "notes": [{"x": 982, "y": 476, "text": "▼ returns nearest", "weight": 700, "color": "#1f766d"}],
+}

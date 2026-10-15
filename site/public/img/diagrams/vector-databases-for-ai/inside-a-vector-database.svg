@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Inside a vector database">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="638" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Inside a vector database</text>
+<rect x="30" y="95" width="300" height="420" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="130.0" y="80" width="100.0" height="30" rx="15" fill="#2f5fb3"/>
+<text x="180.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Write path</text>
+<rect x="360" y="95" width="380" height="420" rx="14" fill="none" stroke="#6cc3b8" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="469.9" y="80" width="160.2" height="30" rx="15" fill="#1f766d"/>
+<text x="550.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Storage: segments</text>
+<rect x="770" y="95" width="300" height="420" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="874.3" y="80" width="91.39999999999999" height="30" rx="15" fill="#2e7d4f"/>
+<text x="920.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Read path</text>
+<path d="M180.0,205.0 L180.0,240.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M180.0,335.0 L180.0,370.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M305.0,430.0 L345.0,430.0 L345.0,287.0 L385.0,287.5" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="327.0" y="335.5" width="36.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="345.0" y="349.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">seal</text>
+<path d="M920.0,205.0 L920.0,240.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M920.0,335.0 L920.0,370.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M795.0,287.5 L760.0,287.0 L760.0,172.0 L715.0,172.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M795.0,287.5 L715.0,287.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="55" y="125" width="250" height="80" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="180.0" y="158.0" font-size="28" text-anchor="middle">✍️</text>
+<text x="180.0" y="181.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Upsert / delete</text>
+<text x="180.0" y="201.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">id, vector, metadata, text</text>
+<rect x="55" y="240" width="250" height="95" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="180.0" y="272.5" font-size="28" text-anchor="middle">📜</text>
+<text x="180.0" y="295.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Write-ahead log</text>
+<text x="180.0" y="315.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">appended to disk first,</text><text x="180.0" y="331.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">replayed after a crash</text>
+<rect x="55" y="370" width="250" height="120" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="180.0" y="407.0" font-size="28" text-anchor="middle">🧺</text>
+<text x="180.0" y="430.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Fresh buffer</text>
+<text x="180.0" y="450.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">newest vectors, searched</text><text x="180.0" y="465.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">by brute force until</text><text x="180.0" y="481.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">sealed into a segment</text>
+<rect x="385" y="125" width="330" height="95" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="550.0" y="161.5" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Segment 1 (immutable)</text>
+<text x="550.0" y="181.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">vectors + HNSW or IVF index</text><text x="550.0" y="197.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">payload index for filters</text>
+<rect x="385" y="240" width="330" height="95" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="550.0" y="276.5" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Segment 2 (immutable)</text>
+<text x="550.0" y="296.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">vectors + index + payload index</text><text x="550.0" y="312.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">tombstones: id 4471 deleted</text>
+<rect x="385" y="355" width="330" height="135" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="550.0" y="399.5" font-size="28" text-anchor="middle">🧹</text>
+<text x="550.0" y="422.5" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Background jobs</text>
+<text x="550.0" y="442.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">build indexes for sealed segments</text><text x="550.0" y="458.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">merge small segments (compaction)</text><text x="550.0" y="473.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">drop deleted items for real</text>
+<rect x="795" y="125" width="250" height="80" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="920.0" y="158.0" font-size="28" text-anchor="middle">🎯</text>
+<text x="920.0" y="181.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Query + filter</text>
+<text x="920.0" y="201.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">vector, k, lang = &#x27;hi&#x27;</text>
+<rect x="795" y="240" width="250" height="95" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="920.0" y="268.5" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Fan out</text>
+<text x="920.0" y="288.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">search buffer and every</text><text x="920.0" y="304.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">segment, filter-aware,</text><text x="920.0" y="319.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">skip tombstones</text>
+<rect x="795" y="370" width="250" height="120" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="920.0" y="407.0" font-size="28" text-anchor="middle">🏆</text>
+<text x="920.0" y="430.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Merge to top k</text>
+<text x="920.0" y="450.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">best k across segments,</text><text x="920.0" y="465.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">with ids, scores,</text><text x="920.0" y="481.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">metadata and text</text>
+<text x="550" y="560.0" font-size="14" font-weight="600" fill="#1f2328" text-anchor="middle">Writes are durable as soon as they reach the log; they are searchable as soon as they reach the buffer.</text>
+<text x="550" y="588.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Updates are a delete plus an insert. Metadata lives beside the vectors, with its own index, so filters stay fast.</text>
+</svg>

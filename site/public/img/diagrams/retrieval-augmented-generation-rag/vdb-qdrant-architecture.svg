@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 690" width="1100" height="690" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Inside a Qdrant deployment">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="688" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#b2442f"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Inside a Qdrant deployment</text>
+<rect x="30" y="95" width="250" height="470" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="117.9" y="80" width="74.19999999999999" height="30" rx="15" fill="#2f5fb3"/>
+<text x="155.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Clients</text>
+<rect x="310" y="95" width="760" height="470" rx="14" fill="none" stroke="#ec9a8a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="579.8" y="80" width="220.39999999999998" height="30" rx="15" fill="#b2442f"/>
+<text x="690.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Qdrant server or cluster</text>
+<path d="M155.0,220.0 L155.0,245.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M255.0,290.0 L335.0,185.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M255.0,405.0 L295.0,405.0 L295.0,185.0 L335.0,185.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M665.0,185.0 L700.0,185.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M500.0,240.0 L500.0,270.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M500.0,240.0 L500.0,255.0 L872.0,255.0 L872.5,270.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M500.0,390.0 L690.0,420.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="55" y="130" width="200" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="155.0" y="168.0" font-size="28" text-anchor="middle">🐍</text>
+<text x="155.0" y="191.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Python client</text>
+<text x="155.0" y="211.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">qdrant-client</text>
+<rect x="55" y="245" width="200" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="155.0" y="283.0" font-size="28" text-anchor="middle">🌐</text>
+<text x="155.0" y="306.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">REST :6333</text>
+<text x="155.0" y="326.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">JSON over HTTP</text>
+<rect x="55" y="360" width="200" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="155.0" y="398.0" font-size="28" text-anchor="middle">⚡</text>
+<text x="155.0" y="421.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">gRPC :6334</text>
+<text x="155.0" y="441.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">faster, binary</text>
+<rect x="55" y="465" width="200" height="80" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="155.0" y="502.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Local mode</text>
+<text x="155.0" y="522.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">same API, no server</text>
+<rect x="335" y="130" width="330" height="110" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="500.0" y="170.0" font-size="28" text-anchor="middle">📁</text>
+<text x="500.0" y="193.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Collection: help_centre</text>
+<text x="500.0" y="213.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">vector size 384, distance Cosine</text><text x="500.0" y="228.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">HNSW m=16, payload indexes</text>
+<rect x="700" y="130" width="345" height="110" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="872.5" y="178.0" font-size="28" text-anchor="middle">📜</text>
+<text x="872.5" y="201.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Write-ahead log</text>
+<text x="872.5" y="221.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">every upsert lands here first</text>
+<rect x="335" y="270" width="330" height="120" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="500.0" y="315.0" font-size="28" text-anchor="middle">🧩</text>
+<text x="500.0" y="338.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Shard 1 (+ replica)</text>
+<text x="500.0" y="358.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">segments: vectors + HNSW</text><text x="500.0" y="373.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">+ payload index</text>
+<rect x="700" y="270" width="345" height="120" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="872.5" y="315.0" font-size="28" text-anchor="middle">🧩</text>
+<text x="872.5" y="338.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Shard 2 (+ replica)</text>
+<text x="872.5" y="358.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">segments: vectors + HNSW</text><text x="872.5" y="373.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">+ payload index</text>
+<rect x="335" y="420" width="710" height="120" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="690.0" y="465.0" font-size="28" text-anchor="middle">📍</text>
+<text x="690.0" y="488.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">A point</text>
+<text x="690.0" y="508.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">id: 7c9e...-uuid   vector: [0.98, 0.0, 0.19, ...]</text><text x="690.0" y="523.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">payload: {&quot;topic&quot;: &quot;payments&quot;, &quot;lang&quot;: &quot;en&quot;, &quot;text&quot;: &quot;UPI payment failed...&quot;}</text>
+<text x="550" y="610.0" font-size="14" font-weight="600" fill="#1f2328" text-anchor="middle">A query fans out to every shard, filters on the payload while walking HNSW, and merges the top k.</text>
+<text x="550" y="640.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Scores come back as similarities for Cosine and Dot: higher is better.</text>
+</svg>
