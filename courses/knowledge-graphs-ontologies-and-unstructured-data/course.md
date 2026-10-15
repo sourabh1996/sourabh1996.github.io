@@ -41,12 +41,12 @@ Model the world as entities and relationships: ontologies with worked examples, 
 
 <a id="m5"></a>
 ### 5. Digitising Unstructured Data ➕ (6 lessons)
-- From Documents to Data: OCR and Document Parsing · Article ➕
-- Extracting Tables, Forms and Layout · Article ➕
-- Entity and Relation Extraction with LLMs · Article ➕
-- Schema-Guided Extraction with Pydantic · Article ➕
-- Entity Resolution and Deduplication · Article ➕
-- Lab: Turn a pile of invoices into structured records · Lab ➕
+- [From Documents to Data: OCR and Document Parsing](05-digitising-unstructured-data/from-documents-to-data-ocr-and-document-parsing.md) · Article ➕ ✍️ *written*
+- [Extracting Tables, Forms and Layout](05-digitising-unstructured-data/extracting-tables-forms-and-layout.md) · Article ➕ ✍️ *written*
+- [Entity and Relation Extraction with LLMs](05-digitising-unstructured-data/entity-and-relation-extraction-with-llms.md) · Article ➕ ✍️ *written*
+- [Schema-Guided Extraction with Pydantic](05-digitising-unstructured-data/schema-guided-extraction-with-pydantic.md) · Article ➕ ✍️ *written*
+- [Entity Resolution and Deduplication](05-digitising-unstructured-data/entity-resolution-and-deduplication.md) · Article ➕ ✍️ *written*
+- [Lab: Turn a pile of invoices into structured records](05-digitising-unstructured-data/lab-turn-a-pile-of-invoices-into-structured-records.md) · Lab ➕ ✍️ *written*
 
 <a id="m6"></a>
 ### 6. Knowledge Graphs for AI Agents ➕ (6 lessons)
