@@ -30,11 +30,11 @@ Build LLM apps with LangChain: models, prompts, structured output, parsers, chai
 
 <a id="m4"></a>
 ### 4. Prompts (5 lessons)
-- Static vs Dynamic Prompts · Article
-- Prompt Templates · Article
-- ChatPromptTemplate and Messages · Article
-- MessagesPlaceholder and Chat History · Article
-- Lab: A prompt-templated assistant · Lab
+- [Static vs Dynamic Prompts](04-prompts/static-vs-dynamic-prompts.md) · Article ✍️ *written*
+- [Prompt Templates](04-prompts/prompt-templates.md) · Article ✍️ *written*
+- [ChatPromptTemplate and Messages](04-prompts/chatprompttemplate-and-messages.md) · Article ✍️ *written*
+- [MessagesPlaceholder and Chat History](04-prompts/messagesplaceholder-and-chat-history.md) · Article ✍️ *written*
+- [Lab: A prompt-templated assistant](04-prompts/lab-a-prompt-templated-assistant.md) · Lab ✍️ *written*
 
 <a id="m5"></a>
 ### 5. Structured Output and Output Parsers (7 lessons)

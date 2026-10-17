@@ -1,0 +1,35 @@
+# How a chat prompt template turns variables and history into messages for a model.
+SPEC = {
+    "title": "From variables to messages: a chat prompt template",
+    "accent": "amber",
+    "width": 1100, "height": 640,
+    "groups": [
+        {"x": 30, "y": 95, "w": 280, "h": 510, "label": "Inputs (change every call)", "color": "blue"},
+        {"x": 345, "y": 95, "w": 360, "h": 510, "label": "Template (written once)", "color": "amber"},
+        {"x": 740, "y": 95, "w": 330, "h": 510, "label": "Prompt value (sent to model)", "color": "green"},
+    ],
+    "nodes": {
+        "partial": {"x": 50, "y": 130, "w": 240, "h": 85, "label": "📌 Partials", "sub": "fixed in advance:\ndate = \"17 Oct\"", "color": "gray"},
+        "vars": {"x": 50, "y": 230, "w": 240, "h": 110, "icon": "🧾", "label": "Variables", "sub": "station = \"Howrah\"\nlanguage = \"Bengali\"", "color": "blue"},
+        "hist": {"x": 50, "y": 355, "w": 240, "h": 105, "icon": "🗂️", "label": "Chat history", "sub": "earlier Human and AI\nmessages, as a list", "color": "blue"},
+        "q": {"x": 50, "y": 475, "w": 240, "h": 105, "icon": "❓", "label": "New question", "sub": "question =\n\"Is 12301 late?\"", "color": "blue"},
+        "sys": {"x": 365, "y": 135, "w": 320, "h": 120, "icon": "📜", "label": "(\"system\", ...)", "sub": "You help passengers at {station}.\nReply in {language}. Today is {date}.", "color": "amber"},
+        "ph": {"x": 365, "y": 285, "w": 320, "h": 120, "icon": "🧷", "label": "MessagesPlaceholder", "sub": "\"history\": a slot for\na whole list of messages", "color": "amber"},
+        "hum": {"x": 365, "y": 435, "w": 320, "h": 120, "icon": "🙋", "label": "(\"human\", \"{question}\")", "sub": "the user's new message", "color": "amber"},
+        "m1": {"x": 760, "y": 135, "w": 290, "h": 90, "label": "SystemMessage", "sub": "You help passengers at Howrah.\nReply in Bengali. Today is 17 Oct.", "color": "green"},
+        "m2": {"x": 760, "y": 245, "w": 290, "h": 70, "label": "HumanMessage", "sub": "(from history)", "color": "green", "size": 15},
+        "m3": {"x": 760, "y": 330, "w": 290, "h": 70, "label": "AIMessage", "sub": "(from history)", "color": "green", "size": 15},
+        "m4": {"x": 760, "y": 415, "w": 290, "h": 80, "label": "HumanMessage", "sub": "Is 12301 late?", "color": "green"},
+        "model": {"x": 760, "y": 515, "w": 290, "h": 70, "label": "🧠 → any chat model", "color": "gray"},
+    },
+    "edges": [
+        {"from": "partial", "to": "sys", "to_side": "left"},
+        {"from": "vars", "to": "sys", "to_side": "left"},
+        {"from": "hist", "to": "ph", "to_side": "left"},
+        {"from": "q", "to": "hum", "to_side": "left"},
+        {"from": "sys", "to": "m1", "label": "invoke()"},
+        {"from": "ph", "to": "m2", "from_side": "right", "to_side": "left"},
+        {"from": "ph", "to": "m3", "from_side": "right", "to_side": "left"},
+        {"from": "hum", "to": "m4", "from_side": "right", "to_side": "left"},
+    ],
+}
