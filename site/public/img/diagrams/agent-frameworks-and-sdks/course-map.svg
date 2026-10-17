@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" width="1100" height="760" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="The agent framework landscape, layer by layer">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="758" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#5b3fa0"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">The agent framework landscape, layer by layer</text>
+<rect x="20" y="80" width="1060" height="150" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="90" width="110" height="130" rx="10" fill="#2f5fb3"/>
+<text x="85.0" y="151.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Vendor</text><text x="85.0" y="178.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">SDKs</text>
+<rect x="20" y="245" width="1060" height="150" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="255" width="110" height="130" rx="10" fill="#2e7d4f"/>
+<text x="85.0" y="316.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Frame-</text><text x="85.0" y="343.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">works</text>
+<rect x="20" y="410" width="1060" height="150" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="420" width="110" height="130" rx="10" fill="#9a6412"/>
+<text x="85.0" y="481.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Typed</text><text x="85.0" y="508.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">layer</text>
+<rect x="20" y="575" width="1060" height="160" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="585" width="110" height="140" rx="10" fill="#5b3fa0"/>
+<text x="85.0" y="663.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Choosing</text>
+<path d="M430.0,655.0 L470.0,655.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M730.0,655.0 L770.0,655.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="170" y="100" width="165" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="252.5" y="138.0" font-size="28" text-anchor="middle">🟠</text>
+<text x="252.5" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Claude</text><text x="252.5" y="181.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Agent SDK</text>
+<text x="252.5" y="201.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Claude Code as a library</text>
+<rect x="350" y="100" width="165" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="432.5" y="138.0" font-size="28" text-anchor="middle">🟢</text>
+<text x="432.5" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">OpenAI</text><text x="432.5" y="181.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Agents SDK</text>
+<text x="432.5" y="201.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">handoffs, guardrails</text>
+<rect x="530" y="100" width="165" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="612.5" y="148.0" font-size="28" text-anchor="middle">🔵</text>
+<text x="612.5" y="171.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Google ADK</text>
+<text x="612.5" y="191.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">agents + graph workflows</text>
+<rect x="710" y="100" width="165" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="792.5" y="138.0" font-size="28" text-anchor="middle">🟦</text>
+<text x="792.5" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Microsoft</text><text x="792.5" y="181.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Agent Framework</text>
+<text x="792.5" y="201.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">AutoGen + SK, merged</text>
+<rect x="890" y="100" width="180" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="980.0" y="138.0" font-size="28" text-anchor="middle">🟧</text>
+<text x="980.0" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Strands +</text><text x="980.0" y="181.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">AgentCore</text>
+<text x="980.0" y="201.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">agent + managed runtime</text>
+<rect x="170" y="265" width="165" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="252.5" y="313.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="252.5" y="336.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Deep Agents</text>
+<text x="252.5" y="356.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">ready-made harness</text>
+<rect x="350" y="265" width="165" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="432.5" y="313.0" font-size="28" text-anchor="middle">👥</text>
+<text x="432.5" y="336.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">CrewAI</text>
+<text x="432.5" y="356.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">roles, tasks, flows</text>
+<rect x="530" y="265" width="165" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="612.5" y="313.0" font-size="28" text-anchor="middle">🦙</text>
+<text x="612.5" y="336.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LlamaIndex</text>
+<text x="612.5" y="356.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">agents over your data</text>
+<rect x="710" y="265" width="165" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="792.5" y="313.0" font-size="28" text-anchor="middle">🐍</text>
+<text x="792.5" y="336.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">smolagents</text>
+<text x="792.5" y="356.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">act by writing code</text>
+<rect x="890" y="265" width="180" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="980.0" y="303.0" font-size="28" text-anchor="middle">📘</text>
+<text x="980.0" y="326.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Mastra +</text><text x="980.0" y="346.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">AI SDK</text>
+<text x="980.0" y="366.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">agents in TypeScript</text>
+<rect x="170" y="430" width="165" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="252.5" y="478.0" font-size="28" text-anchor="middle">🛡️</text>
+<text x="252.5" y="501.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Why types</text>
+<text x="252.5" y="521.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">text in, objects out</text>
+<rect x="350" y="430" width="165" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="432.5" y="478.0" font-size="28" text-anchor="middle">🧩</text>
+<text x="432.5" y="501.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Pydantic AI</text>
+<text x="432.5" y="521.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">typed agents</text>
+<rect x="530" y="430" width="165" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="612.5" y="478.0" font-size="28" text-anchor="middle">📐</text>
+<text x="612.5" y="501.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Instructor</text>
+<text x="612.5" y="521.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">validate + retry</text>
+<rect x="710" y="430" width="165" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="792.5" y="468.0" font-size="28" text-anchor="middle">🎯</text>
+<text x="792.5" y="491.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Decision</text><text x="792.5" y="511.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">models (Jev)</text>
+<text x="792.5" y="531.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">answers with odds</text>
+<rect x="890" y="430" width="180" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="980.0" y="478.0" font-size="28" text-anchor="middle">⚙️</text>
+<text x="980.0" y="501.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">DSPy</text>
+<text x="980.0" y="521.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">optimise, don&#x27;t hand-tune</text>
+<rect x="170" y="600" width="260" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="300.0" y="638.0" font-size="28" text-anchor="middle">⚖️</text>
+<text x="300.0" y="661.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Same task,</text><text x="300.0" y="681.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">many frameworks</text>
+<text x="300.0" y="701.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">compare on one job</text>
+<rect x="470" y="600" width="260" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="600.0" y="648.0" font-size="28" text-anchor="middle">🔓</text>
+<text x="600.0" y="671.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Avoid lock-in</text>
+<text x="600.0" y="691.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">MCP, A2A, OpenTelemetry</text>
+<rect x="770" y="600" width="300" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="920.0" y="638.0" font-size="28" text-anchor="middle">🧪</text>
+<text x="920.0" y="661.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Lab: one agent,</text><text x="920.0" y="681.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">three frameworks</text>
+<text x="920.0" y="701.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">shared tests prove it</text>
+<text x="620" y="752.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Underneath every box is the same loop you built by hand: model, tools, state, stop rules.</text>
+</svg>
