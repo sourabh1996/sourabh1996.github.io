@@ -32,10 +32,10 @@ A hands-on tour of the major agent frameworks, type-safe agents and decision mod
 
 <a id="m4"></a>
 ### 4. Type-Safe AI and Decision Models ➕ (6 lessons)
-- Why Type Safety Matters for LLM Apps · Article ➕
-- Pydantic AI · Article ➕
-- Instructor and Validated Structured Output · Article ➕
-- Decision Models: Typed Answers instead of Text (Jev) · Article ➕
+- [Why Type Safety Matters for LLM Apps](04-type-safe-ai-and-decision-models/why-type-safety-matters-for-llm-apps.md) · Article ➕ ✍️ *written*
+- [Pydantic AI](04-type-safe-ai-and-decision-models/pydantic-ai.md) · Article ➕ ✍️ *written*
+- [Instructor and Validated Structured Output](04-type-safe-ai-and-decision-models/instructor-and-validated-structured-output.md) · Article ➕ ✍️ *written*
+- [Decision Models: Typed Answers instead of Text (Jev)](04-type-safe-ai-and-decision-models/decision-models-typed-answers-instead-of-text-jev.md) · Article ➕ ✍️ *written*
 - DSPy: Programming, Not Prompting · Article ➕
 - Lab: A typed routing layer for an agent · Lab ➕
 
