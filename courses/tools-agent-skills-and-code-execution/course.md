@@ -23,11 +23,11 @@ Give agents capabilities the right way: tools models use well, tool search for l
 
 <a id="m3"></a>
 ### 3. Scaling to Many Tools ➕ (5 lessons)
-- Why Hundreds of Tool Schemas Break Agents · Article ➕
-- Tool Search and Deferred Loading · Article ➕
-- Code Execution: Agents that Write Code against Tools · Article ➕
-- Sandboxes for Running Agent Code · Article ➕
-- Lab: Agent with a code-execution sandbox · Lab ➕
+- [Why Hundreds of Tool Schemas Break Agents](03-scaling-to-many-tools/why-hundreds-of-tool-schemas-break-agents.md) · Article ➕ ✍️ *written*
+- [Tool Search and Deferred Loading](03-scaling-to-many-tools/tool-search-and-deferred-loading.md) · Article ➕ ✍️ *written*
+- [Code Execution: Agents that Write Code against Tools](03-scaling-to-many-tools/code-execution-agents-that-write-code-against-tools.md) · Article ➕ ✍️ *written*
+- [Sandboxes for Running Agent Code](03-scaling-to-many-tools/sandboxes-for-running-agent-code.md) · Article ➕ ✍️ *written*
+- [Lab: Agent with a code-execution sandbox](03-scaling-to-many-tools/lab-agent-with-a-code-execution-sandbox.md) · Lab ➕ ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Agent Skills ➕ (8 lessons)

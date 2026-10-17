@@ -1,0 +1,37 @@
+# Module 3 central idea: stop loading every tool into context on every turn.
+SPEC = {
+    "title": "Scaling to many tools: load on demand, not up front",
+    "accent": "purple",
+    "width": 1100, "height": 600,
+    "groups": [
+        {"x": 30, "y": 90, "w": 330, "h": 460, "label": "Everything loaded every turn", "color": "coral"},
+        {"x": 400, "y": 90, "w": 670, "h": 460, "label": "The fixes (combine them)", "color": "green"},
+    ],
+    "nodes": {
+        "tools": {"x": 60, "y": 130, "w": 270, "h": 110, "icon": "🧰", "label": "288 tool schemas",
+                  "sub": "~20K-55K+ tokens,\nre-sent on every step", "color": "coral"},
+        "conf": {"x": 60, "y": 270, "w": 270, "h": 110, "icon": "🔀", "label": "Look-alike tools",
+                 "sub": "pairs grow ~ n squared;\nwrong tool, wrong params", "color": "coral"},
+        "flood": {"x": 60, "y": 410, "w": 270, "h": 110, "icon": "🌊", "label": "Results flood context",
+                  "sub": "every result passes\nthrough the model", "color": "coral"},
+        "search": {"x": 430, "y": 130, "w": 270, "h": 110, "icon": "🔎", "label": "Tool search",
+                   "sub": "defer_loading;\nload only the matches", "color": "purple"},
+        "fewer": {"x": 430, "y": 270, "w": 270, "h": 110, "icon": "✂️", "label": "Fewer task tools",
+                  "sub": "merge endpoints, sharpen\ndescriptions (Module 2)", "color": "blue"},
+        "code": {"x": 430, "y": 410, "w": 270, "h": 110, "icon": "🐍", "label": "Code execution",
+                 "sub": "model writes a script;\nresults stay in the sandbox", "color": "teal"},
+        "skills": {"x": 780, "y": 130, "w": 260, "h": 110, "icon": "📘", "label": "Agent skills",
+                   "sub": "short description always;\nfull SKILL.md on demand", "color": "amber"},
+        "sub": {"x": 780, "y": 270, "w": 260, "h": 110, "icon": "👥", "label": "Subagents",
+                "sub": "each with a\nsmall toolset", "color": "green"},
+        "sandbox": {"x": 780, "y": 410, "w": 260, "h": 110, "icon": "📦", "label": "Sandbox",
+                    "sub": "no network, limits,\nno secrets inside", "color": "gray"},
+    },
+    "edges": [
+        {"from": "tools", "to": "search", "from_side": "right", "to_side": "left"},
+        {"from": "conf", "to": "fewer", "from_side": "right", "to_side": "left"},
+        {"from": "flood", "to": "code", "from_side": "right", "to_side": "left"},
+        {"from": "code", "to": "sandbox", "from_side": "right", "to_side": "left", "label": "runs in"},
+    ],
+    "notes": [{"x": 550, "y": 578, "text": "Measure first: tokens, look-alike pairs, then an agent eval"}],
+}

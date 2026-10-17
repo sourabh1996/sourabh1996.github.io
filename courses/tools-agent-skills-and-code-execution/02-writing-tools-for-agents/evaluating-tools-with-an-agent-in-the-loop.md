@@ -684,4 +684,4 @@ Follow-up: *"What would you look for in a transcript?"* Wrong tool choices (desc
 
 ---
 
-**Up next:** [Why Hundreds of Tool Schemas Break Agents](../course.md#m3)
+**Up next:** [Why Hundreds of Tool Schemas Break Agents](../03-scaling-to-many-tools/why-hundreds-of-tool-schemas-break-agents.md)
