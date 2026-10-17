@@ -52,9 +52,9 @@ Model the world as entities and relationships: ontologies with worked examples, 
 ### 6. Knowledge Graphs for AI Agents ➕ (6 lessons)
 > **Before you start:** [Agentic RAG Systems › Agentic RAG Architectures](../agentic-rag-systems/course.md#m3), [Retrieval-Augmented Generation (RAG) › Embeddings and Vector Databases](../retrieval-augmented-generation-rag/course.md#m3)
 
-- Building a Knowledge Graph from Text with an LLM · Article ➕
-- GraphRAG · Article ➕
-- Hybrid Retrieval: Graphs plus Vectors · Article ➕
-- Text-to-Cypher Agents · Article ➕
-- Ontology-Grounded Agents · Article ➕
-- Lab: A GraphRAG agent over company documents · Lab ➕
+- [Building a Knowledge Graph from Text with an LLM](06-knowledge-graphs-for-ai-agents/building-a-knowledge-graph-from-text-with-an-llm.md) · Article ➕ ✍️ *written*
+- [GraphRAG](06-knowledge-graphs-for-ai-agents/graphrag.md) · Article ➕ ✍️ *written*
+- [Hybrid Retrieval: Graphs plus Vectors](06-knowledge-graphs-for-ai-agents/hybrid-retrieval-graphs-plus-vectors.md) · Article ➕ ✍️ *written*
+- [Text-to-Cypher Agents](06-knowledge-graphs-for-ai-agents/text-to-cypher-agents.md) · Article ➕ ✍️ *written*
+- [Ontology-Grounded Agents](06-knowledge-graphs-for-ai-agents/ontology-grounded-agents.md) · Article ➕ ✍️ *written*
+- [Lab: A GraphRAG agent over company documents](06-knowledge-graphs-for-ai-agents/lab-a-graphrag-agent-over-company-documents.md) · Lab ➕ ✍️ *written*

@@ -649,4 +649,4 @@ The master in this step only has the five suppliers in the pile. The pipeline sh
 
 ---
 
-**Up next:** [Building a Knowledge Graph from Text with an LLM](../course.md#m6)
+**Up next:** [Building a Knowledge Graph from Text with an LLM](../06-knowledge-graphs-for-ai-agents/building-a-knowledge-graph-from-text-with-an-llm.md)
