@@ -363,4 +363,4 @@ Bedrock is the default, but Anthropic, OpenAI, Gemini, LiteLLM, Ollama, llama.cp
 
 ---
 
-**Up next:** [LangChain Deep Agents](../course.md#m3)
+**Up next:** [LangChain Deep Agents](../03-orchestration-frameworks/langchain-deep-agents.md)

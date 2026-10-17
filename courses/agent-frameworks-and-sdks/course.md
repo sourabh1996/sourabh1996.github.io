@@ -24,11 +24,11 @@ A hands-on tour of the major agent frameworks, type-safe agents and decision mod
 
 <a id="m3"></a>
 ### 3. Orchestration Frameworks ➕ (5 lessons)
-- LangChain Deep Agents · Article ➕
-- CrewAI Crews and Flows · Article ➕
-- LlamaIndex Agents and Workflows · Article ➕
-- smolagents and Code Agents · Article ➕
-- TypeScript Agents: Mastra and the Vercel AI SDK · Article ➕
+- [LangChain Deep Agents](03-orchestration-frameworks/langchain-deep-agents.md) · Article ➕ ✍️ *written*
+- [CrewAI Crews and Flows](03-orchestration-frameworks/crewai-crews-and-flows.md) · Article ➕ ✍️ *written*
+- [LlamaIndex Agents and Workflows](03-orchestration-frameworks/llamaindex-agents-and-workflows.md) · Article ➕ ✍️ *written*
+- [smolagents and Code Agents](03-orchestration-frameworks/smolagents-and-code-agents.md) · Article ➕ ✍️ *written*
+- [TypeScript Agents: Mastra and the Vercel AI SDK](03-orchestration-frameworks/typescript-agents-mastra-and-the-vercel-ai-sdk.md) · Article ➕ ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Type-Safe AI and Decision Models ➕ (6 lessons)
