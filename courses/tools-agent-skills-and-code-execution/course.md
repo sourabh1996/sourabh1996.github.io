@@ -16,10 +16,10 @@ Give agents capabilities the right way: tools models use well, tool search for l
 
 <a id="m2"></a>
 ### 2. Writing Tools for Agents ➕ (4 lessons)
-- Naming, Descriptions and Parameters · Article ➕
-- Returning Just Enough · Article ➕
-- Error Messages that Help the Agent Recover · Article ➕
-- Evaluating Tools with an Agent in the Loop · Article ➕
+- [Naming, Descriptions and Parameters](02-writing-tools-for-agents/naming-descriptions-and-parameters.md) · Article ➕ ✍️ *written*
+- [Returning Just Enough](02-writing-tools-for-agents/returning-just-enough.md) · Article ➕ ✍️ *written*
+- [Error Messages that Help the Agent Recover](02-writing-tools-for-agents/error-messages-that-help-the-agent-recover.md) · Article ➕ ✍️ *written*
+- [Evaluating Tools with an Agent in the Loop](02-writing-tools-for-agents/evaluating-tools-with-an-agent-in-the-loop.md) · Article ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Scaling to Many Tools ➕ (5 lessons)

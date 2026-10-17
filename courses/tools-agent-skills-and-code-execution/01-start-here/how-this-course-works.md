@@ -145,4 +145,4 @@ It is dangerous *without a sandbox*. With limits on time, memory, files, network
 
 ---
 
-**Up next:** [Naming, Descriptions and Parameters](../course.md#m2)
+**Up next:** [Naming, Descriptions and Parameters](../02-writing-tools-for-agents/naming-descriptions-and-parameters.md)
