@@ -538,4 +538,4 @@ The ledger is empty and 17 requests wait for a human. The agent did all the anal
 
 ---
 
-**Up next:** [What is an Agent Skill?](../course.md#m4)
+**Up next:** [What is an Agent Skill?](../04-agent-skills/what-is-an-agent-skill.md)

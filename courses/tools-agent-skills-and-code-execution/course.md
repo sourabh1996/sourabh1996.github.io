@@ -31,10 +31,10 @@ Give agents capabilities the right way: tools models use well, tool search for l
 
 <a id="m4"></a>
 ### 4. Agent Skills ➕ (8 lessons)
-- What is an Agent Skill? · Article ➕
-- Anatomy of a Skill Folder and SKILL.md · Article ➕
-- Progressive Disclosure: Discovery, Activation, Execution · Article ➕
-- Writing Descriptions that Trigger Correctly · Article ➕
+- [What is an Agent Skill?](04-agent-skills/what-is-an-agent-skill.md) · Article ➕ ✍️ *written*
+- [Anatomy of a Skill Folder and SKILL.md](04-agent-skills/anatomy-of-a-skill-folder-and-skill-md.md) · Article ➕ ✍️ *written*
+- [Progressive Disclosure: Discovery, Activation, Execution](04-agent-skills/progressive-disclosure-discovery-activation-execution.md) · Article ➕ ✍️ *written*
+- [Writing Descriptions that Trigger Correctly](04-agent-skills/writing-descriptions-that-trigger-correctly.md) · Article ➕ ✍️ *written*
 - Bundling Scripts and Reference Files · Article ➕
 - Skills vs MCP vs Subagents vs Prompts · Article ➕
 - Testing, Versioning and Sharing Skills · Article ➕
