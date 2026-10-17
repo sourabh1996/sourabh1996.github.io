@@ -60,12 +60,12 @@ Build LLM apps with LangChain: models, prompts, structured output, parsers, chai
 
 <a id="m7"></a>
 ### 7. Tools and Tool Calling (6 lessons)
-- Tools and Toolkits · Article
-- Built-in Tools · Article
-- Custom Tools: @tool, StructuredTool and BaseTool · Article
-- Tool Calling with bind_tools · Article
-- Injected Tool Arguments · Article
-- Lab: Currency converter with tool calling · Lab
+- [Tools and Toolkits](07-tools-and-tool-calling/tools-and-toolkits.md) · Article ✍️ *written*
+- [Built-in Tools](07-tools-and-tool-calling/built-in-tools.md) · Article ✍️ *written*
+- [Custom Tools: @tool, StructuredTool and BaseTool](07-tools-and-tool-calling/custom-tools-tool-structuredtool-and-basetool.md) · Article ✍️ *written*
+- [Tool Calling with bind_tools](07-tools-and-tool-calling/tool-calling-with-bind-tools.md) · Article ✍️ *written*
+- [Injected Tool Arguments](07-tools-and-tool-calling/injected-tool-arguments.md) · Article ✍️ *written*
+- [Lab: Currency converter with tool calling](07-tools-and-tool-calling/lab-currency-converter-with-tool-calling.md) · Lab ✍️ *written*
 
 <a id="m8"></a>
 ### 8. Monitoring and Deployment (3 lessons)
