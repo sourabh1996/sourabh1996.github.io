@@ -283,7 +283,10 @@ message = HumanMessage(content=[
     image_block(chart_path),
 ])
 for block in message.content:
-    print(block["type"], len(block.get("text", block.get("base64", ""))), "characters")
+    if block["type"] == "text":
+        print("text", len(block["text"]), "characters")
+    else:  # the exact size depends on the PNG encoder, so show what identifies the image instead
+        print("image", block["mime_type"], "base64 starting", block["base64"][:11])
 
 width, height = 400, 300
 print("approx. image tokens:", round(width * height / 750))
@@ -293,7 +296,7 @@ Output:
 
 ```
 text 179 characters
-image 20560 characters
+image image/png base64 starting iVBORw0KGgo
 approx. image tokens: 160
 ```
 
