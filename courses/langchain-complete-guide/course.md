@@ -12,14 +12,14 @@ Build LLM apps with LangChain: models, prompts, structured output, parsers, chai
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. LangChain Foundations (4 lessons)
-- What is LangChain? · Article
-- LangChain Components · Article
-- Data Connectors and API Integrations · Article
-- Setting Up a LangChain Project and API Keys · Article
+- [What is LangChain?](02-langchain-foundations/what-is-langchain.md) · Article ✍️ *written*
+- [LangChain Components](02-langchain-foundations/langchain-components.md) · Article ✍️ *written*
+- [Data Connectors and API Integrations](02-langchain-foundations/data-connectors-and-api-integrations.md) · Article ✍️ *written*
+- [Setting Up a LangChain Project and API Keys](02-langchain-foundations/setting-up-a-langchain-project-and-api-keys.md) · Article ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Models (4 lessons)
