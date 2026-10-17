@@ -23,10 +23,10 @@ Build LLM apps with LangChain: models, prompts, structured output, parsers, chai
 
 <a id="m3"></a>
 ### 3. Models (4 lessons)
-- LLMs vs Chat Models · Article
-- Chat Models · Article
-- Embedding Models · Article
-- Open-Source Models with Hugging Face · Article
+- [LLMs vs Chat Models](03-models/llms-vs-chat-models.md) · Article ✍️ *written*
+- [Chat Models](03-models/chat-models.md) · Article ✍️ *written*
+- [Embedding Models](03-models/embedding-models.md) · Article ✍️ *written*
+- [Open-Source Models with Hugging Face](03-models/open-source-models-with-hugging-face.md) · Article ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Prompts (5 lessons)
