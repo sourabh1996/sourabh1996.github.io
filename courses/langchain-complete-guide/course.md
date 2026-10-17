@@ -50,13 +50,13 @@ Build LLM apps with LangChain: models, prompts, structured output, parsers, chai
 
 <a id="m6"></a>
 ### 6. Chains and Runnables (7 lessons)
-- Chains, LCEL and Runnables · Article
-- Sequential, Parallel and Conditional Chains · Article
-- Why Runnables Exist · Article
-- RunnableSequence, Parallel, Passthrough, Lambda and Branch · Article
-- Synthetic Data Generation · Article
-- Memory Management · Article
-- Lab: Multi-step LCEL pipeline · Lab
+- [Chains, LCEL and Runnables](06-chains-and-runnables/chains-lcel-and-runnables.md) · Article ✍️ *written*
+- [Sequential, Parallel and Conditional Chains](06-chains-and-runnables/sequential-parallel-and-conditional-chains.md) · Article ✍️ *written*
+- [Why Runnables Exist](06-chains-and-runnables/why-runnables-exist.md) · Article ✍️ *written*
+- [RunnableSequence, Parallel, Passthrough, Lambda and Branch](06-chains-and-runnables/runnablesequence-parallel-passthrough-lambda-and-branch.md) · Article ✍️ *written*
+- [Synthetic Data Generation](06-chains-and-runnables/synthetic-data-generation.md) · Article ✍️ *written*
+- [Memory Management](06-chains-and-runnables/memory-management.md) · Article ✍️ *written*
+- [Lab: Multi-step LCEL pipeline](06-chains-and-runnables/lab-multi-step-lcel-pipeline.md) · Lab ✍️ *written*
 
 <a id="m7"></a>
 ### 7. Tools and Tool Calling (6 lessons)
