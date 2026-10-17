@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 660" width="1100" height="660" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="A Strands agent running on Bedrock AgentCore">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="658" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#b2442f"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">A Strands agent running on Bedrock AgentCore</text>
+<rect x="300" y="85" width="480" height="300" rx="14" fill="none" stroke="#ec9a8a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="378.20000000000005" y="70" width="323.59999999999997" height="30" rx="15" fill="#b2442f"/>
+<text x="540.0" y="90.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">AgentCore Runtime (isolated session)</text>
+<rect x="30" y="420" width="1040" height="215" rx="14" fill="none" stroke="#b8bec6" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="431.2" y="405" width="237.6" height="30" rx="15" fill="#4b5563"/>
+<text x="550.0" y="425.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">AgentCore managed services</text>
+<path d="M240.0,215.0 L320.0,175.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="255.0" y="172.0" width="50.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="280.0" y="186.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">prompt</text>
+<path d="M520.0,175.0 L555.0,175.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M655.0,225.0 L655.0,250.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M555.0,175.0 L543.0,175.0 L543.0,305.0 L520.0,305.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M755.0,175.0 L840.0,215.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="776.0" y="172.0" width="43.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="797.5" y="186.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">spans</text>
+<path d="M420.0,360.0 L430.0,395.0 L345.0,395.0 L345.0,465.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="40" y="160" width="200" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="140.0" y="208.0" font-size="28" text-anchor="middle">🙋</text>
+<text x="140.0" y="231.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">User or app</text>
+<text x="140.0" y="251.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">POST /invocations</text>
+<rect x="320" y="125" width="200" height="100" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="420.0" y="168.0" font-size="28" text-anchor="middle">🚪</text>
+<text x="420.0" y="191.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">@app.entrypoint</text>
+<text x="420.0" y="211.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">BedrockAgentCoreApp</text>
+<rect x="555" y="125" width="200" height="100" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="655.0" y="168.0" font-size="28" text-anchor="middle">🧵</text>
+<text x="655.0" y="191.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Strands Agent</text>
+<text x="655.0" y="211.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">model-driven loop</text>
+<rect x="320" y="250" width="200" height="110" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="420.0" y="298.0" font-size="28" text-anchor="middle">🧰</text>
+<text x="420.0" y="321.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">@tool functions</text>
+<text x="420.0" y="341.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">plus MCP tools</text>
+<rect x="555" y="250" width="200" height="110" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="655.0" y="290.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="655.0" y="313.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Model provider</text>
+<text x="655.0" y="333.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Bedrock, Anthropic,</text><text x="655.0" y="348.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">OpenAI, Ollama</text>
+<rect x="840" y="160" width="220" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="950.0" y="208.0" font-size="28" text-anchor="middle">📈</text>
+<text x="950.0" y="231.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Observability</text>
+<text x="950.0" y="251.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">OpenTelemetry traces</text>
+<rect x="55" y="465" width="180" height="145" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="145.0" y="522.5" font-size="28" text-anchor="middle">🧠</text>
+<text x="145.0" y="545.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Memory</text>
+<text x="145.0" y="565.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">short-term turns,</text><text x="145.0" y="581.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">long-term facts</text>
+<rect x="255" y="465" width="180" height="145" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="345.0" y="514.5" font-size="28" text-anchor="middle">🔗</text>
+<text x="345.0" y="537.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Gateway</text>
+<text x="345.0" y="557.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">APIs and Lambdas</text><text x="345.0" y="573.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">turned into</text><text x="345.0" y="588.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">MCP tools</text>
+<rect x="455" y="465" width="180" height="145" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="545.0" y="514.5" font-size="28" text-anchor="middle">🔐</text>
+<text x="545.0" y="537.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Identity</text>
+<text x="545.0" y="557.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">who the agent acts</text><text x="545.0" y="573.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">for; OAuth to</text><text x="545.0" y="588.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">other services</text>
+<rect x="655" y="465" width="180" height="145" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="745.0" y="520.5" font-size="28" text-anchor="middle">🐍</text>
+<text x="745.0" y="543.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Code</text><text x="745.0" y="563.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Interpreter</text>
+<text x="745.0" y="583.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">sandboxed code</text>
+<rect x="855" y="465" width="195" height="145" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="952.5" y="522.5" font-size="28" text-anchor="middle">🌐</text>
+<text x="952.5" y="545.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Browser</text>
+<text x="952.5" y="565.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">cloud web</text><text x="952.5" y="581.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">automation</text>
+<text x="550" y="650.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Any framework can run inside the Runtime: Strands, LangGraph, CrewAI or your own loop.</text>
+</svg>

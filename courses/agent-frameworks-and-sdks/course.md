@@ -12,15 +12,15 @@ A hands-on tour of the major agent frameworks, type-safe agents and decision mod
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Vendor Agent SDKs ➕ (5 lessons)
-- Claude Agent SDK · Article ➕
-- OpenAI Agents SDK · Article ➕
-- Google Agent Development Kit (ADK) · Article ➕
-- Microsoft Agent Framework · Article ➕
-- AWS Strands Agents and Bedrock AgentCore · Article ➕
+- [Claude Agent SDK](02-vendor-agent-sdks/claude-agent-sdk.md) · Article ➕ ✍️ *written*
+- [OpenAI Agents SDK](02-vendor-agent-sdks/openai-agents-sdk.md) · Article ➕ ✍️ *written*
+- [Google Agent Development Kit (ADK)](02-vendor-agent-sdks/google-agent-development-kit-adk.md) · Article ➕ ✍️ *written*
+- [Microsoft Agent Framework](02-vendor-agent-sdks/microsoft-agent-framework.md) · Article ➕ ✍️ *written*
+- [AWS Strands Agents and Bedrock AgentCore](02-vendor-agent-sdks/aws-strands-agents-and-bedrock-agentcore.md) · Article ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Orchestration Frameworks ➕ (5 lessons)
