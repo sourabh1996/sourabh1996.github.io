@@ -481,4 +481,4 @@ Follow-up: *"Why do skills under-trigger?"* Models skip skills for tasks they be
 
 ---
 
-**Up next:** [Bundling Scripts and Reference Files](../course.md#m4)
+**Up next:** [Bundling Scripts and Reference Files](bundling-scripts-and-reference-files.md)

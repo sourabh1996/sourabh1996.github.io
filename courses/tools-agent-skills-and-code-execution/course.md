@@ -35,7 +35,7 @@ Give agents capabilities the right way: tools models use well, tool search for l
 - [Anatomy of a Skill Folder and SKILL.md](04-agent-skills/anatomy-of-a-skill-folder-and-skill-md.md) · Article ➕ ✍️ *written*
 - [Progressive Disclosure: Discovery, Activation, Execution](04-agent-skills/progressive-disclosure-discovery-activation-execution.md) · Article ➕ ✍️ *written*
 - [Writing Descriptions that Trigger Correctly](04-agent-skills/writing-descriptions-that-trigger-correctly.md) · Article ➕ ✍️ *written*
-- Bundling Scripts and Reference Files · Article ➕
-- Skills vs MCP vs Subagents vs Prompts · Article ➕
-- Testing, Versioning and Sharing Skills · Article ➕
-- Lab: Write a skill and use it in two different agents · Lab ➕
+- [Bundling Scripts and Reference Files](04-agent-skills/bundling-scripts-and-reference-files.md) · Article ➕ ✍️ *written*
+- [Skills vs MCP vs Subagents vs Prompts](04-agent-skills/skills-vs-mcp-vs-subagents-vs-prompts.md) · Article ➕ ✍️ *written*
+- [Testing, Versioning and Sharing Skills](04-agent-skills/testing-versioning-and-sharing-skills.md) · Article ➕ ✍️ *written*
+- [Lab: Write a skill and use it in two different agents](04-agent-skills/lab-write-a-skill-and-use-it-in-two-different-agents.md) · Lab ➕ ✍️ *written*

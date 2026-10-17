@@ -62,7 +62,8 @@ We'll create a realistic layout: two project skills, a personal (user-level) ski
 import json, math, os, re, subprocess, sys, tempfile, textwrap
 
 def approx_tokens(text):
-    return math.ceil(len(text) / 4)
+    # count with the temporary folder's path shortened, so results match on every machine
+    return math.ceil(len(text.replace(BASE, "<tmp>")) / 4)
 
 BASE = tempfile.mkdtemp()
 PROJECT = os.path.join(BASE, "mandimart-ops")           # a repository
@@ -227,7 +228,7 @@ Output:
     <description>Drafts a polite refund confirmation email to a MandiMart customer. Use when asked to write or send a refund email or message.</description>
     <location><base>/home/.agents/skills/refund-emai
 ...
-catalog tokens: 305 for 3 skills
+catalog tokens: 296 for 3 skills
 ```
 
 About a hundred tokens per skill, mostly description. That's level 1: always paid, so keep descriptions tight.
@@ -291,7 +292,7 @@ Skill directory: <base>/mandimart-ops/.agents/skills/gst-invoice
   <file>scripts/gst_calc.py</file>
 </skill_resources>
 </skill_content>
-activation tokens: 475
+activation tokens: 472
 Skill 'gst-invoice' is already active; its instructions are earlier in this conversation.
 ```
 
@@ -348,10 +349,10 @@ Output:
 
 ```
 paste everything into the prompt:  2,208 tokens
-level 1, catalog (always):           305 tokens
-level 2, one skill activated:        475 tokens
+level 1, catalog (always):           296 tokens
+level 2, one skill activated:        472 tokens
 level 3, one script's output:         14 tokens
-total with progressive disclosure:   794 tokens (36% of everything)
+total with progressive disclosure:   782 tokens (35% of everything)
 ```
 
 The saving grows with every skill you add, because each new skill costs only its catalog line until it's used.
@@ -447,7 +448,7 @@ print(trim_catalog(SKILLS).split("<description>")[1].split("</description>")[0])
 Output:
 
 ```
-305 -> 277
+296 -> 269
 Builds the daily late-delivery report for one store: late orders, riders and coupons owed. Use when a store manager a...
 ```
 
