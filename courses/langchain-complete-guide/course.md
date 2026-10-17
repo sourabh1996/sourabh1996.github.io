@@ -40,13 +40,13 @@ Build LLM apps with LangChain: models, prompts, structured output, parsers, chai
 ### 5. Structured Output and Output Parsers (7 lessons)
 > **Before you start:** [Generative AI and LLM Foundations › Prompting and Structured Output](../generative-ai-and-llm-foundations/course.md#m4), [APIs and Apps: FastAPI, Streamlit and Docker › Validation and Schemas](../apis-and-apps-fastapi-streamlit-and-docker/course.md#m4)
 
-- Why Structured Output Matters · Article
-- Structured Output with TypedDict · Article
-- Structured Output with Pydantic and JSON Schema · Article
-- StrOutputParser · Article
-- JsonOutputParser and StructuredOutputParser · Article
-- PydanticOutputParser · Article
-- Lab: Extract structured data from reviews · Lab
+- [Why Structured Output Matters](05-structured-output-and-output-parsers/why-structured-output-matters.md) · Article ✍️ *written*
+- [Structured Output with TypedDict](05-structured-output-and-output-parsers/structured-output-with-typeddict.md) · Article ✍️ *written*
+- [Structured Output with Pydantic and JSON Schema](05-structured-output-and-output-parsers/structured-output-with-pydantic-and-json-schema.md) · Article ✍️ *written*
+- [StrOutputParser](05-structured-output-and-output-parsers/stroutputparser.md) · Article ✍️ *written*
+- [JsonOutputParser and StructuredOutputParser](05-structured-output-and-output-parsers/jsonoutputparser-and-structuredoutputparser.md) · Article ✍️ *written*
+- [PydanticOutputParser](05-structured-output-and-output-parsers/pydanticoutputparser.md) · Article ✍️ *written*
+- [Lab: Extract structured data from reviews](05-structured-output-and-output-parsers/lab-extract-structured-data-from-reviews.md) · Lab ✍️ *written*
 
 <a id="m6"></a>
 ### 6. Chains and Runnables (7 lessons)
