@@ -1,0 +1,35 @@
+# Where multi-agent systems fail: the three MAST categories plus operational failures, each with its main fix.
+SPEC = {
+    "title": "Why multi-agent systems fail, and the fix for each",
+    "accent": "coral",
+    "width": 1100, "height": 820,
+    "groups": [
+        {"x": 30, "y": 95, "w": 250, "h": 600, "label": "System design", "color": "blue"},
+        {"x": 300, "y": 95, "w": 250, "h": 600, "label": "Agents misaligned", "color": "amber"},
+        {"x": 570, "y": 95, "w": 250, "h": 600, "label": "Weak verification", "color": "green"},
+        {"x": 840, "y": 95, "w": 230, "h": 600, "label": "Operations", "color": "coral"},
+    ],
+    "nodes": {
+        "d1": {"x": 50, "y": 130, "w": 210, "h": 120, "icon": "🔁", "label": "Repeats steps", "sub": "same search again", "color": "blue"},
+        "d2": {"x": 50, "y": 265, "w": 210, "h": 120, "icon": "🛑", "label": "No stop rule", "sub": "keeps going after done", "color": "blue"},
+        "d3": {"x": 50, "y": 400, "w": 210, "h": 120, "icon": "📋", "label": "Ignores the spec", "sub": "wrong task or role", "color": "blue"},
+        "dfix": {"x": 50, "y": 555, "w": 210, "h": 115, "label": "Fix", "sub": "clear briefs and roles,\nturn limits,\ndefined 'done'", "color": "gray", "size": 15},
+        "m1": {"x": 320, "y": 130, "w": 210, "h": 120, "icon": "📞", "label": "Lost in hand-off", "sub": "detail dropped\nin a summary", "color": "amber"},
+        "m2": {"x": 320, "y": 265, "w": 210, "h": 120, "icon": "🙉", "label": "Ignores others", "sub": "or never asks\nfor clarification", "color": "amber"},
+        "m3": {"x": 320, "y": 400, "w": 210, "h": 120, "icon": "🎭", "label": "Says X, does Y", "sub": "reasoning and action\ndon't match", "color": "amber"},
+        "mfix": {"x": 320, "y": 555, "w": 210, "h": 115, "label": "Fix", "sub": "structured hand-offs,\nshared facts in a store,\ncheck action vs intent", "color": "gray", "size": 15},
+        "v1": {"x": 590, "y": 130, "w": 210, "h": 120, "icon": "⏹️", "label": "Stops too early", "sub": "declares success\nprematurely", "color": "green"},
+        "v2": {"x": 590, "y": 265, "w": 210, "h": 120, "icon": "👀", "label": "Shallow checks", "sub": "\"looks fine\" review", "color": "green"},
+        "v3": {"x": 590, "y": 400, "w": 210, "h": 120, "icon": "❌", "label": "Wrong checks", "sub": "verifier approves\na wrong answer", "color": "green"},
+        "vfix": {"x": 590, "y": 555, "w": 210, "h": 115, "label": "Fix", "sub": "check against\nacceptance criteria,\nrun real tests", "color": "gray", "size": 15},
+        "o1": {"x": 855, "y": 130, "w": 200, "h": 120, "icon": "💸", "label": "Runaway cost", "sub": "50 subagents for\na simple question", "color": "coral"},
+        "o2": {"x": 855, "y": 265, "w": 200, "h": 120, "icon": "🌊", "label": "Cascading errors", "sub": "one bad output\nflows downstream", "color": "coral"},
+        "o3": {"x": 855, "y": 400, "w": 200, "h": 120, "icon": "🦠", "label": "Injection spreads", "sub": "a poisoned page\nreaches every agent", "color": "coral"},
+        "ofix": {"x": 855, "y": 555, "w": 200, "h": 115, "label": "Fix", "sub": "budgets and caps,\ncheckpoints, tracing,\nuntrusted inputs", "color": "gray", "size": 15},
+    },
+    "edges": [],
+    "notes": [
+        {"x": 550, "y": 740, "text": "The first three groups are the MAST taxonomy (1,642 annotated traces from 7 multi-agent frameworks, 2025).", "size": 14, "weight": 600, "color": "#1f2328"},
+        {"x": 550, "y": 766, "text": "Its main finding: many failures come from system design and coordination, not only from model limits.", "size": 13},
+    ],
+}

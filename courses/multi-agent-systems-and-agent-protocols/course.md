@@ -12,14 +12,14 @@ When multiple agents help, how they coordinate, and the open protocols that conn
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Multi-Agent Design ➕ (4 lessons)
-- When Multiple Agents Help and When They Hurt · Article ➕
-- Orchestrator and Subagents · Article ➕
-- Handoffs, Group Chat and Magentic Orchestration · Article ➕
-- Failure Modes of Multi-Agent Systems · Article ➕
+- [When Multiple Agents Help and When They Hurt](02-multi-agent-design/when-multiple-agents-help-and-when-they-hurt.md) · Article ➕ ✍️ *written*
+- [Orchestrator and Subagents](02-multi-agent-design/orchestrator-and-subagents.md) · Article ➕ ✍️ *written*
+- [Handoffs, Group Chat and Magentic Orchestration](02-multi-agent-design/handoffs-group-chat-and-magentic-orchestration.md) · Article ➕ ✍️ *written*
+- [Failure Modes of Multi-Agent Systems](02-multi-agent-design/failure-modes-of-multi-agent-systems.md) · Article ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. The A2A Protocol ➕ (6 lessons)

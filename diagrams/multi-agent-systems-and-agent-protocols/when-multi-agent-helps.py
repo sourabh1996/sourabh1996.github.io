@@ -1,0 +1,41 @@
+# When splitting a task across several agents pays off, and when it backfires.
+SPEC = {
+    "title": "When several agents help, and when they hurt",
+    "accent": "teal",
+    "width": 1100, "height": 760,
+    "groups": [
+        {"x": 30, "y": 260, "w": 500, "h": 380, "label": "Helps: split it", "color": "green"},
+        {"x": 570, "y": 260, "w": 500, "h": 380, "label": "Hurts: keep one agent", "color": "coral"},
+    ],
+    "nodes": {
+        "task": {"x": 390, "y": 85, "w": 320, "h": 125, "icon": "🧩", "label": "Your task",
+                 "sub": "Can it split into parts that need\ndifferent context and can run at once?", "color": "gray"},
+        "ctx": {"x": 55, "y": 295, "w": 220, "h": 150, "icon": "🪟", "label": "Separate context",
+                "sub": "each part reads a lot,\nreturns a little", "color": "green"},
+        "par": {"x": 285, "y": 295, "w": 220, "h": 150, "icon": "⚡", "label": "Parallel parts",
+                "sub": "five companies,\nfive searches at once", "color": "green"},
+        "spec": {"x": 55, "y": 465, "w": 220, "h": 150, "icon": "🧑‍🔧", "label": "Different roles",
+                 "sub": "own tools, model,\npermissions", "color": "green"},
+        "team": {"x": 285, "y": 465, "w": 220, "h": 150, "icon": "🏢", "label": "Different owners",
+                 "sub": "another team's agent\n(this is where A2A fits)", "color": "green"},
+        "shared": {"x": 595, "y": 295, "w": 220, "h": 150, "icon": "🔗", "label": "Shared context",
+                   "sub": "every step needs\nevery earlier decision", "color": "coral"},
+        "chain": {"x": 825, "y": 295, "w": 220, "h": 150, "icon": "🪜", "label": "Strict sequence",
+                  "sub": "step B can't start\nuntil step A ends", "color": "coral"},
+        "small": {"x": 595, "y": 465, "w": 220, "h": 150, "icon": "🥄", "label": "Small task",
+                  "sub": "one lookup, one answer", "color": "coral"},
+        "budget": {"x": 825, "y": 465, "w": 220, "h": 150, "icon": "💸", "label": "Tight budget",
+                   "sub": "value too low for\nmany times the tokens", "color": "coral"},
+    },
+    "edges": [
+        {"from": "task", "to": "par", "label": "yes", "from_side": "bottom", "to_side": "top",
+         "via": [(550, 236), (395, 236)], "label_at": (470, 236)},
+        {"from": "task", "to": "shared", "label": "no", "from_side": "bottom", "to_side": "top",
+         "via": [(550, 236), (705, 236)], "label_at": (630, 236)},
+    ],
+    "notes": [
+        {"x": 550, "y": 680, "text": "Rough token cost (Anthropic, 2025): one agent uses about 4x the tokens of a chat; a multi-agent system about 15x.",
+         "size": 14, "weight": 600, "color": "#1f2328"},
+        {"x": 550, "y": 706, "text": "Splitting is a way to spend more tokens usefully. Only do it when the task is worth that spend.", "size": 13},
+    ],
+}
