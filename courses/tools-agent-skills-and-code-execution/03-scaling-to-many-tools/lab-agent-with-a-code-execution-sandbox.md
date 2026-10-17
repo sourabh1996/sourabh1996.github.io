@@ -241,6 +241,8 @@ def run_in_sandbox(code, bridge, timeout=5, memory_mb=256, cpu_seconds=3):
     err = proc.stderr.read().strip().splitlines()
     if timed_out:
         status = f"timed out after {timeout}s"
+    elif proc.returncode in (-signal.SIGXCPU, -signal.SIGKILL):   # the kernel enforced RLIMIT_CPU
+        status = f"CPU limit ({cpu_seconds}s)"
     elif proc.returncode == 0:
         status = "ok"
     else:
@@ -360,7 +362,7 @@ os.environ["RAZORPAY_KEY_SECRET"] = SECRET          # present in the harness's o
 for name, code in ATTACKS.items():
     COUPONS.clear()
     bridge = Bridge(TOOLS, Policy(["mandimart_orders_search", "mandimart_orders_get", "mandimart_coupons_issue"]))
-    r = run_in_sandbox(code, bridge, timeout=3)
+    r = run_in_sandbox(code, bridge, timeout=3, cpu_seconds=1)
     print(f"{name:<15} {r['status']:<20} {(r['output'] or r['error'])[:75]}")
     if COUPONS:
         print(f"{'':<15} coupons actually issued: {len(COUPONS)}, Rs {sum(c['amount_rupees'] for c in COUPONS)}")
@@ -373,7 +375,7 @@ steal the secret ok                   nothing found
 forbidden tool  error                tools.ToolError: Tool 'mandimart_customers_export' is not available to this
 coupon flood    error                tools.ToolError: Coupon limit of Rs 500 per run reached; ask a manager to a
                 coupons actually issued: 10, Rs 500
-infinite loop   timed out after 3s   
+infinite loop   CPU limit (1s)       
 hang on a call  timed out after 3s
 ```
 
@@ -382,8 +384,8 @@ What stopped each one:
 - **Secret**: not in the sandbox's environment. The harness has it; the sandbox never did.
 - **Forbidden tool**: the bridge's allowlist. The tool exists in the harness, but this agent can't reach it.
 - **Coupon flood**: the bridge's money cap stopped it at Rs 500, ten coupons, and the error told the code why. Without that check, a perfectly "valid" loop would have issued Rs 5,000.
-- **Infinite loop**: the CPU limit and the wall-clock timer, whichever fires first (both are 3 seconds here).
-- **Hang on a call**: the malformed request got an error reply, and the wall-clock timer killed the sleeping process.
+- **Infinite loop**: the CPU limit. A busy loop burns CPU, so the kernel stops it after 1 second of CPU time, long before the 3-second wall-clock timer. (If both limits were equal, which one fired first would depend on the machine.)
+- **Hang on a call**: the malformed request got an error reply, and the wall-clock timer killed the sleeping process. Sleeping uses no CPU, so only the wall-clock timer can catch it; that is why a sandbox needs both limits.
 
 And what *isn't* stopped: like the previous lesson's subprocess sandbox, this one can still read host files and open network connections. That's the next upgrade.
 
