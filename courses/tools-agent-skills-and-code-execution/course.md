@@ -12,7 +12,7 @@ Give agents capabilities the right way: tools models use well, tool search for l
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Writing Tools for Agents ➕ (4 lessons)
