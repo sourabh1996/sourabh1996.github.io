@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 780" width="1100" height="780" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="The open standards map: one agent, many connections">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="778" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">The open standards map: one agent, many connections</text>
+<rect x="25" y="85" width="1050" height="175" rx="14" fill="none" stroke="#a68be0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="487.1" y="70" width="125.8" height="30" rx="15" fill="#5b3fa0"/>
+<text x="550.0" y="90.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Facing people</text>
+<rect x="25" y="290" width="1050" height="190" rx="14" fill="none" stroke="#6cc3b8" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="444.1" y="275" width="211.79999999999998" height="30" rx="15" fill="#1f766d"/>
+<text x="550.0" y="295.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">The agent and its peers</text>
+<rect x="25" y="510" width="1050" height="175" rx="14" fill="none" stroke="#e0b25c" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="426.9" y="495" width="246.2" height="30" rx="15" fill="#9a6412"/>
+<text x="550.0" y="515.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Facing tools, data and code</text>
+<path d="M365.0,390.0 L395.0,390.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M705.0,390.0 L735.0,390.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="55" y="120" width="310" height="115" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="210.0" y="166.5" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">AG-UI</text>
+<text x="210.0" y="186.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">agent ↔ app frontend</text><text x="210.0" y="202.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">event stream · CopilotKit-led</text>
+<rect x="395" y="120" width="310" height="115" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="550.0" y="166.5" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">ACP (Agent Client Protocol)</text>
+<text x="550.0" y="186.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">coding agent ↔ editor</text><text x="550.0" y="202.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">JSON-RPC on stdio · Zed-led</text>
+<rect x="735" y="120" width="310" height="115" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="890.0" y="166.5" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">A2UI · MCP Apps</text>
+<text x="890.0" y="186.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">what the UI looks like</text><text x="890.0" y="202.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Google-led · MCP extension</text>
+<rect x="395" y="325" width="310" height="130" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="550.0" y="383.0" font-size="28" text-anchor="middle">🤖</text>
+<text x="550.0" y="406.0" font-size="18" font-weight="700" fill="#1f2328" text-anchor="middle">Your agent</text>
+<text x="550.0" y="426.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">model + loop + memory</text>
+<rect x="55" y="325" width="310" height="130" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="210.0" y="371.0" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">A2A</text>
+<text x="210.0" y="391.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">agent ↔ agent, across teams</text><text x="210.0" y="406.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">and companies</text><text x="210.0" y="422.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Linux Foundation project</text>
+<rect x="735" y="325" width="310" height="130" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="890.0" y="383.0" font-size="28" text-anchor="middle">🤝</text>
+<text x="890.0" y="406.0" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">Other agents</text>
+<text x="890.0" y="426.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">found through Agent Cards</text>
+<rect x="55" y="545" width="470" height="115" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="290.0" y="591.5" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">MCP (+ MCP Apps extension)</text>
+<text x="290.0" y="611.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">agent ↔ tools, data and prompts</text><text x="290.0" y="627.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Agentic AI Foundation (AAIF)</text>
+<rect x="575" y="545" width="470" height="115" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="810.0" y="591.5" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">AGENTS.md</text>
+<text x="810.0" y="611.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">repository ↔ coding agent: how to build,</text><text x="810.0" y="627.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">test and behave · AAIF</text>
+<text x="550" y="720.0" font-size="14" font-weight="600" fill="#1f2328" text-anchor="middle">AAIF (Linux Foundation, Dec 2025) launched with MCP, goose and AGENTS.md. A2A is a separate Linux Foundation project.</text>
+<text x="550" y="748.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">None of these replace each other: a real product often uses four or five of them at once.</text>
+</svg>

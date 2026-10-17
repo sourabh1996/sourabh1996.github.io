@@ -32,7 +32,7 @@ When multiple agents help, how they coordinate, and the open protocols that conn
 
 <a id="m4"></a>
 ### 4. Protocols for Users and Editors ➕ (4 lessons)
-- AG-UI: Streaming Agent Events to a Frontend · Article ➕
-- Agent Client Protocol: Agents inside Editors · Article ➕
-- Generative UI · Article ➕
-- The Open Standards Map: AAIF, MCP, AGENTS.md and A2A · Article ➕
+- [AG-UI: Streaming Agent Events to a Frontend](04-protocols-for-users-and-editors/ag-ui-streaming-agent-events-to-a-frontend.md) · Article ➕ ✍️ *written*
+- [Agent Client Protocol: Agents inside Editors](04-protocols-for-users-and-editors/agent-client-protocol-agents-inside-editors.md) · Article ➕ ✍️ *written*
+- [Generative UI](04-protocols-for-users-and-editors/generative-ui.md) · Article ➕ ✍️ *written*
+- [The Open Standards Map: AAIF, MCP, AGENTS.md and A2A](04-protocols-for-users-and-editors/the-open-standards-map-aaif-mcp-agents-md-and-a2a.md) · Article ➕ ✍️ *written*

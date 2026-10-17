@@ -552,4 +552,4 @@ The new task shares `ctx-0001`, which RailSathi maps to the same LangGraph threa
 
 ---
 
-**Up next:** [Module 4: Protocols for Users and Editors](../course.md#m4)
+**Up next:** [AG-UI: Streaming Agent Events to a Frontend](../04-protocols-for-users-and-editors/ag-ui-streaming-agent-events-to-a-frontend.md)

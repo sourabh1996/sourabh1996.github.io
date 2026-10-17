@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" width="1100" height="760" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="ACP: any coding agent inside any editor">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="758" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">ACP: any coding agent inside any editor</text>
+<rect x="25" y="90" width="360" height="640" rx="14" fill="none" stroke="#a68be0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="120.60000000000001" y="75" width="168.79999999999998" height="30" rx="15" fill="#5b3fa0"/>
+<text x="205.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Client: the editor</text>
+<rect x="715" y="90" width="360" height="640" rx="14" fill="none" stroke="#6cc3b8" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="806.3" y="75" width="177.4" height="30" rx="15" fill="#1f766d"/>
+<text x="895.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Agent: a subprocess</text>
+<path d="M350.0,185.0 L550.0,230.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="425.0" y="184.5" width="50.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="450.0" y="198.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">spawns</text>
+<path d="M675.0,380.0 L750.0,355.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M750.0,552.5 L550.0,530.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M425.0,380.0 L350.0,587.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="60" y="130" width="290" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="205.0" y="170.0" font-size="28" text-anchor="middle">📝</text>
+<text x="205.0" y="193.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Zed, JetBrains, Neovim ...</text>
+<text x="205.0" y="213.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">owns the files, the UI</text><text x="205.0" y="228.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">and the user&#x27;s consent</text>
+<rect x="60" y="280" width="290" height="95" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="205.0" y="314.5" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">fs/read_text_file</text><text x="205.0" y="333.2" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">fs/write_text_file</text>
+<text x="205.0" y="354.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">sees unsaved buffers</text>
+<rect x="60" y="410" width="290" height="95" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="205.0" y="452.5" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">terminal/create, output,</text><text x="205.0" y="471.2" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">wait_for_exit, kill</text>
+<rect x="60" y="540" width="290" height="95" rx="12" fill="#fbe9f2" stroke="#e597bd" stroke-width="2"/>
+<text x="205.0" y="584.5" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">session/request_permission</text>
+<text x="205.0" y="604.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">allow once / always, reject</text>
+<rect x="425" y="230" width="250" height="300" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="550.0" y="333.0" font-size="28" text-anchor="middle">🔌</text>
+<text x="550.0" y="356.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">stdio</text>
+<text x="550.0" y="376.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">JSON-RPC 2.0</text><text x="550.0" y="391.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">one message per line</text><text x="550.0" y="407.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="550.0" y="422.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">stdin: editor → agent</text><text x="550.0" y="438.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">stdout: agent → editor</text><text x="550.0" y="454.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">stderr: logs only</text>
+<rect x="750" y="130" width="290" height="110" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="895.0" y="168.0" font-size="28" text-anchor="middle">🤖</text>
+<text x="895.0" y="191.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Gemini CLI, Claude Agent,</text><text x="895.0" y="211.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Codex CLI, Goose ...</text>
+<text x="895.0" y="231.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">owns the model and the loop</text>
+<rect x="750" y="280" width="290" height="150" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="895.0" y="332.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">initialize</text><text x="895.0" y="350.8" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">session/new · session/prompt</text><text x="895.0" y="369.5" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">session/cancel</text>
+<text x="895.0" y="392.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">called by the editor</text>
+<rect x="750" y="470" width="290" height="165" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="895.0" y="525.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">session/update</text>
+<text x="895.0" y="545.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">agent_message_chunk</text><text x="895.0" y="561.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">tool_call · tool_call_update</text><text x="895.0" y="576.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">plan · diffs</text><text x="895.0" y="592.4" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">then stopReason: end_turn</text>
+</svg>
