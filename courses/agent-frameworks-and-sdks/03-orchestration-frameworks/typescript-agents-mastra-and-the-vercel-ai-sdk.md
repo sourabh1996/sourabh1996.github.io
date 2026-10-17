@@ -47,7 +47,7 @@ Order.parse({ dish: 'Veg biryani', maxPriceRupees: 300, veg: true });   // ok
 Order.parse({ dish: 'Veg biryani', maxPriceRupees: '300' });            // throws: expected number
 ```
 
-`z.object(...)` describes a shape, `.describe(...)` adds the text the model sees, `z.infer` turns the schema into a TypeScript type, and `.parse` validates at runtime. The Python equivalent is a Pydantic `BaseModel` with `Field(description=...)`, which you will meet properly in [Why Type Safety Matters for LLM Apps](../course.md#m4).
+`z.object(...)` describes a shape, `.describe(...)` adds the text the model sees, `z.infer` turns the schema into a TypeScript type, and `.parse` validates at runtime. The Python equivalent is a Pydantic `BaseModel` with `Field(description=...)`, which you will meet properly in [Why Type Safety Matters for LLM Apps](../04-type-safe-ai-and-decision-models/why-type-safety-matters-for-llm-apps.md).
 
 ### 2. The AI SDK: one call, any model
 
@@ -368,4 +368,4 @@ Zod schemas also validate at runtime, which is what protects your tools from mal
 
 ---
 
-**Up next:** [Why Type Safety Matters for LLM Apps](../course.md#m4)
+**Up next:** [Why Type Safety Matters for LLM Apps](../04-type-safe-ai-and-decision-models/why-type-safety-matters-for-llm-apps.md)

@@ -204,8 +204,8 @@ Constrained generation reduces retries but doesn't remove the need for validatio
 
 A perfectly valid `Triage(category="billing", refund=1500, urgent=False)` can still be **wrong**: the ticket might be about delivery, or the customer might have asked for ₹15,000. Types guarantee **shape and range**, not truth. That is why the later lessons add:
 
-- **Confidence scores** from decision models, so you can route low-confidence answers to a person ([Decision Models](../course.md#m4)).
-- **Evaluation and optimisation**, so you measure how often the typed answers are right ([DSPy](../course.md#m4)).
+- **Confidence scores** from decision models, so you can route low-confidence answers to a person ([Decision Models](decision-models-typed-answers-instead-of-text-jev.md)).
+- **Evaluation and optimisation**, so you measure how often the typed answers are right ([DSPy](dspy-programming-not-prompting.md)).
 
 ### 7. The tools in this module
 

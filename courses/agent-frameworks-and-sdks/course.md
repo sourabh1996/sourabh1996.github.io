@@ -41,6 +41,6 @@ A hands-on tour of the major agent frameworks, type-safe agents and decision mod
 
 <a id="m5"></a>
 ### 5. Choosing a Framework ➕ (3 lessons)
-- Comparing Frameworks on One Task · Article ➕
-- Portability, Lock-In and Going Framework-Free · Article ➕
-- Lab: The same agent in three frameworks · Lab ➕
+- [Comparing Frameworks on One Task](05-choosing-a-framework/comparing-frameworks-on-one-task.md) · Article ➕ ✍️ *written*
+- [Portability, Lock-In and Going Framework-Free](05-choosing-a-framework/portability-lock-in-and-going-framework-free.md) · Article ➕ ✍️ *written*
+- [Lab: The same agent in three frameworks](05-choosing-a-framework/lab-the-same-agent-in-three-frameworks.md) · Lab ➕ ✍️ *written*
