@@ -12,16 +12,16 @@ Ground LLMs in your own data: embeddings and vector databases, loaders, splitter
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Introduction to RAG (4 lessons)
 > **Before you start:** [Generative AI and LLM Foundations › How LLMs Work](../generative-ai-and-llm-foundations/course.md#m3)
 
-- What is RAG? · Article
-- RAG vs Fine-Tuning vs Prompting · Article
-- The RAG Pipeline End to End · Article
-- Lab: RAG from scratch, no framework · Lab ➕
+- [What is RAG?](02-introduction-to-rag/what-is-rag.md) · Article ✍️ *written*
+- [RAG vs Fine-Tuning vs Prompting](02-introduction-to-rag/rag-vs-fine-tuning-vs-prompting.md) · Article ✍️ *written*
+- [The RAG Pipeline End to End](02-introduction-to-rag/the-rag-pipeline-end-to-end.md) · Article ✍️ *written*
+- [Lab: RAG from scratch, no framework](02-introduction-to-rag/lab-rag-from-scratch-no-framework.md) · Lab ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Embeddings and Vector Databases (5 lessons)
@@ -51,45 +51,45 @@ Ground LLMs in your own data: embeddings and vector databases, loaders, splitter
 ### 5. RAG Building Blocks in LangChain (7 lessons)
 > **Before you start:** [LangChain Complete Guide › Chains and Runnables](../langchain-complete-guide/course.md#m6)
 
-- Document Loaders · Article
-- PDF, Web, CSV and Directory Loaders · Article
-- load() vs lazy_load() · Article
-- Text Splitters · Article
-- Vector Stores in LangChain · Article
-- Retrievers · Article
-- MMR, Multi-Query and Contextual Compression Retrievers · Article
+- [Document Loaders](05-rag-building-blocks-in-langchain/document-loaders.md) · Article ✍️ *written*
+- [PDF, Web, CSV and Directory Loaders](05-rag-building-blocks-in-langchain/pdf-web-csv-and-directory-loaders.md) · Article ✍️ *written*
+- [load() vs lazy_load()](05-rag-building-blocks-in-langchain/load-vs-lazy-load.md) · Article ✍️ *written*
+- [Text Splitters](05-rag-building-blocks-in-langchain/text-splitters.md) · Article ✍️ *written*
+- [Vector Stores in LangChain](05-rag-building-blocks-in-langchain/vector-stores-in-langchain.md) · Article ✍️ *written*
+- [Retrievers](05-rag-building-blocks-in-langchain/retrievers.md) · Article ✍️ *written*
+- [MMR, Multi-Query and Contextual Compression Retrievers](05-rag-building-blocks-in-langchain/mmr-multi-query-and-contextual-compression-retrievers.md) · Article ✍️ *written*
 
 <a id="m6"></a>
 ### 6. Implementing RAG (7 lessons)
 > **Before you start:** [LangChain Complete Guide › Chains and Runnables](../langchain-complete-guide/course.md#m6), [Vector Database Tools](#m4)
 
-- RAG with LangChain and a Vector DB · Article
-- Chunking Strategies · Article ➕
-- Retrieval Methods · Article
-- Hybrid Search · Article
-- Reranking · Article
-- Lab: Chat with a PDF · Lab
-- Project: Chat with Any YouTube Video · Lab
+- [RAG with LangChain and a Vector DB](06-implementing-rag/rag-with-langchain-and-a-vector-db.md) · Article ✍️ *written*
+- [Chunking Strategies](06-implementing-rag/chunking-strategies.md) · Article ➕ ✍️ *written*
+- [Retrieval Methods](06-implementing-rag/retrieval-methods.md) · Article ✍️ *written*
+- [Hybrid Search](06-implementing-rag/hybrid-search.md) · Article ✍️ *written*
+- [Reranking](06-implementing-rag/reranking.md) · Article ✍️ *written*
+- [Lab: Chat with a PDF](06-implementing-rag/lab-chat-with-a-pdf.md) · Lab ✍️ *written*
+- [Project: Chat with Any YouTube Video](06-implementing-rag/project-chat-with-any-youtube-video.md) · Lab ✍️ *written*
 
 <a id="m7"></a>
 ### 7. Advanced RAG (3 lessons)
-- Memory in RAG Systems · Article
-- Multimodal RAG · Article
-- Lab: RAG over images and text · Lab
+- [Memory in RAG Systems](07-advanced-rag/memory-in-rag-systems.md) · Article ✍️ *written*
+- [Multimodal RAG](07-advanced-rag/multimodal-rag.md) · Article ✍️ *written*
+- [Lab: RAG over images and text](07-advanced-rag/lab-rag-over-images-and-text.md) · Lab ✍️ *written*
 
 <a id="m8"></a>
 ### 8. Vectorless RAG (5 lessons)
-- Limits of Vector RAG · Article
-- PageIndex and Chunk-Free Segmentation · Article
-- The Document Tree Model · Article
-- The Iterative Search Loop · Article
-- Deterministic Page Referencing · Article
+- [Limits of Vector RAG](08-vectorless-rag/limits-of-vector-rag.md) · Article ✍️ *written*
+- [PageIndex and Chunk-Free Segmentation](08-vectorless-rag/pageindex-and-chunk-free-segmentation.md) · Article ✍️ *written*
+- [The Document Tree Model](08-vectorless-rag/the-document-tree-model.md) · Article ✍️ *written*
+- [The Iterative Search Loop](08-vectorless-rag/the-iterative-search-loop.md) · Article ✍️ *written*
+- [Deterministic Page Referencing](08-vectorless-rag/deterministic-page-referencing.md) · Article ✍️ *written*
 
 <a id="m9"></a>
 ### 9. RAG Evaluation (4 lessons)
 > **Before you start:** [Implementing RAG](#m6)
 
-- The RAG Triad Metrics · Article
-- LLM-as-a-Judge · Article
-- Turn-Based Evaluation with Ragas · Article
-- Lab: Evaluate your RAG app with Ragas · Lab
+- [The RAG Triad Metrics](09-rag-evaluation/the-rag-triad-metrics.md) · Article ✍️ *written*
+- [LLM-as-a-Judge](09-rag-evaluation/llm-as-a-judge.md) · Article ✍️ *written*
+- [Turn-Based Evaluation with Ragas](09-rag-evaluation/turn-based-evaluation-with-ragas.md) · Article ✍️ *written*
+- [Lab: Evaluate your RAG app with Ragas](09-rag-evaluation/lab-evaluate-your-rag-app-with-ragas.md) · Lab ✍️ *written*
