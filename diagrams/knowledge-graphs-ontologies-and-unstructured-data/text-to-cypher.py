@@ -1,0 +1,35 @@
+# Module 6, text-to-Cypher agent: generate, validate, execute, answer, with a retry loop.
+SPEC = {
+    "title": "A text-to-Cypher agent that checks its own queries",
+    "accent": "blue",
+    "width": 1220, "height": 620,
+    "nodes": {
+        "question": {"x": 40, "y": 170, "w": 190, "h": 140, "icon": "💬", "label": "Question",
+                     "sub": "'Which suppliers does\nRavi's team manage?'", "color": "gray"},
+        "generate": {"x": 280, "y": 170, "w": 210, "h": 140, "icon": "🧠", "label": "Generate",
+                     "sub": "LLM writes Cypher\nfrom schema +\nexamples", "color": "purple"},
+        "validate": {"x": 540, "y": 170, "w": 210, "h": 140, "icon": "🛡️", "label": "Validate",
+                     "sub": "read-only? known labels,\ntypes, directions,\nproperties? add LIMIT", "color": "amber"},
+        "execute": {"x": 800, "y": 170, "w": 190, "h": 140, "icon": "🗄️", "label": "Execute",
+                    "sub": "read transaction\nread-only user\ntimeout", "color": "teal"},
+        "answer": {"x": 1030, "y": 170, "w": 160, "h": 140, "icon": "✅", "label": "Answer",
+                   "sub": "rows to words\nshow the query", "color": "green"},
+        "schema": {"x": 280, "y": 400, "w": 210, "h": 120, "icon": "📐", "label": "Graph schema",
+                   "sub": "labels, properties\nand directions", "color": "blue"},
+        "giveup": {"x": 540, "y": 400, "w": 210, "h": 120, "icon": "🙅", "label": "Give up politely",
+                   "sub": "after 3 attempts\nreport the last error", "color": "coral"},
+    },
+    "edges": [
+        {"from": "question", "to": "generate", "solid": True},
+        {"from": "generate", "to": "validate", "solid": True},
+        {"from": "validate", "to": "execute", "solid": True, "label": "valid"},
+        {"from": "execute", "to": "answer", "solid": True, "label": "rows"},
+        {"from": "validate", "to": "generate", "solid": True, "from_side": "top", "to_side": "top",
+         "via": [(645, 125), (385, 125)], "label": "error message: retry", "label_at": (515, 115)},
+        {"from": "schema", "to": "generate", "solid": False, "from_side": "top", "to_side": "bottom"},
+        {"from": "validate", "to": "giveup", "solid": True, "from_side": "bottom", "to_side": "top", "label": "too many tries"},
+    ],
+    "notes": [
+        {"x": 610, "y": 580, "text": "The schema check catches the two commonest mistakes, wrong directions and invented names, and its message tells the model how to fix them.", "size": 13.5},
+    ],
+}

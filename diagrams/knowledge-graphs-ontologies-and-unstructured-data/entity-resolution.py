@@ -1,0 +1,41 @@
+# Module 5, entity resolution: from 15 messy supplier mentions to 8 canonical suppliers in the graph.
+SPEC = {
+    "title": "Entity resolution: many mentions, one supplier",
+    "accent": "purple",
+    "width": 1200, "height": 600,
+    "bands": [
+        {"y": 80, "h": 200, "label": "Prepare", "color": "blue"},
+        {"y": 300, "h": 230, "label": "Resolve", "color": "purple"},
+    ],
+    "nodes": {
+        "mentions": {"x": 150, "y": 110, "w": 230, "h": 140, "icon": "📥", "label": "15 mentions",
+                     "sub": "'DECCAN MILLETS PVT. LTD.'\n'Deccan Millets'\n'Kachchh Salt Works'", "color": "gray"},
+        "normalise": {"x": 420, "y": 110, "w": 220, "h": 140, "icon": "🧹", "label": "Normalise",
+                      "sub": "lower case, no punctuation\ndrop Pvt Ltd, Co.\nfix OCR 0 to o", "color": "blue"},
+        "block": {"x": 680, "y": 110, "w": 220, "h": 140, "icon": "🧺", "label": "Block",
+                  "sub": "compare only pairs that\nshare a name word,\ncity or PAN", "color": "blue"},
+        "compare": {"x": 940, "y": 110, "w": 220, "h": 140, "icon": "⚖️", "label": "Compare",
+                    "sub": "same PAN: match\ndifferent PAN: non-match\nelse name similarity", "color": "blue"},
+        "decide": {"x": 150, "y": 330, "w": 230, "h": 170, "icon": "🚦", "label": "Three-way decision",
+                   "sub": "match (0.90 and up)\nreview (0.40 to 0.90)\nnon-match (below)", "color": "purple"},
+        "cluster": {"x": 420, "y": 330, "w": 220, "h": 170, "icon": "🧩", "label": "Cluster",
+                    "sub": "union-find joins matches\nconflict check:\nnever two PANs in one", "color": "purple"},
+        "review": {"x": 680, "y": 330, "w": 220, "h": 170, "icon": "🙋", "label": "Review the middle",
+                   "sub": "LLM or person decides\n'Kutch' = 'Kachchh'\nsay no if unsure", "color": "coral"},
+        "golden": {"x": 940, "y": 330, "w": 220, "h": 170, "icon": "🏷️", "label": "Canonical record",
+                   "sub": "stable ID from PAN\nbest name + aliases\nMERGE into the graph", "color": "teal"},
+    },
+    "edges": [
+        {"from": "mentions", "to": "normalise", "solid": True},
+        {"from": "normalise", "to": "block", "solid": True},
+        {"from": "block", "to": "compare", "solid": True},
+        {"from": "compare", "to": "decide", "solid": True, "from_side": "bottom", "to_side": "top",
+         "via": [(1050, 290), (265, 290)]},
+        {"from": "decide", "to": "cluster", "solid": True},
+        {"from": "cluster", "to": "review", "solid": True},
+        {"from": "review", "to": "golden", "solid": True},
+    ],
+    "notes": [
+        {"x": 600, "y": 570, "text": "Result for the invoice pile: 15 spellings become 8 suppliers. Wrong merges cost more than missed ones, so the rules lean towards keeping records apart.", "size": 13.5},
+    ],
+}
