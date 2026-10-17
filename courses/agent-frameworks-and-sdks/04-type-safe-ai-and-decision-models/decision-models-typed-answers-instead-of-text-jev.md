@@ -294,6 +294,8 @@ verdict='ask' irreversible=True
 
 Two settings matter: `decision_boolean_threshold` (default 0.5) sets how likely "yes" must be for a `bool` to be `True`, and `decision_route_threshold` makes the agent raise `UnsureRoute` when it isn't sure which tool or output to choose. Wrap Jev and a language model in a `FallbackModel` and those unsure steps, plus any step that needs free text (an `UnfillableRoute`), go to the LLM automatically. Each field's confidence appears in the response's `provider_details`.
 
+**DSPy** 3.4 includes an experimental `dspy.experimental.TypeSafe` client (install `dspy[typesafe]`) so DSPy signatures with typed outputs can run on Jev; you'll meet DSPy in the next lesson.
+
 **Elsewhere** in the TypeScript world, the Vercel AI SDK 7 has an `experimental_decide` function (a decision model, a state, and named questions), and Mastra has a `Classifier` with choice, score and boolean questions that can also be used as a workflow step.
 
 ### 7. The wider "decision model" trend
@@ -424,4 +426,4 @@ Questions are answered in isolation and read literally. Ask several narrow quest
 
 ---
 
-**Up next:** [DSPy: Programming, Not Prompting](../course.md#m4)
+**Up next:** [DSPy: Programming, Not Prompting](dspy-programming-not-prompting.md)

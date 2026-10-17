@@ -36,8 +36,8 @@ A hands-on tour of the major agent frameworks, type-safe agents and decision mod
 - [Pydantic AI](04-type-safe-ai-and-decision-models/pydantic-ai.md) · Article ➕ ✍️ *written*
 - [Instructor and Validated Structured Output](04-type-safe-ai-and-decision-models/instructor-and-validated-structured-output.md) · Article ➕ ✍️ *written*
 - [Decision Models: Typed Answers instead of Text (Jev)](04-type-safe-ai-and-decision-models/decision-models-typed-answers-instead-of-text-jev.md) · Article ➕ ✍️ *written*
-- DSPy: Programming, Not Prompting · Article ➕
-- Lab: A typed routing layer for an agent · Lab ➕
+- [DSPy: Programming, Not Prompting](04-type-safe-ai-and-decision-models/dspy-programming-not-prompting.md) · Article ➕ ✍️ *written*
+- [Lab: A typed routing layer for an agent](04-type-safe-ai-and-decision-models/lab-a-typed-routing-layer-for-an-agent.md) · Lab ➕ ✍️ *written*
 
 <a id="m5"></a>
 ### 5. Choosing a Framework ➕ (3 lessons)
