@@ -23,12 +23,12 @@ When multiple agents help, how they coordinate, and the open protocols that conn
 
 <a id="m3"></a>
 ### 3. The A2A Protocol ➕ (6 lessons)
-- Agent-to-Agent (A2A) Protocol · Article ➕
-- A2A Deep Dive: Agent Cards and Discovery · Article ➕
-- Tasks, Messages, Artifacts and Streaming · Article ➕
-- A2A vs MCP · Article ➕
-- Securing Agent-to-Agent Communication · Article ➕
-- Lab: Two agents in different frameworks talking over A2A · Lab ➕
+- [Agent-to-Agent (A2A) Protocol](03-the-a2a-protocol/agent-to-agent-a2a-protocol.md) · Article ➕ ✍️ *written*
+- [A2A Deep Dive: Agent Cards and Discovery](03-the-a2a-protocol/a2a-deep-dive-agent-cards-and-discovery.md) · Article ➕ ✍️ *written*
+- [Tasks, Messages, Artifacts and Streaming](03-the-a2a-protocol/tasks-messages-artifacts-and-streaming.md) · Article ➕ ✍️ *written*
+- [A2A vs MCP](03-the-a2a-protocol/a2a-vs-mcp.md) · Article ➕ ✍️ *written*
+- [Securing Agent-to-Agent Communication](03-the-a2a-protocol/securing-agent-to-agent-communication.md) · Article ➕ ✍️ *written*
+- [Lab: Two agents in different frameworks talking over A2A](03-the-a2a-protocol/lab-two-agents-in-different-frameworks-talking-over-a2a.md) · Lab ➕ ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Protocols for Users and Editors ➕ (4 lessons)

@@ -366,7 +366,7 @@ Defences that belong in the design:
 - Give agents that read untrusted content **no dangerous tools**; give agents with dangerous tools **no untrusted content**.
 - Put **human approval** in front of irreversible actions, wherever the request came from.
 
-[Securing Agent-to-Agent Communication](../course.md#m3) in the next module goes deeper, and the [Agent Security and Safety](../../agent-security-and-safety/course.md#m3) course covers the attack in full.
+[Securing Agent-to-Agent Communication](../03-the-a2a-protocol/securing-agent-to-agent-communication.md) in the next module goes deeper, and the [Agent Security and Safety](../../agent-security-and-safety/course.md#m3) course covers the attack in full.
 
 ### 10. You can't fix what you can't see: trace every hand-off
 
@@ -532,4 +532,4 @@ Stronger models reduce some of them, but loops, missing stop rules, vague briefs
 
 ---
 
-**Up next:** [Agent-to-Agent (A2A) Protocol](../course.md#m3)
+**Up next:** [Agent-to-Agent (A2A) Protocol](../03-the-a2a-protocol/agent-to-agent-a2a-protocol.md)
