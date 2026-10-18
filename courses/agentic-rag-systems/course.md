@@ -19,9 +19,9 @@ Let agents decide how to retrieve: Adaptive RAG, Corrective RAG and Self-RAG, lo
 > **Before you start:** [Retrieval-Augmented Generation (RAG) › Implementing RAG](../retrieval-augmented-generation-rag/course.md#m6), [LangGraph Complete Guide › Workflows and Agents](../langgraph-complete-guide/course.md#m5)
 
 - [What is Adaptive RAG?](02-adaptive-rag/what-is-adaptive-rag.md) · Article ✍️ *written*
-- Adaptive RAG with Cohere · Article
-- Running Adaptive RAG Locally · Article
-- Lab: Adaptive RAG end to end · Lab
+- [Adaptive RAG with Cohere](02-adaptive-rag/adaptive-rag-with-cohere.md) · Article ✍️ *written*
+- [Running Adaptive RAG Locally](02-adaptive-rag/running-adaptive-rag-locally.md) · Article ✍️ *written*
+- [Lab: Adaptive RAG end to end](02-adaptive-rag/lab-adaptive-rag-end-to-end.md) · Lab ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Agentic RAG Architectures (2 lessons)

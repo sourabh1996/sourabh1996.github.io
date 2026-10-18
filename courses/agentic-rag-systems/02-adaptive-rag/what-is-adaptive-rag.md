@@ -651,4 +651,4 @@ A bigger *k* only returns more pages that resemble the original question. Multi-
 
 ---
 
-**Up next:** [Adaptive RAG with Cohere](../course.md#m2)
+**Up next:** [Adaptive RAG with Cohere](adaptive-rag-with-cohere.md)
