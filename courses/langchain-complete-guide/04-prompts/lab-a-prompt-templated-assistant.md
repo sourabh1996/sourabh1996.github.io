@@ -403,4 +403,4 @@ The model always receives 5 fixed messages (system and four examples) plus the n
 
 ---
 
-**Up next:** [Why Structured Output Matters](../../langchain-complete-guide/course.md#m5)
+**Up next:** [Why Structured Output Matters](../05-structured-output-and-output-parsers/why-structured-output-matters.md)

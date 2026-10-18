@@ -393,4 +393,4 @@ You can, but quality drops if the text doesn't follow the model's chat template.
 
 ---
 
-**Up next:** [Static vs Dynamic Prompts](../../langchain-complete-guide/course.md#m4)
+**Up next:** [Static vs Dynamic Prompts](../04-prompts/static-vs-dynamic-prompts.md)

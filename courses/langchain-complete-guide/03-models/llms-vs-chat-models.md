@@ -235,7 +235,7 @@ The capital of Kerala is Thiruvananthapuram.
 
 ### 9. When you might still use the LLM interface
 
-- **Some local runtimes and older wrappers** expose only text generation (for example a raw Hugging Face text-generation pipeline). LangChain lets you wrap these in a chat interface, as you'll see in [Open-Source Models with Hugging Face](../../langchain-complete-guide/course.md#m3).
+- **Some local runtimes and older wrappers** expose only text generation (for example a raw Hugging Face text-generation pipeline). LangChain lets you wrap these in a chat interface, as you'll see in [Open-Source Models with Hugging Face](open-source-models-with-hugging-face.md).
 - **Pure text continuation** tasks with a base model, such as autocomplete in an editor.
 - **Reading legacy code**, which is by far the most common reason.
 

@@ -71,7 +71,7 @@ Now let's meet each one with a small, real-looking example. All examples run off
 A **model component** wraps one AI model behind a standard interface. There are three kinds:
 
 - **Chat models** take a list of messages and return a message. This is what you'll use almost all the time.
-- **LLMs** (in LangChain's naming) take a plain string and return a plain string. It's the older style; [LLMs vs Chat Models](../../langchain-complete-guide/course.md#m3) explains the difference.
+- **LLMs** (in LangChain's naming) take a plain string and return a plain string. It's the older style; [LLMs vs Chat Models](../03-models/llms-vs-chat-models.md) explains the difference.
 - **Embedding models** turn text into a vector of numbers, used for search.
 
 ```python
@@ -203,7 +203,7 @@ Output:
 ['human: Table for 4 at 8 pm, please.', 'ai: Booked: table for 4 at 8 pm.', 'human: Make it 5 people.']
 ```
 
-Without the history, "make it 5 people" means nothing to the model. You'll plug history into prompts in [MessagesPlaceholder and Chat History](../../langchain-complete-guide/course.md#m4) and compare memory strategies in [Memory Management](../../langchain-complete-guide/course.md#m6). Older LangChain code used memory *classes* for this (`ConversationBufferMemory`, and later `InMemoryChatMessageHistory`); the first moved to `langchain-classic` in 1.0 and the second was deprecated in langchain-core 1.6.4. For anything long-running, LangGraph's persistence now does this job.
+Without the history, "make it 5 people" means nothing to the model. You'll plug history into prompts in [MessagesPlaceholder and Chat History](../04-prompts/messagesplaceholder-and-chat-history.md) and compare memory strategies in [Memory Management](../06-chains-and-runnables/memory-management.md). Older LangChain code used memory *classes* for this (`ConversationBufferMemory`, and later `InMemoryChatMessageHistory`); the first moved to `langchain-classic` in 1.0 and the second was deprecated in langchain-core 1.6.4. For anything long-running, LangGraph's persistence now does this job.
 
 ### 8. Indexes: the pantry
 
@@ -243,7 +243,7 @@ Output:
 lunch | Mini meals ₹150, available 12 to 3 pm.
 ```
 
-Real retrievers search by meaning using embeddings, which you'll meet in [Embedding Models](../../langchain-complete-guide/course.md#m3) and use fully in the [RAG course](../../retrieval-augmented-generation-rag/course.md#m5).
+Real retrievers search by meaning using embeddings, which you'll meet in [Embedding Models](../03-models/embedding-models.md) and use fully in the [RAG course](../../retrieval-augmented-generation-rag/course.md#m5).
 
 ### 9. Tools: the phone to the supplier
 

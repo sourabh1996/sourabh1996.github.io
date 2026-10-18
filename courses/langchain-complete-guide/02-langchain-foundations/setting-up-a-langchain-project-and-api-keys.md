@@ -281,7 +281,7 @@ Example output:
 ChatAnthropic -> setup works
 ```
 
-`init_chat_model("anthropic:claude-opus-5-5")` picked the `ChatAnthropic` class from the `anthropic:` prefix. You'll study it properly in [Chat Models](../../langchain-complete-guide/course.md#m3).
+`init_chat_model("anthropic:claude-opus-5-5")` picked the `ChatAnthropic` class from the `anthropic:` prefix. You'll study it properly in [Chat Models](../03-models/chat-models.md).
 
 ### 7. A smoke test you can run without keys
 
@@ -442,4 +442,4 @@ Wiring tests with fake models catch most bugs (wrong variable names, wrong chain
 
 ---
 
-**Up next:** [LLMs vs Chat Models](../../langchain-complete-guide/course.md#m3)
+**Up next:** [LLMs vs Chat Models](../03-models/llms-vs-chat-models.md)

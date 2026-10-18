@@ -243,7 +243,7 @@ rahul: I received 4 message(s): ['system', 'human', 'ai', 'human']
 
 Each session sees only its own turns. In production the dict becomes a table in Redis, Postgres or SQLite, keyed by session id.
 
-Older LangChain code wraps this pattern in classes: `ConversationBufferMemory` (now in `langchain-classic`), and later `RunnableWithMessageHistory` with `InMemoryChatMessageHistory`. Both of the latter were deprecated in langchain-core 1.6 in favour of LangGraph's persistence, which saves the conversation per `thread_id` automatically. You'll compare these approaches in [Memory Management](../../langchain-complete-guide/course.md#m6) and use LangGraph's version in the [LangGraph course](../../langgraph-complete-guide/course.md#m6). The plain list you just wrote is exactly what they manage for you.
+Older LangChain code wraps this pattern in classes: `ConversationBufferMemory` (now in `langchain-classic`), and later `RunnableWithMessageHistory` with `InMemoryChatMessageHistory`. Both of the latter were deprecated in langchain-core 1.6 in favour of LangGraph's persistence, which saves the conversation per `thread_id` automatically. You'll compare these approaches in [Memory Management](../06-chains-and-runnables/memory-management.md) and use LangGraph's version in the [LangGraph course](../../langgraph-complete-guide/course.md#m6). The plain list you just wrote is exactly what they manage for you.
 
 ### 6. Saving and loading history as JSON
 
@@ -312,7 +312,7 @@ Output:
 I received 6 message(s): ['system', 'human', 'ai', 'human', 'ai', 'human']
 ```
 
-The stored history still has all 12 messages; only the window sent to the model is trimmed. The trade-off: anything older is forgotten. Summarising old turns instead of dropping them is covered in [Memory Management](../../langchain-complete-guide/course.md#m6).
+The stored history still has all 12 messages; only the window sent to the model is trimmed. The trade-off: anything older is forgotten. Summarising old turns instead of dropping them is covered in [Memory Management](../06-chains-and-runnables/memory-management.md).
 
 ### 8. Placeholders for more than chat history
 

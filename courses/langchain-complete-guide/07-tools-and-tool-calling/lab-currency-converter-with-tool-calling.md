@@ -468,4 +468,4 @@ Sorry, I couldn't complete that: convert failed: ₹588,000 is above the ₹200,
 
 ---
 
-**Up next:** [LangSmith Monitoring](../../langchain-complete-guide/course.md#m8)
+**Up next:** [LangSmith Monitoring](../08-monitoring-and-deployment/langsmith-monitoring.md)

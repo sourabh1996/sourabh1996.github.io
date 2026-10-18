@@ -429,4 +429,4 @@ Output:
 
 ---
 
-**Up next:** [Tools and Toolkits](../../langchain-complete-guide/course.md#m7)
+**Up next:** [Tools and Toolkits](../07-tools-and-tool-calling/tools-and-toolkits.md)

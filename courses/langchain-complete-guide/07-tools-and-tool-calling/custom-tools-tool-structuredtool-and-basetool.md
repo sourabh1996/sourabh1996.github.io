@@ -220,7 +220,7 @@ Alert set: onion at Lasalgaon reaching ₹2200 (now ₹1850).
 Alert limit of 2 reached. Delete an alert first.
 ```
 
-Notice what the model can and can't control. It chooses `crop` and `target_price` (they're in the schema). It can't change `home_mandi` or `max_alerts`: those are set when **you** create the tool. This separation of model-controlled arguments from app-controlled configuration is a key safety habit, and the [Injected Tool Arguments](../../langchain-complete-guide/course.md#m7) lesson takes it further.
+Notice what the model can and can't control. It chooses `crop` and `target_price` (they're in the schema). It can't change `home_mandi` or `max_alerts`: those are set when **you** create the tool. This separation of model-controlled arguments from app-controlled configuration is a key safety habit, and the [Injected Tool Arguments](injected-tool-arguments.md) lesson takes it further.
 
 (For async apps, also implement `async def _arun(...)`; otherwise LangChain runs `_run` in a thread when you call `ainvoke`.)
 

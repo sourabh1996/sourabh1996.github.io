@@ -429,4 +429,4 @@ R4 Negative review covering delivery.
 
 ---
 
-**Up next:** [Chains, LCEL and Runnables](../../langchain-complete-guide/course.md#m6)
+**Up next:** [Chains, LCEL and Runnables](../06-chains-and-runnables/chains-lcel-and-runnables.md)

@@ -164,7 +164,7 @@ Output:
 ToolMessage(content='12951 Mumbai Rajdhani: CNF, coach B3 berth 34', name='pnr_status', tool_call_id='call_7')
 ```
 
-When you invoke a tool with a **tool call** (rather than plain arguments), it returns a `ToolMessage` carrying the result and the same `tool_call_id`, ready to send back to the model so it can write the final answer: "Your Mumbai Rajdhani booking is confirmed: coach B3, berth 34." [Tool Calling with bind_tools](../../langchain-complete-guide/course.md#m7) builds the full loop with a model.
+When you invoke a tool with a **tool call** (rather than plain arguments), it returns a `ToolMessage` carrying the result and the same `tool_call_id`, ready to send back to the model so it can write the final answer: "Your Mumbai Rajdhani booking is confirmed: coach B3, berth 34." [Tool Calling with bind_tools](tool-calling-with-bind-tools.md) builds the full loop with a model.
 
 ### 5. Designing tools a model can use well
 
