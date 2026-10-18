@@ -24,9 +24,9 @@ Agents that see and act on screens and web pages, and agents that talk in real t
 
 <a id="m3"></a>
 ### 3. Computer Use ➕ (3 lessons)
-- The Screenshot-Action Loop · Article ➕
-- Running Desktop Agents Safely in VMs · Article ➕
-- Benchmarks: OSWorld and WebArena · Article ➕
+- [The Screenshot-Action Loop](03-computer-use/the-screenshot-action-loop.md) · Article ➕ ✍️ *written*
+- [Running Desktop Agents Safely in VMs](03-computer-use/running-desktop-agents-safely-in-vms.md) · Article ➕ ✍️ *written*
+- [Benchmarks: OSWorld and WebArena](03-computer-use/benchmarks-osworld-and-webarena.md) · Article ➕ ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Voice Agents ➕ (3 lessons)

@@ -323,7 +323,7 @@ Details that make an approval gate actually work:
 - **Name matching is a heuristic.** A button labelled "Continue" on a payment page is consequential. Good gates also look at the URL (`/checkout`, `/pay`), the form's purpose, and the amount, and default to asking when unsure.
 - **Don't let approvals become a rubber stamp.** If a person is asked thirty times a task, they stop reading. Narrow the gate to what truly matters, and make the rest safe by isolation.
 
-**Layer 5: isolation** limits the damage when everything else fails: a fresh browser profile with no personal logins, a network allowlist enforced outside the browser, and a disposable container or VM. That is the subject of [Running Desktop Agents Safely in VMs](../course.md#m3) in the next module.
+**Layer 5: isolation** limits the damage when everything else fails: a fresh browser profile with no personal logins, a network allowlist enforced outside the browser, and a disposable container or VM. That is the subject of [Running Desktop Agents Safely in VMs](../03-computer-use/running-desktop-agents-safely-in-vms.md) in the next module.
 
 ### 6. Putting it together: the harness checklist
 

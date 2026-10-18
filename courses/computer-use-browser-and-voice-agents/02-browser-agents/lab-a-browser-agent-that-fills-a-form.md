@@ -614,4 +614,4 @@ Output:
 
 ---
 
-**Up next:** [The Screenshot-Action Loop](../course.md#m3)
+**Up next:** [The Screenshot-Action Loop](../03-computer-use/the-screenshot-action-loop.md)
