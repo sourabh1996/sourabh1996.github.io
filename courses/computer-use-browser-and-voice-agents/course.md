@@ -12,7 +12,7 @@ Agents that see and act on screens and web pages, and agents that talk in real t
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Browser Agents ➕ (5 lessons)
