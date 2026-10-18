@@ -1,0 +1,41 @@
+# The parts of an agent harness around the model: guides before, sensors after, controls and state around.
+SPEC = {
+    "title": "Model plus harness: the parts of an agent runtime",
+    "accent": "purple",
+    "width": 1100, "height": 800,
+    "bands": [
+        {"y": 80, "h": 120, "label": "State", "color": "gray"},
+        {"y": 590, "h": 190, "label": "Control", "color": "coral"},
+    ],
+    "groups": [
+        {"x": 30, "y": 240, "w": 300, "h": 320, "label": "Guides (before acting)", "color": "blue"},
+        {"x": 770, "y": 240, "w": 300, "h": 320, "label": "Sensors (after acting)", "color": "green"},
+    ],
+    "nodes": {
+        "transcript": {"x": 160, "y": 100, "w": 210, "h": 80, "icon": "🗒️", "label": "Session log", "sub": "resume · fork", "color": "gray"},
+        "ckpt": {"x": 400, "y": 100, "w": 210, "h": 80, "icon": "⏪", "label": "Checkpoints + git", "sub": "undo file changes", "color": "gray"},
+        "notes": {"x": 640, "y": 100, "w": 210, "h": 80, "icon": "📝", "label": "Progress files", "sub": "memory across windows", "color": "gray"},
+        "usage": {"x": 880, "y": 100, "w": 180, "h": 80, "icon": "💰", "label": "Usage + cost", "color": "gray"},
+        "sys": {"x": 50, "y": 270, "w": 260, "h": 60, "label": "📜 System prompt + AGENTS.md", "color": "blue", "size": 14},
+        "tooldefs": {"x": 50, "y": 345, "w": 260, "h": 60, "label": "🧰 Tool definitions", "color": "blue", "size": 14},
+        "skills": {"x": 50, "y": 420, "w": 260, "h": 60, "label": "📚 Skills · specs · plans", "color": "blue", "size": 14},
+        "ctx": {"x": 50, "y": 495, "w": 260, "h": 50, "label": "🗜️ Compaction · subagents", "color": "blue", "size": 14},
+        "loop": {"x": 400, "y": 270, "w": 300, "h": 270, "icon": "🔁", "label": "The loop", "sub": "assemble context\ncall the model\nrun requested tools\nadd results\nrepeat until done\nor a limit hits", "color": "amber"},
+        "tests": {"x": 790, "y": 270, "w": 260, "h": 60, "label": "✅ Tests · build", "color": "green", "size": 14},
+        "lint": {"x": 790, "y": 345, "w": 260, "h": 60, "label": "🧹 Linters · type checks", "color": "green", "size": 14},
+        "hookpost": {"x": 790, "y": 420, "w": 260, "h": 60, "label": "🪝 Post-tool and stop hooks", "color": "green", "size": 14},
+        "review": {"x": 790, "y": 495, "w": 260, "h": 50, "label": "🔍 Reviewer agent", "color": "green", "size": 14},
+        "perm": {"x": 160, "y": 620, "w": 210, "h": 130, "icon": "🛡️", "label": "Permissions", "sub": "modes · allow/ask/deny", "color": "coral"},
+        "hookpre": {"x": 400, "y": 620, "w": 210, "h": 130, "icon": "🪝", "label": "Pre-tool hooks", "sub": "block or rewrite", "color": "coral"},
+        "sandbox": {"x": 640, "y": 620, "w": 210, "h": 130, "icon": "📦", "label": "Sandbox", "sub": "files · network", "color": "coral"},
+        "limits": {"x": 880, "y": 620, "w": 180, "h": 130, "icon": "⏱️", "label": "Limits", "sub": "turns · budget · time", "color": "coral"},
+    },
+    "edges": [
+        {"from": "sys", "to": "loop", "to_side": "left"},
+        {"from": "skills", "to": "loop", "to_side": "left"},
+        {"from": "loop", "to": "tests", "from_side": "right"},
+        {"from": "hookpost", "to": "loop", "to_side": "right", "label": "feedback"},
+        {"from": "loop", "to": "hookpre", "from_side": "bottom", "to_side": "top", "label": "every tool call"},
+        {"from": "loop", "to": "ckpt", "from_side": "top", "to_side": "bottom"},
+    ],
+}

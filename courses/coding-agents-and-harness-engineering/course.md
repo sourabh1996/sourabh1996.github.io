@@ -33,11 +33,11 @@ Use coding agents well and build the harness around a model: loops, tools, permi
 
 <a id="m4"></a>
 ### 4. What a Harness Is ➕ (5 lessons)
-- Model plus Harness: the Parts of an Agent Runtime · Article ➕
-- Permissions, Hooks and Approval Modes · Article ➕
-- Subagents, Slash Commands and Plugins · Article ➕
-- Sandboxes: Containers, MicroVMs and Hosted Sandboxes · Article ➕
-- Lab: Build a minimal coding-agent harness · Lab ➕
+- [Model plus Harness: the Parts of an Agent Runtime](04-what-a-harness-is/model-plus-harness-the-parts-of-an-agent-runtime.md) · Article ➕ ✍️ *written*
+- [Permissions, Hooks and Approval Modes](04-what-a-harness-is/permissions-hooks-and-approval-modes.md) · Article ➕ ✍️ *written*
+- [Subagents, Slash Commands and Plugins](04-what-a-harness-is/subagents-slash-commands-and-plugins.md) · Article ➕ ✍️ *written*
+- [Sandboxes: Containers, MicroVMs and Hosted Sandboxes](04-what-a-harness-is/sandboxes-containers-microvms-and-hosted-sandboxes.md) · Article ➕ ✍️ *written*
+- [Lab: Build a minimal coding-agent harness](04-what-a-harness-is/lab-build-a-minimal-coding-agent-harness.md) · Lab ➕ ✍️ *written*
 
 <a id="m5"></a>
 ### 5. Long-Running Agents ➕ (4 lessons)
