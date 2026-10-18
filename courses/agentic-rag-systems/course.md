@@ -27,8 +27,8 @@ Let agents decide how to retrieve: Adaptive RAG, Corrective RAG and Self-RAG, lo
 ### 3. Agentic RAG Architectures (2 lessons)
 > **Before you start:** [Agentic AI Fundamentals › Reasoning Patterns](../agentic-ai-fundamentals/course.md#m5)
 
-- Agents in RAG Pipelines · Article
-- Corrective RAG (CRAG) · Article
+- [Agents in RAG Pipelines](03-agentic-rag-architectures/agents-in-rag-pipelines.md) · Article ✍️ *written*
+- [Corrective RAG (CRAG)](03-agentic-rag-architectures/corrective-rag-crag.md) · Article ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Self-RAG (4 lessons)

@@ -484,7 +484,7 @@ adaptive   routes 9/10  answers 10/10  avg calls 2.9
 
 Ten out of ten answers, against five for the fixed pipeline. The route column records where each question *ended up* (escalated questions count as multi-step), so the escalated Tatkal-and-card question now scores as a correct route.
 
-So why 9/10 routes? Look at the per-route numbers below: three questions ended in multi-step, not two. The extra one is "Do I get a refund if I cancel my Tatkal ticket myself?". Its single-step retrieval pulled in `refunds.md §3`, the evidence check saw that page's pointer to payments.md, and it escalated a question that was already answerable. The answer was still right, but it cost five calls instead of three. That's the price of a crude completeness check: it asks "is anything referenced still missing?" rather than "is anything *this question needs* still missing?". A real model given the question usually gets this right, and the [Corrective RAG](../../agentic-rag-systems/course.md#m3) lesson shows a better tool: grading each document's relevance before deciding anything.
+So why 9/10 routes? Look at the per-route numbers below: three questions ended in multi-step, not two. The extra one is "Do I get a refund if I cancel my Tatkal ticket myself?". Its single-step retrieval pulled in `refunds.md §3`, the evidence check saw that page's pointer to payments.md, and it escalated a question that was already answerable. The answer was still right, but it cost five calls instead of three. That's the price of a crude completeness check: it asks "is anything referenced still missing?" rather than "is anything *this question needs* still missing?". A real model given the question usually gets this right, and the [Corrective RAG](../03-agentic-rag-architectures/corrective-rag-crag.md) lesson shows a better tool: grading each document's relevance before deciding anything.
 
 The cost is visible too: 2.9 model calls per question on average against one. Whether that's worth it depends on your traffic, which is why the harness prints it. Here's how the calls split by route:
 
@@ -605,4 +605,4 @@ The simplest way to measure the router alone is to call `choose_route` directly,
 
 ---
 
-**Up next:** [Agents in RAG Pipelines](../course.md#m3)
+**Up next:** [Agents in RAG Pipelines](../03-agentic-rag-architectures/agents-in-rag-pipelines.md)

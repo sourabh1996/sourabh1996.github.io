@@ -1,0 +1,35 @@
+# Corrective RAG: score the retrieved documents, then take one of three actions.
+SPEC = {
+    "title": "Corrective RAG: grade the evidence, then act",
+    "accent": "amber",
+    "width": 1100, "height": 660,
+    "nodes": {
+        "q": {"x": 30, "y": 260, "w": 140, "h": 90, "icon": "🙋", "label": "Question", "color": "gray"},
+        "ret": {"x": 200, "y": 260, "w": 150, "h": 90, "icon": "🔎", "label": "Retrieve", "sub": "top k docs", "color": "gray"},
+        "eval": {"x": 380, "y": 240, "w": 180, "h": 130, "icon": "🧪", "label": "Evaluator",
+                 "sub": "scores each doc\n0 to 1", "color": "amber"},
+        "ok": {"x": 610, "y": 100, "w": 230, "h": 110, "icon": "✅", "label": "Correct",
+               "sub": "best doc scores high:\nrefine it", "color": "green"},
+        "amb": {"x": 610, "y": 250, "w": 230, "h": 110, "icon": "🤔", "label": "Ambiguous",
+                "sub": "in between:\nrefine AND search the web", "color": "amber"},
+        "bad": {"x": 610, "y": 400, "w": 230, "h": 110, "icon": "❌", "label": "Incorrect",
+                "sub": "every doc scores low:\ndiscard, rewrite, web search", "color": "coral"},
+        "gen": {"x": 900, "y": 250, "w": 170, "h": 110, "icon": "✍️", "label": "Generate", "sub": "from cleaned\nevidence", "color": "blue"},
+        "strips": {"x": 380, "y": 550, "w": 460, "h": 90, "icon": "✂️", "label": "Refine: decompose, filter, recompose",
+                   "sub": "split docs into sentence strips, keep only the strips that score high", "color": "teal"},
+    },
+    "edges": [
+        {"from": "q", "to": "ret", "solid": True},
+        {"from": "ret", "to": "eval", "solid": True},
+        {"from": "eval", "to": "ok", "from_side": "right", "to_side": "left"},
+        {"from": "eval", "to": "amb", "from_side": "right", "to_side": "left"},
+        {"from": "eval", "to": "bad", "from_side": "right", "to_side": "left"},
+        {"from": "ok", "to": "gen", "from_side": "right", "to_side": "left"},
+        {"from": "amb", "to": "gen", "from_side": "right", "to_side": "left", "solid": True},
+        {"from": "bad", "to": "gen", "from_side": "right", "to_side": "left"},
+    ],
+    "notes": [
+        {"x": 960, "y": 590, "text": "Thresholds are tuned\non real questions", "size": 13},
+        {"x": 610, "y": 535, "text": "How the Correct and Ambiguous paths clean their documents:", "size": 13},
+    ],
+}

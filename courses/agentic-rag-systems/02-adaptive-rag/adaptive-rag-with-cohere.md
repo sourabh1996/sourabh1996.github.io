@@ -493,7 +493,7 @@ Output:
 [('payments.md §2', 0.33), ('pets.md §1', 0.0)]
 ```
 
-Surprise: the payments page wins, because it contains the word "take" ("cards take 5 to 7 working days"), while the pets page says "dogs", not "dog". Our word-matching stand-in is fooled where the keyword embedding (which matches the stem `dog`) was not. A real cross-encoder reranker understands that "dog" and "dogs" mean the same thing and that "take" is not the point of the question, which is exactly why you pay for one. Two lessons hide here: test your reranker on real questions before trusting it, and treat low scores like these as a strong hint that the evidence is weak; the [Corrective RAG](../../agentic-rag-systems/course.md#m3) lesson turns that hint into a rule.
+Surprise: the payments page wins, because it contains the word "take" ("cards take 5 to 7 working days"), while the pets page says "dogs", not "dog". Our word-matching stand-in is fooled where the keyword embedding (which matches the stem `dog`) was not. A real cross-encoder reranker understands that "dog" and "dogs" mean the same thing and that "take" is not the point of the question, which is exactly why you pay for one. Two lessons hide here: test your reranker on real questions before trusting it, and treat low scores like these as a strong hint that the evidence is weak; the [Corrective RAG](../03-agentic-rag-architectures/corrective-rag-crag.md) lesson turns that hint into a rule.
 
 </details>
 

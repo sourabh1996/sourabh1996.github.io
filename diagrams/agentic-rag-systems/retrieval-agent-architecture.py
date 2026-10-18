@@ -1,0 +1,41 @@
+# Architecture of a tool-using retrieval agent: one reasoning loop, several sources, guardrails around it.
+SPEC = {
+    "title": "A retrieval agent: one loop, many sources",
+    "accent": "amber",
+    "width": 1100, "height": 640,
+    "groups": [
+        {"x": 300, "y": 90, "w": 470, "h": 330, "label": "The agent loop (LangGraph)", "color": "amber"},
+        {"x": 800, "y": 90, "w": 270, "h": 390, "label": "Retrieval tools", "color": "teal"},
+        {"x": 30, "y": 545, "w": 1040, "h": 80, "label": "Guardrails in code", "color": "coral"},
+    ],
+    "nodes": {
+        "user": {"x": 40, "y": 190, "w": 210, "h": 110, "icon": "🙋", "label": "Question",
+                 "sub": "\"PNR 4521873390 was\ncancelled: when's my money?\"", "color": "gray"},
+        "plan": {"x": 330, "y": 130, "w": 190, "h": 110, "icon": "🗺️", "label": "Plan / decide",
+                 "sub": "which source next,\nwith what query", "color": "amber"},
+        "obs": {"x": 555, "y": 130, "w": 190, "h": 110, "icon": "👀", "label": "Read results",
+                "sub": "what do I know now?\nwhat's missing?", "color": "amber"},
+        "synth": {"x": 440, "y": 290, "w": 200, "h": 100, "icon": "✍️", "label": "Write answer",
+                  "sub": "with citations", "color": "green"},
+        "kb": {"x": 825, "y": 130, "w": 220, "h": 90, "icon": "📚", "label": "Help centre", "sub": "vector store", "color": "teal"},
+        "db": {"x": 825, "y": 250, "w": 220, "h": 90, "icon": "🗄️", "label": "Bookings", "sub": "SQL lookup", "color": "teal"},
+        "web": {"x": 825, "y": 370, "w": 220, "h": 90, "icon": "🌐", "label": "Web search", "sub": "live facts", "color": "teal"},
+        "ans": {"x": 40, "y": 320, "w": 210, "h": 90, "icon": "💬", "label": "Answer", "sub": "\"UPI: 1 to 3 working days\"", "color": "green"},
+        "g1": {"x": 60, "y": 568, "w": 230, "h": 46, "label": "⏱️ Max steps", "color": "coral", "size": 15},
+        "g2": {"x": 310, "y": 568, "w": 230, "h": 46, "label": "💰 Call budget", "color": "coral", "size": 15},
+        "g3": {"x": 560, "y": 568, "w": 230, "h": 46, "label": "🔐 Allowed tools only", "color": "coral", "size": 15},
+        "g4": {"x": 810, "y": 568, "w": 230, "h": 46, "label": "📎 Cite every fact", "color": "coral", "size": 15},
+    },
+    "edges": [
+        {"from": "user", "to": "plan", "solid": True},
+        {"from": "plan", "to": "kb", "via": [(425, 116), (790, 116), (790, 175)], "to_side": "left", "from_side": "top"},
+        {"from": "db", "to": "obs", "from_side": "left", "to_side": "bottom", "via": [(650, 295)]},
+        {"from": "obs", "to": "plan", "label": "loop", "from_side": "left", "to_side": "right"},
+        {"from": "plan", "to": "synth", "from_side": "bottom", "to_side": "left", "via": [(425, 340)]},
+        {"from": "synth", "to": "ans", "solid": True, "from_side": "bottom", "to_side": "right", "via": [(540, 430), (270, 430), (270, 365)]},
+    ],
+    "notes": [
+        {"x": 372, "y": 300, "text": "enough\nevidence", "size": 12},
+        {"x": 550, "y": 505, "text": "The model chooses the next tool; your code limits how many steps, which tools, and what must be cited.", "size": 14},
+    ],
+}
