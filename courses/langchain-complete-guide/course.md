@@ -71,6 +71,6 @@ Build LLM apps with LangChain: models, prompts, structured output, parsers, chai
 ### 8. Monitoring and Deployment (3 lessons)
 > **Before you start:** [APIs and Apps: FastAPI, Streamlit and Docker › APIs and FastAPI Fundamentals](../apis-and-apps-fastapi-streamlit-and-docker/course.md#m2)
 
-- LangSmith Monitoring · Article
-- LangServe Deployment · Article
-- Lab: Deploy a chain with LangServe · Lab
+- [LangSmith Monitoring](08-monitoring-and-deployment/langsmith-monitoring.md) · Article ✍️ *written*
+- [LangServe Deployment](08-monitoring-and-deployment/langserve-deployment.md) · Article ✍️ *written*
+- [Lab: Deploy a chain with LangServe](08-monitoring-and-deployment/lab-deploy-a-chain-with-langserve.md) · Lab ✍️ *written*
