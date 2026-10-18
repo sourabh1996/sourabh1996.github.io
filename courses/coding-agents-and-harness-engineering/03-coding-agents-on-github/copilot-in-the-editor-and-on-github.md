@@ -12,7 +12,7 @@ reading_time: 25 min
 > 📚 **Before you start**
 >
 > - [Pull Requests End to End](../../git-and-github-zero-to-pro/course.md#m6) and [Code Review that Helps](../../git-and-github-zero-to-pro/course.md#m6) (Collaborating on GitHub)
-> - [What is an AI Agent?](../../agentic-ai-fundamentals/02-understanding-agents/what-is-an-ai-agent.md) (Agentic AI Fundamentals), helpful for the agent features but not required
+> - [The Coding Agent Landscape](../02-working-with-coding-agents/the-coding-agent-landscape-claude-code-codex-gemini-cli-copilot-and-cursor.md) and [Reviewing AI-Written Code](../02-working-with-coding-agents/reviewing-ai-written-code.md) (Module 2), which this lesson applies to GitHub Copilot
 
 ## Introduction
 

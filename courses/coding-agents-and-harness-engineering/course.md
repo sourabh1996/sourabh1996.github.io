@@ -12,14 +12,14 @@ Use coding agents well and build the harness around a model: loops, tools, permi
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Working with Coding Agents ➕ (4 lessons)
-- The Coding Agent Landscape: Claude Code, Codex, Gemini CLI, Copilot and Cursor · Article ➕
-- Explore, Plan, Code, Commit · Article ➕
-- Spec-Driven Development · Article ➕
-- Reviewing AI-Written Code · Article ➕
+- [The Coding Agent Landscape: Claude Code, Codex, Gemini CLI, Copilot and Cursor](02-working-with-coding-agents/the-coding-agent-landscape-claude-code-codex-gemini-cli-copilot-and-cursor.md) · Article ➕ ✍️ *written*
+- [Explore, Plan, Code, Commit](02-working-with-coding-agents/explore-plan-code-commit.md) · Article ➕ ✍️ *written*
+- [Spec-Driven Development](02-working-with-coding-agents/spec-driven-development.md) · Article ➕ ✍️ *written*
+- [Reviewing AI-Written Code](02-working-with-coding-agents/reviewing-ai-written-code.md) · Article ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Coding Agents on GitHub ➕ (5 lessons)

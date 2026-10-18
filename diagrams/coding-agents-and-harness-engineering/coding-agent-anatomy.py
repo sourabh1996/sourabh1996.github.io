@@ -1,0 +1,37 @@
+# The shared anatomy of every coding agent: a loop with built-in tools, surrounded by harness controls.
+SPEC = {
+    "title": "The shared anatomy of a coding agent",
+    "accent": "blue",
+    "width": 1100, "height": 760,
+    "groups": [
+        {"x": 330, "y": 150, "w": 440, "h": 330, "label": "The agent loop", "color": "amber"},
+        {"x": 30, "y": 520, "w": 1040, "h": 210, "label": "Three ways to run it", "color": "teal"},
+    ],
+    "nodes": {
+        "model": {"x": 470, "y": 180, "w": 160, "h": 90, "icon": "🧠", "label": "Model", "sub": "decides the next step", "color": "amber"},
+        "gather": {"x": 345, "y": 320, "w": 115, "h": 80, "icon": "🔎", "label": "Gather", "sub": "read · search", "color": "amber"},
+        "act": {"x": 492, "y": 320, "w": 115, "h": 80, "icon": "✏️", "label": "Act", "sub": "edit · run", "color": "amber"},
+        "verify": {"x": 640, "y": 320, "w": 115, "h": 80, "icon": "✅", "label": "Verify", "sub": "tests · lint", "color": "amber"},
+        "repo": {"x": 450, "y": 420, "w": 200, "h": 46, "label": "📁 Your repository", "color": "gray", "size": 14},
+        "instr": {"x": 40, "y": 110, "w": 250, "h": 70, "label": "📜 Instruction files", "sub": "CLAUDE.md · AGENTS.md · GEMINI.md", "color": "blue", "size": 15},
+        "perm": {"x": 40, "y": 200, "w": 250, "h": 70, "label": "🛡️ Permissions and modes", "sub": "allow · ask · deny", "color": "blue", "size": 15},
+        "hooks": {"x": 40, "y": 290, "w": 250, "h": 70, "label": "🪝 Hooks", "sub": "your scripts at fixed moments", "color": "blue", "size": 15},
+        "sandbox": {"x": 40, "y": 380, "w": 250, "h": 70, "label": "📦 Sandbox", "sub": "limits files and network", "color": "blue", "size": 15},
+        "sub": {"x": 810, "y": 110, "w": 250, "h": 70, "label": "🤝 Subagents", "sub": "helpers with fresh context", "color": "purple", "size": 15},
+        "skills": {"x": 810, "y": 200, "w": 250, "h": 70, "label": "📚 Skills and commands", "sub": "SKILL.md · /commands", "color": "purple", "size": 15},
+        "mcp": {"x": 810, "y": 290, "w": 250, "h": 70, "label": "🔌 MCP servers", "sub": "GitHub · tracker · browser", "color": "purple", "size": 15},
+        "plugins": {"x": 810, "y": 380, "w": 250, "h": 70, "label": "🧩 Plugins", "sub": "bundles of all of these", "color": "purple", "size": 15},
+        "inter": {"x": 70, "y": 560, "w": 290, "h": 140, "icon": "💬", "label": "Interactive", "sub": "you watch and approve\nclaude · codex · copilot · Cursor", "color": "teal"},
+        "head": {"x": 405, "y": 560, "w": 290, "h": 140, "icon": "⚙️", "label": "Headless", "sub": "scripts and CI, JSON out\nclaude -p · codex exec", "color": "teal"},
+        "cloud": {"x": 740, "y": 560, "w": 290, "h": 140, "icon": "☁️", "label": "Cloud / async", "sub": "hand off, review a PR\nweb sessions · cloud agents", "color": "teal"},
+    },
+    "edges": [
+        {"from": "model", "to": "act", "solid": True},
+        {"from": "gather", "to": "act", "solid": True},
+        {"from": "act", "to": "verify", "solid": True},
+        {"from": "instr", "to": "model", "to_side": "left"},
+        {"from": "perm", "to": "gather", "to_side": "left", "from_side": "right"},
+        {"from": "sub", "to": "model", "to_side": "right"},
+        {"from": "skills", "to": "verify", "to_side": "right", "from_side": "left"},
+    ],
+}
