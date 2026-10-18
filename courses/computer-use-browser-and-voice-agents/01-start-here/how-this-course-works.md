@@ -133,4 +133,4 @@ A spoken conversation has rules a text chat doesn't: people pause mid-sentence, 
 
 ---
 
-**Up next:** [DOM, Accessibility Tree or Screenshots?](../course.md#m2)
+**Up next:** [DOM, Accessibility Tree or Screenshots?](../02-browser-agents/dom-accessibility-tree-or-screenshots.md)

@@ -16,11 +16,11 @@ Agents that see and act on screens and web pages, and agents that talk in real t
 
 <a id="m2"></a>
 ### 2. Browser Agents ➕ (5 lessons)
-- DOM, Accessibility Tree or Screenshots? · Article ➕
-- Driving a Browser with Playwright and MCP · Article ➕
-- Browser Agent Libraries · Article ➕
-- Logins, Flaky Pages and Safety · Article ➕
-- Lab: A browser agent that fills a form · Lab ➕
+- [DOM, Accessibility Tree or Screenshots?](02-browser-agents/dom-accessibility-tree-or-screenshots.md) · Article ➕ ✍️ *written*
+- [Driving a Browser with Playwright and MCP](02-browser-agents/driving-a-browser-with-playwright-and-mcp.md) · Article ➕ ✍️ *written*
+- [Browser Agent Libraries](02-browser-agents/browser-agent-libraries.md) · Article ➕ ✍️ *written*
+- [Logins, Flaky Pages and Safety](02-browser-agents/logins-flaky-pages-and-safety.md) · Article ➕ ✍️ *written*
+- [Lab: A browser agent that fills a form](02-browser-agents/lab-a-browser-agent-that-fills-a-form.md) · Lab ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Computer Use ➕ (3 lessons)
