@@ -12,13 +12,13 @@ Let agents decide how to retrieve: Adaptive RAG, Corrective RAG and Self-RAG, lo
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Adaptive RAG (4 lessons)
 > **Before you start:** [Retrieval-Augmented Generation (RAG) › Implementing RAG](../retrieval-augmented-generation-rag/course.md#m6), [LangGraph Complete Guide › Workflows and Agents](../langgraph-complete-guide/course.md#m5)
 
-- What is Adaptive RAG? · Article
+- [What is Adaptive RAG?](02-adaptive-rag/what-is-adaptive-rag.md) · Article ✍️ *written*
 - Adaptive RAG with Cohere · Article
 - Running Adaptive RAG Locally · Article
 - Lab: Adaptive RAG end to end · Lab
