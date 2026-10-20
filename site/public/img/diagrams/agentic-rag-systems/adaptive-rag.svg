@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" width="1100" height="620" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Adaptive RAG: match the effort to the question">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="618" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Adaptive RAG: match the effort to the question</text>
+<rect x="20" y="95" width="1060" height="150" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="105" width="110" height="130" rx="10" fill="#2e7d4f"/>
+<text x="85.0" y="178.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Easy</text>
+<rect x="20" y="260" width="1060" height="150" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="270" width="110" height="130" rx="10" fill="#9a6412"/>
+<text x="85.0" y="343.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Medium</text>
+<rect x="20" y="425" width="1060" height="150" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="435" width="110" height="130" rx="10" fill="#b2442f"/>
+<text x="85.0" y="508.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Hard</text>
+<path d="M320.0,335.0 L360.0,335.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M550.0,335.0 L600.0,170.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M550.0,335.0 L600.0,335.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M550.0,335.0 L600.0,500.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M830.0,170.0 L870.0,170.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M830.0,335.0 L870.0,335.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M830.0,500.0 L870.0,500.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="160" y="285" width="160" height="100" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="240.0" y="336.0" font-size="28" text-anchor="middle">🙋</text>
+<text x="240.0" y="359.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Question</text>
+<rect x="360" y="275" width="190" height="120" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="455.0" y="320.0" font-size="28" text-anchor="middle">🧭</text>
+<text x="455.0" y="343.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Classifier</text>
+<text x="455.0" y="363.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">small model or LLM</text><text x="455.0" y="378.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">picks a level</text>
+<rect x="600" y="120" width="230" height="100" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="715.0" y="163.0" font-size="28" text-anchor="middle">💬</text>
+<text x="715.0" y="186.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">No retrieval</text>
+<text x="715.0" y="206.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;What does PNR stand for?&quot;</text>
+<rect x="600" y="285" width="230" height="100" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="715.0" y="328.0" font-size="28" text-anchor="middle">🔎</text>
+<text x="715.0" y="351.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">One search</text>
+<text x="715.0" y="371.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;Fee to cancel 3 days early?&quot;</text>
+<rect x="600" y="450" width="230" height="100" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="715.0" y="485.0" font-size="28" text-anchor="middle">🔁</text>
+<text x="715.0" y="508.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Search, think, repeat</text>
+<text x="715.0" y="528.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;Train cancelled: when is</text><text x="715.0" y="543.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">my refund?&quot;</text>
+<rect x="870" y="135" width="200" height="70" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="970.0" y="167.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">1 model call</text>
+<text x="970.0" y="187.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">fast, cheap</text>
+<rect x="870" y="300" width="200" height="70" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="970.0" y="332.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">1 search + 1 call</text>
+<text x="970.0" y="352.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">the classic pipeline</text>
+<rect x="870" y="465" width="200" height="70" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="970.0" y="497.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">2 to 4 searches + calls</text>
+<text x="970.0" y="517.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">slow, but gets it right</text>
+<text x="550" y="600.0" font-size="14" font-weight="500" fill="#57606a" text-anchor="middle">A fixed pipeline treats every question as Medium: it wastes effort on Easy ones and fails Hard ones.</text>
+</svg>

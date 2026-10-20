@@ -12,29 +12,29 @@ Let agents decide how to retrieve: Adaptive RAG, Corrective RAG and Self-RAG, lo
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Adaptive RAG (4 lessons)
 > **Before you start:** [Retrieval-Augmented Generation (RAG) › Implementing RAG](../retrieval-augmented-generation-rag/course.md#m6), [LangGraph Complete Guide › Workflows and Agents](../langgraph-complete-guide/course.md#m5)
 
-- What is Adaptive RAG? · Article
-- Adaptive RAG with Cohere · Article
-- Running Adaptive RAG Locally · Article
-- Lab: Adaptive RAG end to end · Lab
+- [What is Adaptive RAG?](02-adaptive-rag/what-is-adaptive-rag.md) · Article ✍️ *written*
+- [Adaptive RAG with Cohere](02-adaptive-rag/adaptive-rag-with-cohere.md) · Article ✍️ *written*
+- [Running Adaptive RAG Locally](02-adaptive-rag/running-adaptive-rag-locally.md) · Article ✍️ *written*
+- [Lab: Adaptive RAG end to end](02-adaptive-rag/lab-adaptive-rag-end-to-end.md) · Lab ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Agentic RAG Architectures (2 lessons)
 > **Before you start:** [Agentic AI Fundamentals › Reasoning Patterns](../agentic-ai-fundamentals/course.md#m5)
 
-- Agents in RAG Pipelines · Article
-- Corrective RAG (CRAG) · Article
+- [Agents in RAG Pipelines](03-agentic-rag-architectures/agents-in-rag-pipelines.md) · Article ✍️ *written*
+- [Corrective RAG (CRAG)](03-agentic-rag-architectures/corrective-rag-crag.md) · Article ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Self-RAG (4 lessons)
 > **Before you start:** [Retrieval-Augmented Generation (RAG) › Vector Database Tools](../retrieval-augmented-generation-rag/course.md#m4), [Retrieval-Augmented Generation (RAG) › RAG Evaluation](../retrieval-augmented-generation-rag/course.md#m9)
 
-- How Self-RAG Works · Article
-- Self-RAG with a Vector DB · Article
-- Deploying Self-RAG Locally · Article
-- Lab: Build Self-RAG · Lab
+- [How Self-RAG Works](04-self-rag/how-self-rag-works.md) · Article ✍️ *written*
+- [Self-RAG with a Vector DB](04-self-rag/self-rag-with-a-vector-db.md) · Article ✍️ *written*
+- [Deploying Self-RAG Locally](04-self-rag/deploying-self-rag-locally.md) · Article ✍️ *written*
+- [Lab: Build Self-RAG](04-self-rag/lab-build-self-rag.md) · Lab ✍️ *written*

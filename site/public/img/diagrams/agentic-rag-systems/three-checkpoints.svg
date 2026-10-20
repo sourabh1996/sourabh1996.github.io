@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 550" width="1100" height="550" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Three places an agent can step into RAG">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="548" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Three places an agent can step into RAG</text>
+<rect x="30" y="300" width="330" height="220" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="93.4" y="285" width="203.2" height="30" rx="15" fill="#2f5fb3"/>
+<text x="195.0" y="305.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Module 2: Adaptive RAG</text>
+<rect x="385" y="300" width="330" height="220" rx="14" fill="none" stroke="#e0b25c" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="439.8" y="285" width="220.39999999999998" height="30" rx="15" fill="#9a6412"/>
+<text x="550.0" y="305.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Module 3: Corrective RAG</text>
+<rect x="740" y="300" width="330" height="220" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="820.6" y="285" width="168.79999999999998" height="30" rx="15" fill="#2e7d4f"/>
+<text x="905.0" y="305.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Module 4: Self-RAG</text>
+<path d="M180.0,145.0 L215.0,145.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M385.0,145.0 L420.0,145.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M570.0,145.0 L605.0,145.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M775.0,145.0 L810.0,145.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M930.0,145.0 L960.0,145.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="30" y="100" width="150" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="105.0" y="146.0" font-size="28" text-anchor="middle">🙋</text>
+<text x="105.0" y="169.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Question</text>
+<rect x="215" y="100" width="170" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="300.0" y="138.0" font-size="28" text-anchor="middle">🧭</text>
+<text x="300.0" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Route</text>
+<text x="300.0" y="181.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">before retrieving</text>
+<rect x="420" y="100" width="150" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="495.0" y="146.0" font-size="28" text-anchor="middle">🔎</text>
+<text x="495.0" y="169.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Retrieve</text>
+<rect x="605" y="100" width="170" height="90" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="690.0" y="138.0" font-size="28" text-anchor="middle">🧪</text>
+<text x="690.0" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Check docs</text>
+<text x="690.0" y="181.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">after retrieving</text>
+<rect x="810" y="100" width="120" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="870.0" y="146.0" font-size="28" text-anchor="middle">✍️</text>
+<text x="870.0" y="169.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Write</text>
+<rect x="960" y="100" width="120" height="90" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="1020.0" y="138.0" font-size="28" text-anchor="middle">✅</text>
+<text x="1020.0" y="161.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Check</text>
+<text x="1020.0" y="181.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">the answer</text>
+<rect x="55" y="340" width="280" height="150" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="195.0" y="396.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">How hard is it?</text>
+<text x="195.0" y="416.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">no search, one search,</text><text x="195.0" y="431.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">or many searches;</text><text x="195.0" y="447.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">help centre or web</text>
+<rect x="410" y="340" width="280" height="150" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="550.0" y="404.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Are these docs any good?</text>
+<text x="550.0" y="424.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">keep, refine, or throw away</text><text x="550.0" y="439.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">and search the web</text>
+<rect x="765" y="340" width="280" height="150" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="905.0" y="396.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Is my answer supported?</text>
+<text x="905.0" y="416.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">search only when needed,</text><text x="905.0" y="431.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">grade relevance, support</text><text x="905.0" y="447.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">and usefulness</text>
+<text x="550" y="245.0" font-size="14" font-weight="500" fill="#57606a" text-anchor="middle">A fixed pipeline runs only the grey boxes, every time. Agentic RAG adds the coloured decisions.</text><text x="550" y="262.5" font-size="14" font-weight="500" fill="#57606a" text-anchor="middle">Each module of this course teaches one of them.</text>
+</svg>
