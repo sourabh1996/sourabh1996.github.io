@@ -12,17 +12,17 @@ Know whether your agent works: outcome and trajectory evals, LLM judges, benchma
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Evaluating Agents ➕ (7 lessons)
-- Why Agent Evals Are Hard · Article ➕
-- Outcome, Trajectory and Tool-Use Grading · Article ➕
-- Code, Model and Human Graders · Article ➕
-- pass@k, pass^k and Noise · Article ➕
-- Building an Eval Suite from Real Failures · Article ➕
-- LLM-as-Judge: Rubrics and Calibration · Article ➕
-- Lab: An eval suite for a support agent · Lab ➕
+- [Why Agent Evals Are Hard](02-evaluating-agents/why-agent-evals-are-hard.md) · Article ➕ ✍️ *written*
+- [Outcome, Trajectory and Tool-Use Grading](02-evaluating-agents/outcome-trajectory-and-tool-use-grading.md) · Article ➕ ✍️ *written*
+- [Code, Model and Human Graders](02-evaluating-agents/code-model-and-human-graders.md) · Article ➕ ✍️ *written*
+- [pass@k, pass^k and Noise](02-evaluating-agents/pass-k-pass-k-and-noise.md) · Article ➕ ✍️ *written*
+- [Building an Eval Suite from Real Failures](02-evaluating-agents/building-an-eval-suite-from-real-failures.md) · Article ➕ ✍️ *written*
+- [LLM-as-Judge: Rubrics and Calibration](02-evaluating-agents/llm-as-judge-rubrics-and-calibration.md) · Article ➕ ✍️ *written*
+- [Lab: An eval suite for a support agent](02-evaluating-agents/lab-an-eval-suite-for-a-support-agent.md) · Lab ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Benchmarks ➕ (2 lessons)
