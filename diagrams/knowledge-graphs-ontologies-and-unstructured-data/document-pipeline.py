@@ -1,0 +1,40 @@
+# Module 5's big picture: how a pile of documents becomes validated, de-duplicated records and graph facts.
+SPEC = {
+    "title": "From a pile of documents to trusted records",
+    "accent": "amber",
+    "width": 1180, "height": 760,
+    "bands": [
+        {"y": 80, "h": 130, "label": "Inputs", "color": "gray"},
+        {"y": 230, "h": 150, "label": "Read", "color": "blue"},
+        {"y": 400, "h": 150, "label": "Extract", "color": "purple"},
+        {"y": 570, "h": 130, "label": "Use", "color": "teal"},
+    ],
+    "nodes": {
+        "scan": {"x": 150, "y": 100, "w": 220, "h": 90, "icon": "🖨️", "label": "Scanned invoice", "sub": "image only, no text layer", "color": "gray"},
+        "pdf": {"x": 390, "y": 100, "w": 220, "h": 90, "icon": "📄", "label": "Born-digital PDF", "sub": "has a text layer", "color": "gray"},
+        "photo": {"x": 630, "y": 100, "w": 220, "h": 90, "icon": "📱", "label": "Phone photo", "sub": "skewed, shadows", "color": "gray"},
+        "email": {"x": 870, "y": 100, "w": 260, "h": 90, "icon": "✉️", "label": "Email or chat", "sub": "plain text, attachments", "color": "gray"},
+        "text": {"x": 150, "y": 255, "w": 300, "h": 100, "icon": "🔤", "label": "Text layer or OCR", "sub": "PyMuPDF for digital PDFs\nTesseract, PaddleOCR for images", "color": "blue"},
+        "layout": {"x": 480, "y": 255, "w": 300, "h": 100, "icon": "🧱", "label": "Layout and tables", "sub": "reading order, boxes, rows, cells\nDocling, Unstructured, cloud APIs", "color": "blue"},
+        "vlm": {"x": 810, "y": 255, "w": 320, "h": 100, "icon": "👁️", "label": "Or: a vision LLM reads it", "sub": "PDF or image straight to the model\nfewer steps, more cost per page", "color": "blue"},
+        "extract": {"x": 150, "y": 425, "w": 300, "h": 100, "icon": "🧠", "label": "LLM extraction", "sub": "entities and relations\nguided by an ontology", "color": "purple"},
+        "schema": {"x": 480, "y": 425, "w": 300, "h": 100, "icon": "🧾", "label": "Pydantic schema", "sub": "types, rules, totals add up\nretry with the error message", "color": "purple"},
+        "resolve": {"x": 810, "y": 425, "w": 320, "h": 100, "icon": "🔗", "label": "Entity resolution", "sub": "'Deccan Millets Pvt Ltd' = 'DECCAN MILLETS'\nmatch, cluster, pick one record", "color": "purple"},
+        "records": {"x": 150, "y": 590, "w": 300, "h": 90, "icon": "🗃️", "label": "Clean records", "sub": "database, spreadsheet, ERP", "color": "teal"},
+        "graph": {"x": 480, "y": 590, "w": 300, "h": 90, "icon": "🕸️", "label": "Knowledge graph", "sub": "suppliers, invoices, items linked", "color": "teal"},
+        "review": {"x": 810, "y": 590, "w": 320, "h": 90, "icon": "🙋", "label": "Human review queue", "sub": "low confidence or failed checks", "color": "coral"},
+    },
+    "edges": [
+        {"from": "text", "to": "layout", "solid": True},
+        {"from": "layout", "to": "extract", "solid": True, "from_side": "bottom", "to_side": "top", "via": [(630, 390), (300, 390)]},
+        {"from": "vlm", "to": "extract", "solid": True, "from_side": "bottom", "to_side": "top", "via": [(970, 390), (300, 390)]},
+        {"from": "extract", "to": "schema", "solid": True},
+        {"from": "schema", "to": "resolve", "solid": True},
+        {"from": "resolve", "to": "graph", "solid": True, "from_side": "bottom", "to_side": "top", "via": [(970, 560), (630, 560)]},
+        {"from": "resolve", "to": "records", "solid": True, "from_side": "bottom", "to_side": "top", "via": [(970, 560), (300, 560)]},
+        {"from": "resolve", "to": "review", "label": "doubtful", "solid": True, "from_side": "bottom", "to_side": "top", "label_at": (1030, 575)},
+    ],
+    "notes": [
+        {"x": 590, "y": 735, "text": "Every arrow can fail. Each stage records confidence and provenance (which file, page and box a value came from) so errors can be traced and reviewed.", "size": 13.5},
+    ],
+}

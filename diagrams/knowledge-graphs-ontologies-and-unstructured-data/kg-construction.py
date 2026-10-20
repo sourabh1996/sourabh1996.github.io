@@ -1,0 +1,41 @@
+# Module 6, lesson 1: building a knowledge graph from a folder of documents with an LLM.
+SPEC = {
+    "title": "From a folder of documents to a knowledge graph",
+    "accent": "teal",
+    "width": 1200, "height": 640,
+    "bands": [
+        {"y": 80, "h": 210, "label": "Extract", "color": "purple"},
+        {"y": 310, "h": 250, "label": "Build", "color": "teal"},
+    ],
+    "nodes": {
+        "docs": {"x": 150, "y": 115, "w": 220, "h": 140, "icon": "📂", "label": "Documents",
+                 "sub": "notes, emails, reports\n8 files at Kiran Foods", "color": "gray"},
+        "chunk": {"x": 410, "y": 115, "w": 220, "h": 140, "icon": "✂️", "label": "Chunks",
+                  "sub": "~1,000 words each\nwith overlap\nid: doc03#c2", "color": "blue"},
+        "extract": {"x": 670, "y": 115, "w": 230, "h": 140, "icon": "🧠", "label": "LLM extraction",
+                    "sub": "one call per chunk\nonly ontology patterns\n(:Person)-[:LEADS]->(:Project)", "color": "purple"},
+        "validate": {"x": 940, "y": 115, "w": 220, "h": 140, "icon": "✅", "label": "Validate",
+                     "sub": "domain and range\nnames in the text\nsafe auto-fixes logged", "color": "purple"},
+        "resolve": {"x": 150, "y": 350, "w": 220, "h": 160, "icon": "🔗", "label": "Resolve entities",
+                    "sub": "'FrostLine' =\n'FrostLine Cold Chain'\nsame type only", "color": "teal"},
+        "merge": {"x": 410, "y": 350, "w": 220, "h": 160, "icon": "🕸️", "label": "Merge with provenance",
+                  "sub": "MERGE on name + type\nsources on every\nnode and edge", "color": "teal"},
+        "quality": {"x": 670, "y": 350, "w": 230, "h": 160, "icon": "🩺", "label": "Quality checks",
+                    "sub": "orphans, single-source\nleaves, domain rules\n(supplier needs a manager)", "color": "amber"},
+        "update": {"x": 940, "y": 350, "w": 220, "h": 160, "icon": "🔄", "label": "Keep in step",
+                   "sub": "new document: extract\nand merge\ndeleted: drop its sources", "color": "coral"},
+    },
+    "edges": [
+        {"from": "docs", "to": "chunk", "solid": True},
+        {"from": "chunk", "to": "extract", "solid": True},
+        {"from": "extract", "to": "validate", "solid": True},
+        {"from": "validate", "to": "resolve", "solid": True, "from_side": "bottom", "to_side": "top",
+         "via": [(1050, 300), (260, 300)]},
+        {"from": "resolve", "to": "merge", "solid": True},
+        {"from": "merge", "to": "quality", "solid": True},
+        {"from": "quality", "to": "update", "solid": True},
+    ],
+    "notes": [
+        {"x": 600, "y": 600, "text": "Domain graph (entities and relations) plus lexical graph (documents and chunks), joined by 'came from' links.", "size": 13.5},
+    ],
+}

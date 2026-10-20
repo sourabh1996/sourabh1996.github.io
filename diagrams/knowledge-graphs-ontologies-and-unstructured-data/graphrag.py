@@ -1,0 +1,43 @@
+# Module 6, GraphRAG: the indexing pipeline and the four query modes.
+SPEC = {
+    "title": "GraphRAG: index once, query four ways",
+    "accent": "blue",
+    "width": 1260, "height": 640,
+    "bands": [
+        {"y": 80, "h": 220, "label": "Index", "color": "purple"},
+        {"y": 320, "h": 250, "label": "Query", "color": "blue"},
+    ],
+    "nodes": {
+        "units": {"x": 150, "y": 115, "w": 190, "h": 150, "icon": "📄", "label": "Text units",
+                  "sub": "documents split\ninto chunks", "color": "gray"},
+        "extract": {"x": 365, "y": 115, "w": 200, "h": 150, "icon": "🧠", "label": "Extract",
+                    "sub": "entities and relations\nwith descriptions\n(LLM per chunk)", "color": "purple"},
+        "summ": {"x": 590, "y": 115, "w": 200, "h": 150, "icon": "📝", "label": "Summarise",
+                 "sub": "merge duplicate\ndescriptions of\neach entity", "color": "purple"},
+        "comm": {"x": 815, "y": 115, "w": 200, "h": 150, "icon": "🫧", "label": "Communities",
+                 "sub": "Leiden clustering\nhierarchy of levels", "color": "purple"},
+        "reports": {"x": 1040, "y": 115, "w": 190, "h": 150, "icon": "📑", "label": "Reports",
+                    "sub": "LLM writes a report\nper community", "color": "purple"},
+        "local": {"x": 150, "y": 360, "w": 250, "h": 170, "icon": "📍", "label": "Local search",
+                  "sub": "entities in the question\nexpand neighbours\nfacts + source text", "color": "blue"},
+        "global": {"x": 425, "y": 360, "w": 250, "h": 170, "icon": "🌐", "label": "Global search",
+                   "sub": "map: each report\ngives scored points\nreduce: one answer", "color": "blue"},
+        "drift": {"x": 700, "y": 360, "w": 250, "h": 170, "icon": "🧭", "label": "DRIFT search",
+                  "sub": "start from reports\nthen drill down\nwith local search", "color": "blue"},
+        "basic": {"x": 975, "y": 360, "w": 255, "h": 170, "icon": "🔎", "label": "Basic search",
+                  "sub": "plain vector search\nover text units\n(the baseline)", "color": "gray"},
+    },
+    "edges": [
+        {"from": "units", "to": "extract", "solid": True},
+        {"from": "extract", "to": "summ", "solid": True},
+        {"from": "summ", "to": "comm", "solid": True},
+        {"from": "comm", "to": "reports", "solid": True},
+        {"from": "summ", "to": "local", "solid": True, "from_side": "bottom", "to_side": "top",
+         "via": [(690, 310), (275, 310)], "label": "entity graph", "label_at": (470, 300)},
+        {"from": "reports", "to": "global", "solid": True, "from_side": "bottom", "to_side": "top",
+         "via": [(1135, 330), (550, 330)], "label": "reports", "label_at": (900, 320)},
+    ],
+    "notes": [
+        {"x": 630, "y": 610, "text": "Indexing makes many LLM calls once; queries reuse the graph and reports. Pick the mode by the question: specific, global, both, or simple look-up.", "size": 13.5},
+    ],
+}

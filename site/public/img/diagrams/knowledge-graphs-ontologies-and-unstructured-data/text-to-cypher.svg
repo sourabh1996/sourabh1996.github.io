@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1220 620" width="1220" height="620" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="A text-to-Cypher agent that checks its own queries">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1218" height="618" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">A text-to-Cypher agent that checks its own queries</text>
+<path d="M230.0,240.0 L280.0,240.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M490.0,240.0 L540.0,240.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M750.0,240.0 L800.0,240.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="753.5" y="217.0" width="43.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="775.0" y="231.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">valid</text>
+<path d="M990.0,240.0 L1030.0,240.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="992.0" y="217.0" width="36.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="1010.0" y="231.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">rows</text>
+<path d="M645.0,170.0 L645.0,125.0 L385.0,125.0 L385.0,170.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="441.0" y="101.0" width="148.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="515" y="115.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">error message: retry</text>
+<path d="M385.0,400.0 L385.0,310.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M645.0,310.0 L645.0,400.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="592.0" y="332.0" width="106.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="645.0" y="346.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">too many tries</text>
+<rect x="40" y="170" width="190" height="140" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="135.0" y="225.0" font-size="28" text-anchor="middle">💬</text>
+<text x="135.0" y="248.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Question</text>
+<text x="135.0" y="268.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&#x27;Which suppliers does</text><text x="135.0" y="283.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Ravi&#x27;s team manage?&#x27;</text>
+<rect x="280" y="170" width="210" height="140" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="385.0" y="217.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="385.0" y="240.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Generate</text>
+<text x="385.0" y="260.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">LLM writes Cypher</text><text x="385.0" y="275.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">from schema +</text><text x="385.0" y="291.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">examples</text>
+<rect x="540" y="170" width="210" height="140" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="645.0" y="217.0" font-size="28" text-anchor="middle">🛡️</text>
+<text x="645.0" y="240.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Validate</text>
+<text x="645.0" y="260.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">read-only? known labels,</text><text x="645.0" y="275.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">types, directions,</text><text x="645.0" y="291.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">properties? add LIMIT</text>
+<rect x="800" y="170" width="190" height="140" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="895.0" y="217.0" font-size="28" text-anchor="middle">🗄️</text>
+<text x="895.0" y="240.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Execute</text>
+<text x="895.0" y="260.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">read transaction</text><text x="895.0" y="275.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">read-only user</text><text x="895.0" y="291.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">timeout</text>
+<rect x="1030" y="170" width="160" height="140" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="1110.0" y="225.0" font-size="28" text-anchor="middle">✅</text>
+<text x="1110.0" y="248.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Answer</text>
+<text x="1110.0" y="268.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">rows to words</text><text x="1110.0" y="283.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">show the query</text>
+<rect x="280" y="400" width="210" height="120" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="385.0" y="445.0" font-size="28" text-anchor="middle">📐</text>
+<text x="385.0" y="468.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Graph schema</text>
+<text x="385.0" y="488.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">labels, properties</text><text x="385.0" y="503.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">and directions</text>
+<rect x="540" y="400" width="210" height="120" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="645.0" y="445.0" font-size="28" text-anchor="middle">🙅</text>
+<text x="645.0" y="468.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Give up politely</text>
+<text x="645.0" y="488.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">after 3 attempts</text><text x="645.0" y="503.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">report the last error</text>
+<text x="610" y="580.0" font-size="13.5" font-weight="500" fill="#57606a" text-anchor="middle">The schema check catches the two commonest mistakes, wrong directions and invented names, and its message tells the model how to fix them.</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Entity resolution: many mentions, one supplier">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1198" height="598" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#5b3fa0"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Entity resolution: many mentions, one supplier</text>
+<rect x="20" y="80" width="1160" height="200" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="90" width="110" height="180" rx="10" fill="#2f5fb3"/>
+<text x="85.0" y="188.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Prepare</text>
+<rect x="20" y="300" width="1160" height="230" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="310" width="110" height="210" rx="10" fill="#5b3fa0"/>
+<text x="85.0" y="423.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Resolve</text>
+<path d="M380.0,180.0 L420.0,180.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M640.0,180.0 L680.0,180.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M900.0,180.0 L940.0,180.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1050.0,250.0 L1050.0,290.0 L265.0,290.0 L265.0,330.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M380.0,415.0 L420.0,415.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M640.0,415.0 L680.0,415.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M900.0,415.0 L940.0,415.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="150" y="110" width="230" height="140" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="265.0" y="157.0" font-size="28" text-anchor="middle">📥</text>
+<text x="265.0" y="180.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">15 mentions</text>
+<text x="265.0" y="200.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&#x27;DECCAN MILLETS PVT. LTD.&#x27;</text><text x="265.0" y="215.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&#x27;Deccan Millets&#x27;</text><text x="265.0" y="231.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&#x27;Kachchh Salt Works&#x27;</text>
+<rect x="420" y="110" width="220" height="140" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="530.0" y="157.0" font-size="28" text-anchor="middle">🧹</text>
+<text x="530.0" y="180.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Normalise</text>
+<text x="530.0" y="200.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">lower case, no punctuation</text><text x="530.0" y="215.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">drop Pvt Ltd, Co.</text><text x="530.0" y="231.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">fix OCR 0 to o</text>
+<rect x="680" y="110" width="220" height="140" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="790.0" y="157.0" font-size="28" text-anchor="middle">🧺</text>
+<text x="790.0" y="180.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Block</text>
+<text x="790.0" y="200.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">compare only pairs that</text><text x="790.0" y="215.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">share a name word,</text><text x="790.0" y="231.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">city or PAN</text>
+<rect x="940" y="110" width="220" height="140" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="1050.0" y="157.0" font-size="28" text-anchor="middle">⚖️</text>
+<text x="1050.0" y="180.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Compare</text>
+<text x="1050.0" y="200.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">same PAN: match</text><text x="1050.0" y="215.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">different PAN: non-match</text><text x="1050.0" y="231.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">else name similarity</text>
+<rect x="150" y="330" width="230" height="170" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="265.0" y="392.0" font-size="28" text-anchor="middle">🚦</text>
+<text x="265.0" y="415.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Three-way decision</text>
+<text x="265.0" y="435.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">match (0.90 and up)</text><text x="265.0" y="450.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">review (0.40 to 0.90)</text><text x="265.0" y="466.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">non-match (below)</text>
+<rect x="420" y="330" width="220" height="170" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="530.0" y="392.0" font-size="28" text-anchor="middle">🧩</text>
+<text x="530.0" y="415.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Cluster</text>
+<text x="530.0" y="435.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">union-find joins matches</text><text x="530.0" y="450.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">conflict check:</text><text x="530.0" y="466.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">never two PANs in one</text>
+<rect x="680" y="330" width="220" height="170" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="790.0" y="392.0" font-size="28" text-anchor="middle">🙋</text>
+<text x="790.0" y="415.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Review the middle</text>
+<text x="790.0" y="435.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">LLM or person decides</text><text x="790.0" y="450.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&#x27;Kutch&#x27; = &#x27;Kachchh&#x27;</text><text x="790.0" y="466.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">say no if unsure</text>
+<rect x="940" y="330" width="220" height="170" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="1050.0" y="392.0" font-size="28" text-anchor="middle">🏷️</text>
+<text x="1050.0" y="415.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Canonical record</text>
+<text x="1050.0" y="435.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">stable ID from PAN</text><text x="1050.0" y="450.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">best name + aliases</text><text x="1050.0" y="466.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">MERGE into the graph</text>
+<text x="600" y="570.0" font-size="13.5" font-weight="500" fill="#57606a" text-anchor="middle">Result for the invoice pile: 15 spellings become 8 suppliers. Wrong merges cost more than missed ones, so the rules lean towards keeping records apart.</text>
+</svg>

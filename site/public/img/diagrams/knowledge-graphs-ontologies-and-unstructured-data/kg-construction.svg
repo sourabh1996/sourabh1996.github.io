@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="From a folder of documents to a knowledge graph">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1198" height="638" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">From a folder of documents to a knowledge graph</text>
+<rect x="20" y="80" width="1160" height="210" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="90" width="110" height="190" rx="10" fill="#5b3fa0"/>
+<text x="85.0" y="193.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Extract</text>
+<rect x="20" y="310" width="1160" height="250" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="320" width="110" height="230" rx="10" fill="#1f766d"/>
+<text x="85.0" y="443.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Build</text>
+<path d="M370.0,185.0 L410.0,185.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M630.0,185.0 L670.0,185.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M900.0,185.0 L940.0,185.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1050.0,255.0 L1050.0,300.0 L260.0,300.0 L260.0,350.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M370.0,430.0 L410.0,430.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M630.0,430.0 L670.0,430.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M900.0,430.0 L940.0,430.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="150" y="115" width="220" height="140" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="260.0" y="170.0" font-size="28" text-anchor="middle">📂</text>
+<text x="260.0" y="193.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Documents</text>
+<text x="260.0" y="213.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">notes, emails, reports</text><text x="260.0" y="228.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">8 files at Kiran Foods</text>
+<rect x="410" y="115" width="220" height="140" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="520.0" y="162.0" font-size="28" text-anchor="middle">✂️</text>
+<text x="520.0" y="185.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Chunks</text>
+<text x="520.0" y="205.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">~1,000 words each</text><text x="520.0" y="220.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">with overlap</text><text x="520.0" y="236.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">id: doc03#c2</text>
+<rect x="670" y="115" width="230" height="140" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="785.0" y="162.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="785.0" y="185.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LLM extraction</text>
+<text x="785.0" y="205.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">one call per chunk</text><text x="785.0" y="220.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">only ontology patterns</text><text x="785.0" y="236.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">(:Person)-[:LEADS]-&gt;(:Project)</text>
+<rect x="940" y="115" width="220" height="140" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="1050.0" y="162.0" font-size="28" text-anchor="middle">✅</text>
+<text x="1050.0" y="185.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Validate</text>
+<text x="1050.0" y="205.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">domain and range</text><text x="1050.0" y="220.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">names in the text</text><text x="1050.0" y="236.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">safe auto-fixes logged</text>
+<rect x="150" y="350" width="220" height="160" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="260.0" y="407.0" font-size="28" text-anchor="middle">🔗</text>
+<text x="260.0" y="430.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Resolve entities</text>
+<text x="260.0" y="450.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&#x27;FrostLine&#x27; =</text><text x="260.0" y="465.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&#x27;FrostLine Cold Chain&#x27;</text><text x="260.0" y="481.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">same type only</text>
+<rect x="410" y="350" width="220" height="160" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="520.0" y="407.0" font-size="28" text-anchor="middle">🕸️</text>
+<text x="520.0" y="430.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Merge with provenance</text>
+<text x="520.0" y="450.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">MERGE on name + type</text><text x="520.0" y="465.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">sources on every</text><text x="520.0" y="481.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">node and edge</text>
+<rect x="670" y="350" width="230" height="160" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="785.0" y="407.0" font-size="28" text-anchor="middle">🩺</text>
+<text x="785.0" y="430.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Quality checks</text>
+<text x="785.0" y="450.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">orphans, single-source</text><text x="785.0" y="465.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">leaves, domain rules</text><text x="785.0" y="481.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">(supplier needs a manager)</text>
+<rect x="940" y="350" width="220" height="160" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="1050.0" y="407.0" font-size="28" text-anchor="middle">🔄</text>
+<text x="1050.0" y="430.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Keep in step</text>
+<text x="1050.0" y="450.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">new document: extract</text><text x="1050.0" y="465.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">and merge</text><text x="1050.0" y="481.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">deleted: drop its sources</text>
+<text x="600" y="600.0" font-size="13.5" font-weight="500" fill="#57606a" text-anchor="middle">Domain graph (entities and relations) plus lexical graph (documents and chunks), joined by &#x27;came from&#x27; links.</text>
+</svg>
