@@ -1,0 +1,35 @@
+# Module 4 central idea: a skill folder, loaded in three levels, portable across agents.
+SPEC = {
+    "title": "Agent skills: one folder, loaded only as far as needed",
+    "accent": "amber",
+    "width": 1100, "height": 660,
+    "groups": [
+        {"x": 30, "y": 90, "w": 330, "h": 500, "label": "The skill folder", "color": "amber"},
+        {"x": 400, "y": 90, "w": 400, "h": 500, "label": "Progressive disclosure", "color": "purple"},
+        {"x": 840, "y": 90, "w": 230, "h": 500, "label": "Works in", "color": "green"},
+    ],
+    "nodes": {
+        "front": {"x": 60, "y": 130, "w": 270, "h": 100, "icon": "🏷️", "label": "SKILL.md frontmatter",
+                  "sub": "name + description\n(what + when)", "color": "amber"},
+        "body": {"x": 60, "y": 285, "w": 270, "h": 100, "icon": "📝", "label": "SKILL.md body",
+                 "sub": "steps, rules, format,\npointers to files", "color": "amber"},
+        "files": {"x": 60, "y": 440, "w": 270, "h": 110, "icon": "🗂️", "label": "Optional files",
+                  "sub": "scripts/  run, not read\nreferences/  read if needed\nassets/  templates", "color": "amber"},
+        "l1": {"x": 430, "y": 130, "w": 340, "h": 100, "icon": "1️⃣", "label": "Always: catalog",
+               "sub": "~50-100 tokens per skill", "color": "purple"},
+        "l2": {"x": 430, "y": 285, "w": 340, "h": 100, "icon": "2️⃣", "label": "On match: instructions",
+               "sub": "under ~5,000 tokens", "color": "purple"},
+        "l3": {"x": 430, "y": 440, "w": 340, "h": 110, "icon": "3️⃣", "label": "On demand: resources",
+               "sub": "only the file a step needs;\nscript output, not source", "color": "purple"},
+        "agents": {"x": 865, "y": 130, "w": 180, "h": 420, "icon": "🤝", "label": "Many agents",
+                   "sub": "Claude Code\nClaude API\nCodex\nGemini CLI\nCopilot / VS Code\nCursor\n...", "color": "green"},
+    },
+    "edges": [
+        {"from": "front", "to": "l1", "from_side": "right", "to_side": "left"},
+        {"from": "body", "to": "l2", "from_side": "right", "to_side": "left"},
+        {"from": "files", "to": "l3", "from_side": "right", "to_side": "left"},
+        {"from": "l1", "to": "l2", "from_side": "bottom", "to_side": "top", "label": "task matches"},
+        {"from": "l2", "to": "l3", "from_side": "bottom", "to_side": "top", "label": "step needs a file"},
+    ],
+    "notes": [{"x": 550, "y": 625, "text": "Open standard (agentskills.io): write once, use in any compatible agent"}],
+}

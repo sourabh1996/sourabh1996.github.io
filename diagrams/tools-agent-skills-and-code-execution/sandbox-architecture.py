@@ -1,0 +1,38 @@
+# Sandbox architecture: the harness (brain) keeps secrets; model-written code runs in an isolated sandbox (hands).
+SPEC = {
+    "title": "Running agent code safely: brain outside, hands in a sandbox",
+    "accent": "teal",
+    "width": 1100, "height": 640,
+    "groups": [
+        {"x": 30, "y": 90, "w": 330, "h": 470, "label": "Harness (trusted)", "color": "purple"},
+        {"x": 410, "y": 90, "w": 330, "h": 470, "label": "Sandbox (untrusted code)", "color": "coral"},
+        {"x": 790, "y": 90, "w": 280, "h": 470, "label": "Outside world", "color": "gray"},
+    ],
+    "nodes": {
+        "model": {"x": 60, "y": 130, "w": 270, "h": 90, "icon": "🧠", "label": "Model + agent loop",
+                  "sub": "writes code, reads output", "color": "purple"},
+        "secrets": {"x": 60, "y": 250, "w": 270, "h": 90, "icon": "🔑", "label": "Credentials stay here",
+                    "sub": "API keys, tokens, DB passwords", "color": "purple"},
+        "bridge": {"x": 60, "y": 370, "w": 270, "h": 150, "icon": "🌉", "label": "Tool bridge",
+                   "sub": "runs tool calls the code asks\nfor; checks permissions,\nvalidates, logs, rate-limits", "color": "purple"},
+        "code": {"x": 440, "y": 130, "w": 270, "h": 90, "icon": "🐍", "label": "Model-written code",
+                 "sub": "python / bash", "color": "coral"},
+        "limits": {"x": 440, "y": 250, "w": 270, "h": 110, "icon": "⏱️", "label": "Limits",
+                   "sub": "CPU, memory, disk, processes,\nwall-clock timeout", "color": "amber"},
+        "fs": {"x": 440, "y": 390, "w": 270, "h": 130, "icon": "📁", "label": "Scratch workspace",
+               "sub": "only mounted files;\nno home dir, no host secrets;\nthrown away after", "color": "teal"},
+        "proxy": {"x": 815, "y": 120, "w": 230, "h": 110, "icon": "🚦", "label": "Egress proxy",
+                  "sub": "allowlist: pypi.org,\napi.github.com; else deny", "color": "green"},
+        "net": {"x": 815, "y": 300, "w": 230, "h": 100, "icon": "🌐", "label": "Internet / APIs",
+                "sub": "reached only via proxy\nor via the bridge", "color": "gray"},
+    },
+    "edges": [
+        {"from": "model", "to": "code", "label": "run this", "from_side": "right", "to_side": "left"},
+        {"from": "code", "to": "bridge", "label": "tool call", "from_side": "bottom", "to_side": "right",
+         "via": [(575, 235), (385, 235), (385, 445)]},
+        {"from": "code", "to": "proxy", "label": "network", "from_side": "right", "to_side": "left"},
+        {"from": "proxy", "to": "net", "from_side": "bottom", "to_side": "top"},
+        {"from": "secrets", "to": "bridge", "from_side": "bottom", "to_side": "top"},
+    ],
+    "notes": [{"x": 550, "y": 600, "text": "Isolation strength: process < OS sandbox < container < gVisor < microVM < VM"}],
+}

@@ -12,30 +12,30 @@ Give agents capabilities the right way: tools models use well, tool search for l
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Writing Tools for Agents ➕ (4 lessons)
-- Naming, Descriptions and Parameters · Article ➕
-- Returning Just Enough · Article ➕
-- Error Messages that Help the Agent Recover · Article ➕
-- Evaluating Tools with an Agent in the Loop · Article ➕
+- [Naming, Descriptions and Parameters](02-writing-tools-for-agents/naming-descriptions-and-parameters.md) · Article ➕ ✍️ *written*
+- [Returning Just Enough](02-writing-tools-for-agents/returning-just-enough.md) · Article ➕ ✍️ *written*
+- [Error Messages that Help the Agent Recover](02-writing-tools-for-agents/error-messages-that-help-the-agent-recover.md) · Article ➕ ✍️ *written*
+- [Evaluating Tools with an Agent in the Loop](02-writing-tools-for-agents/evaluating-tools-with-an-agent-in-the-loop.md) · Article ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. Scaling to Many Tools ➕ (5 lessons)
-- Why Hundreds of Tool Schemas Break Agents · Article ➕
-- Tool Search and Deferred Loading · Article ➕
-- Code Execution: Agents that Write Code against Tools · Article ➕
-- Sandboxes for Running Agent Code · Article ➕
-- Lab: Agent with a code-execution sandbox · Lab ➕
+- [Why Hundreds of Tool Schemas Break Agents](03-scaling-to-many-tools/why-hundreds-of-tool-schemas-break-agents.md) · Article ➕ ✍️ *written*
+- [Tool Search and Deferred Loading](03-scaling-to-many-tools/tool-search-and-deferred-loading.md) · Article ➕ ✍️ *written*
+- [Code Execution: Agents that Write Code against Tools](03-scaling-to-many-tools/code-execution-agents-that-write-code-against-tools.md) · Article ➕ ✍️ *written*
+- [Sandboxes for Running Agent Code](03-scaling-to-many-tools/sandboxes-for-running-agent-code.md) · Article ➕ ✍️ *written*
+- [Lab: Agent with a code-execution sandbox](03-scaling-to-many-tools/lab-agent-with-a-code-execution-sandbox.md) · Lab ➕ ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Agent Skills ➕ (8 lessons)
-- What is an Agent Skill? · Article ➕
-- Anatomy of a Skill Folder and SKILL.md · Article ➕
-- Progressive Disclosure: Discovery, Activation, Execution · Article ➕
-- Writing Descriptions that Trigger Correctly · Article ➕
-- Bundling Scripts and Reference Files · Article ➕
-- Skills vs MCP vs Subagents vs Prompts · Article ➕
-- Testing, Versioning and Sharing Skills · Article ➕
-- Lab: Write a skill and use it in two different agents · Lab ➕
+- [What is an Agent Skill?](04-agent-skills/what-is-an-agent-skill.md) · Article ➕ ✍️ *written*
+- [Anatomy of a Skill Folder and SKILL.md](04-agent-skills/anatomy-of-a-skill-folder-and-skill-md.md) · Article ➕ ✍️ *written*
+- [Progressive Disclosure: Discovery, Activation, Execution](04-agent-skills/progressive-disclosure-discovery-activation-execution.md) · Article ➕ ✍️ *written*
+- [Writing Descriptions that Trigger Correctly](04-agent-skills/writing-descriptions-that-trigger-correctly.md) · Article ➕ ✍️ *written*
+- [Bundling Scripts and Reference Files](04-agent-skills/bundling-scripts-and-reference-files.md) · Article ➕ ✍️ *written*
+- [Skills vs MCP vs Subagents vs Prompts](04-agent-skills/skills-vs-mcp-vs-subagents-vs-prompts.md) · Article ➕ ✍️ *written*
+- [Testing, Versioning and Sharing Skills](04-agent-skills/testing-versioning-and-sharing-skills.md) · Article ➕ ✍️ *written*
+- [Lab: Write a skill and use it in two different agents](04-agent-skills/lab-write-a-skill-and-use-it-in-two-different-agents.md) · Lab ➕ ✍️ *written*

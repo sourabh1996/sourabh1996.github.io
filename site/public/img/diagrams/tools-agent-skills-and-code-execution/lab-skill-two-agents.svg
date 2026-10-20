@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" width="1100" height="600" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Lab: one skill, two agent harnesses">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="598" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#9a6412"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Lab: one skill, two agent harnesses</text>
+<rect x="30" y="90" width="300" height="450" rx="14" fill="none" stroke="#e0b25c" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="130.0" y="75" width="100.0" height="30" rx="15" fill="#9a6412"/>
+<text x="180.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Repository</text>
+<rect x="370" y="90" width="700" height="200" rx="14" fill="none" stroke="#a68be0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="519.5" y="75" width="401.0" height="30" rx="15" fill="#5b3fa0"/>
+<text x="720.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Agent A: file-read (Claude Code, Codex style)</text>
+<rect x="370" y="330" width="700" height="210" rx="14" fill="none" stroke="#6cc3b8" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="528.1" y="315" width="383.8" height="30" rx="15" fill="#1f766d"/>
+<text x="720.0" y="335.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Agent B: activation tool (Gemini CLI style)</text>
+<path d="M180.0,370.0 L180.0,250.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="151.5" y="287.0" width="57.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="180.0" y="301.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">symlink</text>
+<path d="M305.0,200.0 L395.0,200.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M595.0,200.0 L625.0,200.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M825.0,200.0 L855.0,200.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M305.0,445.0 L395.0,445.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M595.0,445.0 L625.0,445.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M825.0,445.0 L855.0,445.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="55" y="370" width="250" height="150" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="180.0" y="412.0" font-size="28" text-anchor="middle">📁</text>
+<text x="180.0" y="435.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">.agents/skills/</text><text x="180.0" y="455.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">restock-order</text>
+<text x="180.0" y="475.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">SKILL.md</text><text x="180.0" y="490.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">scripts/restock.py</text><text x="180.0" y="506.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">assets/po-template.md</text>
+<rect x="55" y="150" width="250" height="100" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="180.0" y="193.0" font-size="28" text-anchor="middle">🔗</text>
+<text x="180.0" y="216.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">.claude/skills/</text>
+<text x="180.0" y="236.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">link to the same folder</text>
+<rect x="395" y="135" width="200" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="495.0" y="185.0" font-size="28" text-anchor="middle">📋</text>
+<text x="495.0" y="208.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Catalog</text>
+<text x="495.0" y="228.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">name, description,</text><text x="495.0" y="243.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">SKILL.md location</text>
+<rect x="625" y="135" width="200" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="725.0" y="185.0" font-size="28" text-anchor="middle">📖</text>
+<text x="725.0" y="208.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">read_file</text>
+<text x="725.0" y="228.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">loads SKILL.md</text><text x="725.0" y="243.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">(whole file)</text>
+<rect x="855" y="135" width="190" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="950.0" y="185.0" font-size="28" text-anchor="middle">▶️</text>
+<text x="950.0" y="208.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">run_command</text>
+<text x="950.0" y="228.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">script in the</text><text x="950.0" y="243.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">skill folder</text>
+<rect x="395" y="375" width="200" height="140" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="495.0" y="430.0" font-size="28" text-anchor="middle">📋</text>
+<text x="495.0" y="453.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Catalog</text>
+<text x="495.0" y="473.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&lt;available_skills&gt;</text><text x="495.0" y="488.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">name + description</text>
+<rect x="625" y="375" width="200" height="140" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="725.0" y="422.0" font-size="28" text-anchor="middle">✅</text>
+<text x="725.0" y="445.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">activate_skill</text>
+<text x="725.0" y="465.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">name enum, consent,</text><text x="725.0" y="480.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">wrapped body,</text><text x="725.0" y="496.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">file list</text>
+<rect x="855" y="375" width="190" height="140" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="950.0" y="430.0" font-size="28" text-anchor="middle">▶️</text>
+<text x="950.0" y="453.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">run_command</text>
+<text x="950.0" y="473.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">same script,</text><text x="950.0" y="488.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">same PO</text>
+<text x="550" y="575.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Same folder, different harness, identical purchase order</text>
+</svg>

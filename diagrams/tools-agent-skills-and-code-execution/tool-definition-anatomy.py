@@ -1,0 +1,37 @@
+# Module 2, lesson 1: the parts of a tool definition and who checks what.
+SPEC = {
+    "title": "Anatomy of a production tool definition",
+    "accent": "blue",
+    "width": 1100, "height": 640,
+    "groups": [
+        {"x": 30, "y": 100, "w": 330, "h": 420, "label": "What the model reads", "color": "blue"},
+        {"x": 740, "y": 100, "w": 330, "h": 420, "label": "What enforces it", "color": "green"},
+    ],
+    "nodes": {
+        "name": {"x": 55, "y": 130, "w": 280, "h": 100, "icon": "🏷️", "label": "Name",
+                 "sub": "mandimart_refunds_create\nservice + resource + action", "color": "blue"},
+        "desc": {"x": 55, "y": 250, "w": 280, "h": 110, "icon": "📝", "label": "Description",
+                 "sub": "what, when, when not,\nwhat returns, surprises", "color": "blue"},
+        "schema": {"x": 55, "y": 380, "w": 280, "h": 115, "icon": "🧩", "label": "Parameter schema",
+                   "sub": "clear names + units, enums,\nformats with examples,\nno extra keys", "color": "blue"},
+        "model": {"x": 430, "y": 250, "w": 240, "h": 110, "icon": "🤖", "label": "Model picks",
+                  "sub": "which tool (name + desc)\nwhich arguments (schema)", "color": "purple"},
+        "strict": {"x": 765, "y": 130, "w": 280, "h": 100, "icon": "🔒", "label": "Strict mode",
+                   "sub": "guarantees the JSON shape", "color": "green"},
+        "valid": {"x": 765, "y": 250, "w": 280, "h": 110, "icon": "✅", "label": "Harness validation",
+                  "sub": "order exists? amount in policy?\nuser agreed?", "color": "green"},
+        "run": {"x": 765, "y": 380, "w": 280, "h": 115, "icon": "⚙️", "label": "Tool runs",
+                "sub": "limits also enforced\ninside the tool's code", "color": "green"},
+        "pyd": {"x": 55, "y": 545, "w": 280, "h": 70, "label": "🐍 Pydantic model generates it", "color": "amber", "size": 14},
+        "ex": {"x": 430, "y": 545, "w": 240, "h": 70, "label": "💡 input_examples show good calls", "color": "amber", "size": 13},
+        "lint": {"x": 765, "y": 545, "w": 280, "h": 70, "label": "🧹 Linter + evals keep it good", "color": "amber", "size": 14},
+    },
+    "edges": [
+        {"from": "desc", "to": "model", "label": "read every turn"},
+        {"from": "model", "to": "valid", "label": "proposed call"},
+        {"from": "strict", "to": "valid", "from_side": "bottom", "to_side": "top"},
+        {"from": "valid", "to": "run", "from_side": "bottom", "to_side": "top"},
+        {"from": "pyd", "to": "schema", "from_side": "top", "to_side": "bottom"},
+        {"from": "ex", "to": "model", "from_side": "top", "to_side": "bottom"},
+    ],
+}

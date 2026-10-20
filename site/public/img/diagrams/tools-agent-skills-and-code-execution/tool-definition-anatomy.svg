@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Anatomy of a production tool definition">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="638" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Anatomy of a production tool definition</text>
+<rect x="30" y="100" width="330" height="420" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="102.0" y="85" width="186.0" height="30" rx="15" fill="#2f5fb3"/>
+<text x="195.0" y="105.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">What the model reads</text>
+<rect x="740" y="100" width="330" height="420" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="829.2" y="85" width="151.6" height="30" rx="15" fill="#2e7d4f"/>
+<text x="905.0" y="105.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">What enforces it</text>
+<path d="M335.0,305.0 L430.0,305.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="326.0" y="282.0" width="113.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="382.5" y="296.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">read every turn</text>
+<path d="M670.0,305.0 L765.0,305.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="668.0" y="282.0" width="99.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="717.5" y="296.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">proposed call</text>
+<path d="M905.0,230.0 L905.0,250.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M905.0,360.0 L905.0,380.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M195.0,545.0 L195.0,495.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M550.0,545.0 L550.0,360.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="55" y="130" width="280" height="100" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="195.0" y="165.0" font-size="28" text-anchor="middle">🏷️</text>
+<text x="195.0" y="188.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Name</text>
+<text x="195.0" y="208.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">mandimart_refunds_create</text><text x="195.0" y="223.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">service + resource + action</text>
+<rect x="55" y="250" width="280" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="195.0" y="290.0" font-size="28" text-anchor="middle">📝</text>
+<text x="195.0" y="313.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Description</text>
+<text x="195.0" y="333.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">what, when, when not,</text><text x="195.0" y="348.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">what returns, surprises</text>
+<rect x="55" y="380" width="280" height="115" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="195.0" y="414.5" font-size="28" text-anchor="middle">🧩</text>
+<text x="195.0" y="437.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Parameter schema</text>
+<text x="195.0" y="457.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">clear names + units, enums,</text><text x="195.0" y="473.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">formats with examples,</text><text x="195.0" y="488.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">no extra keys</text>
+<rect x="430" y="250" width="240" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="550.0" y="290.0" font-size="28" text-anchor="middle">🤖</text>
+<text x="550.0" y="313.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Model picks</text>
+<text x="550.0" y="333.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">which tool (name + desc)</text><text x="550.0" y="348.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">which arguments (schema)</text>
+<rect x="765" y="130" width="280" height="100" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="905.0" y="173.0" font-size="28" text-anchor="middle">🔒</text>
+<text x="905.0" y="196.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Strict mode</text>
+<text x="905.0" y="216.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">guarantees the JSON shape</text>
+<rect x="765" y="250" width="280" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="905.0" y="290.0" font-size="28" text-anchor="middle">✅</text>
+<text x="905.0" y="313.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Harness validation</text>
+<text x="905.0" y="333.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">order exists? amount in policy?</text><text x="905.0" y="348.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">user agreed?</text>
+<rect x="765" y="380" width="280" height="115" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="905.0" y="422.5" font-size="28" text-anchor="middle">⚙️</text>
+<text x="905.0" y="445.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Tool runs</text>
+<text x="905.0" y="465.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">limits also enforced</text><text x="905.0" y="481.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">inside the tool&#x27;s code</text>
+<rect x="55" y="545" width="280" height="70" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="195.0" y="585.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">🐍 Pydantic model generates it</text>
+<rect x="430" y="545" width="240" height="70" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="550.0" y="585.0" font-size="13" font-weight="700" fill="#1f2328" text-anchor="middle">💡 input_examples show good calls</text>
+<rect x="765" y="545" width="280" height="70" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="905.0" y="585.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">🧹 Linter + evals keep it good</text>
+</svg>
