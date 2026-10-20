@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 680" width="1100" height="680" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="A LanceDB table is a folder of files">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="678" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2e7d4f"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">A LanceDB table is a folder of files</text>
+<rect x="30" y="95" width="640" height="470" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="269.9" y="80" width="160.2" height="30" rx="15" fill="#2e7d4f"/>
+<text x="350.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">help_centre.lance</text>
+<rect x="700" y="95" width="370" height="470" rx="14" fill="none" stroke="#b8bec6" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="783.4" y="80" width="203.2" height="30" rx="15" fill="#4b5563"/>
+<text x="885.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Where the folder lives</text>
+<path d="M350.0,235.0 L197.5,260.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M340.0,322.5 L360.0,322.5" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M645.0,182.5 L725.0,182.5" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="55" y="130" width="590" height="105" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="350.0" y="167.5" font-size="28" text-anchor="middle">🧱</text>
+<text x="350.0" y="190.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Columns, stored separately</text>
+<text x="350.0" y="210.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">id | text | topic | lang | views | vector[384]</text><text x="350.0" y="226.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">read only the columns a query needs</text>
+<rect x="55" y="260" width="285" height="125" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="197.5" y="307.5" font-size="28" text-anchor="middle">📦</text>
+<text x="197.5" y="330.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Data fragments</text>
+<text x="197.5" y="350.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">each add() writes new files;</text><text x="197.5" y="366.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">old files are never edited</text>
+<rect x="360" y="260" width="285" height="125" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="502.5" y="299.5" font-size="28" text-anchor="middle">🕰️</text>
+<text x="502.5" y="322.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Versions</text>
+<text x="502.5" y="342.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">v1: 8 rows, v2: +2 rows</text><text x="502.5" y="358.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">v3: 1 row deleted</text><text x="502.5" y="373.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">checkout any version</text>
+<rect x="55" y="410" width="590" height="125" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="350.0" y="449.5" font-size="28" text-anchor="middle">🗂️</text>
+<text x="350.0" y="472.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Indexes</text>
+<text x="350.0" y="492.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">vector: IVF_PQ or IVF_HNSW_SQ</text><text x="350.0" y="508.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">full text: words in the text column</text><text x="350.0" y="523.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">scalar: lang, topic (fast where filters)</text>
+<rect x="725" y="130" width="320" height="105" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="885.0" y="167.5" font-size="28" text-anchor="middle">💻</text>
+<text x="885.0" y="190.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Local disk</text>
+<text x="885.0" y="210.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">lancedb.connect(&quot;./data&quot;)</text><text x="885.0" y="226.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">embedded in your process</text>
+<rect x="725" y="260" width="320" height="125" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="885.0" y="307.5" font-size="28" text-anchor="middle">🪣</text>
+<text x="885.0" y="330.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Object storage</text>
+<text x="885.0" y="350.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">connect(&quot;s3://bucket/path&quot;)</text><text x="885.0" y="366.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">many readers, cheap storage</text>
+<rect x="725" y="410" width="320" height="125" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="885.0" y="457.5" font-size="28" text-anchor="middle">☁️</text>
+<text x="885.0" y="480.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LanceDB Cloud</text>
+<text x="885.0" y="500.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">connect(&quot;db://...&quot;)</text><text x="885.0" y="516.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">managed service</text>
+<text x="550" y="610.0" font-size="14" font-weight="600" fill="#1f2328" text-anchor="middle">Search = vector index + SQL-style where filter over the other columns, in one query.</text>
+<text x="550" y="640.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Append-only files make versions free and let many processes read the same table safely.</text>
+</svg>

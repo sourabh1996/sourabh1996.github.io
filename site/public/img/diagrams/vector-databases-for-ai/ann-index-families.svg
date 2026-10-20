@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" width="1100" height="760" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Four ways to find nearest neighbours">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="758" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#5b3fa0"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Four ways to find nearest neighbours</text>
+<rect x="30" y="100" width="505" height="300" rx="14" fill="none" stroke="#b8bec6" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="150.8" y="85" width="263.4" height="30" rx="15" fill="#4b5563"/>
+<text x="282.5" y="105.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Flat: compare with everything</text>
+<rect x="565" y="100" width="505" height="300" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="672.9" y="85" width="289.2" height="30" rx="15" fill="#2f5fb3"/>
+<text x="817.5" y="105.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">IVF: search the nearest clusters</text>
+<rect x="30" y="440" width="505" height="300" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="163.7" y="425" width="237.6" height="30" rx="15" fill="#2e7d4f"/>
+<text x="282.5" y="445.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">HNSW: walk a layered graph</text>
+<rect x="565" y="440" width="505" height="300" rx="14" fill="none" stroke="#e0b25c" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="698.7" y="425" width="237.6" height="30" rx="15" fill="#9a6412"/>
+<text x="817.5" y="445.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">PQ: compress, then re-rank</text>
+<path d="M185.0,175.0 L225.0,175.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M367.5,215.0 L367.0,230.0 L282.0,230.0 L282.5,245.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M720.0,175.0 L760.0,175.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M902.5,215.0 L902.0,230.0 L695.0,230.0 L695.0,245.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M170.0,541.0 L170.0,565.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M170.0,631.0 L170.0,655.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800.0,515.0 L835.0,515.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M940.0,555.0 L940.0,590.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800.0,655.0 L835.0,655.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="55" y="135" width="130" height="80" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="120.0" y="176.0" font-size="28" text-anchor="middle">🎯</text>
+<text x="120.0" y="199.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Query</text>
+<rect x="225" y="135" width="285" height="80" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="367.5" y="172.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Score all N vectors</text>
+<text x="367.5" y="192.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">one matrix multiply</text>
+<rect x="55" y="245" width="455" height="130" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="282.5" y="291.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Exact top k</text>
+<text x="282.5" y="311.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">recall 1.0, work grows with N</text><text x="282.5" y="326.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">best under ~100,000 vectors</text><text x="282.5" y="342.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">or as ground truth for testing</text>
+<rect x="590" y="135" width="130" height="80" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="655.0" y="176.0" font-size="28" text-anchor="middle">🎯</text>
+<text x="655.0" y="199.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Query</text>
+<rect x="760" y="135" width="285" height="80" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="902.5" y="172.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Compare with nlist centroids</text>
+<text x="902.5" y="192.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">k-means cluster centres</text>
+<rect x="590" y="245" width="210" height="130" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="695.0" y="299.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Scan nprobe lists</text>
+<text x="695.0" y="319.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">only vectors in the</text><text x="695.0" y="334.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">closest clusters</text>
+<rect x="835" y="245" width="210" height="130" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="940.0" y="291.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Knob: nprobe</text>
+<text x="940.0" y="311.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">more lists = higher recall</text><text x="940.0" y="326.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">misses sit near borders</text><text x="940.0" y="342.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">needs training data</text>
+<rect x="55" y="475" width="230" height="66" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="170.0" y="505.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Top layer</text>
+<text x="170.0" y="525.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">few nodes, long hops</text>
+<rect x="55" y="565" width="230" height="66" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="170.0" y="595.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Middle layer</text>
+<text x="170.0" y="615.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">more nodes</text>
+<rect x="55" y="655" width="230" height="66" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="170.0" y="685.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Layer 0</text>
+<text x="170.0" y="705.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">every vector, near links</text>
+<rect x="310" y="475" width="200" height="246" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="410.0" y="531.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Knobs</text>
+<text x="410.0" y="551.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">M: links per node</text><text x="410.0" y="566.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="410.0" y="582.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">ef_construction:</text><text x="410.0" y="597.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">build quality</text><text x="410.0" y="613.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="410.0" y="629.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">ef_search:</text><text x="410.0" y="644.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">speed vs recall</text><text x="410.0" y="660.4" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="410.0" y="676.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">fast, RAM-hungry</text>
+<rect x="590" y="475" width="210" height="80" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="695.0" y="512.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">32 floats</text>
+<text x="695.0" y="532.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">128 bytes</text>
+<rect x="835" y="475" width="210" height="80" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="940.0" y="512.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">8 one-byte codes</text>
+<text x="940.0" y="532.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">[17, 203, 31, ... 64]</text>
+<rect x="590" y="590" width="210" height="130" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="695.0" y="644.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Lookup tables</text>
+<text x="695.0" y="664.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">approximate score =</text><text x="695.0" y="679.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">sum of 8 table lookups</text>
+<rect x="835" y="590" width="210" height="130" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="940.0" y="644.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Re-rank shortlist</text>
+<text x="940.0" y="664.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">exact scores for the</text><text x="940.0" y="679.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">top 50 restore recall</text>
+</svg>

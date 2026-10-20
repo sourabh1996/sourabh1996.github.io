@@ -1,0 +1,41 @@
+# Module 4 central idea: the ingestion pipeline and the query pipeline around any vector store.
+SPEC = {
+    "title": "An embedding-based retrieval pipeline",
+    "accent": "blue",
+    "width": 1100, "height": 720,
+    "bands": [
+        {"y": 80, "h": 175, "label": "Ingest", "color": "blue"},
+        {"y": 275, "h": 120, "label": "Store", "color": "teal"},
+        {"y": 415, "h": 175, "label": "Query", "color": "green"},
+    ],
+    "nodes": {
+        "src": {"x": 180, "y": 100, "w": 150, "h": 135, "icon": "📄", "label": "Sources", "sub": "docs, tickets,\nweb pages", "color": "blue"},
+        "chunk": {"x": 350, "y": 100, "w": 160, "h": 135, "icon": "✂️", "label": "Clean + chunk", "sub": "ids: doc#n\ncontent hash", "color": "blue"},
+        "diff": {"x": 530, "y": 100, "w": 160, "h": 135, "icon": "🔁", "label": "Diff", "sub": "new, changed,\nunchanged, gone", "color": "blue"},
+        "emb": {"x": 710, "y": 100, "w": 170, "h": 135, "icon": "🧮", "label": "Embed", "sub": "batches, retries,\ncache by hash", "color": "blue"},
+        "ups": {"x": 900, "y": 100, "w": 170, "h": 135, "icon": "⬆️", "label": "Upsert + delete", "sub": "vector, text,\nmetadata", "color": "blue"},
+        "store": {"x": 180, "y": 295, "w": 890, "h": 80, "icon": "🗄️", "label": "Vector store: help_centre__model-v2",
+                  "sub": "any tool from this module: Chroma, FAISS, Qdrant, Pinecone, LanceDB, MongoDB, Cassandra", "color": "teal"},
+        "q": {"x": 180, "y": 435, "w": 150, "h": 135, "icon": "❓", "label": "Question", "sub": "+ user, tenant,\nlanguage", "color": "green"},
+        "qe": {"x": 350, "y": 435, "w": 160, "h": 135, "icon": "🧮", "label": "Embed query", "sub": "same model\nas ingest", "color": "green"},
+        "srch": {"x": 530, "y": 435, "w": 160, "h": 135, "icon": "🔎", "label": "Search", "sub": "top k with\nfilters", "color": "green"},
+        "post": {"x": 710, "y": 435, "w": 170, "h": 135, "icon": "🧹", "label": "Post-process", "sub": "threshold, dedupe,\nrerank", "color": "green"},
+        "ctx": {"x": 900, "y": 435, "w": 170, "h": 135, "icon": "📋", "label": "Context", "sub": "chunks with\ncitations", "color": "green"},
+    },
+    "edges": [
+        {"from": "src", "to": "chunk", "solid": True},
+        {"from": "chunk", "to": "diff", "solid": True},
+        {"from": "diff", "to": "emb", "solid": True},
+        {"from": "emb", "to": "ups", "solid": True},
+        {"from": "ups", "to": "store", "from_side": "bottom", "to_side": "top", "via": [(985, 285)], "solid": True},
+        {"from": "q", "to": "qe", "solid": True},
+        {"from": "qe", "to": "srch", "solid": True},
+        {"from": "srch", "to": "store", "from_side": "top", "to_side": "bottom"},
+        {"from": "srch", "to": "post", "solid": True},
+        {"from": "post", "to": "ctx", "solid": True},
+    ],
+    "notes": [
+        {"x": 550, "y": 630, "text": "Ingest runs when content changes; query runs on every request. Both must use the same embedding model.", "size": 14, "weight": 600, "color": "#1f2328"},
+        {"x": 550, "y": 660, "text": "Version the store by model, measure recall@k on real questions, and keep deletes in sync with the sources.", "size": 13},
+    ],
+}
