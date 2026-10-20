@@ -145,10 +145,10 @@ The end-to-end check fails. Which commit broke it? With four commits you could g
 
 ```python
 git("bisect", "start", "HEAD", "main")          # bad = HEAD, good = main
-result = git("bisect", "run", "python3", "check.py")
+git("bisect", "run", "python3", "check.py")
+first_bad = git("rev-parse", "refs/bisect/bad")   # where the search ended
 git("bisect", "reset")
 
-first_bad = next(line.split()[0] for line in result.splitlines() if "is the first bad commit" in line)
 print("first bad commit:", git("log", "-1", "--format=%s", first_bad))
 print("what it changed:")
 print(git("show", "--format=", "--unified=0", first_bad, "--", "menu.py").splitlines()[-2:])
@@ -276,9 +276,9 @@ As the permissions lesson warned, text rules can be dodged (`git -c x=y push --f
 commit("F9: tweak GST (verified: none)", {"billing.py": (REPO / "billing.py").read_text().replace("gst=5", "gst=50")})
 commit("F10: add tea-of-the-day banner (verified: banner test)", {"banner.py": "BANNER = 'Cutting chai Rs 10'\n"})
 git("bisect", "start", "HEAD", "HEAD~3")
-out = git("bisect", "run", "python3", "check.py")
+git("bisect", "run", "python3", "check.py")
+bad = git("rev-parse", "refs/bisect/bad")
 git("bisect", "reset")
-bad = next(l.split()[0] for l in out.splitlines() if "is the first bad commit" in l)
 print(git("log", "-1", "--format=%s", bad))
 ```
 
