@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 620" width="1100" height="620" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Hybrid search + reranking: the production retrieval stack">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="618" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2e7d4f"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Hybrid search + reranking: the production retrieval stack</text>
+<rect x="20" y="80" width="1060" height="330" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="90" width="110" height="310" rx="10" fill="#2f5fb3"/>
+<text x="85.0" y="253.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Recall</text>
+<rect x="20" y="430" width="1060" height="170" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="440" width="110" height="150" rx="10" fill="#2e7d4f"/>
+<text x="85.0" y="523.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Precision</text>
+<path d="M310.0,240.0 L380.0,160.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M310.0,240.0 L380.0,320.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M570.0,160.0 L650.0,240.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M570.0,320.0 L650.0,240.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M830.0,240.0 L900.0,240.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M985.0,305.0 L985.0,455.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="956.5" y="357.0" width="57.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="985.0" y="371.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">rescore</text>
+<path d="M900.0,515.0 L830.0,515.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M650.0,515.0 L570.0,515.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="160" y="185" width="150" height="110" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="235.0" y="225.0" font-size="28" text-anchor="middle">❓</text>
+<text x="235.0" y="248.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Question</text>
+<text x="235.0" y="268.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;VPN error 720</text><text x="235.0" y="283.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">after the update&quot;</text>
+<rect x="380" y="100" width="190" height="120" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="475.0" y="145.0" font-size="28" text-anchor="middle">🔤</text>
+<text x="475.0" y="168.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">BM25 keyword</text>
+<text x="475.0" y="188.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">exact terms, codes,</text><text x="475.0" y="203.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">names, numbers</text>
+<rect x="380" y="260" width="190" height="120" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="475.0" y="305.0" font-size="28" text-anchor="middle">🧭</text>
+<text x="475.0" y="328.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Dense vectors</text>
+<text x="475.0" y="348.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">meaning, synonyms,</text><text x="475.0" y="363.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">paraphrases</text>
+<rect x="650" y="175" width="180" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="740.0" y="225.0" font-size="28" text-anchor="middle">🔀</text>
+<text x="740.0" y="248.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Fuse (RRF)</text>
+<text x="740.0" y="268.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">sum of 1 / (60 + rank)</text><text x="740.0" y="283.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">across both lists</text>
+<rect x="900" y="175" width="170" height="130" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="985.0" y="233.0" font-size="28" text-anchor="middle">📚</text>
+<text x="985.0" y="256.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Candidates</text>
+<text x="985.0" y="276.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">top 20 to 100</text>
+<rect x="900" y="455" width="170" height="120" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="985.0" y="500.0" font-size="28" text-anchor="middle">🏅</text>
+<text x="985.0" y="523.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Cross-encoder</text>
+<text x="985.0" y="543.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">reads question +</text><text x="985.0" y="558.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">each chunk together</text>
+<rect x="650" y="455" width="180" height="120" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="740.0" y="500.0" font-size="28" text-anchor="middle">🎯</text>
+<text x="740.0" y="523.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Best 3 to 5</text>
+<text x="740.0" y="543.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">drop if score</text><text x="740.0" y="558.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">below threshold</text>
+<rect x="380" y="455" width="190" height="120" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="475.0" y="500.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="475.0" y="523.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LLM answer</text>
+<text x="475.0" y="543.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">grounded, with</text><text x="475.0" y="558.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">citations</text>
+</svg>

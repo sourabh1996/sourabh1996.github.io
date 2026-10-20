@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Vectorless RAG: build a tree once, then reason your way down it">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="638" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Vectorless RAG: build a tree once, then reason your way down it</text>
+<rect x="20" y="80" width="1060" height="220" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="90" width="110" height="200" rx="10" fill="#1f766d"/>
+<text x="85.0" y="198.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Index</text>
+<rect x="20" y="320" width="1060" height="300" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="330" width="110" height="280" rx="10" fill="#2e7d4f"/>
+<text x="85.0" y="478.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Search</text>
+<path d="M310.0,190.0 L340.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M510.0,190.0 L540.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M710.0,190.0 L740.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M310.0,470.0 L340.0,470.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M905.0,270.0 L905.0,315.0 L425.0,315.0 L425.0,400.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M510.0,470.0 L540.0,470.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M710.0,470.0 L740.0,470.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M890.0,470.0 L920.0,470.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M815.0,540.0 L815.0,580.0 L425.0,580.0 L425.0,540.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="602.0" y="557.0" width="36.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="620.0" y="571.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">loop</text>
+<rect x="160" y="110" width="150" height="160" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="235.0" y="175.0" font-size="28" text-anchor="middle">📄</text>
+<text x="235.0" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Long PDF</text>
+<text x="235.0" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">annual report,</text><text x="235.0" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">filing, manual</text>
+<rect x="340" y="110" width="170" height="160" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="425.0" y="167.0" font-size="28" text-anchor="middle">🧭</text>
+<text x="425.0" y="190.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Find structure</text>
+<text x="425.0" y="210.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">contents page</text><text x="425.0" y="225.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">or headings;</text><text x="425.0" y="241.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">verify page starts</text>
+<rect x="540" y="110" width="170" height="160" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="625.0" y="167.0" font-size="28" text-anchor="middle">📚</text>
+<text x="625.0" y="190.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Sections</text>
+<text x="625.0" y="210.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">natural units,</text><text x="625.0" y="225.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">no fixed chunks;</text><text x="625.0" y="241.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">split only if huge</text>
+<rect x="740" y="110" width="330" height="160" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="905.0" y="167.0" font-size="28" text-anchor="middle">🌳</text>
+<text x="905.0" y="190.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Document tree</text>
+<text x="905.0" y="210.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">node_id, title, summary,</text><text x="905.0" y="225.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">start and end page,</text><text x="905.0" y="241.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">child nodes</text>
+<rect x="160" y="400" width="150" height="140" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="235.0" y="455.0" font-size="28" text-anchor="middle">❓</text>
+<text x="235.0" y="478.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Question</text>
+<text x="235.0" y="498.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;tax disputes</text><text x="235.0" y="513.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">at stake?&quot;</text>
+<rect x="340" y="400" width="170" height="140" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="425.0" y="455.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="425.0" y="478.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LLM reads tree</text>
+<text x="425.0" y="498.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">titles + summaries,</text><text x="425.0" y="513.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">picks node ids</text>
+<rect x="540" y="400" width="170" height="140" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="625.0" y="455.0" font-size="28" text-anchor="middle">📖</text>
+<text x="625.0" y="478.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Fetch pages</text>
+<text x="625.0" y="498.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">full text of</text><text x="625.0" y="513.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">the node&#x27;s pages</text>
+<rect x="740" y="400" width="150" height="140" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="815.0" y="447.0" font-size="28" text-anchor="middle">⚖️</text>
+<text x="815.0" y="470.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Enough?</text>
+<text x="815.0" y="490.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">no: follow a</text><text x="815.0" y="505.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">reference, pick</text><text x="815.0" y="521.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">another node</text>
+<rect x="920" y="400" width="150" height="140" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="995.0" y="455.0" font-size="28" text-anchor="middle">📌</text>
+<text x="995.0" y="478.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Answer</text>
+<text x="995.0" y="498.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">with exact</text><text x="995.0" y="513.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">page numbers</text>
+</svg>

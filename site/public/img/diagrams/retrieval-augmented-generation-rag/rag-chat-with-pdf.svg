@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" width="1100" height="600" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Chat with a PDF: the system you build in the lab">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="598" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Chat with a PDF: the system you build in the lab</text>
+<rect x="20" y="80" width="1060" height="220" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="90" width="110" height="200" rx="10" fill="#2f5fb3"/>
+<text x="85.0" y="198.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Ingest</text>
+<rect x="20" y="320" width="1060" height="260" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="330" width="110" height="240" rx="10" fill="#2e7d4f"/>
+<text x="85.0" y="458.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Ask</text>
+<path d="M300.0,190.0 L330.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M490.0,190.0 L520.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M680.0,190.0 L710.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M870.0,190.0 L900.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M300.0,450.0 L330.0,450.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M985.0,270.0 L985.0,300.0 L410.0,300.0 L410.0,380.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M490.0,450.0 L520.0,450.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M680.0,450.0 L710.0,450.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M870.0,450.0 L900.0,450.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="160" y="110" width="140" height="160" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="230.0" y="167.0" font-size="28" text-anchor="middle">📄</text>
+<text x="230.0" y="190.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">PDF</text>
+<text x="230.0" y="210.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">mediclaim</text><text x="230.0" y="225.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">policy,</text><text x="230.0" y="241.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">5 pages</text>
+<rect x="330" y="110" width="160" height="160" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="410.0" y="167.0" font-size="28" text-anchor="middle">📑</text>
+<text x="410.0" y="190.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Pages</text>
+<text x="410.0" y="210.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">one Document</text><text x="410.0" y="225.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">per page,</text><text x="410.0" y="241.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">page number kept</text>
+<rect x="520" y="110" width="160" height="160" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="600.0" y="175.0" font-size="28" text-anchor="middle">🧹</text>
+<text x="600.0" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Clean</text>
+<text x="600.0" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">drop footers,</text><text x="600.0" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">re-join hyphens</text>
+<rect x="710" y="110" width="160" height="160" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="790.0" y="167.0" font-size="28" text-anchor="middle">✂️</text>
+<text x="790.0" y="190.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Chunk</text>
+<text x="790.0" y="210.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">by section +</text><text x="790.0" y="225.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">heading path,</text><text x="790.0" y="241.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">start page</text>
+<rect x="900" y="110" width="170" height="160" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="985.0" y="175.0" font-size="28" text-anchor="middle">🗄️</text>
+<text x="985.0" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Two indexes</text>
+<text x="985.0" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">vectors</text><text x="985.0" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">+ BM25</text>
+<rect x="160" y="380" width="140" height="140" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="230.0" y="435.0" font-size="28" text-anchor="middle">❓</text>
+<text x="230.0" y="458.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Question</text>
+<text x="230.0" y="478.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;room rent</text><text x="230.0" y="493.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">limit?&quot;</text>
+<rect x="330" y="380" width="160" height="140" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="410.0" y="435.0" font-size="28" text-anchor="middle">🔀</text>
+<text x="410.0" y="458.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Hybrid search</text>
+<text x="410.0" y="478.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">RRF fusion,</text><text x="410.0" y="493.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">top 6</text>
+<rect x="520" y="380" width="160" height="140" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="600.0" y="435.0" font-size="28" text-anchor="middle">🏅</text>
+<text x="600.0" y="458.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Rerank</text>
+<text x="600.0" y="478.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">keep 2,</text><text x="600.0" y="493.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">refuse if weak</text>
+<rect x="710" y="380" width="160" height="140" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="790.0" y="435.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="790.0" y="458.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LLM</text>
+<text x="790.0" y="478.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">answer only</text><text x="790.0" y="493.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">from context</text>
+<rect x="900" y="380" width="170" height="140" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="985.0" y="435.0" font-size="28" text-anchor="middle">💬</text>
+<text x="985.0" y="458.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Answer</text>
+<text x="985.0" y="478.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">with (p. 2)</text><text x="985.0" y="493.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">citations</text>
+</svg>

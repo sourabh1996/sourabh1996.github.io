@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 800" width="1100" height="800" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="A production RAG pipeline, end to end">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="798" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2e7d4f"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">A production RAG pipeline, end to end</text>
+<rect x="20" y="80" width="1060" height="200" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="90" width="110" height="180" rx="10" fill="#2f5fb3"/>
+<text x="85.0" y="176.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Index</text><text x="85.0" y="203.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">(offline)</text>
+<rect x="20" y="300" width="1060" height="280" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="310" width="110" height="260" rx="10" fill="#2e7d4f"/>
+<text x="85.0" y="436.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Answer</text><text x="85.0" y="463.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">(online)</text>
+<rect x="20" y="600" width="1060" height="180" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="610" width="110" height="160" rx="10" fill="#5b3fa0"/>
+<text x="85.0" y="698.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Evaluate</text>
+<path d="M310.0,175.0 L350.0,175.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M500.0,175.0 L540.0,175.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M690.0,175.0 L730.0,175.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M880.0,175.0 L920.0,175.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M310.0,380.0 L350.0,380.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M500.0,380.0 L540.0,380.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M995.0,240.0 L995.0,290.0 L615.0,290.0 L615.0,330.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="745.0" y="276.0" width="120.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="805" y="290.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">search the index</text>
+<path d="M690.0,380.0 L730.0,380.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M880.0,380.0 L920.0,380.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M995.0,430.0 L995.0,510.0 L880.0,510.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="952.5" y="456.0" width="85.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="995" y="470.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">good chunks</text>
+<path d="M730.0,510.0 L690.0,510.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M540.0,510.0 L500.0,510.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M330.0,690.0 L380.0,690.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M570.0,690.0 L620.0,690.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M810.0,690.0 L860.0,690.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M425.0,560.0 L425.0,595.0 L715.0,595.0 L715.0,630.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="545.0" y="581.0" width="50.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="570" y="595.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">traces</text>
+<rect x="160" y="110" width="150" height="130" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="235.0" y="160.0" font-size="28" text-anchor="middle">📂</text>
+<text x="235.0" y="183.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Sources</text>
+<text x="235.0" y="203.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">PDFs · web pages</text><text x="235.0" y="218.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">CSV · wikis · tickets</text>
+<rect x="350" y="110" width="150" height="130" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="425.0" y="160.0" font-size="28" text-anchor="middle">📥</text>
+<text x="425.0" y="183.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Ingest</text>
+<text x="425.0" y="203.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">load, clean,</text><text x="425.0" y="218.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">add metadata</text>
+<rect x="540" y="110" width="150" height="130" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="615.0" y="160.0" font-size="28" text-anchor="middle">✂️</text>
+<text x="615.0" y="183.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Chunk</text>
+<text x="615.0" y="203.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">split into</text><text x="615.0" y="218.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">200-800 token pieces</text>
+<rect x="730" y="110" width="150" height="130" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="805.0" y="160.0" font-size="28" text-anchor="middle">🔢</text>
+<text x="805.0" y="183.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Embed</text>
+<text x="805.0" y="203.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">text to vector</text><text x="805.0" y="218.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">[0.12, -0.40, ...]</text>
+<rect x="920" y="110" width="150" height="130" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="995.0" y="160.0" font-size="28" text-anchor="middle">🗄️</text>
+<text x="995.0" y="183.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Index</text>
+<text x="995.0" y="203.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">vector store</text><text x="995.0" y="218.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">+ keyword (BM25)</text>
+<rect x="160" y="330" width="150" height="100" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="235.0" y="373.0" font-size="28" text-anchor="middle">❓</text>
+<text x="235.0" y="396.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Question</text>
+<text x="235.0" y="416.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">from the user</text>
+<rect x="350" y="330" width="150" height="100" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="425.0" y="373.0" font-size="28" text-anchor="middle">📝</text>
+<text x="425.0" y="396.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Rewrite query</text>
+<text x="425.0" y="416.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">optional</text>
+<rect x="540" y="330" width="150" height="100" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="615.0" y="373.0" font-size="28" text-anchor="middle">🔎</text>
+<text x="615.0" y="396.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Retrieve</text>
+<text x="615.0" y="416.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">hybrid: top 50</text>
+<rect x="730" y="330" width="150" height="100" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="805.0" y="373.0" font-size="28" text-anchor="middle">🏅</text>
+<text x="805.0" y="396.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Rerank</text>
+<text x="805.0" y="416.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">keep best 5</text>
+<rect x="730" y="460" width="150" height="100" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="805.0" y="495.0" font-size="28" text-anchor="middle">🧩</text>
+<text x="805.0" y="518.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Build prompt</text>
+<text x="805.0" y="538.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">rules + chunks</text><text x="805.0" y="553.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">+ question</text>
+<rect x="540" y="460" width="150" height="100" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="615.0" y="503.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="615.0" y="526.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Generate</text>
+<text x="615.0" y="546.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">LLM writes answer</text>
+<rect x="350" y="460" width="150" height="100" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="425.0" y="503.0" font-size="28" text-anchor="middle">📚</text>
+<text x="425.0" y="526.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Answer</text>
+<text x="425.0" y="546.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">with citations</text>
+<rect x="920" y="330" width="150" height="100" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="995.0" y="365.0" font-size="28" text-anchor="middle">🛡️</text>
+<text x="995.0" y="388.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Guardrails</text>
+<text x="995.0" y="408.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">too weak? say</text><text x="995.0" y="423.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&#x27;not found&#x27;</text>
+<rect x="160" y="630" width="170" height="120" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="245.0" y="675.0" font-size="28" text-anchor="middle">🧪</text>
+<text x="245.0" y="698.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Test questions</text>
+<text x="245.0" y="718.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">with expected</text><text x="245.0" y="733.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">sources and answers</text>
+<rect x="380" y="630" width="190" height="120" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="475.0" y="675.0" font-size="28" text-anchor="middle">🎯</text>
+<text x="475.0" y="698.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Retrieval metrics</text>
+<text x="475.0" y="718.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">recall@k · MRR</text><text x="475.0" y="733.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">context precision</text>
+<rect x="620" y="630" width="190" height="120" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="715.0" y="675.0" font-size="28" text-anchor="middle">✅</text>
+<text x="715.0" y="698.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Answer metrics</text>
+<text x="715.0" y="718.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">faithfulness</text><text x="715.0" y="733.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">relevance · citations</text>
+<rect x="860" y="630" width="210" height="120" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="965.0" y="675.0" font-size="28" text-anchor="middle">🔁</text>
+<text x="965.0" y="698.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Tune and re-run</text>
+<text x="965.0" y="718.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">chunk size · k · model</text><text x="965.0" y="733.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">prompt · reranker</text>
+</svg>
