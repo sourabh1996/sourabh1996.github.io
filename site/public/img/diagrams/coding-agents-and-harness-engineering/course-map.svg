@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 560" width="1100" height="560" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Coding agents and harness engineering: the course map">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="558" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Coding agents and harness engineering: the course map</text>
+<rect x="30" y="100" width="430" height="300" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="143.4" y="85" width="203.2" height="30" rx="15" fill="#2f5fb3"/>
+<text x="245.0" y="105.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Use coding agents well</text>
+<rect x="490" y="100" width="580" height="300" rx="14" fill="none" stroke="#a68be0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="687.0" y="85" width="186.0" height="30" rx="15" fill="#5b3fa0"/>
+<text x="780.0" y="105.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Engineer the harness</text>
+<path d="M235.0,255.0 L255.0,255.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M435.0,255.0 L515.0,255.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M685.0,255.0 L700.0,255.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M870.0,255.0 L885.0,255.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M600.0,370.0 L600.0,430.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M967.5,370.0 L967.5,430.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="55" y="140" width="180" height="230" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="145.0" y="216.0" font-size="28" text-anchor="middle">🧑‍💻</text>
+<text x="145.0" y="239.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Module 2</text>
+<text x="145.0" y="259.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Working with</text><text x="145.0" y="274.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">coding agents</text><text x="145.0" y="290.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="145.0" y="305.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">landscape · workflow</text><text x="145.0" y="321.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">specs · review</text>
+<rect x="255" y="140" width="180" height="230" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="345.0" y="216.0" font-size="28" text-anchor="middle">🐙</text>
+<text x="345.0" y="239.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Module 3</text>
+<text x="345.0" y="259.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Coding agents</text><text x="345.0" y="274.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">on GitHub</text><text x="345.0" y="290.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="345.0" y="305.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Copilot · cloud agents</text><text x="345.0" y="321.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">MCP · Actions</text>
+<rect x="515" y="140" width="170" height="230" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="600.0" y="216.0" font-size="28" text-anchor="middle">🧰</text>
+<text x="600.0" y="239.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Module 4</text>
+<text x="600.0" y="259.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">What a</text><text x="600.0" y="274.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">harness is</text><text x="600.0" y="290.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="600.0" y="305.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">loop · permissions</text><text x="600.0" y="321.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">hooks · sandboxes</text>
+<rect x="700" y="140" width="170" height="230" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="785.0" y="216.0" font-size="28" text-anchor="middle">⏳</text>
+<text x="785.0" y="239.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Module 5</text>
+<text x="785.0" y="259.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Long-running</text><text x="785.0" y="274.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">agents</text><text x="785.0" y="290.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="785.0" y="305.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">progress files</text><text x="785.0" y="321.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">handoffs · worktrees</text>
+<rect x="885" y="140" width="165" height="230" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="967.5" y="216.0" font-size="28" text-anchor="middle">🏗️</text>
+<text x="967.5" y="239.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Module 6</text>
+<text x="967.5" y="259.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Harness for</text><text x="967.5" y="274.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">codebases</text><text x="967.5" y="290.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="967.5" y="305.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">linters · tests</text><text x="967.5" y="321.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">cleanup agents</text>
+<rect x="515" y="430" width="170" height="64" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="600.0" y="467.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">🔧 Lab: build a harness</text>
+<rect x="885" y="430" width="165" height="64" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="967.5" y="467.0" font-size="13" font-weight="700" fill="#1f2328" text-anchor="middle">🔧 Lab: agent-ready repo</text>
+<text x="550" y="530.0" font-size="16" font-weight="700" fill="#1f766d" text-anchor="middle">Agent = model + harness. You control the harness.</text>
+</svg>

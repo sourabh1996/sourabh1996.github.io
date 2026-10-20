@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 780" width="1100" height="780" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="An agent-ready repository: guides, sensors and cleanup">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="778" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2e7d4f"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">An agent-ready repository: guides, sensors and cleanup</text>
+<rect x="30" y="90" width="300" height="660" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="87.0" y="75" width="186.0" height="30" rx="15" fill="#2f5fb3"/>
+<text x="180.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Guides (feedforward)</text>
+<rect x="770" y="90" width="300" height="660" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="835.6" y="75" width="168.79999999999998" height="30" rx="15" fill="#2e7d4f"/>
+<text x="920.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Sensors (feedback)</text>
+<path d="M310.0,175.0 L400.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="316.0" y="159.5" width="78.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="355.0" y="173.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">read first</text>
+<path d="M550.0,250.0 L550.0,300.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M550.0,380.0 L550.0,400.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M550.0,480.0 L550.0,500.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M550.0,580.0 L550.0,600.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M790.0,175.0 L700.0,190.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="709.5" y="159.5" width="71.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="745.0" y="173.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">fix hints</text>
+<rect x="50" y="130" width="260" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="180.0" y="168.0" font-size="28" text-anchor="middle">🗺️</text>
+<text x="180.0" y="191.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">AGENTS.md map</text>
+<text x="180.0" y="211.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">~100 lines, links out</text>
+<rect x="50" y="245" width="260" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="180.0" y="283.0" font-size="28" text-anchor="middle">📚</text>
+<text x="180.0" y="306.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">docs/ system of record</text>
+<text x="180.0" y="326.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">design · plans · specs</text>
+<rect x="50" y="360" width="260" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="180.0" y="398.0" font-size="28" text-anchor="middle">⭐</text>
+<text x="180.0" y="421.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">Golden principles</text>
+<text x="180.0" y="441.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">written as rules</text>
+<rect x="50" y="475" width="260" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="180.0" y="513.0" font-size="28" text-anchor="middle">🧰</text>
+<text x="180.0" y="536.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">Skills + commands</text>
+<text x="180.0" y="556.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">how we do X here</text>
+<rect x="50" y="590" width="260" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="180.0" y="628.0" font-size="28" text-anchor="middle">▶️</text>
+<text x="180.0" y="651.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">One-command setup</text>
+<text x="180.0" y="671.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">init script · per worktree</text>
+<rect x="400" y="130" width="300" height="120" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="550.0" y="183.0" font-size="28" text-anchor="middle">🤖</text>
+<text x="550.0" y="206.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Coding agent</text>
+<text x="550.0" y="226.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">plans · edits · runs</text>
+<rect x="400" y="300" width="300" height="80" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="550.0" y="333.0" font-size="28" text-anchor="middle">⚡</text>
+<text x="550.0" y="356.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">In the loop (seconds)</text>
+<text x="550.0" y="376.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">post-edit hook: lint, types</text>
+<rect x="400" y="400" width="300" height="80" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="550.0" y="433.0" font-size="28" text-anchor="middle">🪝</text>
+<text x="550.0" y="456.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">At commit (seconds)</text>
+<text x="550.0" y="476.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">pre-commit: format, secrets</text>
+<rect x="400" y="500" width="300" height="80" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="550.0" y="533.0" font-size="28" text-anchor="middle">🏗️</text>
+<text x="550.0" y="556.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">In CI (minutes)</text>
+<text x="550.0" y="576.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">tests · structure · e2e</text>
+<rect x="400" y="600" width="300" height="80" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="550.0" y="633.0" font-size="28" text-anchor="middle">🧹</text>
+<text x="550.0" y="656.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">Background (daily)</text>
+<text x="550.0" y="676.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">cleanup + doc-gardening PRs</text>
+<rect x="790" y="130" width="260" height="90" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="920.0" y="168.0" font-size="28" text-anchor="middle">🧪</text>
+<text x="920.0" y="191.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">Custom linters</text>
+<text x="920.0" y="211.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">messages say how to fix</text>
+<rect x="790" y="245" width="260" height="90" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="920.0" y="283.0" font-size="28" text-anchor="middle">🏛️</text>
+<text x="920.0" y="306.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">Structural tests</text>
+<text x="920.0" y="326.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">layers · imports · sizes</text>
+<rect x="790" y="360" width="260" height="90" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="920.0" y="398.0" font-size="28" text-anchor="middle">✅</text>
+<text x="920.0" y="421.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">Tests that explain</text>
+<text x="920.0" y="441.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">agent can&#x27;t edit them</text>
+<rect x="790" y="475" width="260" height="90" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="920.0" y="513.0" font-size="28" text-anchor="middle">📈</text>
+<text x="920.0" y="536.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">Logs + metrics</text>
+<text x="920.0" y="556.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">queryable by the agent</text>
+<rect x="790" y="590" width="260" height="90" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="920.0" y="628.0" font-size="28" text-anchor="middle">🔍</text>
+<text x="920.0" y="651.0" font-size="14" font-weight="700" fill="#1f2328" text-anchor="middle">Reviewer agent</text>
+<text x="920.0" y="671.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">judgement calls</text>
+</svg>

@@ -1,0 +1,35 @@
+# An agent-ready repository: guides that steer before the agent acts, sensors that check after, at four speeds from inside the loop to background agents.
+SPEC = {
+    "title": "An agent-ready repository: guides, sensors and cleanup",
+    "accent": "green",
+    "width": 1100, "height": 780,
+    "groups": [
+        {"x": 30, "y": 90, "w": 300, "h": 660, "label": "Guides (feedforward)", "color": "blue"},
+        {"x": 770, "y": 90, "w": 300, "h": 660, "label": "Sensors (feedback)", "color": "green"},
+    ],
+    "nodes": {
+        "agents": {"x": 50, "y": 130, "w": 260, "h": 90, "icon": "🗺️", "label": "AGENTS.md map", "sub": "~100 lines, links out", "color": "blue", "size": 14},
+        "docs": {"x": 50, "y": 245, "w": 260, "h": 90, "icon": "📚", "label": "docs/ system of record", "sub": "design · plans · specs", "color": "blue", "size": 14},
+        "golden": {"x": 50, "y": 360, "w": 260, "h": 90, "icon": "⭐", "label": "Golden principles", "sub": "written as rules", "color": "blue", "size": 14},
+        "skills": {"x": 50, "y": 475, "w": 260, "h": 90, "icon": "🧰", "label": "Skills + commands", "sub": "how we do X here", "color": "blue", "size": 14},
+        "boot": {"x": 50, "y": 590, "w": 260, "h": 90, "icon": "▶️", "label": "One-command setup", "sub": "init script · per worktree", "color": "blue", "size": 14},
+        "agent": {"x": 400, "y": 130, "w": 300, "h": 120, "icon": "🤖", "label": "Coding agent", "sub": "plans · edits · runs", "color": "purple"},
+        "loop": {"x": 400, "y": 300, "w": 300, "h": 80, "icon": "⚡", "label": "In the loop (seconds)", "sub": "post-edit hook: lint, types", "color": "amber", "size": 14},
+        "commit": {"x": 400, "y": 400, "w": 300, "h": 80, "icon": "🪝", "label": "At commit (seconds)", "sub": "pre-commit: format, secrets", "color": "amber", "size": 14},
+        "ci": {"x": 400, "y": 500, "w": 300, "h": 80, "icon": "🏗️", "label": "In CI (minutes)", "sub": "tests · structure · e2e", "color": "amber", "size": 14},
+        "bg": {"x": 400, "y": 600, "w": 300, "h": 80, "icon": "🧹", "label": "Background (daily)", "sub": "cleanup + doc-gardening PRs", "color": "amber", "size": 14},
+        "lint": {"x": 790, "y": 130, "w": 260, "h": 90, "icon": "🧪", "label": "Custom linters", "sub": "messages say how to fix", "color": "green", "size": 14},
+        "struct": {"x": 790, "y": 245, "w": 260, "h": 90, "icon": "🏛️", "label": "Structural tests", "sub": "layers · imports · sizes", "color": "green", "size": 14},
+        "tests": {"x": 790, "y": 360, "w": 260, "h": 90, "icon": "✅", "label": "Tests that explain", "sub": "agent can't edit them", "color": "green", "size": 14},
+        "obs": {"x": 790, "y": 475, "w": 260, "h": 90, "icon": "📈", "label": "Logs + metrics", "sub": "queryable by the agent", "color": "green", "size": 14},
+        "review": {"x": 790, "y": 590, "w": 260, "h": 90, "icon": "🔍", "label": "Reviewer agent", "sub": "judgement calls", "color": "green", "size": 14},
+    },
+    "edges": [
+        {"from": "agents", "to": "agent", "from_side": "right", "to_side": "left", "label": "read first"},
+        {"from": "agent", "to": "loop", "from_side": "bottom", "to_side": "top"},
+        {"from": "loop", "to": "commit", "from_side": "bottom", "to_side": "top"},
+        {"from": "commit", "to": "ci", "from_side": "bottom", "to_side": "top"},
+        {"from": "ci", "to": "bg", "from_side": "bottom", "to_side": "top"},
+        {"from": "lint", "to": "agent", "from_side": "left", "to_side": "right", "label": "fix hints"},
+    ],
+}

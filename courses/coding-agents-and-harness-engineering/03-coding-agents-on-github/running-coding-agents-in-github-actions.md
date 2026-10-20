@@ -435,4 +435,4 @@ Common follow-ups:
 
 ---
 
-**Up next:** [What a Harness Is](../course.md#m4)
+**Up next:** [Model Plus Harness: The Parts of an Agent Runtime](../04-what-a-harness-is/model-plus-harness-the-parts-of-an-agent-runtime.md)
