@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" width="1100" height="760" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="From chain to production: serve it, watch it">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="758" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#5b3fa0"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">From chain to production: serve it, watch it</text>
+<rect x="20" y="85" width="1060" height="170" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="95" width="130" height="150" rx="10" fill="#4b5563"/>
+<text x="95.0" y="178.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Clients</text>
+<rect x="20" y="275" width="1060" height="230" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="285" width="130" height="210" rx="10" fill="#2f5fb3"/>
+<text x="95.0" y="398.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Serve</text>
+<rect x="20" y="525" width="1060" height="190" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="535" width="130" height="170" rx="10" fill="#5b3fa0"/>
+<text x="95.0" y="628.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Watch</text>
+<path d="M300.0,225.0 L300.0,305.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M425.0,390.0 L470.0,390.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M720.0,390.0 L765.0,390.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M595.0,475.0 L595.0,555.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="531.5" y="492.0" width="127.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="595.0" y="506.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">LANGSMITH_TRACING</text>
+<path d="M720.0,620.0 L765.0,620.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M470.0,620.0 L425.0,620.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="175" y="115" width="250" height="110" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="300.0" y="163.0" font-size="28" text-anchor="middle">📱</text>
+<text x="300.0" y="186.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Web and mobile apps</text>
+<text x="300.0" y="206.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">POST /invoke, /stream</text>
+<rect x="470" y="115" width="250" height="110" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="595.0" y="155.0" font-size="28" text-anchor="middle">🐍</text>
+<text x="595.0" y="178.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Python services</text>
+<text x="595.0" y="198.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">RemoteRunnable or</text><text x="595.0" y="213.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">httpx / LangGraph SDK</text>
+<rect x="765" y="115" width="295" height="110" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="912.5" y="155.0" font-size="28" text-anchor="middle">🧑‍💻</text>
+<text x="912.5" y="178.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Developers</text>
+<text x="912.5" y="198.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">playground, Studio,</text><text x="912.5" y="213.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">trace viewer</text>
+<rect x="175" y="305" width="250" height="170" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="300.0" y="367.0" font-size="28" text-anchor="middle">🚪</text>
+<text x="300.0" y="390.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">HTTP layer</text>
+<text x="300.0" y="410.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">LangServe add_routes (legacy)</text><text x="300.0" y="425.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">or your FastAPI routes</text><text x="300.0" y="441.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">or the Agent Server</text>
+<rect x="470" y="305" width="250" height="170" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="595.0" y="367.0" font-size="28" text-anchor="middle">⛓️</text>
+<text x="595.0" y="390.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Your runnable</text>
+<text x="595.0" y="410.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">prompt | model | parser</text><text x="595.0" y="425.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">or a LangGraph graph</text><text x="595.0" y="441.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">same code as in dev</text>
+<rect x="765" y="305" width="295" height="170" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="912.5" y="367.0" font-size="28" text-anchor="middle">🏗️</text>
+<text x="912.5" y="390.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Around it</text>
+<text x="912.5" y="410.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">keys in env vars, auth,</text><text x="912.5" y="425.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">rate limits, timeouts,</text><text x="912.5" y="441.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">checkpointer DB, Docker</text>
+<rect x="470" y="555" width="250" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="595.0" y="605.0" font-size="28" text-anchor="middle">🔭</text>
+<text x="595.0" y="628.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Traces</text>
+<text x="595.0" y="648.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">every step: inputs, outputs,</text><text x="595.0" y="663.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">latency, tokens, errors</text>
+<rect x="765" y="555" width="295" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="912.5" y="605.0" font-size="28" text-anchor="middle">📈</text>
+<text x="912.5" y="628.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Monitoring</text>
+<text x="912.5" y="648.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">dashboards, alerts,</text><text x="912.5" y="663.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">feedback, cost</text>
+<rect x="175" y="555" width="250" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="300.0" y="605.0" font-size="28" text-anchor="middle">🧪</text>
+<text x="300.0" y="628.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Datasets and evals</text>
+<text x="300.0" y="648.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">replay real cases after</text><text x="300.0" y="663.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">every change; prompt versions</text>
+<text x="618" y="738.0" font-size="15" font-weight="600" fill="#5b3fa0" text-anchor="middle">The chain itself doesn&#x27;t change: serving and tracing are layers around the same runnable.</text>
+</svg>

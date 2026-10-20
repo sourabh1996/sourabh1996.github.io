@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 790" width="1100" height="790" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="The tool-calling loop">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="788" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">The tool-calling loop</text>
+<rect x="20" y="85" width="1060" height="190" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="95" width="130" height="170" rx="10" fill="#2f5fb3"/>
+<text x="95.0" y="188.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Define</text>
+<rect x="20" y="295" width="1060" height="300" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="305" width="130" height="280" rx="10" fill="#1f766d"/>
+<text x="95.0" y="453.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Call</text>
+<rect x="20" y="615" width="1060" height="120" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="625" width="130" height="100" rx="10" fill="#2e7d4f"/>
+<text x="95.0" y="683.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Answer</text>
+<path d="M425.0,180.0 L470.0,180.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M720.0,180.0 L765.0,180.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M425.0,385.0 L470.0,385.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M720.0,385.0 L765.0,385.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M912.5,440.0 L912.5,465.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M765.0,520.0 L720.0,520.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M595.0,465.0 L595.0,440.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="175" y="115" width="250" height="130" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="300.0" y="157.0" font-size="28" text-anchor="middle">🐍</text>
+<text x="300.0" y="180.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Python function</text>
+<text x="300.0" y="200.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">type hints + docstring</text><text x="300.0" y="215.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">@tool, StructuredTool</text><text x="300.0" y="231.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">or BaseTool</text>
+<rect x="470" y="115" width="250" height="130" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="595.0" y="165.0" font-size="28" text-anchor="middle">📐</text>
+<text x="595.0" y="188.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Tool schema</text>
+<text x="595.0" y="208.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">name, description,</text><text x="595.0" y="223.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">JSON Schema of the args</text>
+<rect x="765" y="115" width="295" height="130" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="912.5" y="165.0" font-size="28" text-anchor="middle">🔗</text>
+<text x="912.5" y="188.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">model.bind_tools([...])</text>
+<text x="912.5" y="208.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">schemas sent with</text><text x="912.5" y="223.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">every request</text>
+<rect x="175" y="330" width="250" height="110" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="300.0" y="370.0" font-size="28" text-anchor="middle">🙋</text>
+<text x="300.0" y="393.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">HumanMessage</text>
+<text x="300.0" y="413.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;Fare from Pune</text><text x="300.0" y="428.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">to Nagpur?&quot;</text>
+<rect x="470" y="330" width="250" height="110" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="595.0" y="370.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="595.0" y="393.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Model decides</text>
+<text x="595.0" y="413.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">answer directly, or</text><text x="595.0" y="428.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">request one or more tools</text>
+<rect x="765" y="330" width="295" height="110" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="912.5" y="370.0" font-size="28" text-anchor="middle">📨</text>
+<text x="912.5" y="393.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">AIMessage.tool_calls</text>
+<text x="912.5" y="413.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">[{name, args, id}]</text><text x="912.5" y="428.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">the model never runs code</text>
+<rect x="765" y="465" width="295" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="912.5" y="505.0" font-size="28" text-anchor="middle">⚙️</text>
+<text x="912.5" y="528.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Your code runs the tool</text>
+<text x="912.5" y="548.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">tool.invoke(tool_call)</text><text x="912.5" y="563.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">validates args first</text>
+<rect x="470" y="465" width="250" height="110" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="595.0" y="505.0" font-size="28" text-anchor="middle">📬</text>
+<text x="595.0" y="528.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ToolMessage</text>
+<text x="595.0" y="548.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">result + matching</text><text x="595.0" y="563.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">tool_call_id</text>
+<rect x="175" y="633" width="885" height="84" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="617.5" y="668.0" font-size="28" text-anchor="middle">✅</text>
+<text x="617.5" y="691.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Final AIMessage: a grounded answer</text>
+<text x="617.5" y="711.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">when the model needs no more tools, the loop ends</text>
+<text x="618" y="765.0" font-size="15" font-weight="600" fill="#1f7a70" text-anchor="middle">ToolMessage goes back to the model, which may call more tools. Agents automate this loop.</text>
+</svg>

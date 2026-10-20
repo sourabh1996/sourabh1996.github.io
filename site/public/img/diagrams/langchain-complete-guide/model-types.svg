@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" width="1100" height="700" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Three kinds of model, one family of interfaces">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="698" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Three kinds of model, one family of interfaces</text>
+<rect x="20" y="85" width="1060" height="175" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="95" width="135" height="155" rx="10" fill="#2f5fb3"/>
+<text x="97.5" y="168.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Chat</text><text x="97.5" y="196.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">model</text>
+<rect x="20" y="275" width="1060" height="175" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="285" width="135" height="155" rx="10" fill="#4b5563"/>
+<text x="97.5" y="358.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">LLM</text><text x="97.5" y="386.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">(text)</text>
+<rect x="20" y="465" width="1060" height="175" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="475" width="135" height="155" rx="10" fill="#2e7d4f"/>
+<text x="97.5" y="548.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Embedding</text><text x="97.5" y="576.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">model</text>
+<path d="M430.0,172.5 L540.0,172.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="460.0" y="149.5" width="50.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="485.0" y="163.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">invoke</text>
+<path d="M740.0,172.5 L800.0,172.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M430.0,362.5 L540.0,362.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="460.0" y="339.5" width="50.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="485.0" y="353.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">invoke</text>
+<path d="M740.0,362.5 L800.0,362.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M430.0,552.5 L540.0,552.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="463.5" y="529.5" width="43.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="485.0" y="543.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">embed</text>
+<path d="M740.0,552.5 L800.0,552.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="180" y="105" width="250" height="135" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="305.0" y="157.5" font-size="28" text-anchor="middle">💬</text>
+<text x="305.0" y="180.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">List of messages</text>
+<text x="305.0" y="200.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">System: you are a TTE helper</text><text x="305.0" y="216.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Human: is 12951 on time?</text>
+<rect x="540" y="115" width="200" height="115" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="640.0" y="165.5" font-size="28" text-anchor="middle">🧠</text>
+<text x="640.0" y="188.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ChatAnthropic</text>
+<text x="640.0" y="208.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">ChatOpenAI, ChatOllama…</text>
+<rect x="800" y="105" width="260" height="135" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="930.0" y="157.5" font-size="28" text-anchor="middle">📨</text>
+<text x="930.0" y="180.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">AIMessage</text>
+<text x="930.0" y="200.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">text, tool calls,</text><text x="930.0" y="216.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">token usage, metadata</text>
+<rect x="180" y="295" width="250" height="135" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="305.0" y="347.5" font-size="28" text-anchor="middle">📝</text>
+<text x="305.0" y="370.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">One string</text>
+<text x="305.0" y="390.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;The capital of</text><text x="305.0" y="406.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Kerala is&quot;</text>
+<rect x="540" y="305" width="200" height="115" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="640.0" y="355.5" font-size="28" text-anchor="middle">⚙️</text>
+<text x="640.0" y="378.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LLM class</text>
+<text x="640.0" y="398.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">older completion style</text>
+<rect x="800" y="295" width="260" height="135" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="930.0" y="355.5" font-size="28" text-anchor="middle">📝</text>
+<text x="930.0" y="378.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">One string</text>
+<text x="930.0" y="398.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot; Thiruvananthapuram.&quot;</text>
+<rect x="180" y="485" width="250" height="135" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="305.0" y="545.5" font-size="28" text-anchor="middle">🔤</text>
+<text x="305.0" y="568.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Text</text>
+<text x="305.0" y="588.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;refund for a late train&quot;</text>
+<rect x="540" y="495" width="200" height="115" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="640.0" y="545.5" font-size="28" text-anchor="middle">📐</text>
+<text x="640.0" y="568.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Embeddings</text>
+<text x="640.0" y="588.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Voyage, OpenAI, HF</text>
+<rect x="800" y="485" width="260" height="135" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="930.0" y="537.5" font-size="28" text-anchor="middle">🔢</text>
+<text x="930.0" y="560.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Vector of numbers</text>
+<text x="930.0" y="580.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">[0.12, -0.48, 0.31, …]</text><text x="930.0" y="596.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">similar meaning, nearby</text>
+<text x="610" y="668.0" font-size="15" font-weight="600" fill="#2f5fb3" text-anchor="middle">Use chat models for generating text; embeddings for search; LLM classes mostly in older code.</text>
+</svg>

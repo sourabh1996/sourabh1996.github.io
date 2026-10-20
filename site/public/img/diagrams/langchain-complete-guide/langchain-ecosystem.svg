@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" width="1100" height="760" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="The LangChain ecosystem in one picture">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="758" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">The LangChain ecosystem in one picture</text>
+<rect x="20" y="85" width="1060" height="130" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="95" width="110" height="110" rx="10" fill="#4b5563"/>
+<text x="85.0" y="146.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Your</text><text x="85.0" y="173.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">app</text>
+<rect x="20" y="230" width="1060" height="150" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="240" width="110" height="130" rx="10" fill="#1f766d"/>
+<text x="85.0" y="313.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Build</text>
+<rect x="20" y="395" width="1060" height="150" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="405" width="110" height="130" rx="10" fill="#2f5fb3"/>
+<text x="85.0" y="478.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Connect</text>
+<rect x="20" y="560" width="1060" height="175" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="570" width="110" height="155" rx="10" fill="#5b3fa0"/>
+<text x="85.0" y="643.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Run and</text><text x="85.0" y="671.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">watch</text>
+<path d="M780.0,150.0 L520.0,150.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="614.5" y="127.0" width="71.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="650.0" y="141.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">questions</text>
+<path d="M340.0,195.0 L285.0,250.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M490.0,305.0 L410.0,305.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="428.5" y="281.0" width="43.0" height="36" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="450" y="295.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">built</text><text x="450" y="312.6" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">on</text>
+<path d="M310.0,415.0 L285.0,360.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="262.0" y="364.5" width="71.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="297.5" y="378.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">implement</text>
+<path d="M310.0,525.0 L310.0,548.0 L925.0,548.0 L925.0,525.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="584.5" y="534.0" width="71.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="620" y="548.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">API calls</text>
+<rect x="160" y="105" width="360" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="340.0" y="143.0" font-size="28" text-anchor="middle">🛍️</text>
+<text x="340.0" y="166.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Saree-shop support bot</text>
+<text x="340.0" y="186.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">your code: routes, UI, business rules</text>
+<rect x="780" y="105" width="280" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="920.0" y="143.0" font-size="28" text-anchor="middle">🙋</text>
+<text x="920.0" y="166.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Customers</text>
+<text x="920.0" y="186.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">web, WhatsApp, app</text>
+<rect x="160" y="250" width="250" height="110" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="285.0" y="290.0" font-size="28" text-anchor="middle">🧩</text>
+<text x="285.0" y="313.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">langchain-core</text>
+<text x="285.0" y="333.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">messages, prompts, parsers,</text><text x="285.0" y="348.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">runnables, tool interface</text>
+<rect x="490" y="250" width="250" height="110" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="615.0" y="290.0" font-size="28" text-anchor="middle">🔗</text>
+<text x="615.0" y="313.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">langchain</text>
+<text x="615.0" y="333.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">init_chat_model, create_agent,</text><text x="615.0" y="348.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">middleware</text>
+<rect x="770" y="250" width="290" height="110" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="915.0" y="290.0" font-size="28" text-anchor="middle">📦</text>
+<text x="915.0" y="313.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">langchain-classic</text>
+<text x="915.0" y="333.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">legacy chains and memory</text><text x="915.0" y="348.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">from before 1.0</text>
+<rect x="160" y="415" width="300" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="310.0" y="455.0" font-size="28" text-anchor="middle">🔌</text>
+<text x="310.0" y="478.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Provider packages</text>
+<text x="310.0" y="498.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">langchain-anthropic, -openai,</text><text x="310.0" y="513.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">-huggingface, -ollama</text>
+<rect x="485" y="415" width="280" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="625.0" y="455.0" font-size="28" text-anchor="middle">🗃️</text>
+<text x="625.0" y="478.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">langchain-community</text>
+<text x="625.0" y="498.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">hundreds of loaders,</text><text x="625.0" y="513.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">tools, vector stores</text>
+<rect x="790" y="415" width="270" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="925.0" y="455.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="925.0" y="478.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Models and services</text>
+<text x="925.0" y="498.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Claude, GPT, Llama,</text><text x="925.0" y="513.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">search APIs, databases</text>
+<rect x="160" y="580" width="270" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="295.0" y="630.0" font-size="28" text-anchor="middle">🕸️</text>
+<text x="295.0" y="653.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LangGraph</text>
+<text x="295.0" y="673.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">loops, state, pauses,</text><text x="295.0" y="688.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">memory for agents</text>
+<rect x="455" y="580" width="270" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="590.0" y="630.0" font-size="28" text-anchor="middle">🔭</text>
+<text x="590.0" y="653.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LangSmith</text>
+<text x="590.0" y="673.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">traces, datasets,</text><text x="590.0" y="688.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">evaluations, prompts</text>
+<rect x="750" y="580" width="310" height="130" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="905.0" y="630.0" font-size="28" text-anchor="middle">🚀</text>
+<text x="905.0" y="653.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Serving</text>
+<text x="905.0" y="673.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">your FastAPI app, LangSmith</text><text x="905.0" y="688.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Deployment (old: LangServe)</text>
+</svg>
