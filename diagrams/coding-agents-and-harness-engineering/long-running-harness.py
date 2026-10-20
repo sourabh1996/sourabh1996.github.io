@@ -1,0 +1,38 @@
+# A long-running agent: one initializer session sets up state on disk; many short coding sessions read it, do one feature, and leave it clean.
+SPEC = {
+    "title": "Long-running agents: state on disk, one feature per session",
+    "accent": "teal",
+    "width": 1100, "height": 760,
+    "groups": [
+        {"x": 30, "y": 90, "w": 260, "h": 640, "label": "Once: initializer", "color": "purple"},
+        {"x": 320, "y": 90, "w": 400, "h": 640, "label": "Shared state (the repo)", "color": "gray"},
+        {"x": 750, "y": 90, "w": 320, "h": 640, "label": "Every session: coding agent", "color": "teal"},
+    ],
+    "nodes": {
+        "spec": {"x": 50, "y": 130, "w": 220, "h": 90, "icon": "📄", "label": "Read the spec", "sub": "user's prompt", "color": "purple"},
+        "init": {"x": 50, "y": 260, "w": 220, "h": 190, "icon": "🏗️", "label": "Set up", "sub": "write feature list\nwrite init.sh\nstart progress log\nfirst git commit", "color": "purple"},
+        "stop0": {"x": 50, "y": 500, "w": 220, "h": 90, "icon": "🛑", "label": "End session", "sub": "no features built", "color": "purple"},
+        "features": {"x": 350, "y": 130, "w": 340, "h": 100, "icon": "✅", "label": "feature_list.json", "sub": "200+ items · passes: false", "color": "green"},
+        "progress": {"x": 350, "y": 260, "w": 340, "h": 100, "icon": "📝", "label": "claude-progress.txt", "sub": "what each session did", "color": "amber"},
+        "initsh": {"x": 350, "y": 390, "w": 340, "h": 100, "icon": "▶️", "label": "init.sh", "sub": "start the app the same way", "color": "blue"},
+        "git": {"x": 350, "y": 520, "w": 340, "h": 100, "icon": "🌿", "label": "git history", "sub": "one commit per feature", "color": "coral"},
+        "orient": {"x": 770, "y": 130, "w": 280, "h": 80, "icon": "🧭", "label": "Orient", "sub": "pwd · git log · progress", "color": "teal", "size": 14},
+        "smoke": {"x": 770, "y": 235, "w": 280, "h": 80, "icon": "💨", "label": "Smoke test", "sub": "run init.sh · fix breakage", "color": "teal", "size": 14},
+        "one": {"x": 770, "y": 340, "w": 280, "h": 80, "icon": "🎯", "label": "One feature", "sub": "highest priority failing", "color": "teal", "size": 14},
+        "verify": {"x": 770, "y": 445, "w": 280, "h": 80, "icon": "🔍", "label": "Verify end to end", "sub": "then flip passes: true", "color": "teal", "size": 14},
+        "next": {"x": 770, "y": 655, "w": 280, "h": 55, "label": "🔁 Next session, fresh context", "color": "gray", "size": 14},
+        "commit": {"x": 770, "y": 550, "w": 280, "h": 80, "icon": "💾", "label": "Commit + log", "sub": "leave a clean state", "color": "teal", "size": 14},
+    },
+    "edges": [
+        {"from": "spec", "to": "init", "from_side": "bottom", "to_side": "top"},
+        {"from": "init", "to": "stop0", "from_side": "bottom", "to_side": "top"},
+        {"from": "init", "to": "features", "from_side": "right", "to_side": "left"},
+        {"from": "progress", "to": "orient", "from_side": "right", "to_side": "left", "label": "read"},
+        {"from": "orient", "to": "smoke", "from_side": "bottom", "to_side": "top"},
+        {"from": "smoke", "to": "one", "from_side": "bottom", "to_side": "top"},
+        {"from": "one", "to": "verify", "from_side": "bottom", "to_side": "top"},
+        {"from": "verify", "to": "commit", "from_side": "bottom", "to_side": "top"},
+        {"from": "commit", "to": "next", "from_side": "bottom", "to_side": "top"},
+        {"from": "commit", "to": "git", "from_side": "left", "to_side": "right", "label": "write"},
+    ],
+}

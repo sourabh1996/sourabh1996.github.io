@@ -41,10 +41,10 @@ Use coding agents well and build the harness around a model: loops, tools, permi
 
 <a id="m5"></a>
 ### 5. Long-Running Agents ➕ (4 lessons)
-- Initializer Agents, Feature Lists and Progress Files · Article ➕
-- Handing Off across Context Windows · Article ➕
-- Git as a Safety Net and Checkpoints · Article ➕
-- Parallel Agents with Worktrees · Article ➕
+- [Initializer Agents, Feature Lists and Progress Files](05-long-running-agents/initializer-agents-feature-lists-and-progress-files.md) · Article ➕ ✍️ *written*
+- [Handing Off across Context Windows](05-long-running-agents/handing-off-across-context-windows.md) · Article ➕ ✍️ *written*
+- [Git as a Safety Net and Checkpoints](05-long-running-agents/git-as-a-safety-net-and-checkpoints.md) · Article ➕ ✍️ *written*
+- [Parallel Agents with Worktrees](05-long-running-agents/parallel-agents-with-worktrees.md) · Article ➕ ✍️ *written*
 
 <a id="m6"></a>
 ### 6. Harness Engineering for Codebases ➕ (3 lessons)
