@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 720" width="1100" height="720" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Generative UI: who decides what the screen looks like?">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="718" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#5b3fa0"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Generative UI: who decides what the screen looks like?</text>
+<rect x="25" y="90" width="340" height="520" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="162.2" y="75" width="65.6" height="30" rx="15" fill="#2e7d4f"/>
+<text x="195.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Static</text>
+<rect x="380" y="90" width="340" height="520" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="495.7" y="75" width="108.6" height="30" rx="15" fill="#2f5fb3"/>
+<text x="550.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Declarative</text>
+<rect x="735" y="90" width="340" height="520" rx="14" fill="none" stroke="#e0b25c" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="855.0" y="75" width="100.0" height="30" rx="15" fill="#9a6412"/>
+<text x="905.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Open-ended</text>
+<rect x="50" y="130" width="290" height="120" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="195.0" y="175.0" font-size="28" text-anchor="middle">🧱</text>
+<text x="195.0" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Frontend owns the components</text>
+<text x="195.0" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">agent picks one and</text><text x="195.0" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">fills in its arguments</text>
+<rect x="50" y="275" width="290" height="140" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="195.0" y="324.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Frontend tools,</text><text x="195.0" y="342.8" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">tool-call renderers</text>
+<text x="195.0" y="364.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">show_flight_card(</text><text x="195.0" y="379.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">  from=&quot;DEL&quot;, to=&quot;BLR&quot;)</text>
+<rect x="50" y="440" width="290" height="140" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="195.0" y="489.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Most control,</text><text x="195.0" y="507.8" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">least flexibility</text>
+<text x="195.0" y="529.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">pixel-perfect, on brand;</text><text x="195.0" y="544.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">a new widget needs a release</text>
+<rect x="405" y="130" width="290" height="120" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="550.0" y="175.0" font-size="28" text-anchor="middle">🧩</text>
+<text x="550.0" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Agent composes a layout</text>
+<text x="550.0" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">as JSON, from a catalog</text><text x="550.0" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">of trusted components</text>
+<rect x="405" y="275" width="290" height="140" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="550.0" y="334.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">A2UI, Open-JSON-UI</text>
+<text x="550.0" y="354.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Column &gt; Text, TextField,</text><text x="550.0" y="369.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Button bound to /data paths</text>
+<rect x="405" y="440" width="290" height="140" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="550.0" y="499.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Balanced</text>
+<text x="550.0" y="519.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">native look on web and mobile;</text><text x="550.0" y="534.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">no code runs from the agent</text>
+<rect x="760" y="130" width="290" height="120" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="905.0" y="175.0" font-size="28" text-anchor="middle">🖼️</text>
+<text x="905.0" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Server ships a whole app</text>
+<text x="905.0" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">HTML and JavaScript</text><text x="905.0" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">in a sandboxed iframe</text>
+<rect x="760" y="275" width="290" height="140" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="905.0" y="324.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">MCP Apps (ui:// resources),</text><text x="905.0" y="342.8" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">built on MCP-UI, Apps SDK</text>
+<text x="905.0" y="364.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">talks to the host over</text><text x="905.0" y="379.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">postMessage JSON-RPC</text>
+<rect x="760" y="440" width="290" height="140" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="905.0" y="489.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Most flexibility,</text><text x="905.0" y="507.8" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">least control</text>
+<text x="905.0" y="529.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">anything is possible; needs</text><text x="905.0" y="544.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">sandbox, CSP and review</text>
+<text x="550" y="650.0" font-size="14" font-weight="600" fill="#1f2328" text-anchor="middle">Further right: the agent or server decides more of the screen, and the host must trust it less.</text>
+<text x="550" y="678.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">AG-UI is not on this line: it is the event stream that can carry any of them to the app.</text>
+</svg>

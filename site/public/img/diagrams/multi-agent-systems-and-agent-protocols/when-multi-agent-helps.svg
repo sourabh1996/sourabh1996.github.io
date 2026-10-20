@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" width="1100" height="760" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="When several agents help, and when they hurt">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="758" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">When several agents help, and when they hurt</text>
+<rect x="30" y="260" width="500" height="380" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="208.5" y="245" width="143.0" height="30" rx="15" fill="#2e7d4f"/>
+<text x="280.0" y="265.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Helps: split it</text>
+<rect x="570" y="260" width="500" height="380" rx="14" fill="none" stroke="#ec9a8a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="722.7" y="245" width="194.6" height="30" rx="15" fill="#b2442f"/>
+<text x="820.0" y="265.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Hurts: keep one agent</text>
+<path d="M550.0,210.0 L550.0,236.0 L395.0,236.0 L395.0,295.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="455.5" y="222.0" width="29.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="470" y="236.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">yes</text>
+<path d="M550.0,210.0 L550.0,236.0 L705.0,236.0 L705.0,295.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="619.0" y="222.0" width="22.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="630" y="236.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">no</text>
+<rect x="390" y="85" width="320" height="125" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="550.0" y="132.5" font-size="28" text-anchor="middle">🧩</text>
+<text x="550.0" y="155.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Your task</text>
+<text x="550.0" y="175.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Can it split into parts that need</text><text x="550.0" y="191.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">different context and can run at once?</text>
+<rect x="55" y="295" width="220" height="150" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="165.0" y="355.0" font-size="28" text-anchor="middle">🪟</text>
+<text x="165.0" y="378.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Separate context</text>
+<text x="165.0" y="398.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">each part reads a lot,</text><text x="165.0" y="413.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">returns a little</text>
+<rect x="285" y="295" width="220" height="150" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="395.0" y="355.0" font-size="28" text-anchor="middle">⚡</text>
+<text x="395.0" y="378.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Parallel parts</text>
+<text x="395.0" y="398.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">five companies,</text><text x="395.0" y="413.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">five searches at once</text>
+<rect x="55" y="465" width="220" height="150" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="165.0" y="525.0" font-size="28" text-anchor="middle">🧑‍🔧</text>
+<text x="165.0" y="548.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Different roles</text>
+<text x="165.0" y="568.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">own tools, model,</text><text x="165.0" y="583.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">permissions</text>
+<rect x="285" y="465" width="220" height="150" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="395.0" y="525.0" font-size="28" text-anchor="middle">🏢</text>
+<text x="395.0" y="548.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Different owners</text>
+<text x="395.0" y="568.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">another team&#x27;s agent</text><text x="395.0" y="583.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">(this is where A2A fits)</text>
+<rect x="595" y="295" width="220" height="150" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="705.0" y="355.0" font-size="28" text-anchor="middle">🔗</text>
+<text x="705.0" y="378.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Shared context</text>
+<text x="705.0" y="398.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">every step needs</text><text x="705.0" y="413.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">every earlier decision</text>
+<rect x="825" y="295" width="220" height="150" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="935.0" y="355.0" font-size="28" text-anchor="middle">🪜</text>
+<text x="935.0" y="378.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Strict sequence</text>
+<text x="935.0" y="398.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">step B can&#x27;t start</text><text x="935.0" y="413.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">until step A ends</text>
+<rect x="595" y="465" width="220" height="150" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="705.0" y="533.0" font-size="28" text-anchor="middle">🥄</text>
+<text x="705.0" y="556.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Small task</text>
+<text x="705.0" y="576.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">one lookup, one answer</text>
+<rect x="825" y="465" width="220" height="150" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="935.0" y="525.0" font-size="28" text-anchor="middle">💸</text>
+<text x="935.0" y="548.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Tight budget</text>
+<text x="935.0" y="568.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">value too low for</text><text x="935.0" y="583.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">many times the tokens</text>
+<text x="550" y="680.0" font-size="14" font-weight="600" fill="#1f2328" text-anchor="middle">Rough token cost (Anthropic, 2025): one agent uses about 4x the tokens of a chat; a multi-agent system about 15x.</text>
+<text x="550" y="706.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Splitting is a way to spend more tokens usefully. Only do it when the task is worth that spend.</text>
+</svg>

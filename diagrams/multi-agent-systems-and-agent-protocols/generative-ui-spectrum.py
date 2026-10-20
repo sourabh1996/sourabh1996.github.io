@@ -1,0 +1,37 @@
+# The generative UI spectrum: from frontend-owned components to agent-written HTML in a sandbox.
+SPEC = {
+    "title": "Generative UI: who decides what the screen looks like?",
+    "accent": "purple",
+    "width": 1100, "height": 720,
+    "groups": [
+        {"x": 25, "y": 90, "w": 340, "h": 520, "label": "Static", "color": "green"},
+        {"x": 380, "y": 90, "w": 340, "h": 520, "label": "Declarative", "color": "blue"},
+        {"x": 735, "y": 90, "w": 340, "h": 520, "label": "Open-ended", "color": "amber"},
+    ],
+    "nodes": {
+        "s1": {"x": 50, "y": 130, "w": 290, "h": 120, "icon": "🧱", "label": "Frontend owns the components",
+               "sub": "agent picks one and\nfills in its arguments", "color": "green", "size": 16},
+        "s2": {"x": 50, "y": 275, "w": 290, "h": 140, "label": "Frontend tools,\ntool-call renderers",
+               "sub": "show_flight_card(\n  from=\"DEL\", to=\"BLR\")", "color": "gray", "size": 15},
+        "s3": {"x": 50, "y": 440, "w": 290, "h": 140, "label": "Most control,\nleast flexibility",
+               "sub": "pixel-perfect, on brand;\na new widget needs a release", "color": "green", "size": 15},
+        "d1": {"x": 405, "y": 130, "w": 290, "h": 120, "icon": "🧩", "label": "Agent composes a layout",
+               "sub": "as JSON, from a catalog\nof trusted components", "color": "blue", "size": 16},
+        "d2": {"x": 405, "y": 275, "w": 290, "h": 140, "label": "A2UI, Open-JSON-UI",
+               "sub": "Column > Text, TextField,\nButton bound to /data paths", "color": "gray", "size": 15},
+        "d3": {"x": 405, "y": 440, "w": 290, "h": 140, "label": "Balanced",
+               "sub": "native look on web and mobile;\nno code runs from the agent", "color": "blue", "size": 15},
+        "o1": {"x": 760, "y": 130, "w": 290, "h": 120, "icon": "🖼️", "label": "Server ships a whole app",
+               "sub": "HTML and JavaScript\nin a sandboxed iframe", "color": "amber", "size": 16},
+        "o2": {"x": 760, "y": 275, "w": 290, "h": 140, "label": "MCP Apps (ui:// resources),\nbuilt on MCP-UI, Apps SDK",
+               "sub": "talks to the host over\npostMessage JSON-RPC", "color": "gray", "size": 15},
+        "o3": {"x": 760, "y": 440, "w": 290, "h": 140, "label": "Most flexibility,\nleast control",
+               "sub": "anything is possible; needs\nsandbox, CSP and review", "color": "amber", "size": 15},
+    },
+    "edges": [],
+    "notes": [
+        {"x": 550, "y": 650, "text": "Further right: the agent or server decides more of the screen, and the host must trust it less.",
+         "size": 14, "weight": 600, "color": "#1f2328"},
+        {"x": 550, "y": 678, "text": "AG-UI is not on this line: it is the event stream that can carry any of them to the app.", "size": 13},
+    ],
+}

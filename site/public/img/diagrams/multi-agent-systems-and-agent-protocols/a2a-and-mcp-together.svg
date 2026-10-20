@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 790" width="1100" height="790" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="A2A across, MCP down">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="788" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">A2A across, MCP down</text>
+<path d="M550.0,170.0 L550.0,230.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="525.0" y="177.0" width="50.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="550.0" y="191.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">app UI</text>
+<path d="M700.0,290.0 L800.0,290.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="735.5" y="267.0" width="29.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="750.0" y="281.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">MCP</text>
+<path d="M400.0,290.0 L210.0,440.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="290.5" y="342.0" width="29.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="305.0" y="356.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">A2A</text>
+<path d="M550.0,350.0 L890.0,440.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="705.5" y="372.0" width="29.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="720.0" y="386.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">A2A</text>
+<path d="M210.0,560.0 L112.5,650.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="146.8" y="582.0" width="29.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="161.25" y="596.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">MCP</text>
+<path d="M210.0,560.0 L302.5,650.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="241.8" y="582.0" width="29.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="256.25" y="596.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">MCP</text>
+<path d="M890.0,560.0 L797.5,650.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="829.2" y="582.0" width="29.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="843.75" y="596.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">MCP</text>
+<path d="M890.0,560.0 L987.5,650.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="924.2" y="582.0" width="29.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="938.75" y="596.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">MCP</text>
+<rect x="420" y="90" width="260" height="80" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="550.0" y="123.0" font-size="28" text-anchor="middle">🙋</text>
+<text x="550.0" y="146.0" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">Traveller</text>
+<text x="550.0" y="166.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">in the trip app</text>
+<rect x="400" y="230" width="300" height="120" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="550.0" y="283.0" font-size="28" text-anchor="middle">🧭</text>
+<text x="550.0" y="306.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Trip planner agent</text>
+<text x="550.0" y="326.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">your team, A2A client</text>
+<rect x="800" y="245" width="260" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="930.0" y="287.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">🗺️ Maps MCP server</text>
+<text x="930.0" y="307.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">a tool the planner controls</text>
+<rect x="60" y="440" width="300" height="120" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="210.0" y="493.0" font-size="28" text-anchor="middle">🚆</text>
+<text x="210.0" y="516.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Rail agent</text>
+<text x="210.0" y="536.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">rail company, A2A server</text>
+<rect x="740" y="440" width="300" height="120" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="890.0" y="493.0" font-size="28" text-anchor="middle">🏨</text>
+<text x="890.0" y="516.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Hotel agent</text>
+<text x="890.0" y="536.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">hotel chain, A2A server</text>
+<rect x="30" y="650" width="165" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="112.5" y="692.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Seat DB</text>
+<text x="112.5" y="712.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">MCP tool</text>
+<rect x="220" y="650" width="165" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="302.5" y="692.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Fare API</text>
+<text x="302.5" y="712.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">MCP tool</text>
+<rect x="715" y="650" width="165" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="797.5" y="692.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Rooms DB</text>
+<text x="797.5" y="712.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">MCP tool</text>
+<rect x="905" y="650" width="165" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="987.5" y="692.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Payments</text>
+<text x="987.5" y="712.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">MCP tool</text>
+<rect x="420" y="440" width="260" height="300" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="550.0" y="535.0" font-size="28" text-anchor="middle">🧩</text>
+<text x="550.0" y="558.0" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">Rule of thumb</text>
+<text x="550.0" y="578.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">A2A (across):</text><text x="550.0" y="593.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">delegate a goal to</text><text x="550.0" y="609.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">an agent you don&#x27;t control</text><text x="550.0" y="624.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle"></text><text x="550.0" y="640.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">MCP (down):</text><text x="550.0" y="656.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">call a tool or read data</text><text x="550.0" y="671.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">your agent controls</text>
+</svg>

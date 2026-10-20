@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 820" width="1100" height="820" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Why multi-agent systems fail, and the fix for each">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="818" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#b2442f"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Why multi-agent systems fail, and the fix for each</text>
+<rect x="30" y="95" width="250" height="600" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="92.1" y="80" width="125.8" height="30" rx="15" fill="#2f5fb3"/>
+<text x="155.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">System design</text>
+<rect x="300" y="95" width="250" height="600" rx="14" fill="none" stroke="#e0b25c" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="344.9" y="80" width="160.2" height="30" rx="15" fill="#9a6412"/>
+<text x="425.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Agents misaligned</text>
+<rect x="570" y="95" width="250" height="600" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="614.9" y="80" width="160.2" height="30" rx="15" fill="#2e7d4f"/>
+<text x="695.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Weak verification</text>
+<rect x="840" y="95" width="230" height="600" rx="14" fill="none" stroke="#ec9a8a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="905.0" y="80" width="100.0" height="30" rx="15" fill="#b2442f"/>
+<text x="955.0" y="100.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Operations</text>
+<rect x="50" y="130" width="210" height="120" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="155.0" y="183.0" font-size="28" text-anchor="middle">🔁</text>
+<text x="155.0" y="206.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Repeats steps</text>
+<text x="155.0" y="226.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">same search again</text>
+<rect x="50" y="265" width="210" height="120" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="155.0" y="318.0" font-size="28" text-anchor="middle">🛑</text>
+<text x="155.0" y="341.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">No stop rule</text>
+<text x="155.0" y="361.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">keeps going after done</text>
+<rect x="50" y="400" width="210" height="120" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="155.0" y="453.0" font-size="28" text-anchor="middle">📋</text>
+<text x="155.0" y="476.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Ignores the spec</text>
+<text x="155.0" y="496.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">wrong task or role</text>
+<rect x="50" y="555" width="210" height="115" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="155.0" y="593.5" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Fix</text>
+<text x="155.0" y="613.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">clear briefs and roles,</text><text x="155.0" y="629.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">turn limits,</text><text x="155.0" y="644.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">defined &#x27;done&#x27;</text>
+<rect x="320" y="130" width="210" height="120" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="425.0" y="175.0" font-size="28" text-anchor="middle">📞</text>
+<text x="425.0" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Lost in hand-off</text>
+<text x="425.0" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">detail dropped</text><text x="425.0" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">in a summary</text>
+<rect x="320" y="265" width="210" height="120" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="425.0" y="310.0" font-size="28" text-anchor="middle">🙉</text>
+<text x="425.0" y="333.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Ignores others</text>
+<text x="425.0" y="353.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">or never asks</text><text x="425.0" y="368.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">for clarification</text>
+<rect x="320" y="400" width="210" height="120" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="425.0" y="445.0" font-size="28" text-anchor="middle">🎭</text>
+<text x="425.0" y="468.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Says X, does Y</text>
+<text x="425.0" y="488.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">reasoning and action</text><text x="425.0" y="503.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">don&#x27;t match</text>
+<rect x="320" y="555" width="210" height="115" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="425.0" y="593.5" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Fix</text>
+<text x="425.0" y="613.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">structured hand-offs,</text><text x="425.0" y="629.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">shared facts in a store,</text><text x="425.0" y="644.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">check action vs intent</text>
+<rect x="590" y="130" width="210" height="120" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="695.0" y="175.0" font-size="28" text-anchor="middle">⏹️</text>
+<text x="695.0" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Stops too early</text>
+<text x="695.0" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">declares success</text><text x="695.0" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">prematurely</text>
+<rect x="590" y="265" width="210" height="120" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="695.0" y="318.0" font-size="28" text-anchor="middle">👀</text>
+<text x="695.0" y="341.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Shallow checks</text>
+<text x="695.0" y="361.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;looks fine&quot; review</text>
+<rect x="590" y="400" width="210" height="120" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="695.0" y="445.0" font-size="28" text-anchor="middle">❌</text>
+<text x="695.0" y="468.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Wrong checks</text>
+<text x="695.0" y="488.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">verifier approves</text><text x="695.0" y="503.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">a wrong answer</text>
+<rect x="590" y="555" width="210" height="115" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="695.0" y="593.5" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Fix</text>
+<text x="695.0" y="613.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">check against</text><text x="695.0" y="629.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">acceptance criteria,</text><text x="695.0" y="644.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">run real tests</text>
+<rect x="855" y="130" width="200" height="120" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="955.0" y="175.0" font-size="28" text-anchor="middle">💸</text>
+<text x="955.0" y="198.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Runaway cost</text>
+<text x="955.0" y="218.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">50 subagents for</text><text x="955.0" y="233.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">a simple question</text>
+<rect x="855" y="265" width="200" height="120" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="955.0" y="310.0" font-size="28" text-anchor="middle">🌊</text>
+<text x="955.0" y="333.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Cascading errors</text>
+<text x="955.0" y="353.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">one bad output</text><text x="955.0" y="368.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">flows downstream</text>
+<rect x="855" y="400" width="200" height="120" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="955.0" y="445.0" font-size="28" text-anchor="middle">🦠</text>
+<text x="955.0" y="468.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Injection spreads</text>
+<text x="955.0" y="488.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">a poisoned page</text><text x="955.0" y="503.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">reaches every agent</text>
+<rect x="855" y="555" width="200" height="115" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="955.0" y="593.5" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Fix</text>
+<text x="955.0" y="613.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">budgets and caps,</text><text x="955.0" y="629.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">checkpoints, tracing,</text><text x="955.0" y="644.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">untrusted inputs</text>
+<text x="550" y="740.0" font-size="14" font-weight="600" fill="#1f2328" text-anchor="middle">The first three groups are the MAST taxonomy (1,642 annotated traces from 7 multi-agent frameworks, 2025).</text>
+<text x="550" y="766.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Its main finding: many failures come from system design and coordination, not only from model limits.</text>
+</svg>

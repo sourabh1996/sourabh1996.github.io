@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" width="1100" height="700" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Three ways to follow a long A2A task">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="698" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Three ways to follow a long A2A task</text>
+<rect x="25" y="90" width="340" height="580" rx="14" fill="none" stroke="#b8bec6" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="157.9" y="75" width="74.19999999999999" height="30" rx="15" fill="#4b5563"/>
+<text x="195.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Polling</text>
+<rect x="380" y="90" width="340" height="580" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="478.5" y="75" width="143.0" height="30" rx="15" fill="#2f5fb3"/>
+<text x="550.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Streaming (SSE)</text>
+<rect x="735" y="90" width="340" height="580" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="820.6" y="75" width="168.79999999999998" height="30" rx="15" fill="#2e7d4f"/>
+<text x="905.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Push notifications</text>
+<path d="M195.0,210.0 L195.0,330.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="131.5" y="247.0" width="127.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="195.0" y="261.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">GetTask? GetTask?</text>
+<path d="M550.0,330.0 L550.0,210.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="479.5" y="247.0" width="141.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="550.0" y="261.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">event, event, event</text>
+<path d="M905.0,330.0 L905.0,210.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="834.5" y="247.0" width="141.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="905.0" y="261.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">HTTP POST on change</text>
+<rect x="65" y="130" width="260" height="80" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="195.0" y="171.0" font-size="28" text-anchor="middle">🧭</text>
+<text x="195.0" y="194.0" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">Client</text>
+<rect x="65" y="330" width="260" height="80" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="195.0" y="371.0" font-size="28" text-anchor="middle">🚆</text>
+<text x="195.0" y="394.0" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">Remote agent</text>
+<rect x="65" y="450" width="260" height="190" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="195.0" y="516.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">SendMessage, then</text><text x="195.0" y="534.8" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">GetTask every few seconds</text>
+<text x="195.0" y="556.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">simplest, works everywhere</text><text x="195.0" y="571.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">wasted calls, slower to notice</text><text x="195.0" y="587.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">fine behind strict firewalls</text>
+<rect x="420" y="130" width="260" height="80" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="550.0" y="171.0" font-size="28" text-anchor="middle">🧭</text>
+<text x="550.0" y="194.0" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">Client</text>
+<rect x="420" y="330" width="260" height="80" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="550.0" y="371.0" font-size="28" text-anchor="middle">🚆</text>
+<text x="550.0" y="394.0" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">Remote agent</text>
+<rect x="420" y="450" width="260" height="190" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="550.0" y="516.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">SendStreamingMessage</text><text x="550.0" y="534.8" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">keeps one connection open</text>
+<text x="550.0" y="556.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">events arrive instantly, in order</text><text x="550.0" y="571.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">artifacts in chunks</text><text x="550.0" y="587.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">reconnect with SubscribeToTask</text>
+<rect x="775" y="130" width="260" height="80" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="905.0" y="171.0" font-size="28" text-anchor="middle">🧭</text>
+<text x="905.0" y="194.0" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">Client webhook</text>
+<rect x="775" y="330" width="260" height="80" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="905.0" y="371.0" font-size="28" text-anchor="middle">🚆</text>
+<text x="905.0" y="394.0" font-size="17" font-weight="700" fill="#1f2328" text-anchor="middle">Remote agent</text>
+<rect x="775" y="450" width="260" height="190" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="905.0" y="516.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Agent POSTs to your URL</text><text x="905.0" y="534.8" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">when the task changes</text>
+<text x="905.0" y="556.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">no open connection, hours-long jobs</text><text x="905.0" y="571.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">at-least-once: dedupe events</text><text x="905.0" y="587.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">check auth, block SSRF</text>
+</svg>
