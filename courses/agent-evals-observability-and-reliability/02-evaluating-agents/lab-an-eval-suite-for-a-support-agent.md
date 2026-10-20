@@ -577,4 +577,4 @@ Output:
 
 ---
 
-**Up next:** [Agent Benchmarks: SWE-bench, Terminal-Bench, tau-bench, GAIA and More](../course.md#m3)
+**Up next:** [Agent Benchmarks: SWE-bench, Terminal-Bench, tau-bench, GAIA and More](../03-benchmarks/agent-benchmarks-swe-bench-terminal-bench-tau-bench-gaia-and-more.md)

@@ -26,8 +26,8 @@ Know whether your agent works: outcome and trajectory evals, LLM judges, benchma
 
 <a id="m3"></a>
 ### 3. Benchmarks ➕ (2 lessons)
-- Agent Benchmarks: SWE-bench, Terminal-Bench, tau-bench, GAIA and More · Article ➕
-- Contamination and Eval Awareness · Article ➕
+- [Agent Benchmarks: SWE-bench, Terminal-Bench, tau-bench, GAIA and More](03-benchmarks/agent-benchmarks-swe-bench-terminal-bench-tau-bench-gaia-and-more.md) · Article ➕ ✍️ *written*
+- [Contamination and Eval Awareness](03-benchmarks/contamination-and-eval-awareness.md) · Article ➕ ✍️ *written*
 
 <a id="m4"></a>
 ### 4. Observability (9 lessons)
