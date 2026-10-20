@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 760" width="1100" height="760" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="The anatomy of an agent eval">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="758" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#9a6412"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">The anatomy of an agent eval</text>
+<rect x="25" y="90" width="230" height="440" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="115.8" y="75" width="48.4" height="30" rx="15" fill="#2f5fb3"/>
+<text x="140.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Task</text>
+<rect x="285" y="90" width="300" height="440" rx="14" fill="none" stroke="#e0b25c" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="311.9" y="75" width="246.2" height="30" rx="15" fill="#9a6412"/>
+<text x="435.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Eval harness runs one trial</text>
+<rect x="615" y="90" width="200" height="440" rx="14" fill="none" stroke="#a68be0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="647.8" y="75" width="134.39999999999998" height="30" rx="15" fill="#5b3fa0"/>
+<text x="715.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Trial produces</text>
+<rect x="845" y="90" width="230" height="440" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="922.9" y="75" width="74.19999999999999" height="30" rx="15" fill="#2e7d4f"/>
+<text x="960.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Graders</text>
+<rect x="25" y="565" width="1050" height="170" rx="14" fill="none" stroke="#6cc3b8" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="379.6" y="550" width="340.8" height="30" rx="15" fill="#1f766d"/>
+<text x="550.0" y="570.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Suite report: many tasks x many trials</text>
+<path d="M235.0,177.5 L305.0,167.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="252.0" y="149.5" width="36.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="270.0" y="163.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">copy</text>
+<path d="M235.0,297.5 L305.0,295.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M435.0,210.0 L435.0,240.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M435.0,350.0 L435.0,400.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+<rect x="450.5" y="363.0" width="99.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="500" y="377.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">act / observe</text>
+<path d="M565.0,295.0 L635.0,215.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M565.0,455.0 L635.0,410.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M795.0,215.0 L865.0,182.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M795.0,215.0 L865.0,317.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M795.0,410.0 L865.0,182.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M795.0,410.0 L865.0,452.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="45" y="245" width="190" height="105" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="140.0" y="282.5" font-size="28" text-anchor="middle">💬</text>
+<text x="140.0" y="305.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Input</text>
+<text x="140.0" y="325.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">&quot;Eggs in KX-1042</text><text x="140.0" y="341.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">were crushed&quot;</text>
+<rect x="45" y="125" width="190" height="105" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="140.0" y="162.5" font-size="28" text-anchor="middle">🗄️</text>
+<text x="140.0" y="185.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Starting world</text>
+<text x="140.0" y="205.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">orders, refunds = [ ]</text><text x="140.0" y="221.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">mock APIs, files</text>
+<rect x="45" y="385" width="190" height="125" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="140.0" y="424.5" font-size="28" text-anchor="middle">✅</text>
+<text x="140.0" y="447.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Success criteria</text>
+<text x="140.0" y="467.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">one refund of ₹84</text><text x="140.0" y="483.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">no refund before</text><text x="140.0" y="498.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">policy check</text>
+<rect x="305" y="125" width="260" height="85" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="435.0" y="160.5" font-size="28" text-anchor="middle">🧼</text>
+<text x="435.0" y="183.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Fresh, isolated copy</text>
+<text x="435.0" y="203.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">new world for every trial</text>
+<rect x="305" y="240" width="260" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="435.0" y="280.0" font-size="28" text-anchor="middle">🤖</text>
+<text x="435.0" y="303.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Agent = model + harness</text>
+<text x="435.0" y="323.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">loop, prompt, tools,</text><text x="435.0" y="338.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">step limits</text>
+<rect x="305" y="400" width="260" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="435.0" y="440.0" font-size="28" text-anchor="middle">🌍</text>
+<text x="435.0" y="463.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Environment</text>
+<text x="435.0" y="483.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">tools change real state:</text><text x="435.0" y="498.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">refund rows, emails, files</text>
+<rect x="635" y="140" width="160" height="150" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="715.0" y="184.0" font-size="28" text-anchor="middle">📜</text>
+<text x="715.0" y="207.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Transcript</text>
+<text x="715.0" y="227.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">what it did</text><text x="715.0" y="242.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">and said:</text><text x="715.0" y="258.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">messages,</text><text x="715.0" y="273.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">tool calls</text>
+<rect x="635" y="330" width="160" height="160" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="715.0" y="379.0" font-size="28" text-anchor="middle">📦</text>
+<text x="715.0" y="402.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Outcome</text>
+<text x="715.0" y="422.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">what is true</text><text x="715.0" y="437.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">now: the final</text><text x="715.0" y="453.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">state of</text><text x="715.0" y="468.9" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">the world</text>
+<rect x="865" y="125" width="190" height="115" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="960.0" y="167.5" font-size="28" text-anchor="middle">🧮</text>
+<text x="960.0" y="190.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Code graders</text>
+<text x="960.0" y="210.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">state checks, rules,</text><text x="960.0" y="226.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">tests, regex</text>
+<rect x="865" y="260" width="190" height="115" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="960.0" y="302.5" font-size="28" text-anchor="middle">🧠</text>
+<text x="960.0" y="325.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Model graders</text>
+<text x="960.0" y="345.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">LLM judge with</text><text x="960.0" y="361.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">a rubric</text>
+<rect x="865" y="395" width="190" height="115" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="960.0" y="437.5" font-size="28" text-anchor="middle">🧑‍⚖️</text>
+<text x="960.0" y="460.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Human graders</text>
+<text x="960.0" y="480.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">experts, spot checks,</text><text x="960.0" y="496.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">calibration</text>
+<rect x="50" y="610" width="230" height="100" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="165.0" y="653.0" font-size="28" text-anchor="middle">📈</text>
+<text x="165.0" y="676.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Success rate</text>
+<text x="165.0" y="696.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">pass@1 with error bars</text>
+<rect x="305" y="610" width="230" height="100" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="420.0" y="653.0" font-size="28" text-anchor="middle">🔁</text>
+<text x="420.0" y="676.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Consistency</text>
+<text x="420.0" y="696.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">does it work every time?</text>
+<rect x="560" y="610" width="230" height="100" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="675.0" y="653.0" font-size="28" text-anchor="middle">⏱️</text>
+<text x="675.0" y="676.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Cost and latency</text>
+<text x="675.0" y="696.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">steps, tokens, rupees</text>
+<rect x="815" y="610" width="235" height="100" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="932.5" y="653.0" font-size="28" text-anchor="middle">🔍</text>
+<text x="932.5" y="676.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Failures to read</text>
+<text x="932.5" y="696.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">open the transcripts</text>
+<text x="715" y="520.0" font-size="13" font-weight="700" fill="#5b3fa0" text-anchor="middle">These two can disagree</text>
+</svg>
