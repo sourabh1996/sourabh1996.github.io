@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 710" width="1100" height="710" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="OWASP Agentic Top 10: where each risk lives">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="708" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#5b3fa0"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">OWASP Agentic Top 10: where each risk lives</text>
+<rect x="30" y="90" width="1040" height="150" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="457.0" y="75" width="186.0" height="30" rx="15" fill="#2f5fb3"/>
+<text x="550.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">What the agent reads</text>
+<rect x="30" y="270" width="1040" height="150" rx="14" fill="none" stroke="#a68be0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="426.9" y="255" width="246.2" height="30" rx="15" fill="#5b3fa0"/>
+<text x="550.0" y="275.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">What the agent is and holds</text>
+<rect x="30" y="450" width="1040" height="230" rx="14" fill="none" stroke="#ec9a8a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="383.9" y="435" width="332.2" height="30" rx="15" fill="#b2442f"/>
+<text x="550.0" y="455.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">What the agent does, and what follows</text>
+<rect x="60" y="130" width="310" height="84" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="215.0" y="169.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ASI01 Goal hijack</text>
+<text x="215.0" y="189.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">outside text redirects its goal</text>
+<rect x="395" y="130" width="310" height="84" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="550.0" y="169.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ASI06 Memory poisoning</text>
+<text x="550.0" y="189.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">bad facts saved for later</text>
+<rect x="730" y="130" width="310" height="84" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="885.0" y="169.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ASI07 Inter-agent comms</text>
+<text x="885.0" y="189.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">spoofed or tampered messages</text>
+<rect x="60" y="310" width="310" height="84" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="215.0" y="349.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ASI03 Identity and privilege</text>
+<text x="215.0" y="369.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">borrowed, broad, long-lived keys</text>
+<rect x="395" y="310" width="310" height="84" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="550.0" y="349.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ASI04 Supply chain</text>
+<text x="550.0" y="369.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">MCP servers, skills, packages</text>
+<rect x="730" y="310" width="310" height="84" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="885.0" y="349.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ASI10 Rogue agents</text>
+<text x="885.0" y="369.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">acting outside policy, unseen</text>
+<rect x="60" y="490" width="230" height="84" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="175.0" y="529.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ASI02 Tool misuse</text>
+<text x="175.0" y="549.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">right tool, wrong outcome</text>
+<rect x="315" y="490" width="230" height="84" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="430.0" y="529.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ASI05 Code execution</text>
+<text x="430.0" y="549.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">words become running code</text>
+<rect x="570" y="490" width="230" height="84" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="685.0" y="529.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ASI08 Cascading failures</text>
+<text x="685.0" y="549.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">one error spreads</text>
+<rect x="825" y="490" width="215" height="84" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="932.5" y="529.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ASI09 Trust exploitation</text>
+<text x="932.5" y="549.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">humans approve bad acts</text>
+<rect x="250" y="600" width="600" height="62" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="550.0" y="636.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">🧭 Least agency: only the autonomy, tools and access the task needs</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" width="1100" height="700" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="The lethal trifecta, and three ways to break it">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="698" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#b2442f"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">The lethal trifecta, and three ways to break it</text>
+<rect x="30" y="90" width="640" height="450" rx="14" fill="none" stroke="#ec9a8a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="149.5" y="75" width="401.0" height="30" rx="15" fill="#b2442f"/>
+<text x="350.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">All three in one session = data can be stolen</text>
+<rect x="700" y="90" width="370" height="450" rx="14" fill="none" stroke="#7cc49a" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="800.6" y="75" width="168.79999999999998" height="30" rx="15" fill="#2e7d4f"/>
+<text x="885.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Remove any one leg</text>
+<path d="M510.0,250.0 L350.0,285.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="373.5" y="244.5" width="113.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="430.0" y="258.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">instructions in</text>
+<path d="M190.0,250.0 L350.0,285.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="231.0" y="244.5" width="78.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="270.0" y="258.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">secrets in</text>
+<path d="M350.0,351.0 L350.0,400.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="318.0" y="352.5" width="64.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="350.0" y="366.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">data out</text>
+<rect x="60" y="140" width="260" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="190.0" y="180.0" font-size="28" text-anchor="middle">🔒</text>
+<text x="190.0" y="203.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Private data</text>
+<text x="190.0" y="223.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">inbox, files, CRM,</text><text x="190.0" y="238.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">private repos</text>
+<rect x="380" y="140" width="260" height="110" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="510.0" y="180.0" font-size="28" text-anchor="middle">📨</text>
+<text x="510.0" y="203.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Untrusted content</text>
+<text x="510.0" y="223.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">emails, web pages,</text><text x="510.0" y="238.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">issues, documents</text>
+<rect x="220" y="400" width="260" height="110" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="350.0" y="440.0" font-size="28" text-anchor="middle">📤</text>
+<text x="350.0" y="463.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">A way to send out</text>
+<text x="350.0" y="483.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">email, URL fetch,</text><text x="350.0" y="498.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">image link, public post</text>
+<rect x="255" y="285" width="190" height="66" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="350.0" y="323.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">⚠️ Model in the middle</text>
+<rect x="725" y="140" width="320" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="885.0" y="180.0" font-size="28" text-anchor="middle">🧹</text>
+<text x="885.0" y="203.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">No private data</text>
+<text x="885.0" y="223.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">a reader agent with</text><text x="885.0" y="238.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">no access to secrets</text>
+<rect x="725" y="270" width="320" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="885.0" y="310.0" font-size="28" text-anchor="middle">🚫</text>
+<text x="885.0" y="333.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">No untrusted input</text>
+<text x="885.0" y="353.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">only content you or</text><text x="885.0" y="368.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">the user wrote</text>
+<rect x="725" y="400" width="320" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="885.0" y="440.0" font-size="28" text-anchor="middle">🧱</text>
+<text x="885.0" y="463.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">No way out</text>
+<text x="885.0" y="483.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">egress blocked, links not</text><text x="885.0" y="498.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">auto-loaded, sends gated</text>
+<rect x="30" y="575" width="1040" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="550.0" y="613.0" font-size="28" text-anchor="middle">✌️</text>
+<text x="550.0" y="636.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Rule of Two (Meta, 2025)</text>
+<text x="550.0" y="656.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">in one session, at most two of: untrusted input · sensitive access · changing state or talking outside</text>
+</svg>

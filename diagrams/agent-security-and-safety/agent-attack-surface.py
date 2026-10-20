@@ -1,0 +1,43 @@
+# Where an attacker's words can enter an agent, and where its actions leave.
+SPEC = {
+    "title": "The attack surface of a tool-using agent",
+    "accent": "coral",
+    "width": 1100, "height": 760,
+    "groups": [
+        {"x": 30, "y": 90, "w": 300, "h": 560, "label": "Words that enter the context", "color": "blue"},
+        {"x": 770, "y": 90, "w": 300, "h": 560, "label": "Actions that leave the agent", "color": "coral"},
+    ],
+    "nodes": {
+        "user": {"x": 55, "y": 125, "w": 250, "h": 62, "label": "🙋 User request", "sub": "trusted, mostly", "color": "green"},
+        "sys": {"x": 55, "y": 197, "w": 250, "h": 62, "label": "📜 System prompt", "sub": "written by you", "color": "green"},
+        "mail": {"x": 55, "y": 269, "w": 250, "h": 62, "label": "📧 Emails, tickets", "sub": "written by strangers", "color": "coral"},
+        "web": {"x": 55, "y": 341, "w": 250, "h": 62, "label": "🌐 Web pages, PDFs", "sub": "written by anyone", "color": "coral"},
+        "tooldesc": {"x": 55, "y": 413, "w": 250, "h": 62, "label": "🧰 Tool descriptions", "sub": "written by server authors", "color": "amber"},
+        "mem": {"x": 55, "y": 485, "w": 250, "h": 62, "label": "🗂️ Memory, RAG chunks", "sub": "written earlier, by whom?", "color": "amber"},
+        "peer": {"x": 55, "y": 557, "w": 250, "h": 62, "label": "🤝 Other agents", "sub": "messages and results", "color": "amber"},
+        "model": {"x": 410, "y": 240, "w": 280, "h": 170, "icon": "🧠", "label": "The model", "sub": "reads it all as one text\ncannot tell who wrote\nwhich line", "color": "purple"},
+        "harness": {"x": 410, "y": 450, "w": 280, "h": 110, "icon": "🛡️", "label": "Harness", "sub": "your code: decides what\nactually runs", "color": "gray"},
+        "send": {"x": 795, "y": 125, "w": 250, "h": 62, "label": "📤 Send email, post", "sub": "data leaves", "color": "coral"},
+        "pay": {"x": 795, "y": 197, "w": 250, "h": 62, "label": "💸 Pay, order, refund", "sub": "money moves", "color": "coral"},
+        "code": {"x": 795, "y": 269, "w": 250, "h": 62, "label": "💻 Run code, shell", "sub": "anything is possible", "color": "coral"},
+        "files": {"x": 795, "y": 341, "w": 250, "h": 62, "label": "📁 Write, delete files", "sub": "state changes", "color": "coral"},
+        "fetch": {"x": 795, "y": 413, "w": 250, "h": 62, "label": "🔗 Fetch a URL", "sub": "a quiet way out", "color": "coral"},
+        "memw": {"x": 795, "y": 485, "w": 250, "h": 62, "label": "✍️ Write memory", "sub": "poisons the future", "color": "coral"},
+        "delegate": {"x": 795, "y": 557, "w": 250, "h": 62, "label": "📨 Delegate to agents", "sub": "harm spreads", "color": "coral"},
+        "creds": {"x": 330, "y": 672, "w": 440, "h": 66, "label": "🔑 Credentials the tools carry", "sub": "the agent acts with THEIR authority", "color": "amber"},
+    },
+    "edges": [
+        {"from": "mail", "to": "model", "to_side": "left"},
+        {"from": "web", "to": "model", "to_side": "left"},
+        {"from": "user", "to": "model", "to_side": "left"},
+        {"from": "mem", "to": "model", "to_side": "left"},
+        {"from": "model", "to": "harness", "label": "proposed action"},
+        {"from": "harness", "to": "code", "from_side": "right", "to_side": "left"},
+        {"from": "harness", "to": "memw", "from_side": "right", "to_side": "left"},
+        {"from": "creds", "to": "harness", "from_side": "top", "to_side": "bottom"},
+    ],
+    "notes": [
+        {"x": 550, "y": 120, "text": "Green = trusted   Amber = partly trusted   Red = untrusted", "size": 13},
+        {"x": 550, "y": 150, "text": "Every arrow on the left is a door for instructions.", "weight": 700, "color": "#b2442f", "size": 14},
+    ],
+}

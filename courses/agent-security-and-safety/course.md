@@ -12,14 +12,14 @@ Threat-model an agent and defend it: prompt injection, the OWASP Top 10 for agen
 
 <a id="m1"></a>
 ### 1. Start Here (1 lesson)
-- How This Course Works · Article
+- [How This Course Works](01-start-here/how-this-course-works.md) · Article ✍️ *written*
 
 <a id="m2"></a>
 ### 2. Threat Modelling Agents ➕ (4 lessons)
-- Why Agents Change the Security Picture · Article ➕
-- Direct and Indirect Prompt Injection · Article ➕
-- The Lethal Trifecta · Article ➕
-- OWASP LLM Top 10 and Agentic Top 10 · Article ➕
+- [Why Agents Change the Security Picture](02-threat-modelling-agents/why-agents-change-the-security-picture.md) · Article ➕ ✍️ *written*
+- [Direct and Indirect Prompt Injection](02-threat-modelling-agents/direct-and-indirect-prompt-injection.md) · Article ➕ ✍️ *written*
+- [The Lethal Trifecta](02-threat-modelling-agents/the-lethal-trifecta.md) · Article ➕ ✍️ *written*
+- [OWASP LLM Top 10 and Agentic Top 10](02-threat-modelling-agents/owasp-llm-top-10-and-agentic-top-10.md) · Article ➕ ✍️ *written*
 
 <a id="m3"></a>
 ### 3. The Agentic Top 10 in Practice ➕ (6 lessons)
