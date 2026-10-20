@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 520" width="1100" height="520" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Lab: a typed routing layer in front of an agent">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="518" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#5b3fa0"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Lab: a typed routing layer in front of an agent</text>
+<rect x="230" y="75" width="620" height="360" rx="14" fill="none" stroke="#a68be0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="447.0" y="60" width="186.0" height="30" rx="15" fill="#5b3fa0"/>
+<text x="540.0" y="80.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">LangGraph StateGraph</text>
+<path d="M200.0,175.0 L260.0,175.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M450.0,175.0 L480.0,175.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M640.0,175.0 L670.0,175.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="637.0" y="152.0" width="36.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="655.0" y="166.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">sure</text>
+<path d="M560.0,230.0 L560.0,262.0 L355.0,262.0 L355.0,300.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="443.0" y="239.0" width="29.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="457.5" y="253.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">low</text>
+<path d="M560.0,230.0 L560.0,300.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="535.0" y="242.0" width="50.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="560.0" y="256.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">middle</text>
+<path d="M640.0,355.0 L750.0,355.0 L750.0,230.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="728.5" y="269.5" width="43.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="750.0" y="283.5" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">valid</text>
+<path d="M480.0,355.0 L435.0,355.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="432.5" y="332.0" width="50.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="457.5" y="346.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">unsure</text>
+<path d="M830.0,175.0 L885.0,175.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="30" y="120" width="170" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="115.0" y="168.0" font-size="28" text-anchor="middle">🎫</text>
+<text x="115.0" y="191.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Ticket</text>
+<text x="115.0" y="211.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">customer message</text>
+<rect x="260" y="120" width="190" height="110" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="355.0" y="152.0" font-size="28" text-anchor="middle">⚡</text>
+<text x="355.0" y="175.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">decide</text>
+<text x="355.0" y="195.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">decision model;</text><text x="355.0" y="210.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">answers checked</text><text x="355.0" y="226.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">by Pydantic</text>
+<rect x="480" y="120" width="160" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="560.0" y="160.0" font-size="28" text-anchor="middle">🚦</text>
+<text x="560.0" y="183.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">gate</text>
+<text x="560.0" y="203.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">confidence</text><text x="560.0" y="218.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">bands</text>
+<rect x="670" y="120" width="160" height="110" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="750.0" y="168.0" font-size="28" text-anchor="middle">✅</text>
+<text x="750.0" y="191.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">act</text>
+<text x="750.0" y="211.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">typed Route</text>
+<rect x="275" y="300" width="160" height="110" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="355.0" y="348.0" font-size="28" text-anchor="middle">🙋</text>
+<text x="355.0" y="371.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">human</text>
+<text x="355.0" y="391.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">review queue</text>
+<rect x="480" y="300" width="160" height="110" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="560.0" y="340.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="560.0" y="363.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">llm_check</text>
+<text x="560.0" y="383.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">LLM + schema</text><text x="560.0" y="398.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">+ retry</text>
+<rect x="885" y="120" width="190" height="110" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="980.0" y="160.0" font-size="28" text-anchor="middle">👥</text>
+<text x="980.0" y="183.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Team agent</text>
+<text x="980.0" y="203.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">billing / delivery /</text><text x="980.0" y="218.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">account</text>
+<text x="550" y="480.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">Thresholds come from measuring accuracy per confidence band on labelled tickets (Step 6).</text>
+</svg>

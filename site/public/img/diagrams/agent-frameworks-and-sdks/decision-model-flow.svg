@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="A decision model answers typed questions, not prompts">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="638" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#5b3fa0"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">A decision model answers typed questions, not prompts</text>
+<rect x="300" y="80" width="470" height="400" rx="14" fill="none" stroke="#a68be0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="386.1" y="65" width="297.8" height="30" rx="15" fill="#5b3fa0"/>
+<text x="535.0" y="85.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">One request to the decision model</text>
+<path d="M260.0,270.0 L325.0,287.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M525.0,167.5 L548.0,167.0 L548.0,287.0 L570.0,287.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M525.0,287.5 L570.0,287.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M525.0,407.5 L548.0,407.0 L548.0,287.0 L570.0,287.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M750.0,287.5 L820.0,287.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="753.0" y="264.2" width="64.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="785.0" y="278.2" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">one call</text>
+<path d="M945.0,367.0 L945.0,395.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M945.0,515.0 L945.0,565.0 L770.0,565.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="832.5" y="542.0" width="50.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="857.5" y="556.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">unsure</text>
+<rect x="30" y="200" width="230" height="140" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="145.0" y="247.0" font-size="28" text-anchor="middle">📄</text>
+<text x="145.0" y="270.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">State</text>
+<text x="145.0" y="290.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">text, JSON or array;</text><text x="145.0" y="305.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">every question reads</text><text x="145.0" y="321.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">the same state</text>
+<rect x="325" y="120" width="200" height="95" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="425.0" y="152.5" font-size="28" text-anchor="middle">🔘</text>
+<text x="425.0" y="175.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Choice</text>
+<text x="425.0" y="195.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">billing / delivery /</text><text x="425.0" y="211.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">account / other</text>
+<rect x="325" y="240" width="200" height="95" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="425.0" y="280.5" font-size="28" text-anchor="middle">📶</text>
+<text x="425.0" y="303.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Score</text>
+<text x="425.0" y="323.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">urgency levels 0..2</text>
+<rect x="325" y="360" width="200" height="95" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="425.0" y="400.5" font-size="28" text-anchor="middle">✔️</text>
+<text x="425.0" y="423.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Noul (yes/no)</text>
+<text x="425.0" y="443.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">asks for a refund?</text>
+<rect x="570" y="120" width="180" height="335" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="660.0" y="264.5" font-size="28" text-anchor="middle">⚡</text>
+<text x="660.0" y="287.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Jev</text>
+<text x="660.0" y="307.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">answers all questions</text><text x="660.0" y="323.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">in parallel, no text</text><text x="660.0" y="338.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">generated</text>
+<rect x="820" y="207" width="250" height="160" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="945.0" y="264.0" font-size="28" text-anchor="middle">🧮</text>
+<text x="945.0" y="287.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Typed answers</text>
+<text x="945.0" y="307.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">choice + probabilities</text><text x="945.0" y="322.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">+ confidence;</text><text x="945.0" y="338.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">score; P(yes)</text>
+<rect x="820" y="395" width="250" height="120" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="945.0" y="432.0" font-size="28" text-anchor="middle">🚦</text>
+<text x="945.0" y="455.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Your code decides</text>
+<text x="945.0" y="475.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">high confidence: act</text><text x="945.0" y="490.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">middle: LLM or review</text><text x="945.0" y="506.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">low: a person</text>
+<rect x="300" y="520" width="470" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="535.0" y="558.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="535.0" y="581.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LLM fallback</text>
+<text x="535.0" y="601.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">only for the unsure cases, or when text must be written</text>
+</svg>

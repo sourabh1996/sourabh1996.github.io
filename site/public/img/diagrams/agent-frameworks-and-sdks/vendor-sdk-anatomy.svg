@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 700" width="1100" height="700" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="One anatomy, five vendor SDKs">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="698" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#2f5fb3"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">One anatomy, five vendor SDKs</text>
+<rect x="30" y="85" width="1040" height="300" rx="14" fill="none" stroke="#7aa2f7" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="366.70000000000005" y="70" width="366.59999999999997" height="30" rx="15" fill="#2f5fb3"/>
+<text x="550.0" y="90.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">What every SDK gives you around the model</text>
+<rect x="30" y="410" width="1040" height="270" rx="14" fill="none" stroke="#b8bec6" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="422.6" y="395" width="254.79999999999998" height="30" rx="15" fill="#4b5563"/>
+<text x="550.0" y="415.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">What each vendor adds on top</text>
+<path d="M310.0,160.0 L420.0,235.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M310.0,252.0 L420.0,235.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M310.0,338.0 L420.0,235.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M790.0,160.0 L680.0,235.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M790.0,252.0 L680.0,235.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M790.0,338.0 L680.0,235.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="420" y="165" width="260" height="140" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="550.0" y="220.0" font-size="28" text-anchor="middle">🤖</text>
+<text x="550.0" y="243.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Agent</text>
+<text x="550.0" y="263.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">model + instructions</text><text x="550.0" y="278.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">+ tools + output type</text>
+<rect x="60" y="120" width="250" height="80" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="185.0" y="153.0" font-size="28" text-anchor="middle">🔁</text>
+<text x="185.0" y="176.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Runner / loop</text>
+<text x="185.0" y="196.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">calls model, runs tools, stops</text>
+<rect x="60" y="212" width="250" height="80" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="185.0" y="245.0" font-size="28" text-anchor="middle">🧰</text>
+<text x="185.0" y="268.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Tools + MCP</text>
+<text x="185.0" y="288.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">functions and servers</text>
+<rect x="60" y="303" width="250" height="70" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="185.0" y="339.0" font-size="28" text-anchor="middle">🛡️</text>
+<text x="185.0" y="362.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Guardrails, permissions</text>
+<rect x="790" y="120" width="250" height="80" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="915.0" y="153.0" font-size="28" text-anchor="middle">🗂️</text>
+<text x="915.0" y="176.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Sessions / memory</text>
+<text x="915.0" y="196.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">history across turns</text>
+<rect x="790" y="212" width="250" height="80" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="915.0" y="245.0" font-size="28" text-anchor="middle">👥</text>
+<text x="915.0" y="268.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Multi-agent</text>
+<text x="915.0" y="288.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">handoffs, subagents, graphs</text>
+<rect x="790" y="303" width="250" height="70" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="915.0" y="339.0" font-size="28" text-anchor="middle">📈</text>
+<text x="915.0" y="362.0" font-size="15" font-weight="700" fill="#1f2328" text-anchor="middle">Tracing and evals</text>
+<rect x="55" y="450" width="190" height="205" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="150.0" y="511.5" font-size="28" text-anchor="middle">🟠</text>
+<text x="150.0" y="534.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Claude</text><text x="150.0" y="554.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Agent SDK</text>
+<text x="150.0" y="574.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">built-in file, shell</text><text x="150.0" y="590.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">and web tools;</text><text x="150.0" y="605.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">hooks; skills;</text><text x="150.0" y="621.4" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">subagents</text>
+<rect x="260" y="450" width="190" height="205" rx="12" fill="#e6f4ea" stroke="#7cc49a" stroke-width="2"/>
+<text x="355.0" y="511.5" font-size="28" text-anchor="middle">🟢</text>
+<text x="355.0" y="534.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">OpenAI</text><text x="355.0" y="554.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Agents SDK</text>
+<text x="355.0" y="574.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">handoffs;</text><text x="355.0" y="590.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">tripwire guardrails;</text><text x="355.0" y="605.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">sandbox agents;</text><text x="355.0" y="621.4" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">voice</text>
+<rect x="465" y="450" width="190" height="205" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="560.0" y="511.5" font-size="28" text-anchor="middle">🔵</text>
+<text x="560.0" y="534.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Google</text><text x="560.0" y="554.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">ADK</text>
+<text x="560.0" y="574.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">graph Workflow;</text><text x="560.0" y="590.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">adk web dev UI;</text><text x="560.0" y="605.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">built-in evals;</text><text x="560.0" y="621.4" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Agent Engine</text>
+<rect x="670" y="450" width="190" height="205" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="765.0" y="511.5" font-size="28" text-anchor="middle">🟦</text>
+<text x="765.0" y="534.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Microsoft</text><text x="765.0" y="554.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Agent Framework</text>
+<text x="765.0" y="574.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">typed workflows;</text><text x="765.0" y="590.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Magentic, group chat;</text><text x="765.0" y="605.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">.NET + Python;</text><text x="765.0" y="621.4" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Foundry</text>
+<rect x="875" y="450" width="175" height="205" rx="12" fill="#fde8e4" stroke="#ec9a8a" stroke-width="2"/>
+<text x="962.5" y="511.5" font-size="28" text-anchor="middle">🟧</text>
+<text x="962.5" y="534.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Strands +</text><text x="962.5" y="554.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">AgentCore</text>
+<text x="962.5" y="574.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">model-driven loop;</text><text x="962.5" y="590.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">managed runtime,</text><text x="962.5" y="605.8" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">memory, gateway,</text><text x="962.5" y="621.4" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">identity</text>
+<text x="550" y="345.0" font-size="14" font-weight="700" fill="#2f5fb3" text-anchor="middle">Same loop as your hand-built agent</text>
+</svg>
