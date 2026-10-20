@@ -1,0 +1,43 @@
+# MCP architecture: one host holds the model and one client per server; each client talks to exactly one server.
+SPEC = {
+    "title": "MCP architecture: host, clients and servers",
+    "accent": "purple",
+    "width": 1100, "height": 760,
+    "groups": [
+        {"x": 30, "y": 100, "w": 430, "h": 610, "label": "Host application (your laptop)", "color": "purple"},
+        {"x": 560, "y": 100, "w": 250, "h": 405, "label": "Local servers", "color": "green"},
+        {"x": 560, "y": 545, "w": 250, "h": 165, "label": "Remote server", "color": "teal"},
+        {"x": 860, "y": 100, "w": 210, "h": 610, "label": "What they wrap", "color": "gray"},
+    ],
+    "nodes": {
+        "user": {"x": 60, "y": 130, "w": 160, "h": 90, "icon": "🙋", "label": "You", "sub": "type a request", "color": "gray"},
+        "llm": {"x": 245, "y": 130, "w": 190, "h": 90, "icon": "🧠", "label": "The model", "sub": "chooses tools", "color": "amber"},
+        "hostcore": {"x": 60, "y": 245, "w": 375, "h": 100, "icon": "🖥️", "label": "Host logic", "sub": "chat UI, consent prompts, context building,\nroutes each tool call to the right client", "color": "purple"},
+        "c1": {"x": 150, "y": 395, "w": 255, "h": 70, "label": "🔌 MCP client 1", "color": "purple", "size": 15},
+        "c2": {"x": 150, "y": 500, "w": 255, "h": 70, "label": "🔌 MCP client 2", "color": "purple", "size": 15},
+        "c3": {"x": 150, "y": 605, "w": 255, "h": 70, "label": "🔌 MCP client 3", "color": "purple", "size": 15},
+        "s1": {"x": 585, "y": 135, "w": 200, "h": 150, "icon": "📁", "label": "Files server", "sub": "tools: read_file,\nsearch_files", "color": "green"},
+        "s2": {"x": 585, "y": 325, "w": 200, "h": 150, "icon": "💸", "label": "Expense server", "sub": "tools: add_expense\nresource: expense://summary", "color": "green"},
+        "s3": {"x": 585, "y": 575, "w": 200, "h": 115, "icon": "🌦️", "label": "Weather server", "sub": "https://mcp.example.in/mcp", "color": "teal"},
+        "d1": {"x": 880, "y": 160, "w": 170, "h": 100, "icon": "🗂️", "label": "Your folders", "color": "gray"},
+        "d2": {"x": 880, "y": 350, "w": 170, "h": 100, "icon": "🗄️", "label": "SQLite file", "color": "gray"},
+        "d3": {"x": 880, "y": 582, "w": 170, "h": 100, "icon": "☁️", "label": "Weather API", "color": "gray"},
+    },
+    "edges": [
+        {"from": "user", "to": "hostcore", "from_side": "bottom", "to_side": "top", "via": [(140, 245)]},
+        {"from": "llm", "to": "hostcore", "from_side": "bottom", "to_side": "top", "via": [(340, 245)], "both": True},
+        {"from": "hostcore", "to": "c1", "from_side": "bottom", "to_side": "left", "via": [(247, 365), (95, 365), (95, 430)]},
+        {"from": "hostcore", "to": "c2", "from_side": "bottom", "to_side": "left", "via": [(247, 365), (95, 365), (95, 535)]},
+        {"from": "hostcore", "to": "c3", "from_side": "bottom", "to_side": "left", "via": [(247, 365), (95, 365), (95, 640)]},
+        {"from": "c1", "to": "s1", "from_side": "right", "to_side": "left", "label": "stdio", "via": [(480, 430), (480, 210)], "label_at": (520, 300), "both": True, "solid": True},
+        {"from": "c2", "to": "s2", "from_side": "right", "to_side": "left", "label": "stdio", "via": [(500, 535), (500, 400)], "label_at": (530, 470), "both": True, "solid": True},
+        {"from": "c3", "to": "s3", "from_side": "right", "to_side": "left", "label": "HTTPS", "both": True, "solid": True},
+        {"from": "s1", "to": "d1", "from_side": "right", "to_side": "left"},
+        {"from": "s2", "to": "d2", "from_side": "right", "to_side": "left"},
+        {"from": "s3", "to": "d3", "from_side": "right", "to_side": "left"},
+    ],
+    "notes": [
+        {"x": 280, "y": 699, "text": "one client per server connection", "size": 13},
+        {"x": 550, "y": 738, "text": "Every arrow between a client and a server carries the same JSON-RPC messages. Only the pipe differs.", "size": 14, "weight": 600, "color": "#5b3fa0"},
+    ],
+}

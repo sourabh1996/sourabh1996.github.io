@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 600" width="1100" height="600" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="A remote MCP server in production">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="598" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#1f766d"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">A remote MCP server in production</text>
+<rect x="30" y="90" width="220" height="440" rx="14" fill="none" stroke="#a68be0" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="102.9" y="75" width="74.19999999999999" height="30" rx="15" fill="#5b3fa0"/>
+<text x="140.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Clients</text>
+<rect x="300" y="90" width="200" height="440" rx="14" fill="none" stroke="#e0b25c" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="375.8" y="75" width="48.4" height="30" rx="15" fill="#9a6412"/>
+<text x="400.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Edge</text>
+<rect x="550" y="90" width="240" height="440" rx="14" fill="none" stroke="#6cc3b8" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="581.3" y="75" width="177.4" height="30" rx="15" fill="#1f766d"/>
+<text x="670.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Stateless instances</text>
+<rect x="840" y="90" width="230" height="440" rx="14" fill="none" stroke="#b8bec6" stroke-width="2" stroke-dasharray="7 6"/>
+<rect x="892.1" y="75" width="125.8" height="30" rx="15" fill="#4b5563"/>
+<text x="955.0" y="95.0" font-size="14" font-weight="700" fill="#ffffff" text-anchor="middle">Shared by all</text>
+<path d="M225.0,172.5 L320.0,205.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M225.0,297.5 L320.0,205.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M225.0,422.5 L320.0,205.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M400.0,260.0 L400.0,330.0" fill="none" stroke="#8c959f" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M480.0,385.0 L575.0,167.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M480.0,385.0 L575.0,307.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M480.0,385.0 L575.0,447.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M765.0,167.5 L865.0,172.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M765.0,307.5 L865.0,312.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M765.0,447.5 L865.0,452.5" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="55" y="130" width="170" height="85" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="140.0" y="165.5" font-size="28" text-anchor="middle">💬</text>
+<text x="140.0" y="188.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Claude / ChatGPT</text>
+<text x="140.0" y="208.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">remote connector</text>
+<rect x="55" y="255" width="170" height="85" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="140.0" y="290.5" font-size="28" text-anchor="middle">🧑‍💻</text>
+<text x="140.0" y="313.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">IDE agent</text>
+<text x="140.0" y="333.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">VS Code, Cursor</text>
+<rect x="55" y="380" width="170" height="85" rx="12" fill="#efe9fb" stroke="#a68be0" stroke-width="2"/>
+<text x="140.0" y="415.5" font-size="28" text-anchor="middle">🤖</text>
+<text x="140.0" y="438.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Your agent</text>
+<text x="140.0" y="458.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">SDK Client(url)</text>
+<rect x="320" y="150" width="160" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="400.0" y="190.0" font-size="28" text-anchor="middle">🔒</text>
+<text x="400.0" y="213.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">HTTPS + auth</text>
+<text x="400.0" y="233.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">TLS, token check,</text><text x="400.0" y="248.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">Origin check</text>
+<rect x="320" y="330" width="160" height="110" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="400.0" y="370.0" font-size="28" text-anchor="middle">⚖️</text>
+<text x="400.0" y="393.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Load balancer</text>
+<text x="400.0" y="413.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">routes any POST</text><text x="400.0" y="428.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">to any instance</text>
+<rect x="575" y="125" width="190" height="85" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="670.0" y="160.5" font-size="28" text-anchor="middle">🐍</text>
+<text x="670.0" y="183.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Instance 1</text>
+<text x="670.0" y="203.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">POST /mcp</text>
+<rect x="575" y="265" width="190" height="85" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="670.0" y="300.5" font-size="28" text-anchor="middle">🐍</text>
+<text x="670.0" y="323.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Instance 2</text>
+<text x="670.0" y="343.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">POST /mcp</text>
+<rect x="575" y="405" width="190" height="85" rx="12" fill="#e2f5f3" stroke="#6cc3b8" stroke-width="2"/>
+<text x="670.0" y="432.5" font-size="28" text-anchor="middle">🐍</text>
+<text x="670.0" y="455.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Instance 3</text>
+<text x="670.0" y="475.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">POST /mcp</text><text x="670.0" y="491.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">GET /health</text>
+<rect x="865" y="125" width="180" height="95" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="955.0" y="165.5" font-size="28" text-anchor="middle">🗄️</text>
+<text x="955.0" y="188.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Database</text>
+<text x="955.0" y="208.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">data + handles</text>
+<rect x="865" y="265" width="180" height="95" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="955.0" y="297.5" font-size="28" text-anchor="middle">🔑</text>
+<text x="955.0" y="320.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Secret manager</text>
+<text x="955.0" y="340.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">API keys, state</text><text x="955.0" y="356.1" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">signing key</text>
+<rect x="865" y="405" width="180" height="95" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="955.0" y="445.5" font-size="28" text-anchor="middle">📈</text>
+<text x="955.0" y="468.5" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Logs + traces</text>
+<text x="955.0" y="488.5" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">OpenTelemetry</text>
+<text x="550" y="565.0" font-size="14" font-weight="600" fill="#1f766d" text-anchor="middle">No sessions: every POST carries its own version, capabilities and token, so any instance can answer it.</text>
+</svg>
