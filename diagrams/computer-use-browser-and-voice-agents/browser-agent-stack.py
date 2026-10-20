@@ -1,0 +1,35 @@
+# How a model ends up clicking a button: the layers of a browser agent.
+SPEC = {
+    "title": "The browser agent stack",
+    "accent": "green",
+    "width": 1100, "height": 760,
+    "bands": [
+        {"y": 80, "h": 130, "label": "Model", "color": "purple"},
+        {"y": 225, "h": 175, "label": "Harness", "color": "coral"},
+        {"y": 415, "h": 165, "label": "Browser\ntools", "color": "green"},
+        {"y": 595, "h": 145, "label": "Browser", "color": "blue"},
+    ],
+    "nodes": {
+        "model": {"x": 330, "y": 98, "w": 560, "h": 95, "icon": "🧠", "label": "LLM with tool definitions",
+                   "sub": "reads the snapshot, writes: click target=e12", "color": "purple"},
+        "loop": {"x": 160, "y": 250, "w": 230, "h": 125, "icon": "🔁", "label": "Agent loop", "sub": "step limit, budget,\nlogging", "color": "coral"},
+        "gate": {"x": 420, "y": 250, "w": 260, "h": 125, "icon": "🙋", "label": "Policy and approval", "sub": "allowlisted sites,\nhuman OK before submit or pay", "color": "coral"},
+        "secrets": {"x": 710, "y": 250, "w": 240, "h": 125, "icon": "🔐", "label": "Secret store", "sub": "fills passwords;\nmodel sees placeholders", "color": "coral"},
+        "mcp": {"x": 160, "y": 440, "w": 360, "h": 115, "icon": "🔌", "label": "Option A: Playwright MCP server",
+                 "sub": "browser_snapshot, browser_click,\nbrowser_type ... over MCP", "color": "green"},
+        "exec": {"x": 570, "y": 440, "w": 380, "h": 115, "icon": "🧩", "label": "Option B: your own executor",
+                  "sub": "Anthropic browser toolset or custom tools,\nimplemented with Playwright", "color": "green"},
+        "ctx": {"x": 160, "y": 615, "w": 360, "h": 105, "icon": "🌐", "label": "Chromium, isolated context",
+                 "sub": "fresh profile, no personal cookies", "color": "blue"},
+        "site": {"x": 570, "y": 615, "w": 380, "h": 105, "icon": "🏪", "label": "The website", "sub": "its text is untrusted input", "color": "blue"},
+    },
+    "edges": [
+        {"from": "model", "to": "gate", "label": "proposed action", "from_side": "bottom", "to_side": "top"},
+        {"from": "gate", "to": "mcp", "from_side": "bottom", "to_side": "top"},
+        {"from": "gate", "to": "exec", "from_side": "bottom", "to_side": "top"},
+        {"from": "mcp", "to": "ctx", "from_side": "bottom", "to_side": "top"},
+        {"from": "exec", "to": "ctx", "from_side": "bottom", "to_side": "top"},
+        {"from": "ctx", "to": "site", "both": True, "label": "HTTP"},
+        {"from": "loop", "to": "model", "label": "snapshot + history", "from_side": "top", "to_side": "left", "via": [(275, 145)], "label_at": (230, 125)},
+    ],
+}
