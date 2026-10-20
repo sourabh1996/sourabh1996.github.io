@@ -566,4 +566,4 @@ It sees one question and one short text, a narrow task. Small fine-tuned models 
 
 ---
 
-**Up next:** [How Self-RAG Works](../course.md#m4)
+**Up next:** [How Self-RAG Works](../04-self-rag/how-self-rag-works.md)

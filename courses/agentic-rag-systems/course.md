@@ -34,7 +34,7 @@ Let agents decide how to retrieve: Adaptive RAG, Corrective RAG and Self-RAG, lo
 ### 4. Self-RAG (4 lessons)
 > **Before you start:** [Retrieval-Augmented Generation (RAG) › Vector Database Tools](../retrieval-augmented-generation-rag/course.md#m4), [Retrieval-Augmented Generation (RAG) › RAG Evaluation](../retrieval-augmented-generation-rag/course.md#m9)
 
-- How Self-RAG Works · Article
-- Self-RAG with a Vector DB · Article
-- Deploying Self-RAG Locally · Article
-- Lab: Build Self-RAG · Lab
+- [How Self-RAG Works](04-self-rag/how-self-rag-works.md) · Article ✍️ *written*
+- [Self-RAG with a Vector DB](04-self-rag/self-rag-with-a-vector-db.md) · Article ✍️ *written*
+- [Deploying Self-RAG Locally](04-self-rag/deploying-self-rag-locally.md) · Article ✍️ *written*
+- [Lab: Build Self-RAG](04-self-rag/lab-build-self-rag.md) · Lab ✍️ *written*

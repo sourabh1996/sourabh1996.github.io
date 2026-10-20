@@ -519,7 +519,7 @@ single_step  The refund is automatic and goes to your original payment method [r
 multi_step   The refund is automatic and goes back to how you paid: instant for Saa
 ```
 
-The misrouted question still ended with the complete answer: the single-step answer admitted a gap, so the graph escalated. The price was one extra wasted answer call, which is a fair trade for not shipping a half answer. (Checking an answer by searching it for phrases is crude; [Self-RAG](../../agentic-rag-systems/course.md#m4) replaces it with proper graders.)
+The misrouted question still ended with the complete answer: the single-step answer admitted a gap, so the graph escalated. The price was one extra wasted answer call, which is a fair trade for not shipping a half answer. (Checking an answer by searching it for phrases is crude; [Self-RAG](../04-self-rag/how-self-rag-works.md) replaces it with proper graders.)
 
 ### 8. What adaptive routing costs and saves
 
