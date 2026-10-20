@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" width="1100" height="640" font-family="Inter, 'Segoe UI', system-ui, -apple-system, sans-serif" role="img" aria-label="Cascaded vs speech-to-speech voice agents">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#8c959f"/></marker></defs>
+<rect x="1" y="1" width="1098" height="638" rx="18" fill="#ffffff" stroke="#d0d7de" stroke-width="2"/>
+<rect x="28" y="22" width="8" height="34" rx="4" fill="#9a6412"/>
+<text x="48" y="48.0" font-size="26" font-weight="800" fill="#1f2328" text-anchor="start">Cascaded vs speech-to-speech voice agents</text>
+<rect x="20" y="85" width="1060" height="250" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="95" width="110" height="230" rx="10" fill="#2f5fb3"/>
+<text x="85.0" y="218.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Cascaded</text>
+<rect x="20" y="355" width="1060" height="250" rx="14" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.5"/>
+<rect x="30" y="365" width="110" height="230" rx="10" fill="#9a6412"/>
+<text x="85.0" y="476.0" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">Speech</text><text x="85.0" y="503.5" font-size="22" font-weight="700" fill="#ffffff" text-anchor="middle">to speech</text>
+<path d="M260.0,205.0 L290.0,205.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M420.0,205.0 L450.0,205.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M590.0,205.0 L620.0,205.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="587.0" y="182.0" width="36.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="605.0" y="196.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">text</text>
+<path d="M760.0,205.0 L790.0,205.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="757.0" y="182.0" width="36.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="775.0" y="196.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">text</text>
+<path d="M930.0,205.0 L960.0,205.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M260.0,475.0 L350.0,475.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="283.5" y="452.0" width="43.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="305.0" y="466.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">audio</text>
+<path d="M870.0,475.0 L960.0,475.0" fill="none" stroke="#8c959f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<rect x="893.5" y="452.0" width="43.0" height="18" rx="4" fill="#ffffff" opacity="0.92"/>
+<text x="915.0" y="466.0" font-size="13" font-weight="500" fill="#57606a" text-anchor="middle">audio</text>
+<rect x="150" y="160" width="110" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="205.0" y="206.0" font-size="28" text-anchor="middle">🎙️</text>
+<text x="205.0" y="229.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Caller</text>
+<rect x="290" y="160" width="130" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="355.0" y="190.0" font-size="28" text-anchor="middle">🔊</text>
+<text x="355.0" y="213.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">VAD</text>
+<text x="355.0" y="233.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">speech or</text><text x="355.0" y="248.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">silence?</text>
+<rect x="450" y="160" width="140" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="520.0" y="198.0" font-size="28" text-anchor="middle">📝</text>
+<text x="520.0" y="221.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Speech-to-text</text>
+<text x="520.0" y="241.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">audio → words</text>
+<rect x="620" y="160" width="140" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="690.0" y="190.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="690.0" y="213.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">LLM</text>
+<text x="690.0" y="233.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">words → reply</text><text x="690.0" y="248.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">+ tool calls</text>
+<rect x="790" y="160" width="140" height="90" rx="12" fill="#e8f0fe" stroke="#7aa2f7" stroke-width="2"/>
+<text x="860.0" y="198.0" font-size="28" text-anchor="middle">🗣️</text>
+<text x="860.0" y="221.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Text-to-speech</text>
+<text x="860.0" y="241.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">words → audio</text>
+<rect x="960" y="160" width="110" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="1015.0" y="206.0" font-size="28" text-anchor="middle">🎧</text>
+<text x="1015.0" y="229.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Caller</text>
+<rect x="150" y="430" width="110" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="205.0" y="476.0" font-size="28" text-anchor="middle">🎙️</text>
+<text x="205.0" y="499.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Caller</text>
+<rect x="350" y="405" width="520" height="140" rx="12" fill="#fdf1dc" stroke="#e0b25c" stroke-width="2"/>
+<text x="610.0" y="452.0" font-size="28" text-anchor="middle">🧠</text>
+<text x="610.0" y="475.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">One realtime model</text>
+<text x="610.0" y="495.0" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">hears audio, speaks audio, calls tools;</text><text x="610.0" y="510.6" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">turn detection and interruption built in;</text><text x="610.0" y="526.2" font-size="12.5" font-weight="400" fill="#57606a" text-anchor="middle">transcripts arrive alongside</text>
+<rect x="960" y="430" width="110" height="90" rx="12" fill="#f1f3f5" stroke="#b8bec6" stroke-width="2"/>
+<text x="1015.0" y="476.0" font-size="28" text-anchor="middle">🎧</text>
+<text x="1015.0" y="499.0" font-size="16" font-weight="700" fill="#1f2328" text-anchor="middle">Caller</text>
+<text x="610" y="295.0" font-size="14" font-weight="500" fill="#57606a" text-anchor="middle">✅ pick each part, inspect text, any LLM     ⚠️ latencies add up, tone of voice is lost</text>
+<text x="610" y="580.0" font-size="14" font-weight="500" fill="#57606a" text-anchor="middle">✅ fastest, natural prosody and interruptions     ⚠️ fewer models, harder to inspect and control</text>
+</svg>

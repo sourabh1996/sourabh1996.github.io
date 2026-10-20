@@ -30,6 +30,6 @@ Agents that see and act on screens and web pages, and agents that talk in real t
 
 <a id="m4"></a>
 ### 4. Voice Agents ➕ (3 lessons)
-- Speech-to-Speech vs Cascaded Pipelines · Article ➕
-- Latency Budgets and Turn-Taking · Article ➕
-- Tool Calls in a Live Conversation · Article ➕
+- [Speech-to-Speech vs Cascaded Pipelines](04-voice-agents/speech-to-speech-vs-cascaded-pipelines.md) · Article ➕ ✍️ *written*
+- [Latency Budgets and Turn-Taking](04-voice-agents/latency-budgets-and-turn-taking.md) · Article ➕ ✍️ *written*
+- [Tool Calls in a Live Conversation](04-voice-agents/tool-calls-in-a-live-conversation.md) · Article ➕ ✍️ *written*

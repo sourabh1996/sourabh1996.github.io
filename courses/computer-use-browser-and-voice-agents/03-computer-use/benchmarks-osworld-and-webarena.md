@@ -336,4 +336,4 @@ The human figure was measured on a particular task set with particular people an
 
 ---
 
-**Up next:** [Speech-to-Speech vs Cascaded Pipelines](../course.md#m4)
+**Up next:** [Speech-to-Speech vs Cascaded Pipelines](../04-voice-agents/speech-to-speech-vs-cascaded-pipelines.md)
