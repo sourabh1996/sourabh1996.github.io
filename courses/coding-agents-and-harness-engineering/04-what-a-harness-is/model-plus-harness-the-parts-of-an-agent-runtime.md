@@ -192,7 +192,7 @@ Böckeler's article gives a vocabulary that makes any harness easier to reason a
 Good harnesses use all four quadrants. Two rules of thumb from practice:
 
 - **Prefer computational sensors where possible.** A test that fails is unambiguous; an LLM reviewer can be talked round.
-- **Write sensor output for the model to read.** A linter message that says *what to do* ("move this import to `providers/`; UI may not import `repo/` directly") fixes the problem in one turn. OpenAI's harness engineering team made this a core practice. You'll build such linters in [Linters and Tests that Teach the Agent](../course.md#m6).
+- **Write sensor output for the model to read.** A linter message that says *what to do* ("move this import to `providers/`; UI may not import `repo/` directly") fixes the problem in one turn. OpenAI's harness engineering team made this a core practice. You'll build such linters in [Linters and Tests that Teach the Agent](../06-harness-engineering-for-codebases/linters-and-tests-that-teach-the-agent.md).
 
 And one rule about *where*: **keep quality left**. Cheap checks (format, lint, type check) belong right after every edit; expensive ones (full test suite, reviewer agent) belong before a commit or a stop.
 

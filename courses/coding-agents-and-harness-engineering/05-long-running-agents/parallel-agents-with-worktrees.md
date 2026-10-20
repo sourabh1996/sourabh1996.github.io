@@ -368,4 +368,4 @@ It works, but costs more disk and network, and branches don't appear in your mai
 
 ---
 
-**Up next:** [Linters and Tests that Teach the Agent](../course.md#m6)
+**Up next:** [Linters and Tests that Teach the Agent](../06-harness-engineering-for-codebases/linters-and-tests-that-teach-the-agent.md)

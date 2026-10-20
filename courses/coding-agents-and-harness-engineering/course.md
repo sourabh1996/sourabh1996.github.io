@@ -48,6 +48,6 @@ Use coding agents well and build the harness around a model: loops, tools, permi
 
 <a id="m6"></a>
 ### 6. Harness Engineering for Codebases ➕ (3 lessons)
-- Linters and Tests that Teach the Agent · Article ➕
-- Background Cleanup Agents · Article ➕
-- Lab: Make a repository agent-ready · Lab ➕
+- [Linters and Tests that Teach the Agent](06-harness-engineering-for-codebases/linters-and-tests-that-teach-the-agent.md) · Article ➕ ✍️ *written*
+- [Background Cleanup Agents](06-harness-engineering-for-codebases/background-cleanup-agents.md) · Article ➕ ✍️ *written*
+- [Lab: Make a repository agent-ready](06-harness-engineering-for-codebases/lab-make-a-repository-agent-ready.md) · Lab ➕ ✍️ *written*

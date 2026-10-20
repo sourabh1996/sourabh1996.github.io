@@ -182,9 +182,9 @@ Checks can be enforced at different strengths, and you'll build the stronger one
 | Strength | How | Where taught |
 |---|---|---|
 | In the prompt | "Run the tests and iterate until they pass" | This lesson |
-| As a gate on stopping | A `Stop` hook runs the tests and blocks the agent from finishing while they fail | [Permissions, Hooks and Approval Modes](../course.md#m4) |
+| As a gate on stopping | A `Stop` hook runs the tests and blocks the agent from finishing while they fail | [Permissions, Hooks and Approval Modes](../04-what-a-harness-is/permissions-hooks-and-approval-modes.md) |
 | By a second opinion | A reviewer subagent or fresh session checks the diff against the plan | [Reviewing AI-Written Code](reviewing-ai-written-code.md) |
-| In the codebase | Linters and structural tests whose messages teach the fix | [Linters and Tests that Teach the Agent](../course.md#m6) |
+| In the codebase | Linters and structural tests whose messages teach the fix | [Linters and Tests that Teach the Agent](../06-harness-engineering-for-codebases/linters-and-tests-that-teach-the-agent.md) |
 
 Here's the verification loop in miniature, with a pretend agent whose first attempt is the classic paisa-losing bug from [Copilot in the Editor and on GitHub](../03-coding-agents-on-github/copilot-in-the-editor-and-on-github.md):
 
@@ -318,7 +318,7 @@ Then: `commit with a descriptive message and open a PR`. Coding agents use `git`
 
 Commit habits that matter even more with agents:
 
-- **Commit on green.** Each commit should pass the tests, so you can roll back to any of them ([Git as a Safety Net and Checkpoints](../course.md#m5) builds on this).
+- **Commit on green.** Each commit should pass the tests, so you can roll back to any of them ([Git as a Safety Net and Checkpoints](../05-long-running-agents/git-as-a-safety-net-and-checkpoints.md) builds on this).
 - **Review before committing**, not after: `git diff` is the agent's work in its rawest form.
 - **Keep the agent's attribution** if your tool adds one (Claude Code adds a `Co-Authored-By` trailer by default), so reviewers know where code came from.
 

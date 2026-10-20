@@ -236,7 +236,7 @@ requirements without tests: ['R4', 'R6']
 tests without requirements: ['test_order_accepts_emoji_notes']
 ```
 
-R4 (sold out) has no test, so it may not be implemented at all. The emoji test points at work nobody asked for. You can run this check in CI, ask the agent to run it before finishing, or put it in a [Stop hook](../course.md#m4) so the agent can't declare victory with uncovered requirements.
+R4 (sold out) has no test, so it may not be implemented at all. The emoji test points at work nobody asked for. You can run this check in CI, ask the agent to run it before finishing, or put it in a [Stop hook](../04-what-a-harness-is/permissions-hooks-and-approval-modes.md) so the agent can't declare victory with uncovered requirements.
 
 ### 7. Keeping the spec and code in sync
 

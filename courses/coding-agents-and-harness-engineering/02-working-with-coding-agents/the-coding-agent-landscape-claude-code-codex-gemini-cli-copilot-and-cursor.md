@@ -61,14 +61,14 @@ flowchart LR
 
 | Part | What it is | Taught in |
 |---|---|---|
-| **Agent loop + built-in tools** | Read, search (glob and grep), edit, write, shell, web fetch | [Model plus Harness](../course.md#m4) |
+| **Agent loop + built-in tools** | Read, search (glob and grep), edit, write, shell, web fetch | [Model plus Harness](../04-what-a-harness-is/model-plus-harness-the-parts-of-an-agent-runtime.md) |
 | **Instruction file** | Markdown loaded at the start of every session: `CLAUDE.md`, `AGENTS.md`, `GEMINI.md` | [Memory Files](../../context-engineering-and-agent-memory/04-memory-systems/memory-files-claude-md-and-agents-md.md), [Repository Instructions](../03-coding-agents-on-github/repository-instructions-agents-md-and-custom-instructions.md) |
-| **Permissions and modes** | Which actions run freely, which ask you, which are refused | [Permissions, Hooks and Approval Modes](../course.md#m4) |
+| **Permissions and modes** | Which actions run freely, which ask you, which are refused | [Permissions, Hooks and Approval Modes](../04-what-a-harness-is/permissions-hooks-and-approval-modes.md) |
 | **Hooks** | Your scripts, run at fixed points such as "before a tool runs" | Same lesson |
-| **Subagents, commands, plugins** | Helpers with their own context, saved prompts, installable bundles | [Subagents, Slash Commands and Plugins](../course.md#m4) |
+| **Subagents, commands, plugins** | Helpers with their own context, saved prompts, installable bundles | [Subagents, Slash Commands and Plugins](../04-what-a-harness-is/subagents-slash-commands-and-plugins.md) |
 | **Skills** | `SKILL.md` folders loaded on demand | [Agent Skills](../../tools-agent-skills-and-code-execution/course.md#m4) |
 | **MCP servers** | Outside tools: GitHub, issue trackers, browsers, databases | [The GitHub MCP Server](../03-coding-agents-on-github/the-github-mcp-server.md) |
-| **Sandbox** | An OS or container boundary around what commands can touch | [Sandboxes](../course.md#m4) |
+| **Sandbox** | An OS or container boundary around what commands can touch | [Sandboxes](../04-what-a-harness-is/sandboxes-containers-microvms-and-hosted-sandboxes.md) |
 
 The **Agent Skills** format and **AGENTS.md** are open standards shared across vendors: the same skill folder or instruction file works in Claude Code, Codex, Gemini CLI, Copilot and Cursor, which is a big reason the tools feel more alike every month.
 
